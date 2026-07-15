@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">casting</text>
+  <text x="50" y="120" class="subtitle">[ˈkæstɪŋ] n. 铸造，投掷；v. 投，铸造</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cast (投掷) + -ing (动作进行)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的熔炉，里面熔化的金属被"投掷(cast)"
+    <tspan x="50" dy="25">进模具中，形成各种形状，这就是铸造(casting)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The casting of the bronze statue took several days.
+  </text>
+  <text x="50" y="310" class="content">
+    铸造这座青铜雕像花了好几天时间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Furnace -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Molten metal -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <circle cx="100" cy="100" r="30" class="image" />
+    <circle cx="150" cy="100" r="30" class="image" />
+    <!-- Mold -->
+    <rect x="200" y="50" width="100" height="100" class="image" />
+    <!-- Casting action -->
+    <line x1="80" y1="100" x2="250" y2="100" class="image" />
+    <line x1="80" y1="100" x2="250" y2="100" class="image" />
+    <line x1="80" y1="100" x2="250" y2="100" class="image" />
+  </g>
+</svg>

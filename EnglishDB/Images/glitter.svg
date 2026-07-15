@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #FF6F61; }
+      .subtitle { font: italic 24px serif; fill: #4A4A4A; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #FF6F61; }
+      .story { font: 16px serif; fill: #4A90E2; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .sparkle { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">glitter</text>
+  <text x="50" y="120" class="subtitle">[ˈɡlɪtər] v. 闪闪发光，闪烁；n. 闪光，灿烂</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gli- (光) + tter (闪烁)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个夜晚的派对，灯光下，"光(gli-)"
+    <tspan x="50" dy="25">在空气中"闪烁(tter)"，形成一片闪闪发光的"闪光(glitter)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The disco ball glittered as the music played.
+  </text>
+  <text x="50" y="310" class="content">
+    随着音乐的播放，迪斯科球闪闪发光。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Disco ball -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <!-- Sparkles -->
+    <circle cx="150" cy="70" r="5" class="sparkle" />
+    <circle cx="200" cy="80" r="5" class="sparkle" />
+    <circle cx="160" cy="120" r="5" class="sparkle" />
+    <circle cx="190" cy="130" r="5" class="sparkle" />
+    <circle cx="175" cy="150" r="5" class="sparkle" />
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">patience</text>
+  <text x="50" y="120" class="subtitle">[ˈpeɪʃns] n. 耐心，忍耐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pati (忍受) + -ence (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人坐在椅子上，"忍受(pati)"
+    <tspan x="50" dy="25">漫长的等待，这就是耐心(patience)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She showed great patience while waiting for the bus.
+  </text>
+  <text x="50" y="310" class="content">
+    她在等公交车时表现出了极大的耐心。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Chair -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <line x1="20" y1="100" x2="130" y2="100" class="image" />
+    <line x1="20" y1="100" x2="20" y2="150" class="image" />
+    <line x1="130" y1="100" x2="130" y2="150" class="image" />
+    <line x1="20" y1="150" x2="130" y2="150" class="image" />
+    <!-- Person sitting -->
+    <circle cx="75" cy="60" r="20" class="image" />
+    <line x1="75" y1="80" x2="75" y2="100" class="image" />
+    <line x1="75" y1="100" x2="50" y2="130" class="image" />
+    <line x1="75" y1="100" x2="100" y2="130" class="image" />
+    <line x1="75" y1="80" x2="50" y2="90" class="image" />
+    <line x1="75" y1="80" x2="100" y2="90" class="image" />
+    <!-- Clock -->
+    <circle cx="250" cy="75" r="50" class="image" />
+    <line x1="250" y1="75" x2="250" y2="25" class="image" />
+    <line x1="250" y1="75" x2="290" y2="75" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mandated</text>
+  <text x="50" y="120" class="subtitle">[ˈmændəˌteɪd] adj. 强制的，命令的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mand (命令) + -ate (动词后缀) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个权威人物站在高台上，手持法杖，"命令(mand)"
+    <tspan x="50" dy="25">所有人必须执行他的指令，这种强制性的行为就是mandated。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The government mandated the use of masks in public places.
+  </text>
+  <text x="50" y="310" class="content">
+    政府强制要求在公共场所佩戴口罩。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Platform -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Authority figure -->
+    <circle cx="175" cy="80" r="30" class="image" />
+    <line x1="175" y1="110" x2="175" y2="180" class="image" />
+    <line x1="175" y1="140" x2="140" y2="120" class="image" />
+    <line x1="175" y1="140" x2="210" y2="120" class="image" />
+    <line x1="175" y1="180" x2="140" y2="200" class="image" />
+    <line x1="175" y1="180" x2="210" y2="200" class="image" />
+    <!-- Scepter -->
+    <line x1="175" y1="80" x2="175" y2="40" class="image" />
+    <circle cx="175" cy="35" r="5" class="image" />
+    <!-- People -->
+    <circle cx="100" cy="150" r="15" class="image" />
+    <line x1="100" y1="165" x2="100" y2="190" class="image" />
+    <line x1="100" y1="190" x2="80" y2="210" class="image" />
+    <line x1="100" y1="190" x2="120" y2="210" class="image" />
+    <line x1="100" y1="175" x2="130" y2="165" class="image" />
+    <circle cx="250" cy="150" r="15" class="image" />
+    <line x1="250" y1="165" x2="250" y2="190" class="image" />
+    <line x1="250" y1="190" x2="230" y2="210" class="image" />
+    <line x1="250" y1="190" x2="270" y2="210" class="image" />
+    <line x1="250" y1="175" x2="280" y2="165" class="image" />
+  </g>
+</svg>

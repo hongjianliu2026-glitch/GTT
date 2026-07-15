@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">whispered</text>
+  <text x="50" y="120" class="subtitle">[ˈwɪspərd] v. 低语，耳语</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> whis- (低语) + per (表示动作完成)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在夜晚的森林中，"低声耳语(whis-per)"
+    <tspan x="50" dy="25">给另一个人听，这种悄悄话让人感到神秘和紧张。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She whispered the secret to her best friend.
+  </text>
+  <text x="50" y="310" class="content">
+    她把秘密低声告诉了她最好的朋友。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Forest background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Moon -->
+    <circle cx="300" cy="50" r="20" class="image" />
+    <!-- Trees -->
+    <line x1="50" y1="100" x2="50" y2="150" class="image" />
+    <line x1="100" y1="100" x2="100" y2="150" class="image" />
+    <line x1="150" y1="100" x2="150" y2="150" class="image" />
+    <!-- Whispering figures -->
+    <circle cx="100" cy="120" r="15" class="image" />
+    <circle cx="150" cy="120" r="15" class="image" />
+    <line x1="100" y1="135" x2="150" y2="135" class="image" />
+    <!-- Whisper effect -->
+    <path d="M100,140 Q125,160 150,140" class="image" />
+    <path d="M100,145 Q125,165 150,145" class="image" />
+    <path d="M100,150 Q125,170 150,150" class="image" />
+  </g>
+</svg>

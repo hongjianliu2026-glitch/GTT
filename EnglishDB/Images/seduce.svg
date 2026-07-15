@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">seduce</text>
+  <text x="50" y="120" class="subtitle">[sɪˈdjuːs] v. 引诱，诱惑</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> se- (离开) + duce (引导)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个诱惑者用甜言蜜语"引导(duce)"
+    <tspan x="50" dy="25">某人离开(se-)正轨，陷入诱惑的陷阱。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was seduced by the promise of fame and fortune.
+  </text>
+  <text x="50" y="310" class="content">
+    她被名利双收的承诺所诱惑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Temptation -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <text x="85" y="110" class="content" fill="#D35400">诱惑</text>
+    <!-- Person being led away -->
+    <circle cx="200" cy="100" r="20" class="image" />
+    <line x1="200" y1="120" x2="150" y2="170" class="image" />
+    <text x="155" y="180" class="content" fill="#34495E">离开</text>
+  </g>
+</svg>

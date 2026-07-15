@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">imposition</text>
+  <text x="50" y="120" class="subtitle">[ˌɪmpəˈzɪʃn] n. 强加，征收</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> im- (进入) + posit (放置) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的手掌将一个重物"强行放置(im-posit)"在一个人身上，
+    <tspan x="50" dy="25">这就是强加(imposition)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The imposition of new taxes caused public outcry.
+  </text>
+  <text x="50" y="310" class="content">
+    新税的征收引起了公众的强烈抗议。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Giant hand -->
+    <path d="M0 100 C50 50, 150 50, 200 100 S350 150, 400 100" class="image" />
+    <!-- Heavy object -->
+    <rect x="150" y="100" width="100" height="50" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="200" r="20" class="image" />
+    <line x1="200" y1="220" x2="200" y2="280" class="image" />
+    <line x1="200" y1="280" x2="180" y2="320" class="image" />
+    <line x1="200" y1="280" x2="220" y2="320" class="image" />
+    <line x1="200" y1="240" x2="160" y2="260" class="image" />
+    <line x1="200" y1="240" x2="240" y2="260" class="image" />
+  </g>
+</svg>

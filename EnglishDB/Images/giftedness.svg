@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">giftedness</text>
+  <text x="50" y="120" class="subtitle">[ˈɡɪftɪdnəs] n. 天赋，才能</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gift (礼物) + -ed (形容词后缀) + -ness (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个孩子收到一份"礼物(gift)"，这份礼物是他的"天赋(giftedness)"，
+    <tspan x="50" dy="25">这份天赋让他与众不同，就像一颗闪耀的星星。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her giftedness in music was evident from a young age.
+  </text>
+  <text x="50" y="310" class="content">
+    她从小在音乐方面的天赋就很明显。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Gift box -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <line x1="20" y1="20" x2="130" y2="20" class="image" />
+    <line x1="20" y1="40" x2="130" y2="40" class="image" />
+    <line x1="20" y1="60" x2="130" y2="60" class="image" />
+    <line x1="20" y1="80" x2="130" y2="80" class="image" />
+    <!-- Star -->
+    <polygon points="80,20 95,50 125,55 100,75 105,105 80,90 55,105 60,75 35,55 65,50" class="image" />
+    <!-- Child -->
+    <circle cx="80" cy="150" r="20" class="image" />
+    <line x1="80" y1="170" x2="80" y2="210" class="image" />
+    <line x1="80" y1="210" x2="60" y2="240" class="image" />
+    <line x1="80" y1="210" x2="100" y2="240" class="image" />
+    <line x1="80" y1="190" x2="110" y2="180" class="image" />
+  </g>
+</svg>

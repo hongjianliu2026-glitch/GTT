@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">worldview</text>
+  <text x="50" y="120" class="subtitle">[ˈwɜːrldvjuː] n. 世界观</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> world (世界) + view (观点)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在地球上，抬头仰望星空，
+    <tspan x="50" dy="25">他的脑海中浮现出对整个世界的理解，这就是他的世界观(worldview)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His worldview was shaped by his travels around the globe.
+  </text>
+  <text x="50" y="310" class="content">
+    他的世界观是由他环游世界的经历塑造的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Earth -->
+    <circle cx="175" cy="100" r="70" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="200" r="15" class="image" />
+    <line x1="175" y1="215" x2="175" y2="250" class="image" />
+    <line x1="175" y1="250" x2="155" y2="280" class="image" />
+    <line x1="175" y1="250" x2="195" y2="280" class="image" />
+    <line x1="175" y1="230" x2="205" y2="220" class="image" />
+    <!-- Stars -->
+    <circle cx="100" cy="50" r="5" class="image" />
+    <circle cx="250" cy="50" r="5" class="image" />
+    <circle cx="175" cy="20" r="5" class="image" />
+    <circle cx="130" cy="30" r="5" class="image" />
+    <circle cx="220" cy="30" r="5" class="image" />
+  </g>
+</svg>

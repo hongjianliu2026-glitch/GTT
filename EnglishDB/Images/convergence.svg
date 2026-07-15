@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">convergence</text>
+  <text x="50" y="120" class="subtitle">[kənˈvɜːrdʒəns] n. 汇聚，集中</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (一起) + verg (转向) + -ence (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象无数条河流从四面八方"转向(verg)"，最终"一起(con)"汇聚成一个巨大的湖泊，这就是"汇聚(convergence)"的壮观景象。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The convergence of different cultures led to a vibrant city.
+  </text>
+  <text x="50" y="310" class="content">
+    不同文化的汇聚造就了一个充满活力的城市。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- River paths -->
+    <line x1="0" y1="0" x2="100" y2="100" class="image" />
+    <line x1="0" y1="50" x2="100" y2="150" class="image" />
+    <line x1="0" y1="100" x2="100" y2="200" class="image" />
+    <line x1="0" y1="150" x2="100" y2="250" class="image" />
+    <line x1="0" y1="200" x2="100" y2="300" class="image" />
+    <!-- Convergence point -->
+    <circle cx="100" cy="200" r="50" class="image" />
+    <!-- Lake -->
+    <ellipse cx="100" cy="200" rx="100" ry="50" class="image" />
+  </g>
+</svg>

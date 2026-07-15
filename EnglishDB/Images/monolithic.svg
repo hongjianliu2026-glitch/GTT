@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">monolithic</text>
+  <text x="50" y="120" class="subtitle">[ˌmɒnəˈlɪθɪk] adj. 整体的，庞大的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mono- (单一) + lith (石头) + -ic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块巨大的石头，"单一的(mono-)"
+    <tspan x="50" dy="25">石头(lith)，它庞大而坚固，就像一个整体(monolithic)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company's decision-making process is monolithic.
+  </text>
+  <text x="50" y="310" class="content">
+    公司的决策过程是庞大而集中的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large stone -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Stone texture -->
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="110" x2="300" y2="110" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <line x1="50" y1="170" x2="300" y2="170" class="image" />
+    <!-- Stone shadow -->
+    <rect x="50" y="180" width="250" height="20" class="image" />
+  </g>
+</svg>

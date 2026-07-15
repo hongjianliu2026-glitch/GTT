@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F4F1DE; }
+      .title { font: bold 48px sans-serif; fill: #3D405B; }
+      .subtitle { font: italic 24px serif; fill: #4A4E69; }
+      .content { font: 18px sans-serif; fill: #22223B; }
+      .highlight { font-weight: bold; fill: #E07A5F; }
+      .story { font: 16px serif; fill: #81B29A; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cedar</text>
+  <text x="50" y="120" class="subtitle">[ˈsiːdər] n. 雪松</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ced (木头) + ar (表示物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片茂密的森林，其中一棵巨大的"木头(ced)"树，
+    <tspan x="50" dy="25">它的树干笔直，枝叶繁茂，这就是雪松(cedar)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cedar tree provided shade in the hot summer.
+  </text>
+  <text x="50" y="310" class="content">
+    这棵雪松在炎热的夏天提供了阴凉。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree trunk -->
+    <rect x="100" y="0" width="50" height="200" class="image" />
+    <!-- Tree branches -->
+    <line x1="125" y1="20" x2="50" y2="100" class="image" />
+    <line x1="125" y1="20" x2="200" y2="100" class="image" />
+    <line x1="125" y1="20" x2="125" y2="100" class="image" />
+    <line x1="125" y1="100" x2="50" y2="180" class="image" />
+    <line x1="125" y1="100" x2="200" y2="180" class="image" />
+    <line x1="125" y1="100" x2="125" y2="180" class="image" />
+    <!-- Leaves -->
+    <circle cx="50" cy="100" r="10" class="image" />
+    <circle cx="200" cy="100" r="10" class="image" />
+    <circle cx="125" cy="100" r="10" class="image" />
+    <circle cx="50" cy="180" r="10" class="image" />
+    <circle cx="200" cy="180" r="10" class="image" />
+    <circle cx="125" cy="180" r="10" class="image" />
+  </g>
+</svg>

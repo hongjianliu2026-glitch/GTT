@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mangle</text>
+  <text x="50" y="120" class="subtitle">[ˈmæŋɡl] v. 撕裂，毁坏；n. 压榨机</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mang (扭曲) + -le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一台巨大的压榨机(mangle)，它无情地"扭曲(mang)"
+    <tspan x="50" dy="25">并撕裂一切进入其中的物体，使其变得面目全非。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The storm mangled the trees in the park.
+  </text>
+  <text x="50" y="310" class="content">
+    风暴把公园里的树都毁坏了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mangle machine -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Twisted object -->
+    <line x1="70" y1="50" x2="280" y2="140" class="image" />
+    <line x1="70" y1="80" x2="250" y2="110" class="image" />
+    <line x1="70" y1="110" x2="270" y2="80" class="image" />
+    <line x1="70" y1="140" x2="240" y2="50" class="image" />
+    <!-- Torn object -->
+    <line x1="100" y1="50" x2="100" y2="140" class="image" />
+    <line x1="130" y1="50" x2="130" y2="140" class="image" />
+    <line x1="160" y1="50" x2="160" y2="140" class="image" />
+    <line x1="190" y1="50" x2="190" y2="140" class="image" />
+  </g>
+</svg>

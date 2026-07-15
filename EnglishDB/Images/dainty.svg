@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #5D4037; }
+      .content { font: 18px sans-serif; fill: #795548; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #388E3C; }
+      .image { stroke: #6D4C41; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dainty</text>
+  <text x="50" y="120" class="subtitle">[ˈdeɪnti] adj. 精致的，娇美的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> daint (精致) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个精致的茶杯，"精致(daint)"
+    <tspan x="50" dy="25">的杯身和细腻的图案，让人感到娇美(dainty)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a dainty dress to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她穿着一件精致的裙子去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Teacup -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <circle cx="75" cy="100" r="50" class="image" />
+    <!-- Handle -->
+    <path d="M 125 50 Q 150 75 125 100" class="image" />
+    <!-- Pattern -->
+    <line x1="20" y1="20" x2="130" y2="20" class="image" />
+    <line x1="20" y1="40" x2="130" y2="40" class="image" />
+    <line x1="20" y1="60" x2="130" y2="60" class="image" />
+    <line x1="20" y1="80" x2="130" y2="80" class="image" />
+  </g>
+</svg>

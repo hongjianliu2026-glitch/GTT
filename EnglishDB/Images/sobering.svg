@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sobering</text>
+  <text x="50" y="120" class="subtitle">[ˈsoʊbərɪŋ] adj. 令人清醒的，使人冷静的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sober (清醒的) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在狂欢后，突然被一盆冷水"泼醒(sobering)"，
+    <tspan x="50" dy="25">瞬间清醒，意识到自己需要冷静下来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The news of the accident was a sobering reminder of the dangers of driving.
+  </text>
+  <text x="50" y="310" class="content">
+    事故的消息让人清醒地意识到驾驶的危险。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Water splash -->
+    <path d="M100,100 Q150,50 200,100" class="image" />
+    <path d="M100,120 Q150,70 200,120" class="image" />
+    <path d="M100,140 Q150,90 200,140" class="image" />
+  </g>
+</svg>

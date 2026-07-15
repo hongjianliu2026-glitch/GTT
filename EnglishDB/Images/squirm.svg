@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">squirm</text>
+  <text x="50" y="120" class="subtitle">[skwɜrm] v. 蠕动，扭动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> squirm (源自中古英语 squermen，意为扭动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条小虫子在泥土中"扭动(squirm)"，
+    <tspan x="50" dy="25">它的身体不断弯曲和伸展，试图找到前进的方向。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The worm squirmed in the soil, trying to escape the sunlight.
+  </text>
+  <text x="50" y="310" class="content">
+    那条虫子在土壤中蠕动，试图躲避阳光。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Worm body -->
+    <path d="M50,100 C50,50 150,50 150,100 C150,150 50,150 50,100 Z" class="image" />
+    <!-- Worm head -->
+    <circle cx="50" cy="100" r="10" class="image" />
+    <!-- Worm tail -->
+    <circle cx="150" cy="100" r="10" class="image" />
+    <!-- Soil -->
+    <rect x="0" y="120" width="200" height="80" class="image" />
+  </g>
+</svg>

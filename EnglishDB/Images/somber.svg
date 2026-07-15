@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #8B0000; }
+      .story { font: 16px serif; fill: #666666; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">somber</text>
+  <text x="50" y="120" class="subtitle">[ˈsɒmbə(r)] adj. 阴沉的，忧郁的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> somb (阴影) + -er (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阴沉的(somber)天空，乌云密布，
+    <tspan x="50" dy="25">仿佛整个世界都被阴影(somb)笼罩，心情也随之变得沉重。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The somber atmosphere of the funeral made everyone feel sad.
+  </text>
+  <text x="50" y="310" class="content">
+    葬礼上阴沉的气氛让每个人都感到悲伤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cloud -->
+    <ellipse cx="175" cy="100" rx="150" ry="70" class="image" />
+    <ellipse cx="100" cy="80" rx="100" ry="50" class="image" />
+    <ellipse cx="250" cy="80" rx="100" ry="50" class="image" />
+    <!-- Raindrops -->
+    <line x1="150" y1="150" x2="150" y2="200" class="image" />
+    <line x1="200" y1="150" x2="200" y2="200" class="image" />
+    <line x1="250" y1="150" x2="250" y2="200" class="image" />
+    <!-- Ground -->
+    <rect x="0" y="200" width="350" height="100" class="image" />
+  </g>
+</svg>

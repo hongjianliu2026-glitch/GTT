@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spectator</text>
+  <text x="50" y="120" class="subtitle">[ˈspektətər] n. 观众，旁观者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> spect (看) + -ator (表示人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的体育场，"看(spect)"
+    <tspan x="50" dy="25">台上挤满了"人(ator)"，他们都是观众(spectator)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The game attracted thousands of spectators.
+  </text>
+  <text x="50" y="310" class="content">
+    这场比赛吸引了成千上万的观众。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stadium -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Spectators -->
+    <circle cx="50" cy="50" r="10" class="image" />
+    <circle cx="100" cy="50" r="10" class="image" />
+    <circle cx="150" cy="50" r="10" class="image" />
+    <circle cx="200" cy="50" r="10" class="image" />
+    <circle cx="250" cy="50" r="10" class="image" />
+    <circle cx="300" cy="50" r="10" class="image" />
+    <!-- Spectators' heads -->
+    <circle cx="50" cy="30" r="5" class="image" />
+    <circle cx="100" cy="30" r="5" class="image" />
+    <circle cx="150" cy="30" r="5" class="image" />
+    <circle cx="200" cy="30" r="5" class="image" />
+    <circle cx="250" cy="30" r="5" class="image" />
+    <circle cx="300" cy="30" r="5" class="image" />
+    <!-- Spectators' eyes -->
+    <circle cx="45" cy="25" r="2" class="image" />
+    <circle cx="95" cy="25" r="2" class="image" />
+    <circle cx="145" cy="25" r="2" class="image" />
+    <circle cx="195" cy="25" r="2" class="image" />
+    <circle cx="245" cy="25" r="2" class="image" />
+    <circle cx="295" cy="25" r="2" class="image" />
+  </g>
+</svg>

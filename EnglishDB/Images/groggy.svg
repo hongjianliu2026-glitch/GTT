@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">groggy</text>
+  <text x="50" y="120" class="subtitle">[ˈɡrɒɡi] adj. 昏昏沉沉的，摇摇晃晃的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> grog (烈酒) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人喝了很多烈酒(grog)，
+    <tspan x="50" dy="25">结果变得昏昏沉沉(groggy)，走路都摇摇晃晃。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> After a long night of partying, he woke up feeling groggy.
+  </text>
+  <text x="50" y="310" class="content">
+    经过一夜的狂欢，他醒来时感到昏昏沉沉。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="140" x2="30" y2="160" class="image" />
+    <line x1="50" y1="140" x2="70" y2="160" class="image" />
+    <!-- Drunk effect -->
+    <line x1="50" y1="100" x2="30" y2="80" class="image" />
+    <line x1="50" y1="100" x2="70" y2="80" class="image" />
+    <line x1="50" y1="100" x2="40" y2="120" class="image" />
+    <line x1="50" y1="100" x2="60" y2="120" class="image" />
+    <!-- Bottle -->
+    <rect x="100" y="80" width="30" height="100" class="image" />
+    <circle cx="115" cy="70" r="10" class="image" />
+  </g>
+</svg>

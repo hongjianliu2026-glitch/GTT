@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wreck</text>
+  <text x="50" y="120" class="subtitle">[rɛk] n. 残骸，失事；v. 破坏，失事</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wr- (扭曲) + eck (残骸)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一艘船在大海上，"扭曲(wr-)"
+    <tspan x="50" dy="25">成了一堆残骸(eck)，这就是wreck(失事)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The storm caused the ship to wreck.
+  </text>
+  <text x="50" y="310" class="content">
+    风暴导致船只失事。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sea -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#3498DB" />
+    <!-- Wrecked ship -->
+    <rect x="100" y="50" width="150" height="100" class="image" fill="#7F8C8D" />
+    <line x1="100" y1="50" x2="250" y2="50" class="image" />
+    <line x1="100" y1="150" x2="250" y2="150" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="250" y1="50" x2="250" y2="150" class="image" />
+    <!-- Broken mast -->
+    <line x1="175" y1="50" x2="175" y2="20" class="image" />
+    <line x1="175" y1="20" x2="150" y2="0" class="image" />
+    <line x1="175" y1="20" x2="200" y2="0" class="image" />
+  </g>
+</svg>

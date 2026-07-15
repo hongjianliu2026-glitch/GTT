@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #6E2C00; }
+      .subtitle { font: italic 24px serif; fill: #873600; }
+      .content { font: 18px sans-serif; fill: #1A5276; }
+      .highlight { font-weight: bold; fill: #B03A2E; }
+      .story { font: 16px serif; fill: #154360; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">whole-wheat</text>
+  <text x="50" y="120" class="subtitle">[hoʊl wiːt] adj. 全麦的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> whole (整个的) + wheat (小麦)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片金黄的麦田，"整个(whole)"
+    <tspan x="50" dy="25">小麦(wheat)都被用来制作全麦面包，</tspan>
+    <tspan x="50" dy="25">营养丰富，健康美味。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She prefers whole-wheat bread for its health benefits.
+  </text>
+  <text x="50" y="310" class="content">
+    她更喜欢全麦面包，因为它有益健康。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wheat field -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="70" y2="0" class="image" />
+    <line x1="70" y1="0" x2="90" y2="20" class="image" />
+    <line x1="100" y1="20" x2="120" y2="0" class="image" />
+    <line x1="120" y1="0" x2="140" y2="20" class="image" />
+    <line x1="150" y1="20" x2="170" y2="0" class="image" />
+    <line x1="170" y1="0" x2="190" y2="20" class="image" />
+    <line x1="200" y1="20" x2="220" y2="0" class="image" />
+    <line x1="220" y1="0" x2="240" y2="20" class="image" />
+    <line x1="250" y1="20" x2="270" y2="0" class="image" />
+    <line x1="270" y1="0" x2="290" y2="20" class="image" />
+    <!-- Bread -->
+    <rect x="50" y="100" width="100" height="50" class="image" />
+    <rect x="170" y="100" width="100" height="50" class="image" />
+  </g>
+</svg>

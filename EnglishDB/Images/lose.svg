@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lose</text>
+  <text x="50" y="120" class="subtitle">[luːz] v. 失去，丢失</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> l- (离开) + ose (走)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在森林中迷路，"离开(l-)"了熟悉的路径，"走(ose)"向了未知的方向，最终失去了方向感。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He lost his way in the forest.
+  </text>
+  <text x="50" y="310" class="content">
+    他在森林中迷路了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Forest -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Trees -->
+    <line x1="50" y1="20" x2="50" y2="100" class="image" />
+    <line x1="100" y1="20" x2="100" y2="100" class="image" />
+    <line x1="150" y1="20" x2="150" y2="100" class="image" />
+    <line x1="200" y1="20" x2="200" y2="100" class="image" />
+    <line x1="250" y1="20" x2="250" y2="100" class="image" />
+    <!-- Lost person -->
+    <circle cx="125" cy="150" r="15" class="image" />
+    <line x1="125" y1="165" x2="125" y2="190" class="image" />
+    <line x1="125" y1="190" x2="110" y2="210" class="image" />
+    <line x1="125" y1="190" x2="140" y2="210" class="image" />
+    <line x1="125" y1="175" x2="150" y2="165" class="image" />
+    <!-- Path -->
+    <line x1="50" y1="120" x2="300" y2="120" class="image" />
+    <!-- Question mark -->
+    <text x="200" y="140" class="content" style="font-size: 48px;">?</text>
+  </g>
+</svg>

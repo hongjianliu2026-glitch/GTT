@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">domestic</text>
+  <text x="50" y="120" class="subtitle">[dəˈmɛstɪk] adj. 家庭的，国内的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dom (家) + -estic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温馨的家，"家(dom)"里充满了爱与温暖，
+    <tspan x="50" dy="25">这就是"家庭的(domestic)"含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She prefers domestic travel over international.
+  </text>
+  <text x="50" y="310" class="content">
+    她更喜欢国内旅行而不是国际旅行。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <polygon points="0,100 150,0 300,100" class="image" />
+    <rect x="100" y="100" width="100" height="100" class="image" />
+    <!-- Door -->
+    <rect x="140" y="160" width="20" height="40" class="image" />
+    <!-- Window -->
+    <rect x="180" y="120" width="40" height="40" class="image" />
+    <!-- Chimney -->
+    <rect x="250" y="50" width="10" height="50" class="image" />
+    <!-- Smoke -->
+    <line x1="255" y1="50" x2="255" y2="30" class="image" />
+    <line x1="260" y1="50" x2="260" y2="30" class="image" />
+    <line x1="265" y1="50" x2="265" y2="30" class="image" />
+  </g>
+</svg>

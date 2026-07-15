@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">synonym</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪnənɪm] n. 同义词</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> syn- (共同) + onym (名字)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个名字(onym)被一根绳子(syn-)紧紧绑在一起，
+    <tspan x="50" dy="25">它们代表着同一个意思，就像一对同义词(synonym)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> "Happy" and "joyful" are synonyms.
+  </text>
+  <text x="50" y="310" class="content">
+    "Happy" 和 "joyful" 是同义词。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two names tied together -->
+    <text x="50" y="50" class="image" font-size="30">Happy</text>
+    <text x="200" y="50" class="image" font-size="30">Joyful</text>
+    <line x1="100" y1="70" x2="250" y2="70" class="image" />
+    <circle cx="100" cy="70" r="5" class="image" />
+    <circle cx="250" cy="70" r="5" class="image" />
+    <line x1="100" y1="70" x2="250" y2="70" class="image" />
+    <line x1="100" y1="70" x2="250" y2="70" class="image" />
+    <line x1="100" y1="70" x2="250" y2="70" class="image" />
+  </g>
+</svg>

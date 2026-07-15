@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">odyssey</text>
+  <text x="50" y="120" class="subtitle">[ˈɒdəsi] n. 长期的冒险旅行</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> odyssey源自希腊史诗《奥德赛》，
+    <tspan x="50" dy="25">描述了奥德修斯在特洛伊战争后的漫长归途。</tspan>
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="230" class="story">
+    想象一个勇敢的冒险者，踏上了一段"奥德赛(odyssey)"，
+    <tspan x="50" dy="25">穿越了无数的海洋和岛屿，历经艰险，最终回到家乡。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> His journey across the desert was an odyssey in itself.
+  </text>
+  <text x="50" y="330" class="content">
+    他穿越沙漠的旅程本身就是一次冒险。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Boat -->
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="50" y1="100" x2="100" y2="50" class="image" />
+    <line x1="150" y1="100" x2="100" y2="50" class="image" />
+    <line x1="100" y1="50" x2="100" y2="100" class="image" />
+    <!-- Waves -->
+    <path d="M50,120 Q75,110 100,120 T150,120" class="image" />
+    <path d="M50,140 Q75,130 100,140 T150,140" class="image" />
+    <path d="M50,160 Q75,150 100,160 T150,160" class="image" />
+    <!-- Islands -->
+    <circle cx="200" cy="100" r="20" class="image" />
+    <circle cx="250" cy="120" r="15" class="image" />
+    <circle cx="300" cy="100" r="25" class="image" />
+  </g>
+</svg>

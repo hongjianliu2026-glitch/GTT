@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">precede</text>
+  <text x="50" y="120" class="subtitle">[prɪˈsiːd] v. 在...之前，先于</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pre- (在前面) + cede (走)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在前面"提前走(pre-cede)"，
+    <tspan x="50" dy="25">带领着其他人，这个人就是"先于"其他人行动。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The president's speech preceded the ceremony.
+  </text>
+  <text x="50" y="310" class="content">
+    总统的演讲在仪式之前。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Leader -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+
+    <!-- Followers -->
+    <circle cx="150" cy="100" r="20" class="image" />
+    <line x1="150" y1="120" x2="150" y2="180" class="image" />
+    <line x1="150" y1="180" x2="130" y2="220" class="image" />
+    <line x1="150" y1="180" x2="170" y2="220" class="image" />
+    <line x1="150" y1="150" x2="190" y2="140" class="image" />
+
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="220" class="image" />
+    <line x1="250" y1="180" x2="270" y2="220" class="image" />
+    <line x1="250" y1="150" x2="290" y2="140" class="image" />
+
+    <!-- Arrows -->
+    <line x1="70" y1="100" x2="130" y2="100" class="image" />
+    <line x1="170" y1="100" x2="230" y2="100" class="image" />
+    <line x1="270" y1="100" x2="330" y2="100" class="image" />
+    <polygon points="330,100 320,95 320,105" class="image" />
+  </g>
+</svg>

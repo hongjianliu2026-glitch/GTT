@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">two-time</text>
+  <text x="50" y="120" class="subtitle">[ˈtuːtaɪm] v. 对...不忠，欺骗两次</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> two (二) + time (时间)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在两个不同的时间点上，"两次(two-time)"
+    <tspan x="50" dy="25">欺骗了同一个人，这种行为就是对人不忠(two-time)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He was accused of two-timing his girlfriend.
+  </text>
+  <text x="50" y="310" class="content">
+    他被指控对女友不忠。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two clocks -->
+    <circle cx="50" cy="50" r="40" class="image" />
+    <circle cx="200" cy="50" r="40" class="image" />
+    <!-- Hands of the first clock -->
+    <line x1="50" y1="50" x2="50" y2="10" class="image" />
+    <line x1="50" y1="50" x2="80" y2="50" class="image" />
+    <!-- Hands of the second clock -->
+    <line x1="200" y1="50" x2="200" y2="10" class="image" />
+    <line x1="200" y1="50" x2="230" y2="50" class="image" />
+    <!-- Person -->
+    <circle cx="125" cy="150" r="20" class="image" />
+    <line x1="125" y1="170" x2="125" y2="220" class="image" />
+    <line x1="125" y1="220" x2="100" y2="250" class="image" />
+    <line x1="125" y1="220" x2="150" y2="250" class="image" />
+    <line x1="125" y1="190" x2="100" y2="180" class="image" />
+    <line x1="125" y1="190" x2="150" y2="180" class="image" />
+    <!-- Heart broken -->
+    <path d="M100,280 C100,260 150,260 150,280" class="image" />
+    <line x1="100" y1="280" x2="150" y2="280" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hormonal</text>
+  <text x="50" y="120" class="subtitle">[hɔːrˈmoʊnl] adj. 荷尔蒙的，激素的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hormo- (刺激) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满活力的身体，"刺激(hormo-)"
+    <tspan x="50" dy="25">着各种生理反应，这些反应都与荷尔蒙(hormonal)有关。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hormonal changes during puberty can be intense.
+  </text>
+  <text x="50" y="310" class="content">
+    青春期期间的荷尔蒙变化可能会非常强烈。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Body outline -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Hormones -->
+    <circle cx="50" cy="50" r="10" class="image" />
+    <circle cx="150" cy="50" r="10" class="image" />
+    <circle cx="100" cy="150" r="10" class="image" />
+    <!-- Arrows -->
+    <line x1="50" y1="50" x2="100" y2="100" class="image" />
+    <line x1="150" y1="50" x2="100" y2="100" class="image" />
+    <line x1="100" y1="150" x2="100" y2="100" class="image" />
+    <polygon points="90,90 110,90 100,110" class="image" />
+    <polygon points="140,40 160,40 150,60" class="image" />
+    <polygon points="40,40 60,40 50,60" class="image" />
+  </g>
+</svg>

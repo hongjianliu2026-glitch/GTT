@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">breather</text>
+  <text x="50" y="120" class="subtitle">[ˈbriːðər] n. 休息，喘息</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> breath (呼吸) + -er (表示人或物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在长时间工作后，"喘息(breath)"
+    <tspan x="50" dy="25">一下，给自己一个短暂的休息(breather)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> After running a marathon, he took a breather to catch his breath.
+  </text>
+  <text x="50" y="310" class="content">
+    跑完马拉松后，他停下来喘口气。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person taking a break -->
+    <circle cx="50" cy="100" r="20" class="image" /> <!-- Head -->
+    <line x1="50" y1="120" x2="50" y2="160" class="image" /> <!-- Body -->
+    <line x1="50" y1="140" x2="30" y2="120" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="140" x2="70" y2="120" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="160" x2="30" y2="180" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="160" x2="70" y2="180" class="image" /> <!-- Right leg -->
+    <!-- Breath symbol -->
+    <circle cx="100" cy="100" r="10" class="image" />
+    <circle cx="120" cy="100" r="10" class="image" />
+    <circle cx="140" cy="100" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">headband</text>
+  <text x="50" y="120" class="subtitle">[ˈhɛdbænd] n. 头带，发带</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> head (头) + band (带)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个运动员在跑步时，头上戴着一条"头带(headband)"，
+    <tspan x="50" dy="25">这条带子紧紧地绑在头上，防止汗水流进眼睛。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a colorful headband during the marathon.
+  </text>
+  <text x="50" y="310" class="content">
+    她在马拉松比赛中戴了一条彩色的头带。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Headband -->
+    <rect x="50" y="70" width="100" height="10" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="90" r="5" class="image" />
+    <circle cx="120" cy="90" r="5" class="image" />
+    <!-- Mouth -->
+    <line x1="85" y1="115" x2="115" y2="115" class="image" />
+  </g>
+</svg>

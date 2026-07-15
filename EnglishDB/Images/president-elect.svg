@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">president-elect</text>
+  <text x="50" y="120" class="subtitle">[ˌprɛzɪdənt ɪˈlɛkt] n. 当选总统</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> president (总统) + elect (选举)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的选举投票箱，里面装满了选票，
+    <tspan x="50" dy="25">而一个戴着皇冠的人从箱子里走出来，</tspan>
+    <tspan x="50" dy="25">他就是"当选总统(president-elect)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The president-elect will take office next month.
+  </text>
+  <text x="50" y="310" class="content">
+    当选总统将在下个月就职。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Voting box -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Crown -->
+    <polygon points="175,20 200,70 250,70 210,100 225,150 175,120 125,150 140,100 100,70 150,70" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="160" class="image" />
+    <line x1="175" y1="140" x2="150" y2="130" class="image" />
+    <line x1="175" y1="140" x2="200" y2="130" class="image" />
+    <line x1="175" y1="160" x2="150" y2="180" class="image" />
+    <line x1="175" y1="160" x2="200" y2="180" class="image" />
+  </g>
+</svg>

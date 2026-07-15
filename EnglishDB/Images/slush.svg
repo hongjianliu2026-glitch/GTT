@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">slush</text>
+  <text x="50" y="120" class="subtitle">[slʌʃ] n. 雪泥，半融化的雪</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sl- (滑) + -ush (表示状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个冬天的早晨，雪开始融化，"滑滑的(sl-)"
+    <tspan x="50" dy="25">雪变成了"泥状(ush)"，这就是雪泥(slush)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The streets were covered with slush after the snow melted.
+  </text>
+  <text x="50" y="310" class="content">
+    雪融化后，街道上覆盖着雪泥。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Snowman -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="100" cy="170" r="40" class="image" />
+    <circle cx="100" cy="220" r="30" class="image" />
+    <!-- Melting snow -->
+    <line x1="50" y1="250" x2="150" y2="250" class="image" />
+    <line x1="75" y1="260" x2="125" y2="260" class="image" />
+    <line x1="100" y1="270" x2="100" y2="280" class="image" />
+    <!-- Slush puddle -->
+    <rect x="50" y="290" width="100" height="20" class="image" />
+  </g>
+</svg>

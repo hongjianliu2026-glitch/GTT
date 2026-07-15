@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">high-priced</text>
+  <text x="50" y="120" class="subtitle">[ˌhaɪˈpraɪst] adj. 高价的，昂贵的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> high (高) + price (价格)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的价格标签，上面写着"高价(high-priced)"，
+    <tspan x="50" dy="25">标签的高度几乎要碰到天花板，象征着物品的昂贵。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The high-priced jewelry was out of reach for most people.
+  </text>
+  <text x="50" y="310" class="content">
+    那件高价珠宝对大多数人来说是遥不可及的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Price tag -->
+    <rect x="0" y="0" width="200" height="400" class="image" />
+    <line x1="100" y1="0" x2="100" y2="400" class="image" />
+    <!-- Price text -->
+    <text x="50" y="200" class="content" style="font-size: 36px; fill: #C0392B;">$9999</text>
+  </g>
+</svg>

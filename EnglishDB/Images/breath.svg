@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">breath</text>
+  <text x="50" y="120" class="subtitle">[breθ] n. 呼吸，气息</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bre- (呼吸) + ath (气息)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在深呼吸，"呼吸(bre-)"
+    <tspan x="50" dy="25">时，气息(ath)从肺部流出，这就是呼吸(breath)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Take a deep breath and relax.
+  </text>
+  <text x="50" y="310" class="content">
+    深呼吸，放松。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="160" x2="20" y2="140" class="image" />
+    <line x1="50" y1="160" x2="80" y2="140" class="image" />
+    <line x1="50" y1="200" x2="20" y2="240" class="image" />
+    <line x1="50" y1="200" x2="80" y2="240" class="image" />
+    <!-- Breath -->
+    <path d="M50,100 Q70,80 90,100 T130,100" class="image" />
+    <path d="M50,100 Q30,80 10,100 T-30,100" class="image" />
+  </g>
+</svg>

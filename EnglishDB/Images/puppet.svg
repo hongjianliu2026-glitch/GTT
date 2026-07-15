@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">puppet</text>
+  <text x="50" y="120" class="subtitle">[ˈpʌpɪt] n. 木偶，傀儡</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pupp (小) + et (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小木偶(puppet)被一根线牵引着，
+    <tspan x="50" dy="25">它的每一个动作都被操控者"小"(pupp)心翼翼地控制着。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The children enjoyed the puppet show at the festival.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子们在节日里喜欢看木偶戏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Puppet -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <line x1="50" y1="100" x2="20" y2="120" class="image" />
+    <line x1="50" y1="100" x2="80" y2="120" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <!-- Strings -->
+    <line x1="50" y1="20" x2="50" y2="0" class="image" />
+    <line x1="30" y1="20" x2="30" y2="0" class="image" />
+    <line x1="70" y1="20" x2="70" y2="0" class="image" />
+  </g>
+</svg>

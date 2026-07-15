@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flower { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bloom</text>
+  <text x="50" y="120" class="subtitle">[bluːm] n. 花，开花；v. 开花</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "blom"，意为“花”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一朵花在阳光下“绽放(bloom)”，
+    <tspan x="50" dy="25">花瓣一片片展开，美丽动人。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The roses began to bloom in the spring.
+  </text>
+  <text x="50" y="310" class="content">
+    玫瑰在春天开始绽放。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flower -->
+    <circle cx="100" cy="100" r="50" class="flower" />
+    <circle cx="130" cy="70" r="20" class="flower" />
+    <circle cx="160" cy="100" r="20" class="flower" />
+    <circle cx="130" cy="130" r="20" class="flower" />
+    <circle cx="100" cy="160" r="20" class="flower" />
+    <circle cx="70" cy="130" r="20" class="flower" />
+    <circle cx="70" cy="100" r="20" class="flower" />
+    <circle cx="100" cy="70" r="20" class="flower" />
+    <!-- Stem -->
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <!-- Leaves -->
+    <path d="M100,250 Q150,200 100,150" class="image" />
+    <path d="M100,250 Q50,200 100,150" class="image" />
+  </g>
+</svg>

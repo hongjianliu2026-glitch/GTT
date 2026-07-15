@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">drink</text>
+  <text x="50" y="120" class="subtitle">[drɪŋk] v. 喝，饮；n. 饮料</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dr- (拉) + ink (液体)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在拉(dr-)着一杯装满液体(ink)的杯子，
+    <tspan x="50" dy="25">准备喝(drink)下去，这就是喝(drink)的动作。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She likes to drink coffee in the morning.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在早上喝咖啡。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Glass -->
+    <rect x="0" y="0" width="100" height="150" class="image" />
+    <line x1="50" y1="0" x2="50" y2="150" class="image" />
+    <!-- Liquid -->
+    <rect x="10" y="10" width="80" height="130" fill="#85C1E9" />
+    <!-- Straw -->
+    <line x1="110" y1="75" x2="150" y2="75" class="image" />
+    <line x1="150" y1="75" x2="150" y2="25" class="image" />
+    <!-- Person -->
+    <circle cx="180" cy="100" r="15" class="image" />
+    <line x1="180" y1="115" x2="180" y2="150" class="image" />
+    <line x1="180" y1="150" x2="160" y2="180" class="image" />
+    <line x1="180" y1="150" x2="200" y2="180" class="image" />
+    <line x1="180" y1="130" x2="210" y2="120" class="image" />
+  </g>
+</svg>

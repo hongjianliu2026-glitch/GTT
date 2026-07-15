@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">magnificent</text>
+  <text x="50" y="120" class="subtitle">[ˌmæɡˈnɪfɪsnt] adj. 壮丽的，宏伟的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> magni- (大) + fic (做) + -ent (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一座巨大的(magni-)城堡，被精心建造(fic)，
+    <tspan x="50" dy="25">展现出宏伟(magnificent)的气势。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The magnificent palace was a sight to behold.
+  </text>
+  <text x="50" y="310" class="content">
+    这座壮丽的宫殿令人叹为观止。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Castle -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <rect x="70" y="40" width="210" height="120" class="image" />
+    <rect x="90" y="60" width="170" height="80" class="image" />
+    <rect x="110" y="80" width="130" height="40" class="image" />
+    <!-- Towers -->
+    <rect x="50" y="0" width="30" height="20" class="image" />
+    <rect x="120" y="0" width="30" height="20" class="image" />
+    <rect x="190" y="0" width="30" height="20" class="image" />
+    <rect x="260" y="0" width="30" height="20" class="image" />
+    <!-- Flags -->
+    <line x1="65" y1="0" x2="65" y2="10" class="image" />
+    <line x1="135" y1="0" x2="135" y2="10" class="image" />
+    <line x1="205" y1="0" x2="205" y2="10" class="image" />
+    <line x1="275" y1="0" x2="275" y2="10" class="image" />
+    <line x1="65" y1="10" x2="55" y2="20" class="image" />
+    <line x1="135" y1="10" x2="125" y2="20" class="image" />
+    <line x1="205" y1="10" x2="195" y2="20" class="image" />
+    <line x1="275" y1="10" x2="265" y2="20" class="image" />
+  </g>
+</svg>

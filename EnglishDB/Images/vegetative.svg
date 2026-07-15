@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vegetative</text>
+  <text x="50" y="120" class="subtitle">[ˈvɛdʒɪtətɪv] adj. 植物的，生长的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> veget (生长) + -ative (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片茂密的森林，"生长(veget)"
+    <tspan x="50" dy="25">的植物(vegetative)覆盖了整个地面，</tspan>
+    <tspan x="50" dy="25">形成了一个生机勃勃的绿色世界。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The vegetative state of the plant indicates it needs more water.
+  </text>
+  <text x="50" y="310" class="content">
+    植物的生长状态表明它需要更多的水。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ground -->
+    <rect x="0" y="150" width="350" height="50" class="image" />
+    <!-- Trees -->
+    <line x1="50" y1="150" x2="50" y2="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="70" class="image" />
+    <line x1="150" y1="150" x2="150" y2="60" class="image" />
+    <line x1="200" y1="150" x2="200" y2="80" class="image" />
+    <line x1="250" y1="150" x2="250" y2="50" class="image" />
+    <!-- Leaves -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="100" cy="70" r="20" class="image" />
+    <circle cx="150" cy="60" r="20" class="image" />
+    <circle cx="200" cy="80" r="20" class="image" />
+    <circle cx="250" cy="50" r="20" class="image" />
+  </g>
+</svg>

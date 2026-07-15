@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">phrasing</text>
+  <text x="50" y="120" class="subtitle">[ˈfreɪzɪŋ] n. 措辞，表达方式</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> phrase (短语) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个演讲者站在讲台上，"用不同的短语(phrase)"
+    <tspan x="50" dy="25">来表达同一个意思，这些短语的组合就是措辞(phrasing)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The phrasing of the speech was very elegant.
+  </text>
+  <text x="50" y="310" class="content">
+    演讲的措辞非常优雅。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Speaker -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Speech bubbles -->
+    <path d="M70,20 Q100,20 100,50 Q70,50 70,80" class="image" />
+    <path d="M120,20 Q150,20 150,50 Q120,50 120,80" class="image" />
+    <path d="M170,20 Q200,20 200,50 Q170,50 170,80" class="image" />
+    <!-- Text in speech bubbles -->
+    <text x="80" y="50" class="content">Phrase 1</text>
+    <text x="130" y="50" class="content">Phrase 2</text>
+    <text x="180" y="50" class="content">Phrase 3</text>
+  </g>
+</svg>

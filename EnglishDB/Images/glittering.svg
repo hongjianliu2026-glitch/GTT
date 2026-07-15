@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">glittering</text>
+  <text x="50" y="120" class="subtitle">[ˈɡlɪtərɪŋ] adj. 闪闪发光的，闪烁的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> glit (闪光) + -er (反复动作) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗巨大的钻石在阳光下"反复闪光(glit-er-ing)"，
+    <tspan x="50" dy="25">它的光芒如此耀眼，仿佛整个世界都被它照亮了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The stars in the night sky were glittering like diamonds.
+  </text>
+  <text x="50" y="310" class="content">
+    夜空中的星星像钻石一样闪闪发光。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Diamond -->
+    <polygon points="100,0 200,200 0,200" class="image" stroke="#E74C3C" stroke-width="5" fill="#F1C40F" />
+    <!-- Sun rays -->
+    <line x1="100" y1="0" x2="100" y2="-50" class="image" stroke="#F39C12" stroke-width="3" />
+    <line x1="100" y1="0" x2="150" y2="-35" class="image" stroke="#F39C12" stroke-width="3" />
+    <line x1="100" y1="0" x2="50" y2="-35" class="image" stroke="#F39C12" stroke-width="3" />
+    <line x1="100" y1="0" x2="175" y2="25" class="image" stroke="#F39C12" stroke-width="3" />
+    <line x1="100" y1="0" x2="25" y2="25" class="image" stroke="#F39C12" stroke-width="3" />
+  </g>
+</svg>

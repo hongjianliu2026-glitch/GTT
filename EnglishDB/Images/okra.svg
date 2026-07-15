@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">okra</text>
+  <text x="50" y="120" class="subtitle">[ˈoʊkrə] n. 秋葵</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> okra (源自非洲语言，意为“秋葵”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的秋葵(okra)从天而降，
+    <tspan x="50" dy="25">它的长条形状和绿色外皮让人一眼就能认出它。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added okra to her vegetable soup.
+  </text>
+  <text x="50" y="310" class="content">
+    她把秋葵加到了她的蔬菜汤里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Okra plant -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Okra pods -->
+    <rect x="50" y="20" width="20" height="100" class="image" />
+    <rect x="80" y="30" width="20" height="90" class="image" />
+    <rect x="110" y="40" width="20" height="80" class="image" />
+    <rect x="140" y="50" width="20" height="70" class="image" />
+    <rect x="170" y="60" width="20" height="60" class="image" />
+    <!-- Leaves -->
+    <polygon points="200,20 250,50 200,80" class="image" />
+    <polygon points="230,30 280,60 230,90" class="image" />
+  </g>
+</svg>

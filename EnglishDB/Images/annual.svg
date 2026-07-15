@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">annual</text>
+  <text x="50" y="120" class="subtitle">[ˈænjuəl] adj. 每年的，年度的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ann (年) + -ual (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的日历，"每年(ann)"
+    <tspan x="50" dy="25">都会翻到新的一页，这就是年度(annual)的变化。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company holds an annual meeting every December.
+  </text>
+  <text x="50" y="310" class="content">
+    公司每年十二月都会举行一次年度会议。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Calendar -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Months -->
+    <text x="70" y="50" class="content">Jan</text>
+    <text x="140" y="50" class="content">Feb</text>
+    <text x="210" y="50" class="content">Mar</text>
+    <text x="70" y="80" class="content">Apr</text>
+    <text x="140" y="80" class="content">May</text>
+    <text x="210" y="80" class="content">Jun</text>
+    <text x="70" y="110" class="content">Jul</text>
+    <text x="140" y="110" class="content">Aug</text>
+    <text x="210" y="110" class="content">Sep</text>
+    <text x="70" y="140" class="content">Oct</text>
+    <text x="140" y="140" class="content">Nov</text>
+    <text x="210" y="140" class="content">Dec</text>
+    <!-- Arrow -->
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <polygon points="300,100 280,90 280,110" class="image" />
+  </g>
+</svg>

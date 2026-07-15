@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">magnitude</text>
+  <text x="50" y="120" class="subtitle">[ˈmæɡnɪtjuːd] n. 大小，量级</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> magni- (大) + -tude (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的天平，"大(magni-)"
+    <tspan x="50" dy="25">的量级(tude)在两端平衡，</tspan>
+    <tspan x="50" dy="25">象征着事物的大小和重要性。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The magnitude of the earthquake was 7.0 on the Richter scale.
+  </text>
+  <text x="50" y="310" class="content">
+    这次地震的震级为里氏7.0级。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balance scale -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="0" y1="100" x2="100" y2="100" class="image" />
+    <circle cx="20" cy="50" r="15" class="image" />
+    <circle cx="80" cy="150" r="15" class="image" />
+    <!-- Magnitude symbols -->
+    <text x="10" y="40" class="content" fill="#2980B9">大</text>
+    <text x="70" y="140" class="content" fill="#2980B9">量级</text>
+  </g>
+</svg>

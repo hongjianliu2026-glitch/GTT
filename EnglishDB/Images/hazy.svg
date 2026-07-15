@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hazy</text>
+  <text x="50" y="120" class="subtitle">[ˈheɪzi] adj. 模糊的，朦胧的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ha- (来自古英语 hǣg, 意为“雾”) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个清晨，雾气弥漫，视线变得"模糊(hazy)"，
+    <tspan x="50" dy="25">仿佛整个世界都被一层薄雾笼罩。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The distant mountains were hazy in the morning mist.
+  </text>
+  <text x="50" y="310" class="content">
+    清晨的薄雾中，远处的山峦显得朦胧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Foggy background -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#ECECEC" />
+    <!-- Mountains -->
+    <path d="M50 150 L100 50 L150 150 L200 50 L250 150 L300 50 L350 150" class="image" />
+    <!-- Fog -->
+    <path d="M0 180 Q175 220 350 180" class="image" stroke-dasharray="5,5" />
+    <path d="M0 190 Q175 230 350 190" class="image" stroke-dasharray="5,5" />
+    <path d="M0 200 Q175 240 350 200" class="image" stroke-dasharray="5,5" />
+  </g>
+</svg>

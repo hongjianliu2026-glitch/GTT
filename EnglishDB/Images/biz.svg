@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">biz</text>
+  <text x="50" y="120" class="subtitle">[bɪz] n. 商业，生意（business的缩写）</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> biz (business的缩写)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个繁忙的商业街，"生意(biz)"
+    <tspan x="50" dy="25">如火如荼地进行着，人们忙碌地交易和洽谈。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He's got a lot of biz to handle today.
+  </text>
+  <text x="50" y="310" class="content">
+    他今天有很多生意要处理。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Busy street -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Buildings -->
+    <rect x="50" y="20" width="50" height="160" class="image" />
+    <rect x="120" y="20" width="50" height="160" class="image" />
+    <rect x="190" y="20" width="50" height="160" class="image" />
+    <rect x="260" y="20" width="50" height="160" class="image" />
+    <!-- People -->
+    <circle cx="70" cy="100" r="10" class="image" />
+    <circle cx="140" cy="100" r="10" class="image" />
+    <circle cx="210" cy="100" r="10" class="image" />
+    <circle cx="280" cy="100" r="10" class="image" />
+    <!-- Transactions -->
+    <line x1="70" y1="120" x2="140" y2="120" class="image" />
+    <line x1="140" y1="120" x2="210" y2="120" class="image" />
+    <line x1="210" y1="120" x2="280" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">corner</text>
+  <text x="50" y="120" class="subtitle">[ˈkɔːrnər] n. 角落，拐角</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> corn (角) + -er (表示地点)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的房间，"角落(corn-er)"里藏着一只
+    <tspan x="50" dy="25">巨大的怪兽，它正从角落里探出头来，准备吓唬你。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found a hidden treasure in the corner of the room.
+  </text>
+  <text x="50" y="310" class="content">
+    她在房间的角落里发现了一个隐藏的宝藏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Corner -->
+    <rect x="0" y="0" width="100" height="100" class="image" />
+    <!-- Monster -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <line x1="50" y1="70" x2="50" y2="100" class="image" />
+    <line x1="50" y1="100" x2="30" y2="130" class="image" />
+    <line x1="50" y1="100" x2="70" y2="130" class="image" />
+    <line x1="50" y1="80" x2="80" y2="70" class="image" />
+  </g>
+</svg>

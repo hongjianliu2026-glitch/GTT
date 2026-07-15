@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "ab78f069fe4975e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "824715c4813e10cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa4a4426da644d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-机械编码时代.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-机械编码时代"
+            }
+          },
+          {
+            "id": "76ecb2cf291eb3bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "George Lakoff.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "George Lakoff"
+            }
+          },
+          {
+            "id": "b47cc170b508145c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12-未来人机码字.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12-未来人机码字"
+            }
+          },
+          {
+            "id": "a39ef8f646619cde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GTT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GTT"
+            }
+          },
+          {
+            "id": "c422e7668877171b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "490.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "490"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ac6f28b772ef7fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dae99cd0f0c7d36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fd1fb3d0bcd733c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6134f27d9f9307b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "115c46bdb9be722d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5
+  },
+  "right": {
+    "id": "3bdb0d3d57387cb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed70042a6c629abd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33ad15098f868642",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pasted image 20260619054612.png",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Pasted image 20260619054612 的反向链接列表"
+            }
+          },
+          {
+            "id": "1312119b9ed61cfd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pasted image 20260619054612.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Pasted image 20260619054612 的出链列表"
+            }
+          },
+          {
+            "id": "854888c77d9ba669",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "03b4953ec56a967b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c4540cb65ea5b362",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "创建链接.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "创建链接 的大纲"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "c422e7668877171b",
+  "lastOpenFiles": [
+    "173.md",
+    "玛雅历.md",
+    "未命名.md",
+    "第 二 章—直线论.doc",
+    "12-未来人机码字.md",
+    "01-从Morse到Unicode.md",
+    "PythonLibDB.md",
+    "PythonLibDB.csv",
+    "build_PythonLibDB.py",
+    "00-序言.md",
+    "Douglas Hofstadter.md",
+    "GTT.md",
+    "图片/Copilot_20260619_055541.png",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dysfunctional.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dysfunction.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dynasty.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dynamite.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dynamism.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dynamics.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dynamic.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dying.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dye.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dwindling.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dyad.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dwelling.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dwindle.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dweller.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dwell.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/dwarf.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d/duty.md",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/d",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/c",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/b",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL/a",
+    "EnglishDB/Words_BACKUP_BEFORE_FIX_ALL",
+    "fix_all_md.py",
+    "EnglishDB/MD_BACKUP_BEFORE_YAML_FIX",
+    "EnglishDB/Images/rusty.png",
+    "EnglishDB/Images/y_all.svg",
+    "EnglishDB/Images/saut.svg",
+    "EnglishDB/Images/o_clock.svg",
+    "EnglishDB/Images/y____all.svg",
+    "EnglishDB/Images/saut__.svg",
+    "EnglishDB/Images/rusty.svg",
+    "EnglishDB/Images/o____clock.svg",
+    "EnglishDB/Images/y____all.png",
+    "未命名.canvas"
+  ]
+}

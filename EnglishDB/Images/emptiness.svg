@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">emptiness</text>
+  <text x="50" y="120" class="subtitle">[ˈɛmptɪnəs] n. 空虚，空洞</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> empt (空) + -ness (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的空洞，"空无一物(empt)"，
+    <tspan x="50" dy="25">周围没有任何东西，只有无尽的空虚(emptiness)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The emptiness of the room made her feel lonely.
+  </text>
+  <text x="50" y="310" class="content">
+    房间的空虚让她感到孤独。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Empty hole -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Surrounding emptiness -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Empty space -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+  </g>
+</svg>

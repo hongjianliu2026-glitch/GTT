@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5EEF8; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mysterious</text>
+  <text x="50" y="120" class="subtitle">[mɪˈstɪəriəs] adj. 神秘的，不可思议的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> myst (神秘) + -er + -ious (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个神秘的夜晚，月亮被云层遮住，"神秘(myst)"
+    <tspan x="50" dy="25">的氛围笼罩着整个森林，让人感到不可思议(mysterious)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old house had a mysterious atmosphere.
+  </text>
+  <text x="50" y="310" class="content">
+    那座老房子有一种神秘的氛围。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Moon -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Cloud -->
+    <ellipse cx="150" cy="80" rx="80" ry="40" class="image" fill="#ECF0F1" />
+    <!-- Forest -->
+    <rect x="0" y="150" width="300" height="100" class="image" fill="#2ECC71" />
+    <!-- Tree -->
+    <line x1="50" y1="150" x2="50" y2="50" class="image" />
+    <polygon points="25,150 75,150 50,50" class="image" fill="#27AE60" />
+    <!-- Tree -->
+    <line x1="150" y1="150" x2="150" y2="50" class="image" />
+    <polygon points="125,150 175,150 150,50" class="image" fill="#27AE60" />
+    <!-- Tree -->
+    <line x1="250" y1="150" x2="250" y2="50" class="image" />
+    <polygon points="225,150 275,150 250,50" class="image" fill="#27AE60" />
+  </g>
+</svg>

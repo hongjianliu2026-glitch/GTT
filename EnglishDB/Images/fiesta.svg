@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E91E63; }
+      .story { font: 16px serif; fill: #AD1457; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fiesta</text>
+  <text x="50" y="120" class="subtitle">[fiˈɛstə] n. 节日，庆典</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自西班牙语，意为“节日”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个热闹的西班牙小镇，人们穿着鲜艳的服装，
+    <tspan x="50" dy="25">跳着弗拉门戈舞，音乐和欢笑声充满了整个广场，这就是一个fiesta。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The town held a fiesta to celebrate the harvest.
+  </text>
+  <text x="50" y="310" class="content">
+    小镇举办了一场庆典来庆祝丰收。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Town square -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- People -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="150" cy="100" r="15" class="image" />
+    <!-- Dancing -->
+    <line x1="50" y1="115" x2="100" y2="130" class="image" />
+    <line x1="100" y1="115" x2="150" y2="130" class="image" />
+    <!-- Music -->
+    <circle cx="200" cy="100" r="10" class="image" />
+    <line x1="200" y1="110" x2="200" y2="150" class="image" />
+    <line x1="200" y1="130" x2="180" y2="120" class="image" />
+    <line x1="200" y1="130" x2="220" y2="120" class="image" />
+    <!-- Decorations -->
+    <line x1="0" y1="20" x2="350" y2="20" class="image" />
+    <line x1="0" y1="40" x2="350" y2="40" class="image" />
+    <line x1="0" y1="60" x2="350" y2="60" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interference</text>
+  <text x="50" y="120" class="subtitle">[ˌɪntərˈfɪrəns] n. 干扰，干涉</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + fer (带来) + -ence (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人在争吵，"在中间带来(inter-fer)"
+    <tspan x="50" dy="25">冲突，这种冲突就是干扰(interference)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The interference from the other team was frustrating.
+  </text>
+  <text x="50" y="310" class="content">
+    来自另一队的干扰令人沮丧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two people arguing -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="150" cy="100" r="20" class="image" />
+    <line x1="70" y1="100" x2="130" y2="100" class="image" />
+    <line x1="100" y1="80" x2="100" y2="120" class="image" />
+    <!-- Interference symbol -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="80" y1="175" x2="120" y2="175" class="image" />
+    <line x1="90" y1="165" x2="110" y2="185" class="image" />
+    <line x1="90" y1="185" x2="110" y2="165" class="image" />
+  </g>
+</svg>

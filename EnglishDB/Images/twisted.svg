@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">twisted</text>
+  <text x="50" y="120" class="subtitle">[ˈtwɪstɪd] adj. 扭曲的，歪曲的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> twist (扭曲) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一根绳子被"扭曲(twist)"得不成样子，
+    <tspan x="50" dy="25">就像一个被歪曲(twisted)的故事。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The reporter gave a twisted account of the event.
+  </text>
+  <text x="50" y="310" class="content">
+    记者对事件进行了歪曲的报道。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Twisted rope -->
+    <path d="M50,50 C60,20 140,20 150,50 C160,80 140,110 150,140 C160,170 140,200 150,230 C160,260 140,290 150,320" class="image" />
+    <!-- Twisted face -->
+    <circle cx="200" cy="180" r="50" class="image" />
+    <line x1="180" y1="180" x2="220" y2="180" class="image" />
+    <line x1="190" y1="170" x2="210" y2="190" class="image" />
+    <line x1="190" y1="190" x2="210" y2="170" class="image" />
+  </g>
+</svg>

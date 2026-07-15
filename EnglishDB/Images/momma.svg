@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">momma</text>
+  <text x="50" y="120" class="subtitle">[ˈmɒmə] n. 妈妈，妈咪</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mom (母亲) + -ma (表示人或物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温暖的场景，"妈妈(mom)"
+    <tspan x="50" dy="25">在厨房里忙碌，准备着美味的食物，</tspan>
+    <tspan x="50" dy="25">这就是我们心中的"妈咪(momma)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Momma always knows how to make me feel better.
+  </text>
+  <text x="50" y="310" class="content">
+    妈妈总是知道如何让我感觉好些。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Kitchen -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Stove -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Pots and Pans -->
+    <circle cx="80" cy="100" r="20" class="image" />
+    <circle cx="120" cy="100" r="20" class="image" />
+    <circle cx="160" cy="100" r="20" class="image" />
+    <!-- Momma -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+  </g>
+</svg>

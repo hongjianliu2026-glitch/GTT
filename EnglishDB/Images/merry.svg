@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFFDE7; }
+      .title { font: bold 48px sans-serif; fill: #F39C12; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">merry</text>
+  <text x="50" y="120" class="subtitle">[ˈmeri] adj. 愉快的，欢乐的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> merri (欢乐)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人在庆祝，脸上洋溢着"欢乐(merri)"的笑容，
+    <tspan x="50" dy="25">整个场景充满了愉快的气氛(merry)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The children were merry at the party.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子们在派对上很开心。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Happy faces -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#F1C40F" />
+    <circle cx="150" cy="50" r="30" class="image" fill="#F1C40F" />
+    <circle cx="250" cy="50" r="30" class="image" fill="#F1C40F" />
+    <!-- Eyes -->
+    <circle cx="35" cy="40" r="5" class="image" fill="#000" />
+    <circle cx="65" cy="40" r="5" class="image" fill="#000" />
+    <circle cx="135" cy="40" r="5" class="image" fill="#000" />
+    <circle cx="165" cy="40" r="5" class="image" fill="#000" />
+    <circle cx="235" cy="40" r="5" class="image" fill="#000" />
+    <circle cx="265" cy="40" r="5" class="image" fill="#000" />
+    <!-- Mouths -->
+    <path d="M30 60 Q45 75 60 60" class="image" fill="none" stroke="#000" />
+    <path d="M130 60 Q145 75 160 60" class="image" fill="none" stroke="#000" />
+    <path d="M230 60 Q245 75 260 60" class="image" fill="none" stroke="#000" />
+  </g>
+</svg>

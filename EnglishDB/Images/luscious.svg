@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #641E16; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #922B21; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">luscious</text>
+  <text x="50" y="120" class="subtitle">[ˈlʌʃəs] adj. 甘美的，芬芳的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> lusc (甜) + -ious (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的草莓，"甜得让人陶醉(lusc-ious)"，
+    <tspan x="50" dy="25">它的香气弥漫在空气中，让人忍不住想咬一口。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The luscious strawberries were the highlight of the dessert.
+  </text>
+  <text x="50" y="310" class="content">
+    甘美的草莓是甜点中的亮点。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Strawberry -->
+    <circle cx="100" cy="100" r="60" fill="#E74C3C" />
+    <circle cx="70" cy="80" r="10" fill="#E74C3C" />
+    <circle cx="130" cy="80" r="10" fill="#E74C3C" />
+    <circle cx="100" cy="60" r="10" fill="#E74C3C" />
+    <circle cx="85" cy="120" r="10" fill="#E74C3C" />
+    <circle cx="115" cy="120" r="10" fill="#E74C3C" />
+    <!-- Leaves -->
+    <path d="M 100 40 Q 80 20 100 0 Q 120 20 100 40" fill="#27AE60" />
+    <path d="M 90 50 Q 70 30 90 10 Q 110 30 90 50" fill="#27AE60" />
+    <path d="M 110 50 Q 90 30 110 10 Q 130 30 110 50" fill="#27AE60" />
+  </g>
+</svg>

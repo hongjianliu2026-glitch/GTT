@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">repudiation</text>
+  <text x="50" y="120" class="subtitle">[rɪˌpjuːdiˈeɪʃən] n. 拒绝，否认， repudiate的名词形式</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (反) + pud (羞耻) + -iation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在公众面前，"反向感到羞耻(re-pud)"，
+    <tspan x="50" dy="25">并大声否认(repudiation)自己的行为。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His repudiation of the contract was unexpected.
+  </text>
+  <text x="50" y="310" class="content">
+    他拒绝履行合同是出乎意料的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 50 80 Q 100 60 150 80 Q 100 100 50 80" class="image" />
+    <text x="60" y="90" class="content" fill="#34495E">NO!</text>
+  </g>
+</svg>

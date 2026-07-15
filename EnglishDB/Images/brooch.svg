@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">brooch</text>
+  <text x="50" y="120" class="subtitle">[brʊtʃ] n. 胸针，饰针</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> brooch 源自中世纪英语 broche，意为“针”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一位优雅的女士，胸前别着一枚闪亮的胸针(brooch)，
+    <tspan x="50" dy="25">这枚胸针就像一根精致的针(broche)，点缀着她的衣着。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a diamond brooch on her coat.
+  </text>
+  <text x="50" y="310" class="content">
+    她在外套上佩戴了一枚钻石胸针。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Woman -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="160" x2="20" y2="140" class="image" />
+    <line x1="50" y1="160" x2="80" y2="140" class="image" />
+    <line x1="50" y1="200" x2="20" y2="240" class="image" />
+    <line x1="50" y1="200" x2="80" y2="240" class="image" />
+
+    <!-- Brooch -->
+    <rect x="40" y="80" width="20" height="20" class="image" />
+    <line x1="50" y1="80" x2="50" y2="60" class="image" />
+  </g>
+</svg>

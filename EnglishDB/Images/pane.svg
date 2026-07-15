@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pane</text>
+  <text x="50" y="120" class="subtitle">[peɪn] n. 窗格，面板</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pan- (面包) + e (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小面包(pan-e)被切成小块，每一块就像一个窗格(pane)，
+    <tspan x="50" dy="25">整齐地排列在窗户上。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The window was divided into several small panes.
+  </text>
+  <text x="50" y="310" class="content">
+    窗户被分成了几个小窗格。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Window frame -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Panes -->
+    <rect x="50" y="20" width="100" height="160" class="image" />
+    <rect x="170" y="20" width="100" height="160" class="image" />
+    <rect x="290" y="20" width="100" height="160" class="image" />
+    <!-- Bread slices -->
+    <rect x="50" y="180" width="100" height="20" class="image" />
+    <rect x="170" y="180" width="100" height="20" class="image" />
+    <rect x="290" y="180" width="100" height="20" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">snore</text>
+  <text x="50" y="120" class="subtitle">[snɔːr] v. 打鼾，打呼噜</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> snor (源自中古英语，意为打鼾)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的鼻子，"呼噜呼噜(snor)"
+    <tspan x="50" dy="25">地发出声音，这就是打鼾(snore)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He was snoring loudly last night.
+  </text>
+  <text x="50" y="310" class="content">
+    他昨晚打鼾声音很大。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Nose -->
+    <path d="M50 50 Q100 100 150 50" class="image" />
+    <path d="M150 50 Q200 0 250 50" class="image" />
+    <!-- Snoring sound -->
+    <circle cx="100" cy="70" r="10" class="image" />
+    <circle cx="120" cy="90" r="10" class="image" />
+    <circle cx="140" cy="70" r="10" class="image" />
+    <circle cx="160" cy="90" r="10" class="image" />
+    <circle cx="180" cy="70" r="10" class="image" />
+  </g>
+</svg>

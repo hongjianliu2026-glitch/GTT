@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">identify</text>
+  <text x="50" y="120" class="subtitle">[aɪˈdɛntɪˌfaɪ] v. 识别，认出</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> id (相同) + ent (存在) + ify (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个侦探拿着放大镜，"使(ify)"
+    <tspan x="50" dy="25">存在(ent)的相同(id)特征显现出来，</tspan>
+    <tspan x="50" dy="25">从而识别(identify)出嫌疑人。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The detective was able to identify the suspect by his unique tattoo.
+  </text>
+  <text x="50" y="310" class="content">
+    侦探通过嫌疑人独特的纹身识别出了他。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Detective -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Magnifying glass -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <line x1="100" y1="120" x2="150" y2="120" class="image" />
+    <!-- Suspect -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+    <!-- Tattoo -->
+    <rect x="180" y="80" width="40" height="20" class="image" />
+    <text x="185" y="95" class="content" fill="#000">纹身</text>
+  </g>
+</svg>

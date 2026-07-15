@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">orphaned</text>
+  <text x="50" y="120" class="subtitle">[ˈɔːrfənd] adj. 孤儿的，无依无靠的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> orph (孤儿) + -an (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩子站在一个巨大的空房间里，"孤零零的(orph-an)"，
+    <tspan x="50" dy="25">没有父母或亲人的陪伴，显得无依无靠(orphaned)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The orphaned kitten was taken in by the kind lady.
+  </text>
+  <text x="50" y="310" class="content">
+    这只孤儿小猫被那位善良的女士收养了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large empty room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Child -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="160" class="image" />
+    <line x1="175" y1="160" x2="155" y2="190" class="image" />
+    <line x1="175" y1="160" x2="195" y2="190" class="image" />
+    <line x1="175" y1="140" x2="145" y2="130" class="image" />
+    <line x1="175" y1="140" x2="205" y2="130" class="image" />
+    <!-- Empty room -->
+    <line x1="50" y1="0" x2="50" y2="200" class="image" />
+    <line x1="300" y1="0" x2="300" y2="200" class="image" />
+    <line x1="0" y1="50" x2="350" y2="50" class="image" />
+    <line x1="0" y1="150" x2="350" y2="150" class="image" />
+  </g>
+</svg>

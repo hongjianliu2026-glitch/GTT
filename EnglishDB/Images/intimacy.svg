@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E6FF; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">intimacy</text>
+  <text x="50" y="120" class="subtitle">[ˈɪntɪməsi] n. 亲密，亲近</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (向内) + tim (害怕) + -acy (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人在温暖的房间里，"向内(in-)"
+    <tspan x="50" dy="25">分享彼此的秘密，不再感到"害怕(tim)"，</tspan>
+    <tspan x="50" dy="25">这种亲近感就是"亲密(intimacy)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They shared a deep intimacy after years of friendship.
+  </text>
+  <text x="50" y="310" class="content">
+    经过多年的友谊，他们分享了深厚的亲密感。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Warm room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Two people -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" />
+    <!-- Heart -->
+    <path d="M150,100 C150,50 200,50 200,100 C200,150 150,150 150,100" class="image" />
+    <!-- Secret bubble -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <text x="240" y="105" class="content" fill="#34495E">秘密</text>
+  </g>
+</svg>

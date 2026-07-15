@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cheetah</text>
+  <text x="50" y="120" class="subtitle">[ˈtʃiːtə] n. 猎豹</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cheet (来自梵语，意为“豹”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只猎豹在草原上飞奔，它的速度快如闪电，
+    <tspan x="50" dy="25">仿佛在追逐着时间，这就是猎豹(cheetah)的独特魅力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cheetah is the fastest land animal.
+  </text>
+  <text x="50" y="310" class="content">
+    猎豹是陆地上速度最快的动物。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cheetah body -->
+    <ellipse cx="100" cy="100" rx="80" ry="40" class="image" />
+    <!-- Cheetah head -->
+    <circle cx="180" cy="80" r="30" class="image" />
+    <!-- Cheetah legs -->
+    <line x1="60" y1="120" x2="40" y2="160" class="image" />
+    <line x1="140" y1="120" x2="160" y2="160" class="image" />
+    <line x1="80" y1="120" x2="60" y2="160" class="image" />
+    <line x1="120" y1="120" x2="140" y2="160" class="image" />
+    <!-- Cheetah tail -->
+    <line x1="20" y1="100" x2="0" y2="140" class="image" />
+    <!-- Speed lines -->
+    <line x1="200" y1="80" x2="220" y2="60" class="image" />
+    <line x1="200" y1="80" x2="220" y2="100" class="image" />
+    <line x1="200" y1="80" x2="240" y2="80" class="image" />
+  </g>
+</svg>

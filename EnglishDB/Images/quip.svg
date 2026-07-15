@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quip</text>
+  <text x="50" y="120" class="subtitle">[kwɪp] n. 妙语，俏皮话；v. 说俏皮话</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quip (来自拉丁语 "quippe"，意为“即刻”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人突然说出一句"即刻(quip)"
+    <tspan x="50" dy="25">让人捧腹大笑的俏皮话，这就是quip的魅力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He always has a quip ready to lighten the mood.
+  </text>
+  <text x="50" y="310" class="content">
+    他总是能准备好一句俏皮话来活跃气氛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <!-- Tongue -->
+    <rect x="40" y="50" width="20" height="30" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 80 30 Q 120 30 120 70 Q 120 110 80 110 Q 40 110 40 70 Q 40 30 80 30" class="image" />
+    <!-- Quip text -->
+    <text x="90" y="80" class="content">"即刻"的妙语</text>
+  </g>
+</svg>

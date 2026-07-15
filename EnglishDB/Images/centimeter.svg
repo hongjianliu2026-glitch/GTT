@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">centimeter</text>
+  <text x="50" y="120" class="subtitle">[ˈsɛntɪˌmitər] n. 厘米</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> centi- (百) + meter (米)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的尺子，上面有100个小格子，每个格子代表1厘米。
+    <tspan x="50" dy="25">这个尺子就像一个"百米(centi-meter)"的缩小版，用来测量小距离。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ant is only a few centimeters long.
+  </text>
+  <text x="50" y="310" class="content">
+    这只蚂蚁只有几厘米长。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ruler -->
+    <rect x="0" y="0" width="350" height="50" class="image" />
+    <!-- Centimeter marks -->
+    <line x1="20" y1="0" x2="20" y2="50" class="image" />
+    <line x1="40" y1="0" x2="40" y2="50" class="image" />
+    <line x1="60" y1="0" x2="60" y2="50" class="image" />
+    <line x1="80" y1="0" x2="80" y2="50" class="image" />
+    <line x1="100" y1="0" x2="100" y2="50" class="image" />
+    <line x1="120" y1="0" x2="120" y2="50" class="image" />
+    <line x1="140" y1="0" x2="140" y2="50" class="image" />
+    <line x1="160" y1="0" x2="160" y2="50" class="image" />
+    <line x1="180" y1="0" x2="180" y2="50" class="image" />
+    <line x1="200" y1="0" x2="200" y2="50" class="image" />
+    <line x1="220" y1="0" x2="220" y2="50" class="image" />
+    <line x1="240" y1="0" x2="240" y2="50" class="image" />
+    <line x1="260" y1="0" x2="260" y2="50" class="image" />
+    <line x1="280" y1="0" x2="280" y2="50" class="image" />
+    <line x1="300" y1="0" x2="300" y2="50" class="image" />
+    <line x1="320" y1="0" x2="320" y2="50" class="image" />
+    <line x1="340" y1="0" x2="340" y2="50" class="image" />
+    <!-- Text labels -->
+    <text x="10" y="70" class="content">0</text>
+    <text x="30" y="70" class="content">1</text>
+    <text x="50" y="70" class="content">2</text>
+    <text x="70" y="70" class="content">3</text>
+    <text x="90" y="70" class="content">4</text>
+    <text x="110" y="70" class="content">5</text>
+    <text x="130" y="70" class="content">6</text>
+    <text x="150" y="70" class="content">7</text>
+    <text x="170" y="70" class="content">8</text>
+    <text x="190" y="70" class="content">9</text>
+    <text x="210" y="70" class="content">10</text>
+    <text x="230" y="70" class="content">11</text>
+    <text x="250" y="70" class="content">12</text>
+    <text x="270" y="70" class="content">13</text>
+    <text x="290" y="70" class="content">14</text>
+    <text x="310" y="70" class="content">15</text>
+    <text x="330" y="70" class="content">16</text>
+    <text x="350" y="70" class="content">17</text>
+  </g>
+</svg>

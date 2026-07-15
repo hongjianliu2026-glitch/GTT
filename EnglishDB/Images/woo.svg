@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">woo</text>
+  <text x="50" y="120" class="subtitle">[wuː] v. 追求，求爱；恳求</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "wo"，意为"悲伤"，后引申为"追求"
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个浪漫的场景，一个男子在月光下，"悲伤地追求(woo)"
+    <tspan x="50" dy="25">他心爱的女子，用甜言蜜语和鲜花打动她的心。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He spent months wooing her with flowers and poems.
+  </text>
+  <text x="50" y="310" class="content">
+    他用鲜花和诗歌追求了她几个月。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Moon -->
+    <circle cx="100" cy="50" r="30" class="image" fill="#F1C40F" />
+    <!-- Man -->
+    <circle cx="50" cy="150" r="20" class="image" />
+    <line x1="50" y1="170" x2="50" y2="220" class="image" />
+    <line x1="50" y1="220" x2="30" y2="250" class="image" />
+    <line x1="50" y1="220" x2="70" y2="250" class="image" />
+    <line x1="50" y1="190" x2="80" y2="180" class="image" />
+    <!-- Woman -->
+    <circle cx="150" cy="150" r="20" class="image" />
+    <line x1="150" y1="170" x2="150" y2="220" class="image" />
+    <line x1="150" y1="220" x2="130" y2="250" class="image" />
+    <line x1="150" y1="220" x2="170" y2="250" class="image" />
+    <line x1="150" y1="190" x2="120" y2="180" class="image" />
+    <!-- Flowers -->
+    <circle cx="70" cy="120" r="10" class="image" fill="#27AE60" />
+    <circle cx="80" cy="110" r="10" class="image" fill="#27AE60" />
+    <circle cx="90" cy="120" r="10" class="image" fill="#27AE60" />
+  </g>
+</svg>

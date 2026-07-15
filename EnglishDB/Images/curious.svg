@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">curious</text>
+  <text x="50" y="120" class="subtitle">[ˈkjʊriəs] adj. 好奇的，求知的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> curi (关心) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个孩子睁大眼睛，"关心(curi)"
+    <tspan x="50" dy="25">地盯着一只蝴蝶，充满了好奇(curious)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The child was curious about the new toy.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子对新玩具感到好奇。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Child's face -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <!-- Eyes -->
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <!-- Mouth -->
+    <path d="M 30 60 Q 50 70 70 60" class="image" />
+    <!-- Butterfly -->
+    <path d="M 100 50 C 120 30, 140 30, 160 50" class="image" />
+    <path d="M 100 50 C 120 70, 140 70, 160 50" class="image" />
+    <path d="M 130 50 Q 130 20, 150 20" class="image" />
+    <path d="M 130 50 Q 130 80, 150 80" class="image" />
+  </g>
+</svg>

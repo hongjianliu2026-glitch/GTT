@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">portend</text>
+  <text x="50" y="120" class="subtitle">[pɔːrˈtend] v. 预示，预兆</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> port (门) + end (结束)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一扇门(port)即将关闭(end)，这预示着(portend)
+    <tspan x="50" dy="25">某种事情的结束或即将发生的变化。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The dark clouds portend a storm.
+  </text>
+  <text x="50" y="310" class="content">
+    乌云预示着暴风雨的来临。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Door -->
+    <rect x="0" y="0" width="150" height="250" class="image" />
+    <!-- Door handle -->
+    <circle cx="75" cy="125" r="10" class="image" />
+    <!-- Closing line -->
+    <line x1="150" y1="0" x2="150" y2="250" class="image" />
+    <!-- Storm clouds -->
+    <ellipse cx="250" cy="125" rx="100" ry="50" class="image" />
+    <ellipse cx="300" cy="100" rx="80" ry="40" class="image" />
+    <ellipse cx="200" cy="150" rx="90" ry="45" class="image" />
+  </g>
+</svg>

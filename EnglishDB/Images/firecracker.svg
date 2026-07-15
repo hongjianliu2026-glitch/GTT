@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">firecracker</text>
+  <text x="50" y="120" class="subtitle">[ˈfaɪərˌkrækər] n. 鞭炮，爆竹</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fire (火) + cracker (发出爆裂声的东西)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的鞭炮(firecracker)在夜空中爆炸，
+    <tspan x="50" dy="25">发出耀眼的火光和震耳欲聋的爆裂声，</tspan>
+    <tspan x="50" dy="25">整个城市都被这壮观的景象所震撼。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The firecracker lit up the night sky during the festival.
+  </text>
+  <text x="50" y="310" class="content">
+    节日期间，鞭炮照亮了夜空。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Firecracker -->
+    <rect x="0" y="0" width="100" height="200" class="image" />
+    <!-- Fire -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="50" y1="20" x2="30" y2="50" class="image" />
+    <line x1="50" y1="20" x2="70" y2="50" class="image" />
+    <line x1="50" y1="20" x2="20" y2="80" class="image" />
+    <line x1="50" y1="20" x2="80" y2="80" class="image" />
+    <!-- Explosion -->
+    <circle cx="50" cy="220" r="30" class="image" />
+    <circle cx="30" cy="240" r="20" class="image" />
+    <circle cx="70" cy="240" r="20" class="image" />
+    <circle cx="50" cy="260" r="20" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">countdown</text>
+  <text x="50" y="120" class="subtitle">[ˈkaʊntdaʊn] n. 倒计时</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> count (数) + down (向下)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个火箭发射前的场景，"数着(count)"
+    <tspan x="50" dy="25">数字逐渐减少(down)，直到零，火箭发射。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The astronauts began the countdown before liftoff.
+  </text>
+  <text x="50" y="310" class="content">
+    宇航员在发射前开始了倒计时。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rocket -->
+    <polygon points="50,150 150,150 100,50" class="image" />
+    <!-- Countdown numbers -->
+    <text x="100" y="200" class="content" text-anchor="middle">10</text>
+    <text x="100" y="230" class="content" text-anchor="middle">9</text>
+    <text x="100" y="260" class="content" text-anchor="middle">8</text>
+    <text x="100" y="290" class="content" text-anchor="middle">7</text>
+    <text x="100" y="320" class="content" text-anchor="middle">6</text>
+    <text x="100" y="350" class="content" text-anchor="middle">5</text>
+    <text x="100" y="380" class="content" text-anchor="middle">4</text>
+    <text x="100" y="410" class="content" text-anchor="middle">3</text>
+    <text x="100" y="440" class="content" text-anchor="middle">2</text>
+    <text x="100" y="470" class="content" text-anchor="middle">1</text>
+    <text x="100" y="500" class="content" text-anchor="middle">0</text>
+  </g>
+</svg>

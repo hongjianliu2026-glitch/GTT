@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">good-natured</text>
+  <text x="50" y="120" class="subtitle">[ˌɡʊd ˈneɪtʃəd] adj. 脾气好的，和善的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> good (好的) + nature (自然，本性)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个脾气好的人，他的"本性(nature)"
+    <tspan x="50" dy="25">就像阳光一样温暖，总是带着微笑，</tspan>
+    <tspan x="50" dy="25">这就是"好脾气(good-natured)"的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is always good-natured, even when things go wrong.
+  </text>
+  <text x="50" y="310" class="content">
+    即使事情出错，她也总是脾气很好。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Smile -->
+    <path d="M 70 120 Q 100 150 130 120" class="image" fill="none" stroke="#2C3E50" stroke-width="5" />
+    <!-- Eyes -->
+    <circle cx="85" cy="90" r="5" class="image" fill="#2C3E50" />
+    <circle cx="115" cy="90" r="5" class="image" fill="#2C3E50" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="30" class="image" fill="#F39C12" />
+    <line x1="200" y1="130" x2="200" y2="180" class="image" />
+    <line x1="200" y1="150" x2="170" y2="140" class="image" />
+    <line x1="200" y1="150" x2="230" y2="140" class="image" />
+    <line x1="200" y1="180" x2="180" y2="210" class="image" />
+    <line x1="200" y1="180" x2="220" y2="210" class="image" />
+  </g>
+</svg>

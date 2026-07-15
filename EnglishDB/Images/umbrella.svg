@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">umbrella</text>
+  <text x="50" y="120" class="subtitle">[ʌmˈbrɛlə] n. 雨伞</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> umbr (影子) + -ella (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小影子(umbr-ella)在雨中，
+    <tspan x="50" dy="25">它撑开了一个大大的伞，保护着人们不被雨淋湿。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She opened her umbrella to protect herself from the rain.
+  </text>
+  <text x="50" y="310" class="content">
+    她打开雨伞以保护自己不被雨淋湿。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Umbrella -->
+    <path d="M50,50 Q100,20 150,50 L150,100 L50,100 Z" class="image" fill="#7F8C8D" />
+    <!-- Handle -->
+    <rect x="95" y="100" width="10" height="50" class="image" fill="#7F8C8D" />
+    <!-- Rain drops -->
+    <line x1="70" y1="160" x2="70" y2="200" class="image" />
+    <line x1="100" y1="160" x2="100" y2="200" class="image" />
+    <line x1="130" y1="160" x2="130" y2="200" class="image" />
+  </g>
+</svg>

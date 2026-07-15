@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">alienating</text>
+  <text x="50" y="120" class="subtitle">[ˈeɪliəˌneɪtɪŋ] adj. 疏远的，离间的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> alien (外来的) + -ate (使) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被一群外星人(alien)包围，
+    <tspan x="50" dy="25">他们试图"使(ate)"这个人感到"疏远(alienating)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His cold behavior was alienating his friends.
+  </text>
+  <text x="50" y="310" class="content">
+    他冷漠的行为疏远了他的朋友们。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Alien head -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <circle cx="50" cy="50" r="25" fill="#7F8C8D" />
+    <circle cx="40" cy="45" r="5" fill="#FFFFFF" />
+    <circle cx="60" cy="45" r="5" fill="#FFFFFF" />
+    <line x1="45" y1="60" x2="55" y2="60" class="image" />
+    <!-- Alien head -->
+    <circle cx="150" cy="50" r="30" class="image" />
+    <circle cx="150" cy="50" r="25" fill="#7F8C8D" />
+    <circle cx="140" cy="45" r="5" fill="#FFFFFF" />
+    <circle cx="160" cy="45" r="5" fill="#FFFFFF" />
+    <line x1="145" y1="60" x2="155" y2="60" class="image" />
+    <!-- Alien head -->
+    <circle cx="250" cy="50" r="30" class="image" />
+    <circle cx="250" cy="50" r="25" fill="#7F8C8D" />
+    <circle cx="240" cy="45" r="5" fill="#FFFFFF" />
+    <circle cx="260" cy="45" r="5" fill="#FFFFFF" />
+    <line x1="245" y1="60" x2="255" y2="60" class="image" />
+    <!-- Person feeling alienated -->
+    <circle cx="150" cy="150" r="20" class="image" />
+    <line x1="150" y1="170" x2="150" y2="200" class="image" />
+    <line x1="150" y1="180" x2="130" y2="160" class="image" />
+    <line x1="150" y1="180" x2="170" y2="160" class="image" />
+    <line x1="150" y1="200" x2="130" y2="220" class="image" />
+    <line x1="150" y1="200" x2="170" y2="220" class="image" />
+  </g>
+</svg>

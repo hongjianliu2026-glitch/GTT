@@ -1,0 +1,69 @@
+---
+id: "016144"
+word: "on-site"
+lemma: "on-site"
+uk: "ˈɒn.sait"
+us: "ˈɑnˌsaɪt"
+source: "COCA2w"
+root: "on-site"
+morph: "on-site"
+---
+
+
+## on-site
+
+**英音:** _[ˈɒn.sait]_ **美音:** _[ˈɑnˌsaɪt]_
+
+**译义:** *在现场的；实地的；adj. 在场的，现场的*
+
+### 短语
+
++ **on-site inspection:** _现场检查_
+
++ **on-site training:** _现场培训_
+
++ **on-site service:** _现场服务_
+
++ **on-site investigation:** _现场调查_
+
++ **on-site maintenance:** _现场维护_
+
+### 例句
+
+#### 例句1
+
+> **The on-site inspection revealed some serious problems.**
+
+**中文翻译:** 现场检查揭示了一些严重的问题。
+
+**单词释义:** 现场的；就地的
+
+#### 例句2
+
+> **We need an on-site engineer to solve this technical issue.**
+
+**中文翻译:** 我们需要一位现场工程师来解决这个技术问题。
+
+**单词释义:** 现场的；就地的
+
+#### 例句3
+
+> **The on-site training was very effective for the new
+employees.**
+
+**中文翻译:** 现场培训对新员工非常有效。
+
+**单词释义:** 现场的；就地的
+
+### 背诵小故事
+
+> Imagine a construction project. Workers are not working remotely but
+are physically present at the construction site. That\'s what
+\'on-site\' means - being at the actual place. For example, \'We need an
+on-site inspection.\'
+
+**想象一个建筑项目。工人们不是远程工作，而是实际出现在建筑工地。这就是'on-site'的意思------在实际的地点。例如，'我们需要一次现场检查。'**
+
+### 图义
+
+![[Images/on-site.png]]

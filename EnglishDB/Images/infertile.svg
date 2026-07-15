@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">infertile</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈfɜːrtaɪl] adj. 不肥沃的，不生育的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + fertile (肥沃的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片贫瘠的土地，"不肥沃(infertile)"，
+    <tspan x="50" dy="25">连种子都无法生长，就像一个无法生育的人。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The infertile soil made farming difficult.
+  </text>
+  <text x="50" y="310" class="content">
+    贫瘠的土壤使得耕作变得困难。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Barren land -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="110" x2="300" y2="110" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <!-- Seed -->
+    <circle cx="175" cy="100" r="10" class="image" />
+    <!-- Cross lines to indicate no growth -->
+    <line x1="165" y1="90" x2="185" y2="110" class="image" />
+    <line x1="165" y1="110" x2="185" y2="90" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rattlesnake</text>
+  <text x="50" y="120" class="subtitle">[ˈrætlˌsneɪk] n. 响尾蛇</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rattle (发出嘎嘎声) + snake (蛇)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条蛇在沙漠中，尾巴发出"嘎嘎声(rattle)"，
+    <tspan x="50" dy="25">警告你不要靠近，这就是响尾蛇(rattlesnake)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hiker was cautious of the rattlesnake in the desert.
+  </text>
+  <text x="50" y="310" class="content">
+    徒步旅行者对沙漠中的响尾蛇保持警惕。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Snake body -->
+    <path d="M0,100 C50,50 150,50 200,100 S300,150 350,100" class="image" />
+    <!-- Snake head -->
+    <circle cx="350" cy="100" r="20" class="image" />
+    <!-- Rattle -->
+    <rect x="200" y="80" width="100" height="40" class="image" />
+    <line x1="220" y1="80" x2="220" y2="120" class="image" />
+    <line x1="240" y1="80" x2="240" y2="120" class="image" />
+    <line x1="260" y1="80" x2="260" y2="120" class="image" />
+    <line x1="280" y1="80" x2="280" y2="120" class="image" />
+    <line x1="300" y1="80" x2="300" y2="120" class="image" />
+  </g>
+</svg>

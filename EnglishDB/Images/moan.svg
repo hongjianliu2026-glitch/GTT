@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">moan</text>
+  <text x="50" y="120" class="subtitle">[moʊn] v. 呻吟，抱怨；n. 呻吟声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mo- (移动) + an (声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人因为疼痛而"移动(mo-)"身体，发出"声音(an)"，
+    <tspan x="50" dy="25">这种声音就是呻吟(moan)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She moaned in pain after the accident.
+  </text>
+  <text x="50" y="310" class="content">
+    事故后她痛苦地呻吟。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="20" y2="250" class="image" />
+    <line x1="50" y1="200" x2="80" y2="250" class="image" />
+    <!-- Mouth -->
+    <ellipse cx="50" cy="90" rx="15" ry="10" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,80 Q60,70 70,80 T90,80" class="image" />
+    <path d="M50,70 Q60,60 70,70 T90,70" class="image" />
+    <path d="M50,60 Q60,50 70,60 T90,60" class="image" />
+  </g>
+</svg>

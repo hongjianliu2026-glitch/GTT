@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">kite</text>
+  <text x="50" y="120" class="subtitle">[kaɪt] n. 风筝</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> kite (源自中古英语，原意为“轻而薄的物体”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个孩子在公园里放风筝，风筝(kite)在空中飞翔，
+    <tspan x="50" dy="25">像一只轻盈的鸟儿，自由自在。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The children were flying kites in the park.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子们在公园里放风筝。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sky -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#87CEEB" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="20" class="image" fill="#FFD700" />
+    <!-- Kite -->
+    <polyline points="50,150 100,50 150,150" class="image" fill="#FF6347" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <!-- Child -->
+    <circle cx="200" cy="180" r="15" class="image" fill="#FFD700" />
+    <line x1="200" y1="195" x2="200" y2="230" class="image" />
+    <line x1="200" y1="230" x2="180" y2="260" class="image" />
+    <line x1="200" y1="230" x2="220" y2="260" class="image" />
+    <line x1="200" y1="210" x2="230" y2="200" class="image" />
+  </g>
+</svg>

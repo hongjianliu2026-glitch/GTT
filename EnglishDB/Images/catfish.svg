@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">catfish</text>
+  <text x="50" y="120" class="subtitle">[ˈkætˌfɪʃ] n. 鲶鱼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cat- (猫) + fish (鱼)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只猫(cat)和一条鱼(fish)在水中嬉戏，
+    <tspan x="50" dy="25">这只猫鱼(catfish)有着猫一样的胡须和鱼一样的尾巴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The catfish was swimming gracefully in the pond.
+  </text>
+  <text x="50" y="310" class="content">
+    鲶鱼在池塘里优雅地游动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fish body -->
+    <ellipse cx="150" cy="100" rx="100" ry="50" class="image" />
+    <!-- Fish tail -->
+    <polygon points="250,100 300,70 300,130" class="image" />
+    <!-- Fish eyes -->
+    <circle cx="100" cy="80" r="10" class="image" />
+    <circle cx="100" cy="120" r="10" class="image" />
+    <!-- Cat whiskers -->
+    <line x1="50" y1="90" x2="0" y2="70" class="image" />
+    <line x1="50" y1="110" x2="0" y2="130" class="image" />
+    <line x1="200" y1="90" x2="250" y2="70" class="image" />
+    <line x1="200" y1="110" x2="250" y2="130" class="image" />
+  </g>
+</svg>

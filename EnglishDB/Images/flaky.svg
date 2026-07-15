@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flaky</text>
+  <text x="50" y="120" class="subtitle">[ˈfleɪki] adj. 薄片的，易剥落的，不可靠的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> flak (薄片) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片薄薄的饼干，轻轻一碰就"剥落(flak)"
+    <tspan x="50" dy="25">成碎片，这种易碎的特性让人联想到不可靠的人(flaky)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is so flaky, you can't rely on him for anything.
+  </text>
+  <text x="50" y="310" class="content">
+    他太不可靠了，你什么事都不能指望他。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flaky biscuit -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Crumbled pieces -->
+    <circle cx="100" cy="100" r="10" class="image" />
+    <circle cx="150" cy="120" r="10" class="image" />
+    <circle cx="200" cy="140" r="10" class="image" />
+    <circle cx="250" cy="160" r="10" class="image" />
+  </g>
+</svg>

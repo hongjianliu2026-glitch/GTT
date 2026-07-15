@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">elimination</text>
+  <text x="50" y="120" class="subtitle">[ɪˌlɪmɪˈneɪʃn] n. 消除，淘汰</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> e- (出) + limin (门槛) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的门槛(limin)，上面堆满了各种物品，
+    <tspan x="50" dy="25">然后有人把这些物品一件件"扔出去(e-)"，这就是消除(elimination)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The elimination of pests is crucial for a healthy garden.
+  </text>
+  <text x="50" y="310" class="content">
+    消除害虫对健康的花园至关重要。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Threshold -->
+    <rect x="0" y="0" width="350" height="50" class="image" />
+    <!-- Items -->
+    <circle cx="50" cy="30" r="15" class="image" />
+    <rect x="80" y="15" width="30" height="30" class="image" />
+    <rect x="120" y="15" width="30" height="30" class="image" />
+    <circle cx="170" cy="30" r="15" class="image" />
+    <rect x="200" y="15" width="30" height="30" class="image" />
+    <!-- Throwing action -->
+    <line x1="250" y1="30" x2="300" y2="80" class="image" />
+    <line x1="250" y1="30" x2="280" y2="80" class="image" />
+    <line x1="250" y1="30" x2="260" y2="80" class="image" />
+    <!-- Eliminated items -->
+    <circle cx="300" cy="80" r="15" class="image" />
+    <rect x="330" y="65" width="30" height="30" class="image" />
+  </g>
+</svg>

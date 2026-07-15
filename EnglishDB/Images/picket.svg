@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">picket</text>
+  <text x="50" y="120" class="subtitle">[ˈpɪkɪt] n. 尖桩，警戒哨；v. 用尖桩围住，派人警戒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pick (尖锐的) + et (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人用"小尖桩(pick-et)"围住一个区域，
+    <tspan x="50" dy="25">这些尖桩就像警戒哨一样，保护着他们的领地。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The protesters picketed outside the embassy.
+  </text>
+  <text x="50" y="310" class="content">
+    抗议者在使馆外设置了警戒哨。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fence -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="0" y1="50" x2="350" y2="50" class="image" />
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <line x1="0" y1="150" x2="350" y2="150" class="image" />
+    <line x1="0" y1="200" x2="350" y2="200" class="image" />
+    <!-- Picket posts -->
+    <line x1="50" y1="0" x2="50" y2="200" class="image" />
+    <line x1="150" y1="0" x2="150" y2="200" class="image" />
+    <line x1="250" y1="0" x2="250" y2="200" class="image" />
+    <line x1="350" y1="0" x2="350" y2="200" class="image" />
+    <!-- Protesters -->
+    <circle cx="100" cy="250" r="15" class="image" />
+    <circle cx="200" cy="250" r="15" class="image" />
+    <circle cx="300" cy="250" r="15" class="image" />
+  </g>
+</svg>

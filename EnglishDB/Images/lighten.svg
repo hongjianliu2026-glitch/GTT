@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lighten</text>
+  <text x="50" y="120" class="subtitle">[ˈlaɪtn] v. 减轻，变亮</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> light (光) + -en (使动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个房间里，原本昏暗的灯光突然"变亮(lighten)"，
+    <tspan x="50" dy="25">整个房间瞬间充满了光明，心情也随之变得轻松愉快。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She tried to lighten the mood with a funny story.
+  </text>
+  <text x="50" y="310" class="content">
+    她试图用一个有趣的故事来活跃气氛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dark room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Light bulb -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <!-- Light rays -->
+    <line x1="175" y1="130" x2="100" y2="200" class="image" />
+    <line x1="175" y1="130" x2="250" y2="200" class="image" />
+    <line x1="175" y1="130" x2="50" y2="150" class="image" />
+    <line x1="175" y1="130" x2="300" y2="150" class="image" />
+    <!-- Happy face -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <circle cx="105" cy="145" r="5" class="image" />
+    <circle cx="95" cy="145" r="5" class="image" />
+    <path d="M90 160 Q100 170 110 160" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">priceless</text>
+  <text x="50" y="120" class="subtitle">[ˈpraɪslɪs] adj. 无价的，极其珍贵的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> price (价格) + less (没有)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗闪闪发光的钻石，"没有价格(price-less)"
+    <tspan x="50" dy="25">因为它太珍贵了，无法用金钱衡量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The painting is priceless; it cannot be bought.
+  </text>
+  <text x="50" y="310" class="content">
+    这幅画是无价的，无法购买。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Diamond -->
+    <polygon points="100,10 150,100 100,190 50,100" class="image" />
+    <!-- Sparkles -->
+    <circle cx="100" cy="10" r="5" class="image" />
+    <circle cx="150" cy="100" r="5" class="image" />
+    <circle cx="100" cy="190" r="5" class="image" />
+    <circle cx="50" cy="100" r="5" class="image" />
+  </g>
+</svg>

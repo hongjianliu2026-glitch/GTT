@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">realization</text>
+  <text x="50" y="120" class="subtitle">[ˌriːəlaɪˈzeɪʃn] n. 实现，领悟</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + al (成为) + -ize (使) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在黑暗中摸索，突然"再次成为(re-al)"
+    <tspan x="50" dy="25">现实中的自己，领悟到(realization)了某个重要的道理。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The realization of her dream came as a surprise.
+  </text>
+  <text x="50" y="310" class="content">
+    她梦想的实现让她感到意外。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dark background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Light bulb -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="180" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="200" r="15" class="image" />
+    <line x1="175" y1="215" x2="175" y2="250" class="image" />
+    <line x1="175" y1="250" x2="155" y2="280" class="image" />
+    <line x1="175" y1="250" x2="195" y2="280" class="image" />
+    <line x1="175" y1="230" x2="205" y2="220" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">articulation</text>
+  <text x="50" y="120" class="subtitle">[ˌɑːrtɪkjʊˈleɪʃn] n. 清晰发音，关节连接</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> arti- (关节) + -cul- (小) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个演讲者，他的嘴巴像关节(arti-)一样灵活，
+    <tspan x="50" dy="25">每个音节都像小零件(-cul-)一样清晰地连接在一起，</tspan>
+    <tspan x="50" dy="25">这就是articulation(清晰发音)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her articulation of the poem was impeccable.
+  </text>
+  <text x="50" y="310" class="content">
+    她对这首诗的发音无可挑剔。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Teeth -->
+    <rect x="70" y="80" width="60" height="40" class="image" />
+    <!-- Tongue -->
+    <rect x="85" y="100" width="30" height="20" class="image" />
+    <!-- Articulation lines -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="70" y2="230" class="image" />
+    <line x1="100" y1="200" x2="130" y2="230" class="image" />
+  </g>
+</svg>

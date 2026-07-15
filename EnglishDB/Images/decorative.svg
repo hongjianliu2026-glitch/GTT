@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">decorative</text>
+  <text x="50" y="120" class="subtitle">[ˈdekərətɪv] adj. 装饰性的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> decor (装饰) + -ative (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个房间里，"装饰(decor)"
+    <tspan x="50" dy="25">着各种美丽的花朵和艺术品，</tspan>
+    <tspan x="50" dy="25">整个房间充满了装饰性的(decorative)氛围。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The room was filled with decorative items.
+  </text>
+  <text x="50" y="310" class="content">
+    房间里摆满了装饰品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Flowers -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="80" cy="50" r="20" class="image" />
+    <circle cx="110" cy="50" r="20" class="image" />
+    <!-- Artwork -->
+    <rect x="150" y="20" width="150" height="160" class="image" />
+    <!-- Decorative items -->
+    <circle cx="320" cy="100" r="15" class="image" />
+    <rect x="300" y="120" width="50" height="50" class="image" />
+  </g>
+</svg>

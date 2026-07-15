@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">peacekeeping</text>
+  <text x="50" y="120" class="subtitle">[ˈpiːsˌkiːpɪŋ] n. 维和</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> peace (和平) + keep (保持) + -ing (进行中的动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群士兵手持盾牌，"保持(keep)"
+    <tspan x="50" dy="25">和平(peace)，防止冲突发生，这就是维和(peacekeeping)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The UN peacekeeping mission was crucial in stabilizing the region.
+  </text>
+  <text x="50" y="310" class="content">
+    联合国维和任务对该地区的稳定至关重要。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Shield -->
+    <rect x="50" y="20" width="100" height="150" class="image" />
+    <!-- Soldier -->
+    <circle cx="100" cy="200" r="15" class="image" />
+    <line x1="100" y1="215" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="80" y2="280" class="image" />
+    <line x1="100" y1="250" x2="120" y2="280" class="image" />
+    <line x1="100" y1="230" x2="130" y2="220" class="image" />
+    <!-- Peace symbol -->
+    <line x1="150" y1="50" x2="150" y2="150" class="image" />
+    <line x1="100" y1="100" x2="200" y2="100" class="image" />
+  </g>
+</svg>

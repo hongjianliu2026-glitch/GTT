@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #7B1FA2; }
+      .image { stroke: #FFA000; stroke-width: 2; fill: none; }
+      .sweet { fill: #FFEB3B; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">confection</text>
+  <text x="50" y="120" class="subtitle">[kənˈfekʃn] n. 糖果，甜点</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (一起) + fect (做)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个甜点师傅在厨房里，"一起做(con-fect)"
+    <tspan x="50" dy="25">出各种美味的糖果和甜点，这些甜点就构成了一个甜点盛宴(confection)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bakery is famous for its confections.
+  </text>
+  <text x="50" y="310" class="content">
+    这家面包店以其糖果闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Kitchen counter -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sweets -->
+    <circle cx="50" cy="100" r="20" class="sweet" />
+    <circle cx="100" cy="100" r="20" class="sweet" />
+    <circle cx="150" cy="100" r="20" class="sweet" />
+    <circle cx="200" cy="100" r="20" class="sweet" />
+    <circle cx="250" cy="100" r="20" class="sweet" />
+    <!-- Chef -->
+    <circle cx="300" cy="100" r="15" class="image" />
+    <line x1="300" y1="115" x2="300" y2="150" class="image" />
+    <line x1="300" y1="150" x2="280" y2="180" class="image" />
+    <line x1="300" y1="150" x2="320" y2="180" class="image" />
+    <line x1="300" y1="130" x2="330" y2="120" class="image" />
+  </g>
+</svg>

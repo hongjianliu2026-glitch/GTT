@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">inadequacy</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnˈædɪkwəsi] n. 不足，不充分</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + ad- (朝向) + equ (平等) + -acy (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的天平上，天平的一端是满满的财富和资源，
+    <tspan x="50" dy="25">而另一端却空空如也。这个人感到"不平等(in-ad-equ-acy)"，</tspan>
+    <tspan x="50" dy="25">因为他拥有的资源远远不足(inadequacy)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The inadequacy of funds hindered the project's progress.
+  </text>
+  <text x="50" y="310" class="content">
+    资金的不足阻碍了项目的进展。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balance scale -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="50" y1="20" x2="150" y2="100" class="image" />
+    <line x1="50" y1="20" x2="0" y2="100" class="image" />
+    <!-- Full side -->
+    <rect x="150" y="100" width="50" height="50" class="image" />
+    <rect x="150" y="160" width="50" height="50" class="image" />
+    <!-- Empty side -->
+    <rect x="0" y="100" width="50" height="50" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="220" r="15" class="image" />
+    <line x1="50" y1="235" x2="50" y2="270" class="image" />
+    <line x1="50" y1="270" x2="35" y2="300" class="image" />
+    <line x1="50" y1="270" x2="65" y2="300" class="image" />
+    <line x1="50" y1="250" x2="70" y2="240" class="image" />
+  </g>
+</svg>

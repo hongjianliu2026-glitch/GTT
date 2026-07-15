@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">married</text>
+  <text x="50" y="120" class="subtitle">[ˈmærid] adj. 已婚的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> marri (婚姻) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一对新人站在婚礼的殿堂上，"婚姻(marri)"
+    <tspan x="50" dy="25">的誓言让他们成为了已婚的(married)夫妻。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They have been married for 10 years.
+  </text>
+  <text x="50" y="310" class="content">
+    他们已经结婚10年了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wedding arch -->
+    <path d="M0 100 L100 0 L200 100 Z" class="image" />
+    <!-- Bride and groom -->
+    <circle cx="70" cy="120" r="20" class="image" />
+    <circle cx="130" cy="120" r="20" class="image" />
+    <!-- Rings -->
+    <circle cx="70" cy="120" r="10" class="image" />
+    <circle cx="130" cy="120" r="10" class="image" />
+    <!-- Veil -->
+    <path d="M70 120 Q50 80 70 40 Z" class="image" />
+  </g>
+</svg>

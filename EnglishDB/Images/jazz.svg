@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jazz</text>
+  <text x="50" y="120" class="subtitle">[dʒæz] n. 爵士乐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自美国黑人音乐，无明确词根
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满活力的爵士乐俱乐部，"即兴演奏(jazz)"
+    <tspan x="50" dy="25">的音乐家们用他们的乐器创造出独特的旋律。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves listening to jazz in the evening.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在晚上听爵士乐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Music notes -->
+    <path d="M10 10 Q20 30 30 10 T50 10" class="image" />
+    <path d="M10 30 Q20 50 30 30 T50 30" class="image" />
+    <path d="M10 50 Q20 70 30 50 T50 50" class="image" />
+    <!-- Trumpet -->
+    <rect x="70" y="10" width="100" height="20" class="image" />
+    <rect x="110" y="30" width="20" height="100" class="image" />
+    <rect x="100" y="130" width="40" height="20" class="image" />
+    <!-- Musician -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+  </g>
+</svg>

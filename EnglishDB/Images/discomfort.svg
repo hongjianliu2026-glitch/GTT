@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">discomfort</text>
+  <text x="50" y="120" class="subtitle">[dɪsˈkʌmfərt] n. 不适，不安；v. 使不适，使不安</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (不) + comfort (舒适)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人坐在一张"不舒适(dis-comfort)"的椅子上，
+    <tspan x="50" dy="25">椅子上的钉子让他感到非常不适。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hard chair caused him great discomfort.
+  </text>
+  <text x="50" y="310" class="content">
+    硬椅子让他感到非常不适。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Chair -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <line x1="50" y1="150" x2="50" y2="250" class="image" />
+    <line x1="150" y1="150" x2="150" y2="250" class="image" />
+    <line x1="0" y1="250" x2="200" y2="250" class="image" />
+    <!-- Nails -->
+    <circle cx="70" cy="50" r="5" class="image" />
+    <circle cx="100" cy="70" r="5" class="image" />
+    <circle cx="130" cy="50" r="5" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <line x1="100" y1="115" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="180" class="image" />
+    <line x1="100" y1="150" x2="120" y2="180" class="image" />
+    <line x1="100" y1="130" x2="130" y2="120" class="image" />
+  </g>
+</svg>

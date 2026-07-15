@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lynch</text>
+  <text x="50" y="120" class="subtitle">[lɪntʃ] v. 私刑处死</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自美国殖民时期弗吉尼亚州州长查尔斯·林奇（Charles Lynch），
+    <tspan x="50" dy="25">他曾对亲英分子进行非正式审判并处决。</tspan>
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="230" class="story">
+    想象一群愤怒的村民，手持绳索和火把，"林奇(lynch)"
+    <tspan x="50" dy="25">一个被指控的罪犯，场面恐怖而令人震惊。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> The mob lynched the accused without a fair trial.
+  </text>
+  <text x="50" y="330" class="content">
+    暴徒未经公正审判就私刑处死了被告。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mob -->
+    <circle cx="50" cy="50" r="15" class="image" />
+    <circle cx="100" cy="50" r="15" class="image" />
+    <circle cx="150" cy="50" r="15" class="image" />
+    <circle cx="200" cy="50" r="15" class="image" />
+    <!-- Rope -->
+    <line x1="125" y1="70" x2="125" y2="150" class="image" />
+    <!-- Accused -->
+    <circle cx="125" cy="160" r="15" class="image" />
+    <!-- Fire -->
+    <rect x="220" y="30" width="30" height="30" class="image" />
+    <line x1="235" y1="30" x2="235" y2="60" class="image" />
+    <line x1="220" y1="45" x2="250" y2="45" class="image" />
+  </g>
+</svg>

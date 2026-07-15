@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">drive-in</text>
+  <text x="50" y="120" class="subtitle">[ˈdraɪvɪn] n. 免下车服务，免下车影院</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> drive (驾驶) + in (在...里面)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一辆车"驾驶(drive)"到"里面(in)"一个特殊的场所，
+    <tspan x="50" dy="25">你可以坐在车里享受服务或观看电影，这就是drive-in。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We went to a drive-in theater last weekend.
+  </text>
+  <text x="50" y="310" class="content">
+    我们上周末去了一个免下车影院。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Car -->
+    <rect x="0" y="0" width="200" height="100" class="image" />
+    <rect x="20" y="20" width="160" height="60" class="image" />
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="150" cy="100" r="20" class="image" />
+    <!-- Drive-in screen -->
+    <rect x="250" y="0" width="300" height="200" class="image" />
+    <line x1="250" y1="100" x2="550" y2="100" class="image" />
+    <line x1="250" y1="150" x2="550" y2="150" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cheesy</text>
+  <text x="50" y="120" class="subtitle">[ˈtʃiːzi] adj. 俗气的，低劣的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cheese (奶酪) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块奶酪(cheese)，表面金黄但内部却充满了廉价的填充物，
+    <tspan x="50" dy="25">这种低劣的奶酪就是"俗气的(cheesy)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The movie was so cheesy that it made me cringe.
+  </text>
+  <text x="50" y="310" class="content">
+    这部电影太俗气了，让我感到很不舒服。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cheese block -->
+    <rect x="0" y="0" width="200" height="150" class="image" fill="#FFD700" />
+    <!-- Cheap filling -->
+    <rect x="20" y="20" width="160" height="110" class="image" fill="#D3D3D3" />
+    <!-- Golden surface -->
+    <rect x="0" y="0" width="200" height="10" class="image" fill="#FFA500" />
+    <!-- Cracks -->
+    <line x1="30" y1="10" x2="170" y2="10" class="image" />
+    <line x1="30" y1="20" x2="170" y2="20" class="image" />
+    <line x1="30" y1="30" x2="170" y2="30" class="image" />
+  </g>
+</svg>

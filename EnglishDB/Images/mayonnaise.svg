@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #5D4037; }
+      .content { font: 18px sans-serif; fill: #795548; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #388E3C; }
+      .image { stroke: #795548; stroke-width: 2; fill: none; }
+      .mayo { fill: #FFF59D; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mayonnaise</text>
+  <text x="50" y="120" class="subtitle">[ˌmeɪəˈneɪz] n. 蛋黄酱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> may (五月) + onnaise (源自法语，意为“酱”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象五月(may)的阳光下，一位厨师正在制作一种美味的酱(onnaise)，
+    <tspan x="50" dy="25">这种酱就是蛋黄酱(mayonnaise)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She spread mayonnaise on her sandwich.
+  </text>
+  <text x="50" y="310" class="content">
+    她在三明治上涂了蛋黄酱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bowl -->
+    <ellipse cx="175" cy="100" rx="150" ry="70" class="image" />
+    <!-- Mayonnaise -->
+    <ellipse cx="175" cy="100" rx="140" ry="60" class="mayo" />
+    <!-- Chef -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="30" y2="130" class="image" />
+    <line x1="50" y1="150" x2="70" y2="130" class="image" />
+    <line x1="50" y1="180" x2="30" y2="200" class="image" />
+    <line x1="50" y1="180" x2="70" y2="200" class="image" />
+    <!-- Spoon -->
+    <line x1="100" y1="100" x2="250" y2="100" class="image" />
+    <line x1="250" y1="100" x2="230" y2="80" class="image" />
+    <line x1="250" y1="100" x2="230" y2="120" class="image" />
+  </g>
+</svg>

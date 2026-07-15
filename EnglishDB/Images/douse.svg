@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">douse</text>
+  <text x="50" y="120" class="subtitle">[daʊs] v. 熄灭，泼水</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> douse (来自中古英语 dousen，意为“浸湿”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人拿着水桶，"泼水(douse)"
+    <tspan x="50" dy="25">在火上，火瞬间熄灭。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The firefighters quickly doused the flames.
+  </text>
+  <text x="50" y="310" class="content">
+    消防员迅速扑灭了火焰。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bucket -->
+    <rect x="0" y="0" width="100" height="100" class="image" />
+    <!-- Water splashing -->
+    <line x1="110" y1="50" x2="150" y2="50" class="image" />
+    <line x1="110" y1="60" x2="160" y2="60" class="image" />
+    <line x1="110" y1="70" x2="170" y2="70" class="image" />
+    <!-- Fire -->
+    <polygon points="200,50 220,100 180,100" class="image" />
+    <polygon points="210,60 230,110 190,110" class="image" />
+    <polygon points="220,70 240,120 200,120" class="image" />
+  </g>
+</svg>

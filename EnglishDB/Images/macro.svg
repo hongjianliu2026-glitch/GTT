@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">macro</text>
+  <text x="50" y="120" class="subtitle">[ˈmækroʊ] n. 宏，宏指令</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> macro- (大的，长的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的(macro)键盘，上面有一个特别大的按键，
+    <tspan x="50" dy="25">按下它就能执行一连串复杂的操作，这就是宏(macro)的力量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He created a macro to automate the data entry process.
+  </text>
+  <text x="50" y="310" class="content">
+    他创建了一个宏来自动化数据录入过程。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Keyboard -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Large key -->
+    <rect x="150" y="50" width="50" height="50" class="image" />
+    <!-- Small keys -->
+    <rect x="50" y="50" width="30" height="30" class="image" />
+    <rect x="90" y="50" width="30" height="30" class="image" />
+    <rect x="190" y="50" width="30" height="30" class="image" />
+    <rect x="230" y="50" width="30" height="30" class="image" />
+    <!-- Arrow pointing to large key -->
+    <line x1="200" y1="110" x2="200" y2="150" class="image" />
+    <polygon points="200,150 190,140 210,140" class="image" />
+    <text x="180" y="160" class="content">macro</text>
+  </g>
+</svg>

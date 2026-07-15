@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tube</text>
+  <text x="50" y="120" class="subtitle">[tjuːb] n. 管子，地铁；v. 用管道输送</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tub (桶) + -e (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小桶(tub-e)被拉长，变成了一个长长的管子(tube)，
+    <tspan x="50" dy="25">这个管子可以用来输送液体，或者作为地铁的通道。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He took the tube to work every day.
+  </text>
+  <text x="50" y="310" class="content">
+    他每天乘地铁去上班。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tube -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <!-- Liquid inside the tube -->
+    <rect x="10" y="10" width="330" height="80" fill="#1ABC9C" />
+    <!-- Arrow indicating flow -->
+    <line x1="20" y1="50" x2="330" y2="50" class="image" />
+    <polygon points="330,45 340,50 330,55" fill="#7F8C8D" />
+    <!-- Small bucket -->
+    <rect x="150" y="120" width="50" height="50" class="image" />
+    <!-- Handle of the bucket -->
+    <line x1="175" y1="120" x2="175" y2="100" class="image" />
+  </g>
+</svg>

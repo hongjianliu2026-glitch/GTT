@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">antisocial</text>
+  <text x="50" y="120" class="subtitle">[ˌæntiˈsoʊʃl] adj. 反社会的，不合群的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> anti- (反对) + social (社会的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在人群之外，"反对(anti-)"
+    <tspan x="50" dy="25">融入社会(social)，表现出不合群的行为。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His antisocial behavior made it hard for him to make friends.
+  </text>
+  <text x="50" y="310" class="content">
+    他的反社会行为使他很难交到朋友。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person standing alone -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="140" x2="20" y2="160" class="image" />
+    <line x1="50" y1="140" x2="80" y2="160" class="image" />
+
+    <!-- Crowd -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <circle cx="230" cy="100" r="15" class="image" />
+    <circle cx="260" cy="100" r="15" class="image" />
+    <circle cx="290" cy="100" r="15" class="image" />
+    <circle cx="320" cy="100" r="15" class="image" />
+    <circle cx="350" cy="100" r="15" class="image" />
+    <circle cx="380" cy="100" r="15" class="image" />
+    <circle cx="410" cy="100" r="15" class="image" />
+    <circle cx="440" cy="100" r="15" class="image" />
+    <circle cx="470" cy="100" r="15" class="image" />
+    <circle cx="500" cy="100" r="15" class="image" />
+    <circle cx="530" cy="100" r="15" class="image" />
+    <circle cx="560" cy="100" r="15" class="image" />
+    <circle cx="590" cy="100" r="15" class="image" />
+    <circle cx="620" cy="100" r="15" class="image" />
+    <circle cx="650" cy="100" r="15" class="image" />
+    <circle cx="680" cy="100" r="15" class="image" />
+    <circle cx="710" cy="100" r="15" class="image" />
+    <circle cx="740" cy="100" r="15" class="image" />
+    <circle cx="770" cy="100" r="15" class="image" />
+  </g>
+</svg>

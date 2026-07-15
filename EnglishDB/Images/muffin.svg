@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .muffin { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">muffin</text>
+  <text x="50" y="120" class="subtitle">[ˈmʌfɪn] n. 松饼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> muff (温暖) + in (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小巧的松饼(muffin)，"温暖(muff)"
+    <tspan x="50" dy="25">地放在你的手中，散发着诱人的香气。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She baked a batch of blueberry muffins this morning.
+  </text>
+  <text x="50" y="310" class="content">
+    她今天早上烤了一盘蓝莓松饼。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Muffin -->
+    <circle cx="100" cy="100" r="50" class="muffin" />
+    <circle cx="100" cy="70" r="30" class="muffin" />
+    <circle cx="100" cy="40" r="20" class="muffin" />
+    <!-- Steam -->
+    <line x1="100" y1="40" x2="100" y2="20" class="image" />
+    <line x1="100" y1="20" x2="90" y2="10" class="image" />
+    <line x1="100" y1="20" x2="110" y2="10" class="image" />
+  </g>
+</svg>

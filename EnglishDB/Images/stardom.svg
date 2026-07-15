@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w33.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">stardom</text>
+  <text x="50" y="120" class="subtitle">[ˈstɑːrdəm] n. 明星地位，明星界</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> star (星星) + -dom (状态或领域)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的星星(star)，它不仅闪耀，还统治着一片领域(-dom)，
+    <tspan x="50" dy="25">这片领域就是明星界(stardom)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her talent and hard work led her to stardom.
+  </text>
+  <text x="50" y="310" class="content">
+    她的才华和努力使她成为了明星。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Star -->
+    <polygon points="100,10 40,198 190,78 10,78 160,198" class="image" />
+    <!-- Spotlight -->
+    <ellipse cx="100" cy="200" rx="150" ry="50" class="image" />
+    <!-- Stage -->
+    <rect x="0" y="250" width="350" height="100" class="image" />
+    <!-- Crowd -->
+    <circle cx="50" cy="300" r="10" class="image" />
+    <circle cx="100" cy="300" r="10" class="image" />
+    <circle cx="150" cy="300" r="10" class="image" />
+    <circle cx="200" cy="300" r="10" class="image" />
+    <circle cx="250" cy="300" r="10" class="image" />
+    <circle cx="300" cy="300" r="10" class="image" />
+  </g>
+</svg>

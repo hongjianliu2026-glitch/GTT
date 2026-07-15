@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sherry</text>
+  <text x="50" y="120" class="subtitle">[ˈʃɛri] n. 雪利酒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词源:</tspan> 源自西班牙语 "Jerez"，指一种产自西班牙的加强葡萄酒。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个西班牙的阳光午后，"雪利酒(sherry)"
+    <tspan x="50" dy="25">在古老的酒窖中陈酿，散发出诱人的香气。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He enjoyed a glass of sherry after dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    他晚餐后喜欢喝一杯雪利酒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wine bottle -->
+    <rect x="0" y="0" width="100" height="300" class="image" />
+    <rect x="20" y="20" width="60" height="260" class="image" />
+    <!-- Wine glass -->
+    <rect x="150" y="150" width="50" height="100" class="image" />
+    <rect x="160" y="160" width="30" height="80" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="100" r="50" class="image" />
+    <!-- Wine cellar -->
+    <rect x="250" y="250" width="200" height="50" class="image" />
+    <rect x="260" y="260" width="180" height="30" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lifeboat</text>
+  <text x="50" y="120" class="subtitle">[ˈlaɪfbəʊt] n. 救生艇</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> life (生命) + boat (船)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一艘救生艇在汹涌的海浪中，"承载着生命的希望(life-boat)"，
+    <tspan x="50" dy="25">帮助人们逃离危险，重获新生。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crew members quickly launched the lifeboat when the ship started sinking.
+  </text>
+  <text x="50" y="310" class="content">
+    当船开始下沉时，船员们迅速放下了救生艇。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Boat -->
+    <polygon points="0,100 100,100 75,50 25,50" class="image" />
+    <!-- Waves -->
+    <path d="M0,100 Q50,150 100,100" class="image" />
+    <path d="M0,120 Q50,170 100,120" class="image" />
+    <!-- Life preserver -->
+    <circle cx="50" cy="70" r="15" class="image" />
+    <line x1="50" y1="55" x2="50" y2="85" class="image" />
+    <line x1="40" y1="70" x2="60" y2="70" class="image" />
+  </g>
+</svg>

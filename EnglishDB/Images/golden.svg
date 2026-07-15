@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9C4; }
+      .title { font: bold 48px sans-serif; fill: #FFD700; }
+      .subtitle { font: italic 24px serif; fill: #8B4513; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #DAA520; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #FFD700; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">golden</text>
+  <text x="50" y="120" class="subtitle">[ˈɡoʊldən] adj. 金色的，金制的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gold (金子) + -en (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个金色的太阳，"金子般的(golden)"
+    <tspan x="50" dy="25">光芒洒在大地上，一切都变得辉煌灿烂。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The golden sunset painted the sky.
+  </text>
+  <text x="50" y="310" class="content">
+    金色的夕阳染红了天空。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#FFD700" />
+    <!-- Rays -->
+    <line x1="100" y1="50" x2="100" y2="0" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="50" y1="100" x2="0" y2="100" class="image" />
+    <!-- Ground -->
+    <rect x="0" y="150" width="200" height="50" class="image" fill="#DAA520" />
+  </g>
+</svg>

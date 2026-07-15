@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .grass { fill: #2ECC71; }
+      .sky { fill: #3498DB; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bluegrass</text>
+  <text x="50" y="120" class="subtitle">[ˈbluːɡræs] n. 蓝草（一种植物）；蓝草音乐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blue (蓝色) + grass (草)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片广阔的草原，"蓝色的草(blue-grass)"
+    <tspan x="50" dy="25">在阳光下闪耀，仿佛整个草原都被染成了蓝色。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The festival featured traditional bluegrass music.
+  </text>
+  <text x="50" y="310" class="content">
+    音乐节上表演了传统的蓝草音乐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sky -->
+    <rect x="0" y="0" width="350" height="200" class="sky" />
+    <!-- Grass -->
+    <rect x="0" y="150" width="350" height="50" class="grass" />
+    <!-- Bluegrass -->
+    <rect x="150" y="120" width="50" height="30" class="grass" />
+    <rect x="160" y="110" width="30" height="10" class="grass" />
+    <rect x="170" y="100" width="10" height="10" class="grass" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" fill="#F1C40F" />
+  </g>
+</svg>

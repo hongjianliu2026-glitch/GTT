@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pleasant</text>
+  <text x="50" y="120" class="subtitle">[ˈplɛzənt] adj. 令人愉快的，舒适的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pleas (使高兴) + -ant (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的下午，"使高兴(pleas)"
+    <tspan x="50" dy="25">的微风轻轻吹过，带来一种令人愉快的(pleasant)感觉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The park is a pleasant place to relax on weekends.
+  </text>
+  <text x="50" y="310" class="content">
+    公园是周末放松的愉快场所。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="50" cy="50" r="40" fill="#F1C40F" />
+    <!-- Wind -->
+    <path d="M100,50 Q150,20 200,50" stroke="#2ECC71" stroke-width="5" fill="none" />
+    <!-- Person -->
+    <circle cx="250" cy="100" r="20" fill="#3498DB" />
+    <line x1="250" y1="120" x2="250" y2="180" stroke="#3498DB" stroke-width="5" />
+    <line x1="250" y1="150" x2="220" y2="130" stroke="#3498DB" stroke-width="5" />
+    <line x1="250" y1="150" x2="280" y2="130" stroke="#3498DB" stroke-width="5" />
+    <line x1="250" y1="180" x2="220" y2="200" stroke="#3498DB" stroke-width="5" />
+    <line x1="250" y1="180" x2="280" y2="200" stroke="#3498DB" stroke-width="5" />
+  </g>
+</svg>

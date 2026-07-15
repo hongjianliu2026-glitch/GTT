@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">statue</text>
+  <text x="50" y="120" class="subtitle">[ˈstætʃuː] n. 雕像，塑像</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> stat (站立) + -ue (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的石头人"站立(stat)"在广场上，
+    <tspan x="50" dy="25">它是一个雕像(statue)，代表着永恒的纪念。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The statue of liberty is a symbol of freedom.
+  </text>
+  <text x="50" y="310" class="content">
+    自由女神像是自由的象征。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Base of the statue -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Body of the statue -->
+    <rect x="125" y="20" width="100" height="160" class="image" />
+    <!-- Head of the statue -->
+    <circle cx="175" cy="10" r="20" class="image" />
+    <!-- Arms of the statue -->
+    <line x1="125" y1="80" x2="80" y2="120" class="image" />
+    <line x1="225" y1="80" x2="270" y2="120" class="image" />
+    <!-- Text annotation -->
+    <text x="150" y="220" class="content" text-anchor="middle">Statue</text>
+  </g>
+</svg>

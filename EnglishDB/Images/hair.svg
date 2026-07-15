@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hair</text>
+  <text x="50" y="120" class="subtitle">[her] n. 头发</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hai- (毛发)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个长发飘飘的仙女，她的"毛发(hai-)"
+    <tspan x="50" dy="25">在风中飘扬，每一根头发都像是精心编织的丝线。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has long, flowing hair.
+  </text>
+  <text x="50" y="310" class="content">
+    她有一头长长的飘逸的头发。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Hair -->
+    <path d="M 50 100 Q 75 50 100 100 Q 125 50 150 100" class="image" />
+    <path d="M 50 120 Q 75 70 100 120 Q 125 70 150 120" class="image" />
+    <path d="M 50 140 Q 75 90 100 140 Q 125 90 150 140" class="image" />
+  </g>
+</svg>

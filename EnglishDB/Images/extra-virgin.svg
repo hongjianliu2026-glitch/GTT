@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">extra-virgin</text>
+  <text x="50" y="120" class="subtitle">[ˌɛkstrəˈvɜrdʒɪn] n. 特级初榨橄榄油</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> extra- (超过) + virgin (处女)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个橄榄油生产过程，"超过(extra)"
+    <tspan x="50" dy="25">处女(virgin)般的纯净，这就是特级初榨橄榄油(extra-virgin)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She prefers extra-virgin olive oil for cooking.
+  </text>
+  <text x="50" y="310" class="content">
+    她更喜欢用特级初榨橄榄油烹饪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Olive tree -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="170" class="image" />
+    <line x1="50" y1="150" x2="80" y2="170" class="image" />
+    <line x1="50" y1="180" x2="20" y2="200" class="image" />
+    <line x1="50" y1="180" x2="80" y2="200" class="image" />
+
+    <!-- Olive oil bottle -->
+    <rect x="150" y="50" width="100" height="200" class="image" />
+    <line x1="200" y1="50" x2="200" y2="250" class="image" />
+    <line x1="150" y1="150" x2="250" y2="150" class="image" />
+    <line x1="150" y1="250" x2="250" y2="250" class="image" />
+
+    <!-- Virgin symbol -->
+    <circle cx="350" cy="150" r="50" class="image" />
+    <line x1="350" y1="200" x2="350" y2="300" class="image" />
+    <line x1="350" y1="250" x2="300" y2="270" class="image" />
+    <line x1="350" y1="250" x2="400" y2="270" class="image" />
+  </g>
+</svg>

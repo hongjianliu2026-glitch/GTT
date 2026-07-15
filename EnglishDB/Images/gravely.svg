@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gravely</text>
+  <text x="50" y="120" class="subtitle">[ˈɡreɪvli] adv. 严重地，严肃地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> grav (重) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的天平上，天平的一端放着一块沉重的石头，象征着"严重(grav)"的情况。
+    <tspan x="50" dy="25">这个人表情严肃，仿佛在思考如何应对这个"严重(gravely)"的局面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor looked gravely at the patient's test results.
+  </text>
+  <text x="50" y="310" class="content">
+    医生严肃地看着病人的检查结果。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balance scale -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="50" y1="20" x2="150" y2="20" class="image" />
+    <line x1="50" y1="180" x2="150" y2="180" class="image" />
+    <!-- Heavy stone -->
+    <rect x="60" y="30" width="80" height="150" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <line x1="100" y1="115" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="180" class="image" />
+    <line x1="100" y1="150" x2="120" y2="180" class="image" />
+    <line x1="100" y1="130" x2="130" y2="120" class="image" />
+  </g>
+</svg>

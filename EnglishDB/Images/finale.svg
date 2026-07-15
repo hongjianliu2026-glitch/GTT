@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">finale</text>
+  <text x="50" y="120" class="subtitle">[fɪˈnɑːli] n. 终曲，结局</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fin (结束) + -ale (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场盛大的音乐会，"结束(fin)"
+    <tspan x="50" dy="25">时，指挥家挥动指挥棒，奏响了最后的乐章(finale)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The finale of the concert was a spectacular performance.
+  </text>
+  <text x="50" y="310" class="content">
+    音乐会的终曲是一场壮观的表演。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Concert stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Conductor -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <line x1="50" y1="115" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="30" y2="180" class="image" />
+    <line x1="50" y1="150" x2="70" y2="180" class="image" />
+    <line x1="50" y1="130" x2="80" y2="120" class="image" />
+    <!-- Baton -->
+    <line x1="50" y1="115" x2="100" y2="115" class="image" />
+    <!-- Musical notes -->
+    <path d="M120 100 Q140 80 160 100 T200 100" class="image" />
+    <path d="M120 120 Q140 100 160 120 T200 120" class="image" />
+    <path d="M120 140 Q140 120 160 140 T200 140" class="image" />
+  </g>
+</svg>

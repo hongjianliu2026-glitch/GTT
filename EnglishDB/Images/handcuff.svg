@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">handcuff</text>
+  <text x="50" y="120" class="subtitle">[ˈhændkʌf] n. 手铐；v. 给...戴上手铐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hand (手) + cuff (袖口)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个警察给一个罪犯戴上手铐，"手(hand)"被"袖口(cuff)"
+    <tspan x="50" dy="25">紧紧束缚，这就是手铐(handcuff)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The police officer handcuffed the suspect.
+  </text>
+  <text x="50" y="310" class="content">
+    警察给嫌疑人戴上了手铐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Handcuffs -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="50" x2="100" y2="50" class="image" />
+    <line x1="50" y1="100" x2="100" y2="100" class="image" />
+    <line x1="75" y1="50" x2="75" y2="100" class="image" />
+    <line x1="125" y1="50" x2="175" y2="50" class="image" />
+    <line x1="125" y1="100" x2="175" y2="100" class="image" />
+    <line x1="150" y1="50" x2="150" y2="100" class="image" />
+    <!-- Police officer -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Suspect -->
+    <circle cx="250" cy="100" r="15" class="image" />
+    <line x1="250" y1="115" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="230" y2="180" class="image" />
+    <line x1="250" y1="150" x2="270" y2="180" class="image" />
+    <line x1="250" y1="130" x2="300" y2="120" class="image" />
+  </g>
+</svg>

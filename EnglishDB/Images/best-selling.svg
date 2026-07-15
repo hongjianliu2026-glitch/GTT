@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">best-selling</text>
+  <text x="50" y="120" class="subtitle">[ˌbɛstˈsɛlɪŋ] adj. 畅销的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> best (最好的) + sell (卖) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一本"最好的(best)"书在书店里"卖(sell)"得飞快，
+    <tspan x="50" dy="25">人们争相购买，这就是"畅销的(best-selling)"书。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The novel became a best-selling book within a week.
+  </text>
+  <text x="50" y="310" class="content">
+    这本小说在一周内成为了畅销书。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Book -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <line x1="10" y1="10" x2="140" y2="10" class="image" />
+    <line x1="10" y1="50" x2="140" y2="50" class="image" />
+    <line x1="10" y1="90" x2="140" y2="90" class="image" />
+    <line x1="10" y1="130" x2="140" y2="130" class="image" />
+    <line x1="10" y1="170" x2="140" y2="170" class="image" />
+    <!-- Money -->
+    <rect x="170" y="50" width="100" height="50" class="image" />
+    <line x1="180" y1="60" x2="260" y2="60" class="image" />
+    <line x1="180" y1="80" x2="260" y2="80" class="image" />
+    <line x1="180" y1="100" x2="260" y2="100" class="image" />
+    <!-- People -->
+    <circle cx="220" cy="150" r="15" class="image" />
+    <line x1="220" y1="165" x2="220" y2="200" class="image" />
+    <line x1="220" y1="200" x2="200" y2="230" class="image" />
+    <line x1="220" y1="200" x2="240" y2="230" class="image" />
+    <line x1="220" y1="180" x2="250" y2="170" class="image" />
+  </g>
+</svg>

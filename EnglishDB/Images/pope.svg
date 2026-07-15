@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pope</text>
+  <text x="50" y="120" class="subtitle">[poʊp] n. 教皇，罗马主教</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pop (人民) + -e (后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个教皇站在高高的讲台上，"人民(pop)"
+    <tspan x="50" dy="25">的领袖，象征着宗教的最高权威。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The pope visited the city during his tour.
+  </text>
+  <text x="50" y="310" class="content">
+    教皇在巡游期间访问了这座城市。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Pope's hat -->
+    <path d="M50 20 L100 20 L120 50 L30 50 Z" class="image" />
+    <!-- Pope's face -->
+    <circle cx="80" cy="70" r="20" class="image" />
+    <!-- Pope's robe -->
+    <rect x="40" y="90" width="80" height="100" class="image" />
+    <!-- Pope's staff -->
+    <line x1="80" y1="190" x2="80" y2="250" class="image" />
+    <circle cx="80" cy="250" r="10" class="image" />
+  </g>
+</svg>

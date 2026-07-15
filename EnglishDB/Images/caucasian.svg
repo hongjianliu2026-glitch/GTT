@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Caucasian</text>
+  <text x="50" y="120" class="subtitle">[koʊˈkeɪʒən] n. 高加索人，白种人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Caucasus (高加索山脉)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个白种人站在高加索山脉前，
+    <tspan x="50" dy="25">他的肤色与山脉的雪白相映成趣，</tspan>
+    <tspan x="50" dy="25">这就是“高加索人”(Caucasian)的由来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The painting featured a Caucasian family in the mountains.
+  </text>
+  <text x="50" y="310" class="content">
+    这幅画描绘了一个在高加索山脉中的白人家庭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountains -->
+    <polygon points="0,100 50,50 100,100 150,50 200,100 250,50 300,100" class="image" />
+    <!-- Person -->
+    <circle cx="150" cy="150" r="20" class="image" />
+    <line x1="150" y1="170" x2="150" y2="220" class="image" />
+    <line x1="150" y1="220" x2="130" y2="250" class="image" />
+    <line x1="150" y1="220" x2="170" y2="250" class="image" />
+    <line x1="150" y1="190" x2="120" y2="180" class="image" />
+    <line x1="150" y1="190" x2="180" y2="180" class="image" />
+  </g>
+</svg>

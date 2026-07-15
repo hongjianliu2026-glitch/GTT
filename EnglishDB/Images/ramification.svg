@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ramification</text>
+  <text x="50" y="120" class="subtitle">[ˌræmɪfɪˈkeɪʃn] n. 分支，衍生物；后果</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ram (分支) + -fication (使成为)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一棵大树，"分支(ram)"
+    <tspan x="50" dy="25">不断扩展，每个分支都代表一个</tspan>
+    <tspan x="50" dy="25">不同的后果或衍生物(ramification)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The new policy has many ramifications for the company.
+  </text>
+  <text x="50" y="310" class="content">
+    新政策对公司有许多影响。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree trunk -->
+    <rect x="150" y="0" width="20" height="200" class="image" />
+    <!-- Branches -->
+    <line x1="160" y1="50" x2="250" y2="100" class="image" />
+    <line x1="160" y1="100" x2="200" y2="150" class="image" />
+    <line x1="160" y1="150" x2="100" y2="200" class="image" />
+    <line x1="160" y1="200" x2="50" y2="250" class="image" />
+    <!-- Leaves -->
+    <circle cx="250" cy="100" r="10" class="image" />
+    <circle cx="200" cy="150" r="10" class="image" />
+    <circle cx="100" cy="200" r="10" class="image" />
+    <circle cx="50" cy="250" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">crypt</text>
+  <text x="50" y="120" class="subtitle">[krɪpt] n. 地窖，地下室</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crypt (隐藏)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的教堂，地下有一个"隐藏(crypt)"的房间，
+    <tspan x="50" dy="25">里面存放着珍贵的文物和秘密。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The archaeologists discovered a crypt beneath the church.
+  </text>
+  <text x="50" y="310" class="content">
+    考古学家在教堂下发现了一个地窖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Church -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,20 300,20 350,100 0,100" class="image" />
+    <!-- Crypt -->
+    <rect x="100" y="120" width="150" height="60" class="image" />
+    <!-- Door -->
+    <rect x="150" y="140" width="50" height="40" class="image" />
+    <!-- Treasure -->
+    <circle cx="125" cy="150" r="10" class="image" />
+    <circle cx="175" cy="150" r="10" class="image" />
+    <circle cx="225" cy="150" r="10" class="image" />
+  </g>
+</svg>

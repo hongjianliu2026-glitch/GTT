@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">federalism</text>
+  <text x="50" y="120" class="subtitle">[ˈfedərəlɪzəm] n. 联邦制</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> feder- (联盟) + -al (形容词后缀) + -ism (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的联盟(feder-)，由多个小国家组成，
+    <tspan x="50" dy="25">每个国家都有自己的政府，但共同遵守一个中央政府的指导，</tspan>
+    <tspan x="50" dy="25">这就是联邦制(federalism)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The United States practices federalism, with both state and federal governments.
+  </text>
+  <text x="50" y="310" class="content">
+    美国实行联邦制，既有州政府也有联邦政府。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Central government -->
+    <rect x="0" y="0" width="150" height="150" class="image" />
+    <text x="75" y="80" text-anchor="middle" class="content">中央政府</text>
+
+    <!-- State governments -->
+    <rect x="200" y="0" width="100" height="100" class="image" />
+    <text x="250" y="55" text-anchor="middle" class="content">州政府</text>
+    <rect x="200" y="120" width="100" height="100" class="image" />
+    <text x="250" y="175" text-anchor="middle" class="content">州政府</text>
+    <rect x="200" y="240" width="100" height="100" class="image" />
+    <text x="250" y="295" text-anchor="middle" class="content">州政府</text>
+
+    <!-- Connections -->
+    <line x1="150" y1="75" x2="200" y2="50" class="image" />
+    <line x1="150" y1="75" x2="200" y2="170" class="image" />
+    <line x1="150" y1="75" x2="200" y2="290" class="image" />
+  </g>
+</svg>

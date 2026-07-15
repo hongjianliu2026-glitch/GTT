@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">resentful</text>
+  <text x="50" y="120" class="subtitle">[rɪˈzɛntfəl] adj. 怨恨的，不满的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + sent (感觉) + -ful (充满...)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被不公平对待，"再次感受到(re-sent)"
+    <tspan x="50" dy="25">内心的不满，这种情绪充满了怨恨(resentful)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was resentful of the way she was treated at work.
+  </text>
+  <text x="50" y="310" class="content">
+    她对在工作中的待遇感到不满。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person with a frown -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="40" y1="40" x2="50" y2="50" class="image" />
+    <line x1="60" y1="40" x2="50" y2="50" class="image" />
+    <line x1="40" y1="60" x2="60" y2="60" class="image" />
+    <!-- Arrow pointing down -->
+    <line x1="50" y1="80" x2="50" y2="120" class="image" />
+    <polygon points="45,115 50,120 55,115" class="image" />
+    <!-- Broken heart -->
+    <path d="M80,80 C80,60 100,60 100,80 C100,100 80,100 80,80 Z" class="image" />
+    <line x1="85" y1="75" x2="95" y2="85" class="image" />
+  </g>
+</svg>

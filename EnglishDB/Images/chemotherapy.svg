@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">chemotherapy</text>
+  <text x="50" y="120" class="subtitle">[ˌkɛməʊˈθɛrəpi] n. 化学疗法，化疗</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> chemo- (化学) + therapy (治疗)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个医生拿着一瓶"化学(chemo)"药物，
+    <tspan x="50" dy="25">准备用它来"治疗(therapy)"癌症患者。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She underwent chemotherapy to treat her cancer.
+  </text>
+  <text x="50" y="310" class="content">
+    她接受了化疗来治疗她的癌症。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Doctor -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Chemical bottle -->
+    <rect x="70" y="80" width="50" height="100" class="image" />
+    <line x1="95" y1="80" x2="95" y2="60" class="image" />
+    <line x1="70" y1="100" x2="120" y2="100" class="image" />
+    <line x1="70" y1="120" x2="120" y2="120" class="image" />
+    <line x1="70" y1="140" x2="120" y2="140" class="image" />
+    <line x1="70" y1="160" x2="120" y2="160" class="image" />
+    <!-- Patient -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+  </g>
+</svg>

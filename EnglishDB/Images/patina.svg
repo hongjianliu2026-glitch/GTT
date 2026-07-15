@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">patina</text>
+  <text x="50" y="120" class="subtitle">[ˈpætɪnə] n. 铜绿，光泽</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> patina源自拉丁语patina，意为“平底锅”，
+    <tspan x="50" dy="25">后引申为“铜绿”或“光泽”。</tspan>
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="230" class="story">
+    想象一个古老的铜锅，经过岁月的洗礼，表面形成了
+    <tspan x="50" dy="25">一层美丽的铜绿(patina)，这层铜绿不仅保护了铜锅，</tspan>
+    <tspan x="50" dy="25">还赋予了它独特的光泽和历史感。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="320" class="content">
+    <tspan class="highlight">例句:</tspan> The patina on the antique bronze statue added to its charm.
+  </text>
+  <text x="50" y="350" class="content">
+    古铜像上的铜绿增添了它的魅力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ancient copper pot -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Patina -->
+    <circle cx="175" cy="100" r="70" fill="#B7C3D0" />
+    <!-- Handle -->
+    <rect x="230" y="50" width="30" height="100" class="image" />
+    <!-- Reflection -->
+    <line x1="100" y1="50" x2="250" y2="50" class="image" />
+    <line x1="100" y1="70" x2="250" y2="70" class="image" />
+    <line x1="100" y1="90" x2="250" y2="90" class="image" />
+  </g>
+</svg>

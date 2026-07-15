@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fruitless</text>
+  <text x="50" y="120" class="subtitle">[ˈfruːtləs] adj. 无成果的，无用的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fruit (果实) + -less (无)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一棵树上没有果实，"无果实(fruit-less)"
+    <tspan x="50" dy="25">的努力就像这棵树，毫无成果。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The meeting was fruitless; we didn't reach any conclusion.
+  </text>
+  <text x="50" y="310" class="content">
+    会议毫无成果，我们没有达成任何结论。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree trunk -->
+    <rect x="150" y="0" width="20" height="200" class="image" />
+    <!-- Branches -->
+    <line x1="160" y1="20" x2="200" y2="80" class="image" />
+    <line x1="160" y1="20" x2="120" y2="80" class="image" />
+    <line x1="160" y1="100" x2="200" y2="160" class="image" />
+    <line x1="160" y1="100" x2="120" y2="160" class="image" />
+    <!-- No fruits -->
+    <circle cx="180" cy="60" r="10" class="image" fill="#D0D3D4" />
+    <circle cx="140" cy="60" r="10" class="image" fill="#D0D3D4" />
+    <circle cx="180" cy="140" r="10" class="image" fill="#D0D3D4" />
+    <circle cx="140" cy="140" r="10" class="image" fill="#D0D3D4" />
+    <!-- Sad face -->
+    <circle cx="160" cy="220" r="20" class="image" fill="#F1C40F" />
+    <circle cx="150" cy="215" r="5" class="image" fill="#2C3E50" />
+    <circle cx="170" cy="215" r="5" class="image" fill="#2C3E50" />
+    <line x1="150" y1="230" x2="170" y2="230" class="image" />
+  </g>
+</svg>

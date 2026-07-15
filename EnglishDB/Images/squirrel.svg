@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">squirrel</text>
+  <text x="50" y="120" class="subtitle">[ˈskwɜːrl] n. 松鼠</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sur- (在上面) + -cue (尾巴)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只松鼠在树枝上，"在上面(sur-)"
+    <tspan x="50" dy="25">摇晃着它那毛茸茸的"尾巴(cue)"，</tspan>
+    <tspan x="50" dy="25">这就是松鼠(squirrel)的生动画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The squirrel scurried up the tree.
+  </text>
+  <text x="50" y="310" class="content">
+    松鼠飞快地爬上了树。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree branch -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <!-- Squirrel body -->
+    <circle cx="100" cy="50" r="30" class="image" />
+    <!-- Squirrel tail -->
+    <path d="M 100 80 Q 150 120 200 80" class="image" />
+    <!-- Squirrel head -->
+    <circle cx="100" cy="30" r="10" class="image" />
+    <!-- Squirrel eyes -->
+    <circle cx="90" cy="25" r="2" class="image" />
+    <circle cx="110" cy="25" r="2" class="image" />
+    <!-- Squirrel legs -->
+    <line x1="70" y1="80" x2="70" y2="100" class="image" />
+    <line x1="130" y1="80" x2="130" y2="100" class="image" />
+  </g>
+</svg>

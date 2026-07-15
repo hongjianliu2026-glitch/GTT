@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #7D3C98; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">brunette</text>
+  <text x="50" y="120" class="subtitle">[bruːˈnet] n. 深色头发的女性</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> brun (棕色) + ette (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个"小棕色(brun-ette)"头发的女孩，
+    <tspan x="50" dy="25">她的头发像巧克力瀑布一样流淌，</tspan>
+    <tspan x="50" dy="25">让人忍不住想咬一口。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The brunette at the party caught everyone's attention.
+  </text>
+  <text x="50" y="310" class="content">
+    派对上的那位深色头发的女孩吸引了所有人的注意。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Girl with brown hair -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <line x1="100" y1="180" x2="50" y2="200" class="image" />
+    <line x1="100" y1="180" x2="150" y2="200" class="image" />
+    <!-- Hair -->
+    <path d="M50,100 Q75,50 100,100 T150,100" class="image" />
+    <path d="M50,110 Q75,60 100,110 T150,110" class="image" />
+    <path d="M50,120 Q75,70 100,120 T150,120" class="image" />
+    <path d="M50,130 Q75,80 100,130 T150,130" class="image" />
+    <path d="M50,140 Q75,90 100,140 T150,140" class="image" />
+  </g>
+</svg>

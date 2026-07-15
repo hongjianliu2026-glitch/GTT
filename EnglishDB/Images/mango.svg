@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .fruit { fill: #F39C12; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mango</text>
+  <text x="50" y="120" class="subtitle">[ˈmæŋɡoʊ] n. 芒果</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自泰米尔语 "mangai"，意为"芒果"
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个热带岛屿上，"芒果(mango)"
+    <tspan x="50" dy="25">树上的果实成熟了，金黄色的芒果</tspan>
+    <tspan x="50" dy="25">在阳光下闪闪发光，让人垂涎欲滴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to eat fresh mango in summer.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在夏天吃新鲜的芒果。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mango tree -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="180" x2="50" y2="20" class="image" />
+    <line x1="50" y1="20" x2="30" y2="60" class="image" />
+    <line x1="50" y1="20" x2="70" y2="60" class="image" />
+    <line x1="50" y1="20" x2="10" y2="100" class="image" />
+    <line x1="50" y1="20" x2="90" y2="100" class="image" />
+    <!-- Mango fruits -->
+    <circle cx="30" cy="60" r="20" class="fruit" />
+    <circle cx="70" cy="60" r="20" class="fruit" />
+    <circle cx="10" cy="100" r="20" class="fruit" />
+    <circle cx="90" cy="100" r="20" class="fruit" />
+  </g>
+</svg>

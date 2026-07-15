@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rebellious</text>
+  <text x="50" y="120" class="subtitle">[rɪˈbɛliəs] adj. 反叛的，反抗的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (反) + bell (战争) + -ious (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个"反叛者(re-bell)"，他站在一群士兵前，
+    <tspan x="50" dy="25">高举着旗帜，脸上带着坚定的表情，这就是"反叛的(rebellious)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rebellious teenager refused to follow the rules.
+  </text>
+  <text x="50" y="310" class="content">
+    那个叛逆的少年拒绝遵守规则。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rebel -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+    <!-- Flag -->
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="150" y2="150" class="image" />
+    <polyline points="150,100 170,120 150,140" class="image" />
+    <!-- Soldiers -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="220" class="image" />
+    <line x1="250" y1="180" x2="270" y2="220" class="image" />
+    <line x1="250" y1="150" x2="290" y2="140" class="image" />
+  </g>
+</svg>

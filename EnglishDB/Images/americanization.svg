@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Americanization</text>
+  <text x="50" y="120" class="subtitle">[əˌmerɪkənaɪˈzeɪʃən] n. 美国化</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> America (美国) + -ize (使成为) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个全球化的世界，"美国(America)"的文化和价值观
+    <tspan x="50" dy="25">像病毒一样"使成为(ize)"世界各地的人们，</tspan>
+    <tspan x="50" dy="25">这就是"美国化(Americanization)"的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Americanization of global culture is evident in the spread of fast food chains.
+  </text>
+  <text x="50" y="310" class="content">
+    全球文化的美国化在快餐连锁店的传播中显而易见。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Globe -->
+    <circle cx="175" cy="100" r="75" class="image" />
+    <!-- USA flag -->
+    <rect x="125" y="25" width="100" height="50" class="image" />
+    <line x1="125" y1="25" x2="225" y2="75" class="image" />
+    <line x1="125" y1="75" x2="225" y2="25" class="image" />
+    <!-- Stars -->
+    <circle cx="140" cy="40" r="5" class="image" />
+    <circle cx="160" cy="50" r="5" class="image" />
+    <circle cx="180" cy="60" r="5" class="image" />
+    <circle cx="200" cy="40" r="5" class="image" />
+    <!-- Fast food chain -->
+    <rect x="100" y="150" width="150" height="50" class="image" />
+    <text x="125" y="180" class="content">McDonald's</text>
+  </g>
+</svg>

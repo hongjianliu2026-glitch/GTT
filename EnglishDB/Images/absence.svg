@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">absence</text>
+  <text x="50" y="120" class="subtitle">[ˈæbsəns] n. 缺席，不在场</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ab- (离开) + -sence (存在)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人从房间里"离开(ab-)"，
+    <tspan x="50" dy="25">房间里"不存在(sence)"他的身影，这就是缺席(absence)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His frequent absences from school worried his parents.
+  </text>
+  <text x="50" y="310" class="content">
+    他经常缺课，这让他的父母很担心。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Door -->
+    <rect x="300" y="80" width="30" height="40" class="image" />
+    <!-- Person leaving -->
+    <line x1="280" y1="100" x2="300" y2="100" class="image" />
+    <line x1="280" y1="100" x2="280" y2="120" class="image" />
+    <line x1="280" y1="120" x2="260" y2="140" class="image" />
+    <line x1="280" y1="120" x2="300" y2="140" class="image" />
+    <!-- Empty space -->
+    <rect x="50" y="20" width="200" height="160" class="image" />
+  </g>
+</svg>

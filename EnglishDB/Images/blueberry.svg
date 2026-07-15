@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .berry { fill: #4A90E2; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blueberry</text>
+  <text x="50" y="120" class="subtitle">[ˈbluːbəri] n. 蓝莓</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blue (蓝色) + berry (浆果)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片蓝莓田，"蓝色的(blue)"
+    <tspan x="50" dy="25">浆果(berry)挂满枝头，就像一颗颗小蓝宝石。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She picked a handful of blueberries from the bush.
+  </text>
+  <text x="50" y="310" class="content">
+    她从灌木丛中摘了一把蓝莓。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Blueberry bush -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Blueberries -->
+    <circle cx="50" cy="100" r="15" class="berry" />
+    <circle cx="100" cy="120" r="15" class="berry" />
+    <circle cx="150" cy="100" r="15" class="berry" />
+    <circle cx="200" cy="120" r="15" class="berry" />
+    <circle cx="250" cy="100" r="15" class="berry" />
+    <!-- Bush leaves -->
+    <line x1="30" y1="80" x2="70" y2="80" class="image" />
+    <line x1="80" y1="60" x2="120" y2="60" class="image" />
+    <line x1="130" y1="80" x2="170" y2="80" class="image" />
+    <line x1="180" y1="60" x2="220" y2="60" class="image" />
+    <line x1="230" y1="80" x2="270" y2="80" class="image" />
+  </g>
+</svg>

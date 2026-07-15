@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">zucchini</text>
+  <text x="50" y="120" class="subtitle">[zuːˈkiːni] n. 西葫芦</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自意大利语，原意为“小南瓜”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的西葫芦(zucchini)，它像一条巨龙一样盘旋在菜园里，
+    <tspan x="50" dy="25">它的绿色身体在阳光下闪闪发光，仿佛在说：“我是菜园之王！”</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She sautéed zucchini with garlic and olive oil.
+  </text>
+  <text x="50" y="310" class="content">
+    她用大蒜和橄榄油炒了西葫芦。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Zucchini body -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <!-- Zucchini stem -->
+    <line x1="175" y1="0" x2="175" y2="-50" class="image" />
+    <!-- Zucchini leaves -->
+    <polyline points="150,-50 175,-70 200,-50" class="image" />
+    <polyline points="140,-40 175,-60 210,-40" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <!-- Sun rays -->
+    <line x1="300" y1="20" x2="300" y2="0" class="image" />
+    <line x1="330" y1="50" x2="350" y2="50" class="image" />
+    <line x1="300" y1="80" x2="300" y2="100" class="image" />
+    <line x1="270" y1="50" x2="250" y2="50" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">emotion</text>
+  <text x="50" y="120" class="subtitle">[ɪˈmoʊʃn] n. 情感，情绪</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> e- (向外) + mot (移动) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人内心深处的情感像"向外移动(e-mot)"的波浪，
+    <tspan x="50" dy="25">这些波浪涌动着，形成了强烈的情绪(emotion)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her voice was filled with emotion as she spoke.
+  </text>
+  <text x="50" y="310" class="content">
+    她说话时声音充满了情感。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M50,50 C50,0 90,0 90,50 S130,100 90,150 S50,200 50,150 S10,100 50,50" class="image" />
+    <!-- Waves -->
+    <path d="M50,100 Q75,75 100,100 T150,100 T200,100 T250,100 T300,100" class="image" />
+    <path d="M50,120 Q75,95 100,120 T150,120 T200,120 T250,120 T300,120" class="image" />
+    <path d="M50,140 Q75,115 100,140 T150,140 T200,140 T250,140 T300,140" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">innuendo</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnjuˈɛndoʊ] n. 影射，暗示</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (进入) + nuendo (扭曲)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在说话时，"进入(in-)"
+    <tspan x="50" dy="25">并"扭曲(nuendo)"语言，</tspan>
+    <tspan x="50" dy="25">用隐晦的方式表达意思，这就是影射(innuendo)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His speech was full of innuendos about the scandal.
+  </text>
+  <text x="50" y="310" class="content">
+    他的演讲中充满了对丑闻的影射。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 80 30 Q 150 30 150 80 Q 150 130 80 130 Q 50 130 50 100 Z" class="image" />
+    <!-- Twisted arrow -->
+    <path d="M 100 100 Q 150 50 200 100 Q 150 150 100 100" class="image" />
+    <!-- Text in speech bubble -->
+    <text x="90" y="70" class="content">影射</text>
+  </g>
+</svg>

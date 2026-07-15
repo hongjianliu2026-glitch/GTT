@@ -1,0 +1,139 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">collarbone</text>
+  <text x="50" y="120" class="subtitle">[ˈkɒləbəʊn] n. 锁骨</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> collar (衣领) + bone (骨头)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人穿着一件高领毛衣，"衣领(collar)"
+    <tspan x="50" dy="25">紧紧贴着他的"骨头(bone)"，这就是锁骨(collarbone)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He broke his collarbone in the accident.
+  </text>
+  <text x="50" y="310" class="content">
+    他在事故中摔断了锁骨。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Collar -->
+    <rect x="50" y="50" width="200" height="50" class="image" />
+    <!-- Bone -->
+    <line x1="100" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="110" x2="200" y2="110" class="image" />
+    <line x1="100" y1="120" x2="200" y2="120" class="image" />
+    <line x1="100" y1="130" x2="200" y2="130" class="image" />
+    <line x1="100" y1="140" x2="200" y2="140" class="image" />
+    <line x1="100" y1="150" x2="200" y2="150" class="image" />
+    <line x1="100" y1="160" x2="200" y2="160" class="image" />
+    <line x1="100" y1="170" x2="200" y2="170" class="image" />
+    <line x1="100" y1="180" x2="200" y2="180" class="image" />
+    <line x1="100" y1="190" x2="200" y2="190" class="image" />
+    <line x1="100" y1="200" x2="200" y2="200" class="image" />
+    <line x1="100" y1="210" x2="200" y2="210" class="image" />
+    <line x1="100" y1="220" x2="200" y2="220" class="image" />
+    <line x1="100" y1="230" x2="200" y2="230" class="image" />
+    <line x1="100" y1="240" x2="200" y2="240" class="image" />
+    <line x1="100" y1="250" x2="200" y2="250" class="image" />
+    <line x1="100" y1="260" x2="200" y2="260" class="image" />
+    <line x1="100" y1="270" x2="200" y2="270" class="image" />
+    <line x1="100" y1="280" x2="200" y2="280" class="image" />
+    <line x1="100" y1="290" x2="200" y2="290" class="image" />
+    <line x1="100" y1="300" x2="200" y2="300" class="image" />
+    <line x1="100" y1="310" x2="200" y2="310" class="image" />
+    <line x1="100" y1="320" x2="200" y2="320" class="image" />
+    <line x1="100" y1="330" x2="200" y2="330" class="image" />
+    <line x1="100" y1="340" x2="200" y2="340" class="image" />
+    <line x1="100" y1="350" x2="200" y2="350" class="image" />
+    <line x1="100" y1="360" x2="200" y2="360" class="image" />
+    <line x1="100" y1="370" x2="200" y2="370" class="image" />
+    <line x1="100" y1="380" x2="200" y2="380" class="image" />
+    <line x1="100" y1="390" x2="200" y2="390" class="image" />
+    <line x1="100" y1="400" x2="200" y2="400" class="image" />
+    <line x1="100" y1="410" x2="200" y2="410" class="image" />
+    <line x1="100" y1="420" x2="200" y2="420" class="image" />
+    <line x1="100" y1="430" x2="200" y2="430" class="image" />
+    <line x1="100" y1="440" x2="200" y2="440" class="image" />
+    <line x1="100" y1="450" x2="200" y2="450" class="image" />
+    <line x1="100" y1="460" x2="200" y2="460" class="image" />
+    <line x1="100" y1="470" x2="200" y2="470" class="image" />
+    <line x1="100" y1="480" x2="200" y2="480" class="image" />
+    <line x1="100" y1="490" x2="200" y2="490" class="image" />
+    <line x1="100" y1="500" x2="200" y2="500" class="image" />
+    <line x1="100" y1="510" x2="200" y2="510" class="image" />
+    <line x1="100" y1="520" x2="200" y2="520" class="image" />
+    <line x1="100" y1="530" x2="200" y2="530" class="image" />
+    <line x1="100" y1="540" x2="200" y2="540" class="image" />
+    <line x1="100" y1="550" x2="200" y2="550" class="image" />
+    <line x1="100" y1="560" x2="200" y2="560" class="image" />
+    <line x1="100" y1="570" x2="200" y2="570" class="image" />
+    <line x1="100" y1="580" x2="200" y2="580" class="image" />
+    <line x1="100" y1="590" x2="200" y2="590" class="image" />
+    <line x1="100" y1="600" x2="200" y2="600" class="image" />
+    <line x1="100" y1="610" x2="200" y2="610" class="image" />
+    <line x1="100" y1="620" x2="200" y2="620" class="image" />
+    <line x1="100" y1="630" x2="200" y2="630" class="image" />
+    <line x1="100" y1="640" x2="200" y2="640" class="image" />
+    <line x1="100" y1="650" x2="200" y2="650" class="image" />
+    <line x1="100" y1="660" x2="200" y2="660" class="image" />
+    <line x1="100" y1="670" x2="200" y2="670" class="image" />
+    <line x1="100" y1="680" x2="200" y2="680" class="image" />
+    <line x1="100" y1="690" x2="200" y2="690" class="image" />
+    <line x1="100" y1="700" x2="200" y2="700" class="image" />
+    <line x1="100" y1="710" x2="200" y2="710" class="image" />
+    <line x1="100" y1="720" x2="200" y2="720" class="image" />
+    <line x1="100" y1="730" x2="200" y2="730" class="image" />
+    <line x1="100" y1="740" x2="200" y2="740" class="image" />
+    <line x1="100" y1="750" x2="200" y2="750" class="image" />
+    <line x1="100" y1="760" x2="200" y2="760" class="image" />
+    <line x1="100" y1="770" x2="200" y2="770" class="image" />
+    <line x1="100" y1="780" x2="200" y2="780" class="image" />
+    <line x1="100" y1="790" x2="200" y2="790" class="image" />
+    <line x1="100" y1="800" x2="200" y2="800" class="image" />
+    <line x1="100" y1="810" x2="200" y2="810" class="image" />
+    <line x1="100" y1="820" x2="200" y2="820" class="image" />
+    <line x1="100" y1="830" x2="200" y2="830" class="image" />
+    <line x1="100" y1="840" x2="200" y2="840" class="image" />
+    <line x1="100" y1="850" x2="200" y2="850" class="image" />
+    <line x1="100" y1="860" x2="200" y2="860" class="image" />
+    <line x1="100" y1="870" x2="200" y2="870" class="image" />
+    <line x1="100" y1="880" x2="200" y2="880" class="image" />
+    <line x1="100" y1="890" x2="200" y2="890" class="image" />
+    <line x1="100" y1="900" x2="200" y2="900" class="image" />
+    <line x1="100" y1="910" x2="200" y2="910" class="image" />
+    <line x1="100" y1="920" x2="200" y2="920" class="image" />
+    <line x1="100" y1="930" x2="200" y2="930" class="image" />
+    <line x1="100" y1="940" x2="200" y2="940" class="image" />
+    <line x1="100" y1="950" x2="200" y2="950" class="image" />
+    <line x1="100" y1="960" x2="200" y2="960" class="image" />
+    <line x1="100" y1="970" x2="200" y2="970" class="image" />
+    <line x1="100" y1="980" x2="200" y2="980" class="image" />
+    <line x1="100" y1="990" x2="200" y2="990" class="image" />
+    <line x1="100" y1="1000" x2="200" y2="1000" class="image" />
+    <line x1="100" y1="1010" x2="200" y2="1010" class="image" />
+    <line x1="100" y1="1020" x2="200" y2="1020" class="image" />
+    <line x1="100" y1="1030" x2="200" y2="1030" class="image

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #FF6347; }
+      .story { font: 16px serif; fill: #666666; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mausoleum</text>
+  <text x="50" y="120" class="subtitle">[ˌmɔːsəˈliːəm] n. 陵墓</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mausol- (小鼠) + eum (地方)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小鼠(mausol-)在地下挖了一个洞，这个洞变成了一个神秘的地方(eum)，
+    <tspan x="50" dy="25">最终变成了一个巨大的陵墓(mausoleum)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Taj Mahal is a famous mausoleum in India.
+  </text>
+  <text x="50" y="310" class="content">
+    泰姬陵是印度著名的陵墓。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mausoleum -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Roof -->
+    <polygon points="175,20 50,100 300,100" class="image" />
+    <!-- Door -->
+    <rect x="150" y="120" width="50" height="80" class="image" />
+    <!-- Mouse -->
+    <circle cx="250" cy="160" r="10" class="image" />
+    <line x1="250" y1="170" x2="250" y2="190" class="image" />
+    <line x1="250" y1="190" x2="240" y2="200" class="image" />
+    <line x1="250" y1="190" x2="260" y2="200" class="image" />
+    <line x1="250" y1="180" x2="270" y2="170" class="image" />
+  </g>
+</svg>

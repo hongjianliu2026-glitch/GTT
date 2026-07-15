@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shabby</text>
+  <text x="50" y="120" class="subtitle">[ˈʃæbi] adj. 破旧的，褴褛的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shab (破旧) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个破旧的木屋，"破旧(shab)"
+    <tspan x="50" dy="25">的墙壁和屋顶，给人一种褴褛(shabby)的感觉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old man lived in a shabby house.
+  </text>
+  <text x="50" y="310" class="content">
+    那位老人住在一间破旧的房子里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Shabby house -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Broken walls -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Roof -->
+    <polyline points="50,20 200,0 350,20" class="image" />
+    <!-- Broken windows -->
+    <rect x="100" y="60" width="50" height="50" class="image" />
+    <rect x="200" y="60" width="50" height="50" class="image" />
+  </g>
+</svg>

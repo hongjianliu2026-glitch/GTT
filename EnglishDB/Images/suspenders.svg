@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">suspenders</text>
+  <text x="50" y="120" class="subtitle">[səˈspendərz] n. 吊带，背带</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sus- (在下面) + pend (悬挂) + -ers (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人穿着吊带裤，"在下面悬挂(sus-pend)"
+    <tspan x="50" dy="25">着裤子，这些吊带(suspenders)就是用来固定裤子的。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He adjusted his suspenders before heading out.
+  </text>
+  <text x="50" y="310" class="content">
+    他出门前调整了一下他的吊带。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Suspenders -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="350" y1="20" x2="350" y2="180" class="image" />
+    <line x1="50" y1="20" x2="350" y2="20" class="image" />
+    <line x1="50" y1="180" x2="350" y2="180" class="image" />
+    <!-- Pants -->
+    <rect x="0" y="180" width="400" height="100" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="30" class="image" />
+    <line x1="200" y1="130" x2="200" y2="280" class="image" />
+    <line x1="200" y1="280" x2="150" y2="350" class="image" />
+    <line x1="200" y1="280" x2="250" y2="350" class="image" />
+    <line x1="200" y1="150" x2="150" y2="200" class="image" />
+    <line x1="200" y1="150" x2="250" y2="200" class="image" />
+  </g>
+</svg>

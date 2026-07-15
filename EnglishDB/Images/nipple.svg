@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nipple</text>
+  <text x="50" y="120" class="subtitle">[ˈnɪpəl] n. 乳头，奶嘴</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> nip (捏) + -le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个婴儿在吮吸妈妈的乳头，"捏(nip)"
+    <tspan x="50" dy="25">住一个小(le)突起，这就是乳头(nipple)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The baby was crying until she found her nipple.
+  </text>
+  <text x="50" y="310" class="content">
+    婴儿哭闹直到她找到了乳头。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Baby -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Nipple -->
+    <circle cx="150" cy="100" r="10" class="image" />
+    <!-- Baby sucking -->
+    <line x1="50" y1="130" x2="150" y2="110" class="image" />
+  </g>
+</svg>

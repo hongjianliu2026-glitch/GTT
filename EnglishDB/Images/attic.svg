@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">attic</text>
+  <text x="50" y="120" class="subtitle">[ˈætɪk] n. 阁楼，顶楼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> att- (来自拉丁语 "ad", 表示 "向" 或 "在") + -ic (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的阁楼，"在(att-)"
+    <tspan x="50" dy="25">屋顶之上，藏着许多旧物，这就是阁楼(attic)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found an old photo album in the attic.
+  </text>
+  <text x="50" y="310" class="content">
+    她在阁楼里发现了一本旧相册。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Roof -->
+    <polygon points="50,0 200,0 125,50" class="image" />
+    <!-- Attic window -->
+    <rect x="100" y="20" width="50" height="30" class="image" />
+    <!-- Attic door -->
+    <rect x="150" y="50" width="50" height="30" class="image" />
+    <!-- Old items -->
+    <rect x="70" y="80" width="30" height="30" class="image" />
+    <rect x="120" y="80" width="30" height="30" class="image" />
+    <rect x="170" y="80" width="30" height="30" class="image" />
+  </g>
+</svg>

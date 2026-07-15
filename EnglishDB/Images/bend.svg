@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bend</text>
+  <text x="50" y="120" class="subtitle">[bɛnd] v. 弯曲，屈服；n. 弯曲处</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bend (弯曲)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一根金属棒被"弯曲(bend)"，
+    <tspan x="50" dy="25">它从直的变成了弯的，这就是bend的含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tree branch bent under the weight of the snow.
+  </text>
+  <text x="50" y="310" class="content">
+    树枝在雪的重压下弯曲了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Straight line -->
+    <line x1="0" y1="0" x2="200" y2="0" class="image" />
+    <!-- Bent line -->
+    <path d="M0,0 Q100,100 200,0" class="image" />
+    <!-- Arrow indicating bend -->
+    <path d="M100,50 L100,100 L120,75" class="image" />
+    <text x="100" y="120" class="content" text-anchor="middle">bend</text>
+  </g>
+</svg>

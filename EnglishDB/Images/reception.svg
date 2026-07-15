@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">reception</text>
+  <text x="50" y="120" class="subtitle">[rɪˈsepʃn] n. 接待，招待会</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + cept (拿) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个盛大的招待会，宾客们"再次被接待(re-cept)"，
+    <tspan x="50" dy="25">享受着美食和欢笑，这就是reception的场景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company held a reception for its new employees.
+  </text>
+  <text x="50" y="310" class="content">
+    公司为新员工举办了一个招待会。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Reception table -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Tablecloth -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Food -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="150" cy="100" r="20" class="image" />
+    <circle cx="200" cy="100" r="20" class="image" />
+    <!-- Guests -->
+    <circle cx="80" cy="150" r="15" class="image" />
+    <circle cx="130" cy="150" r="15" class="image" />
+    <circle cx="180" cy="150" r="15" class="image" />
+    <!-- Host -->
+    <circle cx="230" cy="150" r="15" class="image" />
+    <line x1="230" y1="165" x2="230" y2="190" class="image" />
+    <line x1="230" y1="190" x2="210" y2="220" class="image" />
+    <line x1="230" y1="190" x2="250" y2="220" class="image" />
+    <line x1="230" y1="175" x2="270" y2="165" class="image" />
+  </g>
+</svg>

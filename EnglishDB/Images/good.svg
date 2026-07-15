@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">good</text>
+  <text x="50" y="120" class="subtitle">[ɡʊd] adj. 好的，优良的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自原始日耳曼语 *gōdaz (适合的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满阳光的早晨，"适合的(gōdaz)"
+    <tspan x="50" dy="25">一切都是那么美好(good)，鸟儿在歌唱，花儿在绽放。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She had a good day at work.
+  </text>
+  <text x="50" y="310" class="content">
+    她今天工作得很顺利。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Birds -->
+    <path d="M50 50 Q75 25 100 50 T150 50" stroke="#2ECC71" stroke-width="3" fill="none" />
+    <path d="M50 70 Q75 45 100 70 T150 70" stroke="#2ECC71" stroke-width="3" fill="none" />
+    <!-- Flowers -->
+    <circle cx="200" cy="150" r="20" fill="#E74C3C" />
+    <circle cx="220" cy="150" r="20" fill="#E74C3C" />
+    <circle cx="210" cy="130" r="20" fill="#E74C3C" />
+    <circle cx="210" cy="170" r="20" fill="#E74C3C" />
+    <circle cx="230" cy="170" r="20" fill="#E74C3C" />
+    <circle cx="230" cy="130" r="20" fill="#E74C3C" />
+    <rect x="205" y="150" width="20" height="50" fill="#2ECC71" />
+  </g>
+</svg>

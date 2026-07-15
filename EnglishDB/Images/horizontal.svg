@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">horizontal</text>
+  <text x="50" y="120" class="subtitle">[ˌhɔrəˈzɑntl] adj. 水平的，地平线的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> horizon (地平线) + -tal (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的地平线(horizon)，它像一条无限延伸的直线，
+    <tspan x="50" dy="25">将天空与大地分隔开来，这就是水平的(horizontal)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The table was perfectly horizontal.
+  </text>
+  <text x="50" y="310" class="content">
+    这张桌子非常水平。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Horizon line -->
+    <line x1="0" y1="100" x2="400" y2="100" class="image" />
+    <!-- Sun -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <!-- Ground -->
+    <rect x="0" y="100" width="400" height="50" class="image" />
+    <!-- Sky -->
+    <rect x="0" y="0" width="400" height="100" class="image" />
+  </g>
+</svg>

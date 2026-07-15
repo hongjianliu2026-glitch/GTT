@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jack</text>
+  <text x="50" y="120" class="subtitle">[dʒæk] n. 千斤顶，插孔；v. 用千斤顶顶起</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语“jack”，原意为“仆人”，后引申为各种工具或机械装置。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个仆人(jack)用千斤顶(jack)顶起一辆汽车，
+    <tspan x="50" dy="25">这个画面既夸张又让人印象深刻。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He used a jack to lift the car and change the tire.
+  </text>
+  <text x="50" y="310" class="content">
+    他用千斤顶把车抬起来换轮胎。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Car -->
+    <rect x="0" y="0" width="350" height="150" class="image" />
+    <!-- Wheels -->
+    <circle cx="50" cy="120" r="20" class="image" />
+    <circle cx="300" cy="120" r="20" class="image" />
+    <!-- Jack -->
+    <rect x="170" y="50" width="10" height="100" class="image" />
+    <rect x="160" y="50" width="30" height="10" class="image" />
+    <!-- Person -->
+    <circle cx="20" cy="180" r="15" class="image" />
+    <line x1="20" y1="195" x2="20" y2="230" class="image" />
+    <line x1="20" y1="230" x2="0" y2="260" class="image" />
+    <line x1="20" y1="230" x2="40" y2="260" class="image" />
+    <line x1="20" y1="210" x2="50" y2="200" class="image" />
+  </g>
+</svg>

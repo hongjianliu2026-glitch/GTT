@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">self-made</text>
+  <text x="50" y="120" class="subtitle">[ˌselfˈmeɪd] adj. 白手起家的，自制的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> self- (自己) + made (制造)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人从一无所有开始，"自己制造(self-made)"
+    <tspan x="50" dy="25">出自己的成功，就像一个工匠亲手打造出一件艺术品。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is a self-made millionaire who started from nothing.
+  </text>
+  <text x="50" y="310" class="content">
+    他是一个白手起家的百万富翁，从一无所有开始。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Tool -->
+    <line x1="100" y1="100" x2="150" y2="100" class="image" />
+    <line x1="125" y1="100" x2="125" y2="150" class="image" />
+    <!-- Success -->
+    <rect x="200" y="80" width="100" height="40" class="image" />
+    <text x="220" y="110" class="content" fill="#2C3E50">Success</text>
+  </g>
+</svg>

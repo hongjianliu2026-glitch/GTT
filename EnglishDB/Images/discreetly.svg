@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">discreetly</text>
+  <text x="50" y="120" class="subtitle">[dɪˈskriːtli] adv. 谨慎地，小心地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (分开) + creet (选择)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在人群中，"分开选择(dis-creet)"
+    <tspan x="50" dy="25">自己的言行，谨慎地(discreetly)不引起注意。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She discreetly left the room without making a sound.
+  </text>
+  <text x="50" y="310" class="content">
+    她悄悄地离开了房间，没有发出任何声音。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Crowd -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="150" cy="100" r="15" class="image" />
+    <circle cx="200" cy="100" r="15" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 20 80 Q 50 70 80 80 Q 50 90 20 80" class="image" />
+    <!-- Quiet symbol -->
+    <path d="M 120 80 Q 150 70 180 80 Q 150 90 120 80" class="image" />
+    <line x1="150" y1="80" x2="150" y2="100" class="image" />
+  </g>
+</svg>

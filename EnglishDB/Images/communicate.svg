@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">communicate</text>
+  <text x="50" y="120" class="subtitle">[kəˈmjuːnɪkeɪt] v. 交流，沟通</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (共同) + munis (服务) + -ate (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人面对面，"共同服务(com-munis)"
+    <tspan x="50" dy="25">彼此，通过语言和手势进行交流(communicate)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They communicated their ideas clearly during the meeting.
+  </text>
+  <text x="50" y="310" class="content">
+    他们在会议上清晰地表达了他们的想法。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two people -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="250" cy="100" r="20" class="image" />
+    <!-- Speech bubbles -->
+    <path d="M 50 130 Q 100 130 100 180 Q 50 180 50 130 Z" class="image" />
+    <path d="M 250 130 Q 200 130 200 180 Q 250 180 250 130 Z" class="image" />
+    <!-- Hands -->
+    <line x1="50" y1="120" x2="250" y2="120" class="image" />
+    <line x1="50" y1="120" x2="0" y2="150" class="image" />
+    <line x1="250" y1="120" x2="300" y2="150" class="image" />
+  </g>
+</svg>

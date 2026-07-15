@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">publicity</text>
+  <text x="50" y="120" class="subtitle">[ˌpʌblɪˈsɪti] n. 宣传，公开</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> public (公众) + -ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的广告牌，上面写着"公众(public)"
+    <tspan x="50" dy="25">的宣传(publicity)，吸引了无数人的目光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The movie received a lot of publicity before its release.
+  </text>
+  <text x="50" y="310" class="content">
+    这部电影在发布前获得了大量的宣传。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Billboard -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Ad text -->
+    <text x="50" y="100" class="content" style="font-size: 36px; fill: #E74C3C;">PUBLICITY</text>
+    <!-- People -->
+    <circle cx="20" cy="180" r="15" class="image" />
+    <circle cx="80" cy="180" r="15" class="image" />
+    <circle cx="140" cy="180" r="15" class="image" />
+    <circle cx="200" cy="180" r="15" class="image" />
+    <circle cx="260" cy="180" r="15" class="image" />
+    <circle cx="320" cy="180" r="15" class="image" />
+  </g>
+</svg>

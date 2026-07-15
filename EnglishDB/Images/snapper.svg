@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">snapper</text>
+  <text x="50" y="120" class="subtitle">[ˈsnæpər] n. 鲷鱼，快照者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> snap (猛咬) + -er (表示人或物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条鲷鱼(snapper)在水中猛咬(snap)食物，
+    <tspan x="50" dy="25">或者一个摄影师(snapper)快速按下快门(snap)捕捉瞬间。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The snapper caught a large fish with a quick snap.
+  </text>
+  <text x="50" y="310" class="content">
+    那条鲷鱼迅速猛咬，捕获了一条大鱼。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fish -->
+    <ellipse cx="100" cy="100" rx="50" ry="30" class="image" />
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="100" y1="70" x2="100" y2="130" class="image" />
+    <line x1="70" y1="80" x2="130" y2="120" class="image" />
+    <line x1="70" y1="120" x2="130" y2="80" class="image" />
+    <!-- Camera -->
+    <rect x="200" y="50" width="100" height="70" class="image" />
+    <rect x="220" y="70" width="60" height="30" class="image" />
+    <line x1="250" y1="50" x2="250" y2="30" class="image" />
+    <circle cx="250" cy="20" r="10" class="image" />
+  </g>
+</svg>

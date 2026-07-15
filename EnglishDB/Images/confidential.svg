@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #34495E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">confidential</text>
+  <text x="50" y="120" class="subtitle">[ˌkɒnfɪˈdenʃl] adj. 机密的，保密的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (共同) + fid (信任) + -ent (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个机密文件被锁在保险箱里，只有"共同信任(con-fid-ent)"的人才能打开。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> This document is strictly confidential.
+  </text>
+  <text x="50" y="310" class="content">
+    这份文件是严格保密的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Safe -->
+    <rect x="0" y="0" width="200" height="200" class="image" />
+    <!-- Lock -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <line x1="100" y1="120" x2="100" y2="180" class="image" />
+    <line x1="80" y1="140" x2="120" y2="140" class="image" />
+    <!-- Document -->
+    <rect x="50" y="50" width="100" height="70" class="image" />
+    <line x1="50" y1="60" x2="150" y2="60" class="image" />
+    <line x1="50" y1="70" x2="150" y2="70" class="image" />
+    <line x1="50" y1="80" x2="150" y2="80" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">harmonica</text>
+  <text x="50" y="120" class="subtitle">[hɑːrˈmɒnɪkə] n. 口琴</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> harmon- (和谐) + -ica (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小巧的口琴(harmonica)，它发出和谐(harmon-)的声音，
+    <tspan x="50" dy="25">就像一个小精灵在演奏美妙的音乐。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He played a beautiful tune on his harmonica.
+  </text>
+  <text x="50" y="310" class="content">
+    他用口琴演奏了一首美妙的曲子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Harmonica -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <rect x="50" y="20" width="250" height="60" class="image" />
+    <!-- Holes -->
+    <circle cx="70" cy="50" r="5" class="image" />
+    <circle cx="100" cy="50" r="5" class="image" />
+    <circle cx="130" cy="50" r="5" class="image" />
+    <circle cx="160" cy="50" r="5" class="image" />
+    <circle cx="190" cy="50" r="5" class="image" />
+    <circle cx="220" cy="50" r="5" class="image" />
+    <circle cx="250" cy="50" r="5" class="image" />
+    <!-- Music notes -->
+    <path d="M50 100 Q70 80 90 100 T130 100" class="image" />
+    <path d="M100 100 Q120 80 140 100 T180 100" class="image" />
+    <path d="M150 100 Q170 80 190 100 T230 100" class="image" />
+  </g>
+</svg>

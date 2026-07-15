@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">whizz</text>
+  <text x="50" y="120" class="subtitle">[wɪz] v. 飕飕地移动，急速移动；n. 飕飕声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> whiz (拟声词，模拟快速移动的声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个火箭"飕飕地(whizz)"穿过太空，留下一道闪亮的轨迹。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The meteor whizzed across the night sky.
+  </text>
+  <text x="50" y="310" class="content">
+    流星在夜空中飕飕地划过。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Rocket -->
+    <polygon points="0,100 50,0 100,100" class="image" />
+    <!-- Trajectory -->
+    <line x1="100" y1="100" x2="200" y2="200" class="image" />
+    <line x1="200" y1="200" x2="300" y2="300" class="image" />
+    <line x1="300" y1="300" x2="400" y2="400" class="image" />
+    <!-- Stars -->
+    <circle cx="150" cy="50" r="5" class="image" />
+    <circle cx="250" cy="150" r="5" class="image" />
+    <circle cx="350" cy="250" r="5" class="image" />
+  </g>
+</svg>

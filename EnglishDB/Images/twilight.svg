@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #FF6347; }
+      .story { font: 16px serif; fill: #666666; }
+      .image { stroke: #888888; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">twilight</text>
+  <text x="50" y="120" class="subtitle">[ˈtwaɪlaɪt] n. 黄昏，黎明；朦胧状态</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> twi- (两) + light (光)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象太阳即将落山，天空一半是明亮的白天，一半是黑暗的夜晚，
+    <tspan x="50" dy="25">"两(twi)种光(light)"交织在一起，形成了黄昏(twilight)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sky was a beautiful shade of pink during twilight.
+  </text>
+  <text x="50" y="310" class="content">
+    黄昏时分，天空呈现出美丽的粉红色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#FFD700" />
+    <!-- Sky -->
+    <rect x="0" y="0" width="300" height="200" fill="url(#gradient)" />
+    <!-- Horizon -->
+    <line x1="0" y1="150" x2="300" y2="150" stroke="#8B4513" stroke-width="4" />
+    <!-- Trees -->
+    <path d="M50 150 L70 120 L90 150 Z" fill="#228B22" />
+    <path d="M100 150 L120 120 L140 150 Z" fill="#228B22" />
+    <path d="M150 150 L170 120 L190 150 Z" fill="#228B22" />
+    <path d="M200 150 L220 120 L240 150 Z" fill="#228B22" />
+    <path d="M250 150 L270 120 L290 150 Z" fill="#228B22" />
+  </g>
+
+  <!-- Gradient for sky -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">envelop</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈvɛləp] v. 包住，包围</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> en- (进入) + velop (覆盖)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的信封，"进入并覆盖(en-velop)"
+    <tspan x="50" dy="25">整个世界，将一切都包裹在其中。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The fog enveloped the city, making it hard to see.
+  </text>
+  <text x="50" y="310" class="content">
+    雾气笼罩了城市，让人难以看清。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Envelope -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- World -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Envelope covering the world -->
+    <polygon points="50,20 300,20 250,180 100,180" class="image" />
+  </g>
+</svg>

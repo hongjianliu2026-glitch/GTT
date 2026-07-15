@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .tree { fill: #27AE60; }
+      .ground { fill: #7F8C8D; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">woodland</text>
+  <text x="50" y="120" class="subtitle">[ˈwʊdlənd] n. 林地，树林</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wood (木头) + land (土地)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片"木头(wood)"覆盖的"土地(land)"，
+    <tspan x="50" dy="25">这就是林地(woodland)，充满了树木和自然的气息。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hikers explored the beautiful woodland.
+  </text>
+  <text x="50" y="310" class="content">
+    徒步者们探索了美丽的林地。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ground -->
+    <rect x="0" y="150" width="350" height="50" class="ground" />
+    <!-- Trees -->
+    <polygon points="50,150 25,50 75,50" class="tree" />
+    <polygon points="150,150 125,50 175,50" class="tree" />
+    <polygon points="250,150 225,50 275,50" class="tree" />
+    <polygon points="350,150 325,50 375,50" class="tree" />
+  </g>
+</svg>

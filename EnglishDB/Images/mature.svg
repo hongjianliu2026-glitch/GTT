@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mature</text>
+  <text x="50" y="120" class="subtitle">[məˈtʃʊr] adj. 成熟的；v. 使成熟</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> matur (成熟)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个苹果从青涩到成熟，"成熟(matur)"
+    <tspan x="50" dy="25">的过程就像一个人从幼稚到成熟(mature)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has matured a lot since she moved to the city.
+  </text>
+  <text x="50" y="310" class="content">
+    自从搬到城市后，她成熟了很多。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Apple tree -->
+    <line x1="0" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="100" x2="100" y2="0" class="image" />
+    <!-- Green apple -->
+    <circle cx="70" cy="50" r="20" class="image" fill="#2ECC71" />
+    <!-- Mature apple -->
+    <circle cx="130" cy="50" r="20" class="image" fill="#D35400" />
+    <!-- Person -->
+    <circle cx="100" cy="150" r="15" class="image" />
+    <line x1="100" y1="165" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="80" y2="230" class="image" />
+    <line x1="100" y1="200" x2="120" y2="230" class="image" />
+    <line x1="100" y1="180" x2="130" y2="170" class="image" />
+  </g>
+</svg>

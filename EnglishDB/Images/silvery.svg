@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .silver { fill: #C0C0C0; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">silvery</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪlvəri] adj. 银色的，银质的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> silver (银) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个银色的月亮挂在夜空中，"银色的(silvery)"
+    <tspan x="50" dy="25">光芒洒在大地上，仿佛整个世界都被银色覆盖。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The moonlight made the lake look silvery.
+  </text>
+  <text x="50" y="310" class="content">
+    月光使湖面看起来银光闪闪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Moon -->
+    <circle cx="100" cy="100" r="50" class="silver" />
+    <!-- Silver rays -->
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="50" y1="200" x2="150" y2="200" class="image" />
+    <line x1="25" y1="225" x2="175" y2="175" class="image" />
+    <line x1="25" y1="175" x2="175" y2="225" class="image" />
+  </g>
+</svg>

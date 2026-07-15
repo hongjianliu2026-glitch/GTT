@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">affectionate</text>
+  <text x="50" y="120" class="subtitle">[əˈfekʃənət] adj. 充满深情的，温柔亲切的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> af- (加强) + fect (做) + -ion (名词后缀) + -ate (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用"加强的动作(af-fect)"去表达爱意，
+    <tspan x="50" dy="25">这种强烈的情感就构成了"充满深情的(affectionate)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She gave him an affectionate hug.
+  </text>
+  <text x="50" y="310" class="content">
+    她给了他一个充满深情的拥抱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 31.7C10 15.1 22.7 2.4 39.3 2.4S68.7 15.1 68.7 31.7C68.7 48.3 39.3 61 39.3 61S10 48.3 10 31.7Z" class="image" fill="#E74C3C" />
+    <!-- Arms -->
+    <line x1="39.3" y1="61" x2="20" y2="90" class="image" />
+    <line x1="39.3" y1="61" x2="58.6" y2="90" class="image" />
+    <!-- Person -->
+    <circle cx="39.3" cy="31.7" r="15" class="image" fill="#7F8C8D" />
+  </g>
+</svg>

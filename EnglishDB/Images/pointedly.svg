@@ -1,0 +1,137 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pointedly</text>
+  <text x="50" y="120" class="subtitle">[ˈpɔɪntɪdli] adv. 尖锐地，明确地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> point (点) + -ed (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用手指"尖锐地(pointedly)"指向某个点，
+    <tspan x="50" dy="25">这个动作非常明确，让人无法忽视。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She pointedly ignored his question.
+  </text>
+  <text x="50" y="310" class="content">
+    她明确地忽视了他的问题。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Finger pointing -->
+    <line x1="50" y1="50" x2="250" y2="50" class="image" />
+    <line x1="250" y1="50" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="200" y2="100" class="image" />
+    <line x1="200" y1="100" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="150" y2="150" class="image" />
+    <line x1="150" y1="150" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="100" y2="100" class="image" />
+    <line x1="100" y1="100" x2="50" y2="100" class="image" />
+    <line x1="50" y1="100" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="0" y2="150" class="image" />
+    <line x1="0" y1="150" x2="0" y2="100" class="image" />
+    <line x1="0" y1="100" x2="-50" y2="100" class="image" />
+    <line x1="-50" y1="100" x2="-50" y2="150" class="image" />
+    <line x1="-50" y1="150" x2="-100" y2="150" class="image" />
+    <line x1="-100" y1="150" x2="-100" y2="100" class="image" />
+    <line x1="-100" y1="100" x2="-150" y2="100" class="image" />
+    <line x1="-150" y1="100" x2="-150" y2="150" class="image" />
+    <line x1="-150" y1="150" x2="-200" y2="150" class="image" />
+    <line x1="-200" y1="150" x2="-200" y2="100" class="image" />
+    <line x1="-200" y1="100" x2="-250" y2="100" class="image" />
+    <line x1="-250" y1="100" x2="-250" y2="150" class="image" />
+    <line x1="-250" y1="150" x2="-300" y2="150" class="image" />
+    <line x1="-300" y1="150" x2="-300" y2="100" class="image" />
+    <line x1="-300" y1="100" x2="-350" y2="100" class="image" />
+    <line x1="-350" y1="100" x2="-350" y2="150" class="image" />
+    <line x1="-350" y1="150" x2="-400" y2="150" class="image" />
+    <line x1="-400" y1="150" x2="-400" y2="100" class="image" />
+    <line x1="-400" y1="100" x2="-450" y2="100" class="image" />
+    <line x1="-450" y1="100" x2="-450" y2="150" class="image" />
+    <line x1="-450" y1="150" x2="-500" y2="150" class="image" />
+    <line x1="-500" y1="150" x2="-500" y2="100" class="image" />
+    <line x1="-500" y1="100" x2="-550" y2="100" class="image" />
+    <line x1="-550" y1="100" x2="-550" y2="150" class="image" />
+    <line x1="-550" y1="150" x2="-600" y2="150" class="image" />
+    <line x1="-600" y1="150" x2="-600" y2="100" class="image" />
+    <line x1="-600" y1="100" x2="-650" y2="100" class="image" />
+    <line x1="-650" y1="100" x2="-650" y2="150" class="image" />
+    <line x1="-650" y1="150" x2="-700" y2="150" class="image" />
+    <line x1="-700" y1="150" x2="-700" y2="100" class="image" />
+    <line x1="-700" y1="100" x2="-750" y2="100" class="image" />
+    <line x1="-750" y1="100" x2="-750" y2="150" class="image" />
+    <line x1="-750" y1="150" x2="-800" y2="150" class="image" />
+    <line x1="-800" y1="150" x2="-800" y2="100" class="image" />
+    <line x1="-800" y1="100" x2="-850" y2="100" class="image" />
+    <line x1="-850" y1="100" x2="-850" y2="150" class="image" />
+    <line x1="-850" y1="150" x2="-900" y2="150" class="image" />
+    <line x1="-900" y1="150" x2="-900" y2="100" class="image" />
+    <line x1="-900" y1="100" x2="-950" y2="100" class="image" />
+    <line x1="-950" y1="100" x2="-950" y2="150" class="image" />
+    <line x1="-950" y1="150" x2="-1000" y2="150" class="image" />
+    <line x1="-1000" y1="150" x2="-1000" y2="100" class="image" />
+    <line x1="-1000" y1="100" x2="-1050" y2="100" class="image" />
+    <line x1="-1050" y1="100" x2="-1050" y2="150" class="image" />
+    <line x1="-1050" y1="150" x2="-1100" y2="150" class="image" />
+    <line x1="-1100" y1="150" x2="-1100" y2="100" class="image" />
+    <line x1="-1100" y1="100" x2="-1150" y2="100" class="image" />
+    <line x1="-1150" y1="100" x2="-1150" y2="150" class="image" />
+    <line x1="-1150" y1="150" x2="-1200" y2="150" class="image" />
+    <line x1="-1200" y1="150" x2="-1200" y2="100" class="image" />
+    <line x1="-1200" y1="100" x2="-1250" y2="100" class="image" />
+    <line x1="-1250" y1="100" x2="-1250" y2="150" class="image" />
+    <line x1="-1250" y1="150" x2="-1300" y2="150" class="image" />
+    <line x1="-1300" y1="150" x2="-1300" y2="100" class="image" />
+    <line x1="-1300" y1="100" x2="-1350" y2="100" class="image" />
+    <line x1="-1350" y1="100" x2="-1350" y2="150" class="image" />
+    <line x1="-1350" y1="150" x2="-1400" y2="150" class="image" />
+    <line x1="-1400" y1="150" x2="-1400" y2="100" class="image" />
+    <line x1="-1400" y1="100" x2="-1450" y2="100" class="image" />
+    <line x1="-1450" y1="100" x2="-1450" y2="150" class="image" />
+    <line x1="-1450" y1="150" x2="-1500" y2="150" class="image" />
+    <line x1="-1500" y1="150" x2="-1500" y2="100" class="image" />
+    <line x1="-1500" y1="100" x2="-1550" y2="100" class="image" />
+    <line x1="-1550" y1="100" x2="-1550" y2="150" class="image" />
+    <line x1="-1550" y1="150" x2="-1600" y2="150" class="image" />
+    <line x1="-1600" y1="150" x2="-1600" y2="100" class="image" />
+    <line x1="-1600" y1="100" x2="-1650" y2="100" class="image" />
+    <line x1="-1650" y1="100" x2="-1650" y2="150" class="image" />
+    <line x1="-1650" y1="150" x2="-1700" y2="150" class="image" />
+    <line x1="-1700" y1="150" x2="-1700" y2="100" class="image" />
+    <line x1="-1700" y1="100" x2="-1750" y2="100" class="image" />
+    <line x1="-1750" y1="100" x2="-1750" y2="150" class="image" />
+    <line x1="-1750" y1="150" x2="-1800" y2="150" class="image" />
+    <line x1="-1800" y1="150" x2="-1800" y2="100" class="image" />
+    <line x1="-1800" y1="100" x2="-1850" y2="100" class="image" />
+    <line x1="-1850" y1="100" x2="-1850" y2="150" class="image" />
+    <line x1="-1850" y1="150" x2="-1900" y2="150" class="image" />
+    <line x1="-1900" y1="150" x2="-1900" y2="100" class="image" />
+    <line x1="-1900" y1="100" x2="-1950" y2="100" class="image" />
+    <line x1="-1950" y1="100" x2="-1950" y2="150" class="image" />
+    <line x1="-1950" y1="150" x2="-2000" y2="150" class="image" />
+    <line x1="-2000" y1="150" x2="-2000" y2="100" class="image" />
+    <line x1="-2000" y1="100" x2="-2050" y2="100" class="image" />
+    <line x1="-20

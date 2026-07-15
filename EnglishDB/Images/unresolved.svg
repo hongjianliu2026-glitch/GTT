@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unresolved</text>
+  <text x="50" y="120" class="subtitle">[ˌʌnrɪˈzɒlvd] adj. 未解决的，未决定的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + resolve (解决)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的问号悬挂在空中，"未解决(un-resolved)"
+    <tspan x="50" dy="25">的问题像一个谜团，让人无法释怀。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The issue remains unresolved after several meetings.
+  </text>
+  <text x="50" y="310" class="content">
+    经过几次会议，这个问题仍然未解决。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large question mark -->
+    <path d="M 0 0 Q 50 100 100 0" class="image" />
+    <line x1="100" y1="0" x2="100" y2="50" class="image" />
+    <!-- Cloud -->
+    <ellipse cx="150" cy="50" rx="100" ry="50" class="image" />
+    <!-- Dotted line -->
+    <line x1="50" y1="100" x2="250" y2="100" class="image" stroke-dasharray="10,10" />
+  </g>
+</svg>

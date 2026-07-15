@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cystic</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪstɪk] adj. 囊的，囊状的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cyst (囊) + -ic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的囊状物，里面充满了液体，
+    <tspan x="50" dy="25">这个囊状物就像一个"囊(cyst)"，而"cystic"就是形容这种囊状的。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor diagnosed a cystic tumor in her liver.
+  </text>
+  <text x="50" y="310" class="content">
+    医生诊断出她的肝脏有一个囊状肿瘤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large cyst -->
+    <ellipse cx="175" cy="100" rx="150" ry="80" class="image" />
+    <!-- Liquid inside -->
+    <ellipse cx="175" cy="100" rx="130" ry="60" class="image" fill="#AED6F1" />
+    <!-- Label -->
+    <text x="175" y="100" text-anchor="middle" class="content" fill="#2C3E50">Cyst</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vindictive</text>
+  <text x="50" y="120" class="subtitle">[vɪnˈdɪktɪv] adj. 报复性的，怀恨的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vind- (复仇) + -ive (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人心中充满了"复仇(vind)"的火焰，
+    <tspan x="50" dy="25">他时刻准备着对那些伤害过他的人进行报复，</tspan>
+    <tspan x="50" dy="25">这种强烈的复仇心理让他变得"报复性的(vindictive)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was so vindictive that she never forgave anyone who wronged her.
+  </text>
+  <text x="50" y="310" class="content">
+    她如此怀恨在心，以至于她从不原谅那些伤害过她的人。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart with flames -->
+    <path d="M50,50 C30,100 100,100 80,50 Z" class="image" />
+    <line x1="50" y1="50" x2="50" y2="100" class="image" />
+    <line x1="80" y1="50" x2="80" y2="100" class="image" />
+    <line x1="65" y1="75" x2="65" y2="125" class="image" />
+    <line x1="65" y1="125" x2="50" y2="150" class="image" />
+    <line x1="65" y1="125" x2="80" y2="150" class="image" />
+    <!-- Flames -->
+    <path d="M50,150 C40,170 60,170 50,150 Z" class="image" />
+    <path d="M80,150 C70,170 90,170 80,150 Z" class="image" />
+    <path d="M65,125 C55,145 75,145 65,125 Z" class="image" />
+  </g>
+</svg>

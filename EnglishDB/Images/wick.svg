@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wick</text>
+  <text x="50" y="120" class="subtitle">[wɪk] n. 灯芯，蜡烛芯</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wick (源自中古英语 wick，意为“灯芯”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一根灯芯(wick)在蜡烛中，"点燃(wick)"
+    <tspan x="50" dy="25">后，火焰沿着灯芯向上燃烧，照亮了整个房间。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The candle's wick needs to be trimmed before it can be lit.
+  </text>
+  <text x="50" y="310" class="content">
+    蜡烛的灯芯需要在点燃前修剪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Candle -->
+    <rect x="0" y="0" width="100" height="200" class="image" />
+    <!-- Wick -->
+    <line x1="50" y1="20" x2="50" y2="80" class="image" />
+    <!-- Flame -->
+    <polygon points="45,20 55,20 50,10" class="image" />
+  </g>
+</svg>

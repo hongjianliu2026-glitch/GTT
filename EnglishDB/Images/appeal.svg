@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">appeal</text>
+  <text x="50" y="120" class="subtitle">[əˈpiːl] n. 吸引力，上诉；v. 吸引，呼吁</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ap- (向) + peal (大声)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在舞台上，"向(ap-)"观众"大声(peal)"
+    <tspan x="50" dy="25">呼吁，这种声音的吸引力(appeal)让人无法忽视。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The new design has a strong appeal to young people.
+  </text>
+  <text x="50" y="310" class="content">
+    这个新设计对年轻人有很大的吸引力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person on stage -->
+    <circle cx="175" cy="80" r="20" class="image" />
+    <line x1="175" y1="100" x2="175" y2="150" class="image" />
+    <line x1="175" y1="150" x2="150" y2="180" class="image" />
+    <line x1="175" y1="150" x2="200" y2="180" class="image" />
+    <line x1="175" y1="120" x2="220" y2="110" class="image" />
+    <!-- Sound waves -->
+    <ellipse cx="250" cy="80" rx="30" ry="10" class="image" />
+    <ellipse cx="280" cy="80" rx="40" ry="15" class="image" />
+    <ellipse cx="310" cy="80" rx="50" ry="20" class="image" />
+  </g>
+</svg>

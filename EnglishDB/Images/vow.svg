@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vow</text>
+  <text x="50" y="120" class="subtitle">[vaʊ] n. 誓言，誓约；v. 发誓，郑重宣告</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vow (源自中古英语 vowe, 意为誓言)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在教堂前，举起手，"郑重宣告(vow)"
+    <tspan x="50" dy="25">自己的誓言，誓言如铁，永不改变。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She vowed to never speak to him again.
+  </text>
+  <text x="50" y="310" class="content">
+    她发誓再也不和他说话了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Church -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+    <!-- Hand raised -->
+    <line x1="200" y1="115" x2="250" y2="80" class="image" />
+    <!-- Vow -->
+    <text x="260" y="90" class="content" style="font-size: 24px;">Vow</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">symbol</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪmbl] n. 符号，象征</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sym- (一起) + bol (投掷)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人围坐在一起，"共同投掷(sym-bol)"
+    <tspan x="50" dy="25">一个标记，这个标记就成为了他们之间的象征(symbol)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The dove is a symbol of peace.
+  </text>
+  <text x="50" y="310" class="content">
+    鸽子是和平的象征。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Circle representing the group -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Symbol (dove) -->
+    <path d="M100,100 Q150,50 200,100" class="image" />
+    <circle cx="100" cy="100" r="10" class="image" />
+    <line x1="100" y1="110" x2="100" y2="150" class="image" />
+    <line x1="100" y1="130" x2="80" y2="120" class="image" />
+    <line x1="100" y1="130" x2="120" y2="120" class="image" />
+  </g>
+</svg>

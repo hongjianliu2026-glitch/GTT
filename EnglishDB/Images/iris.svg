@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">iris</text>
+  <text x="50" y="120" class="subtitle">[ˈaɪrɪs] n. 虹膜，鸢尾花</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> iris (源自希腊语，意为“彩虹”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只眼睛的虹膜(iris)，它像彩虹一样
+    <tspan x="50" dy="25">多彩，而鸢尾花(iris)的花瓣也像彩虹一样绚丽。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The iris of the eye controls the amount of light entering.
+  </text>
+  <text x="50" y="310" class="content">
+    眼睛的虹膜控制着进入的光量。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eye -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Iris -->
+    <circle cx="100" cy="100" r="30" class="image" fill="#4A90E2" />
+    <!-- Pupil -->
+    <circle cx="100" cy="100" r="15" class="image" fill="#000" />
+    <!-- Rainbow -->
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#FF0000" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#FF7F00" transform="rotate(45 250 100)" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#FFFF00" transform="rotate(90 250 100)" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#00FF00" transform="rotate(135 250 100)" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#0000FF" transform="rotate(180 250 100)" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#4B0082" transform="rotate(225 250 100)" />
+    <path d="M 200 100 A 50 50 0 0 1 300 100" class="image" stroke="#9400D3" transform="rotate(270 250 100)" />
+  </g>
+</svg>

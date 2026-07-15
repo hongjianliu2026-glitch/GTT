@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .shield { fill: #F39C12; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">safety</text>
+  <text x="50" y="120" class="subtitle">[ˈseɪfti] n. 安全，保险</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> safe (安全的) + -ty (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的盾牌(shield)，象征着"安全(safe)"，
+    <tspan x="50" dy="25">保护着人们免受伤害，这就是安全(safety)的含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The safety of the passengers is our top priority.
+  </text>
+  <text x="50" y="310" class="content">
+    乘客的安全是我们的首要任务。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Shield -->
+    <path d="M50 50 L150 50 L200 100 L150 150 L50 150 Z" class="shield" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <line x1="100" y1="115" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="180" class="image" />
+    <line x1="100" y1="150" x2="120" y2="180" class="image" />
+    <line x1="100" y1="130" x2="130" y2="120" class="image" />
+  </g>
+</svg>

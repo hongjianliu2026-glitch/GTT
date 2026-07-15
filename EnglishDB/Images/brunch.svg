@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFFDE7; }
+      .title { font: bold 48px sans-serif; fill: #F57F17; }
+      .subtitle { font: italic 24px serif; fill: #5D4037; }
+      .content { font: 18px sans-serif; fill: #6D4C41; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #3E2723; }
+      .image { stroke: #795548; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">brunch</text>
+  <text x="50" y="120" class="subtitle">[brʌntʃ] n. 早午餐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> brunch = breakfast (早餐) + lunch (午餐)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个懒洋洋的周末，你睡到很晚，然后决定把早餐(breakfast)和午餐(lunch)合并成一顿丰盛的早午餐(brunch)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We often have brunch on Sundays.
+  </text>
+  <text x="50" y="310" class="content">
+    我们经常在周日吃早午餐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Plate -->
+    <rect x="0" y="0" width="300" height="200" class="image" />
+    <!-- Eggs -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="80" cy="50" r="20" class="image" />
+    <!-- Bacon -->
+    <rect x="120" y="30" width="100" height="20" class="image" />
+    <!-- Toast -->
+    <rect x="20" y="100" width="150" height="30" class="image" />
+    <!-- Coffee -->
+    <rect x="180" y="100" width="100" height="30" class="image" />
+    <!-- Fork -->
+    <line x1="250" y1="150" x2="280" y2="120" class="image" />
+    <line x1="280" y1="120" x2="280" y2="150" class="image" />
+  </g>
+</svg>

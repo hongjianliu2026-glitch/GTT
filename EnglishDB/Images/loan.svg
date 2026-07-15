@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">loan</text>
+  <text x="50" y="120" class="subtitle">[loʊn] n. 贷款，借出；v. 借出</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> lān (借)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人把一大袋金币"借出(lān)"给另一个人，
+    <tspan x="50" dy="25">这个动作就是贷款(loan)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He took out a loan to buy a car.
+  </text>
+  <text x="50" y="310" class="content">
+    他贷款买了一辆车。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bag of coins -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <circle cx="20" cy="30" r="10" class="image" />
+    <circle cx="50" cy="30" r="10" class="image" />
+    <circle cx="80" cy="30" r="10" class="image" />
+    <circle cx="110" cy="30" r="10" class="image" />
+    <circle cx="20" cy="60" r="10" class="image" />
+    <circle cx="50" cy="60" r="10" class="image" />
+    <circle cx="80" cy="60" r="10" class="image" />
+    <circle cx="110" cy="60" r="10" class="image" />
+    <!-- Person giving the loan -->
+    <circle cx="200" cy="50" r="20" class="image" />
+    <line x1="200" y1="70" x2="200" y2="120" class="image" />
+    <line x1="200" y1="120" x2="180" y2="150" class="image" />
+    <line x1="200" y1="120" x2="220" y2="150" class="image" />
+    <line x1="200" y1="90" x2="230" y2="80" class="image" />
+    <!-- Arrow indicating the loan -->
+    <line x1="150" y1="50" x2="190" y2="50" class="image" />
+    <polygon points="190,50 185,45 185,55" class="image" />
+  </g>
+</svg>

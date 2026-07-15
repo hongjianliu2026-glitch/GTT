@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .lasagna { fill: #FFEB3B; stroke: #F57F17; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lasagna</text>
+  <text x="50" y="120" class="subtitle">[ləˈzɑːnjə] n. 千层面</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词源:</tspan> 源自意大利语 "lasagna"，意为“千层面”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的千层面，层层叠叠，每一层都充满了美味的酱料和奶酪，
+    <tspan x="50" dy="25">就像一座美食的金字塔，让人垂涎欲滴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She baked a delicious lasagna for dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    她为晚餐烤了一道美味的千层面。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lasagna layers -->
+    <rect x="50" y="20" width="250" height="40" class="lasagna" />
+    <rect x="60" y="60" width="230" height="40" class="lasagna" />
+    <rect x="70" y="100" width="210" height="40" class="lasagna" />
+    <rect x="80" y="140" width="190" height="40" class="lasagna" />
+    <rect x="90" y="180" width="170" height="40" class="lasagna" />
+    <!-- Cheese and sauce -->
+    <circle cx="100" cy="40" r="10" class="lasagna" />
+    <circle cx="150" cy="80" r="10" class="lasagna" />
+    <circle cx="200" cy="120" r="10" class="lasagna" />
+    <circle cx="250" cy="160" r="10" class="lasagna" />
+    <circle cx="300" cy="200" r="10" class="lasagna" />
+  </g>
+</svg>

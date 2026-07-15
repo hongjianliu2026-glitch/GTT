@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .silk { fill: #F4D03F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">silk</text>
+  <text x="50" y="120" class="subtitle">[sɪlk] n. 丝绸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "silk"，来自古英语 "seoloc"，
+    <tspan x="50" dy="25">最终源自原始日耳曼语 "selik"，与拉丁语 "sericum" 相关。</tspan>
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="240" class="story">
+    想象一条闪闪发光的丝绸(silk)，从一只巨大的蚕茧中缓缓流出，
+    <tspan x="50" dy="25">像一条金色的河流，流淌在古老的丝绸之路上。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="310" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a beautiful silk dress to the party.
+  </text>
+  <text x="50" y="340" class="content">
+    她穿着一件漂亮的丝绸连衣裙去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Silk stream -->
+    <path d="M0 0 Q100 50 200 0 T400 0" class="silk" />
+    <path d="M0 20 Q100 70 200 20 T400 20" class="silk" />
+    <path d="M0 40 Q100 90 200 40 T400 40" class="silk" />
+    <!-- Silkworm cocoon -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Silk thread -->
+    <line x1="50" y1="70" x2="200" y2="70" class="image" />
+  </g>
+</svg>

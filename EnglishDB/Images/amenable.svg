@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">amenable</text>
+  <text x="50" y="120" class="subtitle">[əˈmiːnəbl] adj. 顺从的，愿意接受的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> am (爱) + en (使) + able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被"爱(am)"的力量"使(en)"得"能够(able)"
+    <tspan x="50" dy="25">顺从地接受建议，这个人就是amenable的。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is always amenable to new ideas.
+  </text>
+  <text x="50" y="310" class="content">
+    她总是愿意接受新想法。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <!-- Arrow pointing to heart -->
+    <line x1="80" y1="30" x2="100" y2="30" class="image" />
+    <polygon points="100,25 110,30 100,35" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <line x1="50" y1="115" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="35" y2="180" class="image" />
+    <line x1="50" y1="150" x2="65" y2="180" class="image" />
+    <line x1="50" y1="130" x2="80" y2="120" class="image" />
+    <!-- Speech bubble -->
+    <path d="M100 100 Q150 80 200 100 Q150 120 100 100" class="image" />
+    <text x="120" y="105" class="content">New Idea</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mislead</text>
+  <text x="50" y="120" class="subtitle">[ˌmɪsˈliːd] v. 误导，使误解</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mis- (错误) + lead (引导)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人拿着地图，"错误地引导(mis-lead)"
+    <tspan x="50" dy="25">另一个人走向错误的方向，这就是误导(mislead)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sign misled us into taking the wrong road.
+  </text>
+  <text x="50" y="310" class="content">
+    那个标志误导我们走错了路。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person with map -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Map -->
+    <rect x="80" y="80" width="150" height="100" class="image" />
+    <!-- Wrong arrow -->
+    <line x1="155" y1="130" x2="230" y2="130" class="image" />
+    <line x1="230" y1="130" x2="220" y2="120" class="image" />
+    <line x1="230" y1="130" x2="220" y2="140" class="image" />
+  </g>
+</svg>

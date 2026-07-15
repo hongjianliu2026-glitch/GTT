@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fellow</text>
+  <text x="50" y="120" class="subtitle">[ˈfɛloʊ] n. 伙伴，同事</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fell (伙伴) + -ow (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个探险家在丛林中，"伙伴(fell)"
+    <tspan x="50" dy="25">一起前行，互相扶持，他们就是fellow。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is my fellow traveler on this journey.
+  </text>
+  <text x="50" y="310" class="content">
+    他是我在这段旅程中的伙伴。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Jungle background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Trees -->
+    <line x1="50" y1="100" x2="50" y2="20" class="image" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" />
+    <line x1="150" y1="100" x2="150" y2="20" class="image" />
+    <!-- Path -->
+    <line x1="0" y1="180" x2="350" y2="180" class="image" />
+    <!-- First explorer -->
+    <circle cx="100" cy="150" r="15" class="image" />
+    <line x1="100" y1="165" x2="100" y2="190" class="image" />
+    <line x1="100" y1="190" x2="80" y2="220" class="image" />
+    <line x1="100" y1="190" x2="120" y2="220" class="image" />
+    <line x1="100" y1="175" x2="130" y2="165" class="image" />
+    <!-- Second explorer -->
+    <circle cx="200" cy="150" r="15" class="image" />
+    <line x1="200" y1="165" x2="200" y2="190" class="image" />
+    <line x1="200" y1="190" x2="180" y2="220" class="image" />
+    <line x1="200" y1="190" x2="220" y2="220" class="image" />
+    <line x1="200" y1="175" x2="230" y2="165" class="image" />
+    <!-- Handshake -->
+    <line x1="115" y1="170" x2="185" y2="170" class="image" />
+  </g>
+</svg>

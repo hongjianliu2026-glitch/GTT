@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dazzle</text>
+  <text x="50" y="120" class="subtitle">[ˈdæzl] v. 使目眩，使眼花缭乱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> daz (使眼花) + -le (反复动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的钻石在阳光下闪耀，"反复使眼花(daz-le)"，
+    <tspan x="50" dy="25">让人无法直视，这就是dazzle的效果。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bright lights of the city dazzled her.
+  </text>
+  <text x="50" y="310" class="content">
+    城市的灯光使她眼花缭乱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Diamond -->
+    <polygon points="175,10 225,10 250,75 200,125 150,75" class="image" />
+    <!-- Sun rays -->
+    <line x1="200" y1="125" x2="200" y2="200" class="image" />
+    <line x1="200" y1="125" x2="250" y2="175" class="image" />
+    <line x1="200" y1="125" x2="150" y2="175" class="image" />
+    <line x1="200" y1="125" x2="250" y2="75" class="image" />
+    <line x1="200" y1="125" x2="150" y2="75" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="250" r="20" class="image" />
+    <line x1="200" y1="270" x2="200" y2="320" class="image" />
+    <line x1="200" y1="320" x2="180" y2="350" class="image" />
+    <line x1="200" y1="320" x2="220" y2="350" class="image" />
+    <line x1="200" y1="290" x2="170" y2="280" class="image" />
+    <line x1="200" y1="290" x2="230" y2="280" class="image" />
+  </g>
+</svg>

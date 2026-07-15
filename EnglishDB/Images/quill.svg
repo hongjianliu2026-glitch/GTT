@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quill</text>
+  <text x="50" y="120" class="subtitle">[kwɪl] n. 羽毛笔</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quill (羽毛)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个中世纪的学者，手持一根巨大的羽毛笔，
+    <tspan x="50" dy="25">羽毛笔的羽毛如同巨鸟的翅膀，轻轻一挥，</tspan>
+    <tspan x="50" dy="25">墨水如瀑布般流淌，书写出历史的篇章。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The scribe used a quill to write the ancient manuscript.
+  </text>
+  <text x="50" y="310" class="content">
+    抄写员用羽毛笔书写古老的文稿。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Quill -->
+    <line x1="50" y1="50" x2="50" y2="200" class="image" />
+    <polygon points="20,50 80,50 50,20" class="image" />
+    <!-- Feather -->
+    <polyline points="50,200 30,250 50,300 70,250" class="image" />
+    <polyline points="50,200 20,250 50,300 80,250" class="image" />
+    <polyline points="50,200 10,250 50,300 90,250" class="image" />
+    <!-- Scholar -->
+    <circle cx="50" cy="350" r="20" class="image" />
+    <line x1="50" y1="370" x2="50" y2="420" class="image" />
+    <line x1="50" y1="420" x2="30" y2="450" class="image" />
+    <line x1="50" y1="420" x2="70" y2="450" class="image" />
+    <line x1="50" y1="390" x2="80" y2="380" class="image" />
+  </g>
+</svg>

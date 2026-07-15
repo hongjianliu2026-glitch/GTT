@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pearly</text>
+  <text x="50" y="120" class="subtitle">[ˈpɜːrli] adj. 珍珠般的，珍珠色的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pear (珍珠) + -ly (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗巨大的珍珠，"闪耀着珍珠般的光泽(pearly)"，
+    <tspan x="50" dy="25">它的光芒照亮了整个房间，仿佛珍珠在跳舞。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a pearly white dress to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她穿着一件珍珠白色的裙子去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Pearl -->
+    <circle cx="100" cy="100" r="50" fill="#FFF" stroke="#7F8C8D" stroke-width="2" />
+    <!-- Shine -->
+    <circle cx="80" cy="80" r="10" fill="#FFF" stroke="#7F8C8D" stroke-width="2" />
+    <circle cx="120" cy="80" r="10" fill="#FFF" stroke="#7F8C8D" stroke-width="2" />
+    <circle cx="100" cy="60" r="10" fill="#FFF" stroke="#7F8C8D" stroke-width="2" />
+  </g>
+</svg>

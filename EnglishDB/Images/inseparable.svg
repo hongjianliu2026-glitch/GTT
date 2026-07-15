@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">inseparable</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnˈsepərəbl] adj. 不可分割的，分不开的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + separ (分开) + -able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人被一条无形的绳子紧紧绑在一起，"无法分开(in-separ-able)"，
+    <tspan x="50" dy="25">无论走到哪里都形影不离。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The inseparable couple always went everywhere together.
+  </text>
+  <text x="50" y="310" class="content">
+    这对形影不离的情侣总是形影不离。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Invisible rope -->
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <!-- First person -->
+    <circle cx="100" cy="50" r="20" class="image" />
+    <line x1="100" y1="70" x2="100" y2="120" class="image" />
+    <line x1="100" y1="120" x2="80" y2="150" class="image" />
+    <line x1="100" y1="120" x2="120" y2="150" class="image" />
+    <line x1="100" y1="90" x2="140" y2="80" class="image" />
+    <!-- Second person -->
+    <circle cx="250" cy="50" r="20" class="image" />
+    <line x1="250" y1="70" x2="250" y2="120" class="image" />
+    <line x1="250" y1="120" x2="230" y2="150" class="image" />
+    <line x1="250" y1="120" x2="270" y2="150" class="image" />
+    <line x1="250" y1="90" x2="210" y2="80" class="image" />
+  </g>
+</svg>

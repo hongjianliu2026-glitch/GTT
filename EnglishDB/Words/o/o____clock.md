@@ -1,0 +1,69 @@
+---
+id: "015946"
+word: "o''clock"
+lemma: "o''clock"
+pos: "adj."
+uk: "'əʊklɒk"
+us: "'oʊˈklɑk"
+source: "COCA2w"
+root: "o''clock"
+morph: "o''clock"
+---
+
+
+## o\'\'clock
+
+**英音:** _[\'əʊklɒk]_ **美音:** _[\'oʊˈklɑk]_
+
+**译义:** *adj.表示钟点的，用于整点时刻，与数字连用表示几点整*
+
+### 短语
+
++ **two o\'clock:** _两点钟_
+
++ **five o\'clock:** _五点钟_
+
++ **eight o\'clock:** _八点钟_
+
++ **eleven o\'clock:** _十一点钟_
+
++ **six o\'clock:** _六点钟_
+
+### 例句
+
+#### 例句1
+
+> **It\'s five o\'clock.**
+
+**中文翻译:** 现在是五点钟。
+
+**单词释义:** 表示整点的'\...\...点钟'
+
+#### 例句2
+
+> **The meeting starts at two o\'clock.**
+
+**中文翻译:** 会议在两点钟开始。
+
+**单词释义:** 表示具体时刻的'\...\...点钟'
+
+#### 例句3
+
+> **I usually go to bed at ten o\'clock.**
+
+**中文翻译:** 我通常十点钟上床睡觉。
+
+**单词释义:** 指具体的整点时间'\...\...点钟'
+
+### 背诵小故事
+
+>
+想象一下，有一个古老的大钟，每次指针指向整点的时候，它就会大声喊'o\'\'clock'，提醒大家时间到了整点。比如一点，它喊'one
+o\'\'clock'，两点就喊'two o\'\'clock'，是不是很好记呀？
+
+**想象有个古老大钟，整点就喊'o\'\'clock'，如一点喊'one
+o\'\'clock'，两点喊'two o\'\'clock'，便于记忆**
+
+### 图义
+
+![[Images/o_clock.svg]]

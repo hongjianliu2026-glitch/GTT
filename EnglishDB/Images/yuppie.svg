@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">yuppie</text>
+  <text x="50" y="120" class="subtitle">[ˈjʌpi] n. 雅皮士（年轻的城市专业人士）</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Young Urban Professional
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着西装的年轻人在城市的高楼大厦间穿梭，
+    <tspan x="50" dy="25">手里拿着一杯咖啡，脸上洋溢着自信的笑容。</tspan>
+    <tspan x="50" dy="25">这就是典型的雅皮士(yuppie)形象。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The yuppie lifestyle often includes expensive cars and designer clothes.
+  </text>
+  <text x="50" y="310" class="content">
+    雅皮士的生活方式通常包括昂贵的汽车和名牌服装。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Skyscraper -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="20" y="20" width="110" height="160" class="image" />
+    <rect x="40" y="40" width="70" height="120" class="image" />
+    <!-- Yuppie -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+    <!-- Coffee cup -->
+    <rect x="230" y="90" width="20" height="30" class="image" />
+    <line x1="240" y1="90" x2="240" y2="80" class="image" />
+  </g>
+</svg>

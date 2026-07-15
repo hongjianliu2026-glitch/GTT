@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8DC; }
+      .title { font: bold 48px sans-serif; fill: #8B4513; }
+      .subtitle { font: italic 24px serif; fill: #A0522D; }
+      .content { font: 18px sans-serif; fill: #8B4513; }
+      .highlight { font-weight: bold; fill: #FF6347; }
+      .story { font: 16px serif; fill: #2E8B57; }
+      .image { stroke: #D2691E; stroke-width: 2; fill: none; }
+      .ice-cream { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ice-cream</text>
+  <text x="50" y="120" class="subtitle">[aɪs kriːm] n. 冰淇淋</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ice (冰) + cream (奶油)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个炎热的夏天，"冰(ice)"和"奶油(cream)"
+    <tspan x="50" dy="25">混合在一起，变成了美味的冰淇淋(ice-cream)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to eat chocolate ice-cream on hot days.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在热天吃巧克力冰淇淋。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ice cream cone -->
+    <polygon points="0,0 50,0 25,-100" class="image" />
+    <!-- Ice cream scoop -->
+    <circle cx="25" cy="-110" r="20" class="ice-cream" />
+    <circle cx="25" cy="-80" r="20" class="ice-cream" />
+    <circle cx="25" cy="-50" r="20" class="ice-cream" />
+  </g>
+</svg>

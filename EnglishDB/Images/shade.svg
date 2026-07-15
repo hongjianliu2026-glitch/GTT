@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shade</text>
+  <text x="50" y="120" class="subtitle">[ʃeɪd] n. 阴影，遮蔽；v. 遮蔽，使阴暗</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shad (影子)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的太阳伞，"遮蔽(shade)"
+    <tspan x="50" dy="25">下形成了一片凉爽的阴影(shade)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She sat in the shade of the tree to avoid the sun.
+  </text>
+  <text x="50" y="310" class="content">
+    她坐在树荫下以躲避阳光。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="200" cy="100" r="50" fill="#F1C40F" />
+    <!-- Umbrella -->
+    <path d="M150,150 Q200,50 250,150" stroke="#2ECC71" stroke-width="10" fill="none" />
+    <path d="M200,150 L200,250" stroke="#2ECC71" stroke-width="10" fill="none" />
+    <!-- Shade -->
+    <rect x="150" y="150" width="100" height="100" fill="#D0D3D4" opacity="0.5" />
+    <!-- Person -->
+    <circle cx="200" cy="220" r="15" fill="#34495E" />
+    <line x1="200" y1="235" x2="200" y2="270" stroke="#34495E" stroke-width="5" />
+    <line x1="200" y1="270" x2="180" y2="300" stroke="#34495E" stroke-width="5" />
+    <line x1="200" y1="270" x2="220" y2="300" stroke="#34495E" stroke-width="5" />
+    <line x1="200" y1="250" x2="230" y2="240" stroke="#34495E" stroke-width="5" />
+  </g>
+</svg>

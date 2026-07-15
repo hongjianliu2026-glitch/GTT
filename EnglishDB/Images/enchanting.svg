@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E91E63; }
+      .story { font: 16px serif; fill: #AD1457; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">enchanting</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈtʃɑːntɪŋ] adj. 迷人的，有魅力的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> en- (使) + chant (歌唱)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个美丽的仙女在森林中，"使(en-)"
+    <tspan x="50" dy="25">万物"歌唱(chant)"，整个森林都变得迷人(enchanting)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The enchanting melody of the violin captivated the audience.
+  </text>
+  <text x="50" y="310" class="content">
+    小提琴迷人的旋律吸引了观众。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fairy -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <line x1="50" y1="180" x2="20" y2="200" class="image" />
+    <line x1="50" y1="180" x2="80" y2="200" class="image" />
+    <!-- Forest -->
+    <rect x="0" y="200" width="350" height="100" class="image" />
+    <!-- Singing -->
+    <path d="M100,100 C150,50 250,50 300,100" class="image" />
+    <path d="M100,120 C150,70 250,70 300,120" class="image" />
+    <path d="M100,140 C150,90 250,90 300,140" class="image" />
+  </g>
+</svg>

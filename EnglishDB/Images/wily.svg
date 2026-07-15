@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wily</text>
+  <text x="50" y="120" class="subtitle">[ˈwaɪli] adj. 狡猾的，诡计多端的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wil (意愿) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只狐狸，它总是"意愿(wil)"
+    <tspan x="50" dy="25">强烈地想要欺骗其他动物，</tspan>
+    <tspan x="50" dy="25">这就是为什么它被称为狡猾的(wily)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The wily fox outsmarted the hunters.
+  </text>
+  <text x="50" y="310" class="content">
+    那只狡猾的狐狸智胜了猎人。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fox head -->
+    <circle cx="50" cy="50" r="40" class="image" />
+    <!-- Eyes -->
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <!-- Nose -->
+    <circle cx="50" cy="60" r="5" class="image" />
+    <!-- Ears -->
+    <polygon points="20,20 30,0 40,20" class="image" />
+    <polygon points="80,20 70,0 60,20" class="image" />
+    <!-- Smile -->
+    <path d="M30,70 Q50,80 70,70" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">drowning</text>
+  <text x="50" y="120" class="subtitle">[ˈdraʊnɪŋ] v. 淹死，溺水</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> drown (淹没) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在水中挣扎，"淹没(drown)"
+    <tspan x="50" dy="25">的过程中，这就是"溺水(drowning)"的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The lifeguard saved the child from drowning.
+  </text>
+  <text x="50" y="310" class="content">
+    救生员救了那个溺水的孩子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Water surface -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person struggling -->
+    <circle cx="175" cy="100" r="15" class="image" />
+    <line x1="175" y1="115" x2="175" y2="150" class="image" />
+    <line x1="175" y1="150" x2="155" y2="180" class="image" />
+    <line x1="175" y1="150" x2="195" y2="180" class="image" />
+    <line x1="175" y1="130" x2="205" y2="120" class="image" />
+    <!-- Water waves -->
+    <path d="M50,20 Q100,40 150,20 T250,20" class="image" />
+    <path d="M50,40 Q100,60 150,40 T250,40" class="image" />
+    <path d="M50,60 Q100,80 150,60 T250,60" class="image" />
+  </g>
+</svg>

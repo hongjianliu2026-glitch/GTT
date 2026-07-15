@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cynicism</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪnɪˌsɪzəm] n. 犬儒主义，愤世嫉俗</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cyn- (狗) + -ism (主义)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只狗(cyn-)对世界充满怀疑和不满，
+    <tspan x="50" dy="25">它对一切都持怀疑态度，这就是犬儒主义(cynicism)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His cynicism about politics was well-known.
+  </text>
+  <text x="50" y="310" class="content">
+    他对政治的愤世嫉俗是众所周知的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dog -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="140" class="image" /> <!-- Front leg -->
+    <line x1="50" y1="150" x2="80" y2="140" class="image" /> <!-- Back leg -->
+    <line x1="50" y1="180" x2="20" y2="210" class="image" /> <!-- Tail -->
+    <line x1="50" y1="180" x2="80" y2="210" class="image" /> <!-- Tail -->
+    <!-- Skeptical eyes -->
+    <circle cx="40" cy="90" r="5" class="image" />
+    <circle cx="60" cy="90" r="5" class="image" />
+    <!-- Mouth -->
+    <line x1="45" y1="110" x2="55" y2="110" class="image" />
+  </g>
+</svg>

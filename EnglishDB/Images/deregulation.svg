@@ -1,0 +1,133 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">deregulation</text>
+  <text x="50" y="120" class="subtitle">[ˌdiːˌreɡjəˈleɪʃn] n. 解除管制</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (去除) + regul (规则) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的锁链被"去除(de-)"，象征着"规则(regul)"的解除，
+    <tspan x="50" dy="25">整个场景变得自由而开放，这就是解除管制(deregulation)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The deregulation of the airline industry led to lower ticket prices.
+  </text>
+  <text x="50" y="310" class="content">
+    航空业的解除管制导致了机票价格的下降。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken chain -->
+    <line x1="0" y1="0" x2="150" y2="0" class="image" />
+    <line x1="150" y1="0" x2="150" y2="50" class="image" />
+    <line x1="150" y1="50" x2="200" y2="50" class="image" />
+    <line x1="200" y1="50" x2="200" y2="100" class="image" />
+    <line x1="200" y1="100" x2="250" y2="100" class="image" />
+    <line x1="250" y1="100" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="300" y2="150" class="image" />
+    <line x1="300" y1="150" x2="300" y2="200" class="image" />
+    <line x1="300" y1="200" x2="350" y2="200" class="image" />
+    <line x1="350" y1="200" x2="350" y2="250" class="image" />
+    <line x1="350" y1="250" x2="400" y2="250" class="image" />
+    <line x1="400" y1="250" x2="400" y2="300" class="image" />
+    <line x1="400" y1="300" x2="450" y2="300" class="image" />
+    <line x1="450" y1="300" x2="450" y2="350" class="image" />
+    <line x1="450" y1="350" x2="500" y2="350" class="image" />
+    <line x1="500" y1="350" x2="500" y2="400" class="image" />
+    <line x1="500" y1="400" x2="550" y2="400" class="image" />
+    <line x1="550" y1="400" x2="550" y2="450" class="image" />
+    <line x1="550" y1="450" x2="600" y2="450" class="image" />
+    <line x1="600" y1="450" x2="600" y2="500" class="image" />
+    <line x1="600" y1="500" x2="650" y2="500" class="image" />
+    <line x1="650" y1="500" x2="650" y2="550" class="image" />
+    <line x1="650" y1="550" x2="700" y2="550" class="image" />
+    <line x1="700" y1="550" x2="700" y2="600" class="image" />
+    <line x1="700" y1="600" x2="750" y2="600" class="image" />
+    <line x1="750" y1="600" x2="750" y2="650" class="image" />
+    <line x1="750" y1="650" x2="800" y2="650" class="image" />
+    <line x1="800" y1="650" x2="800" y2="700" class="image" />
+    <line x1="800" y1="700" x2="850" y2="700" class="image" />
+    <line x1="850" y1="700" x2="850" y2="750" class="image" />
+    <line x1="850" y1="750" x2="900" y2="750" class="image" />
+    <line x1="900" y1="750" x2="900" y2="800" class="image" />
+    <line x1="900" y1="800" x2="950" y2="800" class="image" />
+    <line x1="950" y1="800" x2="950" y2="850" class="image" />
+    <line x1="950" y1="850" x2="1000" y2="850" class="image" />
+    <line x1="1000" y1="850" x2="1000" y2="900" class="image" />
+    <line x1="1000" y1="900" x2="1050" y2="900" class="image" />
+    <line x1="1050" y1="900" x2="1050" y2="950" class="image" />
+    <line x1="1050" y1="950" x2="1100" y2="950" class="image" />
+    <line x1="1100" y1="950" x2="1100" y2="1000" class="image" />
+    <line x1="1100" y1="1000" x2="1150" y2="1000" class="image" />
+    <line x1="1150" y1="1000" x2="1150" y2="1050" class="image" />
+    <line x1="1150" y1="1050" x2="1200" y2="1050" class="image" />
+    <line x1="1200" y1="1050" x2="1200" y2="1100" class="image" />
+    <line x1="1200" y1="1100" x2="1250" y2="1100" class="image" />
+    <line x1="1250" y1="1100" x2="1250" y2="1150" class="image" />
+    <line x1="1250" y1="1150" x2="1300" y2="1150" class="image" />
+    <line x1="1300" y1="1150" x2="1300" y2="1200" class="image" />
+    <line x1="1300" y1="1200" x2="1350" y2="1200" class="image" />
+    <line x1="1350" y1="1200" x2="1350" y2="1250" class="image" />
+    <line x1="1350" y1="1250" x2="1400" y2="1250" class="image" />
+    <line x1="1400" y1="1250" x2="1400" y2="1300" class="image" />
+    <line x1="1400" y1="1300" x2="1450" y2="1300" class="image" />
+    <line x1="1450" y1="1300" x2="1450" y2="1350" class="image" />
+    <line x1="1450" y1="1350" x2="1500" y2="1350" class="image" />
+    <line x1="1500" y1="1350" x2="1500" y2="1400" class="image" />
+    <line x1="1500" y1="1400" x2="1550" y2="1400" class="image" />
+    <line x1="1550" y1="1400" x2="1550" y2="1450" class="image" />
+    <line x1="1550" y1="1450" x2="1600" y2="1450" class="image" />
+    <line x1="1600" y1="1450" x2="1600" y2="1500" class="image" />
+    <line x1="1600" y1="1500" x2="1650" y2="1500" class="image" />
+    <line x1="1650" y1="1500" x2="1650" y2="1550" class="image" />
+    <line x1="1650" y1="1550" x2="1700" y2="1550" class="image" />
+    <line x1="1700" y1="1550" x2="1700" y2="1600" class="image" />
+    <line x1="1700" y1="1600" x2="1750" y2="1600" class="image" />
+    <line x1="1750" y1="1600" x2="1750" y2="1650" class="image" />
+    <line x1="1750" y1="1650" x2="1800" y2="1650" class="image" />
+    <line x1="1800" y1="1650" x2="1800" y2="1700" class="image" />
+    <line x1="1800" y1="1700" x2="1850" y2="1700" class="image" />
+    <line x1="1850" y1="1700" x2="1850" y2="1750" class="image" />
+    <line x1="1850" y1="1750" x2="1900" y2="1750" class="image" />
+    <line x1="1900" y1="1750" x2="1900" y2="1800" class="image" />
+    <line x1="1900" y1="1800" x2="1950" y2="1800" class="image" />
+    <line x1="1950" y1="1800" x2="1950" y2="1850" class="image" />
+    <line x1="1950" y1="1850" x2="2000" y2="1850" class="image" />
+    <line x1="2000" y1="1850" x2="2000" y2="1900" class="image" />
+    <line x1="2000" y1="1900" x2="2050" y2="1900" class="image" />
+    <line x1="2050" y1="1900" x2="2050" y2="1950" class="image" />
+    <line x1="2050" y1="1950" x2="2100" y2="1950" class="image" />
+    <line x1="2100" y1="1950" x2="2100" y2="2000" class="image" />
+    <line x1="2100" y1="2000" x2="2150" y2="2000" class="image" />
+    <line x1="2150" y1="2000" x2="2150" y2="2050" class="image" />
+    <line x1="2150" y1="2050" x2="2200" y2="2050" class="image" />
+    <line x1="2200" y1="2050" x2="2200" y2="2100" class="image" />
+    <line x1="2200" y1="2100" x2="2250" y2="2100" class="image" />
+    <line x1="2250" y1="2100" x2="2250" y2="2150" class="image" />
+    <line x1="2250" y1="2150" x2="2300" y2="2150" class="image" />
+    <line x1="2300" y1="2150" x2="2300" y2="2200" class="image" />
+    <line x1="2300" y1="2200" x2="2350" y2="2200" class="image" />
+   

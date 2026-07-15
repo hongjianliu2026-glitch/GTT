@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nutrition</text>
+  <text x="50" y="120" class="subtitle">[nuːˈtrɪʃn] n. 营养，营养学</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> nutri (滋养) + -tion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的营养瓶，里面装满了各种"滋养(nutri)"
+    <tspan x="50" dy="25">身体的元素，这些元素共同构成了营养(nutrition)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> A balanced diet provides essential nutrition.
+  </text>
+  <text x="50" y="310" class="content">
+    均衡的饮食提供必要的营养。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Nutrition bottle -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="10" y="10" width="130" height="180" class="image" />
+    <!-- Nutrients -->
+    <circle cx="75" cy="60" r="10" class="image" />
+    <circle cx="75" cy="100" r="10" class="image" />
+    <circle cx="75" cy="140" r="10" class="image" />
+    <circle cx="75" cy="180" r="10" class="image" />
+    <!-- Nutrition label -->
+    <text x="170" y="100" class="content">
+      <tspan class="highlight">Nutrients:</tspan>
+      <tspan x="170" dy="25">Protein</tspan>
+      <tspan x="170" dy="25">Vitamins</tspan>
+      <tspan x="170" dy="25">Minerals</tspan>
+    </text>
+  </g>
+</svg>

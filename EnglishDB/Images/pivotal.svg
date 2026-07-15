@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pivotal</text>
+  <text x="50" y="120" class="subtitle">[ˈpɪvətl] adj. 关键的，枢轴的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pivot (枢轴) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的轮子，"枢轴(pivot)"
+    <tspan x="50" dy="25">是它的中心点，没有它，轮子就无法转动。</tspan>
+    <tspan x="50" dy="25">这个中心点就是关键的(pivotal)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The vote was pivotal in the election.
+  </text>
+  <text x="50" y="310" class="content">
+    这次投票在选举中起到了关键作用。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Pivot point -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <!-- Wheel -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Spokes -->
+    <line x1="100" y1="100" x2="100" y2="20" class="image" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" />
+    <line x1="100" y1="100" x2="100" y2="180" class="image" />
+    <line x1="100" y1="100" x2="20" y2="100" class="image" />
+    <!-- Label -->
+    <text x="80" y="220" class="content">枢轴(pivot)</text>
+  </g>
+</svg>

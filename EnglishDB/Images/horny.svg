@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #8E44AD; }
+      .content { font: 18px sans-serif; fill: #2C3E50; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">horny</text>
+  <text x="50" y="120" class="subtitle">[ˈhɔːrni] adj. 角质的，有角的；性欲旺盛的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> horn (角) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只长着巨大角的犀牛，它的角(horn)如此之大，以至于它变得"角质的(horny)"。
+    <tspan x="50" dy="25">同时，这只犀牛也因为角的力量而变得"性欲旺盛"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The horny rhinoceros charged at the intruder.
+  </text>
+  <text x="50" y="310" class="content">
+    那只性欲旺盛的犀牛向入侵者冲去。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rhinoceros body -->
+    <ellipse cx="150" cy="100" rx="100" ry="50" class="image" />
+    <!-- Rhinoceros head -->
+    <ellipse cx="150" cy="50" rx="50" ry="30" class="image" />
+    <!-- Rhinoceros horn -->
+    <line x1="150" y1="30" x2="150" y2="0" class="image" />
+    <!-- Rhinoceros legs -->
+    <line x1="70" y1="100" x2="70" y2="150" class="image" />
+    <line x1="230" y1="100" x2="230" y2="150" class="image" />
+    <line x1="100" y1="100" x2="100" y2="150" class="image" />
+    <line x1="200" y1="100" x2="200" y2="150" class="image" />
+  </g>
+</svg>

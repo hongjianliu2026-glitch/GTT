@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5EEF8; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fantasize</text>
+  <text x="50" y="120" class="subtitle">[ˈfæntəsaɪz] v. 幻想，想象</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fanta- (幻想) + -ize (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人闭上眼睛，"幻想(fanta-)"
+    <tspan x="50" dy="25">出一个五彩斑斓的世界，这就是"幻想(fantasize)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She often fantasizes about traveling to distant planets.
+  </text>
+  <text x="50" y="310" class="content">
+    她经常幻想去遥远的星球旅行。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="85" r="10" class="image" />
+    <circle cx="120" cy="85" r="10" class="image" />
+    <!-- Mouth -->
+    <path d="M 70 120 Q 100 140 130 120" class="image" />
+    <!-- Imaginary world -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <rect x="220" y="130" width="60" height="40" class="image" />
+    <line x1="250" y1="170" x2="250" y2="200" class="image" />
+    <line x1="250" y1="200" x2="230" y2="220" class="image" />
+    <line x1="250" y1="200" x2="270" y2="220" class="image" />
+    <!-- Connection line -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spontaneity</text>
+  <text x="50" y="120" class="subtitle">[ˌspɒntəˈniːəti] n. 自发性，自发行为</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> spont- (自发) + -aneity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个舞者在舞台上，"自发地(spont-)"
+    <tspan x="50" dy="25">跳起舞来，没有任何预先的计划，这就是自发性(spontaneity)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her spontaneity made the performance more lively.
+  </text>
+  <text x="50" y="310" class="content">
+    她的自发性使表演更加生动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Dancer -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="160" class="image" />
+    <line x1="175" y1="160" x2="150" y2="190" class="image" />
+    <line x1="175" y1="160" x2="200" y2="190" class="image" />
+    <line x1="175" y1="140" x2="140" y2="130" class="image" />
+    <line x1="175" y1="140" x2="210" y2="130" class="image" />
+    <!-- Dance movement -->
+    <path d="M175,160 Q200,140 225,160" class="image" />
+    <path d="M175,160 Q150,140 125,160" class="image" />
+  </g>
+</svg>

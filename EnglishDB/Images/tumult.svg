@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tumult</text>
+  <text x="50" y="120" class="subtitle">[ˈtjuːmʌlt] n. 骚动，混乱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tumultus (拉丁语，意为“骚动”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的市场，人们四处奔走，
+    <tspan x="50" dy="25">大声争吵，货物散落一地，这就是“骚动(tumult)”的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crowd created a tumult when the news broke.
+  </text>
+  <text x="50" y="310" class="content">
+    消息传出时，人群中引起了骚动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Market scene -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- People -->
+    <circle cx="50" cy="50" r="10" class="image" />
+    <circle cx="100" cy="70" r="10" class="image" />
+    <circle cx="150" cy="30" r="10" class="image" />
+    <circle cx="200" cy="60" r="10" class="image" />
+    <circle cx="250" cy="40" r="10" class="image" />
+    <!-- Arrows representing movement -->
+    <line x1="50" y1="60" x2="70" y2="80" class="image" />
+    <line x1="100" y1="80" x2="120" y2="100" class="image" />
+    <line x1="150" y1="40" x2="170" y2="60" class="image" />
+    <line x1="200" y1="70" x2="220" y2="90" class="image" />
+    <line x1="250" y1="50" x2="270" y2="70" class="image" />
+    <!-- Spilled goods -->
+    <rect x="30" y="100" width="20" height="10" class="image" />
+    <rect x="80" y="120" width="20" height="10" class="image" />
+    <rect x="130" y="90" width="20" height="10" class="image" />
+    <rect x="180" y="110" width="20" height="10" class="image" />
+    <rect x="230" y="80" width="20" height="10" class="image" />
+  </g>
+</svg>

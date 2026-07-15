@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Newtonian</text>
+  <text x="50" y="120" class="subtitle">[njuːˈtəʊnɪən] adj. 牛顿的，牛顿学说的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Newton (牛顿) + -ian (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象牛顿(Newton)坐在苹果树下，苹果掉落在他头上，
+    <tspan x="50" dy="25">他突然领悟了万有引力定律，这就是牛顿学说(Newtonian)的由来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Newtonian laws of motion are fundamental in physics.
+  </text>
+  <text x="50" y="310" class="content">
+    牛顿运动定律在物理学中是基础性的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Apple tree -->
+    <line x1="50" y1="0" x2="50" y2="150" class="image" />
+    <circle cx="50" cy="30" r="20" class="image" />
+    <circle cx="30" cy="60" r="20" class="image" />
+    <circle cx="70" cy="60" r="20" class="image" />
+    <circle cx="50" cy="90" r="20" class="image" />
+    <!-- Falling apple -->
+    <circle cx="50" cy="180" r="15" class="image" />
+    <!-- Newton -->
+    <circle cx="50" cy="220" r="20" class="image" />
+    <line x1="50" y1="240" x2="50" y2="280" class="image" />
+    <line x1="50" y1="280" x2="30" y2="310" class="image" />
+    <line x1="50" y1="280" x2="70" y2="310" class="image" />
+    <line x1="50" y1="260" x2="20" y2="250" class="image" />
+    <line x1="50" y1="260" x2="80" y2="250" class="image" />
+  </g>
+</svg>

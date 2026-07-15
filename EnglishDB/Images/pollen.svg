@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pollen</text>
+  <text x="50" y="120" class="subtitle">[ˈpɑːlən] n. 花粉</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> polli (小) + en (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一朵花在微风中轻轻摇曳，"小小的(polli)"
+    <tspan x="50" dy="25">花粉颗粒从花蕊中飘散出来，这些微小的颗粒就是花粉(pollen)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Bees collect pollen from flowers to make honey.
+  </text>
+  <text x="50" y="310" class="content">
+    蜜蜂从花朵中采集花粉来制作蜂蜜。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flower -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <circle cx="130" cy="70" r="10" class="image" fill="#F1C40F" />
+    <circle cx="70" cy="70" r="10" class="image" fill="#F1C40F" />
+    <circle cx="150" cy="100" r="10" class="image" fill="#F1C40F" />
+    <circle cx="50" cy="100" r="10" class="image" fill="#F1C40F" />
+    <circle cx="130" cy="130" r="10" class="image" fill="#F1C40F" />
+    <circle cx="70" cy="130" r="10" class="image" fill="#F1C40F" />
+    <!-- Pollen -->
+    <circle cx="200" cy="100" r="5" class="image" fill="#F39C12" />
+    <circle cx="220" cy="120" r="5" class="image" fill="#F39C12" />
+    <circle cx="240" cy="80" r="5" class="image" fill="#F39C12" />
+    <circle cx="260" cy="100" r="5" class="image" fill="#F39C12" />
+    <circle cx="280" cy="120" r="5" class="image" fill="#F39C12" />
+  </g>
+</svg>

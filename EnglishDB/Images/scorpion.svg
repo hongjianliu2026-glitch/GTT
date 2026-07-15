@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">scorpion</text>
+  <text x="50" y="120" class="subtitle">[ˈskɔːrpiən] n. 蝎子</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> scorpi (蝎子) + -on (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只蝎子(scorpi)在沙漠中爬行，它的尾巴高高翘起，
+    <tspan x="50" dy="25">随时准备刺向敌人。这个画面让人印象深刻，记住了蝎子(scorpion)的特征。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The scorpion's sting can be deadly.
+  </text>
+  <text x="50" y="310" class="content">
+    蝎子的刺可以致命。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Scorpion body -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Scorpion tail -->
+    <path d="M 50 130 Q 100 180 50 230" class="image" />
+    <!-- Scorpion pincers -->
+    <line x1="20" y1="100" x2="0" y2="80" class="image" />
+    <line x1="80" y1="100" x2="100" y2="80" class="image" />
+    <!-- Scorpion legs -->
+    <line x1="20" y1="100" x2="0" y2="120" class="image" />
+    <line x1="80" y1="100" x2="100" y2="120" class="image" />
+    <line x1="30" y1="100" x2="10" y2="140" class="image" />
+    <line x1="70" y1="100" x2="90" y2="140" class="image" />
+  </g>
+</svg>

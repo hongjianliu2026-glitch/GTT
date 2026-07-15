@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">well-worn</text>
+  <text x="50" y="120" class="subtitle">[ˌwɛlˈwɔrn] adj. 破旧的，磨损的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> well (好) + worn (wear的过去分词，磨损)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条被无数次踩踏的"好(well)"路，
+    <tspan x="50" dy="25">表面已经"磨损(worn)"得破旧不堪。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He wore a well-worn jacket to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    他穿着一件破旧的外套去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Path -->
+    <path d="M0 100 L350 100" class="image" stroke-dasharray="5,5" />
+    <!-- Footprints -->
+    <path d="M50 90 L60 100 L50 110 Z" class="image" />
+    <path d="M80 90 L90 100 L80 110 Z" class="image" />
+    <path d="M110 90 L120 100 L110 110 Z" class="image" />
+    <path d="M140 90 L150 100 L140 110 Z" class="image" />
+    <path d="M170 90 L180 100 L170 110 Z" class="image" />
+    <path d="M200 90 L210 100 L200 110 Z" class="image" />
+    <path d="M230 90 L240 100 L230 110 Z" class="image" />
+    <path d="M260 90 L270 100 L260 110 Z" class="image" />
+    <path d="M290 90 L300 100 L290 110 Z" class="image" />
+    <path d="M320 90 L330 100 L320 110 Z" class="image" />
+    <!-- Worn spots -->
+    <circle cx="100" cy="100" r="10" class="image" fill="#D3D3D3" />
+    <circle cx="200" cy="100" r="10" class="image" fill="#D3D3D3" />
+    <circle cx="300" cy="100" r="10" class="image" fill="#D3D3D3" />
+  </g>
+</svg>

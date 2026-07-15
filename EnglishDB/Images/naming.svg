@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">naming</text>
+  <text x="50" y="120" class="subtitle">[ˈneɪmɪŋ] n. 命名，取名</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> name (名字) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个婴儿刚出生，父母正在"命名(name-ing)"
+    <tspan x="50" dy="25">他，他们认真地写下名字，这个过程就是naming。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The process of naming a new product is crucial.
+  </text>
+  <text x="50" y="310" class="content">
+    给新产品命名的过程至关重要。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Baby -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Parents -->
+    <circle cx="150" cy="100" r="20" class="image" />
+    <circle cx="200" cy="100" r="20" class="image" />
+    <!-- Naming -->
+    <line x1="50" y1="150" x2="200" y2="150" class="image" />
+    <line x1="50" y1="160" x2="200" y2="160" class="image" />
+    <line x1="50" y1="170" x2="200" y2="170" class="image" />
+    <line x1="50" y1="180" x2="200" y2="180" class="image" />
+    <!-- Name tag -->
+    <rect x="100" y="200" width="100" height="50" class="image" />
+    <text x="120" y="230" class="content">Name</text>
+  </g>
+</svg>

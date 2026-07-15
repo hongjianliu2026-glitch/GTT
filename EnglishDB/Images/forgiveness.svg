@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">forgiveness</text>
+  <text x="50" y="120" class="subtitle">[fərˈɡɪvnəs] n. 原谅，宽恕</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> for- (离开) + give (给予) + -ness (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人把"给予(give)"的"离开(for-)"了，
+    <tspan x="50" dy="25">意味着他放下了怨恨，选择了宽恕(forgiveness)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She asked for forgiveness for her mistake.
+  </text>
+  <text x="50" y="310" class="content">
+    她为自己的错误请求原谅。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M50,50 Q100,25 150,50 Q100,75 50,50" class="image" />
+    <!-- Arrow leaving the heart -->
+    <line x1="100" y1="50" x2="200" y2="50" class="image" />
+    <polygon points="200,45 200,55 210,50" class="image" />
+    <!-- Text annotation -->
+    <text x="220" y="55" class="content">give</text>
+    <text x="30" y="100" class="content">for-</text>
+  </g>
+</svg>

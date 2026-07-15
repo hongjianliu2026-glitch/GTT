@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">asymmetrical</text>
+  <text x="50" y="120" class="subtitle">[ˌeɪsɪˈmetrɪkl] adj. 不对称的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> a- (不) + symmetr (对称) + -ical (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个艺术家在画布上，"不(a-)"
+    <tspan x="50" dy="25">对称地(symmetr)画出一只大象，</tspan>
+    <tspan x="50" dy="25">一只耳朵大，一只耳朵小，</tspan>
+    <tspan x="50" dy="25">这就是不对称(asymmetrical)的艺术。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> The design of the building is asymmetrical, which makes it unique.
+  </text>
+  <text x="50" y="330" class="content">
+    这座建筑的设计是不对称的，这使得它独一无二。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Elephant body -->
+    <ellipse cx="150" cy="100" rx="100" ry="50" class="image" />
+    <!-- Large ear -->
+    <ellipse cx="230" cy="70" rx="40" ry="60" class="image" />
+    <!-- Small ear -->
+    <ellipse cx="70" cy="70" rx="20" ry="30" class="image" />
+    <!-- Trunk -->
+    <path d="M150,150 Q100,200 150,250" class="image" />
+    <!-- Legs -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="200" y1="150" x2="200" y2="200" class="image" />
+  </g>
+</svg>

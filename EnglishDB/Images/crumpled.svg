@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">crumpled</text>
+  <text x="50" y="120" class="subtitle">[ˈkrʌmpəld] adj. 弄皱的，压皱的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crumple (弄皱) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一张纸被"弄皱(crumple)"后，变得皱巴巴的，
+    <tspan x="50" dy="25">就像是被压在重物下，无法恢复平整。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found the crumpled note in her pocket.
+  </text>
+  <text x="50" y="310" class="content">
+    她在口袋里发现了那张皱巴巴的纸条。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Crumpled paper -->
+    <path d="M50 20 Q70 50 100 20 T150 20 T200 20 T250 20 T300 20 T350 20 T400 20 T450 20 T500 20 T550 20 T600 20 T650 20 T700 20 T750 20 T800 20" class="image" />
+    <path d="M50 40 Q70 70 100 40 T150 40 T200 40 T250 40 T300 40 T350 40 T400 40 T450 40 T500 40 T550 40 T600 40 T650 40 T700 40 T750 40 T800 40" class="image" />
+    <path d="M50 60 Q70 90 100 60 T150 60 T200 60 T250 60 T300 60 T350 60 T400 60 T450 60 T500 60 T550 60 T600 60 T650 60 T700 60 T750 60 T800 60" class="image" />
+    <path d="M50 80 Q70 110 100 80 T150 80 T200 80 T250 80 T300 80 T350 80 T400 80 T450 80 T500 80 T550 80 T600 80 T650 80 T700 80 T750 80 T800 80" class="image" />
+    <path d="M50 100 Q70 130 100 100 T150 100 T200 100 T250 100 T300 100 T350 100 T400 100 T450 100 T500 100 T550 100 T600 100 T650 100 T700 100 T750 100 T800 100" class="image" />
+  </g>
+</svg>

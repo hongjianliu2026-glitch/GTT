@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fragrance</text>
+  <text x="50" y="120" class="subtitle">[ˈfreɪɡrəns] n. 香味，芳香</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> frag (打破) + -ance (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一朵花被"打破(frag)"，
+    <tspan x="50" dy="25">释放出迷人的"香味(fragrance)"，</tspan>
+    <tspan x="50" dy="25">弥漫在空气中，令人陶醉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The fragrance of the roses filled the room.
+  </text>
+  <text x="50" y="310" class="content">
+    玫瑰的香味充满了房间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flower -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#FF6F61" />
+    <circle cx="80" cy="50" r="30" class="image" fill="#FF6F61" />
+    <circle cx="65" cy="80" r="30" class="image" fill="#FF6F61" />
+    <circle cx="50" cy="110" r="30" class="image" fill="#FF6F61" />
+    <circle cx="80" cy="110" r="30" class="image" fill="#FF6F61" />
+    <!-- Broken petal -->
+    <path d="M 50 50 Q 30 80 50 110" class="image" stroke="#FF6F61" stroke-width="5" fill="none" />
+    <!-- Aroma -->
+    <path d="M 120 50 Q 150 30 180 50" class="image" stroke="#FFD1DC" stroke-width="5" fill="none" />
+    <path d="M 120 70 Q 150 50 180 70" class="image" stroke="#FFD1DC" stroke-width="5" fill="none" />
+    <path d="M 120 90 Q 150 70 180 90" class="image" stroke="#FFD1DC" stroke-width="5" fill="none" />
+  </g>
+</svg>

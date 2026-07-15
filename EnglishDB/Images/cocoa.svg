@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #6C3483; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .cocoa { fill: #8B4513; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cocoa</text>
+  <text x="50" y="120" class="subtitle">[ˈkoʊkoʊ] n. 可可粉，可可饮料</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> coco (可可豆)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的可可豆(coco)从天而降，
+    <tspan x="50" dy="25">砸在了一个热气腾腾的杯子里，瞬间变成了美味的可可饮料(cocoa)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to drink hot cocoa on cold winter nights.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在寒冷的冬夜喝热可可。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cocoa bean -->
+    <circle cx="50" cy="100" r="30" class="cocoa" />
+    <!-- Cup -->
+    <rect x="100" y="50" width="150" height="100" class="image" />
+    <rect x="100" y="150" width="150" height="20" class="image" />
+    <!-- Steam -->
+    <line x1="120" y1="50" x2="120" y2="20" class="image" />
+    <line x1="150" y1="50" x2="150" y2="20" class="image" />
+    <line x1="180" y1="50" x2="180" y2="20" class="image" />
+  </g>
+</svg>

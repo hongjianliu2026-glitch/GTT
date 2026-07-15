@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">seminal</text>
+  <text x="50" y="120" class="subtitle">[ˈsiːmɪnl] adj. 种子的，开创性的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sem (种子) + inal (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗种子(sem)在土壤中发芽，
+    <tspan x="50" dy="25">它蕴含着生命的力量，象征着开创性的(seminal)思想或作品。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His seminal work in genetics revolutionized the field.
+  </text>
+  <text x="50" y="310" class="content">
+    他在遗传学方面的开创性工作彻底改变了这个领域。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Seed -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <!-- Sprout -->
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="30" y2="130" class="image" />
+    <line x1="50" y1="150" x2="70" y2="130" class="image" />
+    <line x1="50" y1="180" x2="30" y2="200" class="image" />
+    <line x1="50" y1="180" x2="70" y2="200" class="image" />
+  </g>
+</svg>

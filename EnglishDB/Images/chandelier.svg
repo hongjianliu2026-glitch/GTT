@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">chandelier</text>
+  <text x="50" y="120" class="subtitle">[ˌʃændəˈlɪər] n. 枝形吊灯</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cand (发光) + elier (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的"发光(cand)"小物件(elier)，
+    <tspan x="50" dy="25">它悬挂在天花板上，发出璀璨的光芒，这就是枝形吊灯(chandelier)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The grand hall was adorned with an ornate chandelier.
+  </text>
+  <text x="50" y="310" class="content">
+    宏伟的大厅装饰着一盏华丽的枝形吊灯。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ceiling -->
+    <rect x="0" y="0" width="350" height="50" class="image" />
+    <!-- Chandelier -->
+    <circle cx="175" cy="50" r="20" class="image" />
+    <line x1="175" y1="70" x2="175" y2="150" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="140" y1="120" x2="210" y2="120" class="image" />
+    <line x1="130" y1="140" x2="220" y2="140" class="image" />
+    <!-- Light bulbs -->
+    <circle cx="150" cy="100" r="5" class="image" />
+    <circle cx="200" cy="100" r="5" class="image" />
+    <circle cx="140" cy="120" r="5" class="image" />
+    <circle cx="210" cy="120" r="5" class="image" />
+    <circle cx="130" cy="140" r="5" class="image" />
+    <circle cx="220" cy="140" r="5" class="image" />
+  </g>
+</svg>

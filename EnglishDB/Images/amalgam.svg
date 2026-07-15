@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">amalgam</text>
+  <text x="50" y="120" class="subtitle">[əˈmælɡəm] n. 混合物，汞合金</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> amal- (工作) + gam (婚姻)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两种不同的物质，像"工作(amal-)"和"婚姻(gam)"一样，
+    <tspan x="50" dy="25">紧密结合在一起，形成了一个不可分割的"混合物(amalgam)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The artist created a unique amalgam of different styles.
+  </text>
+  <text x="50" y="310" class="content">
+    艺术家创造了一种独特的不同风格的混合物。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two circles representing different substances -->
+    <circle cx="50" cy="100" r="40" class="image" />
+    <circle cx="150" cy="100" r="40" class="image" />
+    <!-- Merging line -->
+    <line x1="90" y1="100" x2="110" y2="100" class="image" />
+    <!-- Combined shape -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Label -->
+    <text x="80" y="200" class="content">两种物质结合</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">camping</text>
+  <text x="50" y="120" class="subtitle">[ˈkæmpɪŋ] n. 露营，野营</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> camp (营地) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人在森林中，"搭建营地(camp)"
+    <tspan x="50" dy="25">并享受户外生活，这就是露营(camping)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We went camping in the mountains last weekend.
+  </text>
+  <text x="50" y="310" class="content">
+    我们上周末去山里露营了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tent -->
+    <polygon points="0,100 100,0 200,100" class="image" />
+    <!-- Campfire -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <!-- Trees -->
+    <line x1="50" y1="200" x2="50" y2="100" class="image" />
+    <line x1="150" y1="200" x2="150" y2="100" class="image" />
+    <!-- People -->
+    <circle cx="70" cy="180" r="10" class="image" />
+    <circle cx="130" cy="180" r="10" class="image" />
+  </g>
+</svg>

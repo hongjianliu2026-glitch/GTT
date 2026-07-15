@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">leash</text>
+  <text x="50" y="120" class="subtitle">[liːʃ] n. 拴狗的皮带；v. 用皮带拴住</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> læs (拉)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个主人用"拉(læs)"着一条狗的皮带，
+    <tspan x="50" dy="25">这条皮带就是leash，控制着狗的行动。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He always keeps his dog on a leash when they go out.
+  </text>
+  <text x="50" y="310" class="content">
+    他们外出时，他总是用皮带拴着他的狗。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Leash -->
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <!-- Dog -->
+    <circle cx="300" cy="50" r="20" class="image" />
+    <!-- Person holding the leash -->
+    <circle cx="50" cy="50" r="15" class="image" />
+    <line x1="50" y1="65" x2="50" y2="100" class="image" />
+    <line x1="50" y1="100" x2="30" y2="130" class="image" />
+    <line x1="50" y1="100" x2="70" y2="130" class="image" />
+    <line x1="50" y1="80" x2="80" y2="70" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">maxim</text>
+  <text x="50" y="120" class="subtitle">[ˈmæksɪm] n. 格言，箴言</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> max (大) + -im (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的(max)石头上刻着一句箴言(maxim)，
+    <tspan x="50" dy="25">这句箴言如此重要，以至于它被放大(max)并永远铭记。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> "Carpe diem" is a well-known maxim.
+  </text>
+  <text x="50" y="310" class="content">
+    "及时行乐"是一句广为人知的格言。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large stone -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Maxim text -->
+    <text x="50" y="100" class="content" style="font-size: 36px; fill: #FFFFFF;">
+      Carpe Diem
+    </text>
+  </g>
+</svg>

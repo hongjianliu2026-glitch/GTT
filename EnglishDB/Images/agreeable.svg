@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">agreeable</text>
+  <text x="50" y="120" class="subtitle">[əˈɡriːəbl] adj. 令人愉快的，欣然同意的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> agree (同意) + -able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人微笑着点头，"欣然同意(agree-able)"
+    <tspan x="50" dy="25">每一个提议，这种态度让人感到愉快(agreeable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found his proposal quite agreeable.
+  </text>
+  <text x="50" y="310" class="content">
+    她觉得他的提议非常令人愉快。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Smiling face -->
+    <circle cx="50" cy="50" r="40" class="image" />
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <path d="M 30 60 Q 50 80 70 60" class="image" />
+    <!-- Thumb up -->
+    <line x1="50" y1="90" x2="50" y2="120" class="image" />
+    <line x1="50" y1="120" x2="40" y2="140" class="image" />
+    <line x1="50" y1="120" x2="60" y2="140" class="image" />
+  </g>
+</svg>

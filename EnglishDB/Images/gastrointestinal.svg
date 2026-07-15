@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gastrointestinal</text>
+  <text x="50" y="120" class="subtitle">[ˌɡæstroʊˌɪntəˈlæktɪk] adj. 胃肠的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gastro- (胃) + intestinal (肠的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的胃和肠子，它们像一条巨龙一样蜿蜒盘旋，
+    <tspan x="50" dy="25">吞噬着一切食物，这就是"胃肠(gastro-intestinal)"的夸张画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He suffers from gastrointestinal issues after eating spicy food.
+  </text>
+  <text x="50" y="310" class="content">
+    他吃了辣的食物后会感到胃肠不适。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Stomach -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <text x="80" y="110" class="content" fill="#2C3E50">胃</text>
+    <!-- Intestines -->
+    <path d="M 150 100 Q 200 50 250 100 T 350 100" class="image" />
+    <text x="200" y="90" class="content" fill="#2C3E50">肠</text>
+    <!-- Food -->
+    <rect x="50" y="150" width="20" height="10" class="image" />
+    <rect x="70" y="150" width="20" height="10" class="image" />
+    <rect x="90" y="150" width="20" height="10" class="image" />
+    <text x="50" y="170" class="content" fill="#2C3E50">食物</text>
+  </g>
+</svg>

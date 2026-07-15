@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Irishman</text>
+  <text x="50" y="120" class="subtitle">[ˈaɪrɪʃmən] n. 爱尔兰人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Irish (爱尔兰的) + man (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着绿色衣服的"爱尔兰人(Irishman)"，
+    <tspan x="50" dy="25">头上戴着一顶传统的爱尔兰帽子，手里拿着一杯</tspan>
+    <tspan x="50" dy="25">爱尔兰啤酒，正在庆祝圣帕特里克节。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Irishman was known for his love of music and dance.
+  </text>
+  <text x="50" y="310" class="content">
+    这位爱尔兰人以他对音乐和舞蹈的热爱而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Green shirt -->
+    <rect x="0" y="0" width="150" height="200" class="image" fill="#009E60" />
+    <!-- Irish hat -->
+    <polygon points="75,0 100,50 50,50" class="image" fill="#FFD700" />
+    <!-- Beer mug -->
+    <rect x="50" y="150" width="50" height="50" class="image" fill="#DAA520" />
+    <circle cx="75" cy="175" r="15" class="image" fill="#DAA520" />
+    <!-- Face -->
+    <circle cx="75" cy="100" r="20" class="image" fill="#FFDBAC" />
+    <circle cx="65" cy="95" r="5" class="image" fill="#000000" />
+    <circle cx="85" cy="95" r="5" class="image" fill="#000000" />
+    <line x1="65" y1="110" x2="85" y2="110" class="image" />
+  </g>
+</svg>

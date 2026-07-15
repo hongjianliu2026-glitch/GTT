@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">orchestra</text>
+  <text x="50" y="120" class="subtitle">[ˈɔːrkɪstrə] n. 管弦乐队</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> orche- (舞蹈) + stra (场所)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的舞蹈场所(orche-stra)，
+    <tspan x="50" dy="25">里面充满了各种乐器和音乐家，他们共同演奏出美妙的音乐。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The orchestra performed a beautiful symphony last night.
+  </text>
+  <text x="50" y="310" class="content">
+    昨晚管弦乐队演奏了一首美妙的交响乐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Musicians -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="150" cy="100" r="15" class="image" />
+    <circle cx="200" cy="100" r="15" class="image" />
+    <circle cx="250" cy="100" r="15" class="image" />
+    <!-- Instruments -->
+    <line x1="50" y1="120" x2="50" y2="150" class="image" />
+    <line x1="100" y1="120" x2="100" y2="150" class="image" />
+    <line x1="150" y1="120" x2="150" y2="150" class="image" />
+    <line x1="200" y1="120" x2="200" y2="150" class="image" />
+    <line x1="250" y1="120" x2="250" y2="150" class="image" />
+    <!-- Music notes -->
+    <path d="M30,180 Q60,160 90,180 T150,180" class="image" />
+    <path d="M180,180 Q210,160 240,180 T300,180" class="image" />
+  </g>
+</svg>

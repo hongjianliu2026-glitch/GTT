@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dot-com</text>
+  <text x="50" y="120" class="subtitle">[ˈdɒt kɒm] n. 互联网公司</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dot (点) + com (commercial，商业)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的地球上，无数的"点(dot)"
+    <tspan x="50" dy="25">连接成网，每个点代表一个商业(com)公司，</tspan>
+    <tspan x="50" dy="25">这些公司通过互联网连接在一起，形成了一个</tspan>
+    <tspan x="50" dy="25">庞大的商业网络(dot-com)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> The dot-com bubble burst in the early 2000s.
+  </text>
+  <text x="50" y="330" class="content">
+    互联网泡沫在2000年代初破裂。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Earth -->
+    <circle cx="150" cy="150" r="100" class="image" />
+    <!-- Dots -->
+    <circle cx="70" cy="70" r="10" class="image" />
+    <circle cx="230" cy="70" r="10" class="image" />
+    <circle cx="70" cy="230" r="10" class="image" />
+    <circle cx="230" cy="230" r="10" class="image" />
+    <circle cx="150" cy="150" r="10" class="image" />
+    <!-- Lines connecting dots -->
+    <line x1="70" y1="70" x2="230" y2="70" class="image" />
+    <line x1="70" y1="230" x2="230" y2="230" class="image" />
+    <line x1="70" y1="70" x2="70" y2="230" class="image" />
+    <line x1="230" y1="70" x2="230" y2="230" class="image" />
+    <line x1="70" y1="70" x2="230" y2="230" class="image" />
+    <line x1="70" y1="230" x2="230" y2="70" class="image" />
+  </g>
+</svg>

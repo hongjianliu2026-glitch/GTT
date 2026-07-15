@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #641E16; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #922B21; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">prestigious</text>
+  <text x="50" y="120" class="subtitle">[prɛˈstɪdʒəs] adj. 有声望的，有威信的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pre- (在前面) + stig (站立) + -ious (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在众人之前，"站在前面(pre-stig)"
+    <tspan x="50" dy="25">，显得格外有威望和声望(prestigious)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The university is known for its prestigious law school.
+  </text>
+  <text x="50" y="310" class="content">
+    这所大学以其声望卓著的法学院而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person standing on stage -->
+    <circle cx="175" cy="80" r="20" class="image" />
+    <line x1="175" y1="100" x2="175" y2="150" class="image" />
+    <line x1="175" y1="150" x2="150" y2="180" class="image" />
+    <line x1="175" y1="150" x2="200" y2="180" class="image" />
+    <line x1="175" y1="120" x2="220" y2="110" class="image" />
+    <!-- Crowd -->
+    <circle cx="50" cy="180" r="10" class="image" />
+    <circle cx="100" cy="180" r="10" class="image" />
+    <circle cx="150" cy="180" r="10" class="image" />
+    <circle cx="250" cy="180" r="10" class="image" />
+    <circle cx="300" cy="180" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Scottish</text>
+  <text x="50" y="120" class="subtitle">[ˈskɒtɪʃ] adj. 苏格兰的，苏格兰人的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Scott (苏格兰人) + -ish (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着苏格兰传统格子裙的苏格兰人，手持风笛，
+    <tspan x="50" dy="25">站在苏格兰高地，吹奏着悠扬的乐曲，这就是"苏格兰的(Scottish)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is proud of his Scottish heritage.
+  </text>
+  <text x="50" y="310" class="content">
+    他为自己的苏格兰血统感到自豪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Kilt (Scottish traditional dress) -->
+    <rect x="50" y="20" width="100" height="150" class="image" />
+    <rect x="55" y="25" width="90" height="140" class="image" fill="#0065BD" />
+    <rect x="60" y="30" width="80" height="130" class="image" fill="#FFFFFF" />
+    <rect x="65" y="35" width="70" height="120" class="image" fill="#0065BD" />
+    <rect x="70" y="40" width="60" height="110" class="image" fill="#FFFFFF" />
+    <rect x="75" y="45" width="50" height="100" class="image" fill="#0065BD" />
+    <rect x="80" y="50" width="40" height="90" class="image" fill="#FFFFFF" />
+    <rect x="85" y="55" width="30" height="80" class="image" fill="#0065BD" />
+    <rect x="90" y="60" width="20" height="70" class="image" fill="#FFFFFF" />
+    <rect x="95" y="65" width="10" height="60" class="image" fill="#0065BD" />
+
+    <!-- Bagpipe -->
+    <rect x="170" y="20" width="50" height="150" class="image" />
+    <rect x="175" y="25" width="40" height="140" class="image" fill="#8B4513" />
+    <rect x="180" y="30" width="30" height="130" class="image" fill="#D2B48C" />
+    <rect x="185" y="35" width="20" height="120" class="image" fill="#8B4513" />
+    <rect x="190" y="40" width="10" height="110" class="image" fill="#D2B48C" />
+
+    <!-- Highlander -->
+    <circle cx="100" cy="200" r="20" class="image" fill="#FFD700" />
+    <line x1="100" y1="220" x2="100" y2="260" class="image" />
+    <line x1="100" y1="260" x2="80" y2="300" class="image" />
+    <line x1="100" y1="260" x2="120" y2="300" class="image" />
+    <line x1="100" y1="240" x2="140" y2="230" class="image" />
+  </g>
+</svg>

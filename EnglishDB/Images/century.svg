@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">century</text>
+  <text x="50" y="120" class="subtitle">[ˈsɛntʃəri] n. 世纪，百年</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cent- (百) + -ury (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的时钟，"百(cent-)"个刻度围绕着时钟，
+    <tspan x="50" dy="25">每个刻度代表一年，整个时钟就代表了一个世纪(century)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The 21st century has brought many technological advancements.
+  </text>
+  <text x="50" y="310" class="content">
+    21世纪带来了许多技术进步。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Clock face -->
+    <circle cx="200" cy="200" r="150" class="image" />
+    <!-- Clock hands -->
+    <line x1="200" y1="200" x2="200" y2="50" class="image" />
+    <line x1="200" y1="200" x2="350" y2="200" class="image" />
+    <!-- Numerals -->
+    <text x="180" y="70" class="content">1</text>
+    <text x="280" y="80" class="content">2</text>
+    <text x="330" y="140" class="content">3</text>
+    <text x="330" y="240" class="content">4</text>
+    <text x="280" y="300" class="content">5</text>
+    <text x="180" y="310" class="content">6</text>
+    <text x="80" y="240" class="content">7</text>
+    <text x="70" y="140" class="content">8</text>
+    <text x="120" y="80" class="content">9</text>
+    <text x="200" y="60" class="content">10</text>
+    <text x="260" y="120" class="content">11</text>
+    <text x="260" y="220" class="content">12</text>
+  </g>
+</svg>

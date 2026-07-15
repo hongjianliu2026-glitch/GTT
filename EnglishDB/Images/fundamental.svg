@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fundamental</text>
+  <text x="50" y="120" class="subtitle">[ˌfʌndəˈmentl] adj. 基本的，根本的；n. 基本原理</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fund (基础) + -ment (名词后缀) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的金字塔，"基础(fund)"
+    <tspan x="50" dy="25">支撑着整个结构，这就是最根本的(fundamental)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Understanding the fundamental principles is crucial for mastering the subject.
+  </text>
+  <text x="50" y="310" class="content">
+    理解基本原理对于掌握这门学科至关重要。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Pyramid -->
+    <polygon points="150,0 0,200 300,200" class="image" />
+    <!-- Base -->
+    <rect x="0" y="200" width="300" height="50" class="image" />
+    <!-- Foundation -->
+    <rect x="50" y="250" width="200" height="50" class="image" />
+    <!-- Text -->
+    <text x="130" y="320" class="content">Foundation</text>
+  </g>
+</svg>

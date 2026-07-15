@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .blood { fill: #C0392B; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hemorrhage</text>
+  <text x="50" y="120" class="subtitle">[ˈhɛmərɪdʒ] n. 出血，溢血</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hemo- (血) + -rrhage (流出)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人突然"血(hemo)"流不止，"流出(rrhage)"
+    <tspan x="50" dy="25">的场景，这就是出血(hemorrhage)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The patient suffered a severe hemorrhage after the accident.
+  </text>
+  <text x="50" y="310" class="content">
+    病人在事故后严重出血。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="20" y2="250" class="image" />
+    <line x1="50" y1="200" x2="80" y2="250" class="image" />
+
+    <!-- Blood -->
+    <circle cx="50" cy="130" r="10" class="blood" />
+    <circle cx="50" cy="150" r="10" class="blood" />
+    <circle cx="50" cy="170" r="10" class="blood" />
+    <circle cx="50" cy="190" r="10" class="blood" />
+    <circle cx="50" cy="210" r="10" class="blood" />
+  </g>
+</svg>

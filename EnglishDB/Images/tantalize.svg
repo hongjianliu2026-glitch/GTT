@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tantalize</text>
+  <text x="50" y="120" class="subtitle">[ˈtæntəlaɪz] v. 逗弄，使干着急</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tantal- (源自Tantalus，希腊神话中因得罪众神而被惩罚的人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象Tantalus被众神惩罚，站在水中，水却总在他渴时退去，
+    <tspan x="50" dy="25">头顶有果实，却总在他伸手时升起，这种持续的诱惑和失望就是tantalize。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tantalizing smell of food made her stomach growl.
+  </text>
+  <text x="50" y="310" class="content">
+    食物诱人的香味让她肚子咕咕叫。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Water -->
+    <rect x="0" y="100" width="350" height="100" class="image" fill="#3498DB" />
+    <!-- Fruits -->
+    <circle cx="175" cy="50" r="30" class="image" fill="#F39C12" />
+    <!-- Person -->
+    <circle cx="175" cy="150" r="20" class="image" fill="#2C3E50" />
+    <line x1="175" y1="170" x2="175" y2="200" class="image" />
+    <line x1="175" y1="200" x2="150" y2="230" class="image" />
+    <line x1="175" y1="200" x2="200" y2="230" class="image" />
+    <line x1="175" y1="180" x2="130" y2="170" class="image" />
+    <line x1="175" y1="180" x2="220" y2="170" class="image" />
+    <!-- Arms reaching for fruits -->
+    <line x1="175" y1="150" x2="140" y2="70" class="image" />
+    <line x1="175" y1="150" x2="210" y2="70" class="image" />
+  </g>
+</svg>

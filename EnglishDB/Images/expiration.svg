@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">expiration</text>
+  <text x="50" y="120" class="subtitle">[ˌɛkspɪˈreɪʃən] n. 到期，终止</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (出) + spir (呼吸) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个气球在空中，"呼出最后一口气(ex-spir)"
+    <tspan x="50" dy="25">然后慢慢瘪下去，象征着到期或终止(expiration)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The expiration date of the milk is tomorrow.
+  </text>
+  <text x="50" y="310" class="content">
+    牛奶的保质期是明天。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balloon -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Deflated balloon -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <!-- String -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <!-- Air coming out -->
+    <line x1="100" y1="100" x2="100" y2="150" class="image" />
+    <line x1="90" y1="110" x2="90" y2="140" class="image" />
+    <line x1="110" y1="110" x2="110" y2="140" class="image" />
+  </g>
+</svg>

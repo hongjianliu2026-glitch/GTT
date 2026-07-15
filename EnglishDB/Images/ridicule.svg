@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ridicule</text>
+  <text x="50" y="120" class="subtitle">[ˈrɪdɪkjuːl] n. 嘲笑，奚落；v. 嘲笑，嘲弄</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rid (笑) + -icule (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人在笑，"小声地笑(rid-icule)"
+    <tspan x="50" dy="25">一个滑稽的人，这种笑声就是嘲笑(ridicule)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The comedian's jokes were met with ridicule from the audience.
+  </text>
+  <text x="50" y="310" class="content">
+    喜剧演员的笑话遭到了观众的嘲笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Group of people -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="100" cy="50" r="20" class="image" />
+    <circle cx="150" cy="50" r="20" class="image" />
+    <!-- Mouths -->
+    <path d="M40 60 Q50 80 60 60" class="image" />
+    <path d="M90 60 Q100 80 110 60" class="image" />
+    <path d="M140 60 Q150 80 160 60" class="image" />
+    <!-- Clown -->
+    <circle cx="250" cy="50" r="30" class="image" />
+    <circle cx="240" cy="40" r="5" class="image" />
+    <circle cx="260" cy="40" r="5" class="image" />
+    <path d="M240 60 Q250 80 260 60" class="image" />
+  </g>
+</svg>

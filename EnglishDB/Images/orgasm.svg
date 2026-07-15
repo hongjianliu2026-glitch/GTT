@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">orgasm</text>
+  <text x="50" y="120" class="subtitle">[ˈɔːrɡæzəm] n. 性高潮</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> orga- (组织) + -sm (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个身体组织(orga-)在极度兴奋的状态(-sm)下，
+    <tspan x="50" dy="25">达到了一种极致的愉悦，这就是性高潮(orgasm)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The couple experienced a simultaneous orgasm.
+  </text>
+  <text x="50" y="310" class="content">
+    这对情侣同时达到了性高潮。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <path d="M10 30 Q25 50 40 30 T70 30" class="image" />
+    <!-- Exclamation marks -->
+    <text x="35" y="45" class="image" font-size="30">!</text>
+    <text x="55" y="45" class="image" font-size="30">!</text>
+    <text x="45" y="65" class="image" font-size="30">!</text>
+  </g>
+</svg>

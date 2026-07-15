@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">primordial</text>
+  <text x="50" y="120" class="subtitle">[praɪˈmɔːrdiəl] adj. 原始的，初生的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> prim (第一) + ori (开始) + al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的蛋，"第一(prim)"次"开始(ori)"孵化，
+    <tspan x="50" dy="25">这个蛋象征着一切生命的起源，这就是原始的(primordial)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The primordial forests were untouched by human hands.
+  </text>
+  <text x="50" y="310" class="content">
+    原始森林未曾被人触碰。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Egg -->
+    <ellipse cx="175" cy="100" rx="100" ry="60" class="image" />
+    <!-- Crack lines -->
+    <line x1="125" y1="100" x2="225" y2="100" class="image" />
+    <line x1="175" y1="70" x2="175" y2="130" class="image" />
+    <!-- Symbol of life -->
+    <circle cx="175" cy="100" r="10" class="image" />
+  </g>
+</svg>

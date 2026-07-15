@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">muddled</text>
+  <text x="50" y="120" class="subtitle">[ˈmʌdld] adj. 混乱的，糊涂的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mud (泥) + -le (表示反复动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在泥潭中挣扎，"反复陷入泥潭(mud-le)"，
+    <tspan x="50" dy="25">导致思维和行动都变得混乱(muddled)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His thoughts were muddled after the accident.
+  </text>
+  <text x="50" y="310" class="content">
+    事故后他的思绪变得混乱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Muddy ground -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Person struggling in mud -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+    <!-- Mud splashes -->
+    <circle cx="180" cy="120" r="5" class="image" />
+    <circle cx="220" cy="120" r="5" class="image" />
+    <circle cx="190" cy="140" r="5" class="image" />
+    <circle cx="210" cy="140" r="5" class="image" />
+  </g>
+</svg>

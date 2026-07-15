@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">anachronistic</text>
+  <text x="50" y="120" class="subtitle">[ˌænəˈkrɒnɪstɪk] adj. 时代错误的，不合时宜的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ana- (错误) + chron (时间) + -istic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着古代盔甲的人，"错误地出现在(ana-chron)"
+    <tspan x="50" dy="25">现代的街道上，这种不合时宜的(anachronistic)场景让人忍俊不禁。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The use of typewriters in a modern office is anachronistic.
+  </text>
+  <text x="50" y="310" class="content">
+    在现代办公室使用打字机是不合时宜的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ancient warrior -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <circle cx="75" cy="50" r="30" class="image" />
+    <line x1="75" y1="80" x2="75" y2="150" class="image" />
+    <line x1="75" y1="150" x2="50" y2="180" class="image" />
+    <line x1="75" y1="150" x2="100" y2="180" class="image" />
+    <line x1="75" y1="100" x2="120" y2="90" class="image" />
+    <line x1="75" y1="100" x2="30" y2="90" class="image" />
+
+    <!-- Modern street -->
+    <rect x="200" y="0" width="150" height="200" class="image" />
+    <line x1="200" y1="100" x2="350" y2="100" class="image" />
+    <line x1="200" y1="120" x2="350" y2="120" class="image" />
+    <line x1="200" y1="140" x2="350" y2="140" class="image" />
+    <line x1="200" y1="160" x2="350" y2="160" class="image" />
+    <line x1="200" y1="180" x2="350" y2="180" class="image" />
+
+    <!-- Connecting line -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+  </g>
+</svg>

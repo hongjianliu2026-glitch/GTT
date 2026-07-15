@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">grievance</text>
+  <text x="50" y="120" class="subtitle">[ˈɡriːvəns] n. 委屈，不满，冤情</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> griev (悲伤) + -ance (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人因为遭受了不公正的对待，"悲伤(griev)"
+    <tspan x="50" dy="25">而感到"不满(ance)"，这就是他的"冤情(grievance)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She filed a grievance against her employer.
+  </text>
+  <text x="50" y="310" class="content">
+    她向雇主提出了不满。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sad face -->
+    <circle cx="50" cy="50" r="40" class="image" />
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <path d="M35 60 Q50 80 65 60" class="image" />
+    <!-- Broken heart -->
+    <path d="M100 50 C120 20, 140 20, 160 50" class="image" />
+    <path d="M100 50 C120 80, 140 80, 160 50" class="image" />
+    <line x1="100" y1="50" x2="160" y2="50" class="image" />
+    <!-- Speech bubble -->
+    <path d="M200 20 Q220 10, 240 20 Q260 30, 240 40 Q220 50, 200 40 Q180 30, 200 20" class="image" />
+    <text x="210" y="35" class="content">!</text>
+  </g>
+</svg>

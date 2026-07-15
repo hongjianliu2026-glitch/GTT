@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">likeness</text>
+  <text x="50" y="120" class="subtitle">[ˈlaɪk(ə)nəs] n. 相似，相像</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> like (相似) + -ness (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人站在镜子前，他们的"相似(like)"
+    <tspan x="50" dy="25">程度如此之高，以至于他们看起来几乎一模一样(likeness)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The twins have an uncanny likeness.
+  </text>
+  <text x="50" y="310" class="content">
+    这对双胞胎有着惊人的相似之处。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Mirror -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person 1 -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <line x1="100" y1="130" x2="100" y2="180" class="image" />
+    <line x1="100" y1="150" x2="70" y2="140" class="image" />
+    <line x1="100" y1="150" x2="130" y2="140" class="image" />
+    <line x1="100" y1="180" x2="70" y2="210" class="image" />
+    <line x1="100" y1="180" x2="130" y2="210" class="image" />
+    <!-- Person 2 (reflection) -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <line x1="250" y1="130" x2="250" y2="180" class="image" />
+    <line x1="250" y1="150" x2="220" y2="140" class="image" />
+    <line x1="250" y1="150" x2="280" y2="140" class="image" />
+    <line x1="250" y1="180" x2="220" y2="210" class="image" />
+    <line x1="250" y1="180" x2="280" y2="210" class="image" />
+  </g>
+</svg>

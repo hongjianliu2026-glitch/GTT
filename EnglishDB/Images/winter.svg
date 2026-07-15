@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .snow { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">winter</text>
+  <text x="50" y="120" class="subtitle">[ˈwɪntər] n. 冬天，冬季</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wint (冬天) + -er (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个寒冷的冬天，雪花飘落，覆盖了整个世界，
+    <tspan x="50" dy="25">大地被白雪覆盖，仿佛进入了冬眠状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We usually go skiing in the winter.
+  </text>
+  <text x="50" y="310" class="content">
+    我们通常在冬天去滑雪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Snowy ground -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="0" y="0" width="350" height="200" class="snow" />
+    <!-- Snowflakes -->
+    <circle cx="50" cy="50" r="10" class="snow" />
+    <circle cx="100" cy="80" r="10" class="snow" />
+    <circle cx="150" cy="120" r="10" class="snow" />
+    <circle cx="200" cy="150" r="10" class="snow" />
+    <circle cx="250" cy="180" r="10" class="snow" />
+    <circle cx="300" cy="20" r="10" class="snow" />
+    <!-- Tree -->
+    <line x1="175" y1="100" x2="175" y2="180" class="image" />
+    <polygon points="150,100 200,100 175,50" class="image" />
+    <polygon points="140,70 210,70 175,20" class="image" />
+  </g>
+</svg>

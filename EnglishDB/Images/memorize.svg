@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">memorize</text>
+  <text x="50" y="120" class="subtitle">[ˈmeməraɪz] v. 记住，记忆</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> memor (记忆) + -ize (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在努力"记忆(memor)"
+    <tspan x="50" dy="25">一本书的内容，他的大脑就像一个巨大的图书馆，</tspan>
+    <tspan x="50" dy="25">每一本书都被"记住(memorize)"并归档。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She memorized all the lines for the play.
+  </text>
+  <text x="50" y="310" class="content">
+    她记住了剧中所有的台词。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Brain -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Books -->
+    <rect x="20" y="20" width="30" height="100" class="image" />
+    <rect x="60" y="20" width="30" height="100" class="image" />
+    <rect x="100" y="20" width="30" height="100" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+  </g>
+</svg>

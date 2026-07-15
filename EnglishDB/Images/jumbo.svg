@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jumbo</text>
+  <text x="50" y="120" class="subtitle">[ˈdʒʌmbəʊ] adj. 巨大的，特大的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> jumbo (源自非洲象的名字，象征巨大)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头巨大的非洲象，名叫"Jumbo"，
+    <tspan x="50" dy="25">它的体型如此庞大，以至于它走到哪里，</tspan>
+    <tspan x="50" dy="25">哪里就会变成"巨大的(jumbo)"景象。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The jumbo jet can carry hundreds of passengers.
+  </text>
+  <text x="50" y="310" class="content">
+    这架巨型喷气式飞机可以搭载数百名乘客。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Elephant body -->
+    <ellipse cx="175" cy="100" rx="150" ry="80" class="image" />
+    <!-- Elephant head -->
+    <ellipse cx="250" cy="50" rx="50" ry="30" class="image" />
+    <!-- Elephant trunk -->
+    <path d="M250,80 Q270,100 250,120" class="image" />
+    <!-- Elephant legs -->
+    <line x1="50" y1="180" x2="50" y2="250" class="image" />
+    <line x1="125" y1="180" x2="125" y2="250" class="image" />
+    <line x1="225" y1="180" x2="225" y2="250" class="image" />
+    <line x1="300" y1="180" x2="300" y2="250" class="image" />
+    <!-- Elephant ears -->
+    <ellipse cx="100" cy="100" rx="30" ry="50" class="image" />
+    <ellipse cx="250" cy="100" rx="30" ry="50" class="image" />
+  </g>
+</svg>

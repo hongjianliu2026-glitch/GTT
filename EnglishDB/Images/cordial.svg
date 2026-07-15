@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cordial</text>
+  <text x="50" y="120" class="subtitle">[ˈkɔːrdiəl] adj. 热忱的，真诚的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cor (心) + dial (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用"心(cor)"去对待他人，
+    <tspan x="50" dy="25">这种真诚和热情的态度就是热忱的(cordial)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The host's cordial welcome made us feel at home.
+  </text>
+  <text x="50" y="310" class="content">
+    主人的热情欢迎让我们感到宾至如归。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 31.36c0-5.18 4.2-9.36 9.36-9.36 4.2 0 7.64 2.68 8.88 6.44 1.24-3.76 4.68-6.44 8.88-6.44 5.18 0 9.36 4.2 9.36 9.36 0 9.24-18.48 18.48-18.48 18.48S10 40.6 10 31.36z" class="image" fill="#E74C3C" />
+    <!-- Smiling face -->
+    <circle cx="30" cy="20" r="10" class="image" fill="#F1C40F" />
+    <circle cx="25" cy="18" r="2" class="image" fill="#2C3E50" />
+    <circle cx="35" cy="18" r="2" class="image" fill="#2C3E50" />
+    <path d="M25 25 Q30 30 35 25" class="image" fill="none" stroke="#2C3E50" stroke-width="2" />
+  </g>
+</svg>

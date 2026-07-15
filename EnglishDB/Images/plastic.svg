@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">plastic</text>
+  <text x="50" y="120" class="subtitle">[ˈplæstɪk] n. 塑料；adj. 塑料的，可塑的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> plast (塑造) + -ic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个艺术家用"可塑的(plast)"材料，
+    <tspan x="50" dy="25">轻松地塑造出一个栩栩如生的雕塑，这就是塑料(plastic)的魅力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The toy is made of plastic and very durable.
+  </text>
+  <text x="50" y="310" class="content">
+    这个玩具是用塑料制成的，非常耐用。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Plastic material -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sculpture -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="100" y1="150" x2="50" y2="180" class="image" />
+    <line x1="100" y1="150" x2="150" y2="180" class="image" />
+    <line x1="100" y1="130" x2="150" y2="120" class="image" />
+    <!-- Artist -->
+    <circle cx="250" cy="100" r="15" class="image" />
+    <line x1="250" y1="115" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="230" y2="180" class="image" />
+    <line x1="250" y1="150" x2="270" y2="180" class="image" />
+    <line x1="250" y1="130" x2="300" y2="120" class="image" />
+  </g>
+</svg>

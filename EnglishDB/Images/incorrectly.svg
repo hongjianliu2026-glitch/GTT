@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">incorrectly</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnkəˈrɛktli] adv. 错误地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + correct (正确的) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在黑板上写答案，但所有的答案都是"错误的(incorrectly)"，
+    <tspan x="50" dy="25">每个答案都被一个大大的红叉覆盖。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He incorrectly assumed that the exam was easy.
+  </text>
+  <text x="50" y="310" class="content">
+    他错误地认为考试很简单。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Blackboard -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Answers -->
+    <text x="50" y="50" class="content" fill="#000">1 + 1 = 3</text>
+    <text x="50" y="80" class="content" fill="#000">2 + 2 = 5</text>
+    <text x="50" y="110" class="content" fill="#000">3 + 3 = 7</text>
+    <!-- Red crosses -->
+    <line x1="40" y1="40" x2="120" y2="120" class="image" stroke="#C0392B" stroke-width="4" />
+    <line x1="40" y1="120" x2="120" y2="40" class="image" stroke="#C0392B" stroke-width="4" />
+    <line x1="40" y1="70" x2="120" y2="150" class="image" stroke="#C0392B" stroke-width="4" />
+    <line x1="40" y1="150" x2="120" y2="70" class="image" stroke="#C0392B" stroke-width="4" />
+    <line x1="40" y1="100" x2="120" y2="180" class="image" stroke="#C0392B" stroke-width="4" />
+    <line x1="40" y1="180" x2="120" y2="100" class="image" stroke="#C0392B" stroke-width="4" />
+  </g>
+</svg>

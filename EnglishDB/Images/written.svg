@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">written</text>
+  <text x="50" y="120" class="subtitle">[ˈrɪtn] adj. 书面的，写下的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> writ (写) + -en (过去分词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在纸上"写下(writ)"文字，这些文字就变成了"书面的(written)"内容。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The contract must be in written form.
+  </text>
+  <text x="50" y="310" class="content">
+    合同必须以书面形式签订。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Handwriting -->
+    <line x1="50" y1="50" x2="100" y2="50" class="image" />
+    <line x1="50" y1="70" x2="120" y2="70" class="image" />
+    <line x1="50" y1="90" x2="140" y2="90" class="image" />
+    <line x1="50" y1="110" x2="160" y2="110" class="image" />
+    <line x1="50" y1="130" x2="180" y2="130" class="image" />
+    <!-- Pen -->
+    <line x1="20" y1="150" x2="40" y2="170" class="image" />
+    <line x1="40" y1="170" x2="60" y2="150" class="image" />
+    <line x1="60" y1="150" x2="80" y2="170" class="image" />
+    <line x1="80" y1="170" x2="100" y2="150" class="image" />
+  </g>
+</svg>

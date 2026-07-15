@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">impotence</text>
+  <text x="50" y="120" class="subtitle">[ˈɪmpətəns] n. 无力，无能，阳痿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + potent (强壮)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个原本强壮的人突然变得"不强壮(in-potent)"，
+    <tspan x="50" dy="25">就像一个泄了气的气球，这就是impotence的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The medication caused temporary impotence.
+  </text>
+  <text x="50" y="310" class="content">
+    这种药物导致了暂时的阳痿。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balloon -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="80" y2="300" class="image" />
+    <line x1="100" y1="250" x2="120" y2="300" class="image" />
+    <!-- Deflated balloon -->
+    <ellipse cx="100" cy="200" rx="30" ry="10" class="image" />
+    <line x1="100" y1="210" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="80" y2="300" class="image" />
+    <line x1="100" y1="250" x2="120" y2="300" class="image" />
+  </g>
+</svg>

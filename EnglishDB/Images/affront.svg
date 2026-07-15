@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">affront</text>
+  <text x="50" y="120" class="subtitle">[əˈfrʌnt] n. 公开侮辱，冒犯；v. 公开侮辱，冒犯</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> af- (加强) + front (前面)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在公共场合，"加强在前(af-front)"
+    <tspan x="50" dy="25">面侮辱另一个人，这种行为就是公开冒犯(affront)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His rude comments were an affront to her dignity.
+  </text>
+  <text x="50" y="310" class="content">
+    他的粗鲁评论是对她尊严的公开侮辱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person being insulted -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+
+    <!-- Insulting person -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <line x1="250" y1="130" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="220" class="image" />
+    <line x1="250" y1="180" x2="270" y2="220" class="image" />
+    <line x1="250" y1="150" x2="220" y2="140" class="image" />
+    <line x1="250" y1="150" x2="280" y2="140" class="image" />
+
+    <!-- Speech bubble -->
+    <path d="M 250 70 Q 300 70 300 100 L 300 50 Q 300 20 250 20 Q 200 20 200 50 L 200 100 Q 200 70 250 70" class="image" />
+    <text x="225" y="60" class="content" text-anchor="middle">Rude Comment</text>
+  </g>
+</svg>

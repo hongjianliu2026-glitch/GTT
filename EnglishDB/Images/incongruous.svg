@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">incongruous</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈkɒŋɡruːəs] adj. 不协调的，不和谐的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + con- (一起) + gru (适合) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着西装的企鹅在舞会上，"不适合(in-con-gru-ous)"
+    <tspan x="50" dy="25">与周围的环境，显得非常不协调(incongruous)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The incongruous sight of a penguin at the gala made everyone laugh.
+  </text>
+  <text x="50" y="310" class="content">
+    舞会上企鹅的出现让所有人都笑了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Penguin -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="20" y2="200" class="image" />
+    <line x1="50" y1="150" x2="80" y2="200" class="image" />
+    <line x1="50" y1="100" x2="20" y2="120" class="image" />
+    <line x1="50" y1="100" x2="80" y2="120" class="image" />
+    <!-- Suit -->
+    <rect x="20" y="20" width="60" height="30" class="image" />
+    <rect x="30" y="50" width="40" height="10" class="image" />
+    <!-- Dance floor -->
+    <rect x="0" y="220" width="350" height="100" class="image" />
+    <!-- People -->
+    <circle cx="150" cy="250" r="15" class="image" />
+    <circle cx="200" cy="250" r="15" class="image" />
+    <circle cx="250" cy="250" r="15" class="image" />
+  </g>
+</svg>

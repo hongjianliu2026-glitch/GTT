@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #9B59B6; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spoil</text>
+  <text x="50" y="120" class="subtitle">[spɔɪl] v. 损坏，宠坏；n. 战利品</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> spol- (掠夺) + -i- (连接字母) + -ate (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个贪婪的掠夺者，"掠夺(spol-)"
+    <tspan x="50" dy="25">并破坏(spoil)了他所得到的一切，最终只剩下无用的战利品。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rain spoiled our picnic plans.
+  </text>
+  <text x="50" y="310" class="content">
+    雨破坏了我们的野餐计划。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken treasure chest -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Greedy robber -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+  </g>
+</svg>

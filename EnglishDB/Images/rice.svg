@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9C4; }
+      .title { font: bold 48px sans-serif; fill: #F44336; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rice</text>
+  <text x="50" y="120" class="subtitle">[raɪs] n. 稻米，米饭</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "ryce"，来自古法语 "ris"，最终源自拉丁语 "oryza"。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片金黄的稻田，稻穗在阳光下闪闪发光，农民们正在收割稻米，这些稻米最终会被煮成香喷喷的米饭。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She cooked rice for dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    她为晚餐煮了米饭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rice field -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Rice stalks -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="100" y1="20" x2="100" y2="180" class="image" />
+    <line x1="150" y1="20" x2="150" y2="180" class="image" />
+    <line x1="200" y1="20" x2="200" y2="180" class="image" />
+    <line x1="250" y1="20" x2="250" y2="180" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <!-- Farmer -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+  </g>
+</svg>

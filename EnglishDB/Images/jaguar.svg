@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jaguar</text>
+  <text x="50" y="120" class="subtitle">[ˈdʒæɡjuər] n. 美洲豹</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自南美洲土著语言，意为“豹”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只美洲豹在丛林中潜行，它的斑点皮毛与
+    <tspan x="50" dy="25">树影融为一体，悄无声息地捕猎。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The jaguar is one of the most powerful predators in the Amazon.
+  </text>
+  <text x="50" y="310" class="content">
+    美洲豹是亚马逊雨林中最强大的捕食者之一。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Jaguar body -->
+    <ellipse cx="150" cy="150" rx="100" ry="50" class="image" />
+    <!-- Head -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Ears -->
+    <polygon points="80,80 100,60 120,80" class="image" />
+    <polygon points="80,120 100,140 120,120" class="image" />
+    <!-- Eyes -->
+    <circle cx="90" cy="100" r="5" class="image" />
+    <circle cx="110" cy="100" r="5" class="image" />
+    <!-- Nose -->
+    <polygon points="95,110 105,110 100,120" class="image" />
+    <!-- Spots -->
+    <circle cx="130" cy="130" r="5" class="image" />
+    <circle cx="170" cy="130" r="5" class="image" />
+    <circle cx="150" cy="170" r="5" class="image" />
+    <circle cx="120" cy="170" r="5" class="image" />
+    <circle cx="180" cy="170" r="5" class="image" />
+  </g>
+</svg>

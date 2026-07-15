@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .star { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">top-rated</text>
+  <text x="50" y="120" class="subtitle">[ˈtɒpˌreɪtɪd] adj. 最高评级的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> top (顶部) + rate (评级)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个电影在排行榜上，"顶部(top)"
+    <tspan x="50" dy="25">获得了最高的"评级(rate)"，这就是top-rated。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> This restaurant is top-rated for its cuisine.
+  </text>
+  <text x="50" y="310" class="content">
+    这家餐厅因其美食而获得最高评级。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Movie poster -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Stars -->
+    <polygon points="50,20 63,48 92,52 71,72 77,100 50,85 23,100 29,72 8,52 37,48" class="star" />
+    <polygon points="150,20 163,48 192,52 171,72 177,100 150,85 123,100 129,72 108,52 137,48" class="star" />
+    <polygon points="250,20 263,48 292,52 271,72 277,100 250,85 223,100 229,72 208,52 237,48" class="star" />
+    <!-- Top banner -->
+    <rect x="0" y="0" width="350" height="50" class="image" />
+    <text x="175" y="35" text-anchor="middle" class="title" fill="#FFFFFF">TOP RATED</text>
+  </g>
+</svg>

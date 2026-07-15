@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">yesterday</text>
+  <text x="50" y="120" class="subtitle">[ˈjɛstərdeɪ] n. 昨天</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> yester- (昨天) + day (天)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个时钟指针飞速倒转，"回到昨天(yester-day)"，
+    <tspan x="50" dy="25">一切仿佛刚刚发生，时间倒流，记忆犹新。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> I met my old friend yesterday.
+  </text>
+  <text x="50" y="310" class="content">
+    我昨天遇到了我的老朋友。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" />
+    <!-- Arrow pointing backwards -->
+    <polygon points="200,100 180,90 180,110" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="100" r="50" class="image" />
+    <!-- Clouds -->
+    <ellipse cx="250" cy="50" rx="60" ry="30" class="image" />
+    <ellipse cx="350" cy="50" rx="60" ry="30" class="image" />
+  </g>
+</svg>

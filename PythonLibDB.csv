@@ -1,0 +1,141 @@
+﻿package,version,import_name_guess,import_ok,module_path,size_mb,file_count,summary
+anaconda-anon-usage,0.7.6,anaconda_anon_usage,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\anaconda_anon_usage\__init__.py,0.072,14,basic anonymous telemetry for conda
+anaconda-auth,0.14.2,anaconda_auth,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\anaconda_auth\__init__.py,0.344,55,A client auth library for Anaconda APIs
+anaconda-cli-base,0.8.2,anaconda_cli_base,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\anaconda_cli_base\__init__.py,0.112,17,A base CLI entrypoint supporting Anaconda CLI plugins
+annotated-types,0.6.0,annotated_types,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\annotated_types\__init__.py,0.046,5,Reusable constraint types to use with typing.Annotated
+anyio,4.12.1,anyio,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\anyio\__init__.py,1.04,85,High-level concurrency and networking framework on top of asyncio or Trio
+archspec,0.2.5,archspec,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\archspec\__init__.py,0.27,76,A library to query system architecture
+argon2-cffi,25.1.0,argon2_cffi,NO,,0,0,Argon2 for Python
+argon2-cffi-bindings,25.1.0,argon2_cffi_bindings,NO,,0,0,Low-level CFFI bindings for Argon2
+asttokens,3.0.1,asttokens,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\asttokens\__init__.py,0.12,15,Annotate AST trees with source code positions
+async-lru,2.0.5,async_lru,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\async_lru\__init__.py,0.025,3,Simple LRU cache for asyncio
+attrs,26.1.0,attrs,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\attrs\__init__.py,0.012,14,Classes Without Boilerplate
+babel,2.17.0,babel,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\babel\__init__.py,29.859,1124,Internationalization utilities
+beautifulsoup4,4.15.0,beautifulsoup4,NO,,0,0,Screen-scraping library
+bleach,6.4.0,bleach,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\bleach\__init__.py,1.284,98,An easy safelist-based HTML-sanitizing tool.
+boltons,25.0.0,boltons,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\boltons\__init__.py,1.229,60,"When they're not builtins, they're boltons."
+brotlicffi,1.2.0.0,brotlicffi,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\brotlicffi\__init__.py,0.889,7,Python CFFI bindings to the Brotli library
+certifi,2026.6.17,certifi,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\certifi\__init__.py,0.23,8,Python package for providing Mozilla's CA Bundle.
+cffi,1.17.1,cffi,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\cffi\__init__.py,0.759,40,Foreign Function Interface for Python calling C code.
+charset-normalizer,3.4.4,charset_normalizer,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\charset_normalizer\__init__.py,0.276,25,"The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
+click,8.2.1,click,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\click\__init__.py,0.76,33,Composable command line interface toolkit
+colorama,0.4.6,colorama,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\colorama\__init__.py,0.142,26,Cross-platform colored terminal text.
+comm,0.2.3,comm,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\comm\__init__.py,0.026,5,"Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc."
+conda,26.3.2,conda,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda\__init__.py,4.565,430,"OS-agnostic, system-level binary package manager."
+conda-anaconda-telemetry,0.3.0,conda_anaconda_telemetry,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_anaconda_telemetry\__init__.py,0.023,7,A conda plugin for Anaconda Telemetry
+conda-anaconda-tos,0.2.2,conda_anaconda_tos,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_anaconda_tos\__init__.py,0.135,27,"Conda subcommand to view, accept, and interact with a channel's Terms of Service (ToS)."
+conda-content-trust,0.3.1,conda_content_trust,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_content_trust\__init__.py,0.214,24,"Signing and verification tools, geared toward the conda ecosystem."
+conda-libmamba-solver,26.4.0,conda_libmamba_solver,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_libmamba_solver\__init__.py,0.401,28,"The fast mamba solver, now in conda"
+conda-package-handling,2.4.0,conda_package_handling,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_package_handling\__init__.py,0.116,22,Create and extract conda packages of various formats.
+conda_package_streaming,0.12.0,conda_package_streaming,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\conda_package_streaming\__init__.py,0.084,18,An efficient library to read from new and old format .conda and .tar.bz2 conda packages.
+cryptography,45.0.7,cryptography,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\cryptography\__init__.py,4.616,168,cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+debugpy,1.8.16,debugpy,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\debugpy\__init__.py,22.749,526,An implementation of the Debug Adapter Protocol for Python
+decorator,5.3.1,decorator,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\decorator\__init__.py,0.04,4,Decorators for Humans
+defusedxml,0.7.1,defusedxml,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\defusedxml\__init__.py,0.069,22,XML bomb protection for Python stdlib modules
+distro,1.9.0,distro,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\distro\__init__.py,0.099,7,Distro - an OS platform information API
+executing,2.2.1,executing,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\executing\__init__.py,0.172,15,"Get the currently executing AST node of a frame, and other information"
+fastjsonschema,2.21.2,fastjsonschema,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\fastjsonschema\__init__.py,0.166,20,Fastest Python implementation of JSON schema
+frozendict,2.4.6,frozendict,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\frozendict\__init__.py,0.05,14,A simple immutable dictionary
+h11,0.16.0,h11,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\h11\__init__.py,0.166,23,"A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
+httpcore,1.0.9,httpcore,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\httpcore\__init__.py,0.574,63,A minimal low-level HTTP client.
+httpx,0.28.1,httpx,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\httpx\__init__.py,0.595,47,The next generation HTTP client.
+idna,3.11,idna,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\idna\__init__.py,0.603,17,Internationalized Domain Names in Applications (IDNA)
+ipykernel,7.2.0,ipykernel,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\ipykernel\__init__.py,0.699,94,IPython Kernel for Jupyter
+ipython,9.14.0,ipython,NO,,0,0,IPython: Productive Interactive Computing
+ipython_pygments_lexers,1.1.1,ipython_pygments_lexers,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\ipython_pygments_lexers.py,209.435,18088,Defines a variety of Pygments lexers for highlighting IPython code.
+jaraco.classes,3.4.0,jaraco_classes,NO,,0,0,Utility functions for Python class constructs
+jaraco.context,6.1.0,jaraco_context,NO,,0,0,Useful decorators and context managers
+jaraco.functools,4.4.0,jaraco_functools,NO,,0,0,Functools like those found in stdlib
+jedi,0.20.0,jedi,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jedi\__init__.py,14.245,5704,An autocompletion tool for Python that can be used for text editors.
+Jinja2,3.1.6,Jinja2,NO,,0,0,A very fast and expressive template engine.
+json5,0.12.1,json5,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\json5\__init__.py,0.203,15,A Python implementation of the JSON5 data format.
+jsonpatch,1.33,jsonpatch,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jsonpatch.py,209.435,18088,Apply JSON-Patches (RFC 6902) 
+jsonpointer,3.1.1,jsonpointer,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jsonpointer.py,209.435,18088,Identify specific nodes in a JSON document (RFC 6901) 
+jsonschema,4.25.1,jsonschema,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jsonschema\__init__.py,0.887,73,An implementation of JSON Schema validation for Python
+jsonschema-specifications,2025.9.1,jsonschema_specifications,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jsonschema_specifications\__init__.py,0.042,28,"The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
+jupyter-events,0.12.1,jupyter_events,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_events\__init__.py,0.08,26,Jupyter Event System library
+jupyter-lsp,2.3.0,jupyter_lsp,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_lsp\__init__.py,0.387,113,Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab server
+jupyter_client,8.9.1,jupyter_client,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_client\__init__.py,0.735,77,Jupyter protocol implementation and client libraries
+jupyter_core,5.9.1,jupyter_core,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_core\__init__.py,0.178,19,Jupyter core package. A base package on which Jupyter projects rely.
+jupyter_server,2.20.0,jupyter_server,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_server\__init__.py,2.482,211,"The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications."
+jupyter_server_terminals,0.5.4,jupyter_server_terminals,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyter_server_terminals\__init__.py,0.045,16,A Jupyter Server Extension Providing Terminals.
+jupyterlab,4.5.9,jupyterlab,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyterlab\__init__.py,20.296,570,JupyterLab computational environment
+jupyterlab_pygments,0.3.0,jupyterlab_pygments,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyterlab_pygments\__init__.py,0.012,6,Pygments theme using JupyterLab CSS variables
+jupyterlab_server,2.28.0,jupyterlab_server,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\jupyterlab_server\__init__.py,0.334,58,A set of server components for JupyterLab and JupyterLab like applications.
+keyring,25.7.0,keyring,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\keyring\__init__.py,0.191,59,Store and access your passwords safely.
+libmambapy,2.3.2,libmambapy,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\libmambapy\__init__.py,1.704,13,A fast library to interact with the Conda package ecosystem
+markdown-it-py,4.0.0,markdown_it_py,NO,,0,0,"Python port of markdown-it. Markdown parsing, done right!"
+MarkupSafe,3.0.3,MarkupSafe,NO,,0,0,Safely add untrusted strings to HTML/XML markup.
+matplotlib-inline,0.2.1,matplotlib_inline,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\matplotlib_inline\__init__.py,0.033,7,Inline Matplotlib backend for Jupyter
+mdurl,0.1.2,mdurl,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\mdurl\__init__.py,0.034,13,Markdown URL utilities
+menuinst,2.4.2,menuinst,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\menuinst\__init__.py,0.776,77,cross platform install of menu items
+mistune,3.2.1,mistune,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\mistune\__init__.py,0.345,71,A sane and fast Markdown parser with useful plugins and renderers
+more-itertools,11.0.2,more_itertools,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\more_itertools\__init__.py,0.471,10,"More routines for operating on iterables, beyond itertools"
+msgpack,1.1.1,msgpack,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\msgpack\__init__.py,0.227,9,MessagePack serializer
+nbclient,0.11.0,nbclient,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\nbclient\__init__.py,0.146,17,A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
+nbconvert,7.17.1,nbconvert,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\nbconvert\__init__.py,0.579,148,Convert Jupyter Notebooks (.ipynb files) to other formats.
+nbformat,5.10.4,nbformat,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\nbformat\__init__.py,0.448,89,The Jupyter Notebook format
+nest_asyncio,1.6.0,nest_asyncio,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\nest_asyncio.py,209.435,18088,Patch asyncio to allow nested event loops
+notebook_shim,0.2.4,notebook_shim,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\notebook_shim\__init__.py,0.056,22,A shim layer for notebook traits and config
+packaging,26,packaging,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\packaging\__init__.py,0.514,35,Core utilities for Python packages
+pandocfilters,1.5.1,pandocfilters,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pandocfilters.py,209.435,18088,Utilities for writing pandoc filters in python
+parso,0.8.7,parso,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\parso\__init__.py,0.639,52,A Python Parser
+pip,26.0.1,pip,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pip\__init__.py,9.756,846,The PyPA recommended tool for installing Python packages.
+pkce,1.0.3,pkce,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pkce\__init__.py,0.006,3,PKCE Pyhton generator.
+platformdirs,4.9.4,platformdirs,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\platformdirs\__init__.py,0.21,19,"A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
+pluggy,1.6.0,pluggy,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pluggy\__init__.py,0.124,17,plugin and hook calling mechanisms for python
+prometheus_client,0.24.1,prometheus_client,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\prometheus_client\__init__.py,0.422,61,Python client for the Prometheus monitoring system.
+prompt_toolkit,3.0.52,prompt_toolkit,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\prompt_toolkit\__init__.py,2.872,291,Library for building powerful interactive command lines in Python
+psutil,7.0.0,psutil,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\psutil\__init__.py,1.916,57,Cross-platform lib for process and system monitoring in Python.  NOTE: the syntax of this script MUST be kept compatible with Python 2.7.
+pure_eval,0.2.3,pure_eval,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pure_eval\__init__.py,0.058,11,Safely evaluate AST nodes without side effects
+pycosat,0.6.6,pycosat,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pycosat.cp313-win_amd64.pyd,209.435,18088,bindings to picosat (a SAT solver)
+pycparser,3,pycparser,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pycparser\__init__.py,0.405,15,C parser in Python
+pydantic,2.13.2,pydantic,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pydantic\__init__.py,3.49,212,Data validation using Python type hints
+pydantic-settings,2.12.0,pydantic_settings,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pydantic_settings\__init__.py,0.375,45,Settings management using Pydantic
+pydantic_core,2.46.2,pydantic_core,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\pydantic_core\__init__.py,5.917,7,Core functionality for Pydantic validation and serialization
+Pygments,2.20.0,Pygments,NO,,0,0,Pygments is a syntax highlighting package written in Python.
+PyJWT,2.12.1,PyJWT,NO,,0,0,JSON Web Token implementation in Python
+PySocks,1.7.1,PySocks,NO,,0,0,A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
+python-dateutil,2.9.0.post0,python_dateutil,NO,,0,0,Extensions to the standard Python datetime module
+python-dotenv,1.2.1,python_dotenv,NO,,0,0,Read key-value pairs from a .env file and set them as environment variables
+python-json-logger,4.0.0,python_json_logger,NO,,0,0,JSON Log Formatter for the Python Logging Package
+pywin32,312,pywin32,NO,,0,0,Python for Windows Extensions
+pywin32-ctypes,0.2.3,pywin32_ctypes,NO,,0,0,A (partial) reimplementation of pywin32 using ctypes/cffi
+pywinpty,3.0.2,pywinpty,NO,,0,0,Pseudo terminal support for Windows from Python.
+PyYAML,6.0.3,PyYAML,NO,,0,0,YAML parser and emitter for Python
+pyzmq,27.1.0,pyzmq,NO,,0,0,Python bindings for 0MQ
+readchar,4.2.1,readchar,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\readchar\__init__.py,0.014,17,Library to easily read single chars and key strokes
+referencing,0.37.0,referencing,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\referencing\__init__.py,0.246,28,JSON Referencing + Python
+requests,2.33.1,requests,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\requests\__init__.py,0.377,36,Python HTTP for Humans.
+rfc3339_validator,0.1.4,rfc3339_validator,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\rfc3339_validator.py,209.435,18088,A pure python RFC3339 validator
+rfc3986_validator,0.1.1,rfc3986_validator,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\rfc3986_validator.py,209.435,18088,Pure python rfc3986 validator
+rich,14.2.0,rich,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\rich\__init__.py,2.003,157,"Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
+rpds-py,0.28.0,rpds_py,NO,,0,0,Python bindings to Rust's persistent data structures (rpds)
+ruamel.yaml,0.18.16,ruamel_yaml,NO,,0,0,"ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
+ruamel.yaml.clib,0.2.14,ruamel_yaml_clib,NO,,0,0,"C version of reader, parser and emitter for ruamel.yaml derived from libyaml"
+semver,3.0.4,semver,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\semver\__init__.py,0.093,15,Python helper for Semantic Versioning (https://semver.org)
+Send2Trash,1.8.3,Send2Trash,NO,,0,0,"Send file to trash natively under Mac OS X, Windows and Linux"
+setuptools,82.0.1,setuptools,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\setuptools\__init__.py,6.686,747,Most extensible Python build backend with support for C/C++ extension modules
+shellingham,1.5.4,shellingham,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\shellingham\__init__.py,0.031,14,Tool to Detect Surrounding Shell
+six,1.17.0,six,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\six.py,209.435,18088,Python 2 and 3 compatibility utilities
+soupsieve,2.5,soupsieve,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\soupsieve\__init__.py,0.277,15,A modern CSS selector implementation for Beautiful Soup.
+stack_data,0.6.3,stack_data,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\stack_data\__init__.py,0.126,13,Extract data from python stack frames and tracebacks for informative displays
+terminado,0.18.1,terminado,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\terminado\__init__.py,0.056,13,Tornado websocket backend for the Xterm.js Javascript terminal emulator library.
+tinycss2,1.5.1,tinycss2,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\tinycss2\__init__.py,0.214,20,A tiny CSS parser
+tomli,2.4.0,tomli,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\tomli\__init__.py,0.062,9,A lil' TOML parser
+tomlkit,0.13.3,tomlkit,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\tomlkit\__init__.py,0.366,27,Style preserving TOML library
+tornado,6.5.7,tornado,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\tornado\__init__.py,3.664,165,"Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
+tqdm,4.67.3,tqdm,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\tqdm\__init__.py,0.348,64,"Fast, Extensible Progress Meter"
+traitlets,5.15.0,traitlets,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\traitlets\__init__.py,0.636,49,Traitlets Python configuration system
+truststore,0.10.1,truststore,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\truststore\__init__.py,0.106,13,Verify certificates using native system trust stores
+typer,0.20.0,typer,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\typer\__init__.py,0.351,33,"Typer, build great CLIs. Easy to code. Based on Python type hints."
+typer-slim,0.20.0,typer_slim,NO,,0,0,"Typer, build great CLIs. Easy to code. Based on Python type hints."
+typing-inspection,0.4.2,typing_inspection,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\typing_inspection\__init__.py,0.08,8,Runtime typing introspection tools
+typing_extensions,4.15.0,typing_extensions,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\typing_extensions.py,209.435,18088,Backported and Experimental Type Hints for Python 3.9+
+urllib3,2.6.3,urllib3,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\urllib3\__init__.py,0.844,74,"HTTP library with thread-safe connection pooling, file post, and more."
+wcwidth,0.2.14,wcwidth,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\wcwidth\__init__.py,0.572,12,Measures the displayed width of unicode strings in a terminal
+webencodings,0.5.1,webencodings,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\webencodings\__init__.py,0.063,10,Character encoding aliases for legacy web content
+websocket-client,1.8.0,websocket_client,NO,,0,0,WebSocket client for Python with low level API options
+wheel,0.46.3,wheel,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\wheel\__init__.py,0.178,28,Command line tool for manipulating wheel files
+win_inet_pton,1.1.0,win_inet_pton,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\win_inet_pton.py,209.435,18088,Native inet_pton and inet_ntop implementation for Python on Windows (with ctypes).
+zstandard,0.25.0,zstandard,YES,C:\Users\liuhj\miniconda3\Lib\site-packages\zstandard\__init__.py,1.079,8,Zstandard bindings for Python

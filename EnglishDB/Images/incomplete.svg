@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">incomplete</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnkəmˈpliːt] adj. 不完全的，未完成的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + complete (完全的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个未完成的拼图，"不(in-)"
+    <tspan x="50" dy="25">完全(complete)"拼好，这就是不完全的(incomplete)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The project is still incomplete due to lack of resources.
+  </text>
+  <text x="50" y="310" class="content">
+    由于资源不足，该项目仍未完成。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Puzzle outline -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Missing pieces -->
+    <rect x="50" y="20" width="50" height="50" class="image" />
+    <rect x="120" y="20" width="50" height="50" class="image" />
+    <rect x="190" y="20" width="50" height="50" class="image" />
+    <rect x="260" y="20" width="50" height="50" class="image" />
+    <!-- Completed pieces -->
+    <rect x="50" y="90" width="50" height="50" class="image" fill="#D98880" />
+    <rect x="120" y="90" width="50" height="50" class="image" fill="#D98880" />
+    <rect x="190" y="90" width="50" height="50" class="image" fill="#D98880" />
+    <rect x="260" y="90" width="50" height="50" class="image" fill="#D98880" />
+    <!-- Missing pieces text -->
+    <text x="75" y="50" class="content" fill="#C0392B">?</text>
+    <text x="145" y="50" class="content" fill="#C0392B">?</text>
+    <text x="215" y="50" class="content" fill="#C0392B">?</text>
+    <text x="285" y="50" class="content" fill="#C0392B">?</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sap</text>
+  <text x="50" y="120" class="subtitle">[sæp] n. 树液，精力；v. 削弱，耗尽</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sap (树液)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一棵大树，树液(sap)从树干中流出，
+    <tspan x="50" dy="25">就像人的精力被逐渐耗尽一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The long journey sapped his energy.
+  </text>
+  <text x="50" y="310" class="content">
+    长途旅行耗尽了他的精力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Tree -->
+    <rect x="0" y="0" width="100" height="200" class="image" />
+    <!-- Sap flowing -->
+    <line x1="50" y1="100" x2="50" y2="250" class="image" />
+    <circle cx="50" cy="100" r="10" class="image" />
+    <circle cx="50" cy="130" r="10" class="image" />
+    <circle cx="50" cy="160" r="10" class="image" />
+    <circle cx="50" cy="190" r="10" class="image" />
+    <circle cx="50" cy="220" r="10" class="image" />
+    <circle cx="50" cy="250" r="10" class="image" />
+  </g>
+</svg>

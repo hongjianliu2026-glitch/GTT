@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">haul</text>
+  <text x="50" y="120" class="subtitle">[hɔːl] v. 拖，拉；n. 拖运的距离</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hau- (拉)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个大力士在"拉(hau-)"着一辆装满货物的车，
+    <tspan x="50" dy="25">他用力地拖着，这就是"haul"的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They had to haul the boat out of the water.
+  </text>
+  <text x="50" y="310" class="content">
+    他们不得不把船从水里拖出来。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cart -->
+    <rect x="50" y="20" width="250" height="100" class="image" />
+    <!-- Load -->
+    <rect x="70" y="40" width="210" height="60" class="image" />
+    <!-- Person pulling -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Rope -->
+    <line x1="20" y1="115" x2="175" y2="70" class="image" />
+  </g>
+</svg>

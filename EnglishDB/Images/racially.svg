@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">racially</text>
+  <text x="50" y="120" class="subtitle">[ˈreɪʃəli] adv. 种族地，按种族</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> race (种族) + -ial (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的彩虹，每种颜色代表一个种族，
+    <tspan x="50" dy="25">"种族地(racially)" 区分开来，形成一幅多彩的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The issue was addressed racially, considering different ethnic groups.
+  </text>
+  <text x="50" y="310" class="content">
+    这个问题是按种族来处理的，考虑了不同的族群。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rainbow -->
+    <path d="M0,100 C100,0 300,0 400,100" stroke="#FF0000" stroke-width="20" fill="none" />
+    <path d="M0,120 C100,20 300,20 400,120" stroke="#FF7F00" stroke-width="20" fill="none" />
+    <path d="M0,140 C100,40 300,40 400,140" stroke="#FFFF00" stroke-width="20" fill="none" />
+    <path d="M0,160 C100,60 300,60 400,160" stroke="#00FF00" stroke-width="20" fill="none" />
+    <path d="M0,180 C100,80 300,80 400,180" stroke="#0000FF" stroke-width="20" fill="none" />
+    <path d="M0,200 C100,100 300,100 400,200" stroke="#4B0082" stroke-width="20" fill="none" />
+    <path d="M0,220 C100,120 300,120 400,220" stroke="#8B00FF" stroke-width="20" fill="none" />
+  </g>
+</svg>

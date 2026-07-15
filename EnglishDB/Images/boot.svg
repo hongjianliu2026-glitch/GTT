@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">boot</text>
+  <text x="50" y="120" class="subtitle">[buːt] n. 靴子；v. 启动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "bot"，意为“帮助”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一双靴子(boot)，它不仅保护你的脚，还能"帮助(bot)"你启动(boot)电脑。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The computer boots up automatically when you press the power button.
+  </text>
+  <text x="50" y="310" class="content">
+    当你按下电源按钮时，电脑会自动启动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Boot -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="10" y="10" width="130" height="180" class="image" />
+    <rect x="20" y="20" width="110" height="160" class="image" />
+    <rect x="30" y="30" width="90" height="140" class="image" />
+    <rect x="40" y="40" width="70" height="120" class="image" />
+    <rect x="50" y="50" width="50" height="100" class="image" />
+    <rect x="60" y="60" width="30" height="80" class="image" />
+    <rect x="70" y="70" width="10" height="60" class="image" />
+
+    <!-- Computer -->
+    <rect x="200" y="0" width="150" height="100" class="image" />
+    <rect x="210" y="10" width="130" height="80" class="image" />
+    <rect x="220" y="20" width="110" height="60" class="image" />
+    <rect x="230" y="30" width="90" height="40" class="image" />
+    <rect x="240" y="40" width="70" height="20" class="image" />
+    <rect x="250" y="50" width="50" height="10" class="image" />
+    <rect x="260" y="60" width="30" height="5" class="image" />
+    <rect x="270" y="70" width="10" height="2" class="image" />
+  </g>
+</svg>

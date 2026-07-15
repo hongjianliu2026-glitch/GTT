@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Spaniard</text>
+  <text x="50" y="120" class="subtitle">[ˈspænjərd] n. 西班牙人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Span (西班牙) + -iard (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个热情的西班牙人(Spaniard)，
+    <tspan x="50" dy="25">在阳光明媚的西班牙广场上跳着弗拉明戈舞，</tspan>
+    <tspan x="50" dy="25">他的红色斗篷在风中飘扬，脸上洋溢着热情的笑容。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Spaniard greeted us with a warm smile.
+  </text>
+  <text x="50" y="310" class="content">
+    那个西班牙人热情地向我们微笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Flamenco dancer -->
+    <circle cx="150" cy="200" r="20" fill="#E74C3C" />
+    <line x1="150" y1="220" x2="150" y2="280" class="image" />
+    <line x1="150" y1="250" x2="120" y2="230" class="image" />
+    <line x1="150" y1="250" x2="180" y2="230" class="image" />
+    <line x1="150" y1="280" x2="120" y2="310" class="image" />
+    <line x1="150" y1="280" x2="180" y2="310" class="image" />
+    <!-- Red cape -->
+    <path d="M130,200 Q140,180 150,200 T170,200" fill="#E67E22" />
+    <!-- Smile -->
+    <path d="M140,210 Q150,215 160,210" fill="none" stroke="#2C3E50" stroke-width="2" />
+  </g>
+</svg>

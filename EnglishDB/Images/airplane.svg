@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">airplane</text>
+  <text x="50" y="120" class="subtitle">[ˈɛrpleɪn] n. 飞机</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> air (空气) + plane (平面)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一架飞机在空中翱翔，"空气中的平面(air-plane)"
+    <tspan x="50" dy="25">载着人们穿越云层，探索世界的每一个角落。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The airplane took off smoothly from the runway.
+  </text>
+  <text x="50" y="310" class="content">
+    飞机平稳地从跑道上起飞。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Airplane body -->
+    <rect x="50" y="20" width="250" height="50" class="image" />
+    <!-- Wings -->
+    <line x1="70" y1="20" x2="280" y2="20" class="image" />
+    <line x1="70" y1="70" x2="280" y2="70" class="image" />
+    <!-- Tail -->
+    <line x1="280" y1="20" x2="300" y2="40" class="image" />
+    <line x1="280" y1="70" x2="300" y2="50" class="image" />
+    <!-- Windows -->
+    <circle cx="100" cy="45" r="5" class="image" />
+    <circle cx="150" cy="45" r="5" class="image" />
+    <circle cx="200" cy="45" r="5" class="image" />
+  </g>
+</svg>

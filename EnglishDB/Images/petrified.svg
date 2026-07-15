@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">petrified</text>
+  <text x="50" y="120" class="subtitle">[ˈpɛtrɪfaɪd] adj. 吓呆的，石化的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> petr- (石头) + -ify (使) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人看到恐怖的东西，"变成了石头(petr-ify-ed)"，
+    <tspan x="50" dy="25">整个人都吓呆了，一动不动，就像石化了一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sight of the snake made her petrified.
+  </text>
+  <text x="50" y="310" class="content">
+    看到那条蛇，她吓呆了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stone figure -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="80" class="image" />
+    <line x1="175" y1="180" x2="175" y2="280" class="image" />
+    <line x1="175" y1="230" x2="100" y2="200" class="image" />
+    <line x1="175" y1="230" x2="250" y2="200" class="image" />
+    <line x1="175" y1="280" x2="100" y2="320" class="image" />
+    <line x1="175" y1="280" x2="250" y2="320" class="image" />
+    <!-- Snake -->
+    <path d="M300,100 C320,80 340,80 360,100 S400,140 400,160" class="image" />
+    <circle cx="380" cy="150" r="10" class="image" />
+  </g>
+</svg>

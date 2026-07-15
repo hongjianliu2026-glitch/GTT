@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">stagnate</text>
+  <text x="50" y="120" class="subtitle">[ˈstæɡneɪt] v. 停滞，不流动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sta- (站立) + gnat (流动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条河流，"站立不动(sta-gnat)"，
+    <tspan x="50" dy="25">水不再流动，变得停滞不前(stagnate)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The project has stagnated due to lack of funding.
+  </text>
+  <text x="50" y="310" class="content">
+    由于缺乏资金，该项目停滞不前。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- River -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Stagnant water -->
+    <rect x="50" y="20" width="250" height="160" class="image" fill="#85C1E9" />
+    <!-- Ripples -->
+    <circle cx="100" cy="100" r="10" class="image" fill="#3498DB" />
+    <circle cx="150" cy="120" r="10" class="image" fill="#3498DB" />
+    <circle cx="200" cy="140" r="10" class="image" fill="#3498DB" />
+    <!-- No movement -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" stroke-dasharray="5,5" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" stroke-dasharray="5,5" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" stroke-dasharray="5,5" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" stroke-dasharray="5,5" />
+  </g>
+</svg>

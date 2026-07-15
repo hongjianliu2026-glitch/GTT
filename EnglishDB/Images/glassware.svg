@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">glassware</text>
+  <text x="50" y="120" class="subtitle">[ˈɡlæsweər] n. 玻璃器皿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> glass (玻璃) + ware (器皿)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的玻璃工厂，"玻璃(glass)"
+    <tspan x="50" dy="25">被制成各种形状的"器皿(ware)"，</tspan>
+    <tspan x="50" dy="25">从酒杯到花瓶，应有尽有。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She collects antique glassware from different countries.
+  </text>
+  <text x="50" y="310" class="content">
+    她收集来自不同国家的古董玻璃器皿。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Glass factory -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Glass items -->
+    <circle cx="50" cy="100" r="20" class="image" /> <!-- Wine glass -->
+    <rect x="100" y="80" width="30" height="60" class="image" /> <!-- Vase -->
+    <rect x="150" y="90" width="20" height="40" class="image" /> <!-- Tumbler -->
+    <rect x="200" y="85" width="25" height="50" class="image" /> <!-- Jar -->
+    <!-- Factory smoke -->
+    <line x1="250" y1="20" x2="250" y2="40" class="image" />
+    <line x1="260" y1="20" x2="260" y2="40" class="image" />
+    <line x1="270" y1="20" x2="270" y2="40" class="image" />
+  </g>
+</svg>

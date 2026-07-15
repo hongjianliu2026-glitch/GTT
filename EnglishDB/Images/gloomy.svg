@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #8B0000; }
+      .story { font: 16px serif; fill: #666666; }
+      .image { stroke: #222222; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gloomy</text>
+  <text x="50" y="120" class="subtitle">[ˈɡluːmi] adj. 阴暗的，忧郁的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gloom (阴暗) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阴暗的房间，"阴暗(gloom)"
+    <tspan x="50" dy="25">的氛围让人感到忧郁(gloomy)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The gloomy weather made everyone feel sad.
+  </text>
+  <text x="50" y="310" class="content">
+    阴沉的天气让每个人都感到悲伤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dark room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Window -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Clouds -->
+    <ellipse cx="175" cy="90" rx="120" ry="50" class="image" />
+    <ellipse cx="125" cy="70" rx="50" ry="30" class="image" />
+    <ellipse cx="225" cy="70" rx="50" ry="30" class="image" />
+    <!-- Person -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">localize</text>
+  <text x="50" y="120" class="subtitle">[ˈloʊkəlaɪz] v. 使局部化，使地方化</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> loc (地方) + -al (形容词后缀) + -ize (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的地图上，一个小小的标记"定位(loc)"
+    <tspan x="50" dy="25">在一个特定的地方，这个标记就"使地方化(localize)"了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company decided to localize its products for the Chinese market.
+  </text>
+  <text x="50" y="310" class="content">
+    公司决定为中国市场本地化其产品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Map -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Location marker -->
+    <circle cx="175" cy="100" r="10" class="image" fill="#E74C3C" />
+    <!-- Arrow pointing to marker -->
+    <line x1="175" y1="110" x2="175" y2="150" class="image" />
+    <polygon points="175,150 170,140 180,140" class="image" fill="#7F8C8D" />
+  </g>
+</svg>

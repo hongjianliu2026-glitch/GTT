@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Vietnamese</text>
+  <text x="50" y="120" class="subtitle">[ˌvjɛtnəˈmiːz] n. 越南人，越南语</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Viet (越南) + -nese (表示民族或语言)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个越南人(Vietnamese)在河内街头，
+    <tspan x="50" dy="25">穿着传统服饰，说着越南语(Vietnamese)，</tspan>
+    <tspan x="50" dy="25">周围是热闹的市场和美丽的风景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She speaks fluent Vietnamese and loves the culture.
+  </text>
+  <text x="50" y="310" class="content">
+    她能说流利的越南语，并且热爱越南文化。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Traditional Vietnamese hat -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <!-- Market stall -->
+    <rect x="100" y="100" width="200" height="100" class="image" />
+    <!-- Vietnamese flag -->
+    <rect x="350" y="100" width="50" height="100" class="image" />
+    <polygon points="350,100 400,100 375,50" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="150" r="20" class="image" />
+    <line x1="200" y1="170" x2="200" y2="220" class="image" />
+    <line x1="200" y1="220" x2="180" y2="250" class="image" />
+    <line x1="200" y1="220" x2="220" y2="250" class="image" />
+    <line x1="200" y1="190" x2="230" y2="180" class="image" />
+  </g>
+</svg>

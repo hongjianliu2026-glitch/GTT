@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .butter { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">margarine</text>
+  <text x="50" y="120" class="subtitle">[ˌmɑrdʒəˈrin] n. 人造黄油</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> margar (珍珠) + -ine (表示物质)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗珍珠(margar)被压扁成一片片，变成了人造黄油(margarine)，
+    <tspan x="50" dy="25">这种黄油像珍珠一样珍贵，但却是人工制造的。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She prefers margarine over butter for baking.
+  </text>
+  <text x="50" y="310" class="content">
+    她更喜欢用人工黄油而不是黄油来烘焙。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Pearl -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Flattened pearl -->
+    <rect x="100" y="80" width="200" height="40" class="butter" />
+    <!-- Butter knife -->
+    <line x1="320" y1="80" x2="320" y2="120" class="image" />
+    <line x1="320" y1="100" x2="300" y2="90" class="image" />
+    <line x1="320" y1="100" x2="340" y2="90" class="image" />
+  </g>
+</svg>

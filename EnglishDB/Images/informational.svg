@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">informational</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnfərˈmeɪʃənl] adj. 信息的，提供信息的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inform (信息) + -ational (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的信息流，"信息(inform)"
+    <tspan x="50" dy="25">像瀑布一样倾泻而下，充满了整个空间，这就是信息化的(informational)世界。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The website is purely informational; it does not sell products.
+  </text>
+  <text x="50" y="310" class="content">
+    这个网站纯粹是提供信息的，不销售产品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Information flow -->
+    <path d="M0 0 L400 0 L350 200 L50 200 Z" class="image" />
+    <!-- Information symbols -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <rect x="150" y="80" width="40" height="40" class="image" />
+    <line x1="220" y1="80" x2="260" y2="120" class="image" />
+    <line x1="220" y1="120" x2="260" y2="80" class="image" />
+    <!-- Information text -->
+    <text x="100" y="150" class="content">Info</text>
+    <text x="160" y="150" class="content">Data</text>
+    <text x="230" y="150" class="content">Facts</text>
+  </g>
+</svg>

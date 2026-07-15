@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">frat</text>
+  <text x="50" y="120" class="subtitle">[fræt] n. 兄弟会</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> frater (兄弟)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群兄弟(frater)在大学里，"兄弟会(frat)"
+    <tspan x="50" dy="25">是他们共同的家，象征着团结和友谊。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He joined a frat to make new friends.
+  </text>
+  <text x="50" y="310" class="content">
+    他加入了一个兄弟会以结交新朋友。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Frat house -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Door -->
+    <rect x="150" y="50" width="50" height="100" class="image" />
+    <!-- Windows -->
+    <rect x="50" y="70" width="40" height="40" class="image" />
+    <rect x="100" y="70" width="40" height="40" class="image" />
+    <rect x="250" y="70" width="40" height="40" class="image" />
+    <rect x="300" y="70" width="40" height="40" class="image" />
+    <!-- Brothers -->
+    <circle cx="70" cy="150" r="15" class="image" />
+    <circle cx="120" cy="150" r="15" class="image" />
+    <circle cx="170" cy="150" r="15" class="image" />
+    <circle cx="220" cy="150" r="15" class="image" />
+    <circle cx="270" cy="150" r="15" class="image" />
+    <circle cx="320" cy="150" r="15" class="image" />
+  </g>
+</svg>

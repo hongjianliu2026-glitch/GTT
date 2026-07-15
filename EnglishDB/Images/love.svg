@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF5E1; }
+      .title { font: bold 48px sans-serif; fill: #FF6B6B; }
+      .subtitle { font: italic 24px serif; fill: #4A4A4A; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #FF6B6B; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #FF6B6B; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">love</text>
+  <text x="50" y="120" class="subtitle">[lʌv] n. 爱，爱情；v. 爱，热爱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "luf"，意为强烈的情感
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗心在跳动，"强烈的情感(luf)"
+    <tspan x="50" dy="25">在心中涌动，这就是爱(love)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has a deep love for her family.
+  </text>
+  <text x="50" y="310" class="content">
+    她对家人有着深深的爱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 31.7C10 15.1 22.7 2.4 39.3 2.4S68.6 15.1 68.6 31.7C68.6 48.3 39.3 61 39.3 61S10 48.3 10 31.7Z" class="image" />
+    <!-- Beating heart -->
+    <animateTransform attributeName="transform" type="scale" from="1" to="1.2" dur="1s" repeatCount="indefinite" />
+  </g>
+</svg>

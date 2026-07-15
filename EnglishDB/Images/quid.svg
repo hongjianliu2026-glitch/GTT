@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quid</text>
+  <text x="50" y="120" class="subtitle">[kwɪd] n. 英镑（英国货币单位）</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词源:</tspan> 源自拉丁语 "quid"，意为 "什么"
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的英国市场，人们用 "quid"（英镑）
+    <tspan x="50" dy="25">来交换商品，每一枚硬币都代表着 "什么"（quid）的价值。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He paid ten quid for the book.
+  </text>
+  <text x="50" y="310" class="content">
+    他花了十英镑买了那本书。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Coin -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <text x="75" y="110" class="content" fill="#2C3E50">£</text>
+    <!-- Market -->
+    <rect x="200" y="50" width="150" height="100" class="image" />
+    <line x1="220" y1="70" x2="330" y2="70" class="image" />
+    <line x1="220" y1="90" x2="330" y2="90" class="image" />
+    <line x1="220" y1="110" x2="330" y2="110" class="image" />
+    <line x1="220" y1="130" x2="330" y2="130" class="image" />
+    <!-- People -->
+    <circle cx="230" cy="120" r="10" class="image" />
+    <circle cx="270" cy="120" r="10" class="image" />
+    <circle cx="310" cy="120" r="10" class="image" />
+  </g>
+</svg>

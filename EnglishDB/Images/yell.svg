@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">yell</text>
+  <text x="50" y="120" class="subtitle">[jɛl] v. 大喊，叫喊</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> yell (源自中古英语 yellen，意为“大声喊叫”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在球场上，因为进球而兴奋地"大声喊叫(yell)"，
+    <tspan x="50" dy="25">声音震耳欲聋，整个球场都能听到他的欢呼声。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The coach yelled at the players to run faster.
+  </text>
+  <text x="50" y="310" class="content">
+    教练对着球员们大喊，让他们跑得更快。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Teeth -->
+    <rect x="80" y="90" width="40" height="20" class="image" />
+    <!-- Tongue -->
+    <rect x="90" y="110" width="20" height="10" class="image" />
+    <!-- Sound waves -->
+    <line x1="130" y1="100" x2="200" y2="100" class="image" />
+    <line x1="130" y1="90" x2="200" y2="90" class="image" />
+    <line x1="130" y1="110" x2="200" y2="110" class="image" />
+    <line x1="130" y1="80" x2="200" y2="80" class="image" />
+    <line x1="130" y1="120" x2="200" y2="120" class="image" />
+  </g>
+</svg>

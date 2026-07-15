@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">recognizable</text>
+  <text x="50" y="120" class="subtitle">[ˈrekəɡnəzəbl] adj. 可辨认的，可识别的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + cogn (知道) + -ize (使) + -able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个失散多年的朋友，"再次(re-)"
+    <tspan x="50" dy="25">被你认出(cogn-ize)，他变得"能够(able)"被辨认(recognizable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The logo is so recognizable that it's instantly associated with the brand.
+  </text>
+  <text x="50" y="310" class="content">
+    这个标志非常容易辨认，一看到就能立刻联想到这个品牌。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <line x1="50" y1="180" x2="20" y2="220" class="image" />
+    <line x1="50" y1="180" x2="80" y2="220" class="image" />
+
+    <!-- Spotlight -->
+    <ellipse cx="50" cy="50" rx="100" ry="50" class="image" />
+    <line x1="50" y1="50" x2="50" y2="100" class="image" />
+
+    <!-- Speech bubble -->
+    <path d="M100,100 Q150,70 200,100 T300,100" class="image" />
+    <text x="150" y="110" class="content">I recognize you!</text>
+  </g>
+</svg>

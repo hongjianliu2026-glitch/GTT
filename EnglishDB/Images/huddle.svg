@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">huddle</text>
+  <text x="50" y="120" class="subtitle">[ˈhʌdl] v. 挤在一起，聚集；n. 拥挤的一群</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hud (来自古英语 hyddan，意为“挤在一起”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人为了取暖或商量事情，"挤在一起(huddle)"，
+    <tspan x="50" dy="25">形成了一个紧密的小团体。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The students huddled together to discuss the project.
+  </text>
+  <text x="50" y="310" class="content">
+    学生们挤在一起讨论项目。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Group of people -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="150" cy="100" r="20" class="image" />
+    <circle cx="75" cy="130" r="20" class="image" />
+    <circle cx="125" cy="130" r="20" class="image" />
+    <!-- Lines connecting them -->
+    <line x1="50" y1="120" x2="100" y2="120" class="image" />
+    <line x1="100" y1="120" x2="150" y2="120" class="image" />
+    <line x1="75" y1="150" x2="125" y2="150" class="image" />
+    <line x1="50" y1="120" x2="75" y2="150" class="image" />
+    <line x1="100" y1="120" x2="125" y2="150" class="image" />
+    <line x1="150" y1="120" x2="125" y2="150" class="image" />
+  </g>
+</svg>

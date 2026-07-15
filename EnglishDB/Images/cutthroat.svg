@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cutthroat</text>
+  <text x="50" y="120" class="subtitle">[ˈkʌtθroʊt] n. 凶手，竞争者；adj. 残酷的，无情的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cut (切割) + throat (喉咙)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个凶手手持刀子，"切割(cut)"
+    <tspan x="50" dy="25">对方的"喉咙(throat)"，这种残酷的行为让人不寒而栗。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The competition in the market is cutthroat.
+  </text>
+  <text x="50" y="310" class="content">
+    市场上的竞争非常残酷。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Knife -->
+    <line x1="50" y1="50" x2="150" y2="50" class="image" />
+    <line x1="150" y1="50" x2="140" y2="40" class="image" />
+    <line x1="150" y1="50" x2="140" y2="60" class="image" />
+    <!-- Throat -->
+    <circle cx="200" cy="50" r="20" class="image" />
+    <line x1="200" y1="70" x2="200" y2="100" class="image" />
+    <!-- Blood -->
+    <line x1="200" y1="70" x2="180" y2="90" class="image" />
+    <line x1="200" y1="70" x2="220" y2="90" class="image" />
+  </g>
+</svg>

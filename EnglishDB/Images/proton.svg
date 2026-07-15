@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">proton</text>
+  <text x="50" y="120" class="subtitle">[ˈproʊtɒn] n. 质子</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> proto- (原始的) + -on (粒子)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个原始的粒子(proto-on)，它是构成原子核的"基本单位"，
+    <tspan x="50" dy="25">就像宇宙的"原始力量"，这就是质子(proton)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Protons are positively charged particles in the nucleus of an atom.
+  </text>
+  <text x="50" y="310" class="content">
+    质子是原子核中带正电的粒子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Nucleus -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <!-- Proton -->
+    <circle cx="150" cy="80" r="10" class="image" />
+    <circle cx="200" cy="80" r="10" class="image" />
+    <circle cx="175" cy="120" r="10" class="image" />
+    <!-- Electron orbit -->
+    <ellipse cx="175" cy="100" rx="100" ry="50" class="image" />
+    <!-- Electron -->
+    <circle cx="275" cy="100" r="5" class="image" />
+  </g>
+</svg>

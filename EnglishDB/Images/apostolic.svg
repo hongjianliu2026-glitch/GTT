@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">apostolic</text>
+  <text x="50" y="120" class="subtitle">[ˌæpəˈstɒlɪk] adj. 使徒的，使徒时代的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> apo- (离开) + stol (发送) + -ic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个使徒(apostle)被"派遣(stol)"到远方，
+    <tspan x="50" dy="25">他的使命是传播信仰，这种"使徒的(apostolic)"精神</tspan>
+    <tspan x="50" dy="25">在历史中留下了深刻的印记。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The church follows the apostolic traditions.
+  </text>
+  <text x="50" y="310" class="content">
+    这座教堂遵循使徒时代的传统。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Apostle -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="20" y2="250" class="image" />
+    <line x1="50" y1="200" x2="80" y2="250" class="image" />
+    <!-- Mission -->
+    <line x1="50" y1="250" x2="50" y2="300" class="image" />
+    <line x1="50" y1="300" x2="20" y2="350" class="image" />
+    <line x1="50" y1="300" x2="80" y2="350" class="image" />
+    <!-- Cross -->
+    <line x1="50" y1="350" x2="50" y2="400" class="image" />
+    <line x1="30" y1="375" x2="70" y2="375" class="image" />
+  </g>
+</svg>

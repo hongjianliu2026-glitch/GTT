@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vestige</text>
+  <text x="50" y="120" class="subtitle">[ˈvɛstɪdʒ] n. 遗迹，痕迹</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vestig (脚印) + -e (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的森林，"脚印(vestig)"
+    <tspan x="50" dy="25">被时间侵蚀，只留下微小的痕迹(vestige)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The archaeologists found vestiges of an ancient civilization.
+  </text>
+  <text x="50" y="310" class="content">
+    考古学家发现了古代文明的遗迹。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Forest background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Tree -->
+    <line x1="50" y1="180" x2="50" y2="20" class="image" />
+    <line x1="40" y1="100" x2="60" y2="100" class="image" />
+    <line x1="45" y1="80" x2="55" y2="80" class="image" />
+    <line x1="40" y1="60" x2="60" y2="60" class="image" />
+    <!-- Footprint -->
+    <polyline points="100,180 120,160 140,180 120,160 100,180" class="image" />
+    <polyline points="110,170 130,150 150,170 130,150 110,170" class="image" />
+    <!-- Time erosion -->
+    <line x1="120" y1="160" x2="120" y2="180" class="image" />
+    <line x1="130" y1="150" x2="130" y2="170" class="image" />
+  </g>
+</svg>

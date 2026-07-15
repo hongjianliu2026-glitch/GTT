@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vertigo</text>
+  <text x="50" y="120" class="subtitle">[ˈvɜːrtɪɡoʊ] n. 眩晕，头晕</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vert (转) + -igo (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在旋转木马上，"转(vert)"得头晕目眩，
+    <tspan x="50" dy="25">这种状态就是眩晕(vertigo)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The roller coaster ride gave him vertigo.
+  </text>
+  <text x="50" y="310" class="content">
+    过山车让他感到眩晕。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rotating carousel -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <line x1="175" y1="20" x2="175" y2="180" class="image" />
+    <line x1="175" y1="100" x2="255" y2="100" class="image" />
+    <line x1="175" y1="100" x2="95" y2="100" class="image" />
+    <line x1="175" y1="100" x2="225" y2="150" class="image" />
+    <line x1="175" y1="100" x2="125" y2="150" class="image" />
+    <line x1="175" y1="100" x2="225" y2="50" class="image" />
+    <line x1="175" y1="100" x2="125" y2="50" class="image" />
+
+    <!-- Person feeling dizzy -->
+    <circle cx="175" cy="250" r="20" class="image" />
+    <line x1="175" y1="270" x2="175" y2="310" class="image" />
+    <line x1="175" y1="310" x2="155" y2="340" class="image" />
+    <line x1="175" y1="310" x2="195" y2="340" class="image" />
+    <line x1="175" y1="290" x2="145" y2="280" class="image" />
+    <line x1="175" y1="290" x2="205" y2="280" class="image" />
+  </g>
+</svg>

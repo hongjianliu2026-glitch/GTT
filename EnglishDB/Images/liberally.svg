@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">liberally</text>
+  <text x="50" y="120" class="subtitle">[ˈlɪbərəli] adv. 慷慨地，自由地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> liber (自由) + -al (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的喷泉前，"自由地(liber-ally)"
+    <tspan x="50" dy="25">向空中抛洒金币，象征着慷慨和自由的精神。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He spoke liberally about his experiences.
+  </text>
+  <text x="50" y="310" class="content">
+    他自由地谈论了他的经历。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fountain -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <line x1="175" y1="150" x2="175" y2="250" class="image" />
+    <line x1="150" y1="200" x2="200" y2="200" class="image" />
+    <line x1="160" y1="180" x2="190" y2="180" class="image" />
+    <line x1="160" y1="220" x2="190" y2="220" class="image" />
+    <!-- Coins -->
+    <circle cx="150" cy="80" r="10" class="image" />
+    <circle cx="200" cy="90" r="10" class="image" />
+    <circle cx="175" cy="60" r="10" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="280" r="20" class="image" />
+    <line x1="175" y1="300" x2="175" y2="350" class="image" />
+    <line x1="175" y1="350" x2="150" y2="380" class="image" />
+    <line x1="175" y1="350" x2="200" y2="380" class="image" />
+    <line x1="175" y1="320" x2="140" y2="310" class="image" />
+    <line x1="175" y1="320" x2="210" y2="310" class="image" />
+  </g>
+</svg>

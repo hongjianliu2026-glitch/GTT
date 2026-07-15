@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flushed</text>
+  <text x="50" y="120" class="subtitle">[flʌʃt] adj. 脸红的，激动的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> flush (冲洗，涌出) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人因为害羞或激动，脸颊"涌出(flush)"
+    <tspan x="50" dy="25">红晕，就像被热水冲洗过一样，脸红得像苹果。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was flushed with embarrassment when she tripped.
+  </text>
+  <text x="50" y="310" class="content">
+    她绊倒时，因为尴尬而脸红。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="60" class="image" />
+    <!-- Red cheeks -->
+    <circle cx="60" cy="80" r="20" class="image" fill="#FF6347" />
+    <circle cx="140" cy="80" r="20" class="image" fill="#FF6347" />
+    <!-- Eyes -->
+    <circle cx="80" cy="90" r="5" class="image" fill="#000" />
+    <circle cx="120" cy="90" r="5" class="image" fill="#000" />
+    <!-- Mouth -->
+    <path d="M 70 120 Q 100 130 130 120" class="image" fill="none" stroke="#000" stroke-width="2" />
+  </g>
+</svg>

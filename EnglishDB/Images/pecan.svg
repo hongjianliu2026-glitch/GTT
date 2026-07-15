@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pecan</text>
+  <text x="50" y="120" class="subtitle">[pɪˈkæn] n. 山核桃</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词源:</tspan> 源自美洲原住民语言，意为“坚果”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的山核桃树，树上挂满了
+    <tspan x="50" dy="25">“山核桃(pecan)”，每一颗都像小石头一样坚硬。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to bake pecan pies for Thanksgiving.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在感恩节烤山核桃派。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="175" y1="20" x2="175" y2="180" class="image" />
+    <line x1="150" y1="40" x2="200" y2="40" class="image" />
+    <line x1="140" y1="60" x2="210" y2="60" class="image" />
+    <line x1="130" y1="80" x2="220" y2="80" class="image" />
+    <line x1="120" y1="100" x2="230" y2="100" class="image" />
+    <line x1="110" y1="120" x2="240" y2="120" class="image" />
+    <line x1="100" y1="140" x2="250" y2="140" class="image" />
+    <line x1="90" y1="160" x2="260" y2="160" class="image" />
+    <!-- Pecans -->
+    <circle cx="175" cy="30" r="10" class="image" />
+    <circle cx="150" cy="50" r="10" class="image" />
+    <circle cx="200" cy="70" r="10" class="image" />
+    <circle cx="140" cy="90" r="10" class="image" />
+    <circle cx="210" cy="110" r="10" class="image" />
+    <circle cx="130" cy="130" r="10" class="image" />
+    <circle cx="220" cy="150" r="10" class="image" />
+  </g>
+</svg>

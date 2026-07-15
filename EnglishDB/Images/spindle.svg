@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spindle</text>
+  <text x="50" y="120" class="subtitle">[ˈspɪndl] n. 纺锤，轴</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> spin (旋转) + dle (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个纺纱工在纺纱时，手中握着一个"小旋转(spin-dle)"的工具，
+    <tspan x="50" dy="25">这个工具就是纺锤(spindle)，它帮助纺纱工将线缠绕起来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The spinner used a spindle to wind the yarn.
+  </text>
+  <text x="50" y="310" class="content">
+    纺纱工用纺锤缠绕纱线。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Spindle -->
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <circle cx="50" cy="20" r="10" class="image" />
+    <circle cx="50" cy="180" r="10" class="image" />
+    <!-- Yarn winding -->
+    <path d="M50,30 Q50,100 70,100 T90,100" class="image" />
+    <path d="M50,50 Q50,120 70,120 T90,120" class="image" />
+    <path d="M50,70 Q50,140 70,140 T90,140" class="image" />
+  </g>
+</svg>

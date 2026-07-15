@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">feather</text>
+  <text x="50" y="120" class="subtitle">[ˈfɛðər] n. 羽毛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> feather (源自中古英语 fether, 意为“羽毛”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只鸟儿在空中飞翔，"轻轻地挥动(feather)"
+    <tspan x="50" dy="25">它的羽毛，仿佛在空中画出一道道轻盈的轨迹。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bird fluttered its feathers to stay warm.
+  </text>
+  <text x="50" y="310" class="content">
+    鸟儿抖动羽毛以保持温暖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bird -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Feathers -->
+    <polyline points="50,180 30,220 70,220 50,180" class="image" />
+    <polyline points="50,190 20,230 80,230 50,190" class="image" />
+    <polyline points="50,200 10,240 90,240 50,200" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wilt</text>
+  <text x="50" y="120" class="subtitle">[wɪlt] v. 枯萎，凋谢；n. 枯萎</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wilt (来自古英语 wyltan，意为“枯萎”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一朵美丽的花，在炎热的太阳下，"枯萎(wilt)"
+    <tspan x="50" dy="25">得像一个疲惫的舞者，失去了往日的光彩。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The flowers in the garden began to wilt in the heat.
+  </text>
+  <text x="50" y="310" class="content">
+    花园里的花在炎热中开始枯萎。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Flower -->
+    <circle cx="250" cy="150" r="30" class="image" fill="#2ECC71" />
+    <line x1="250" y1="180" x2="250" y2="250" class="image" />
+    <line x1="250" y1="250" x2="220" y2="300" class="image" />
+    <line x1="250" y1="250" x2="280" y2="300" class="image" />
+    <line x1="250" y1="220" x2="200" y2="220" class="image" />
+    <line x1="250" y1="220" x2="300" y2="220" class="image" />
+    <!-- Wilted petals -->
+    <line x1="250" y1="180" x2="220" y2="150" class="image" />
+    <line x1="250" y1="180" x2="280" y2="150" class="image" />
+    <line x1="250" y1="180" x2="200" y2="180" class="image" />
+    <line x1="250" y1="180" x2="300" y2="180" class="image" />
+  </g>
+</svg>

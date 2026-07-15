@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">melodic</text>
+  <text x="50" y="120" class="subtitle">[məˈlɒdɪk] adj. 旋律的，悦耳的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> melo- (歌曲) + -dic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在演奏，"歌曲(melo)"
+    <tspan x="50" dy="25">的旋律(melodic)如泉水般流淌，令人陶醉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The pianist played a melodic tune that captivated the audience.
+  </text>
+  <text x="50" y="310" class="content">
+    钢琴家演奏了一首悦耳的曲子，吸引了观众。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Music notes -->
+    <path d="M50 50 Q70 30 90 50 T130 50" class="image" />
+    <path d="M50 80 Q70 60 90 80 T130 80" class="image" />
+    <path d="M50 110 Q70 90 90 110 T130 110" class="image" />
+    <!-- Piano -->
+    <rect x="150" y="20" width="200" height="160" class="image" />
+    <line x1="160" y1="30" x2="340" y2="30" class="image" />
+    <line x1="160" y1="60" x2="340" y2="60" class="image" />
+    <line x1="160" y1="90" x2="340" y2="90" class="image" />
+    <line x1="160" y120" x2="340" y2="120" class="image" />
+    <!-- Musician -->
+    <circle cx="250" cy="100" r="15" class="image" />
+    <line x1="250" y1="115" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="230" y2="180" class="image" />
+    <line x1="250" y1="150" x2="270" y2="180" class="image" />
+    <line x1="250" y1="130" x2="280" y2="120" class="image" />
+  </g>
+</svg>

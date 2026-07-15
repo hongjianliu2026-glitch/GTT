@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hospice</text>
+  <text x="50" y="120" class="subtitle">[ˈhɒspɪs] n. 临终关怀医院</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hosp (客人) + -ice (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温暖的房间，里面住满了"客人(hosp)"，
+    <tspan x="50" dy="25">他们都是需要特别照顾的病人，这里就是他们的"临终关怀医院(hospice)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She volunteered at a hospice to provide comfort to the patients.
+  </text>
+  <text x="50" y="310" class="content">
+    她在临终关怀医院做志愿者，为病人提供安慰。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Warm room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Bed -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Patient -->
+    <circle cx="175" cy="100" r="15" class="image" />
+    <line x1="175" y1="115" x2="175" y2="150" class="image" />
+    <line x1="175" y1="150" x2="155" y2="180" class="image" />
+    <line x1="175" y1="150" x2="195" y2="180" class="image" />
+    <!-- Heart symbol -->
+    <path d="M200,120 C210,100 230,100 240,120 L220,140 Z" class="image" />
+  </g>
+</svg>

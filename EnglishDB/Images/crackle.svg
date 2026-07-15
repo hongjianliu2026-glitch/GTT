@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">crackle</text>
+  <text x="50" y="120" class="subtitle">[ˈkrækl] v. 发出噼啪声，爆裂</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crack (裂开) + -le (表示反复动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的木柴堆，"裂开(crack)"
+    <tspan x="50" dy="25">并反复发出噼啪声(crackle)，仿佛在讲述古老的故事。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The fire crackled as it burned brightly.
+  </text>
+  <text x="50" y="310" class="content">
+    火光熊熊，发出噼啪声。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fire -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#FF6F61" />
+    <circle cx="70" cy="70" r="25" class="image" fill="#FF8E72" />
+    <circle cx="90" cy="50" r="20" class="image" fill="#FFB199" />
+    <!-- Crackling lines -->
+    <line x1="50" y1="50" x2="100" y2="100" class="image" />
+    <line x1="70" y1="70" x2="120" y2="120" class="image" />
+    <line x1="90" y1="50" x2="140" y2="100" class="image" />
+    <!-- Wood -->
+    <rect x="10" y="100" width="150" height="50" class="image" fill="#8B4513" />
+    <line x1="20" y1="110" x2="140" y2="110" class="image" />
+    <line x1="20" y1="130" x2="140" y2="130" class="image" />
+  </g>
+</svg>

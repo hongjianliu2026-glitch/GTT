@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">kind</text>
+  <text x="50" y="120" class="subtitle">[kaɪnd] n. 种类；adj. 友好的，亲切的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> kin (家族，血统)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个大家庭聚在一起，每个人都非常友善，
+    <tspan x="50" dy="25">这种友善的感觉就像"家族(kin)"一样温暖，</tspan>
+    <tspan x="50" dy="25">这就是"kind"的来源。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is always kind to everyone she meets.
+  </text>
+  <text x="50" y="310" class="content">
+    她对遇到的每个人都总是很友善。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Family gathering -->
+    <circle cx="50" cy="50" r="20" class="image" /> <!-- Head of person 1 -->
+    <line x1="50" y1="70" x2="50" y2="100" class="image" /> <!-- Body of person 1 -->
+    <line x1="50" y1="100" x2="30" y2="130" class="image" /> <!-- Left arm of person 1 -->
+    <line x1="50" y1="100" x2="70" y2="130" class="image" /> <!-- Right arm of person 1 -->
+    <line x1="50" y1="100" x2="50" y2="130" class="image" /> <!-- Legs of person 1 -->
+
+    <circle cx="150" cy="50" r="20" class="image" /> <!-- Head of person 2 -->
+    <line x1="150" y1="70" x2="150" y2="100" class="image" /> <!-- Body of person 2 -->
+    <line x1="150" y1="100" x2="130" y2="130" class="image" /> <!-- Left arm of person 2 -->
+    <line x1="150" y1="100" x2="170" y2="130" class="image" /> <!-- Right arm of person 2 -->
+    <line x1="150" y1="100" x2="150" y2="130" class="image" /> <!-- Legs of person 2 -->
+
+    <circle cx="250" cy="50" r="20" class="image" /> <!-- Head of person 3 -->
+    <line x1="250" y1="70" x2="250" y2="100" class="image" /> <!-- Body of person 3 -->
+    <line x1="250" y1="100" x2="230" y2="130" class="image" /> <!-- Left arm of person 3 -->
+    <line x1="250" y1="100" x2="270" y2="130" class="image" /> <!-- Right arm of person 3 -->
+    <line x1="250" y1="100" x2="250" y2="130" class="image" /> <!-- Legs of person 3 -->
+
+    <!-- Hearts -->
+    <path d="M 50 150 Q 100 100 150 150 T 250 150" class="image" />
+    <path d="M 50 160 Q 100 110 150 160 T 250 160" class="image" />
+  </g>
+</svg>

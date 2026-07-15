@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">paw</text>
+  <text x="50" y="120" class="subtitle">[pɔː] n. 爪子，手</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> paw (源自中古英语 pau, 意为“爪子”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只可爱的小猫，用它柔软的"爪子(paw)"
+    <tspan x="50" dy="25">轻轻地挠你的手，那种感觉既温暖又痒痒。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The kitten stretched out its paw to touch the toy.
+  </text>
+  <text x="50" y="310" class="content">
+    小猫伸出爪子去碰玩具。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cat body -->
+    <ellipse cx="150" cy="100" rx="100" ry="50" class="image" />
+    <!-- Cat head -->
+    <circle cx="150" cy="50" r="30" class="image" />
+    <!-- Cat ears -->
+    <polygon points="130,20 140,10 150,20" class="image" />
+    <polygon points="170,20 160,10 150,20" class="image" />
+    <!-- Cat eyes -->
+    <circle cx="140" cy="50" r="5" class="image" />
+    <circle cx="160" cy="50" r="5" class="image" />
+    <!-- Cat nose -->
+    <polygon points="150,55 145,60 155,60" class="image" />
+    <!-- Cat mouth -->
+    <line x1="145" y1="65" x2="155" y2="65" class="image" />
+    <!-- Cat paw -->
+    <polygon points="100,120 110,110 120,120 110,130" class="image" />
+  </g>
+</svg>

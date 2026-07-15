@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .oven { fill: #FFD54F; }
+      .dough { fill: #F48FB1; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">baking</text>
+  <text x="50" y="120" class="subtitle">[ˈbeɪkɪŋ] n. 烘焙，烤制</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bake (烤) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个厨师正在烤箱前，"烤(bake)"
+    <tspan x="50" dy="25">着美味的面包，这个过程就是烘焙(baking)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She enjoys baking cakes for her family.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢为家人烘焙蛋糕。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Oven -->
+    <rect x="0" y="0" width="350" height="200" class="oven" />
+    <!-- Door -->
+    <rect x="20" y="20" width="100" height="160" class="image" />
+    <!-- Dough -->
+    <circle cx="200" cy="100" r="30" class="dough" />
+    <!-- Chef -->
+    <circle cx="300" cy="100" r="15" class="image" />
+    <line x1="300" y1="115" x2="300" y2="150" class="image" />
+    <line x1="300" y1="150" x2="280" y2="180" class="image" />
+    <line x1="300" y1="150" x2="320" y2="180" class="image" />
+    <line x1="300" y1="130" x2="350" y2="120" class="image" />
+  </g>
+</svg>

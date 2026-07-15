@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">oral</text>
+  <text x="50" y="120" class="subtitle">[ˈɔːrəl] adj. 口头的，口部的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ora (口)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在用嘴巴(ora)说话，这就是"口头的(oral)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The teacher gave an oral presentation.
+  </text>
+  <text x="50" y="310" class="content">
+    老师做了一个口头报告。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Mouth -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Lips -->
+    <path d="M 50 100 Q 100 150 150 100" class="image" />
+    <!-- Tongue -->
+    <rect x="80" y="110" width="40" height="20" class="image" />
+    <!-- Teeth -->
+    <rect x="70" y="90" width="10" height="10" class="image" />
+    <rect x="90" y="90" width="10" height="10" class="image" />
+    <rect x="110" y="90" width="10" height="10" class="image" />
+    <rect x="130" y="90" width="10" height="10" class="image" />
+  </g>
+</svg>

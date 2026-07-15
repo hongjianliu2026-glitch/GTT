@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">billion</text>
+  <text x="50" y="120" class="subtitle">[ˈbɪljən] n. 十亿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bi- (二) + -llion (表示大量)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的数字“1”后面跟着九个零，就像两个“1”(bi-)
+    <tspan x="50" dy="25">并排站着，每个“1”代表一个巨大的数量(llion)，</tspan>
+    <tspan x="50" dy="25">加起来就是十亿(billion)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company's revenue reached a billion dollars last year.
+  </text>
+  <text x="50" y="310" class="content">
+    去年公司的收入达到了十亿美元。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large number 1 -->
+    <text x="0" y="0" font-size="100" class="image">1</text>
+    <!-- Nine zeros -->
+    <text x="60" y="0" font-size="100" class="image">0</text>
+    <text x="120" y="0" font-size="100" class="image">0</text>
+    <text x="180" y="0" font-size="100" class="image">0</text>
+    <text x="240" y="0" font-size="100" class="image">0</text>
+    <text x="300" y="0" font-size="100" class="image">0</text>
+    <text x="360" y="0" font-size="100" class="image">0</text>
+    <text x="420" y="0" font-size="100" class="image">0</text>
+    <text x="480" y="0" font-size="100" class="image">0</text>
+    <text x="540" y="0" font-size="100" class="image">0</text>
+    <text x="600" y="0" font-size="100" class="image">0</text>
+  </g>
+</svg>

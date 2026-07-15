@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .water { fill: #3498DB; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dampen</text>
+  <text x="50" y="120" class="subtitle">[ˈdæmpən] v. 使潮湿，抑制</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> damp (潮湿) + -en (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个魔术师用魔杖轻轻一挥，"使(en)"
+    <tspan x="50" dy="25">空气中的水分"潮湿(damp)"，整个房间瞬间变得湿润。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rain dampened our spirits for the picnic.
+  </text>
+  <text x="50" y="310" class="content">
+    雨天让我们的野餐心情变得低落。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Magic wand -->
+    <line x1="0" y1="0" x2="100" y2="100" class="image" />
+    <circle cx="100" cy="100" r="10" class="image" />
+    <!-- Water droplets -->
+    <circle cx="150" cy="50" r="10" class="water" />
+    <circle cx="180" cy="70" r="10" class="water" />
+    <circle cx="210" cy="90" r="10" class="water" />
+    <circle cx="240" cy="110" r="10" class="water" />
+    <!-- Room -->
+    <rect x="200" y="0" width="150" height="150" class="image" />
+  </g>
+</svg>

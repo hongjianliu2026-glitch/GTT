@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rear</text>
+  <text x="50" y="120" class="subtitle">[rɪr] v. 抚养，培养；n. 后面，后方</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (向后) + ar (生长)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个母亲在"后面(re-)"
+    <tspan x="50" dy="25">抚养(ar)孩子，孩子逐渐成长。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is responsible for rearing her younger siblings.
+  </text>
+  <text x="50" y="310" class="content">
+    她负责抚养她的弟弟妹妹。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Mother -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+
+    <!-- Child -->
+    <circle cx="150" cy="120" r="15" class="image" />
+    <line x1="150" y1="135" x2="150" y2="170" class="image" />
+    <line x1="150" y1="170" x2="130" y2="200" class="image" />
+    <line x1="150" y1="170" x2="170" y2="200" class="image" />
+    <line x1="150" y1="155" x2="190" y2="145" class="image" />
+
+    <!-- Arrow -->
+    <line x1="50" y1="100" x2="150" y2="120" class="image" />
+    <polygon points="150,120 140,110 140,130" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">illustrious</text>
+  <text x="50" y="120" class="subtitle">[ɪˈlʌstriəs] adj. 杰出的，辉煌的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> il- (加强) + lustri (光) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个"光辉(lustri)"无比的明星，"加强(il-)"了光芒，
+    <tspan x="50" dy="25">照亮了整个舞台，他就是"杰出的(illustrious)"存在。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is an illustrious scientist in her field.
+  </text>
+  <text x="50" y="310" class="content">
+    她是她领域中杰出的科学家。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Star -->
+    <polygon points="100,10 130,90 210,90 140,140 170,220 100,170 30,220 60,140 0,90 80,90" class="image" />
+    <!-- Spotlight -->
+    <ellipse cx="100" cy="100" rx="150" ry="50" class="image" />
+    <!-- Stage -->
+    <rect x="0" y="200" width="350" height="50" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <line x1="100" y1="170" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="80" y2="230" class="image" />
+    <line x1="100" y1="200" x2="120" y2="230" class="image" />
+    <line x1="100" y1="180" x2="130" y2="170" class="image" />
+  </g>
+</svg>

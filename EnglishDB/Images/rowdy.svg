@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #9B59B6; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rowdy</text>
+  <text x="50" y="120" class="subtitle">[ˈraʊdi] adj. 吵闹的，粗暴的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> row (吵闹) + -dy (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人在酒吧里，"吵闹(row)"得像一群"粗暴的(dy)"
+    <tspan x="50" dy="25">野兽，整个场面混乱不堪。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rowdy crowd made it impossible to concentrate.
+  </text>
+  <text x="50" y="310" class="content">
+    吵闹的人群让人无法集中注意力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bar -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- People -->
+    <circle cx="50" cy="50" r="15" class="image" />
+    <circle cx="100" cy="50" r="15" class="image" />
+    <circle cx="150" cy="50" r="15" class="image" />
+    <circle cx="200" cy="50" r="15" class="image" />
+    <circle cx="250" cy="50" r="15" class="image" />
+    <!-- Arms and legs -->
+    <line x1="50" y1="65" x2="30" y2="90" class="image" />
+    <line x1="50" y1="65" x2="70" y2="90" class="image" />
+    <line x1="50" y1="80" x2="30" y2="110" class="image" />
+    <line x1="50" y1="80" x2="70" y2="110" class="image" />
+    <!-- More arms and legs -->
+    <line x1="100" y1="65" x2="80" y2="90" class="image" />
+    <line x1="100" y1="65" x2="120" y2="90" class="image" />
+    <line x1="100" y1="80" x2="80" y2="110" class="image" />
+    <line x1="100" y1="80" x2="120" y2="110" class="image" />
+    <!-- Even more arms and legs -->
+    <line x1="150" y1="65" x2="130" y2="90" class="image" />
+    <line x1="150" y1="65" x2="170" y2="90" class="image" />
+    <line x1="150" y1="80" x2="130" y2="110" class="image" />
+    <line x1="150" y1="80" x2="170" y2="110" class="image" />
+    <!-- And more -->
+    <line x1="200" y1="65" x2="180" y2="90" class="image" />
+    <line x1="200" y1="65" x2="220" y2="90" class="image" />
+    <line x1="200" y1="80" x2="180" y2="110" class="image" />
+    <line x1="200" y1="80" x2="220" y2="110" class="image" />
+    <!-- And more -->
+    <line x1="250" y1="65" x2="230" y2="90" class="image" />
+    <line x1="250" y1="65" x2="270" y2="90" class="image" />
+    <line x1="250" y1="80" x2="230" y2="110" class="image" />
+    <line x1="250" y1="80" x2="270" y2="110" class="image" />
+    <!-- Bar counter -->
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <!-- Drinks -->
+    <circle cx="70" cy="90" r="5" class="image" />
+    <circle cx="120" cy="90" r="5" class="image" />
+    <circle cx="170" cy="90" r="5" class="image" />
+    <circle cx="220" cy="90" r="5" class="image" />
+    <circle cx="270" cy="90" r="5" class="image" />
+  </g>
+</svg>

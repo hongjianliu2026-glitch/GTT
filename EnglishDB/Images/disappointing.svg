@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">disappointing</text>
+  <text x="50" y="120" class="subtitle">[ˌdɪsəˈpɔɪntɪŋ] adj. 令人失望的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (不) + appoint (任命) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人满怀期待地等待着被"任命(appoint)"，
+    <tspan x="50" dy="25">结果却被告知"不被任命(dis-appoint)"，</tspan>
+    <tspan x="50" dy="25">这种感觉就是"令人失望的(disappointing)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The movie was disappointing; it didn't live up to our expectations.
+  </text>
+  <text x="50" y="310" class="content">
+    这部电影令人失望，它没有达到我们的期望。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken heart -->
+    <path d="M50 50 Q100 25 150 50 T250 50" class="image" />
+    <path d="M50 50 L150 150 L250 50" class="image" />
+    <!-- Person with a sad face -->
+    <circle cx="150" cy="100" r="30" class="image" />
+    <circle cx="135" cy="90" r="5" class="image" />
+    <circle cx="165" cy="90" r="5" class="image" />
+    <path d="M135 110 Q150 120 165 110" class="image" />
+  </g>
+</svg>

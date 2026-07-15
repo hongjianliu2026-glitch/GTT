@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flatter</text>
+  <text x="50" y="120" class="subtitle">[ˈflætər] v. 奉承，讨好</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> flat (平坦) + -er (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在平坦的地上，"平坦地(flat)"
+    <tspan x="50" dy="25">说着甜言蜜语，试图讨好(flatter)对方。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He tried to flatter her with compliments.
+  </text>
+  <text x="50" y="310" class="content">
+    他试图用赞美来讨好她。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flat ground -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="190" class="image" />
+    <line x1="50" y1="160" x2="70" y2="190" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 100 80 Q 150 70 150 100 Q 150 130 100 120 Z" class="image" />
+    <text x="110" y="105" class="content">甜言蜜语</text>
+  </g>
+</svg>

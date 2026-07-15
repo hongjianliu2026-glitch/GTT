@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #7B1FA2; }
+      .image { stroke: #FFC107; stroke-width: 2; fill: none; }
+      .doughnut { fill: #FFEB3B; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">doughnut</text>
+  <text x="50" y="120" class="subtitle">[ˈdoʊnʌt] n. 甜甜圈</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dough (面团) + nut (坚果)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的面团(dough)中间有一个小洞，
+    <tspan x="50" dy="25">就像一个坚果(nut)一样，这就是甜甜圈(doughnut)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to eat chocolate-glazed doughnuts.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢吃巧克力糖衣的甜甜圈。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Doughnut -->
+    <circle cx="100" cy="100" r="60" class="doughnut" />
+    <circle cx="100" cy="100" r="20" class="background" />
+    <!-- Chocolate glaze -->
+    <path d="M 40 100 A 60 60 0 0 1 160 100" class="image" />
+    <path d="M 40 100 A 60 60 0 0 0 160 100" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">amateur</text>
+  <text x="50" y="120" class="subtitle">[ˈæmətər] n. 业余爱好者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> amat (爱) + -eur (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满热情的"爱(amat)"好者，
+    <tspan x="50" dy="25">虽然不是专业人士，但依然全心投入，</tspan>
+    <tspan x="50" dy="25">这就是一个业余爱好者(amateur)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is an amateur photographer, but his photos are amazing.
+  </text>
+  <text x="50" y="310" class="content">
+    他是个业余摄影师，但他的照片非常棒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M50,50 Q100,25 150,50 Q100,75 50,50" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <line x1="100" y1="115" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="180" class="image" />
+    <line x1="100" y1="150" x2="120" y2="180" class="image" />
+    <line x1="100" y1="130" x2="130" y2="120" class="image" />
+    <!-- Camera -->
+    <rect x="150" y="80" width="50" height="40" class="image" />
+    <line x1="175" y1="80" x2="175" y2="60" class="image" />
+  </g>
+</svg>

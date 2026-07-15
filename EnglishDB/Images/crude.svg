@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">crude</text>
+  <text x="50" y="120" class="subtitle">[kruːd] adj. 粗糙的，天然的，未加工的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crud (粗糙) + -e (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块未经雕琢的石头，表面"粗糙(crud)"，
+    <tspan x="50" dy="25">没有经过任何加工，这就是"天然的(crude)"状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crude oil was extracted from the ground.
+  </text>
+  <text x="50" y="310" class="content">
+    原油是从地下开采出来的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rough stone -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Cracks on the stone -->
+    <line x1="100" y1="50" x2="250" y2="150" class="image" />
+    <line x1="100" y1="150" x2="250" y2="50" class="image" />
+    <line x1="175" y1="20" x2="175" y2="180" class="image" />
+  </g>
+</svg>

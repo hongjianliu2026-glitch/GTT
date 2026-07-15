@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quintessential</text>
+  <text x="50" y="120" class="subtitle">[ˌkwɪntɪˈsenʃl] adj. 典型的，精髓的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quint (五) + essence (本质)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个五角星，每个角代表一个元素，
+    <tspan x="50" dy="25">而中心点是这些元素的"精髓(essence)"，</tspan>
+    <tspan x="50" dy="25">这就是"quintessential"的来源。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her performance was the quintessential example of grace.
+  </text>
+  <text x="50" y="310" class="content">
+    她的表演是优雅的典型例子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Five-pointed star -->
+    <polygon points="100,10 130,90 40,40 160,40 70,90" class="image" />
+    <!-- Center dot -->
+    <circle cx="100" cy="45" r="10" class="image" />
+    <!-- Elements -->
+    <text x="80" y="10" class="content">E1</text>
+    <text x="135" y="80" class="content">E2</text>
+    <text x="35" y="40" class="content">E3</text>
+    <text x="155" y="40" class="content">E4</text>
+    <text x="65" y="80" class="content">E5</text>
+  </g>
+</svg>

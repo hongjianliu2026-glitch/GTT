@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">deep-sea</text>
+  <text x="50" y="120" class="subtitle">[ˈdiːp siː] adj. 深海的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> deep (深的) + sea (海)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个潜水员潜入深海，"深入(deep)"
+    <tspan x="50" dy="25">到"海洋(sea)"的深处，探索未知的深海世界。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The deep-sea exploration team discovered a new species of fish.
+  </text>
+  <text x="50" y="310" class="content">
+    深海探险队发现了一种新的鱼类。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ocean -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#4CAF50" />
+    <!-- Diver -->
+    <circle cx="50" cy="150" r="15" class="image" fill="#FFFFFF" />
+    <line x1="50" y1="165" x2="50" y2="190" class="image" />
+    <line x1="50" y1="190" x2="35" y2="210" class="image" />
+    <line x1="50" y1="190" x2="65" y2="210" class="image" />
+    <line x1="50" y1="175" x2="70" y2="165" class="image" />
+    <!-- Fish -->
+    <path d="M200,100 C210,80 240,80 250,100 L250,120 C240,140 210,140 200,120 Z" class="image" fill="#FFEB3B" />
+    <!-- Depth -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="0" y1="50" x2="350" y2="50" class="image" />
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <line x1="0" y1="150" x2="350" y2="150" class="image" />
+    <line x1="0" y1="200" x2="350" y2="200" class="image" />
+  </g>
+</svg>

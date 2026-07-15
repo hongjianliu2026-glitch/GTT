@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pit</text>
+  <text x="50" y="120" class="subtitle">[pɪt] n. 坑，凹陷；v. 使凹陷</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pit (来自古英语 pytt, 意为坑)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的坑(pit)，深不见底，
+    <tspan x="50" dy="25">仿佛能吞噬一切，让人心生恐惧。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The construction workers dug a deep pit for the foundation.
+  </text>
+  <text x="50" y="310" class="content">
+    建筑工人们挖了一个深坑作为地基。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Pit -->
+    <path d="M50 200 Q100 100 150 200 T250 200" class="image" />
+    <path d="M50 200 Q100 300 150 200 T250 200" class="image" />
+    <!-- Shadows -->
+    <line x1="70" y1="200" x2="70" y2="220" class="image" />
+    <line x1="100" y1="200" x2="100" y2="230" class="image" />
+    <line x1="130" y1="200" x2="130" y2="220" class="image" />
+    <line x1="160" y1="200" x2="160" y2="230" class="image" />
+    <line x1="190" y1="200" x2="190" y2="220" class="image" />
+    <line x1="220" y1="200" x2="220" y2="230" class="image" />
+  </g>
+</svg>

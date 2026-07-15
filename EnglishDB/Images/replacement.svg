@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">replacement</text>
+  <text x="50" y="120" class="subtitle">[rɪˈpleɪsmənt] n. 替换，代替品</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + place (放置) + -ment (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个工人不小心打碎了一个花瓶，老板说："别担心，我们再放(re-place)一个新花瓶来替换(replacement)它。"
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old computer was replaced by a new one.
+  </text>
+  <text x="50" y="310" class="content">
+    旧电脑被一台新电脑替换了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken vase -->
+    <path d="M50 50 Q70 20 90 50 T130 50" class="image" />
+    <line x1="60" y1="50" x2="80" y2="50" class="image" />
+    <line x1="70" y1="50" x2="70" y2="70" class="image" />
+    <!-- New vase -->
+    <rect x="150" y="30" width="50" height="70" class="image" />
+    <line x1="150" y1="30" x2="200" y2="30" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="150" y1="30" x2="150" y2="100" class="image" />
+    <line x1="200" y1="30" x2="200" y2="100" class="image" />
+    <!-- Arrow -->
+    <line x1="120" y1="60" x2="140" y2="60" class="image" />
+    <line x1="140" y1="60" x2="130" y2="50" class="image" />
+    <line x1="140" y1="60" x2="130" y2="70" class="image" />
+  </g>
+</svg>

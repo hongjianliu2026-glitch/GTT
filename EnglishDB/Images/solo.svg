@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">solo</text>
+  <text x="50" y="120" class="subtitle">[ˈsoʊloʊ] n. 独奏，独唱；adj. 单独的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sol- (单独) + -o (表示名词或形容词)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在舞台上，"独自一人(sol-o)"
+    <tspan x="50" dy="25">演奏乐器，这就是独奏(solo)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She performed a solo on the piano.
+  </text>
+  <text x="50" y="310" class="content">
+    她在钢琴上表演了一段独奏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Musician -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="160" class="image" />
+    <line x1="175" y1="160" x2="155" y2="190" class="image" />
+    <line x1="175" y1="160" x2="195" y2="190" class="image" />
+    <line x1="175" y1="140" x2="205" y2="130" class="image" />
+    <!-- Piano -->
+    <rect x="100" y="150" width="150" height="30" class="image" />
+    <line x1="110" y1="150" x2="110" y2="180" class="image" />
+    <line x1="130" y1="150" x2="130" y2="180" class="image" />
+    <line x1="150" y1="150" x2="150" y2="180" class="image" />
+    <line x1="170" y1="150" x2="170" y2="180" class="image" />
+    <line x1="190" y1="150" x2="190" y2="180" class="image" />
+    <line x1="210" y1="150" x2="210" y2="180" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">goose</text>
+  <text x="50" y="120" class="subtitle">[ɡuːs] n. 鹅</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自原始日耳曼语 *anser (鹅)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只大鹅在湖边悠闲地散步，它的长脖子和扁嘴让人一眼就能认出它是一只鹅(goose)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The goose honked loudly as it waddled across the lawn.
+  </text>
+  <text x="50" y="310" class="content">
+    那只鹅嘎嘎叫着，摇摇摆摆地穿过草坪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Goose body -->
+    <ellipse cx="150" cy="150" rx="100" ry="60" class="image" />
+    <!-- Goose neck and head -->
+    <line x1="150" y1="90" x2="150" y2="30" class="image" />
+    <circle cx="150" cy="20" r="15" class="image" />
+    <!-- Goose beak -->
+    <polygon points="150,20 170,30 150,40" class="image" />
+    <!-- Goose legs -->
+    <line x1="100" y1="210" x2="100" y2="250" class="image" />
+    <line x1="200" y1="210" x2="200" y2="250" class="image" />
+  </g>
+</svg>

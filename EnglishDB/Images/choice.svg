@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">choice</text>
+  <text x="50" y="120" class="subtitle">[tʃɔɪs] n. 选择，挑选</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> choos (选择) + -e (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的菜单，上面有无数的选项，
+    <tspan x="50" dy="25">你站在菜单前，仔细地"挑选(choos-e)"你最喜欢的食物。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She had to make a difficult choice between the two jobs.
+  </text>
+  <text x="50" y="310" class="content">
+    她不得不在两个工作之间做出艰难的选择。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Menu -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Options -->
+    <text x="50" y="50" class="content">Option 1</text>
+    <text x="50" y="80" class="content">Option 2</text>
+    <text x="50" y="110" class="content">Option 3</text>
+    <text x="50" y="140" class="content">Option 4</text>
+    <!-- Person choosing -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Arrow pointing to choice -->
+    <line x1="20" y1="100" x2="100" y2="50" class="image" />
+    <polygon points="100,50 90,40 90,60" class="image" />
+  </g>
+</svg>

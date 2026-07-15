@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #9B59B6; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unworthy</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈwɜːrði] adj. 不值得的，不配的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (否定) + worth (价值) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一堆垃圾中，"没有价值(un-worth)"
+    <tspan x="50" dy="25">的东西围绕着他，他显得"不配(unworthy)"得到任何尊重。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He felt unworthy of her love after his betrayal.
+  </text>
+  <text x="50" y="310" class="content">
+    背叛之后，他觉得自己不配得到她的爱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Trash pile -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="100" cy="70" r="25" class="image" />
+    <circle cx="150" cy="50" r="30" class="image" />
+    <circle cx="200" cy="70" r="25" class="image" />
+    <circle cx="250" cy="50" r="20" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="120" r="20" class="image" />
+    <line x1="175" y1="140" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="155" y2="210" class="image" />
+    <line x1="175" y1="180" x2="195" y2="210" class="image" />
+    <line x1="175" y1="160" x2="145" y2="150" class="image" />
+    <line x1="175" y1="160" x2="205" y2="150" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blonde</text>
+  <text x="50" y="120" class="subtitle">[blɒnd] n. 金发女郎；adj. 金发的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blond (金发)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个金发女郎站在阳光下，她的金发在阳光下闪闪发光，
+    <tspan x="50" dy="25">就像一片金色的麦田，让人一眼就能认出她是"金发(blond)"女郎。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is a natural blonde with sparkling blue eyes.
+  </text>
+  <text x="50" y="310" class="content">
+    她是一个天生的金发女郎，有着闪亮的蓝眼睛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Blonde hair -->
+    <path d="M50,150 Q100,50 150,150 T250,150" fill="#F4D03F" />
+    <!-- Face -->
+    <circle cx="150" cy="150" r="30" fill="#FDEBD0" />
+    <!-- Eyes -->
+    <circle cx="135" cy="140" r="5" fill="#2C3E50" />
+    <circle cx="165" cy="140" r="5" fill="#2C3E50" />
+    <!-- Smile -->
+    <path d="M135,160 Q150,170 165,160" fill="none" stroke="#2C3E50" stroke-width="2" />
+  </g>
+</svg>

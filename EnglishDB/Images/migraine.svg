@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">migraine</text>
+  <text x="50" y="120" class="subtitle">[ˈmaɪɡreɪn] n. 偏头痛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hemi- (半) + cranium (头骨)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象你的头骨"一半(hemi-)"被"压碎(crane)"，
+    <tspan x="50" dy="25">这种剧烈的疼痛就是偏头痛(migraine)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She suffers from migraines every month.
+  </text>
+  <text x="50" y="310" class="content">
+    她每个月都会遭受偏头痛的折磨。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Hemisphere -->
+    <path d="M 20 100 A 80 80 0 0 1 180 100" class="image" />
+    <!-- Cracked skull -->
+    <line x1="50" y1="50" x2="150" y2="150" class="image" />
+    <line x1="50" y1="150" x2="150" y2="50" class="image" />
+    <!-- Pain symbol -->
+    <text x="100" y="220" class="image" text-anchor="middle" font-size="48" fill="#E74C3C">!</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">outpouring</text>
+  <text x="50" y="120" class="subtitle">[ˈaʊtpɔːrɪŋ] n. 倾泻，涌出</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> out- (向外) + pour (倒) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的瀑布，水流"向外倾泻(out-pour)"，
+    <tspan x="50" dy="25">形成壮观的"涌出(outpouring)"景象。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The outpouring of support from the community was overwhelming.
+  </text>
+  <text x="50" y="310" class="content">
+    社区的支持如潮水般涌来，令人感动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Waterfall -->
+    <path d="M0 0 L100 0 L100 200 L0 200 Z" class="image" />
+    <path d="M20 200 Q50 100 80 200" class="image" />
+    <path d="M30 200 Q60 50 90 200" class="image" />
+    <path d="M40 200 Q70 150 100 200" class="image" />
+    <!-- Water droplets -->
+    <circle cx="50" cy="180" r="5" class="image" />
+    <circle cx="60" cy="160" r="5" class="image" />
+    <circle cx="70" cy="170" r="5" class="image" />
+    <circle cx="80" cy="190" r="5" class="image" />
+  </g>
+</svg>

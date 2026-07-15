@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quote</text>
+  <text x="50" y="120" class="subtitle">[kwoʊt] n. 引用，引述；v. 引用，报价</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quot (多少)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个演讲者站在讲台上，"引用(quote)"
+    <tspan x="50" dy="25">一段名言，这段话被精确地记录下来，就像数数一样(quot)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She often quotes famous philosophers in her speeches.
+  </text>
+  <text x="50" y="310" class="content">
+    她在演讲中经常引用著名哲学家的名言。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Speaker -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Quote marks -->
+    <text x="70" y="100" class="image" font-size="100">“”</text>
+    <!-- Speech bubble -->
+    <path d="M70 50 Q100 20 130 50 T190 50" class="image" />
+    <path d="M190 50 Q220 20 250 50" class="image" />
+    <path d="M250 50 Q280 20 310 50" class="image" />
+    <path d="M310 50 Q340 20 370 50" class="image" />
+  </g>
+</svg>

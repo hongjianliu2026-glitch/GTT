@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quarrel</text>
+  <text x="50" y="120" class="subtitle">[ˈkwɒrəl] n. 争吵，口角；v. 争吵，争论</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quar- (四) + rel (争吵)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象四个人围成一圈，"四(quar-)"个人在"争吵(rel)"，
+    <tspan x="50" dy="25">场面激烈，这就是quarrel(争吵)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They had a quarrel over the inheritance.
+  </text>
+  <text x="50" y="310" class="content">
+    他们为遗产争吵。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Four people -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="150" cy="50" r="20" class="image" />
+    <circle cx="50" cy="150" r="20" class="image" />
+    <circle cx="150" cy="150" r="20" class="image" />
+    <!-- Arrows representing arguments -->
+    <line x1="50" y1="70" x2="150" y2="70" class="image" />
+    <line x1="150" y1="70" x2="150" y2="130" class="image" />
+    <line x1="150" y1="130" x2="50" y2="130" class="image" />
+    <line x1="50" y1="130" x2="50" y2="70" class="image" />
+    <!-- Speech bubbles -->
+    <path d="M50,30 Q70,20 90,30 Q70,40 50,30" class="image" />
+    <path d="M150,30 Q170,20 190,30 Q170,40 150,30" class="image" />
+    <path d="M50,170 Q70,160 90,170 Q70,180 50,170" class="image" />
+    <path d="M150,170 Q170,160 190,170 Q170,180 150,170" class="image" />
+  </g>
+</svg>

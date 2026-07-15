@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">solemn</text>
+  <text x="50" y="120" class="subtitle">[ˈsɒləm] adj. 庄严的，严肃的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sol (太阳) + emn (庄严)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个庄严的仪式，太阳(sol)高悬，
+    <tspan x="50" dy="25">人们表情严肃(emn)，整个场景庄重而肃穆。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The judge's face was solemn as he delivered the verdict.
+  </text>
+  <text x="50" y="310" class="content">
+    法官在宣判时面色严肃。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#FFD700" />
+    <!-- People -->
+    <rect x="200" y="50" width="50" height="100" class="image" fill="#D3D3D3" />
+    <rect x="250" y="50" width="50" height="100" class="image" fill="#D3D3D3" />
+    <rect x="300" y="50" width="50" height="100" class="image" fill="#D3D3D3" />
+    <!-- Faces -->
+    <circle cx="225" cy="40" r="10" class="image" fill="#000000" />
+    <circle cx="275" cy="40" r="10" class="image" fill="#000000" />
+    <circle cx="325" cy="40" r="10" class="image" fill="#000000" />
+    <!-- Mouths -->
+    <line x1="220" y1="70" x2="230" y2="70" class="image" />
+    <line x1="270" y1="70" x2="280" y2="70" class="image" />
+    <line x1="320" y1="70" x2="330" y2="70" class="image" />
+  </g>
+</svg>

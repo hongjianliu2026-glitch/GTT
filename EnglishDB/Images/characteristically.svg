@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">characteristically</text>
+  <text x="50" y="120" class="subtitle">[ˌkærəktəˈrɪstɪkli] adv. 典型地，有特色地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> character (性格) + -istic (形容词后缀) + -ally (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在镜子前，"典型地(characteristically)"
+    <tspan x="50" dy="25">展现出他独特的性格特征，就像镜子反射出他的个性。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She spoke characteristically with confidence.
+  </text>
+  <text x="50" y="310" class="content">
+    她自信地说话，展现了她的典型性格。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mirror -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="220" class="image" />
+    <line x1="175" y1="180" x2="200" y2="220" class="image" />
+    <line x1="175" y1="150" x2="130" y2="140" class="image" />
+    <line x1="175" y1="150" x2="220" y2="140" class="image" />
+    <!-- Reflection -->
+    <circle cx="175" cy="300" r="30" class="image" />
+    <line x1="175" y1="330" x2="175" y2="380" class="image" />
+    <line x1="175" y1="380" x2="150" y2="420" class="image" />
+    <line x1="175" y1="380" x2="200" y2="420" class="image" />
+    <line x1="175" y1="350" x2="130" y2="340" class="image" />
+    <line x1="175" y1="350" x2="220" y2="340" class="image" />
+  </g>
+</svg>

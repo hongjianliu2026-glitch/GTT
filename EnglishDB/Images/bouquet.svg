@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #5D4037; }
+      .content { font: 18px sans-serif; fill: #795548; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #388E3C; }
+      .image { stroke: #8D6E63; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bouquet</text>
+  <text x="50" y="120" class="subtitle">[buˈkeɪ] n. 花束</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bous (牛) + -quet (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头牛(bous)在田野中，周围环绕着
+    <tspan x="50" dy="25">小(quet)而美丽的花朵，这些花朵聚集在一起</tspan>
+    <tspan x="50" dy="25">形成了一个花束(bouquet)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She received a beautiful bouquet of roses on her birthday.
+  </text>
+  <text x="50" y="310" class="content">
+    她生日时收到了一束美丽的玫瑰花。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bouquet -->
+    <circle cx="50" cy="100" r="20" class="image" fill="#FF4081" />
+    <circle cx="80" cy="100" r="20" class="image" fill="#4CAF50" />
+    <circle cx="110" cy="100" r="20" class="image" fill="#2196F3" />
+    <circle cx="140" cy="100" r="20" class="image" fill="#FFEB3B" />
+    <circle cx="170" cy="100" r="20" class="image" fill="#FF5722" />
+    <!-- Cow -->
+    <circle cx="200" cy="100" r="30" class="image" fill="#8D6E63" />
+    <line x1="200" y1="130" x2="200" y2="180" class="image" />
+    <line x1="200" y1="180" x2="180" y2="210" class="image" />
+    <line x1="200" y1="180" x2="220" y2="210" class="image" />
+    <line x1="200" y1="150" x2="230" y2="140" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">swirling</text>
+  <text x="50" y="120" class="subtitle">[ˈswɜːrlɪŋ] adj. 旋转的，涡旋的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> swirl (旋转) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的龙卷风，"旋转(swirl)"
+    <tspan x="50" dy="25">着吞噬一切，这就是"旋转的(swirling)"力量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The leaves were swirling in the wind.
+  </text>
+  <text x="50" y="310" class="content">
+    树叶在风中旋转。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tornado -->
+    <path d="M 0 0 Q 50 100 100 0 T 200 0" class="image" />
+    <path d="M 0 20 Q 50 120 100 20 T 200 20" class="image" />
+    <path d="M 0 40 Q 50 140 100 40 T 200 40" class="image" />
+    <path d="M 0 60 Q 50 160 100 60 T 200 60" class="image" />
+    <path d="M 0 80 Q 50 180 100 80 T 200 80" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">driftwood</text>
+  <text x="50" y="120" class="subtitle">[ˈdrɪftwʊd] n. 浮木，漂流木</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> drift (漂流) + wood (木头)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片广阔的海滩，海浪不断冲刷着岸边，
+    <tspan x="50" dy="25">一块块木头随着海浪漂流(drift)，最终被冲上岸，</tspan>
+    <tspan x="50" dy="25">这些木头就是漂流木(driftwood)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The beach was littered with driftwood after the storm.
+  </text>
+  <text x="50" y="310" class="content">
+    风暴过后，海滩上到处都是漂流木。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beach -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sea -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <!-- Driftwood -->
+    <line x1="50" y1="120" x2="100" y2="120" class="image" />
+    <line x1="120" y1="130" x2="170" y2="130" class="image" />
+    <line x1="190" y1="140" x2="240" y2="140" class="image" />
+    <line x1="260" y1="150" x2="310" y2="150" class="image" />
+    <!-- Waves -->
+    <path d="M50,100 Q100,50 150,100 T250,100" class="image" />
+    <path d="M50,80 Q100,30 150,80 T250,80" class="image" />
+  </g>
+</svg>

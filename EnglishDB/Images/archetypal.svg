@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">archetypal</text>
+  <text x="50" y="120" class="subtitle">[ɑːrˈkɛtəpəl] adj. 典型的，原型的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> arch- (首领，原始) + -type (类型)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个原始的部落首领，他代表了所有首领的"原始类型(arch-type)"，
+    <tspan x="50" dy="25">他的形象就是典型的(archetypal)首领形象。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hero in the story is an archetypal figure of bravery.
+  </text>
+  <text x="50" y="310" class="content">
+    故事中的英雄是一个典型的勇敢形象。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tribal leader -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="20" y2="250" class="image" />
+    <line x1="50" y1="200" x2="80" y2="250" class="image" />
+    <!-- Tribal symbol -->
+    <rect x="20" y="50" width="60" height="30" class="image" />
+    <line x1="20" y1="50" x2="80" y2="80" class="image" />
+    <line x1="20" y1="80" x2="80" y2="50" class="image" />
+  </g>
+</svg>

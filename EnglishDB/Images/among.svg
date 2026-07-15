@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">among</text>
+  <text x="50" y="120" class="subtitle">[əˈmʌŋ] prep. 在...之中</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> a- (在) + mong (群)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人站在一起，"在(a-)群(mong)人之中"，
+    <tspan x="50" dy="25">你就在他们中间(among)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was among the first to arrive at the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她是第一批到达派对的人之一。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Group of people -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="150" cy="50" r="20" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="200" cy="100" r="20" class="image" />
+    <!-- Person in the middle -->
+    <circle cx="100" cy="50" r="25" class="image" fill="#E74C3C" />
+    <!-- Arrows -->
+    <line x1="100" y1="75" x2="100" y2="120" class="image" />
+    <line x1="100" y1="120" x2="80" y2="100" class="image" />
+    <line x1="100" y1="120" x2="120" y2="100" class="image" />
+  </g>
+</svg>

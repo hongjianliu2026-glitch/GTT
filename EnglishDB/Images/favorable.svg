@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .sun { fill: #F39C12; }
+      .smile { fill: #2ECC71; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">favorable</text>
+  <text x="50" y="120" class="subtitle">[ˈfeɪvərəbl] adj. 有利的，赞成的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> favor (喜爱) + -able (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的日子，太阳(favor)高高挂起，
+    <tspan x="50" dy="25">人们脸上洋溢着笑容(able)，这就是有利的(favorable)场景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The weather is favorable for a picnic.
+  </text>
+  <text x="50" y="310" class="content">
+    天气很适合野餐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="sun" />
+    <!-- Smile -->
+    <path d="M 50 150 Q 100 200 150 150" class="smile" />
+    <!-- People -->
+    <circle cx="70" cy="130" r="10" class="image" />
+    <circle cx="130" cy="130" r="10" class="image" />
+  </g>
+</svg>

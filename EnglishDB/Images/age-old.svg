@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">age-old</text>
+  <text x="50" y="120" class="subtitle">[ˈeɪdʒˌoʊld] adj. 古老的，久远的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> age (年龄) + old (老的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的石碑，上面刻满了岁月的痕迹，
+    <tspan x="50" dy="25">"年龄(age)"和"老的(old)"结合，形成了"age-old"这个形容词。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The age-old tradition of storytelling is still alive today.
+  </text>
+  <text x="50" y="310" class="content">
+    讲故事这一古老的习俗至今仍然存在。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ancient stone tablet -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Cracks and marks -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Ancient symbols -->
+    <circle cx="100" cy="100" r="10" class="image" />
+    <circle cx="150" cy="120" r="10" class="image" />
+    <circle cx="200" cy="140" r="10" class="image" />
+    <circle cx="250" cy="160" r="10" class="image" />
+  </g>
+</svg>

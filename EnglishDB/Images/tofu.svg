@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .tofu { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tofu</text>
+  <text x="50" y="120" class="subtitle">[ˈtoʊfuː] n. 豆腐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自日语“豆腐”(とうふ)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块柔软的豆腐，"豆(to)"和"腐(fu)"
+    <tspan x="50" dy="25">结合在一起，形成了一种美味的食品。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to add tofu to her stir-fry.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在炒菜中加入豆腐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tofu block -->
+    <rect x="0" y="0" width="200" height="100" class="tofu" />
+    <!-- Soybeans -->
+    <circle cx="30" cy="130" r="15" class="image" />
+    <circle cx="70" cy="130" r="15" class="image" />
+    <circle cx="110" cy="130" r="15" class="image" />
+    <circle cx="150" cy="130" r="15" class="image" />
+    <circle cx="190" cy="130" r="15" class="image" />
+    <!-- Soy milk -->
+    <rect x="0" y="160" width="200" height="20" class="image" />
+  </g>
+</svg>

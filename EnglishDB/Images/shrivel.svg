@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shrivel</text>
+  <text x="50" y="120" class="subtitle">[ˈʃrɪvəl] v. 枯萎，皱缩</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shrivel (源自中古英语 shrivellen，意为“皱缩”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个被太阳晒得<tspan x="50" dy="25">“皱缩(shrivel)”的葡萄，它变得干瘪，失去了水分。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The grapes shriveled in the hot sun.
+  </text>
+  <text x="50" y="310" class="content">
+    葡萄在烈日下枯萎了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="200" cy="100" r="50" fill="#F1C40F" />
+    <!-- Grapes -->
+    <ellipse cx="150" cy="250" rx="30" ry="20" fill="#8E44AD" />
+    <ellipse cx="200" cy="250" rx="25" ry="15" fill="#8E44AD" />
+    <ellipse cx="250" cy="250" rx="20" ry="10" fill="#8E44AD" />
+    <!-- Wrinkled effect -->
+    <line x1="140" y1="240" x2="160" y2="260" class="image" />
+    <line x1="190" y1="240" x2="210" y2="260" class="image" />
+    <line x1="240" y1="240" x2="260" y2="260" class="image" />
+  </g>
+</svg>

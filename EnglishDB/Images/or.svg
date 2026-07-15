@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">or</text>
+  <text x="50" y="120" class="subtitle">[ɔːr] conj. 或者，还是</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> or (源自拉丁语 "aut"，意为 "或者")
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个选择题，面前有两个门，"或者(or)"
+    <tspan x="50" dy="25">你选择左边，或者选择右边，必须做出决定。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Do you want tea or coffee?
+  </text>
+  <text x="50" y="310" class="content">
+    你想要茶还是咖啡？
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two doors -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="200" y="0" width="150" height="200" class="image" />
+    <!-- Arrows -->
+    <line x1="75" y1="210" x2="75" y2="250" class="image" />
+    <line x1="75" y1="250" x2="50" y2="230" class="image" />
+    <line x1="75" y1="250" x2="100" y2="230" class="image" />
+    <line x1="275" y1="210" x2="275" y2="250" class="image" />
+    <line x1="275" y1="250" x2="250" y2="230" class="image" />
+    <line x1="275" y1="250" x2="300" y2="230" class="image" />
+    <!-- Text -->
+    <text x="50" y="270" class="content">Left</text>
+    <text x="250" y="270" class="content">Right</text>
+  </g>
+</svg>

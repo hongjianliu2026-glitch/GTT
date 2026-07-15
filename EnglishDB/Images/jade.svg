@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jade</text>
+  <text x="50" y="120" class="subtitle">[dʒeɪd] n. 玉，翡翠；v. 使疲倦，使厌烦</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> jade (源自法语 "jade"，意为玉石)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块闪闪发光的玉石(jade)，它不仅美丽，还能让人感到疲倦(jade)，
+    <tspan x="50" dy="25">因为它的光芒太过耀眼，让人无法长时间注视。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a jade necklace that sparkled in the sunlight.
+  </text>
+  <text x="50" y="310" class="content">
+    她戴着一条在阳光下闪闪发光的玉石项链。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Jade stone -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#00A86B" />
+    <!-- Sparkles -->
+    <circle cx="80" cy="80" r="5" class="image" fill="#FFFFFF" />
+    <circle cx="120" cy="90" r="5" class="image" fill="#FFFFFF" />
+    <circle cx="110" cy="120" r="5" class="image" fill="#FFFFFF" />
+    <circle cx="90" cy="110" r="5" class="image" fill="#FFFFFF" />
+    <!-- Tired face -->
+    <circle cx="200" cy="100" r="30" class="image" fill="#F1C40F" />
+    <line x1="185" y1="90" x2="195" y2="90" class="image" />
+    <line x1="205" y1="90" x2="215" y2="90" class="image" />
+    <line x1="190" y1="110" x2="210" y2="110" class="image" />
+  </g>
+</svg>

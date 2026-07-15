@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">herein</text>
+  <text x="50" y="120" class="subtitle">[ˌhɪərˈɪn] adv. 在此处，在这里</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> here (这里) + in (在...里面)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个箭头指向一个盒子，箭头说："就在这里(here)，
+    <tspan x="50" dy="25">在这个盒子里面(in)，就是'herein'的意思。"</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The answer can be found herein the document.
+  </text>
+  <text x="50" y="310" class="content">
+    答案可以在文件中找到。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Box -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Arrow -->
+    <line x1="220" y1="75" x2="200" y2="75" class="image" />
+    <polygon points="220,75 210,70 210,80" class="image" />
+    <!-- Text -->
+    <text x="230" y="80" class="content">herein</text>
+  </g>
+</svg>

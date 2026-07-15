@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jubilant</text>
+  <text x="50" y="120" class="subtitle">[ˈdʒuːbɪlənt] adj. 欢欣鼓舞的，兴高采烈的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> jubil (欢呼) + -ant (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人在庆祝胜利，"欢呼(jubil)"
+    <tspan x="50" dy="25">的声音响彻云霄，每个人脸上都洋溢着喜悦(jubilant)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crowd was jubilant after the team won the championship.
+  </text>
+  <text x="50" y="310" class="content">
+    球队赢得冠军后，人群欢欣鼓舞。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Celebration scene -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <circle cx="150" cy="50" r="30" class="image" />
+    <circle cx="250" cy="50" r="30" class="image" />
+    <!-- Hands raised -->
+    <line x1="50" y1="80" x2="50" y2="120" class="image" />
+    <line x1="150" y1="80" x2="150" y2="120" class="image" />
+    <line x1="250" y1="80" x2="250" y2="120" class="image" />
+    <!-- Confetti -->
+    <line x1="0" y1="0" x2="100" y2="100" class="image" />
+    <line x1="100" y1="0" x2="200" y2="100" class="image" />
+    <line x1="200" y1="0" x2="300" y2="100" class="image" />
+    <!-- Smiling faces -->
+    <path d="M50 50 Q70 30 90 50" class="image" />
+    <path d="M150 50 Q170 30 190 50" class="image" />
+    <path d="M250 50 Q270 30 290 50" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">aviation</text>
+  <text x="50" y="120" class="subtitle">[ˌeɪviˈeɪʃn] n. 航空，飞行</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> avi (鸟) + ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只巨大的鸟在天空中翱翔，"鸟(avi)"
+    <tspan x="50" dy="25">在天空中飞行，这就是航空(aviation)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The aviation industry has seen rapid growth in recent years.
+  </text>
+  <text x="50" y="310" class="content">
+    航空业近年来发展迅速。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sky -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#87CEEB" />
+    <!-- Bird -->
+    <circle cx="50" cy="50" r="20" class="image" fill="#000" />
+    <line x1="50" y1="70" x2="30" y2="100" class="image" />
+    <line x1="50" y1="70" x2="70" y2="100" class="image" />
+    <!-- Plane -->
+    <rect x="200" y="30" width="100" height="20" class="image" fill="#FFF" />
+    <line x1="200" y1="40" x2="180" y2="60" class="image" />
+    <line x1="300" y1="40" x2="320" y2="60" class="image" />
+    <line x1="250" y1="40" x2="250" y2="60" class="image" />
+  </g>
+</svg>

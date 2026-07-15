@@ -1,0 +1,179 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">infestation</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnfɛˈsteɪʃən] n. 侵扰，虫害</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (进入) + fest (触碰) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群虫子"侵入(in-)"并"触碰(fest)"
+    <tspan x="50" dy="25">每一个角落，造成严重的"侵扰(infestation)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The house was plagued by an infestation of termites.
+  </text>
+  <text x="50" y="310" class="content">
+    这栋房子遭受了白蚁的侵扰。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- House -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Windows -->
+    <rect x="70" y="40" width="50" height="50" class="image" />
+    <rect x="180" y="40" width="50" height="50" class="image" />
+    <!-- Door -->
+    <rect x="125" y="110" width="50" height="70" class="image" />
+    <!-- Bugs -->
+    <circle cx="80" cy="60" r="5" class="image" />
+    <circle cx="100" cy="80" r="5" class="image" />
+    <circle cx="120" cy="100" r="5" class="image" />
+    <circle cx="140" cy="120" r="5" class="image" />
+    <circle cx="160" cy="140" r="5" class="image" />
+    <circle cx="180" cy="160" r="5" class="image" />
+    <circle cx="200" cy="180" r="5" class="image" />
+    <circle cx="220" cy="200" r="5" class="image" />
+    <circle cx="240" cy="220" r="5" class="image" />
+    <circle cx="260" cy="240" r="5" class="image" />
+    <circle cx="280" cy="260" r="5" class="image" />
+    <circle cx="300" cy="280" r="5" class="image" />
+    <circle cx="320" cy="300" r="5" class="image" />
+    <circle cx="340" cy="320" r="5" class="image" />
+    <circle cx="360" cy="340" r="5" class="image" />
+    <circle cx="380" cy="360" r="5" class="image" />
+    <circle cx="400" cy="380" r="5" class="image" />
+    <circle cx="420" cy="400" r="5" class="image" />
+    <circle cx="440" cy="420" r="5" class="image" />
+    <circle cx="460" cy="440" r="5" class="image" />
+    <circle cx="480" cy="460" r="5" class="image" />
+    <circle cx="500" cy="480" r="5" class="image" />
+    <circle cx="520" cy="500" r="5" class="image" />
+    <circle cx="540" cy="520" r="5" class="image" />
+    <circle cx="560" cy="540" r="5" class="image" />
+    <circle cx="580" cy="560" r="5" class="image" />
+    <circle cx="600" cy="580" r="5" class="image" />
+    <circle cx="620" cy="600" r="5" class="image" />
+    <circle cx="640" cy="620" r="5" class="image" />
+    <circle cx="660" cy="640" r="5" class="image" />
+    <circle cx="680" cy="660" r="5" class="image" />
+    <circle cx="700" cy="680" r="5" class="image" />
+    <circle cx="720" cy="700" r="5" class="image" />
+    <circle cx="740" cy="720" r="5" class="image" />
+    <circle cx="760" cy="740" r="5" class="image" />
+    <circle cx="780" cy="760" r="5" class="image" />
+    <circle cx="800" cy="780" r="5" class="image" />
+    <circle cx="820" cy="800" r="5" class="image" />
+    <circle cx="840" cy="820" r="5" class="image" />
+    <circle cx="860" cy="840" r="5" class="image" />
+    <circle cx="880" cy="860" r="5" class="image" />
+    <circle cx="900" cy="880" r="5" class="image" />
+    <circle cx="920" cy="900" r="5" class="image" />
+    <circle cx="940" cy="920" r="5" class="image" />
+    <circle cx="960" cy="940" r="5" class="image" />
+    <circle cx="980" cy="960" r="5" class="image" />
+    <circle cx="1000" cy="980" r="5" class="image" />
+    <circle cx="1020" cy="1000" r="5" class="image" />
+    <circle cx="1040" cy="1020" r="5" class="image" />
+    <circle cx="1060" cy="1040" r="5" class="image" />
+    <circle cx="1080" cy="1060" r="5" class="image" />
+    <circle cx="1100" cy="1080" r="5" class="image" />
+    <circle cx="1120" cy="1100" r="5" class="image" />
+    <circle cx="1140" cy="1120" r="5" class="image" />
+    <circle cx="1160" cy="1140" r="5" class="image" />
+    <circle cx="1180" cy="1160" r="5" class="image" />
+    <circle cx="1200" cy="1180" r="5" class="image" />
+    <circle cx="1220" cy="1200" r="5" class="image" />
+    <circle cx="1240" cy="1220" r="5" class="image" />
+    <circle cx="1260" cy="1240" r="5" class="image" />
+    <circle cx="1280" cy="1260" r="5" class="image" />
+    <circle cx="1300" cy="1280" r="5" class="image" />
+    <circle cx="1320" cy="1300" r="5" class="image" />
+    <circle cx="1340" cy="1320" r="5" class="image" />
+    <circle cx="1360" cy="1340" r="5" class="image" />
+    <circle cx="1380" cy="1360" r="5" class="image" />
+    <circle cx="1400" cy="1380" r="5" class="image" />
+    <circle cx="1420" cy="1400" r="5" class="image" />
+    <circle cx="1440" cy="1420" r="5" class="image" />
+    <circle cx="1460" cy="1440" r="5" class="image" />
+    <circle cx="1480" cy="1460" r="5" class="image" />
+    <circle cx="1500" cy="1480" r="5" class="image" />
+    <circle cx="1520" cy="1500" r="5" class="image" />
+    <circle cx="1540" cy="1520" r="5" class="image" />
+    <circle cx="1560" cy="1540" r="5" class="image" />
+    <circle cx="1580" cy="1560" r="5" class="image" />
+    <circle cx="1600" cy="1580" r="5" class="image" />
+    <circle cx="1620" cy="1600" r="5" class="image" />
+    <circle cx="1640" cy="1620" r="5" class="image" />
+    <circle cx="1660" cy="1640" r="5" class="image" />
+    <circle cx="1680" cy="1660" r="5" class="image" />
+    <circle cx="1700" cy="1680" r="5" class="image" />
+    <circle cx="1720" cy="1700" r="5" class="image" />
+    <circle cx="1740" cy="1720" r="5" class="image" />
+    <circle cx="1760" cy="1740" r="5" class="image" />
+    <circle cx="1780" cy="1760" r="5" class="image" />
+    <circle cx="1800" cy="1780" r="5" class="image" />
+    <circle cx="1820" cy="1800" r="5" class="image" />
+    <circle cx="1840" cy="1820" r="5" class="image" />
+    <circle cx="1860" cy="1840" r="5" class="image" />
+    <circle cx="1880" cy="1860" r="5" class="image" />
+    <circle cx="1900" cy="1880" r="5" class="image" />
+    <circle cx="1920" cy="1900" r="5" class="image" />
+    <circle cx="1940" cy="1920" r="5" class="image" />
+    <circle cx="1960" cy="1940" r="5" class="image" />
+    <circle cx="1980" cy="1960" r="5" class="image" />
+    <circle cx="2000" cy="1980" r="5" class="image" />
+    <circle cx="2020" cy="2000" r="5" class="image" />
+    <circle cx="2040" cy="2020" r="5" class="image" />
+    <circle cx="2060" cy="2040" r="5" class="image" />
+    <circle cx="2080" cy="2060" r="5" class="image" />
+    <circle cx="2100" cy="2080" r="5" class="image" />
+    <circle cx="2120" cy="2100" r="5" class="image" />
+    <circle cx="2140" cy="2120" r="5" class="image" />
+    <circle cx="2160" cy="2140" r="5" class="image" />
+    <circle cx="2180" cy="2160" r="5" class="image" />
+    <circle cx="2200" cy="2180" r="5" class="image" />
+    <circle cx="2220" cy="2200" r="5" class="image" />
+    <circle cx="2240" cy="2220" r="5" class="image" />
+    <circle cx="2260" cy="2240" r="5" class="image" />
+    <circle cx="2280" cy="2260" r="5" class="image" />
+    <circle cx="2300" cy="2280" r="5" class="image" />
+    <circle cx="2320" cy="2300" r="5" class="image" />
+    <circle cx="2340" cy="2320" r="5" class="image" />
+    <circle cx="2360" cy="2340" r="5" class="image" />
+    <circle cx="2380" cy="2360" r="5" class="image" />
+    <circle cx="2400" cy="2380" r="5" class="image" />
+    <circle cx="2420" cy="2400" r="5" class="image" />
+    <circle cx="2440" cy="2420" r="5" class="image" />
+    <circle cx="2460" cy="2440" r="5" class="image" />
+    <circle cx="2480" cy="2460" r="5" class="image" />
+    <circle cx="2500" cy="2480" r="5" class="image" />
+    <circle cx="2520" cy="2500" r="5" class="image" />
+    <circle cx="2540" cy="2520" r="5" class="image" />
+    <circle cx="2560" cy="2540" r="5" class="image" />
+    <circle cx="2580" cy="2560" r="5" class="image" />
+    <circle cx="2600" cy="2580" r="5" class="image" />
+    <circle cx="

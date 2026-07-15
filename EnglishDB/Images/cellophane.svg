@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cellophane</text>
+  <text x="50" y="120" class="subtitle">[ˈsɛləfeɪn] n. 玻璃纸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cello- (小细胞) + phane (显示)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小细胞(cello-)通过玻璃纸(phane)
+    <tspan x="50" dy="25">展示它的透明和保护特性。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wrapped the gift in cellophane to keep it clean.
+  </text>
+  <text x="50" y="310" class="content">
+    她用玻璃纸把礼物包起来以保持清洁。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cellophane wrap -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Transparent cellophane -->
+    <rect x="50" y="20" width="250" height="160" class="image" fill="rgba(255,255,255,0.5)" />
+    <!-- Small cell -->
+    <circle cx="175" cy="100" r="20" class="image" fill="#FFD700" />
+    <!-- Protective layer -->
+    <rect x="50" y="20" width="250" height="160" class="image" fill="none" stroke-dasharray="5,5" />
+  </g>
+</svg>

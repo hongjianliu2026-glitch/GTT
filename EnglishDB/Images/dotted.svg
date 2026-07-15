@@ -1,0 +1,186 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dotted</text>
+  <text x="50" y="120" class="subtitle">[ˈdɑːtɪd] adj. 有点的，有斑点的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dot (点) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只斑点狗，身上布满了"点(dot)"，
+    <tspan x="50" dy="25">这些点让它的毛皮看起来"有点的(dotted)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The dress was dotted with colorful flowers.
+  </text>
+  <text x="50" y="310" class="content">
+    这条裙子上有彩色的花朵图案。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dotted pattern -->
+    <circle cx="50" cy="50" r="5" class="image" />
+    <circle cx="70" cy="50" r="5" class="image" />
+    <circle cx="90" cy="50" r="5" class="image" />
+    <circle cx="110" cy="50" r="5" class="image" />
+    <circle cx="130" cy="50" r="5" class="image" />
+    <circle cx="150" cy="50" r="5" class="image" />
+    <circle cx="170" cy="50" r="5" class="image" />
+    <circle cx="190" cy="50" r="5" class="image" />
+    <circle cx="210" cy="50" r="5" class="image" />
+    <circle cx="230" cy="50" r="5" class="image" />
+    <circle cx="250" cy="50" r="5" class="image" />
+    <circle cx="270" cy="50" r="5" class="image" />
+    <circle cx="290" cy="50" r="5" class="image" />
+    <circle cx="310" cy="50" r="5" class="image" />
+    <circle cx="330" cy="50" r="5" class="image" />
+    <circle cx="350" cy="50" r="5" class="image" />
+    <circle cx="370" cy="50" r="5" class="image" />
+    <circle cx="390" cy="50" r="5" class="image" />
+    <circle cx="410" cy="50" r="5" class="image" />
+    <circle cx="430" cy="50" r="5" class="image" />
+    <circle cx="450" cy="50" r="5" class="image" />
+    <circle cx="470" cy="50" r="5" class="image" />
+    <circle cx="490" cy="50" r="5" class="image" />
+    <circle cx="510" cy="50" r="5" class="image" />
+    <circle cx="530" cy="50" r="5" class="image" />
+    <circle cx="550" cy="50" r="5" class="image" />
+    <circle cx="570" cy="50" r="5" class="image" />
+    <circle cx="590" cy="50" r="5" class="image" />
+    <circle cx="610" cy="50" r="5" class="image" />
+    <circle cx="630" cy="50" r="5" class="image" />
+    <circle cx="650" cy="50" r="5" class="image" />
+    <circle cx="670" cy="50" r="5" class="image" />
+    <circle cx="690" cy="50" r="5" class="image" />
+    <circle cx="710" cy="50" r="5" class="image" />
+    <circle cx="730" cy="50" r="5" class="image" />
+    <circle cx="750" cy="50" r="5" class="image" />
+    <circle cx="770" cy="50" r="5" class="image" />
+    <circle cx="790" cy="50" r="5" class="image" />
+    <circle cx="810" cy="50" r="5" class="image" />
+    <circle cx="830" cy="50" r="5" class="image" />
+    <circle cx="850" cy="50" r="5" class="image" />
+    <circle cx="870" cy="50" r="5" class="image" />
+    <circle cx="890" cy="50" r="5" class="image" />
+    <circle cx="910" cy="50" r="5" class="image" />
+    <circle cx="930" cy="50" r="5" class="image" />
+    <circle cx="950" cy="50" r="5" class="image" />
+    <circle cx="970" cy="50" r="5" class="image" />
+    <circle cx="990" cy="50" r="5" class="image" />
+    <circle cx="1010" cy="50" r="5" class="image" />
+    <circle cx="1030" cy="50" r="5" class="image" />
+    <circle cx="1050" cy="50" r="5" class="image" />
+    <circle cx="1070" cy="50" r="5" class="image" />
+    <circle cx="1090" cy="50" r="5" class="image" />
+    <circle cx="1110" cy="50" r="5" class="image" />
+    <circle cx="1130" cy="50" r="5" class="image" />
+    <circle cx="1150" cy="50" r="5" class="image" />
+    <circle cx="1170" cy="50" r="5" class="image" />
+    <circle cx="1190" cy="50" r="5" class="image" />
+    <circle cx="1210" cy="50" r="5" class="image" />
+    <circle cx="1230" cy="50" r="5" class="image" />
+    <circle cx="1250" cy="50" r="5" class="image" />
+    <circle cx="1270" cy="50" r="5" class="image" />
+    <circle cx="1290" cy="50" r="5" class="image" />
+    <circle cx="1310" cy="50" r="5" class="image" />
+    <circle cx="1330" cy="50" r="5" class="image" />
+    <circle cx="1350" cy="50" r="5" class="image" />
+    <circle cx="1370" cy="50" r="5" class="image" />
+    <circle cx="1390" cy="50" r="5" class="image" />
+    <circle cx="1410" cy="50" r="5" class="image" />
+    <circle cx="1430" cy="50" r="5" class="image" />
+    <circle cx="1450" cy="50" r="5" class="image" />
+    <circle cx="1470" cy="50" r="5" class="image" />
+    <circle cx="1490" cy="50" r="5" class="image" />
+    <circle cx="1510" cy="50" r="5" class="image" />
+    <circle cx="1530" cy="50" r="5" class="image" />
+    <circle cx="1550" cy="50" r="5" class="image" />
+    <circle cx="1570" cy="50" r="5" class="image" />
+    <circle cx="1590" cy="50" r="5" class="image" />
+    <circle cx="1610" cy="50" r="5" class="image" />
+    <circle cx="1630" cy="50" r="5" class="image" />
+    <circle cx="1650" cy="50" r="5" class="image" />
+    <circle cx="1670" cy="50" r="5" class="image" />
+    <circle cx="1690" cy="50" r="5" class="image" />
+    <circle cx="1710" cy="50" r="5" class="image" />
+    <circle cx="1730" cy="50" r="5" class="image" />
+    <circle cx="1750" cy="50" r="5" class="image" />
+    <circle cx="1770" cy="50" r="5" class="image" />
+    <circle cx="1790" cy="50" r="5" class="image" />
+    <circle cx="1810" cy="50" r="5" class="image" />
+    <circle cx="1830" cy="50" r="5" class="image" />
+    <circle cx="1850" cy="50" r="5" class="image" />
+    <circle cx="1870" cy="50" r="5" class="image" />
+    <circle cx="1890" cy="50" r="5" class="image" />
+    <circle cx="1910" cy="50" r="5" class="image" />
+    <circle cx="1930" cy="50" r="5" class="image" />
+    <circle cx="1950" cy="50" r="5" class="image" />
+    <circle cx="1970" cy="50" r="5" class="image" />
+    <circle cx="1990" cy="50" r="5" class="image" />
+    <circle cx="2010" cy="50" r="5" class="image" />
+    <circle cx="2030" cy="50" r="5" class="image" />
+    <circle cx="2050" cy="50" r="5" class="image" />
+    <circle cx="2070" cy="50" r="5" class="image" />
+    <circle cx="2090" cy="50" r="5" class="image" />
+    <circle cx="2110" cy="50" r="5" class="image" />
+    <circle cx="2130" cy="50" r="5" class="image" />
+    <circle cx="2150" cy="50" r="5" class="image" />
+    <circle cx="2170" cy="50" r="5" class="image" />
+    <circle cx="2190" cy="50" r="5" class="image" />
+    <circle cx="2210" cy="50" r="5" class="image" />
+    <circle cx="2230" cy="50" r="5" class="image" />
+    <circle cx="2250" cy="50" r="5" class="image" />
+    <circle cx="2270" cy="50" r="5" class="image" />
+    <circle cx="2290" cy="50" r="5" class="image" />
+    <circle cx="2310" cy="50" r="5" class="image" />
+    <circle cx="2330" cy="50" r="5" class="image" />
+    <circle cx="2350" cy="50" r="5" class="image" />
+    <circle cx="2370" cy="50" r="5" class="image" />
+    <circle cx="2390" cy="50" r="5" class="image" />
+    <circle cx="2410" cy="50" r="5" class="image" />
+    <circle cx="2430" cy="50" r="5" class="image" />
+    <circle cx="2450" cy="50" r="5" class="image" />
+    <circle cx="2470" cy="50" r="5" class="image" />
+    <circle cx="2490" cy="50" r="5" class="image" />
+    <circle cx="2510" cy="50" r="5" class="image" />
+    <circle cx="2530" cy="50" r="5" class="image" />
+    <circle cx="2550" cy="50" r="5" class="image" />
+    <circle cx="2570" cy="50" r="5" class="image" />
+    <circle cx="2590" cy="50" r="5" class="image" />
+    <circle cx="2610" cy="50" r="5" class="image" />
+    <circle cx="2630" cy="50" r="5" class="image" />
+    <circle cx="2650" cy="50" r="5" class="image" />
+    <circle cx="2670" cy="50" r="5" class="image" />
+    <circle cx="2690" cy="50" r="5" class="image" />
+    <circle cx="2710" cy="50" r="5" class="image" />
+    <circle cx="2730" cy="50" r="5" class="image" />
+    <circle cx="2750" cy="50" r="5" class="image" />
+    <circle cx="2770" cy="50" r="5" class="image" />
+    <circle cx="2790" cy="50" r="5" class="image" />
+    <circle cx="2810" cy="50" r="5" class="image" />
+    <circle cx="2830" cy="50" r="5" class="image" />
+    <circle cx="2850" cy="50" r="5" class="image" />
+    <circle cx="2870" cy="50" r="5" class="image" />
+    <circle cx="2890" cy="50" r="5"

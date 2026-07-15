@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nestle</text>
+  <text x="50" y="120" class="subtitle">[ˈnɛsl] v. 依偎，舒适地安顿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> nest (巢) + -le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小鸟在巢中"依偎(nestle)"，
+    <tspan x="50" dy="25">舒适地安顿下来，享受温暖和安全。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The kitten nestled into the soft blanket.
+  </text>
+  <text x="50" y="310" class="content">
+    小猫依偎在柔软的毯子里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Nest -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="150" cy="100" r="50" class="image" />
+    <circle cx="200" cy="100" r="50" class="image" />
+    <!-- Bird -->
+    <circle cx="150" cy="100" r="20" class="image" fill="#F1C40F" />
+    <!-- Wings -->
+    <line x1="130" y1="90" x2="100" y2="70" class="image" />
+    <line x1="170" y1="90" x2="200" y2="70" class="image" />
+  </g>
+</svg>

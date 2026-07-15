@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">resort</text>
+  <text x="50" y="120" class="subtitle">[rɪˈzɔːrt] n. 度假胜地；v. 求助，诉诸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + sort (出去)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个疲惫的旅行者，"再次出去(re-sort)"
+    <tspan x="50" dy="25">到一个美丽的地方放松，这个地方就是度假胜地(resort)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We decided to resort to the beach for our summer vacation.
+  </text>
+  <text x="50" y="310" class="content">
+    我们决定去海滩度假胜地过暑假。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beach -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sun -->
+    <circle cx="30" cy="30" r="20" class="image" />
+    <!-- Palm tree -->
+    <line x1="150" y1="20" x2="150" y2="100" class="image" />
+    <line x1="140" y1="60" x2="160" y2="60" class="image" />
+    <line x1="130" y1="80" x2="170" y2="80" class="image" />
+    <!-- Beach chair -->
+    <line x1="250" y1="100" x2="250" y2="150" class="image" />
+    <line x1="230" y1="125" x2="270" y2="125" class="image" />
+    <!-- Traveler -->
+    <circle cx="250" cy="170" r="15" class="image" />
+    <line x1="250" y1="185" x2="250" y2="220" class="image" />
+    <line x1="250" y1="220" x2="230" y2="250" class="image" />
+    <line x1="250" y1="220" x2="270" y2="250" class="image" />
+    <line x1="250" y1="200" x2="280" y2="190" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">idiosyncratic</text>
+  <text x="50" y="120" class="subtitle">[ˌɪdiəˈsɪŋkrətɪk] adj. 特质的，异质的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> idio- (个人的) + syn- (一起) + crat (统治)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一群人中间，"个人统治(idio-syn-crat)"
+    <tspan x="50" dy="25">与众不同，他的特质(idiosyncratic)让人一眼就能认出。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His idiosyncratic style made him stand out in the crowd.
+  </text>
+  <text x="50" y="310" class="content">
+    他独特的风格使他在人群中脱颖而出。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Group of people -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="150" cy="100" r="15" class="image" />
+    <circle cx="200" cy="100" r="15" class="image" />
+    <!-- Unique person -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="160" class="image" />
+    <line x1="250" y1="160" x2="230" y2="190" class="image" />
+    <line x1="250" y1="160" x2="270" y2="190" class="image" />
+    <line x1="250" y1="140" x2="280" y2="130" class="image" />
+    <!-- Crown on unique person -->
+    <polygon points="240,90 260,90 250,70" class="image" />
+  </g>
+</svg>

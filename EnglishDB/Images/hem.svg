@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hem</text>
+  <text x="50" y="120" class="subtitle">[hem] n. 衣服的折边；v. 给...缝边</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hem (边缘)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个裁缝在缝制衣服的边缘，"缝边(hem)"
+    <tspan x="50" dy="25">的动作就像给衣服加了一道保护的"边缘(hem)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She carefully hemmed the dress to make it look neat.
+  </text>
+  <text x="50" y="310" class="content">
+    她仔细地给裙子缝边，使其看起来整洁。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dress -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Hem -->
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="40" x2="300" y2="40" class="image" />
+    <line x1="50" y1="60" x2="300" y2="60" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <line x1="50" y1="120" x2="300" y2="120" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <line x1="50" y1="160" x2="300" y2="160" class="image" />
+    <line x1="50" y1="180" x2="300" y2="180" class="image" />
+    <!-- Sewing needle -->
+    <line x1="20" y1="100" x2="40" y2="120" class="image" />
+    <line x1="20" y1="120" x2="40" y2="100" class="image" />
+  </g>
+</svg>

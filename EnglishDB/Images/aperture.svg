@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">aperture</text>
+  <text x="50" y="120" class="subtitle">[ˈæpərtʃər] n. 孔径，光圈</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> a- (加强) + pert (穿透) + ure (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的相机镜头，"加强穿透(a-pert)"
+    <tspan x="50" dy="25">的光线通过一个小孔(aperture)，捕捉到美丽的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Adjusting the aperture can control the depth of field.
+  </text>
+  <text x="50" y="310" class="content">
+    调整光圈可以控制景深。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Camera lens -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Aperture -->
+    <circle cx="100" cy="100" r="30" class="image" fill="#F39C12" />
+    <!-- Light rays -->
+    <line x1="100" y1="20" x2="100" y2="70" class="image" />
+    <line x1="70" y1="50" x2="130" y2="50" class="image" />
+    <line x1="50" y1="80" x2="150" y2="80" class="image" />
+    <line x1="30" y1="110" x2="170" y2="110" class="image" />
+  </g>
+</svg>

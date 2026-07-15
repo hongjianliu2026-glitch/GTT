@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">refresh</text>
+  <text x="50" y="120" class="subtitle">[rɪˈfrɛʃ] v. 刷新，恢复精神</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + fresh (新鲜的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在电脑前工作，感到疲惫时，"再次(re-)"
+    <tspan x="50" dy="25">喝了一杯"新鲜的(fresh)"咖啡，瞬间恢复了精神(refresh)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> I need to refresh myself with a cup of coffee.
+  </text>
+  <text x="50" y="310" class="content">
+    我需要喝杯咖啡来提神。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Computer screen -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Coffee cup -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <rect x="40" y="120" width="20" height="40" class="image" />
+    <!-- Steam -->
+    <line x1="50" y1="80" x2="50" y2="60" class="image" />
+    <line x1="55" y1="75" x2="55" y2="55" class="image" />
+    <line x1="45" y1="75" x2="45" y2="55" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+  </g>
+</svg>

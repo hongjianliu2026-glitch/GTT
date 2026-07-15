@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">complex</text>
+  <text x="50" y="120" class="subtitle">[ˈkɒmpleks] adj. 复杂的，复合的；n. 综合体</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (一起) + plex (编织)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的编织机，"一起编织(com-plex)"
+    <tspan x="50" dy="25">出错综复杂的图案，这个图案就是复杂的(complex)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The human brain is a complex organ.
+  </text>
+  <text x="50" y="310" class="content">
+    人脑是一个复杂的器官。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Loom -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Threads -->
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="110" x2="300" y2="110" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <!-- Complex pattern -->
+    <path d="M50,20 L300,140 M50,50 L300,110 M50,80 L300,80 M50,110 L300,50 M50,140 L300,20" class="image" />
+  </g>
+</svg>

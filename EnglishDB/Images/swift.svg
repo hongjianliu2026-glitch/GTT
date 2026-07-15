@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">swift</text>
+  <text x="50" y="120" class="subtitle">[swɪft] adj. 迅速的，敏捷的；n. 雨燕</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> swift (迅速的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只雨燕在天空中"迅速(swift)"飞翔，
+    <tspan x="50" dy="25">它的翅膀几乎看不见，因为它飞得太快了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The swift response of the emergency team saved many lives.
+  </text>
+  <text x="50" y="310" class="content">
+    紧急救援队的迅速反应挽救了许多生命。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sky -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Swift bird -->
+    <line x1="50" y1="100" x2="100" y2="50" class="image" />
+    <line x1="100" y1="50" x2="150" y2="100" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="50" y2="100" class="image" />
+    <line x1="100" y1="150" x2="150" y2="100" class="image" />
+    <!-- Speed lines -->
+    <line x1="120" y1="70" x2="140" y2="90" class="image" />
+    <line x1="130" y1="80" x2="150" y2="100" class="image" />
+    <line x1="140" y1="90" x2="160" y2="110" class="image" />
+  </g>
+</svg>

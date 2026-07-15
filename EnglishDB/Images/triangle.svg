@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">triangle</text>
+  <text x="50" y="120" class="subtitle">[ˈtraɪæŋɡl] n. 三角形</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tri- (三) + angle (角)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个三角形，它有三个角(tri-angle)，
+    <tspan x="50" dy="25">每个角都像一个小山峰，三个山峰连在一起，</tspan>
+    <tspan x="50" dy="25">形成了一个稳固的三角形(triangle)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The roof of the house was built in the shape of a triangle.
+  </text>
+  <text x="50" y="310" class="content">
+    房子的屋顶建成了三角形的形状。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Triangle -->
+    <polygon points="0,150 150,0 300,150" class="image" />
+    <!-- Angles -->
+    <circle cx="0" cy="150" r="10" class="image" />
+    <circle cx="150" cy="0" r="10" class="image" />
+    <circle cx="300" cy="150" r="10" class="image" />
+    <!-- Mountains -->
+    <polyline points="0,150 50,100 100,150" class="image" />
+    <polyline points="150,0 200,50 250,0" class="image" />
+    <polyline points="300,150 250,100 200,150" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flame { fill: #FF6347; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hot</text>
+  <text x="50" y="120" class="subtitle">[hɒt] adj. 热的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hot (直接源自中古英语，意为“热的”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个炎热的夏天，太阳炙烤着大地，
+    <tspan x="50" dy="25">空气中弥漫着热浪，仿佛火焰在燃烧。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The soup is too hot to eat.
+  </text>
+  <text x="50" y="310" class="content">
+    这汤太烫了，不能吃。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Ground -->
+    <rect x="0" y="150" width="200" height="50" class="image" fill="#D35400" />
+    <!-- Heat waves -->
+    <line x1="20" y1="160" x2="40" y2="170" class="image" />
+    <line x1="40" y1="170" x2="60" y2="160" class="image" />
+    <line x1="60" y1="160" x2="80" y2="170" class="image" />
+    <line x1="80" y1="170" x2="100" y2="160" class="image" />
+    <line x1="100" y1="160" x2="120" y2="170" class="image" />
+    <line x1="120" y1="170" x2="140" y2="160" class="image" />
+    <!-- Flame -->
+    <polygon points="160,150 180,130 200,150 180,170" class="flame" />
+    <polygon points="165,145 180,125 195,145 180,165" class="flame" />
+  </g>
+</svg>

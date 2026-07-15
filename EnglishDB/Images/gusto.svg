@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gusto</text>
+  <text x="50" y="120" class="subtitle">[ˈɡʌstoʊ] n. 爱好，热情，兴致</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gust- (味道) + -o (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人品尝美食时，脸上洋溢着"味道(gust-)"带来的
+    <tspan x="50" dy="25">极大满足和热情，这就是gusto(gusto)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She ate the pizza with great gusto.
+  </text>
+  <text x="50" y="310" class="content">
+    她津津有味地吃着披萨。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="85" r="5" class="image" />
+    <circle cx="120" cy="85" r="5" class="image" />
+    <!-- Mouth -->
+    <path d="M 70 120 Q 100 140 130 120" class="image" />
+    <!-- Pizza -->
+    <circle cx="250" cy="100" r="40" class="image" />
+    <line x1="230" y1="80" x2="270" y2="80" class="image" />
+    <line x1="230" y1="100" x2="270" y2="100" class="image" />
+    <line x1="230" y1="120" x2="270" y2="120" class="image" />
+    <!-- Hand reaching for pizza -->
+    <line x1="150" y1="100" x2="210" y2="100" class="image" />
+    <line x1="210" y1="100" x2="210" y2="80" class="image" />
+  </g>
+</svg>

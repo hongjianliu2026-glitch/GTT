@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">annihilation</text>
+  <text x="50" y="120" class="subtitle">[ˌænɪəˈleɪʃn] n. 消灭，毁灭</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> an- (不) + nihil (无) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的黑洞，"吞噬一切(an-nihil-ation)"，
+    <tspan x="50" dy="25">将所有物质化为乌有，这就是毁灭(annihilation)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The explosion caused the annihilation of the entire city.
+  </text>
+  <text x="50" y="310" class="content">
+    爆炸导致了整个城市的毁灭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Black hole -->
+    <circle cx="175" cy="100" r="70" class="image" stroke="#2C3E50" fill="#000" />
+    <!-- Stars being sucked in -->
+    <line x1="100" y1="50" x2="175" y2="100" class="image" stroke="#E74C3C" />
+    <line x1="250" y1="50" x2="175" y2="100" class="image" stroke="#E74C3C" />
+    <line x1="100" y1="150" x2="175" y2="100" class="image" stroke="#E74C3C" />
+    <line x1="250" y1="150" x2="175" y2="100" class="image" stroke="#E74C3C" />
+    <!-- Explosion -->
+    <circle cx="175" cy="100" r="50" class="image" stroke="#F39C12" fill="none" />
+    <circle cx="175" cy="100" r="60" class="image" stroke="#F39C12" fill="none" />
+    <circle cx="175" cy="100" r="70" class="image" stroke="#F39C12" fill="none" />
+  </g>
+</svg>

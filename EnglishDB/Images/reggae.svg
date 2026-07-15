@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">reggae</text>
+  <text x="50" y="120" class="subtitle">[ˈrɛɡeɪ] n. 雷鬼音乐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自牙买加的一种音乐风格，起源于20世纪60年代。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满活力的牙买加街头，人们随着雷鬼音乐的节奏摇摆，
+    <tspan x="50" dy="25">音乐中充满了放松和自由的氛围，这就是雷鬼音乐(reggae)的魅力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Bob Marley is a legendary reggae musician.
+  </text>
+  <text x="50" y="310" class="content">
+    鲍勃·马利是一位传奇的雷鬼音乐家。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Street scene -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" fill="#F1C40F" />
+    <!-- People dancing -->
+    <circle cx="50" cy="100" r="15" fill="#2ECC71" />
+    <circle cx="80" cy="100" r="15" fill="#2ECC71" />
+    <circle cx="110" cy="100" r="15" fill="#2ECC71" />
+    <!-- Music notes -->
+    <path d="M150 50 Q170 30 190 50 T230 50" stroke="#3498DB" stroke-width="3" fill="none" />
+    <path d="M150 70 Q170 50 190 70 T230 70" stroke="#3498DB" stroke-width="3" fill="none" />
+    <path d="M150 90 Q170 70 190 90 T230 90" stroke="#3498DB" stroke-width="3" fill="none" />
+  </g>
+</svg>

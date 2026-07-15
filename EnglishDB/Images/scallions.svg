@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">scallions</text>
+  <text x="50" y="120" class="subtitle">[ˈskæljənz] n. 葱，青葱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> scal (头) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的葱头(scal)，它长出了许多青葱(scallions)，
+    <tspan x="50" dy="25">每一根葱都像是从这个大葱头中伸出来的小葱。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added scallions to the soup for extra flavor.
+  </text>
+  <text x="50" y="310" class="content">
+    她往汤里加了葱以增加风味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large onion head -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Scallions -->
+    <line x1="100" y1="100" x2="100" y2="0" class="image" />
+    <line x1="80" y1="100" x2="80" y2="20" class="image" />
+    <line x1="120" y1="100" x2="120" y2="40" class="image" />
+    <line x1="60" y1="100" x2="60" y2="60" class="image" />
+    <line x1="140" y1="100" x2="140" y2="80" class="image" />
+  </g>
+</svg>

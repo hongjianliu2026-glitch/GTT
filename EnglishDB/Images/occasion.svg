@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">occasion</text>
+  <text x="50" y="120" class="subtitle">[əˈkeɪʒn] n. 场合，时机</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> oc- (朝向) + cas (落下) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个时机(occasion)像一颗星星从天而降，"朝向(oc-)"
+    <tspan x="50" dy="25">地面"落下(cas)"，这个时机就是你需要抓住的场合。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> This is a special occasion, let's celebrate!
+  </text>
+  <text x="50" y="310" class="content">
+    这是一个特别的场合，让我们庆祝吧！
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Star falling -->
+    <line x1="150" y1="0" x2="150" y2="200" class="image" />
+    <polygon points="150,0 130,50 80,50 120,80 100,130 150,100 200,130 180,80 220,50 170,50" class="image" />
+    <!-- Ground -->
+    <line x1="0" y1="200" x2="350" y2="200" class="image" />
+    <!-- Person catching the star -->
+    <circle cx="150" cy="220" r="20" class="image" />
+    <line x1="150" y1="240" x2="150" y2="280" class="image" />
+    <line x1="150" y1="280" x2="130" y2="310" class="image" />
+    <line x1="150" y1="280" x2="170" y2="310" class="image" />
+    <line x1="150" y1="260" x2="120" y2="250" class="image" />
+    <line x1="150" y1="260" x2="180" y2="250" class="image" />
+  </g>
+</svg>

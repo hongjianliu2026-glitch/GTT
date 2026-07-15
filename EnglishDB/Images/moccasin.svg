@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">moccasin</text>
+  <text x="50" y="120" class="subtitle">[ˈmɑːkəsɪn] n. 软皮鞋，鹿皮鞋</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> moc- (来自美洲原住民语言，意为“软皮鞋”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个美洲原住民穿着一双柔软的鹿皮鞋，
+    <tspan x="50" dy="25">这种鞋舒适且适合在森林中行走，就像一只鹿在草地上轻盈地跳跃。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a pair of moccasins to the forest hike.
+  </text>
+  <text x="50" y="310" class="content">
+    她穿着一双鹿皮鞋去森林徒步。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Moccasin shoe -->
+    <rect x="0" y="0" width="200" height="100" class="image" />
+    <rect x="20" y="20" width="160" height="60" class="image" />
+    <!-- Deer -->
+    <circle cx="100" cy="150" r="30" class="image" />
+    <line x1="100" y1="180" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="70" y2="300" class="image" />
+    <line x1="100" y1="250" x2="130" y2="300" class="image" />
+    <line x1="100" y1="200" x2="50" y2="180" class="image" />
+    <line x1="100" y1="200" x2="150" y2="180" class="image" />
+  </g>
+</svg>

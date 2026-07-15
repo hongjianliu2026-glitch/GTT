@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wannabe</text>
+  <text x="50" y="120" class="subtitle">[ˈwɒnəbeɪ] n. 想成为某人的人，模仿者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> want (想要) + -be (成为)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个普通人站在镜子前，"想要成为(want-be)"
+    <tspan x="50" dy="25">某个名人，模仿他们的穿着和行为，这就是一个wannabe。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He's a wannabe rock star, always wearing leather jackets.
+  </text>
+  <text x="50" y="310" class="content">
+    他是个想成为摇滚明星的人，总是穿着皮夹克。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mirror -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <line x1="100" y1="130" x2="100" y2="180" class="image" />
+    <line x1="100" y1="150" x2="70" y2="170" class="image" />
+    <line x1="100" y1="150" x2="130" y2="170" class="image" />
+    <line x1="100" y1="180" x2="80" y2="210" class="image" />
+    <line x1="100" y1="180" x2="120" y2="210" class="image" />
+    <!-- Celebrity -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <line x1="250" y1="130" x2="250" y2="180" class="image" />
+    <line x1="250" y1="150" x2="220" y2="170" class="image" />
+    <line x1="250" y1="150" x2="280" y2="170" class="image" />
+    <line x1="250" y1="180" x2="230" y2="210" class="image" />
+    <line x1="250" y1="180" x2="270" y2="210" class="image" />
+    <!-- Mirror reflection -->
+    <line x1="100" y1="20" x2="250" y2="20" class="image" />
+    <line x1="100" y1="40" x2="250" y2="40" class="image" />
+    <line x1="100" y1="60" x2="250" y2="60" class="image" />
+  </g>
+</svg>

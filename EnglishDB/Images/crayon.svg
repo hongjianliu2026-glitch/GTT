@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">crayon</text>
+  <text x="50" y="120" class="subtitle">[ˈkreɪən] n. 蜡笔</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crayon (源自法语，意为“蜡笔”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩子在用蜡笔(crayon)在纸上涂鸦，
+    <tspan x="50" dy="25">蜡笔的色彩鲜艳，让孩子的想象力无限飞翔。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She drew a beautiful picture with her crayons.
+  </text>
+  <text x="50" y="310" class="content">
+    她用蜡笔画了一幅美丽的画。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Crayon -->
+    <rect x="0" y="0" width="100" height="200" class="image" />
+    <rect x="10" y="10" width="80" height="180" class="image" />
+    <!-- Crayon tip -->
+    <circle cx="50" cy="20" r="10" class="image" />
+    <!-- Crayon colors -->
+    <rect x="15" y="30" width="10" height="150" class="image" fill="#FF5733" />
+    <rect x="30" y="30" width="10" height="150" class="image" fill="#33FF57" />
+    <rect x="45" y="30" width="10" height="150" class="image" fill="#3357FF" />
+    <rect x="60" y="30" width="10" height="150" class="image" fill="#FF33A6" />
+    <rect x="75" y="30" width="10" height="150" class="image" fill="#A633FF" />
+    <!-- Paper -->
+    <rect x="120" y="0" width="200" height="200" class="image" />
+    <!-- Drawing -->
+    <circle cx="180" cy="100" r="30" class="image" fill="#FF5733" />
+    <rect x="220" y="70" width="40" height="60" class="image" fill="#33FF57" />
+    <line x1="260" y1="70" x2="260" y2="130" class="image" />
+    <line x1="260" y1="100" x2="300" y2="100" class="image" />
+  </g>
+</svg>

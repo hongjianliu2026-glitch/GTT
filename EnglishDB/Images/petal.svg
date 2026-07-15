@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #795548; }
+      .content { font: 18px sans-serif; fill: #5D4037; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #388E3C; }
+      .image { stroke: #6D4C41; stroke-width: 2; fill: none; }
+      .petal { fill: #FFEB3B; stroke: #F57F17; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">petal</text>
+  <text x="50" y="120" class="subtitle">[ˈpɛtl] n. 花瓣</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pet (追求) + -al (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一朵花的花瓣(petal)，它们像是在"追求(pet)"
+    <tspan x="50" dy="25">阳光和雨露，展现出美丽的姿态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rose's petals were soft and fragrant.
+  </text>
+  <text x="50" y="310" class="content">
+    玫瑰的花瓣柔软而芬芳。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flower -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Petals -->
+    <ellipse cx="50" cy="50" rx="30" ry="50" class="petal" />
+    <ellipse cx="150" cy="50" rx="30" ry="50" class="petal" />
+    <ellipse cx="100" cy="150" rx="50" ry="30" class="petal" />
+    <ellipse cx="50" cy="150" rx="30" ry="50" class="petal" />
+    <ellipse cx="150" cy="150" rx="30" ry="50" class="petal" />
+  </g>
+</svg>

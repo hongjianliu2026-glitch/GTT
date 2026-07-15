@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">clown</text>
+  <text x="50" y="120" class="subtitle">[klaʊn] n. 小丑，丑角</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> clow (滑稽) + n (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小丑在舞台上，"滑稽地表演(clow-n)"
+    <tspan x="50" dy="25">，逗得观众哈哈大笑，这就是小丑(clown)的魅力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The clown's antics made the children laugh.
+  </text>
+  <text x="50" y="310" class="content">
+    小丑的滑稽动作逗得孩子们哈哈大笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="85" r="10" class="image" />
+    <circle cx="120" cy="85" r="10" class="image" />
+    <!-- Nose -->
+    <circle cx="100" cy="110" r="15" class="image" fill="#E74C3C" />
+    <!-- Mouth -->
+    <path d="M 70 130 Q 100 150 130 130" class="image" />
+    <!-- Hat -->
+    <rect x="50" y="30" width="100" height="30" class="image" />
+    <rect x="60" y="10" width="80" height="20" class="image" />
+  </g>
+</svg>

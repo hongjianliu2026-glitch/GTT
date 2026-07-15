@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">prominence</text>
+  <text x="50" y="120" class="subtitle">[ˈprɒmɪnəns] n. 突出，显著，卓越</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pro- (向前) + min (突出) + -ence (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的山峰"向前突出(pro-min)"，
+    <tspan x="50" dy="25">在群山中显得格外显著，这就是它的"突出(prominence)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His prominence in the field of science is undeniable.
+  </text>
+  <text x="50" y="310" class="content">
+    他在科学领域的卓越地位是毋庸置疑的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountain range -->
+    <path d="M0 100 L100 200 L200 150 L300 200 L400 100" class="image" />
+    <!-- Prominent mountain -->
+    <path d="M150 150 L200 50 L250 150" class="image" />
+    <!-- Sun -->
+    <circle cx="350" cy="50" r="30" class="image" />
+    <!-- Sun rays -->
+    <line x1="350" y1="20" x2="350" y2="0" class="image" />
+    <line x1="380" y1="30" x2="400" y2="10" class="image" />
+    <line x1="370" y1="70" x2="400" y2="50" class="image" />
+    <line x1="320" y1="30" x2="300" y2="10" class="image" />
+    <line x1="330" y1="70" x2="300" y2="50" class="image" />
+  </g>
+</svg>

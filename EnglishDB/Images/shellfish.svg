@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shellfish</text>
+  <text x="50" y="120" class="subtitle">[ˈʃɛlˌfɪʃ] n. 贝类，甲壳类动物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shell (壳) + fish (鱼)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只巨大的螃蟹，它的壳(shell)
+    <tspan x="50" dy="25">比房子还大，正在海里游动，这就是shellfish的夸张画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to eat shellfish at the seaside restaurant.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在海边的餐厅吃贝类。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Crab -->
+    <circle cx="100" cy="100" r="50" class="image" /> <!-- Body -->
+    <circle cx="50" cy="70" r="20" class="image" /> <!-- Left claw -->
+    <circle cx="150" cy="70" r="20" class="image" /> <!-- Right claw -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" /> <!-- Tail -->
+    <line x1="80" y1="170" x2="120" y2="170" class="image" /> <!-- Tail -->
+    <line x1="90" y1="185" x2="110" y2="185" class="image" /> <!-- Tail -->
+    <line x1="100" y1="200" x2="100" y2="220" class="image" /> <!-- Tail -->
+    <!-- Shell -->
+    <path d="M100,50 Q150,20 200,50 T250,100" class="image" />
+    <path d="M100,50 Q50,20 0,50 T50,100" class="image" />
+  </g>
+</svg>

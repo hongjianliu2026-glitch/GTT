@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">embed</text>
+  <text x="50" y="120" class="subtitle">[ɪmˈbed] v. 嵌入，植入</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> em- (进入) + bed (床)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个物体被"放入(em-)"一个"床(bed)"中，
+    <tspan x="50" dy="25">就像一颗宝石被嵌入戒指中，这就是嵌入(embed)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The developer embedded a video player in the website.
+  </text>
+  <text x="50" y="310" class="content">
+    开发者将视频播放器嵌入到网站中。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ring -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Gem -->
+    <circle cx="100" cy="100" r="20" class="image" fill="#16A085" />
+    <!-- Arrow -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <polygon points="200,90 210,100 200,110" class="image" />
+    <!-- Text -->
+    <text x="220" y="105" class="content">嵌入</text>
+  </g>
+</svg>

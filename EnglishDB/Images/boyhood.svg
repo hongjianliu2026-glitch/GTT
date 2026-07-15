@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">boyhood</text>
+  <text x="50" y="120" class="subtitle">[ˈbɔɪhʊd] n. 童年，少年时代</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> boy (男孩) + -hood (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小男孩在草地上奔跑，"男孩(boy)"
+    <tspan x="50" dy="25">的状态(hood)就是他的童年(boyhood)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He spent his boyhood in the countryside.
+  </text>
+  <text x="50" y="310" class="content">
+    他在乡下度过了他的童年。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Grass -->
+    <rect x="0" y="150" width="350" height="50" class="image" />
+    <!-- Boy -->
+    <circle cx="100" cy="120" r="20" class="image" />
+    <line x1="100" y1="140" x2="100" y2="180" class="image" />
+    <line x1="100" y1="180" x2="80" y2="210" class="image" />
+    <line x1="100" y1="180" x2="120" y2="210" class="image" />
+    <line x1="100" y1="160" x2="130" y2="150" class="image" />
+    <line x1="100" y1="160" x2="70" y2="150" class="image" />
+    <!-- Running motion -->
+    <line x1="100" y1="120" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="200" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tantamount</text>
+  <text x="50" y="120" class="subtitle">[ˈtæntəmaʊnt] adj. 相当于，等同于</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tanta- (等于) + mount (山)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两座山峰，一座代表"tantamount"，另一座代表"equivalent"，
+    <tspan x="50" dy="25">它们的高度完全相同，象征着两者完全等同。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His refusal was tantamount to a declaration of war.
+  </text>
+  <text x="50" y="310" class="content">
+    他的拒绝相当于宣战。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- First mountain -->
+    <path d="M0 200 L50 100 L100 200 Z" class="image" />
+    <text x="40" y="120" class="content" style="font-size: 12px;">tantamount</text>
+    <!-- Second mountain -->
+    <path d="M150 200 L200 100 L250 200 Z" class="image" />
+    <text x="190" y="120" class="content" style="font-size: 12px;">equivalent</text>
+    <!-- Equal sign -->
+    <line x1="100" y1="220" x2="150" y2="220" class="image" />
+    <line x1="100" y1="230" x2="150" y2="230" class="image" />
+  </g>
+</svg>

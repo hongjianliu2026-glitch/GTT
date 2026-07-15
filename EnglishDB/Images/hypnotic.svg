@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #34495E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hypnotic</text>
+  <text x="50" y="120" class="subtitle">[hɪpˈnɒtɪk] adj. 催眠的，迷人的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hypno- (睡眠) + -tic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个催眠师用"催眠(hypno-)"的力量，
+    <tspan x="50" dy="25">让观众陷入深深的睡眠，这种力量是如此迷人(hypnotic)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The magician's voice was hypnotic, putting everyone in a trance.
+  </text>
+  <text x="50" y="310" class="content">
+    魔术师的声音非常迷人，让每个人都陷入了恍惚状态。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hypnotist -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Watch -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <line x1="100" y1="80" x2="100" y2="120" class="image" />
+    <line x1="80" y1="100" x2="120" y2="100" class="image" />
+    <!-- Zzz -->
+    <text x="150" y="110" class="content" font-size="36">Zzz</text>
+  </g>
+</svg>

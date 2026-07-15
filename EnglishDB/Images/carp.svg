@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">carp</text>
+  <text x="50" y="120" class="subtitle">[kɑːrp] n. 鲤鱼；v. 挑剔，吹毛求疵</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> carp (源自拉丁语 carpa，意为“鲤鱼”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条鲤鱼(carp)在水里游动，突然它开始"挑剔(carp)"
+    <tspan x="50" dy="25">水中的每一片叶子，吹毛求疵地寻找不完美之处。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She always carps about the smallest details.
+  </text>
+  <text x="50" y="310" class="content">
+    她总是对最小的细节吹毛求疵。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fish -->
+    <path d="M50 100 C50 50 150 50 150 100 S250 150 150 200 S50 250 50 200 Z" class="image" />
+    <!-- Water -->
+    <path d="M0 200 Q100 150 200 200 T400 200" class="image" />
+    <!-- Leaf -->
+    <path d="M250 150 Q270 130 290 150 T310 170" class="image" />
+    <!-- Leaf -->
+    <path d="M260 160 Q280 140 300 160 T320 180" class="image" />
+    <!-- Leaf -->
+    <path d="M270 170 Q290 150 310 170 T330 190" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">skull</text>
+  <text x="50" y="120" class="subtitle">[skʌl] n. 头骨，颅骨</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "sculle"，意为“头骨”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个考古学家在挖掘现场，发现了一个完整的头骨(skull)，
+    <tspan x="50" dy="25">这个头骨仿佛在诉说着古老的故事。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The archaeologist found a complete human skull in the excavation.
+  </text>
+  <text x="50" y="310" class="content">
+    考古学家在挖掘现场发现了一个完整的人类头骨。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Skull outline -->
+    <path d="M50 100 C50 50, 150 50, 150 100 S250 150, 150 200 S50 250, 50 200 Z" class="image" />
+    <!-- Eye sockets -->
+    <circle cx="80" cy="120" r="15" class="image" />
+    <circle cx="120" cy="120" r="15" class="image" />
+    <!-- Jawline -->
+    <path d="M50 200 Q100 250, 150 200" class="image" />
+  </g>
+</svg>

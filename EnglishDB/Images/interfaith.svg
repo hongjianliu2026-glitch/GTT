@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interfaith</text>
+  <text x="50" y="120" class="subtitle">[ˈɪntərfeɪθ] adj. 不同信仰间的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + faith (信仰)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的圆桌，"在信仰之间(inter-faith)"
+    <tspan x="50" dy="25">坐着不同宗教的代表，他们和谐地讨论着共同的目标。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The interfaith dialogue aims to promote understanding.
+  </text>
+  <text x="50" y="310" class="content">
+    不同信仰间的对话旨在促进理解。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Table -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- People -->
+    <circle cx="100" cy="50" r="15" class="image" />
+    <circle cx="250" cy="50" r="15" class="image" />
+    <circle cx="175" cy="150" r="15" class="image" />
+    <!-- Symbols -->
+    <text x="90" y="40" class="image" font-size="24">✝</text>
+    <text x="240" y="40" class="image" font-size="24">☪</text>
+    <text x="165" y="140" class="image" font-size="24">卍</text>
+  </g>
+</svg>

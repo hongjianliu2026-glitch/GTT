@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">strum</text>
+  <text x="50" y="120" class="subtitle">[strʌm] v. 弹奏（吉他等）</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> str- (拉) + um (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个吉他手在舞台上，"拉(str-)"动琴弦，
+    <tspan x="50" dy="25">发出动听的声音，这就是弹奏(strum)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He strummed a cheerful tune on his guitar.
+  </text>
+  <text x="50" y="310" class="content">
+    他用吉他弹奏了一首欢快的曲子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Guitar body -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <!-- Guitar neck -->
+    <rect x="50" y="100" width="250" height="100" class="image" />
+    <!-- Strings -->
+    <line x1="70" y1="120" x2="300" y2="120" class="image" />
+    <line x1="70" y1="140" x2="300" y2="140" class="image" />
+    <line x1="70" y1="160" x2="300" y2="160" class="image" />
+    <line x1="70" y1="180" x2="300" y2="180" class="image" />
+    <!-- Guitarist -->
+    <circle cx="20" cy="150" r="15" class="image" />
+    <line x1="20" y1="165" x2="20" y2="200" class="image" />
+    <line x1="20" y1="200" x2="0" y2="230" class="image" />
+    <line x1="20" y1="200" x2="40" y2="230" class="image" />
+    <line x1="20" y1="180" x2="50" y2="170" class="image" />
+  </g>
+</svg>

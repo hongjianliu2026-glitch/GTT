@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .star { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">excellent</text>
+  <text x="50" y="120" class="subtitle">[ˈɛksələnt] adj. 优秀的，杰出的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (出) + cell (高) + -ent (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个站在高处的人，"脱颖而出(ex-cell-ent)"，
+    <tspan x="50" dy="25">成为众人瞩目的焦点，这就是优秀的(excellent)表现。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her performance was excellent in the competition.
+  </text>
+  <text x="50" y="310" class="content">
+    她在比赛中的表现非常出色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person on a pedestal -->
+    <rect x="100" y="0" width="100" height="200" class="image" />
+    <circle cx="150" cy="220" r="30" class="image" />
+    <line x1="150" y1="250" x2="150" y2="300" class="image" />
+    <line x1="150" y1="300" x2="120" y2="350" class="image" />
+    <line x1="150" y1="300" x2="180" y2="350" class="image" />
+    <line x1="150" y1="270" x2="100" y2="260" class="image" />
+    <line x1="150" y1="270" x2="200" y2="260" class="image" />
+
+    <!-- Stars -->
+    <polygon points="250,10 260,30 280,30 265,45 270,65 250,55 230,65 235,45 220,30 240,30" class="star" />
+    <polygon points="300,10 310,30 330,30 315,45 320,65 300,55 280,65 285,45 270,30 290,30" class="star" />
+    <polygon points="350,10 360,30 380,30 365,45 370,65 350,55 330,65 335,45 320,30 340,30" class="star" />
+  </g>
+</svg>

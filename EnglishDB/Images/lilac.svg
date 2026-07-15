@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E6FF; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flower { fill: #C8A2C8; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lilac</text>
+  <text x="50" y="120" class="subtitle">[ˈlaɪlək] n. 丁香花，淡紫色</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> lilac (源自波斯语，意为“丁香花”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片淡紫色的丁香花丛，"lilac"
+    <tspan x="50" dy="25">花瓣在微风中轻轻摇曳，散发出淡淡的香气。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The garden was filled with blooming lilacs.
+  </text>
+  <text x="50" y="310" class="content">
+    花园里开满了盛开的丁香花。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lilac flower -->
+    <circle cx="50" cy="50" r="30" class="flower" />
+    <circle cx="80" cy="50" r="30" class="flower" />
+    <circle cx="110" cy="50" r="30" class="flower" />
+    <circle cx="65" cy="70" r="30" class="flower" />
+    <circle cx="95" cy="70" r="30" class="flower" />
+    <!-- Stem -->
+    <line x1="80" y1="100" x2="80" y2="150" class="image" />
+    <!-- Leaves -->
+    <path d="M70,150 Q50,130 70,110" class="image" />
+    <path d="M90,150 Q110,130 90,110" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .stripe { fill: #000; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">zebra</text>
+  <text x="50" y="120" class="subtitle">[ˈzibrə] n. 斑马</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自非洲土著语言，意为“条纹”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片非洲草原上，一只斑马(zebra)
+    <tspan x="50" dy="25">身上黑白相间的条纹，就像是大自然的画笔</tspan>
+    <tspan x="50" dy="25">在它身上随意涂抹，形成了独特的图案。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The zebra's stripes help it blend into the savannah.
+  </text>
+  <text x="50" y="310" class="content">
+    斑马的条纹帮助它融入草原。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Zebra body -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Zebra stripes -->
+    <rect x="50" y="20" width="20" height="160" class="stripe" />
+    <rect x="90" y="20" width="20" height="160" class="stripe" />
+    <rect x="130" y="20" width="20" height="160" class="stripe" />
+    <rect x="170" y="20" width="20" height="160" class="stripe" />
+    <rect x="210" y="20" width="20" height="160" class="stripe" />
+    <rect x="250" y="20" width="20" height="160" class="stripe" />
+    <rect x="290" y="20" width="20" height="160" class="stripe" />
+    <rect x="330" y="20" width="20" height="160" class="stripe" />
+    <!-- Zebra head -->
+    <circle cx="30" cy="100" r="30" class="image" />
+    <!-- Zebra legs -->
+    <line x1="50" y1="200" x2="50" y2="250" class="image" />
+    <line x1="100" y1="200" x2="100" y2="250" class="image" />
+    <line x1="250" y1="200" x2="250" y2="250" class="image" />
+    <line x1="300" y1="200" x2="300" y2="250" class="image" />
+  </g>
+</svg>

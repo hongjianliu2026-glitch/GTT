@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">canine</text>
+  <text x="50" y="120" class="subtitle">[ˈkeɪnaɪn] adj. 犬的，犬科的；n. 犬齿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> can (犬) + -ine (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小狗(can)，它的牙齿(ine)锋利无比，
+    <tspan x="50" dy="25">就像一把小刀，这就是犬齿(canine)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The canine teeth are used for tearing meat.
+  </text>
+  <text x="50" y="310" class="content">
+    犬齿用于撕裂肉。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dog head -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Eyes -->
+    <circle cx="70" cy="80" r="10" class="image" />
+    <circle cx="130" cy="80" r="10" class="image" />
+    <!-- Nose -->
+    <circle cx="100" cy="120" r="15" class="image" />
+    <!-- Mouth -->
+    <path d="M 50 150 Q 100 200 150 150" class="image" />
+    <!-- Teeth -->
+    <line x1="80" y1="150" x2="80" y2="170" class="image" />
+    <line x1="120" y1="150" x2="120" y2="170" class="image" />
+  </g>
+</svg>

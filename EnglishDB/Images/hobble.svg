@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hobble</text>
+  <text x="50" y="120" class="subtitle">[ˈhɑːbl] v. 蹒跚，跛行</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hob (脚) + -le (反复动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人脚受伤了，"反复跛行(hob-le)"，
+    <tspan x="50" dy="25">每一步都显得艰难，这就是hobble的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old man hobbled down the street with a cane.
+  </text>
+  <text x="50" y="310" class="content">
+    那位老人拄着拐杖蹒跚地走在街上。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Leg with injury -->
+    <line x1="50" y1="20" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="30" y2="200" class="image" />
+    <line x1="50" y1="150" x2="70" y2="200" class="image" />
+    <circle cx="50" cy="10" r="10" class="image" />
+    <!-- Cane -->
+    <line x1="100" y1="20" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="200" class="image" />
+    <line x1="100" y1="150" x2="120" y2="200" class="image" />
+    <circle cx="100" cy="10" r="10" class="image" />
+    <!-- Person hobbling -->
+    <circle cx="75" cy="220" r="20" class="image" />
+    <line x1="75" y1="240" x2="75" y2="280" class="image" />
+    <line x1="75" y1="280" x2="55" y2="320" class="image" />
+    <line x1="75" y1="280" x2="95" y2="320" class="image" />
+    <line x1="75" y1="260" x2="105" y2="250" class="image" />
+  </g>
+</svg>

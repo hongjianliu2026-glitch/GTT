@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">slipper</text>
+  <text x="50" y="120" class="subtitle">[ˈslɪpər] n. 拖鞋</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> slip (滑) + -er (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个懒洋洋的下午，你穿着"滑(slip)"进"拖鞋(slipper)"，
+    <tspan x="50" dy="25">舒适地在家中漫步，享受着轻松的时光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She kicked off her shoes and slipped into her slippers.
+  </text>
+  <text x="50" y="310" class="content">
+    她踢掉鞋子，滑进了她的拖鞋。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Slipper -->
+    <rect x="0" y="0" width="150" height="50" class="image" />
+    <rect x="10" y="10" width="130" height="30" class="image" />
+    <!-- Foot -->
+    <circle cx="75" cy="70" r="20" class="image" />
+    <line x1="75" y1="90" x2="75" y2="120" class="image" />
+    <line x1="75" y1="120" x2="55" y2="140" class="image" />
+    <line x1="75" y1="120" x2="95" y2="140" class="image" />
+    <line x1="75" y1="100" x2="100" y2="90" class="image" />
+  </g>
+</svg>

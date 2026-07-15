@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">timer</text>
+  <text x="50" y="120" class="subtitle">[ˈtaɪmər] n. 计时器</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> time (时间) + -er (表示工具)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的时钟，"时间(time)"在滴答作响，
+    <tspan x="50" dy="25">旁边有一个小人拿着一个计时器(timer)，</tspan>
+    <tspan x="50" dy="25">正在精确地测量每一秒钟。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She set the timer for 30 minutes.
+  </text>
+  <text x="50" y="310" class="content">
+    她把计时器设为30分钟。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Clock face -->
+    <circle cx="150" cy="150" r="100" class="image" />
+    <!-- Clock hands -->
+    <line x1="150" y1="150" x2="150" y2="50" class="image" />
+    <line x1="150" y1="150" x2="200" y2="150" class="image" />
+    <!-- Timer -->
+    <rect x="250" y="100" width="100" height="100" class="image" />
+    <!-- Timer display -->
+    <text x="275" y="150" class="content" text-anchor="middle" dominant-baseline="middle">00:30</text>
+    <!-- Person holding timer -->
+    <circle cx="300" cy="250" r="20" class="image" />
+    <line x1="300" y1="270" x2="300" y2="320" class="image" />
+    <line x1="300" y1="320" x2="280" y2="350" class="image" />
+    <line x1="300" y1="320" x2="320" y2="350" class="image" />
+    <line x1="300" y1="290" x2="350" y2="280" class="image" />
+  </g>
+</svg>

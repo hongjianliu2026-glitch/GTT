@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nonsense</text>
+  <text x="50" y="120" class="subtitle">[ˈnɑːnsens] n. 胡说，废话</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> non- (不) + sense (意义)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在说一堆"没有意义(non-sense)"的话，
+    <tspan x="50" dy="25">这些话完全是无稽之谈，就是废话(nonsense)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Don't talk nonsense; we need a serious solution.
+  </text>
+  <text x="50" y="310" class="content">
+    别胡说八道，我们需要一个严肃的解决方案。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 80 30 Q 150 30 150 80 Q 150 130 80 130 Q 50 130 50 100 Z" class="image" />
+    <!-- Nonsense text -->
+    <text x="90" y="70" class="content" fill="#A93226">Nonsense</text>
+    <!-- Person -->
+    <circle cx="50" cy="50" r="15" class="image" />
+    <line x1="50" y1="70" x2="50" y2="120" class="image" />
+    <line x1="50" y1="90" x2="30" y2="80" class="image" />
+    <line x1="50" y1="90" x2="70" y2="80" class="image" />
+    <line x1="50" y1="120" x2="30" y2="140" class="image" />
+    <line x1="50" y1="120" x2="70" y2="140" class="image" />
+  </g>
+</svg>

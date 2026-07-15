@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ballgame</text>
+  <text x="50" y="120" class="subtitle">[ˈbɔːlɡeɪm] n. 球类运动，比赛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ball (球) + game (游戏)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场激烈的球类比赛，"球(ball)"在场上飞来飞去，
+    <tspan x="50" dy="25">球员们奋力拼搏，这就是一场"游戏(game)"，即球类比赛(ballgame)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ballgame was intense, with both teams scoring in the last minute.
+  </text>
+  <text x="50" y="310" class="content">
+    比赛非常激烈，两队在最后一分钟都得分了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ball -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Players -->
+    <circle cx="150" cy="100" r="15" class="image" />
+    <line x1="150" y1="115" x2="150" y2="150" class="image" />
+    <line x1="150" y1="150" x2="130" y2="180" class="image" />
+    <line x1="150" y1="150" x2="170" y2="180" class="image" />
+    <line x1="150" y1="130" x2="180" y2="120" class="image" />
+    <circle cx="250" cy="100" r="15" class="image" />
+    <line x1="250" y1="115" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="230" y2="180" class="image" />
+    <line x1="250" y1="150" x2="270" y2="180" class="image" />
+    <line x1="250" y1="130" x2="280" y2="120" class="image" />
+    <!-- Field -->
+    <rect x="0" y="180" width="350" height="50" class="image" />
+  </g>
+</svg>

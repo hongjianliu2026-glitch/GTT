@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sectarian</text>
+  <text x="50" y="120" class="subtitle">[sɛkˈtɛəriən] adj. 宗派的，教派的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sect (部分) + -arian (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个固执的"部分(sect)"信徒，他只相信自己教派的教义，
+    <tspan x="50" dy="25">对其他教派持有偏见，这就是宗派的(sectarian)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The conflict was fueled by sectarian tensions.
+  </text>
+  <text x="50" y="310" class="content">
+    冲突因宗派紧张局势而加剧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sect symbol -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="70" x2="50" y2="130" class="image" />
+    <line x1="35" y1="100" x2="65" y2="100" class="image" />
+    <!-- Divider -->
+    <line x1="100" y1="80" x2="100" y2="120" class="image" />
+    <!-- Another sect symbol -->
+    <circle cx="150" cy="100" r="30" class="image" />
+    <line x1="150" y1="70" x2="150" y2="130" class="image" />
+    <line x1="135" y1="100" x2="165" y2="100" class="image" />
+    <!-- Person with blindfold -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+    <line x1="190" y1="90" x2="210" y2="90" class="image" />
+  </g>
+</svg>

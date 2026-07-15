@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gum</text>
+  <text x="50" y="120" class="subtitle">[ɡʌm] n. 口香糖，树胶</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gum (源自中古英语gome，意为“树胶”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩在嚼着一块巨大的口香糖，这块口香糖像树胶一样粘稠，
+    <tspan x="50" dy="25">甚至可以拉出一条长长的丝，这就是“gum”的生动画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves to chew gum while studying.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在学习时嚼口香糖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Chewing gum -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <line x1="100" y1="150" x2="250" y2="250" stroke="#F1C40F" stroke-width="10" />
+    <!-- Child -->
+    <circle cx="50" cy="100" r="20" fill="#2C3E50" />
+    <line x1="50" y1="120" x2="50" y2="160" stroke="#2C3E50" stroke-width="5" />
+    <line x1="50" y1="160" x2="30" y2="190" stroke="#2C3E50" stroke-width="5" />
+    <line x1="50" y1="160" x2="70" y2="190" stroke="#2C3E50" stroke-width="5" />
+    <line x1="50" y1="140" x2="80" y2="130" stroke="#2C3E50" stroke-width="5" />
+  </g>
+</svg>

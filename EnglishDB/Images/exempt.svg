@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">exempt</text>
+  <text x="50" y="120" class="subtitle">[ɪɡˈzempt] adj. 被免除的，豁免的；v. 免除，豁免</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (出) + empt (拿)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人拿着一张"豁免卡(ex-empt)"，
+    <tspan x="50" dy="25">这张卡让他从某种责任或义务中"拿出(empt)"，</tspan>
+    <tspan x="50" dy="25">从而被"免除(exempt)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He was exempt from military service due to his health condition.
+  </text>
+  <text x="50" y="310" class="content">
+    由于健康状况，他被免除了兵役。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Exempt card -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <text x="20" y="40" class="content" fill="#2C3E50">Exempt</text>
+    <text x="20" y="70" class="content" fill="#2C3E50">Card</text>
+    <!-- Person holding the card -->
+    <circle cx="250" cy="75" r="20" class="image" />
+    <line x1="250" y1="95" x2="250" y2="150" class="image" />
+    <line x1="250" y1="120" x2="220" y2="100" class="image" />
+    <line x1="250" y1="120" x2="280" y2="100" class="image" />
+    <line x1="250" y1="150" x2="220" y2="180" class="image" />
+    <line x1="250" y1="150" x2="280" y2="180" class="image" />
+    <line x1="250" y1="120" x2="200" y2="10" class="image" />
+  </g>
+</svg>

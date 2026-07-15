@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">evocative</text>
+  <text x="50" y="120" class="subtitle">[ɪˈvɒkətɪv] adj. 唤起的，引起回忆的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> e- (出) + voc (声音) + -ative (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个老唱片机，"发出(e-voc)"
+    <tspan x="50" dy="25">悠扬的音乐，唤起(evocative)了人们对往昔的回忆。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old photograph was evocative of our childhood memories.
+  </text>
+  <text x="50" y="310" class="content">
+    这张老照片唤起了我们对童年的回忆。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Old record player -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="60" class="image" />
+    <line x1="175" y1="40" x2="175" y2="160" class="image" />
+    <line x1="115" y1="100" x2="235" y2="100" class="image" />
+    <!-- Sound waves -->
+    <path d="M175,40 Q150,20 125,40 T75,40" class="image" />
+    <path d="M175,60 Q150,80 125,60 T75,60" class="image" />
+    <path d="M175,80 Q150,100 125,80 T75,80" class="image" />
+    <!-- Memories -->
+    <circle cx="50" cy="150" r="10" class="image" />
+    <circle cx="80" cy="150" r="10" class="image" />
+    <circle cx="110" cy="150" r="10" class="image" />
+    <circle cx="140" cy="150" r="10" class="image" />
+    <circle cx="170" cy="150" r="10" class="image" />
+    <circle cx="200" cy="150" r="10" class="image" />
+    <circle cx="230" cy="150" r="10" class="image" />
+    <circle cx="260" cy="150" r="10" class="image" />
+    <circle cx="290" cy="150" r="10" class="image" />
+  </g>
+</svg>

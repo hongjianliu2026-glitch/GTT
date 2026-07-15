@@ -1,0 +1,65 @@
+---
+id: 016918
+word: he/she
+lemma: he/she
+pos: pron.
+uk: "hiː, ʃiː"
+us: "hiː, ʃiː"
+source: COCA2w
+---
+
+## he/she
+
+**英音:** _[hiː, ʃiː]_ **美音:** _[hiː, ʃiː]_
+
+**译义:** *pron. 他/她（用于指代男性或女性）*
+
+### 短语
+
++ **he/she is:** _他/她是_
+
++ **he/she has:** _他/她有_
+
++ **he/she can:** _他/她能_
+
++ **he/she likes:** _他/她喜欢_
+
++ **he/she does:** _他/她做_
+
+### 例句
+
+#### 例句1
+
+> **He is a doctor.**
+
+**中文翻译:** 他是一名医生。
+
+**单词释义:** 他
+
+#### 例句2
+
+> **She loves reading books.**
+
+**中文翻译:** 她喜欢读书。
+
+**单词释义:** 她
+
+#### 例句3
+
+> **He plays football every weekend.**
+
+**中文翻译:** 他每个周末踢足球。
+
+**单词释义:** 他
+
+### 背诵小故事
+
+> One day, a little boy and a little girl were playing in the park. The
+boy was called \'he\' and the girl was called\'she\'. They had a great
+time together. \'He\' ran fast and\'she\' laughed happily.
+
+**一天，一个小男孩和一个小女孩在公园里玩耍。男孩被称为'他（he）'，女孩被称为'她（she）'。他们一起玩得很开心。'他（he）'跑得很快，'她（she）'开心地笑。**
+
+### 图义
+
+![[Images/he_she.png]]

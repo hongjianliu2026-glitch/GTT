@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">invoice</text>
+  <text x="50" y="120" class="subtitle">[ˈɪnvɔɪs] n. 发票，发货单</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (进入) + voice (声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个商人对着一张纸大声喊出"进入(in)声音(voice)"，
+    <tspan x="50" dy="25">这张纸上记录了所有商品和价格，这就是发票(invoice)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Please send me the invoice for the goods I purchased.
+  </text>
+  <text x="50" y="310" class="content">
+    请把购买商品的发票寄给我。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Text on paper -->
+    <text x="50" y="50" class="content">Item: Product A</text>
+    <text x="50" y="80" class="content">Price: $100</text>
+    <text x="50" y="110" class="content">Quantity: 2</text>
+    <text x="50" y="140" class="content">Total: $200</text>
+    <!-- Voice bubble -->
+    <path d="M 250 100 Q 300 50 350 100" class="image" />
+    <text x="260" y="90" class="content">"INVOICE"</text>
+  </g>
+</svg>

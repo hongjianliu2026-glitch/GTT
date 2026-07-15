@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #7B241C; }
+      .subtitle { font: italic 24px serif; fill: #512E5F; }
+      .content { font: 18px sans-serif; fill: #4A235A; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">poor</text>
+  <text x="50" y="120" class="subtitle">[pʊr] adj. 贫穷的，可怜的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> por- (来自拉丁语 "porus"，意为"洞，孔")
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个贫穷的人，他的口袋里有一个大洞，"孔(por)"
+    <tspan x="50" dy="25">里的钱都漏光了，这就是"贫穷(poor)"的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The poor man had nothing to eat.
+  </text>
+  <text x="50" y="310" class="content">
+    那个可怜的人没有东西吃。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="20" y2="220" class="image" />
+    <line x1="50" y1="180" x2="80" y2="220" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Pocket with hole -->
+    <rect x="30" y="180" width="40" height="20" class="image" />
+    <circle cx="50" cy="190" r="10" class="image" />
+  </g>
+</svg>

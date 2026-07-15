@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flame { fill: #FF6347; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">heat</text>
+  <text x="50" y="120" class="subtitle">[hiːt] n. 热，热度；v. 加热</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hea- (热) + t (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个炎热的夏天，太阳"发出热量(hea-t)"，
+    <tspan x="50" dy="25">地面都被烤得滚烫，人们纷纷寻找阴凉处避暑。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The heat from the stove warmed the room quickly.
+  </text>
+  <text x="50" y="310" class="content">
+    炉子的热量很快温暖了房间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="flame" />
+    <!-- Ground -->
+    <rect x="0" y="150" width="200" height="50" class="image" />
+    <!-- Person seeking shade -->
+    <circle cx="150" cy="180" r="15" class="image" />
+    <line x1="150" y1="195" x2="150" y2="230" class="image" />
+    <line x1="150" y1="230" x2="130" y2="260" class="image" />
+    <line x1="150" y1="230" x2="170" y2="260" class="image" />
+    <line x1="150" y1="210" x2="120" y2="200" class="image" />
+    <line x1="150" y1="210" x2="180" y2="200" class="image" />
+  </g>
+</svg>

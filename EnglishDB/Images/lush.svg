@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #FF6347; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .leaf { fill: #2ECC71; }
+      .grass { fill: #27AE60; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lush</text>
+  <text x="50" y="120" class="subtitle">[lʌʃ] adj. 茂盛的，丰富的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "lush"，意为“茂盛的”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片茂盛的草地，"茂盛(lush)"
+    <tspan x="50" dy="25">的草丛中长满了各种植物，仿佛大自然在狂欢。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The garden was lush with colorful flowers.
+  </text>
+  <text x="50" y="310" class="content">
+    花园里开满了五彩缤纷的花朵，非常茂盛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Grass -->
+    <rect x="0" y="0" width="350" height="200" class="grass" />
+    <!-- Leaves -->
+    <circle cx="50" cy="100" r="30" class="leaf" />
+    <circle cx="120" cy="80" r="35" class="leaf" />
+    <circle cx="200" cy="120" r="40" class="leaf" />
+    <circle cx="280" cy="90" r="30" class="leaf" />
+    <!-- Flowers -->
+    <circle cx="80" cy="150" r="10" class="leaf" />
+    <circle cx="160" cy="140" r="15" class="leaf" />
+    <circle cx="240" cy="160" r="10" class="leaf" />
+  </g>
+</svg>

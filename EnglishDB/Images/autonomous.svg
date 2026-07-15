@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">autonomous</text>
+  <text x="50" y="120" class="subtitle">[ɔːˈtɒnəməs] adj. 自治的，自主的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> auto- (自己) + nom (法律) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个机器人，"自己制定法律(auto-nom)"，
+    <tspan x="50" dy="25">完全自主地行动，不受外界控制。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The autonomous vehicle navigated the city streets flawlessly.
+  </text>
+  <text x="50" y="310" class="content">
+    这辆自动驾驶汽车完美地穿行于城市街道。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Robot -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="20" y2="200" class="image" />
+    <line x1="50" y1="150" x2="80" y2="200" class="image" />
+    <line x1="50" y1="100" x2="20" y2="120" class="image" />
+    <line x1="50" y1="100" x2="80" y2="120" class="image" />
+    <!-- Law book -->
+    <rect x="120" y="30" width="60" height="80" class="image" />
+    <line x1="120" y1="30" x2="180" y2="30" class="image" />
+    <line x1="120" y1="70" x2="180" y2="70" class="image" />
+    <line x1="120" y1="110" x2="180" y2="110" class="image" />
+  </g>
+</svg>

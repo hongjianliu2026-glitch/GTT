@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">anomaly</text>
+  <text x="50" y="120" class="subtitle">[əˈnɒməli] n. 异常，反常</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> an- (不) + -omaly (规则)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个正常的队伍中，突然出现了一个"不规则(an-omaly)"
+    <tspan x="50" dy="25">的生物，它打破了队伍的秩序，这就是异常(anomaly)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The weather anomaly caused widespread disruption.
+  </text>
+  <text x="50" y="310" class="content">
+    天气异常导致了广泛的混乱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Normal line -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="0" y1="20" x2="350" y2="20" class="image" />
+    <line x1="0" y1="40" x2="350" y2="40" class="image" />
+    <!-- Anomaly -->
+    <circle cx="175" cy="60" r="20" class="image" />
+    <line x1="175" y1="80" x2="175" y2="120" class="image" />
+    <line x1="175" y1="120" x2="155" y2="150" class="image" />
+    <line x1="175" y1="120" x2="195" y2="150" class="image" />
+    <line x1="175" y1="100" x2="215" y2="90" class="image" />
+  </g>
+</svg>

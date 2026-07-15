@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flap</text>
+  <text x="50" y="120" class="subtitle">[flæp] n. 拍打，拍打声；v. 拍打，飘动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fl- (飞) + -ap (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只鸟在空中"飞翔(fl-)"，翅膀"拍打(ap)"
+    <tspan x="50" dy="25">空气，发出"啪啪"的声音，这就是flap。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bird flapped its wings to take off.
+  </text>
+  <text x="50" y="310" class="content">
+    鸟儿拍打翅膀起飞。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bird -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Wings -->
+    <line x1="50" y1="100" x2="0" y2="50" class="image" />
+    <line x1="50" y1="100" x2="100" y2="50" class="image" />
+    <!-- Flapping motion -->
+    <line x1="50" y1="100" x2="20" y2="150" class="image" />
+    <line x1="50" y1="100" x2="80" y2="150" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .leaf { fill: #27AE60; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">maple</text>
+  <text x="50" y="120" class="subtitle">[ˈmeɪpl] n. 枫树</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 mapel，可能来自古法语 mapel，意为“枫树”。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片枫树林，秋天的枫叶像火焰一样红，
+    <tspan x="50" dy="25">每一片叶子都在风中轻轻摇曳，仿佛在诉说着秋天的故事。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The maple leaves turned red in the fall.
+  </text>
+  <text x="50" y="310" class="content">
+    枫叶在秋天变成了红色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree trunk -->
+    <rect x="150" y="0" width="20" height="200" class="image" />
+    <!-- Branches -->
+    <line x1="160" y1="50" x2="100" y2="100" class="image" />
+    <line x1="160" y1="50" x2="220" y2="100" class="image" />
+    <line x1="160" y1="100" x2="100" y2="150" class="image" />
+    <line x1="160" y1="100" x2="220" y2="150" class="image" />
+    <!-- Leaves -->
+    <polygon points="100,100 80,120 120,120" class="leaf" />
+    <polygon points="220,100 200,120 240,120" class="leaf" />
+    <polygon points="100,150 80,170 120,170" class="leaf" />
+    <polygon points="220,150 200,170 240,170" class="leaf" />
+  </g>
+</svg>

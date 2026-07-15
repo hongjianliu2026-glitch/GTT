@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">liberal</text>
+  <text x="50" y="120" class="subtitle">[ˈlɪbərəl] adj. 自由的，开明的；n. 自由主义者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> liber (自由) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个自由的灵魂，"自由(liber)"地飞翔，
+    <tspan x="50" dy="25">不受任何束缚，这就是"liberal"的含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has a liberal attitude towards different cultures.
+  </text>
+  <text x="50" y="310" class="content">
+    她对不同的文化持开明的态度。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bird flying -->
+    <path d="M0 100 Q 50 50 100 100 T 200 100" class="image" />
+    <circle cx="20" cy="100" r="10" class="image" />
+    <circle cx="100" cy="100" r="10" class="image" />
+    <circle cx="180" cy="100" r="10" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <!-- Clouds -->
+    <ellipse cx="250" cy="80" rx="40" ry="20" class="image" />
+    <ellipse cx="350" cy="70" rx="50" ry="25" class="image" />
+  </g>
+</svg>

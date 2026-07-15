@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">detach</text>
+  <text x="50" y="120" class="subtitle">[dɪˈtætʃ] v. 分离，拆卸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (离开) + tach (连接)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个机械师正在"离开(de-)"一个"连接(tach)"的部件，
+    <tspan x="50" dy="25">他轻轻一拉，部件就从整体中分离(detach)出来了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He detached the broken gear from the machine.
+  </text>
+  <text x="50" y="310" class="content">
+    他把坏掉的齿轮从机器上拆了下来。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Machine -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Gear -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Detached gear -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <!-- Hand pulling the gear -->
+    <line x1="130" y1="100" x2="220" y2="100" class="image" />
+    <circle cx="130" cy="100" r="10" class="image" />
+  </g>
+</svg>

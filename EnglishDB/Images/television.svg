@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">television</text>
+  <text x="50" y="120" class="subtitle">[ˈtelɪvɪʒən] n. 电视</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tele- (远) + vis (看) + ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的眼睛(vis)，通过一根长长的电线(tele)，
+    <tspan x="50" dy="25">将远处的画面传输到你的眼前，这就是电视(television)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We watched a movie on television last night.
+  </text>
+  <text x="50" y="310" class="content">
+    昨晚我们在电视上看了一部电影。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eye -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" fill="#7F8C8D" />
+    <!-- Wire -->
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <!-- Television -->
+    <rect x="50" y="250" width="100" height="50" class="image" />
+    <rect x="60" y="260" width="80" height="30" class="image" fill="#7F8C8D" />
+  </g>
+</svg>

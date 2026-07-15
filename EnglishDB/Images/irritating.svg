@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">irritating</text>
+  <text x="50" y="120" class="subtitle">[ˈɪrɪteɪtɪŋ] adj. 令人恼火的，刺激的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ir- (进入) + rit (擦) + -ate (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个恼火的人，"擦(rit)"
+    <tspan x="50" dy="25">进(ir-)了你的神经，让你感到烦躁(irritating)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The constant noise was irritating me.
+  </text>
+  <text x="50" y="310" class="content">
+    持续的噪音让我感到恼火。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Irritated face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="80" cy="80" r="10" class="image" />
+    <circle cx="120" cy="80" r="10" class="image" />
+    <line x1="80" y1="120" x2="120" y2="120" class="image" />
+    <!-- Irritating noise -->
+    <line x1="150" y1="50" x2="170" y2="70" class="image" />
+    <line x1="170" y1="70" x2="150" y2="90" class="image" />
+    <line x1="150" y1="90" x2="170" y2="110" class="image" />
+    <line x1="170" y1="110" x2="150" y2="130" class="image" />
+  </g>
+</svg>

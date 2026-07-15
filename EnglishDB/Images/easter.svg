@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FF6F00; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Easter</text>
+  <text x="50" y="120" class="subtitle">[ˈiːstər] n. 复活节</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Eas- (东方) + ter (节日)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满彩蛋和兔子的节日，"东方(Eas-)"
+    <tspan x="50" dy="25">的节日(ter)，象征着新生和希望，这就是复活节(Easter)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We celebrate Easter with egg hunts and church services.
+  </text>
+  <text x="50" y="310" class="content">
+    我们通过寻找彩蛋和教堂服务来庆祝复活节。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Easter egg -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#FFD700" />
+    <circle cx="150" cy="50" r="30" class="image" fill="#FF6347" />
+    <circle cx="250" cy="50" r="30" class="image" fill="#32CD32" />
+    <!-- Easter bunny -->
+    <circle cx="150" cy="150" r="40" class="image" fill="#FFFFFF" />
+    <line x1="150" y1="190" x2="150" y2="250" class="image" />
+    <line x1="150" y1="220" x2="110" y2="200" class="image" />
+    <line x1="150" y1="220" x2="190" y2="200" class="image" />
+    <line x1="150" y1="250" x2="110" y2="280" class="image" />
+    <line x1="150" y1="250" x2="190" y2="280" class="image" />
+  </g>
+</svg>

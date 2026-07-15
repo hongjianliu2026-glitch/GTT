@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">overthrow</text>
+  <text x="50" y="120" class="subtitle">[ˌoʊvərˈθroʊ] v. 推翻，打倒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> over- (在上面) + throw (扔)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨人站在高处，"从上面扔下(over-throw)"
+    <tspan x="50" dy="25">一块巨大的石头，将下面的建筑物彻底摧毁。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The rebels attempted to overthrow the government.
+  </text>
+  <text x="50" y="310" class="content">
+    叛乱者试图推翻政府。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Giant -->
+    <circle cx="20" cy="100" r="30" class="image" />
+    <line x1="20" y1="130" x2="20" y2="200" class="image" />
+    <line x1="20" y1="200" x2="0" y2="230" class="image" />
+    <line x1="20" y1="200" x2="40" y2="230" class="image" />
+    <line x1="20" y1="160" x2="50" y2="150" class="image" />
+    <!-- Stone -->
+    <rect x="50" y="50" width="60" height="40" class="image" />
+    <!-- Building -->
+    <rect x="150" y="100" width="80" height="100" class="image" />
+    <line x1="150" y1="100" x2="230" y2="100" class="image" />
+    <line x1="150" y1="150" x2="230" y2="150" class="image" />
+    <line x1="150" y1="200" x2="230" y2="200" class="image" />
+    <!-- Stone falling -->
+    <line x1="80" y1="90" x2="190" y2="190" class="image" />
+  </g>
+</svg>

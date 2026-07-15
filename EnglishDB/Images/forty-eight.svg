@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">forty-eight</text>
+  <text x="50" y="120" class="subtitle">[ˈfɔrti eɪt] n. 四十八</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> forty (四十) + eight (八)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的时钟，上面有48个刻度，每个刻度代表一个小时。
+    <tspan x="50" dy="25">这个时钟的指针指向第48个刻度，象征着"四十八(forty-eight)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> There are forty-eight hours in two days.
+  </text>
+  <text x="50" y="310" class="content">
+    两天有四十八个小时。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock face -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Hour marks -->
+    <line x1="175" y1="20" x2="175" y2="30" class="image" />
+    <line x1="235" y1="60" x2="225" y2="70" class="image" />
+    <line x1="255" y1="120" x2="245" y2="110" class="image" />
+    <line x1="235" y1="180" x2="225" y2="170" class="image" />
+    <line x1="175" y1="220" x2="175" y2="210" class="image" />
+    <line x1="115" y1="180" x2="125" y2="170" class="image" />
+    <line x1="95" y1="120" x2="105" y2="110" class="image" />
+    <line x1="115" y1="60" x2="125" y2="70" class="image" />
+    <!-- Hour hand -->
+    <line x1="175" y1="100" x2="255" y2="100" class="image" />
+    <!-- Minute hand -->
+    <line x1="175" y1="100" x2="175" y2="20" class="image" />
+  </g>
+</svg>

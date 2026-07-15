@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">understandably</text>
+  <text x="50" y="120" class="subtitle">[ˌʌndərˈstændəbli] adv. 可以理解地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> under- (在...之下) + stand (站立) + -able (能够) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在理解(stand)的下方(under)，
+    <tspan x="50" dy="25">表示他能够理解(understandable)，并且这种理解是可以被接受的(understandably)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Understandably, she was upset after hearing the news.
+  </text>
+  <text x="50" y="310" class="content">
+    可以理解的是，她在听到这个消息后感到很沮丧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person standing under a thought bubble -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <line x1="100" y1="180" x2="150" y2="170" class="image" />
+    <line x1="100" y1="180" x2="50" y2="170" class="image" />
+    <!-- Thought bubble -->
+    <path d="M100,50 Q150,20 200,50 Q250,80 200,110 Q150,140 100,110 Q50,80 100,50" class="image" />
+    <!-- Underline -->
+    <line x1="50" y1="320" x2="150" y2="320" class="image" />
+  </g>
+</svg>

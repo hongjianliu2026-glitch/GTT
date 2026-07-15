@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">eel</text>
+  <text x="50" y="120" class="subtitle">[iːl] n. 鳗鱼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> eel (源自中古英语 "eol"，意为鳗鱼)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条滑溜溜的鳗鱼在水中游动，它的身体像蛇一样弯曲，
+    <tspan x="50" dy="25">灵活地在水中穿梭，这就是鳗鱼(eel)的生动画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The eel slipped through the fisherman's fingers.
+  </text>
+  <text x="50" y="310" class="content">
+    鳗鱼从渔夫的手指间滑走了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Water -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#A9CCE3" />
+    <!-- Eel -->
+    <path d="M50,100 C60,70 100,70 110,100 C120,130 160,130 170,100 C180,70 220,70 230,100" class="image" fill="#7D3C98" />
+    <!-- Bubbles -->
+    <circle cx="70" cy="150" r="10" class="image" fill="#E5E7E9" />
+    <circle cx="130" cy="160" r="12" class="image" fill="#E5E7E9" />
+    <circle cx="190" cy="140" r="8" class="image" fill="#E5E7E9" />
+  </g>
+</svg>

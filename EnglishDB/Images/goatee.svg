@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">goatee</text>
+  <text x="50" y="120" class="subtitle">[ɡoʊˈti] n. 山羊胡子</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> goat (山羊) + -ee (表示“小”或“类似”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只山羊(goat)在镜子前，"模仿(ee)"
+    <tspan x="50" dy="25">人类的样子，下巴上长出了小胡子，这就是山羊胡子(goatee)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He decided to grow a goatee to look more mature.
+  </text>
+  <text x="50" y="310" class="content">
+    他决定留山羊胡子，让自己看起来更成熟。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Goat head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Goat horns -->
+    <path d="M 70 50 Q 50 20 70 0 L 130 0 Q 150 20 130 50 Z" class="image" />
+    <!-- Goat beard -->
+    <path d="M 80 150 Q 100 180 120 150 Z" class="image" />
+    <!-- Mirror -->
+    <rect x="160" y="50" width="100" height="100" class="image" />
+    <!-- Human face in mirror -->
+    <circle cx="210" cy="100" r="30" class="image" />
+    <!-- Human goatee in mirror -->
+    <path d="M 190 130 Q 210 150 230 130 Z" class="image" />
+  </g>
+</svg>

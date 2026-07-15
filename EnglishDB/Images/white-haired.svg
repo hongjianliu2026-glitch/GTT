@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #6C3483; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">white-haired</text>
+  <text x="50" y="120" class="subtitle">[ˈwaɪt ˈhɛrd] adj. 白发的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> white (白色) + hair (头发)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个老人，他的头发像"白色的瀑布(white-hair)"一样垂下，
+    <tspan x="50" dy="25">每一根头发都闪耀着岁月的光辉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The white-haired man told us stories of his youth.
+  </text>
+  <text x="50" y="310" class="content">
+    那位白发老人给我们讲述了他年轻时的故事。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- White hair -->
+    <path d="M 50 100 Q 75 50 100 100 T 150 100" class="image" fill="none" stroke="#FFFFFF" stroke-width="10" />
+    <path d="M 50 120 Q 75 70 100 120 T 150 120" class="image" fill="none" stroke="#FFFFFF" stroke-width="10" />
+    <path d="M 50 140 Q 75 90 100 140 T 150 140" class="image" fill="none" stroke="#FFFFFF" stroke-width="10" />
+    <path d="M 50 160 Q 75 110 100 160 T 150 160" class="image" fill="none" stroke="#FFFFFF" stroke-width="10" />
+  </g>
+</svg>

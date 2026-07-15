@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nudity</text>
+  <text x="50" y="120" class="subtitle">[ˈnjuːdɪti] n. 裸体，裸露</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> nud (裸露) + -ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在海滩上，"裸露(nud)"
+    <tspan x="50" dy="25">全身，享受阳光的沐浴，这就是裸体(nudity)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The nudity in the movie caused quite a stir.
+  </text>
+  <text x="50" y="310" class="content">
+    电影中的裸体镜头引起了不小的轰动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beach -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <line x1="100" y1="120" x2="100" y2="160" class="image" />
+    <line x1="100" y1="160" x2="80" y2="190" class="image" />
+    <line x1="100" y1="160" x2="120" y2="190" class="image" />
+    <line x1="100" y1="130" x2="70" y2="120" class="image" />
+    <line x1="100" y1="130" x2="130" y2="120" class="image" />
+  </g>
+</svg>

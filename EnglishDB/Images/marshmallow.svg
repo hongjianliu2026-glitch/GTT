@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .marshmallow { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">marshmallow</text>
+  <text x="50" y="120" class="subtitle">[ˌmɑːrʃˈmæloʊ] n. 棉花糖</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> marsh (沼泽) + mallow (锦葵)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在一片沼泽(marsh)中，长满了锦葵(mallow)，
+    <tspan x="50" dy="25">人们将这些植物的汁液制成柔软的棉花糖(marshmallow)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves roasting marshmallows over a campfire.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在篝火上烤棉花糖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Marshmallow -->
+    <circle cx="100" cy="100" r="50" class="marshmallow" />
+    <circle cx="150" cy="100" r="50" class="marshmallow" />
+    <circle cx="200" cy="100" r="50" class="marshmallow" />
+    <!-- Marsh -->
+    <rect x="0" y="150" width="300" height="100" class="image" fill="#2ECC71" />
+    <!-- Mallow plant -->
+    <line x1="50" y1="150" x2="50" y2="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="50" class="image" />
+    <line x1="150" y1="150" x2="150" y2="50" class="image" />
+    <line x1="200" y1="150" x2="200" y2="50" class="image" />
+    <line x1="250" y1="150" x2="250" y2="50" class="image" />
+  </g>
+</svg>

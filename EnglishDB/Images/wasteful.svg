@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wasteful</text>
+  <text x="50" y="120" class="subtitle">[ˈweɪstfəl] adj. 浪费的，挥霍的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> waste (浪费) + -ful (充满...的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人拿着满满一袋金币，却毫不在意地
+    <tspan x="50" dy="25">将它们随意撒在地上，这就是"浪费的(wasteful)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> It's wasteful to leave the lights on when no one is in the room.
+  </text>
+  <text x="50" y="310" class="content">
+    房间里没人时还开着灯是浪费的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bag of coins -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <circle cx="20" cy="30" r="10" class="image" />
+    <circle cx="50" cy="30" r="10" class="image" />
+    <circle cx="80" cy="30" r="10" class="image" />
+    <circle cx="110" cy="30" r="10" class="image" />
+    <circle cx="140" cy="30" r="10" class="image" />
+    <!-- Coins falling -->
+    <line x1="20" y1="100" x2="20" y2="150" class="image" />
+    <line x1="50" y1="100" x2="50" y2="150" class="image" />
+    <line x1="80" y1="100" x2="80" y2="150" class="image" />
+    <line x1="110" y1="100" x2="110" y2="150" class="image" />
+    <line x1="140" y1="100" x2="140" y2="150" class="image" />
+    <!-- Person throwing coins -->
+    <circle cx="75" cy="180" r="20" class="image" />
+    <line x1="75" y1="200" x2="75" y2="250" class="image" />
+    <line x1="75" y1="220" x2="50" y2="210" class="image" />
+    <line x1="75" y1="220" x2="100" y2="210" class="image" />
+    <line x1="75" y1="250" x2="50" y2="280" class="image" />
+    <line x1="75" y1="250" x2="100" y2="280" class="image" />
+  </g>
+</svg>

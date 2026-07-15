@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">stepfather</text>
+  <text x="50" y="120" class="subtitle">[ˈstɛpfɑːðər] n. 继父</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> step- (继) + father (父亲)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个孩子站在两个男人中间，一个是生父，另一个是"继(step)"
+    <tspan x="50" dy="25">父亲(father)，这个继父就是孩子的stepfather。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> My stepfather is very kind to me.
+  </text>
+  <text x="50" y="310" class="content">
+    我的继父对我很好。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Child -->
+    <circle cx="200" cy="100" r="20" class="image" />
+    <!-- Father -->
+    <circle cx="100" cy="100" r="25" class="image" />
+    <!-- Stepfather -->
+    <circle cx="300" cy="100" r="25" class="image" />
+    <!-- Lines connecting them -->
+    <line x1="125" y1="100" x2="175" y2="100" class="image" />
+    <line x1="225" y1="100" x2="275" y2="100" class="image" />
+    <!-- Labels -->
+    <text x="90" y="150" class="content">Father</text>
+    <text x="290" y="150" class="content">Stepfather</text>
+  </g>
+</svg>

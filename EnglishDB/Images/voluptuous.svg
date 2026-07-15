@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">voluptuous</text>
+  <text x="50" y="120" class="subtitle">[vəˈlʌptʃuəs] adj. 丰满的，性感的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> volup (欲望) + tuous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个丰满的女人，她的曲线让人"欲望(volup)"
+    <tspan x="50" dy="25">无法抗拒，这种性感就是"voluptuous"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was admired for her voluptuous figure.
+  </text>
+  <text x="50" y="310" class="content">
+    她因丰满的身材而受到赞赏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Woman's silhouette -->
+    <ellipse cx="150" cy="100" rx="100" ry="150" class="image" />
+    <!-- Curves -->
+    <path d="M 50 100 Q 150 50 250 100" class="image" />
+    <path d="M 50 200 Q 150 250 250 200" class="image" />
+    <!-- Heart symbol -->
+    <path d="M 100 250 C 100 300, 200 300, 200 250" class="image" />
+    <path d="M 100 250 L 200 250" class="image" />
+    <path d="M 150 200 L 150 300" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cartoonist</text>
+  <text x="50" y="120" class="subtitle">[ˌkɑːrˈtuːnɪst] n. 漫画家</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> carto- (纸) + -oon (大) + -ist (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个漫画家在一张大纸上(carto-oon)，
+    <tspan x="50" dy="25">用夸张的笔触画出一个个生动的人物，</tspan>
+    <tspan x="50" dy="25">这就是一个漫画家(cartoonist)的工作。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cartoonist created a hilarious character.
+  </text>
+  <text x="50" y="310" class="content">
+    这位漫画家创造了一个滑稽的角色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large paper -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Cartoonist -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Cartoon character -->
+    <circle cx="150" cy="100" r="20" class="image" />
+    <line x1="150" y1="120" x2="150" y2="160" class="image" />
+    <line x1="150" y1="160" x2="130" y2="190" class="image" />
+    <line x1="150" y1="160" x2="170" y2="190" class="image" />
+    <line x1="150" y1="140" x2="120" y2="130" class="image" />
+    <line x1="150" y1="140" x2="180" y2="130" class="image" />
+  </g>
+</svg>

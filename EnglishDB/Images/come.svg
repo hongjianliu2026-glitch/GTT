@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">come</text>
+  <text x="50" y="120" class="subtitle">[kʌm] v. 来，到达</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (一起) + e (移动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人"一起移动(com-e)"，他们从远处走来，最终到达了目的地。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She will come to the party tonight.
+  </text>
+  <text x="50" y="310" class="content">
+    她今晚将参加聚会。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Path representing the movement -->
+    <path d="M50,150 Q150,50 250,150" class="image" />
+    <!-- People walking -->
+    <circle cx="70" cy="150" r="10" class="image" />
+    <line x1="70" y1="160" x2="70" y2="180" class="image" />
+    <line x1="70" y1="180" x2="60" y2="200" class="image" />
+    <line x1="70" y1="180" x2="80" y2="200" class="image" />
+    <line x1="70" y1="170" x2="90" y2="160" class="image" />
+
+    <circle cx="120" cy="120" r="10" class="image" />
+    <line x1="120" y1="130" x2="120" y2="150" class="image" />
+    <line x1="120" y1="150" x2="110" y2="170" class="image" />
+    <line x1="120" y1="150" x2="130" y2="170" class="image" />
+    <line x1="120" y1="140" x2="140" y2="130" class="image" />
+
+    <circle cx="170" cy="150" r="10" class="image" />
+    <line x1="170" y1="160" x2="170" y2="180" class="image" />
+    <line x1="170" y1="180" x2="160" y2="200" class="image" />
+    <line x1="170" y1="180" x2="180" y2="200" class="image" />
+    <line x1="170" y1="170" x2="190" y2="160" class="image" />
+
+    <!-- Destination -->
+    <rect x="230" y="130" width="40" height="40" class="image" />
+  </g>
+</svg>

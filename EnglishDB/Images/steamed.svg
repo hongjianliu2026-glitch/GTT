@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">steamed</text>
+  <text x="50" y="120" class="subtitle">[stimd] adj. 蒸的，蒸汽的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> steam (蒸汽) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个热气腾腾的蒸笼，里面装满了"蒸汽(steam)"
+    <tspan x="50" dy="25">蒸熟的食物，整个场景都被蒸汽包围，这就是"蒸的(steamed)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The chef served us steamed dumplings.
+  </text>
+  <text x="50" y="310" class="content">
+    厨师给我们端上了蒸饺。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Steaming pot -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Steam -->
+    <line x1="150" y1="20" x2="150" y2="0" class="image" />
+    <line x1="170" y1="20" x2="170" y2="0" class="image" />
+    <line x1="190" y1="20" x2="190" y2="0" class="image" />
+    <line x1="210" y1="20" x2="210" y2="0" class="image" />
+    <line x1="230" y1="20" x2="230" y2="0" class="image" />
+    <!-- Food -->
+    <circle cx="150" cy="100" r="15" class="image" />
+    <circle cx="170" cy="100" r="15" class="image" />
+    <circle cx="190" cy="100" r="15" class="image" />
+    <circle cx="210" cy="100" r="15" class="image" />
+    <circle cx="230" cy="100" r="15" class="image" />
+  </g>
+</svg>

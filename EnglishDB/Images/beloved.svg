@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">beloved</text>
+  <text x="50" y="120" class="subtitle">[bɪˈlʌvd] adj. 心爱的，亲爱的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> be- (使) + love (爱) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被"使(be-)"成为"爱(love)"的对象，
+    <tspan x="50" dy="25">这个人就成了"心爱的(beloved)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is my beloved wife.
+  </text>
+  <text x="50" y="310" class="content">
+    她是我心爱的妻子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 31.3636C-2.25 15.1818 5.25 -6.36364 25 5.45455C44.75 -6.36364 52.25 15.1818 40 31.3636C32.5 41.3636 27.5 51.3636 25 61.3636C22.5 51.3636 17.5 41.3636 10 31.3636Z" class="image" fill="#E74C3C" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="15" class="image" fill="#2980B9" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+    <!-- Arrow pointing from heart to person -->
+    <line x1="50" y1="30" x2="180" y2="100" class="image" />
+    <polygon points="50,30 40,20 40,40" class="image" />
+  </g>
+</svg>

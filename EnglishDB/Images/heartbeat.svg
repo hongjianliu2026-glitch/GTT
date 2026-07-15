@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .heart { fill: #E74C3C; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">heartbeat</text>
+  <text x="50" y="120" class="subtitle">[ˈhɑːrtbiːt] n. 心跳</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> heart (心脏) + beat (跳动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的心脏在跳动，每一次跳动都像是在"心脏(heart)上打鼓(beat)"，
+    <tspan x="50" dy="25">这种强烈的节奏感就是心跳(heartbeat)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor used a stethoscope to listen to her heartbeat.
+  </text>
+  <text x="50" y="310" class="content">
+    医生用听诊器听她的心跳。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10,30 A20,20 0,0,1 50,30 A20,20 0,0,1 90,30 Q90,60 50,90 Q10,60 10,30 Z" class="heart" />
+    <!-- Beating effect -->
+    <circle cx="50" cy="50" r="10" class="image" />
+    <circle cx="50" cy="50" r="8" class="image" />
+    <circle cx="50" cy="50" r="6" class="image" />
+    <circle cx="50" cy="50" r="4" class="image" />
+    <circle cx="50" cy="50" r="2" class="image" />
+  </g>
+</svg>

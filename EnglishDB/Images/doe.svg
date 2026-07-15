@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">doe</text>
+  <text x="50" y="120" class="subtitle">[doʊ] n. 雌鹿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> doe (源自中古英语，意为雌鹿)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只优雅的雌鹿在森林中漫步，它的身影在阳光下显得格外温柔和神秘。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doe gracefully leaped over the stream.
+  </text>
+  <text x="50" y="310" class="content">
+    那只雌鹿优雅地跃过了小溪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Deer body -->
+    <ellipse cx="150" cy="150" rx="100" ry="60" class="image" />
+    <!-- Deer head -->
+    <circle cx="150" cy="80" r="40" class="image" />
+    <!-- Deer legs -->
+    <line x1="70" y1="150" x2="70" y2="250" class="image" />
+    <line x1="230" y1="150" x2="230" y2="250" class="image" />
+    <!-- Deer antlers (simplified) -->
+    <line x1="110" y1="80" x2="50" y2="50" class="image" />
+    <line x1="190" y1="80" x2="250" y2="50" class="image" />
+  </g>
+</svg>

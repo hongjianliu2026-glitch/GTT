@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ironically</text>
+  <text x="50" y="120" class="subtitle">[aɪˈrɑːnɪkli] adv. 讽刺地，出乎意料地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> iron (铁) + -ic (形容词后缀) + -ally (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人拿着一块铁(iron)，试图用它来表达讽刺(ironic)，
+    <tspan x="50" dy="25">结果却意外地(ironically)引起了大家的笑声。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Ironically, the person who always jokes ended up being the most serious.
+  </text>
+  <text x="50" y="310" class="content">
+    讽刺的是，那个总是开玩笑的人最终却是最严肃的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Iron bar -->
+    <rect x="0" y="0" width="100" height="200" class="image" />
+    <!-- Face with a surprised expression -->
+    <circle cx="150" cy="100" r="50" class="image" />
+    <circle cx="130" cy="80" r="10" class="image" />
+    <circle cx="170" cy="80" r="10" class="image" />
+    <line x1="130" y1="120" x2="170" y2="120" class="image" />
+    <line x1="140" y1="130" x2="160" y2="130" class="image" />
+    <!-- Laughing mouths -->
+    <path d="M220,80 Q250,100 280,80" class="image" />
+    <path d="M220,120 Q250,140 280,120" class="image" />
+    <path d="M220,160 Q250,180 280,160" class="image" />
+  </g>
+</svg>

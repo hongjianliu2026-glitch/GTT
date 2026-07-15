@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">enterprising</text>
+  <text x="50" y="120" class="subtitle">[ˈɛntərˌpraɪzɪŋ] adj. 有事业心的，有进取心的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> enter- (进入) + prise (抓住) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个勇敢的人，"进入(enter)"未知的领域，"抓住(prise)"
+    <tspan x="50" dy="25">机会，展现出他的进取心(enterprising)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is an enterprising young woman who started her own business.
+  </text>
+  <text x="50" y="310" class="content">
+    她是一个有进取心的年轻女性，创办了自己的公司。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person entering a door -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="100" height="160" class="image" /> <!-- Door -->
+    <line x1="100" y1="20" x2="100" y2="180" class="image" /> <!-- Door handle -->
+    <circle cx="110" cy="100" r="15" class="image" /> <!-- Person's head -->
+    <line x1="110" y1="115" x2="110" y2="150" class="image" /> <!-- Person's body -->
+    <line x1="110" y1="150" x2="90" y2="180" class="image" /> <!-- Person's left leg -->
+    <line x1="110" y1="150" x2="130" y2="180" class="image" /> <!-- Person's right leg -->
+    <line x1="110" y1="130" x2="140" y2="120" class="image" /> <!-- Person's arm reaching for the door -->
+  </g>
+</svg>

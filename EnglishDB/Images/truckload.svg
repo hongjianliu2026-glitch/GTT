@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">truckload</text>
+  <text x="50" y="120" class="subtitle">[ˈtrʌkləʊd] n. 一卡车的量</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> truck (卡车) + load (装载)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一辆卡车，装满了货物，"一卡车的量(truckload)"
+    <tspan x="50" dy="25">足以让人惊叹。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They delivered a truckload of supplies to the disaster area.
+  </text>
+  <text x="50" y="310" class="content">
+    他们向灾区运送了一卡车的物资。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Truck -->
+    <rect x="0" y="0" width="350" height="150" class="image" />
+    <rect x="50" y="20" width="250" height="110" class="image" />
+    <rect x="100" y="50" width="150" height="60" class="image" />
+    <!-- Load -->
+    <rect x="110" y="60" width="130" height="40" class="image" fill="#F39C12" />
+    <rect x="120" y="70" width="110" height="20" class="image" fill="#F39C12" />
+    <rect x="130" y="80" width="90" height="10" class="image" fill="#F39C12" />
+  </g>
+</svg>

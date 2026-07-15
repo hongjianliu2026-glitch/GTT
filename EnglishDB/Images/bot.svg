@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bot</text>
+  <text x="50" y="120" class="subtitle">[bɒt] n. 机器人，自动程序</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自robot (机器人) 的缩写
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个机器人(bot)在工厂里自动执行任务，
+    <tspan x="50" dy="25">它的机械臂灵活地操作，就像一个不知疲倦的工人。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The chatbot helped me find the information I needed.
+  </text>
+  <text x="50" y="310" class="content">
+    聊天机器人帮助我找到了所需的信息。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Robot body -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <!-- Robot head -->
+    <circle cx="75" cy="50" r="30" class="image" />
+    <!-- Robot arms -->
+    <line x1="20" y1="100" x2="0" y2="150" class="image" />
+    <line x1="130" y1="100" x2="150" y2="150" class="image" />
+    <!-- Robot legs -->
+    <line x1="50" y1="200" x2="50" y2="250" class="image" />
+    <line x1="100" y1="200" x2="100" y2="250" class="image" />
+    <!-- Robot task -->
+    <rect x="180" y="100" width="100" height="50" class="image" />
+    <line x1="190" y1="125" x2="270" y2="125" class="image" />
+    <line x1="190" y1="150" x2="270" y2="150" class="image" />
+  </g>
+</svg>

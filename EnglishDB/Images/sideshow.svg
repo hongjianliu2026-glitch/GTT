@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sideshow</text>
+  <text x="50" y="120" class="subtitle">[ˈsaɪdˌʃoʊ] n. 杂耍表演，附带事件</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> side (旁边) + show (展示)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在一个大型马戏团表演中，"旁边(side)"
+    <tspan x="50" dy="25">有一个小型的杂耍表演(show)，这就是sideshow。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The magician's performance was the main event, but the sideshow with the clowns was equally entertaining.
+  </text>
+  <text x="50" y="310" class="content">
+    魔术师的表演是主节目，但小丑的杂耍表演同样有趣。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Big top tent -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Small sideshow tent -->
+    <rect x="50" y="20" width="100" height="100" class="image" />
+    <!-- Clown -->
+    <circle cx="100" cy="70" r="15" class="image" />
+    <line x1="100" y1="85" x2="100" y2="120" class="image" />
+    <line x1="100" y1="120" x2="80" y2="150" class="image" />
+    <line x1="100" y1="120" x2="120" y2="150" class="image" />
+    <line x1="100" y1="100" x2="130" y2="90" class="image" />
+    <!-- Balloons -->
+    <circle cx="150" cy="50" r="10" class="image" fill="#FF6F61" />
+    <circle cx="170" cy="50" r="10" class="image" fill="#FFCC5C" />
+    <circle cx="190" cy="50" r="10" class="image" fill="#96CEB4" />
+  </g>
+</svg>

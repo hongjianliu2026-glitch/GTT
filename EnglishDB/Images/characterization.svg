@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">characterization</text>
+  <text x="50" y="120" class="subtitle">[ˌkærəktəraɪˈzeɪʃən] n. 性格描写，特征描述</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> character (性格) + -ize (使成为) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个作家在纸上，"使(ize)"
+    <tspan x="50" dy="25">人物的性格(character)成为具体的描述(characterization)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The novel's characterization of the protagonist is vivid and compelling.
+  </text>
+  <text x="50" y="310" class="content">
+    这部小说对主人公的性格描写生动且引人入胜。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Writer -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Pen -->
+    <line x1="20" y1="115" x2="70" y2="115" class="image" />
+    <line x1="70" y1="115" x2="70" y2="150" class="image" />
+    <!-- Character description -->
+    <text x="100" y="50" class="content" fill="#A93226">
+      <tspan class="highlight">勇敢</tspan>
+      <tspan x="100" dy="25">善良</tspan>
+      <tspan x="100" dy="25">聪明</tspan>
+    </text>
+  </g>
+</svg>

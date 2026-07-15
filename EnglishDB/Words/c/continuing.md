@@ -1,0 +1,72 @@
+---
+id: "015944"
+word: "continuing"
+lemma: "continuing"
+pos: "adj."
+uk: "kənˈtɪnjuɪŋ"
+us: "kənˈtɪnjuɪŋ"
+source: "COCA2w"
+prefix: "con"
+root: "tinu"
+suffix: "ing"
+morph: "con+tinu+ing"
+---
+
+
+## continuing
+
+**英音:** _[kənˈtɪnjuɪŋ]_ **美音:** _[kənˈtɪnjuɪŋ]_
+
+**译义:** *adj.持续的,连续的；进行中的*
+
+### 短语
+
++ **continuing education:** _继续教育_
+
++ **continuing improvement:** _持续改进_
+
++ **continuing guarantee:** _持续担保_
+
++ **continuing operation:** _持续经营_
+
++ **continuing process:** _持续过程_
+
+### 例句
+
+#### 例句1
+
+> **The continuing rain made the roads slippery.**
+
+**中文翻译:** 持续不断的雨使道路变得很滑。
+
+**单词释义:** 持续的；不间断的
+
+#### 例句2
+
+> **Despite the difficulties, she showed a continuing interest in the
+project.**
+
+**中文翻译:** 尽管有困难，她对这个项目仍表现出持续的兴趣。
+
+**单词释义:** 持续的；不停的
+
+#### 例句3
+
+> **The continuing economic growth has brought many benefits to the
+country.**
+
+**中文翻译:** 持续的经济增长给这个国家带来了很多好处。
+
+**单词释义:** 持续的；不断的
+
+### 背诵小故事
+
+> A little ant was on a long journey. It kept walking without stopping.
+This action of never-ending movement was called continuing. The ant\'s
+continuing effort finally led it to find food.
+
+**一只小蚂蚁正在长途旅行。它不停地走，没有停歇。这种永不停歇的行动就叫做continuing。蚂蚁持续不断的努力最终让它找到了食物。**
+
+### 图义
+
+![[Images/continuing.png]]

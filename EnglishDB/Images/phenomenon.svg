@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">phenomenon</text>
+  <text x="50" y="120" class="subtitle">[fəˈnɒmɪnən] n. 现象</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> phan- (显示) + -on (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的眼睛，"显示(phan-)"
+    <tspan x="50" dy="25">出各种奇异的现象(phenomenon)，</tspan>
+    <tspan x="50" dy="25">比如彩虹、极光等。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The aurora borealis is a natural phenomenon.
+  </text>
+  <text x="50" y="310" class="content">
+    北极光是一种自然现象。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eye -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Pupil -->
+    <circle cx="100" cy="100" r="20" class="image" fill="#2C3E50" />
+    <!-- Eyelid -->
+    <path d="M 50 50 Q 100 0 150 50" class="image" />
+    <!-- Phenomenon -->
+    <path d="M 100 150 Q 150 200 200 150" class="image" />
+    <path d="M 100 150 Q 50 200 0 150" class="image" />
+    <path d="M 100 150 Q 125 225 150 150" class="image" />
+    <path d="M 100 150 Q 75 225 50 150" class="image" />
+  </g>
+</svg>

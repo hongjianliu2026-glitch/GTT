@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pole</text>
+  <text x="50" y="120" class="subtitle">[poʊl] n. 杆，极点</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pol- (杆，极)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的"杆(pole)"，它直插云霄，
+    <tspan x="50" dy="25">顶端是地球的"极点(pole)"，象征着极端和顶点。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The flag was attached to the top of the pole.
+  </text>
+  <text x="50" y="310" class="content">
+    旗帜被系在杆子的顶端。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Pole -->
+    <line x1="100" y1="0" x2="100" y2="300" class="image" />
+    <!-- Flag -->
+    <rect x="80" y="10" width="40" height="60" class="image" />
+    <line x1="100" y1="70" x2="100" y2="100" class="image" />
+    <!-- Earth -->
+    <circle cx="100" cy="350" r="50" class="image" />
+    <!-- North Pole -->
+    <circle cx="100" cy="300" r="10" class="image" />
+  </g>
+</svg>

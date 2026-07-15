@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">seaman</text>
+  <text x="50" y="120" class="subtitle">[ˈsiːmən] n. 海员，水手</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sea (海) + man (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个勇敢的"海人(sea-man)"，
+    <tspan x="50" dy="25">他站在船头，迎着海风，掌控着航向。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old seaman had sailed the seven seas.
+  </text>
+  <text x="50" y="310" class="content">
+    这位老海员曾航行过七大洋。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ship -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,180 200,180 175,150 75,150" class="image" />
+    <!-- Sailor -->
+    <circle cx="125" cy="130" r="15" class="image" />
+    <line x1="125" y1="145" x2="125" y2="180" class="image" />
+    <line x1="125" y1="160" x2="100" y2="150" class="image" />
+    <line x1="125" y1="160" x2="150" y2="150" class="image" />
+    <line x1="125" y1="180" x2="100" y2="200" class="image" />
+    <line x1="125" y1="180" x2="150" y2="200" class="image" />
+    <!-- Waves -->
+    <path d="M50,200 Q75,190 100,200 T150,200 T200,200 T250,200 T300,200" class="image" />
+    <path d="M50,210 Q75,200 100,210 T150,210 T200,210 T250,210 T300,210" class="image" />
+  </g>
+</svg>

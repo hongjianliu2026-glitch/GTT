@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">exhibitor</text>
+  <text x="50" y="120" class="subtitle">[ɪɡˈzɪbɪtər] n. 参展者，展示者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (向外) + hibit (持有) + -or (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个参展者站在展台前，"向外持有(ex-hibit)"
+    <tspan x="50" dy="25">展示着他的作品，吸引着观众的目光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The exhibitor proudly displayed his latest creation.
+  </text>
+  <text x="50" y="310" class="content">
+    参展者自豪地展示了他最新的作品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Exhibitor -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Exhibit stand -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Exhibit -->
+    <rect x="70" y="40" width="210" height="120" class="image" />
+    <!-- Eye -->
+    <circle cx="350" cy="100" r="10" class="image" />
+    <line x1="350" y1="110" x2="350" y2="150" class="image" />
+    <line x1="350" y1="150" x2="330" y2="180" class="image" />
+    <line x1="350" y1="150" x2="370" y2="180" class="image" />
+  </g>
+</svg>

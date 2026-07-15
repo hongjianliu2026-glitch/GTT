@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">thirty-nine</text>
+  <text x="50" y="120" class="subtitle">[ˈθɜːrti naɪn] n. 三十九</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> thirty (三十) + nine (九)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的数字“39”，它由两个部分组成：
+    <tspan x="50" dy="25">“30”和“9”，就像一个巨大的数字拼图，</tspan>
+    <tspan x="50" dy="25">拼在一起就成了“三十九”。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has thirty-nine books on her shelf.
+  </text>
+  <text x="50" y="310" class="content">
+    她的书架上有三十九本书。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large number "39" -->
+    <text x="0" y="0" font-size="200" font-family="sans-serif" fill="#16A085">39</text>
+    <!-- Split into "30" and "9" -->
+    <line x1="100" y1="0" x2="100" y2="200" class="image" />
+    <text x="20" y="150" font-size="100" font-family="sans-serif" fill="#E74C3C">30</text>
+    <text x="120" y="150" font-size="100" font-family="sans-serif" fill="#E74C3C">9</text>
+  </g>
+</svg>

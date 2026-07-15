@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">infant</text>
+  <text x="50" y="120" class="subtitle">[ˈɪnfənt] n. 婴儿，幼儿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + fant (说话)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个还不会说话的"婴儿(infant)"，
+    <tspan x="50" dy="25">因为"不(in-)"能"说话(fant)"，所以需要大人的照顾。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The nurse carefully tended to the infant's needs.
+  </text>
+  <text x="50" y="310" class="content">
+    护士细心地照顾着婴儿的需求。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Baby crib -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Baby -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="170" class="image" />
+    <line x1="175" y1="170" x2="150" y2="200" class="image" />
+    <line x1="175" y1="170" x2="200" y2="200" class="image" />
+    <line x1="175" y1="150" x2="140" y2="140" class="image" />
+    <line x1="175" y1="150" x2="210" y2="140" class="image" />
+    <!-- Pacifier -->
+    <line x1="160" y1="80" x2="190" y2="80" class="image" />
+    <circle cx="160" cy="80" r="5" class="image" />
+    <circle cx="190" cy="80" r="5" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">uplifting</text>
+  <text x="50" y="120" class="subtitle">[ʌpˈlɪftɪŋ] adj. 令人振奋的，鼓舞人心的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> up- (向上) + lift (举起)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被"举起(lift)"到空中，
+    <tspan x="50" dy="25">感受到"向上(up)"的力量，心情也随之振奋(uplifting)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The speech was truly uplifting; it gave everyone hope.
+  </text>
+  <text x="50" y="310" class="content">
+    那场演讲非常鼓舞人心，给了每个人希望。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sky -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#87CEEB" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" fill="#FFD700" />
+    <!-- Person being lifted -->
+    <circle cx="100" cy="150" r="20" class="image" fill="#F39C12" />
+    <line x1="100" y1="170" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="80" y2="230" class="image" />
+    <line x1="100" y1="200" x2="120" y2="230" class="image" />
+    <line x1="100" y1="180" x2="130" y2="170" class="image" />
+    <!-- Up arrow -->
+    <polygon points="150,100 170,140 130,140" class="image" fill="#2ECC71" />
+    <line x1="150" y1="140" x2="150" y2="200" class="image" />
+  </g>
+</svg>

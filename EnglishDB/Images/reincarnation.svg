@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">reincarnation</text>
+  <text x="50" y="120" class="subtitle">[ˌriːɪnˈkɑːrˌneɪʃən] n. 转世，再生</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + in- (进入) + carn (肉体) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人死后，灵魂"再次进入(re-in-carn)"一个新的肉体，
+    <tspan x="50" dy="25">这就是转世(reincarnation)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Many believe in the concept of reincarnation.
+  </text>
+  <text x="50" y="310" class="content">
+    许多人相信转世的概念。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Soul leaving body -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+
+    <!-- New body -->
+    <rect x="150" y="80" width="100" height="120" class="image" />
+    <circle cx="200" cy="100" r="20" class="image" />
+    <line x1="200" y1="120" x2="200" y2="180" class="image" />
+    <line x1="200" y1="180" x2="180" y2="220" class="image" />
+    <line x1="200" y1="180" x2="220" y2="220" class="image" />
+    <line x1="200" y1="150" x2="240" y2="140" class="image" />
+
+    <!-- Soul entering new body -->
+    <line x1="70" y1="100" x2="180" y2="100" class="image" />
+  </g>
+</svg>

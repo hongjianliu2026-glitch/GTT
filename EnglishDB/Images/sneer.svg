@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sneer</text>
+  <text x="50" y="120" class="subtitle">[snɪər] v. 嘲笑，讥笑；n. 嘲笑的表情</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sn- (鼻子) + ear (耳朵)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用鼻子"sn-"发出不屑的声音，同时耳朵"ear"听到别人的嘲笑，
+    <tspan x="50" dy="25">这种表情就是"sneer"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He couldn't hide his sneer when he heard the news.
+  </text>
+  <text x="50" y="310" class="content">
+    当他听到这个消息时，他无法掩饰他的嘲笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Nose -->
+    <line x1="100" y1="120" x2="100" y2="180" class="image" />
+    <!-- Mouth -->
+    <path d="M 60 160 Q 100 200 140 160" class="image" />
+    <!-- Eyes -->
+    <circle cx="70" cy="80" r="10" class="image" />
+    <circle cx="130" cy="80" r="10" class="image" />
+    <!-- Ears -->
+    <path d="M 20 100 Q 0 120 20 140" class="image" />
+    <path d="M 180 100 Q 200 120 180 140" class="image" />
+  </g>
+</svg>

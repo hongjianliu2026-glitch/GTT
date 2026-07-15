@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">perimeter</text>
+  <text x="50" y="120" class="subtitle">[pəˈrɪmɪtər] n. 周长，周边</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> peri- (周围) + meter (测量)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的圆形竞技场，"测量(meter)"
+    <tspan x="50" dy="25">周围(peri-)的距离，这个距离就是周长(perimeter)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The perimeter of the park is 5 kilometers.
+  </text>
+  <text x="50" y="310" class="content">
+    公园的周长是5公里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Circle representing the perimeter -->
+    <circle cx="200" cy="100" r="80" class="image" />
+    <!-- Measuring tape -->
+    <line x1="120" y1="100" x2="280" y2="100" class="image" />
+    <line x1="120" y1="100" x2="120" y2="110" class="image" />
+    <line x1="280" y1="100" x2="280" y2="110" class="image" />
+    <!-- Arrow indicating measurement -->
+    <line x1="120" y1="110" x2="280" y2="110" class="image" />
+    <polygon points="280,110 270,105 270,115" class="image" />
+  </g>
+</svg>

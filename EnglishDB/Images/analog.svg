@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">analog</text>
+  <text x="50" y="120" class="subtitle">[ˈænəlɔɡ] adj. 模拟的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ana- (类似) + log (比例)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的时钟，"类似比例(ana-log)"
+    <tspan x="50" dy="25">的指针在转动，这就是模拟(analog)的精髓。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old radio used an analog signal to transmit sound.
+  </text>
+  <text x="50" y="310" class="content">
+    那台老式收音机使用模拟信号传输声音。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock face -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Clock hands -->
+    <line x1="175" y1="100" x2="175" y2="20" class="image" />
+    <line x1="175" y1="100" x2="250" y2="100" class="image" />
+    <!-- Clock numbers -->
+    <text x="160" y="40" class="content">12</text>
+    <text x="240" y="110" class="content">3</text>
+    <text x="160" y="180" class="content">6</text>
+    <text x="90" y="110" class="content">9</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tertiary</text>
+  <text x="50" y="120" class="subtitle">[ˈtɜːrʃəri] adj. 第三的，第三级的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tert- (第三) + -iary (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个三层蛋糕，最上面的一层是"第三级(tertiary)"，
+    <tspan x="50" dy="25">它代表着最高、最精致的部分。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tertiary education system in this country is well-developed.
+  </text>
+  <text x="50" y="310" class="content">
+    这个国家的第三级教育体系非常发达。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cake layers -->
+    <rect x="50" y="0" width="200" height="50" class="image" />
+    <rect x="75" y="60" width="150" height="50" class="image" />
+    <rect x="100" y="120" width="100" height="50" class="image" />
+    <!-- Top layer -->
+    <rect x="125" y="180" width="50" height="50" class="image" />
+    <!-- Top layer label -->
+    <text x="140" y="215" class="highlight">tertiary</text>
+  </g>
+</svg>

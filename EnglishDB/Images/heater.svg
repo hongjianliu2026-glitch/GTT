@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">heater</text>
+  <text x="50" y="120" class="subtitle">[ˈhiːtər] n. 加热器，暖气设备</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> heat (热) + -er (表示物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个寒冷的冬天，一个巨大的"加热器(heater)"
+    <tspan x="50" dy="25">像太阳一样发出温暖的光芒，驱散了所有的寒冷。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She turned on the heater to warm up the room.
+  </text>
+  <text x="50" y="310" class="content">
+    她打开了加热器来温暖房间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heater -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Heating elements -->
+    <line x1="20" y1="20" x2="180" y2="20" class="image" />
+    <line x1="20" y1="50" x2="180" y2="50" class="image" />
+    <line x1="20" y1="80" x2="180" y2="80" class="image" />
+    <line x1="20" y1="110" x2="180" y2="110" class="image" />
+    <!-- Warm light -->
+    <circle cx="100" cy="170" r="50" class="image" />
+    <circle cx="100" cy="170" r="40" class="image" />
+    <circle cx="100" cy="170" r="30" class="image" />
+    <circle cx="100" cy="170" r="20" class="image" />
+    <circle cx="100" cy="170" r="10" class="image" />
+  </g>
+</svg>

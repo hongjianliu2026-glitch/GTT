@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">humorous</text>
+  <text x="50" y="120" class="subtitle">[ˈhjuːmərəs] adj. 幽默的，滑稽的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> humor (幽默) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个滑稽的小丑，脸上画着夸张的笑容，
+    <tspan x="50" dy="25">手里拿着一个巨大的气球，逗得观众哈哈大笑。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His humorous remarks always lighten the mood.
+  </text>
+  <text x="50" y="310" class="content">
+    他幽默的言论总能活跃气氛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clown face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="80" r="10" class="image" />
+    <circle cx="120" cy="80" r="10" class="image" />
+    <!-- Nose -->
+    <circle cx="100" cy="110" r="15" class="image" />
+    <!-- Mouth -->
+    <path d="M 60 130 Q 100 150 140 130" class="image" />
+    <!-- Balloon -->
+    <circle cx="200" cy="50" r="30" class="image" />
+    <line x1="200" y1="80" x2="200" y2="150" class="image" />
+  </g>
+</svg>

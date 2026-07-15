@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mingle</text>
+  <text x="50" y="120" class="subtitle">[ˈmɪŋɡl] v. 混合，交往</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> min (混合) + gle (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在一个热闹的派对上，人们"小范围地混合(min-gle)"
+    <tspan x="50" dy="25">在一起，形成了一个欢乐的社交场景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She likes to mingle with people at parties.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在派对上与人交往。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Party scene -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="100" cy="50" r="20" class="image" />
+    <circle cx="150" cy="50" r="20" class="image" />
+    <circle cx="200" cy="50" r="20" class="image" />
+    <circle cx="250" cy="50" r="20" class="image" />
+    <!-- Conversations -->
+    <line x1="60" y1="70" x2="90" y2="70" class="image" />
+    <line x1="110" y1="70" x2="140" y2="70" class="image" />
+    <line x1="160" y1="70" x2="190" y2="70" class="image" />
+    <line x1="210" y1="70" x2="240" y2="70" class="image" />
+    <!-- Party decorations -->
+    <rect x="0" y="100" width="300" height="50" class="image" />
+    <line x1="0" y1="125" x2="300" y2="125" class="image" />
+    <line x1="0" y1="150" x2="300" y2="150" class="image" />
+  </g>
+</svg>

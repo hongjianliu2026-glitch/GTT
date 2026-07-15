@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">brag</text>
+  <text x="50" y="120" class="subtitle">[bræɡ] v. 吹嘘，自夸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> brag (来自中古英语 bragge，意为“炫耀”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在高台上，手里拿着奖杯，
+    <tspan x="50" dy="25">大声地向周围的人炫耀(brag)自己的成就。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He always brags about his new car.
+  </text>
+  <text x="50" y="310" class="content">
+    他总是吹嘘他的新车。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <line x1="100" y1="120" x2="100" y2="160" class="image" />
+    <line x1="100" y1="160" x2="80" y2="190" class="image" />
+    <line x1="100" y1="160" x2="120" y2="190" class="image" />
+    <line x1="100" y1="140" x2="130" y2="130" class="image" />
+    <!-- Trophy -->
+    <polygon points="150,80 170,120 130,120" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 100 80 Q 150 60 200 80 Q 150 100 100 80" class="image" />
+    <text x="120" y="85" class="content" text-anchor="middle">I won!</text>
+  </g>
+</svg>

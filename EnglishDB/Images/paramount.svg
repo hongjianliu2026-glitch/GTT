@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">paramount</text>
+  <text x="50" y="120" class="subtitle">[ˈpærəmaʊnt] adj. 最高的，至上的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> para- (旁边) + mount (山)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一座巨大的山峰，旁边(para-)有一座更高的山(mount)，
+    <tspan x="50" dy="25">这座山就是至高无上的(paramount)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The safety of the passengers is paramount.
+  </text>
+  <text x="50" y="310" class="content">
+    乘客的安全是最重要的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountain -->
+    <polygon points="0,150 150,0 300,150" class="image" />
+    <!-- Higher mountain -->
+    <polygon points="100,100 200,0 300,100" class="image" />
+    <!-- Sun -->
+    <circle cx="250" cy="50" r="30" class="image" />
+    <!-- Clouds -->
+    <ellipse cx="100" cy="50" rx="50" ry="20" class="image" />
+    <ellipse cx="200" cy="30" rx="40" ry="15" class="image" />
+  </g>
+</svg>

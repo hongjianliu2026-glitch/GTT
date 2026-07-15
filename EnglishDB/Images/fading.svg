@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #641E16; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #922B21; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fading</text>
+  <text x="50" y="120" class="subtitle">[ˈfeɪdɪŋ] v. 逐渐消失，褪色</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fad (消失) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一幅画，颜色从鲜艳逐渐"消失(fad-ing)"，
+    <tspan x="50" dy="25">最终变成一片灰白，这就是褪色的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The colors of the sunset are fading as night falls.
+  </text>
+  <text x="50" y="310" class="content">
+    随着夜幕降临，夕阳的色彩逐渐消失。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bright colors -->
+    <rect x="0" y="0" width="100" height="100" fill="#FF5733" />
+    <rect x="110" y="0" width="100" height="100" fill="#FFC300" />
+    <rect x="220" y="0" width="100" height="100" fill="#DAF7A6" />
+    <!-- Fading colors -->
+    <rect x="0" y="110" width="100" height="100" fill="#B33C26" />
+    <rect x="110" y="110" width="100" height="100" fill="#B38F00" />
+    <rect x="220" y="110" width="100" height="100" fill="#97B37B" />
+    <!-- Gray colors -->
+    <rect x="0" y="220" width="100" height="100" fill="#808080" />
+    <rect x="110" y="220" width="100" height="100" fill="#808080" />
+    <rect x="220" y="220" width="100" height="100" fill="#808080" />
+    <!-- Arrows -->
+    <line x1="50" y1="100" x2="50" y2="110" class="image" />
+    <line x1="160" y1="100" x2="160" y2="110" class="image" />
+    <line x1="270" y1="100" x2="270" y2="110" class="image" />
+    <line x1="50" y1="210" x2="50" y2="220" class="image" />
+    <line x1="160" y1="210" x2="160" y2="220" class="image" />
+    <line x1="270" y1="210" x2="270" y2="220" class="image" />
+  </g>
+</svg>

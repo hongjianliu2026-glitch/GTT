@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Chinese</text>
+  <text x="50" y="120" class="subtitle">[ˌtʃaɪˈniːz] n. 中文，中国人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自“中华”，意指中国及其文化
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的龙（象征中国）在空中飞舞，
+    <tspan x="50" dy="25">龙的身上刻满了中文汉字，这些汉字在阳光下闪闪发光，</tspan>
+    <tspan x="50" dy="25">象征着中文的博大精深和中国的文化底蕴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is learning Chinese calligraphy.
+  </text>
+  <text x="50" y="310" class="content">
+    她正在学习中国书法。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dragon body -->
+    <path d="M0 100 C 50 50, 150 50, 200 100 S 300 150, 350 100" class="image" />
+    <!-- Dragon head -->
+    <circle cx="350" cy="100" r="20" class="image" />
+    <!-- Dragon eyes -->
+    <circle cx="340" cy="90" r="5" class="image" />
+    <circle cx="360" cy="90" r="5" class="image" />
+    <!-- Chinese characters -->
+    <text x="50" y="120" class="content" style="font-size: 36px; fill: #D35400;">中</text>
+    <text x="100" y="120" class="content" style="font-size: 36px; fill: #D35400;">文</text>
+    <text x="150" y="120" class="content" style="font-size: 36px; fill: #D35400;">汉</text>
+    <text x="200" y="120" class="content" style="font-size: 36px; fill: #D35400;">字</text>
+  </g>
+</svg>

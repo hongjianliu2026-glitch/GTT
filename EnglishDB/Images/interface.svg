@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interface</text>
+  <text x="50" y="120" class="subtitle">[ˈɪntərfeɪs] n. 界面，接口</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + face (面)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人面对面站着，中间有一块透明的屏幕，
+    <tspan x="50" dy="25">他们通过这个屏幕进行交流，这块屏幕就是他们的"界面(interface)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The user interface of the app is very intuitive.
+  </text>
+  <text x="50" y="310" class="content">
+    这个应用的用户界面非常直观。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two people facing each other -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="300" cy="100" r="20" class="image" />
+    <line x1="70" y1="100" x2="280" y2="100" class="image" />
+    <!-- Transparent screen -->
+    <rect x="120" y="50" width="110" height="100" class="image" />
+    <!-- Speech bubbles -->
+    <path d="M130,60 Q150,50 170,60 Q150,70 130,60" class="image" />
+    <path d="M230,60 Q250,50 270,60 Q250,70 230,60" class="image" />
+  </g>
+</svg>

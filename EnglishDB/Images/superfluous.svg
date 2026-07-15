@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">superfluous</text>
+  <text x="50" y="120" class="subtitle">[suːˈpɜːrfluəs] adj. 多余的，过剩的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> super- (超过) + flu (流动) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个装满水的杯子，水已经"超过(super)"杯子的边缘，
+    <tspan x="50" dy="25">开始"流动(flu)"出来，这些多余的水就是"过剩的(superfluous)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The extra ingredients were superfluous; we only needed half.
+  </text>
+  <text x="50" y="310" class="content">
+    多余的配料是过剩的；我们只需要一半。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cup -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <!-- Overflowing water -->
+    <line x1="75" y1="200" x2="75" y2="250" class="image" />
+    <line x1="50" y1="225" x2="100" y2="225" class="image" />
+    <line x1="60" y1="235" x2="90" y2="235" class="image" />
+    <line x1="70" y1="245" x2="80" y2="245" class="image" />
+  </g>
+</svg>

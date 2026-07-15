@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sausage</text>
+  <text x="50" y="120" class="subtitle">[ˈsɔsɪdʒ] n. 香肠</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sals (盐) + age (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的厨房，厨师正在用盐(sals)腌制肉，
+    <tspan x="50" dy="25">然后将它们卷成一根根香肠(sausage)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He loves to eat sausages for breakfast.
+  </text>
+  <text x="50" y="310" class="content">
+    他喜欢吃香肠当早餐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Kitchen counter -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sausage -->
+    <ellipse cx="100" cy="100" rx="50" ry="20" class="image" />
+    <ellipse cx="200" cy="100" rx="50" ry="20" class="image" />
+    <!-- Chef -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Salt shaker -->
+    <rect x="250" y="80" width="20" height="40" class="image" />
+    <line x1="260" y1="85" x2="260" y2="100" class="image" />
+  </g>
+</svg>

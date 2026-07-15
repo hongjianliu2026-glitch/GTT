@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">typology</text>
+  <text x="50" y="120" class="subtitle">[taɪˈpɒlədʒi] n. 类型学，分类学</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> type (类型) + -ology (学科)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个学者在研究各种"类型(type)"，
+    <tspan x="50" dy="25">并将它们系统地分类，形成了一门学科(typology)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The typology of ancient artifacts helps us understand their functions.
+  </text>
+  <text x="50" y="310" class="content">
+    古代文物的类型学帮助我们理解它们的功能。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Types -->
+    <rect x="0" y="0" width="100" height="100" class="image" />
+    <rect x="120" y="0" width="100" height="100" class="image" />
+    <rect x="240" y="0" width="100" height="100" class="image" />
+    <!-- Scholar -->
+    <circle cx="50" cy="150" r="15" class="image" />
+    <line x1="50" y1="165" x2="50" y2="200" class="image" />
+    <line x1="50" y1="200" x2="30" y2="230" class="image" />
+    <line x1="50" y1="200" x2="70" y2="230" class="image" />
+    <line x1="50" y1="180" x2="80" y2="170" class="image" />
+    <!-- Books -->
+    <rect x="120" y="120" width="150" height="100" class="image" />
+    <line x1="130" y1="130" x2="260" y2="130" class="image" />
+    <line x1="130" y1="150" x2="260" y2="150" class="image" />
+    <line x1="130" y1="170" x2="260" y2="170" class="image" />
+    <line x1="130" y1="190" x2="260" y2="190" class="image" />
+  </g>
+</svg>

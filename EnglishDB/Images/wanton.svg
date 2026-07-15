@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wanton</text>
+  <text x="50" y="120" class="subtitle">[ˈwɒntən] adj. 肆意的，任性的；n. 荡妇</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> want (缺乏) + -on (表示人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个"缺乏(want)"道德约束的"人(on)"，
+    <tspan x="50" dy="25">她肆意妄为，行为放荡，就像一个荡妇(wanton)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her wanton behavior shocked everyone.
+  </text>
+  <text x="50" y="310" class="content">
+    她肆意的行为震惊了所有人。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Woman with wild hair -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="160" x2="20" y2="140" class="image" />
+    <line x1="50" y1="160" x2="80" y2="140" class="image" />
+    <line x1="50" y1="200" x2="20" y2="240" class="image" />
+    <line x1="50" y1="200" x2="80" y2="240" class="image" />
+    <!-- Wild hair -->
+    <path d="M20,100 Q35,70 50,100 T80,100" class="image" />
+    <path d="M20,110 Q35,80 50,110 T80,110" class="image" />
+    <path d="M20,120 Q35,90 50,120 T80,120" class="image" />
+  </g>
+</svg>

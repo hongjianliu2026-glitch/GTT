@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">continually</text>
+  <text x="50" y="120" class="subtitle">[kənˈtɪnjuəli] adv. 不断地，频繁地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (一起) + tin (保持) + -ual (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个永不停止的时钟，"保持(tin)"
+    <tspan x="50" dy="25">在一起(con)"地运转，象征着"不断地(continually)"发生的事情。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She continually checks her phone for new messages.
+  </text>
+  <text x="50" y="310" class="content">
+    她不断地检查手机是否有新消息。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" />
+    <!-- Arrows -->
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(30, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(60, 100, 100)" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(90, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(120, 100, 100)" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(150, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(180, 100, 100)" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(210, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(240, 100, 100)" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(270, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(300, 100, 100)" />
+    <line x1="100" y1="100" x2="100" y2="20" class="image" transform="rotate(330, 100, 100)" />
+    <line x1="100" y1="100" x2="180" y2="100" class="image" transform="rotate(360, 100, 100)" />
+  </g>
+</svg>

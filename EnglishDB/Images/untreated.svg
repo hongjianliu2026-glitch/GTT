@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">untreated</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈtriːtɪd] adj. 未经处理的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + treat (处理)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个未处理的伤口，"不处理(un-treat)"
+    <tspan x="50" dy="25">的伤口会感染，这就是未经处理的(untreated)状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The untreated water was unfit for drinking.
+  </text>
+  <text x="50" y="310" class="content">
+    未经处理的水不适合饮用。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Untreated wound -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="75" y1="75" x2="125" y2="125" class="image" />
+    <line x1="75" y1="125" x2="125" y2="75" class="image" />
+    <!-- Infection -->
+    <circle cx="100" cy="100" r="10" class="image" />
+    <circle cx="80" cy="80" r="10" class="image" />
+    <circle cx="120" cy="80" r="10" class="image" />
+    <circle cx="80" cy="120" r="10" class="image" />
+    <circle cx="120" cy="120" r="10" class="image" />
+  </g>
+</svg>

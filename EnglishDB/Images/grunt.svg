@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">grunt</text>
+  <text x="50" y="120" class="subtitle">[ɡrʌnt] v. 咕哝，嘟囔；n. 咕哝声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gr- (与“growl”咆哮相关) + -unt (表示声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头巨大的野猪在森林中，发出低沉的"咕哝(grunt)"声，
+    <tspan x="50" dy="25">这种声音让人感到既震撼又畏惧。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old man grunted in disapproval.
+  </text>
+  <text x="50" y="310" class="content">
+    老人不满地咕哝了一声。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wild boar -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="180" x2="20" y2="220" class="image" /> <!-- Leg 1 -->
+    <line x1="50" y1="180" x2="80" y2="220" class="image" /> <!-- Leg 2 -->
+    <line x1="50" y1="150" x2="20" y2="140" class="image" /> <!-- Tusk 1 -->
+    <line x1="50" y1="150" x2="80" y2="140" class="image" /> <!-- Tusk 2 -->
+    <!-- Grunt sound -->
+    <text x="100" y="100" class="image" font-size="30">🔊</text>
+  </g>
+</svg>

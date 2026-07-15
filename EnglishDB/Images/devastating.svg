@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">devastating</text>
+  <text x="50" y="120" class="subtitle">[ˈdevəsteɪtɪŋ] adj. 毁灭性的，破坏力极强的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + vast (空旷) + -ate (使) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场"向下(de-)"的"空旷(vast)"力量，
+    <tspan x="50" dy="25">将一切都夷为平地，这就是"毁灭性的(devastating)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hurricane left a devastating trail of destruction.
+  </text>
+  <text x="50" y="310" class="content">
+    飓风留下了一条毁灭性的破坏痕迹。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tornado -->
+    <path d="M0 100 C 50 50, 150 50, 200 100 S 300 150, 350 100" class="image" />
+    <!-- Destroyed house -->
+    <rect x="100" y="150" width="100" height="50" class="image" />
+    <line x1="100" y1="150" x2="200" y2="150" class="image" />
+    <line x1="100" y1="200" x2="200" y2="200" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="200" y1="150" x2="200" y2="200" class="image" />
+    <!-- Ruins -->
+    <line x1="120" y1="200" x2="180" y2="200" class="image" />
+    <line x1="140" y1="200" x2="140" y2="250" class="image" />
+    <line x1="160" y1="200" x2="160" y2="250" class="image" />
+  </g>
+</svg>

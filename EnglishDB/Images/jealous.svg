@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jealous</text>
+  <text x="50" y="120" class="subtitle">[ˈdʒeləs] adj. 嫉妒的，羡慕的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> jeal (嫉妒) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人看到别人拥有他想要的东西，眼中冒出嫉妒的火焰，
+    <tspan x="50" dy="25">这种强烈的情感让他变得"嫉妒(jealous)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She felt jealous when her friend got the promotion.
+  </text>
+  <text x="50" y="310" class="content">
+    当她的朋友得到晋升时，她感到嫉妒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person with jealous eyes -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <circle cx="50" cy="50" r="25" fill="#FFF" />
+    <circle cx="40" cy="45" r="5" fill="#000" />
+    <circle cx="60" cy="45" r="5" fill="#000" />
+    <line x1="40" y1="60" x2="60" y2="60" class="image" />
+    <!-- Fire in eyes -->
+    <path d="M40 40 L35 35 L45 35 Z" fill="#FF4500" />
+    <path d="M60 40 L55 35 L65 35 Z" fill="#FF4500" />
+    <!-- Other person with object -->
+    <circle cx="200" cy="50" r="30" class="image" />
+    <circle cx="200" cy="50" r="25" fill="#FFF" />
+    <circle cx="190" cy="45" r="5" fill="#000" />
+    <circle cx="210" cy="45" r="5" fill="#000" />
+    <line x1="190" y1="60" x2="210" y2="60" class="image" />
+    <!-- Object -->
+    <rect x="220" y="30" width="30" height="40" class="image" />
+    <line x1="235" y1="30" x2="235" y2="70" class="image" />
+  </g>
+</svg>

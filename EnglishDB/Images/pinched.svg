@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pinched</text>
+  <text x="50" y="120" class="subtitle">[pɪntʃt] adj. 捏过的，紧缩的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pinch (捏) + -ed (过去分词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用手指"捏(pinch)"住一块肉，
+    <tspan x="50" dy="25">结果肉被捏得变形了，这就是"pinched"的状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She gave him a pinched look when he forgot her birthday.
+  </text>
+  <text x="50" y="310" class="content">
+    当他忘记她的生日时，她给了他一个紧缩的表情。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hand pinching flesh -->
+    <line x1="50" y1="50" x2="150" y2="50" class="image" />
+    <line x1="50" y1="50" x2="50" y2="150" class="image" />
+    <line x1="150" y1="50" x2="150" y2="150" class="image" />
+    <line x1="50" y1="150" x2="150" y2="150" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="75" y1="100" x2="125" y2="100" class="image" />
+    <line x1="75" y1="100" x2="75" y2="120" class="image" />
+    <line x1="125" y1="100" x2="125" y2="120" class="image" />
+    <line x1="75" y1="120" x2="125" y2="120" class="image" />
+  </g>
+</svg>

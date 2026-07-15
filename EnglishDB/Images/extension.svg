@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">extension</text>
+  <text x="50" y="120" class="subtitle">[ɪkˈstenʃən] n. 扩展，延伸</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (向外) + tend (伸展) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只手从一个小盒子中"向外伸展(ex-tend)"，
+    <tspan x="50" dy="25">这个动作就形成了一个扩展(extension)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The extension of the building added more space for the library.
+  </text>
+  <text x="50" y="310" class="content">
+    建筑的扩展为图书馆增加了更多空间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Box -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <!-- Hand extending out -->
+    <line x1="75" y1="100" x2="75" y2="200" class="image" />
+    <line x1="75" y1="150" x2="50" y2="175" class="image" />
+    <line x1="75" y1="150" x2="100" y2="175" class="image" />
+    <line x1="75" y1="150" x2="75" y2="175" class="image" />
+    <line x1="75" y1="150" x2="50" y2="125" class="image" />
+    <line x1="75" y1="150" x2="100" y2="125" class="image" />
+  </g>
+</svg>

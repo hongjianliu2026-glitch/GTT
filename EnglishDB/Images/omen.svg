@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">omen</text>
+  <text x="50" y="120" class="subtitle">[ˈoʊmən] n. 预兆，征兆</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> o- (表示“眼睛”) + men (表示“提醒”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只眼睛(o-)在提醒(men)你，
+    <tspan x="50" dy="25">预示着即将发生的事情，这就是预兆(omen)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The black cat crossing our path was considered an omen of bad luck.
+  </text>
+  <text x="50" y="310" class="content">
+    那只黑猫穿过我们的路被认为是厄运的预兆。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eye -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" fill="#2C3E50" />
+    <!-- Warning sign -->
+    <polygon points="150,50 200,150 100,150" class="image" fill="#E74C3C" />
+    <text x="155" y="100" class="content" fill="#FFFFFF">!</text>
+  </g>
+</svg>

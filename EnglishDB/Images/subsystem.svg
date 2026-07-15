@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">subsystem</text>
+  <text x="50" y="120" class="subtitle">[ˈsʌbˌsɪstəm] n. 子系统</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sub- (在下面) + system (系统)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个大系统(system)下面有一个小系统(sub-system)，
+    <tspan x="50" dy="25">就像一个大房子里有一个小房间，这个小房间就是一个子系统(subsystem)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cooling subsystem of the engine is malfunctioning.
+  </text>
+  <text x="50" y="310" class="content">
+    发动机的冷却子系统出现了故障。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large system -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Small subsystem -->
+    <rect x="50" y="50" width="250" height="100" class="image" />
+    <!-- Arrow -->
+    <line x1="200" y1="50" x2="200" y2="150" class="image" />
+    <polygon points="195,150 205,150 200,160" class="image" />
+    <!-- Labels -->
+    <text x="150" y="25" class="content" text-anchor="middle">System</text>
+    <text x="175" y="125" class="content" text-anchor="middle">Subsystem</text>
+  </g>
+</svg>

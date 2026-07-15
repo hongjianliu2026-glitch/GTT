@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">leisure</text>
+  <text x="50" y="120" class="subtitle">[ˈliːʒər] n. 闲暇，空闲</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> leis (放松) + ure (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人躺在沙滩椅上，手里拿着一杯冰镇饮料，
+    <tspan x="50" dy="25">"放松(leis)" 享受着 "空闲(ure)" 的时光，这就是 "闲暇(leisure)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He spent his leisure time reading books.
+  </text>
+  <text x="50" y="310" class="content">
+    他利用空闲时间读书。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beach chair -->
+    <rect x="0" y="0" width="150" height="50" class="image" />
+    <rect x="20" y="50" width="110" height="20" class="image" />
+    <!-- Person -->
+    <circle cx="75" cy="80" r="15" class="image" />
+    <line x1="75" y1="95" x2="75" y2="120" class="image" />
+    <line x1="75" y1="120" x2="60" y2="140" class="image" />
+    <line x1="75" y1="120" x2="90" y2="140" class="image" />
+    <line x1="75" y1="105" x2="100" y2="95" class="image" />
+    <!-- Drink -->
+    <rect x="110" y="70" width="20" height="30" class="image" />
+    <line x1="120" y1="70" x2="120" y2="100" class="image" />
+  </g>
+</svg>

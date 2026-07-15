@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">redwood</text>
+  <text x="50" y="120" class="subtitle">[ˈrɛdˌwʊd] n. 红杉，红木</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> red (红色) + wood (木头)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片森林，"红色的木头(red-wood)"
+    <tspan x="50" dy="25">高耸入云，这些巨大的红杉树就是红木(redwood)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The redwood trees in California are among the tallest in the world.
+  </text>
+  <text x="50" y="310" class="content">
+    加利福尼亚的红杉树是世界上最高的树之一。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree trunk -->
+    <rect x="50" y="0" width="50" height="200" class="image" fill="#8B4513" />
+    <!-- Tree top -->
+    <ellipse cx="75" cy="150" rx="75" ry="50" class="image" fill="#228B22" />
+    <!-- Red color -->
+    <rect x="50" y="0" width="50" height="200" class="image" fill="none" stroke="#FF0000" stroke-width="5" />
+  </g>
+</svg>

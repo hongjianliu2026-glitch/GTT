@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Olympics</text>
+  <text x="50" y="120" class="subtitle">[əˈlɪmpɪks] n. 奥林匹克运动会</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Olym- (奥林匹斯山) + pics (运动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在奥林匹斯山上，众神们举办了一场盛大的运动会，
+    <tspan x="50" dy="25">这就是奥林匹克运动会(Olympics)的由来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Olympics are held every four years.
+  </text>
+  <text x="50" y="310" class="content">
+    奥运会每四年举办一次。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountain -->
+    <polygon points="0,200 175,0 350,200" class="image" />
+    <!-- Stadium -->
+    <rect x="100" y="150" width="150" height="50" class="image" />
+    <!-- Athletes -->
+    <circle cx="120" cy="180" r="10" class="image" />
+    <circle cx="150" cy="180" r="10" class="image" />
+    <circle cx="180" cy="180" r="10" class="image" />
+    <circle cx="210" cy="180" r="10" class="image" />
+    <circle cx="240" cy="180" r="10" class="image" />
+    <!-- Torch -->
+    <line x1="175" y1="100" x2="175" y2="150" class="image" />
+    <circle cx="175" cy="90" r="10" class="image" fill="#FFD700" />
+  </g>
+</svg>

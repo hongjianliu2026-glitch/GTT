@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">whimper</text>
+  <text x="50" y="120" class="subtitle">[ˈwɪmpər] v. 呜咽，啜泣；n. 呜咽声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> whi- (轻微的声音) + mper (发出声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小狗在角落里，"发出轻微的呜咽声(whi-mper)"，
+    <tspan x="50" dy="25">因为它感到害怕或疼痛。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The child whimperred when she saw the scary movie.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子看到恐怖电影时呜咽起来。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dog -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="140" class="image" /> <!-- Front leg -->
+    <line x1="50" y1="150" x2="80" y2="140" class="image" /> <!-- Back leg -->
+    <line x1="50" y1="180" x2="20" y2="200" class="image" /> <!-- Tail -->
+    <!-- Whimper sound -->
+    <path d="M 50 70 Q 70 60 90 70" class="image" />
+    <path d="M 50 80 Q 70 70 90 80" class="image" />
+    <path d="M 50 90 Q 70 80 90 90" class="image" />
+  </g>
+</svg>

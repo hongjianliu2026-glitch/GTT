@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bent</text>
+  <text x="50" y="120" class="subtitle">[bent] adj. 弯曲的，决心的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bent (弯曲)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一根被风吹弯的树枝，"弯曲(bent)"
+    <tspan x="50" dy="25">的形状让人印象深刻，就像一个人下定决心(bent)一样坚定。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tree branch was bent by the strong wind.
+  </text>
+  <text x="50" y="310" class="content">
+    树枝被强风吹弯了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Bent branch -->
+    <path d="M 0 100 Q 100 50 200 100" class="image" />
+    <!-- Wind symbol -->
+    <path d="M 50 50 Q 75 25 100 50" class="image" />
+    <path d="M 75 75 Q 100 50 125 75" class="image" />
+    <path d="M 100 100 Q 125 75 150 100" class="image" />
+  </g>
+</svg>

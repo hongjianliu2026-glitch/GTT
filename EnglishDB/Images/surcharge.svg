@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">surcharge</text>
+  <text x="50" y="120" class="subtitle">[ˈsɜːrtʃɑːrdʒ] n. 附加费；v. 收取附加费</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sur- (在上面) + charge (费用)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个账单上，"在费用(charge)上面再加(sur-)"
+    <tspan x="50" dy="25">一笔额外的费用，这就是附加费(surcharge)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The airline added a surcharge for checked baggage.
+  </text>
+  <text x="50" y="310" class="content">
+    航空公司对托运行李收取了附加费。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bill -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Charge -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Surcharge -->
+    <rect x="50" y="20" width="250" height="50" class="image" fill="#F39C12" />
+    <!-- Arrow -->
+    <line x1="175" y1="70" x2="175" y2="100" class="image" />
+    <polygon points="170,100 180,100 175,110" class="image" />
+    <!-- Text -->
+    <text x="120" y="50" class="content" fill="#FFFFFF">Surcharge</text>
+  </g>
+</svg>

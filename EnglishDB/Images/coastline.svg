@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">coastline</text>
+  <text x="50" y="120" class="subtitle">[ˈkoʊstlaɪn] n. 海岸线</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> coast (海岸) + line (线)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条蜿蜒的"线(line)"沿着"海岸(coast)"延伸，
+    <tspan x="50" dy="25">就像一条巨龙在海浪中游动，这就是海岸线(coastline)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The coastline is dotted with picturesque villages.
+  </text>
+  <text x="50" y="310" class="content">
+    海岸线上点缀着风景如画的村庄。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sea -->
+    <rect x="0" y="0" width="350" height="200" fill="#3498DB" />
+    <!-- Coastline -->
+    <path d="M50,200 Q100,150 150,200 T250,200 T300,150 T350,200" class="image" />
+    <!-- Waves -->
+    <path d="M50,180 Q70,160 90,180 T130,180 T150,160 T170,180" class="image" />
+    <path d="M190,180 Q210,160 230,180 T270,180 T290,160 T310,180" class="image" />
+    <!-- Sun -->
+    <circle cx="30" cy="30" r="20" fill="#F1C40F" />
+  </g>
+</svg>

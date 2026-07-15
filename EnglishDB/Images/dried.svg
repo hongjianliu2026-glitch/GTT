@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dried</text>
+  <text x="50" y="120" class="subtitle">[draɪd] adj. 干燥的，脱水的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dry (干燥) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片原本湿润的水果，经过阳光的照射，水分逐渐蒸发，最终变成了干燥的(dried)水果。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She packed some dried fruits for the trip.
+  </text>
+  <text x="50" y="310" class="content">
+    她为旅行打包了一些脱水水果。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="50" r="30" fill="#F1C40F" />
+    <!-- Fruit before drying -->
+    <circle cx="100" cy="150" r="20" fill="#2ECC71" />
+    <!-- Fruit after drying -->
+    <circle cx="200" cy="150" r="20" fill="#7F8C8D" />
+    <!-- Sun rays -->
+    <line x1="100" y1="80" x2="100" y2="130" class="image" />
+    <line x1="70" y1="100" x2="130" y2="100" class="image" />
+    <!-- Arrow -->
+    <line x1="120" y1="150" x2="180" y2="150" class="image" />
+    <polygon points="180,150 170,145 170,155" fill="#7F8C8D" />
+  </g>
+</svg>

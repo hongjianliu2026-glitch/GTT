@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ghastly</text>
+  <text x="50" y="120" class="subtitle">[ˈɡæstli] adj. 可怕的，恐怖的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ghast (恐怖) + -ly (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个幽灵(ghast)在夜晚飘荡，它的出现让人感到"恐怖的(ghastly)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The movie had a ghastly ending that left everyone in shock.
+  </text>
+  <text x="50" y="310" class="content">
+    这部电影有一个可怕的结局，让所有人都震惊了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Ghost -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="200" x2="50" y2="180" class="image" />
+    <line x1="100" y1="200" x2="150" y2="180" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="90" r="5" fill="#000" />
+    <circle cx="120" cy="90" r="5" fill="#000" />
+    <!-- Mouth -->
+    <path d="M70 120 Q100 130 130 120" stroke="#000" stroke-width="2" fill="none" />
+  </g>
+</svg>

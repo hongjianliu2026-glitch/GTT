@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cramp</text>
+  <text x="50" y="120" class="subtitle">[kræmp] n. 抽筋，夹子；v. 限制，束缚</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cram (压紧) + p (表示动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象你的腿突然被"压紧(cram)"，肌肉"抽筋(cramp)"，
+    <tspan x="50" dy="25">疼痛难忍，就像被一个巨大的夹子夹住一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> I got a cramp in my leg while running.
+  </text>
+  <text x="50" y="310" class="content">
+    我在跑步时腿抽筋了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Leg with cramp -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="150" y2="180" class="image" />
+    <line x1="150" y1="180" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="200" y1="100" x2="200" y2="20" class="image" />
+    <!-- Cramp symbol -->
+    <circle cx="100" cy="140" r="20" class="image" />
+    <line x1="100" y1="140" x2="100" y2="180" class="image" />
+    <line x1="100" y1="160" x2="80" y2="140" class="image" />
+    <line x1="100" y1="160" x2="120" y2="140" class="image" />
+  </g>
+</svg>

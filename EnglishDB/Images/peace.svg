@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #6C3483; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">peace</text>
+  <text x="50" y="120" class="subtitle">[piːs] n. 和平，平静</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> peac (和平)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个宁静的湖面，"平静(peace)"
+    <tspan x="50" dy="25">如镜，没有一丝波澜，象征着和平与安宁。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The two countries signed a peace treaty.
+  </text>
+  <text x="50" y="310" class="content">
+    两国签署了和平条约。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lake -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <ellipse cx="175" cy="100" rx="150" ry="80" class="image" />
+    <!-- Peace symbol -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <line x1="175" y1="50" x2="175" y2="150" class="image" />
+    <line x1="125" y1="100" x2="225" y2="100" class="image" />
+  </g>
+</svg>

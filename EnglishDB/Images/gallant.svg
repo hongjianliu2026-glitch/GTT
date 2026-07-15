@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gallant</text>
+  <text x="50" y="120" class="subtitle">[ˈɡælənt] adj. 英勇的，豪侠的；n. 骑士，勇士</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gall (勇气) + -ant (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个骑士身穿闪亮的盔甲，手持长剑，
+    <tspan x="50" dy="25">勇敢地(gall-ant)面对巨龙，保护他的公主。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The gallant knight rescued the princess from the dragon.
+  </text>
+  <text x="50" y="310" class="content">
+    英勇的骑士从巨龙手中救出了公主。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Knight -->
+    <circle cx="50" cy="100" r="20" class="image" /> <!-- Head -->
+    <line x1="50" y1="120" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="180" x2="30" y2="220" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="180" x2="70" y2="220" class="image" /> <!-- Right leg -->
+    <line x1="50" y1="140" x2="30" y2="160" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="140" x2="70" y2="160" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="140" x2="50" y2="160" class="image" /> <!-- Sword -->
+
+    <!-- Dragon -->
+    <path d="M150,100 C150,50 250,50 250,100" class="image" /> <!-- Body -->
+    <line x1="150" y1="100" x2="130" y2="120" class="image" /> <!-- Left wing -->
+    <line x1="250" y1="100" x2="270" y2="120" class="image" /> <!-- Right wing -->
+    <circle cx="150" cy="100" r="10" class="image" /> <!-- Left eye -->
+    <circle cx="250" cy="100" r="10" class="image" /> <!-- Right eye -->
+  </g>
+</svg>

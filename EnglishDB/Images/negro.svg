@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">negro</text>
+  <text x="50" y="120" class="subtitle">[ˈniːɡroʊ] n. 黑人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> negro (黑色)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个黑人站在阳光下，他的皮肤因为阳光的照射而显得更加"黑色(negro)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The negro man was proud of his heritage.
+  </text>
+  <text x="50" y="310" class="content">
+    这位黑人男子为自己的传统感到自豪。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="200" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Black man -->
+    <circle cx="200" cy="200" r="30" class="image" fill="#000" />
+    <line x1="200" y1="230" x2="200" y2="280" class="image" />
+    <line x1="200" y1="280" x2="170" y2="320" class="image" />
+    <line x1="200" y1="280" x2="230" y2="320" class="image" />
+    <line x1="200" y1="250" x2="150" y2="240" class="image" />
+    <line x1="200" y1="250" x2="250" y2="240" class="image" />
+  </g>
+</svg>

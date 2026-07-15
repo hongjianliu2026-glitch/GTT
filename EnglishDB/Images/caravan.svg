@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">caravan</text>
+  <text x="50" y="120" class="subtitle">[ˈkærəvæn] n. 大篷车，商队</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> car (车) + van (篷)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一辆"车(car)"上盖着"篷(van)"，
+    <tspan x="50" dy="25">形成了一个移动的"大篷车(caravan)"，</tspan>
+    <tspan x="50" dy="25">商人们带着货物穿越沙漠。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The caravan traveled across the desert to trade goods.
+  </text>
+  <text x="50" y="310" class="content">
+    商队穿越沙漠进行货物交易。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Caravan -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Car -->
+    <rect x="50" y="20" width="250" height="100" class="image" />
+    <!-- Tent -->
+    <polygon points="50,20 300,20 275,0 75,0" class="image" />
+    <!-- Wheels -->
+    <circle cx="80" cy="130" r="15" class="image" />
+    <circle cx="270" cy="130" r="15" class="image" />
+    <!-- Merchants -->
+    <circle cx="100" cy="70" r="10" class="image" />
+    <circle cx="200" cy="70" r="10" class="image" />
+  </g>
+</svg>

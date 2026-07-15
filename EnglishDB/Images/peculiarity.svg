@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">peculiarity</text>
+  <text x="50" y="120" class="subtitle">[pɪˌkjuːliˈærəti] n. 特性，怪癖</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> peculi- (特有的) + -arity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人穿着奇装异服，"特有的(peculi-)"
+    <tspan x="50" dy="25">怪癖(peculiarity)让人一眼就能认出他。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His peculiarity of always wearing mismatched socks made him stand out.
+  </text>
+  <text x="50" y="310" class="content">
+    他总是穿错配的袜子，这一怪癖让他与众不同。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person with peculiar outfit -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="200" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="180" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="150" x2="80" y2="180" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="200" x2="20" y2="250" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="200" x2="80" y2="250" class="image" /> <!-- Right leg -->
+    <!-- Peculiar outfit -->
+    <rect x="10" y="70" width="80" height="30" class="image" /> <!-- Shirt -->
+    <rect x="0" y="200" width="30" height="50" class="image" /> <!-- Left sock -->
+    <rect x="70" y="200" width="30" height="50" class="image" /> <!-- Right sock -->
+    <line x1="15" y1="225" x2="25" y2="225" class="image" /> <!-- Left sock pattern -->
+    <line x1="75" y1="225" x2="85" y2="225" class="image" /> <!-- Right sock pattern -->
+  </g>
+</svg>

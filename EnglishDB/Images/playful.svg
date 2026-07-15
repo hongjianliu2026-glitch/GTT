@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">playful</text>
+  <text x="50" y="120" class="subtitle">[ˈpleɪfəl] adj. 爱玩耍的，嬉戏的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> play (玩耍) + -ful (充满...的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小猫在阳光下追逐自己的尾巴，"充满玩耍(play-ful)"
+    <tspan x="50" dy="25">的快乐，这就是playful的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The children were very playful at the park.
+  </text>
+  <text x="50" y="310" class="content">
+    孩子们在公园里玩得很开心。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Cat -->
+    <circle cx="200" cy="150" r="30" fill="#3498DB" />
+    <line x1="200" y1="180" x2="200" y2="250" class="image" />
+    <line x1="200" y1="250" x2="170" y2="280" class="image" />
+    <line x1="200" y1="250" x2="230" y2="280" class="image" />
+    <line x1="200" y1="220" x2="250" y2="210" class="image" />
+    <!-- Tail -->
+    <path d="M230,150 C250,130 270,140 280,160" class="image" />
+  </g>
+</svg>

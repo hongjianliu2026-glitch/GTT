@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sinus</text>
+  <text x="50" y="120" class="subtitle">[ˈsaɪnəs] n. 窦，窦道</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sin- (弯曲) + -us (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个弯曲的通道，"弯曲(sin-)"
+    <tspan x="50" dy="25">形成了窦道(sinus)，就像鼻窦一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He suffers from sinusitis, which causes his nose to be blocked.
+  </text>
+  <text x="50" y="310" class="content">
+    他患有鼻窦炎，导致鼻子堵塞。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sinus shape -->
+    <path d="M 0 100 Q 50 50 100 100 Q 150 150 200 100" class="image" />
+    <!-- Nose -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Sinus channel -->
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="100" y1="70" x2="100" y2="130" class="image" />
+    <!-- Sinusitis -->
+    <rect x="80" y="80" width="40" height="40" class="image" />
+  </g>
+</svg>

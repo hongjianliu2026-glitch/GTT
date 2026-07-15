@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">abandoned</text>
+  <text x="50" y="120" class="subtitle">[əˈbændənd] adj. 被遗弃的，废弃的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ab- (离开) + -andon (放弃)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个被遗弃的玩具，"离开(ab-)"
+    <tspan x="50" dy="25">并被"放弃(andon)"在角落里，</tspan>
+    <tspan x="50" dy="25">它孤独地躺在那里，无人问津。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The abandoned house was covered in ivy.
+  </text>
+  <text x="50" y="310" class="content">
+    那座废弃的房子被常春藤覆盖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Abandoned toy -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="210" class="image" />
+    <line x1="50" y1="180" x2="70" y2="210" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Dust -->
+    <circle cx="50" cy="220" r="5" class="image" />
+    <circle cx="60" cy="230" r="5" class="image" />
+    <circle cx="40" cy="240" r="5" class="image" />
+    <circle cx="70" cy="250" r="5" class="image" />
+    <circle cx="30" cy="260" r="5" class="image" />
+  </g>
+</svg>

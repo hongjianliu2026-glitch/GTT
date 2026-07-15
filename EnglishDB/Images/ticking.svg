@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ticking</text>
+  <text x="50" y="120" class="subtitle">[ˈtɪkɪŋ] n. 滴答声，钟表的滴答声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tick (滴答声) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的钟表，"滴答滴答(tick-ing)"
+    <tspan x="50" dy="25">的声音在安静的房间里回荡，每一声都像是时间的脚步。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ticking of the clock was the only sound in the room.
+  </text>
+  <text x="50" y="310" class="content">
+    钟表的滴答声是房间里唯一的声音。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock face -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Clock hands -->
+    <line x1="175" y1="100" x2="175" y2="30" class="image" />
+    <line x1="175" y1="100" x2="225" y2="100" class="image" />
+    <!-- Ticking sound -->
+    <text x="150" y="220" class="content" style="font-size: 36px;">🔊</text>
+  </g>
+</svg>

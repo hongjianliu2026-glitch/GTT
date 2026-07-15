@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">signifier</text>
+  <text x="50" y="120" class="subtitle">[ˈsɪɡnɪfaɪər] n. 能指，指示物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sign (标记) + -ifier (表示“做某事的人或物”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的箭头"标记(sign)"指向某个物体，这个箭头就是"指示物(signifier)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The red light is a signifier that the traffic is about to change.
+  </text>
+  <text x="50" y="310" class="content">
+    红灯是一个指示交通即将变化的能指。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Arrow -->
+    <line x1="0" y1="100" x2="200" y2="100" class="image" />
+    <line x1="200" y1="100" x2="180" y2="80" class="image" />
+    <line x1="200" y1="100" x2="180" y2="120" class="image" />
+    <!-- Object -->
+    <rect x="220" y="80" width="60" height="40" class="image" />
+    <text x="230" y="110" class="content">Object</text>
+  </g>
+</svg>

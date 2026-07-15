@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">individually</text>
+  <text x="50" y="120" class="subtitle">[ˌɪndɪˈvɪdʒuəli] adv. 个别地，单独地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + divid (分开) + -ual (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人被"分开(divid)"，每个人都被"单独(in-divid-ual-ly)"对待，就像每个人都有一个独立的房间。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The teacher asked the students to work individually on their projects.
+  </text>
+  <text x="50" y="310" class="content">
+    老师要求学生们各自独立完成他们的项目。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Individual rooms -->
+    <rect x="0" y="0" width="100" height="100" class="image" />
+    <rect x="120" y="0" width="100" height="100" class="image" />
+    <rect x="240" y="0" width="100" height="100" class="image" />
+    <!-- People in rooms -->
+    <circle cx="50" cy="50" r="15" class="image" />
+    <circle cx="170" cy="50" r="15" class="image" />
+    <circle cx="290" cy="50" r="15" class="image" />
+    <!-- Dividing lines -->
+    <line x1="100" y1="0" x2="100" y2="100" class="image" />
+    <line x1="220" y1="0" x2="220" y2="100" class="image" />
+  </g>
+</svg>

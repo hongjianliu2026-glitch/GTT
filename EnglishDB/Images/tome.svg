@@ -1,0 +1,159 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tome</text>
+  <text x="50" y="120" class="subtitle">[toʊm] n. 大部头书，巨著</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tomo- (卷，册)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的书架上，"卷(tomo-)"
+    <tspan x="50" dy="25">着一本厚重的书，这本书就是tome。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He spent months reading the ancient tome.
+  </text>
+  <text x="50" y="310" class="content">
+    他花了数月时间阅读那本古老的巨著。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bookshelf -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Books -->
+    <rect x="50" y="20" width="100" height="160" class="image" />
+    <rect x="170" y="20" width="100" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <!-- Tome -->
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <rect x="290" y="20"

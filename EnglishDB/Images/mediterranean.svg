@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .sea { fill: #3498DB; }
+      .land { fill: #2ECC71; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Mediterranean</text>
+  <text x="50" y="120" class="subtitle">[ˌmɛdɪtəˈreɪniən] adj. 地中海的；n. 地中海</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> medius (中间) + terra (土地)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片"中间的土地(medius-terra)"被大海环绕，
+    <tspan x="50" dy="25">这就是地中海(Mediterranean)的由来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Mediterranean climate is known for its mild winters and hot summers.
+  </text>
+  <text x="50" y="310" class="content">
+    地中海气候以其温和的冬季和炎热的夏季而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sea -->
+    <rect x="0" y="0" width="350" height="200" class="sea" />
+    <!-- Land -->
+    <rect x="100" y="50" width="150" height="100" class="land" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" fill="#F1C40F" />
+    <!-- Boat -->
+    <polygon points="20,180 60,180 40,200" class="image" fill="#D35400" />
+    <!-- Waves -->
+    <line x1="0" y1="20" x2="350" y2="20" class="image" />
+    <line x1="0" y1="40" x2="350" y2="40" class="image" />
+    <line x1="0" y1="60" x2="350" y2="60" class="image" />
+  </g>
+</svg>

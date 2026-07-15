@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">centrality</text>
+  <text x="50" y="120" class="subtitle">[ˌsɛnˈtrælɪti] n. 中心性，中央性</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> centr (中心) + al (形容词后缀) + ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的城市，所有的道路都汇聚到一个"中心(centr)"，
+    <tspan x="50" dy="25">这个中心就是城市的"中心性(centrality)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The centrality of the city makes it a hub for transportation.
+  </text>
+  <text x="50" y="310" class="content">
+    城市的中心性使其成为交通枢纽。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- City center -->
+    <circle cx="175" cy="100" r="50" class="image" fill="#F39C12" />
+    <!-- Roads -->
+    <line x1="175" y1="150" x2="175" y2="300" class="image" />
+    <line x1="175" y1="150" x2="300" y2="225" class="image" />
+    <line x1="175" y1="150" x2="50" y2="225" class="image" />
+    <line x1="175" y1="150" x2="100" y2="300" class="image" />
+    <line x1="175" y1="150" x2="250" y2="300" class="image" />
+    <!-- Label -->
+    <text x="150" y="350" class="content" text-anchor="middle">中心性</text>
+  </g>
+</svg>

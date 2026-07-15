@@ -1,0 +1,120 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">continuous</text>
+  <text x="50" y="120" class="subtitle">[kənˈtɪnjuəs] adj. 连续的，持续的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (一起) + tinu (保持) + -ous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条河流，"保持(tinu)"
+    <tspan x="50" dy="25">在一起(con-)"，永不停歇地流动，这就是连续的(continuous)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The continuous rain made the river overflow.
+  </text>
+  <text x="50" y="310" class="content">
+    持续的降雨使得河流泛滥。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- River -->
+    <path d="M0 0 C 100 50, 200 50, 300 0" class="image" />
+    <path d="M0 20 C 100 70, 200 70, 300 20" class="image" />
+    <path d="M0 40 C 100 90, 200 90, 300 40" class="image" />
+    <path d="M0 60 C 100 110, 200 110, 300 60" class="image" />
+    <path d="M0 80 C 100 130, 200 130, 300 80" class="image" />
+    <path d="M0 100 C 100 150, 200 150, 300 100" class="image" />
+    <path d="M0 120 C 100 170, 200 170, 300 120" class="image" />
+    <path d="M0 140 C 100 190, 200 190, 300 140" class="image" />
+    <path d="M0 160 C 100 210, 200 210, 300 160" class="image" />
+    <path d="M0 180 C 100 230, 200 230, 300 180" class="image" />
+    <path d="M0 200 C 100 250, 200 250, 300 200" class="image" />
+    <path d="M0 220 C 100 270, 200 270, 300 220" class="image" />
+    <path d="M0 240 C 100 290, 200 290, 300 240" class="image" />
+    <path d="M0 260 C 100 310, 200 310, 300 260" class="image" />
+    <path d="M0 280 C 100 330, 200 330, 300 280" class="image" />
+    <path d="M0 300 C 100 350, 200 350, 300 300" class="image" />
+    <path d="M0 320 C 100 370, 200 370, 300 320" class="image" />
+    <path d="M0 340 C 100 390, 200 390, 300 340" class="image" />
+    <path d="M0 360 C 100 410, 200 410, 300 360" class="image" />
+    <path d="M0 380 C 100 430, 200 430, 300 380" class="image" />
+    <path d="M0 400 C 100 450, 200 450, 300 400" class="image" />
+    <path d="M0 420 C 100 470, 200 470, 300 420" class="image" />
+    <path d="M0 440 C 100 490, 200 490, 300 440" class="image" />
+    <path d="M0 460 C 100 510, 200 510, 300 460" class="image" />
+    <path d="M0 480 C 100 530, 200 530, 300 480" class="image" />
+    <path d="M0 500 C 100 550, 200 550, 300 500" class="image" />
+    <path d="M0 520 C 100 570, 200 570, 300 520" class="image" />
+    <path d="M0 540 C 100 590, 200 590, 300 540" class="image" />
+    <path d="M0 560 C 100 610, 200 610, 300 560" class="image" />
+    <path d="M0 580 C 100 630, 200 630, 300 580" class="image" />
+    <path d="M0 600 C 100 650, 200 650, 300 600" class="image" />
+    <path d="M0 620 C 100 670, 200 670, 300 620" class="image" />
+    <path d="M0 640 C 100 690, 200 690, 300 640" class="image" />
+    <path d="M0 660 C 100 710, 200 710, 300 660" class="image" />
+    <path d="M0 680 C 100 730, 200 730, 300 680" class="image" />
+    <path d="M0 700 C 100 750, 200 750, 300 700" class="image" />
+    <path d="M0 720 C 100 770, 200 770, 300 720" class="image" />
+    <path d="M0 740 C 100 790, 200 790, 300 740" class="image" />
+    <path d="M0 760 C 100 810, 200 810, 300 760" class="image" />
+    <path d="M0 780 C 100 830, 200 830, 300 780" class="image" />
+    <path d="M0 800 C 100 850, 200 850, 300 800" class="image" />
+    <path d="M0 820 C 100 870, 200 870, 300 820" class="image" />
+    <path d="M0 840 C 100 890, 200 890, 300 840" class="image" />
+    <path d="M0 860 C 100 910, 200 910, 300 860" class="image" />
+    <path d="M0 880 C 100 930, 200 930, 300 880" class="image" />
+    <path d="M0 900 C 100 950, 200 950, 300 900" class="image" />
+    <path d="M0 920 C 100 970, 200 970, 300 920" class="image" />
+    <path d="M0 940 C 100 990, 200 990, 300 940" class="image" />
+    <path d="M0 960 C 100 1010, 200 1010, 300 960" class="image" />
+    <path d="M0 980 C 100 1030, 200 1030, 300 980" class="image" />
+    <path d="M0 1000 C 100 1050, 200 1050, 300 1000" class="image" />
+    <path d="M0 1020 C 100 1070, 200 1070, 300 1020" class="image" />
+    <path d="M0 1040 C 100 1090, 200 1090, 300 1040" class="image" />
+    <path d="M0 1060 C 100 1110, 200 1110, 300 1060" class="image" />
+    <path d="M0 1080 C 100 1130, 200 1130, 300 1080" class="image" />
+    <path d="M0 1100 C 100 1150, 200 1150, 300 1100" class="image" />
+    <path d="M0 1120 C 100 1170, 200 1170, 300 1120" class="image" />
+    <path d="M0 1140 C 100 1190, 200 1190, 300 1140" class="image" />
+    <path d="M0 1160 C 100 1210, 200 1210, 300 1160" class="image" />
+    <path d="M0 1180 C 100 1230, 200 1230, 300 1180" class="image" />
+    <path d="M0 1200 C 100 1250, 200 1250, 300 1200" class="image" />
+    <path d="M0 1220 C 100 1270, 200 1270, 300 1220" class="image" />
+    <path d="M0 1240 C 100 1290, 200 1290, 300 1240" class="image" />
+    <path d="M0 1260 C 100 1310, 200 1310, 300 1260" class="image" />
+    <path d="M0 1280 C 100 1330, 200 1330, 300 1280" class="image" />
+    <path d="M0 1300 C 100 1350, 200 1350, 300 1300" class="image" />
+    <path d="M0 1320 C 100 1370, 200 1370, 300 1320" class="image" />
+    <path d="M0 1340 C 100 1390, 200 1390, 300 1340" class="image" />
+    <path d="M0 1360 C 100 1410, 200 1410, 300 1360" class="image" />
+    <path d="M0 1380 C 100 1430, 200 1430, 300 1380" class="image" />
+    <path d="M0 1400 C 100 1450, 200 1450, 300 1400" class="image" />
+    <path d="M0 1420 C 100 1470, 200 1470, 300 1420" class="image" />
+    <path d="M0 1440 C 100 1490, 200 1490, 300 1440" class="image" />
+    <path d="M0 1460 C 100 1510, 200 1510, 300 1460" class="image" />
+    <path d="M0 1480 C 100 1530, 200 1530, 300 1480" class="image" />
+    <path d="M0 1500 C 100 1550, 200 1550, 300 1500" class="image" />
+   

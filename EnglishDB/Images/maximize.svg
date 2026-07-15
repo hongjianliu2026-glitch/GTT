@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">maximize</text>
+  <text x="50" y="120" class="subtitle">[ˈmæksɪmaɪz] v. 最大化</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> max (大) + -ize (使...)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨人站在地球上，"使(ize)"
+    <tspan x="50" dy="25">一切变得"最大(max)"，这就是最大化(maximize)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We need to maximize our profits this quarter.
+  </text>
+  <text x="50" y="310" class="content">
+    我们需要在这个季度最大化我们的利润。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Giant -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <line x1="100" y1="180" x2="50" y2="150" class="image" />
+    <line x1="100" y1="180" x2="150" y2="150" class="image" />
+    <!-- Earth -->
+    <circle cx="100" cy="350" r="100" class="image" />
+    <!-- Maximize symbol -->
+    <text x="250" y="250" class="title" style="font-size: 60px;">MAX</text>
+  </g>
+</svg>

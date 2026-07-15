@@ -1,0 +1,121 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tornado</text>
+  <text x="50" y="120" class="subtitle">[tɔːrˈneɪdoʊ] n. 龙卷风</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> torn (旋转) + -ado (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的旋转(torn)风暴，它像一条巨龙(ado)一样
+    <tspan x="50" dy="25">在天空中肆虐，这就是龙卷风(tornado)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tornado destroyed several houses in the village.
+  </text>
+  <text x="50" y="310" class="content">
+    龙卷风摧毁了村里的几栋房子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tornado -->
+    <path d="M 0 0 Q 50 100 100 0 T 200 0" class="image" />
+    <path d="M 0 20 Q 50 120 100 20 T 200 20" class="image" />
+    <path d="M 0 40 Q 50 140 100 40 T 200 40" class="image" />
+    <path d="M 0 60 Q 50 160 100 60 T 200 60" class="image" />
+    <path d="M 0 80 Q 50 180 100 80 T 200 80" class="image" />
+    <path d="M 0 100 Q 50 200 100 100 T 200 100" class="image" />
+    <path d="M 0 120 Q 50 220 100 120 T 200 120" class="image" />
+    <path d="M 0 140 Q 50 240 100 140 T 200 140" class="image" />
+    <path d="M 0 160 Q 50 260 100 160 T 200 160" class="image" />
+    <path d="M 0 180 Q 50 280 100 180 T 200 180" class="image" />
+    <path d="M 0 200 Q 50 300 100 200 T 200 200" class="image" />
+    <path d="M 0 220 Q 50 320 100 220 T 200 220" class="image" />
+    <path d="M 0 240 Q 50 340 100 240 T 200 240" class="image" />
+    <path d="M 0 260 Q 50 360 100 260 T 200 260" class="image" />
+    <path d="M 0 280 Q 50 380 100 280 T 200 280" class="image" />
+    <path d="M 0 300 Q 50 400 100 300 T 200 300" class="image" />
+    <path d="M 0 320 Q 50 420 100 320 T 200 320" class="image" />
+    <path d="M 0 340 Q 50 440 100 340 T 200 340" class="image" />
+    <path d="M 0 360 Q 50 460 100 360 T 200 360" class="image" />
+    <path d="M 0 380 Q 50 480 100 380 T 200 380" class="image" />
+    <path d="M 0 400 Q 50 500 100 400 T 200 400" class="image" />
+    <path d="M 0 420 Q 50 520 100 420 T 200 420" class="image" />
+    <path d="M 0 440 Q 50 540 100 440 T 200 440" class="image" />
+    <path d="M 0 460 Q 50 560 100 460 T 200 460" class="image" />
+    <path d="M 0 480 Q 50 580 100 480 T 200 480" class="image" />
+    <path d="M 0 500 Q 50 600 100 500 T 200 500" class="image" />
+    <path d="M 0 520 Q 50 620 100 520 T 200 520" class="image" />
+    <path d="M 0 540 Q 50 640 100 540 T 200 540" class="image" />
+    <path d="M 0 560 Q 50 660 100 560 T 200 560" class="image" />
+    <path d="M 0 580 Q 50 680 100 580 T 200 580" class="image" />
+    <path d="M 0 600 Q 50 700 100 600 T 200 600" class="image" />
+    <path d="M 0 620 Q 50 720 100 620 T 200 620" class="image" />
+    <path d="M 0 640 Q 50 740 100 640 T 200 640" class="image" />
+    <path d="M 0 660 Q 50 760 100 660 T 200 660" class="image" />
+    <path d="M 0 680 Q 50 780 100 680 T 200 680" class="image" />
+    <path d="M 0 700 Q 50 800 100 700 T 200 700" class="image" />
+    <path d="M 0 720 Q 50 820 100 720 T 200 720" class="image" />
+    <path d="M 0 740 Q 50 840 100 740 T 200 740" class="image" />
+    <path d="M 0 760 Q 50 860 100 760 T 200 760" class="image" />
+    <path d="M 0 780 Q 50 880 100 780 T 200 780" class="image" />
+    <path d="M 0 800 Q 50 900 100 800 T 200 800" class="image" />
+    <path d="M 0 820 Q 50 920 100 820 T 200 820" class="image" />
+    <path d="M 0 840 Q 50 940 100 840 T 200 840" class="image" />
+    <path d="M 0 860 Q 50 960 100 860 T 200 860" class="image" />
+    <path d="M 0 880 Q 50 980 100 880 T 200 880" class="image" />
+    <path d="M 0 900 Q 50 1000 100 900 T 200 900" class="image" />
+    <path d="M 0 920 Q 50 1020 100 920 T 200 920" class="image" />
+    <path d="M 0 940 Q 50 1040 100 940 T 200 940" class="image" />
+    <path d="M 0 960 Q 50 1060 100 960 T 200 960" class="image" />
+    <path d="M 0 980 Q 50 1080 100 980 T 200 980" class="image" />
+    <path d="M 0 1000 Q 50 1100 100 1000 T 200 1000" class="image" />
+    <path d="M 0 1020 Q 50 1120 100 1020 T 200 1020" class="image" />
+    <path d="M 0 1040 Q 50 1140 100 1040 T 200 1040" class="image" />
+    <path d="M 0 1060 Q 50 1160 100 1060 T 200 1060" class="image" />
+    <path d="M 0 1080 Q 50 1180 100 1080 T 200 1080" class="image" />
+    <path d="M 0 1100 Q 50 1200 100 1100 T 200 1100" class="image" />
+    <path d="M 0 1120 Q 50 1220 100 1120 T 200 1120" class="image" />
+    <path d="M 0 1140 Q 50 1240 100 1140 T 200 1140" class="image" />
+    <path d="M 0 1160 Q 50 1260 100 1160 T 200 1160" class="image" />
+    <path d="M 0 1180 Q 50 1280 100 1180 T 200 1180" class="image" />
+    <path d="M 0 1200 Q 50 1300 100 1200 T 200 1200" class="image" />
+    <path d="M 0 1220 Q 50 1320 100 1220 T 200 1220" class="image" />
+    <path d="M 0 1240 Q 50 1340 100 1240 T 200 1240" class="image" />
+    <path d="M 0 1260 Q 50 1360 100 1260 T 200 1260" class="image" />
+    <path d="M 0 1280 Q 50 1380 100 1280 T 200 1280" class="image" />
+    <path d="M 0 1300 Q 50 1400 100 1300 T 200 1300" class="image" />
+    <path d="M 0 1320 Q 50 1420 100 1320 T 200 1320" class="image" />
+    <path d="M 0 1340 Q 50 1440 100 1340 T 200 1340" class="image" />
+    <path d="M 0 1360 Q 50 1460 100 1360 T 200 1360" class="image" />
+    <path d="M 0 1380 Q 50 1480 100 1380 T 200 1380" class="image" />
+    <path d="M 0 1400 Q 50 1500 100 1400 T 200 1400" class="image" />
+    <path d="M 0 1420 Q 50 1520 100 1420 T 200 1420" class="image" />
+    <path d="M 0 1440 Q 50 1540 100 1440 T 200 1440" class="image" />
+    <path d="M 0 1460 Q 50 1560 100 1460 T 200 1460" class="image" />
+    <path d="M 0 1480 Q 50 1580 100 1480 T 200 1480" class="image" />
+    <path d="M 0 1500 Q 50 1600 100 1500 T 200 1500" class="image" />
+    <path d="M 0 1520 Q 50 1620 100 1520 T 200 1520" class="image" />
+    <path d="M 0 1540 Q 50 1640 100 1540

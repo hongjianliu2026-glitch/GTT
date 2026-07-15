@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFFDE7; }
+      .title { font: bold 48px sans-serif; fill: #F39C12; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .sun { fill: #F1C40F; }
+      .face { fill: #FFD700; }
+      .smile { stroke: #000; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cheerfully</text>
+  <text x="50" y="120" class="subtitle">[ˈtʃɪərflɪ] adv. 愉快地，高兴地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cheer (愉快) + -ful (充满) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的日子，一个人脸上洋溢着笑容，
+    <tspan x="50" dy="25">"充满愉快(cheer-ful)"，"地(ly)"表达出他愉快的心情。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She greeted everyone cheerfully at the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她在派对上愉快地向每个人打招呼。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="sun" />
+    <!-- Face -->
+    <circle cx="200" cy="100" r="30" class="face" />
+    <!-- Eyes -->
+    <circle cx="190" cy="90" r="5" fill="#000" />
+    <circle cx="210" cy="90" r="5" fill="#000" />
+    <!-- Smile -->
+    <path d="M185,110 Q200,120 215,110" class="smile" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">inevitably</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈɛvɪtəbli] adv. 不可避免地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + evit (避免) + -able (能够) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的石头从山上滚下来，"无法避免(in-evit-able)"
+    <tspan x="50" dy="25">地砸向地面，这就是不可避免的(inevitably)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Inevitably, the project was delayed due to unforeseen circumstances.
+  </text>
+  <text x="50" y="310" class="content">
+    由于不可预见的情况，项目不可避免地被推迟了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountain -->
+    <polygon points="0,200 150,0 300,200" class="image" />
+    <!-- Rolling stone -->
+    <circle cx="150" cy="100" r="30" class="image" />
+    <!-- Ground -->
+    <line x1="0" y1="200" x2="300" y2="200" class="image" />
+  </g>
+</svg>

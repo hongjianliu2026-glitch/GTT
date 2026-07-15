@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">invaluable</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈvæljuəbl] adj. 无价的，非常宝贵的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + value (价值) + -able (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗闪耀的钻石，"无法估量(in-valuable)"
+    <tspan x="50" dy="25">其价值，因为它太宝贵了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her advice was invaluable to our project.
+  </text>
+  <text x="50" y="310" class="content">
+    她的建议对我们的项目非常宝贵。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Diamond -->
+    <polygon points="100,0 200,0 250,100 150,200 50,100" class="image" />
+    <!-- Sparkle -->
+    <circle cx="150" cy="50" r="10" class="image" />
+    <circle cx="200" cy="70" r="8" class="image" />
+    <circle cx="120" cy="120" r="6" class="image" />
+  </g>
+</svg>

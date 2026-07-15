@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">certainly</text>
+  <text x="50" y="120" class="subtitle">[ˈsɜːrtnli] adv. 当然，肯定地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cert (确定) + -ain (表状态) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的"确定(cert)"标志前，
+    <tspan x="50" dy="25">标志上写着"当然(certainly)"，表示他非常肯定。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She answered, "Certainly, I will help you."
+  </text>
+  <text x="50" y="310" class="content">
+    她回答说：“当然，我会帮助你。”
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large "CERT" sign -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <text x="50" y="100" class="title" style="font-size: 80px; fill: #E74C3C;">CERT</text>
+    <!-- Person standing in front of the sign -->
+    <circle cx="200" cy="150" r="15" class="image" />
+    <line x1="200" y1="165" x2="200" y2="200" class="image" />
+    <line x1="200" y1="200" x2="180" y2="230" class="image" />
+    <line x1="200" y1="200" x2="220" y2="230" class="image" />
+    <line x1="200" y1="180" x2="250" y2="170" class="image" />
+  </g>
+</svg>

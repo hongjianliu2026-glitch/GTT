@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .star { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">four-star</text>
+  <text x="50" y="120" class="subtitle">[ˈfɔːr stɑːr] adj. 四星级的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> four (四) + star (星)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个豪华酒店，门口挂着四颗闪亮的星星，
+    <tspan x="50" dy="25">代表着它是四星级(four-star)酒店，服务和设施都非常出色。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hotel was awarded four-star status for its excellent service.
+  </text>
+  <text x="50" y="310" class="content">
+    这家酒店因其卓越的服务被授予四星级称号。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hotel building -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Stars -->
+    <polygon points="20,100 30,80 50,80 35,65 40,45 20,55 0,45 5,65 20,80" class="star" />
+    <polygon points="80,100 90,80 110,80 95,65 100,45 80,55 60,45 65,65 80,80" class="star" />
+    <polygon points="140,100 150,80 170,80 155,65 160,45 140,55 120,45 125,65 140,80" class="star" />
+    <polygon points="200,100 210,80 230,80 215,65 220,45 200,55 180,45 185,65 200,80" class="star" />
+  </g>
+</svg>

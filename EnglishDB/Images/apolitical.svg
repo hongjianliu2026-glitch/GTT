@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">apolitical</text>
+  <text x="50" y="120" class="subtitle">[ˌeɪpəˈlɪtɪkl] adj. 不关心政治的，无政治倾向的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> a- (无) + political (政治的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的地球仪前，但他的眼睛却闭着，表示他对政治(political)完全不关心(a-political)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is completely apolitical and never discusses politics.
+  </text>
+  <text x="50" y="310" class="content">
+    他完全不关心政治，从不讨论政治话题。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Globe -->
+    <circle cx="150" cy="150" r="100" class="image" />
+    <!-- Eyes closed -->
+    <line x1="100" y1="120" x2="120" y2="140" class="image" />
+    <line x1="200" y1="120" x2="180" y2="140" class="image" />
+    <!-- Person -->
+    <circle cx="150" cy="250" r="20" class="image" />
+    <line x1="150" y1="270" x2="150" y2="320" class="image" />
+    <line x1="150" y1="320" x2="130" y2="350" class="image" />
+    <line x1="150" y1="320" x2="170" y2="350" class="image" />
+    <line x1="150" y1="290" x2="120" y2="280" class="image" />
+    <line x1="150" y1="290" x2="180" y2="280" class="image" />
+  </g>
+</svg>

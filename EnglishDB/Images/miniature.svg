@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">miniature</text>
+  <text x="50" y="120" class="subtitle">[ˈmɪnɪətʃər] n. 微型，缩影；adj. 微型的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mini- (小) + -ature (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的城堡模型，"小(mini)"
+    <tspan x="50" dy="25">到可以放在手掌上，这就是微型(miniature)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She collects miniature cars as a hobby.
+  </text>
+  <text x="50" y="310" class="content">
+    她把收集微型汽车作为爱好。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Miniature castle -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <rect x="20" y="20" width="110" height="60" class="image" />
+    <line x1="30" y1="40" x2="120" y2="40" class="image" />
+    <line x1="30" y1="60" x2="100" y2="60" class="image" />
+    <line x1="30" y1="80" x2="110" y2="80" class="image" />
+    <!-- Miniature car -->
+    <rect x="180" y="0" width="50" height="30" class="image" />
+    <circle cx="190" cy="40" r="10" class="image" />
+    <circle cx="230" cy="40" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">remodel</text>
+  <text x="50" y="120" class="subtitle">[ˌriːˈmɒdl] v. 重新塑造，改造</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + model (模型)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个建筑师拿着图纸，"再次塑造(re-model)"
+    <tspan x="50" dy="25">一个旧房子，让它焕然一新。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They decided to remodel their kitchen.
+  </text>
+  <text x="50" y="310" class="content">
+    他们决定改造他们的厨房。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Old house -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <line x1="20" y1="100" x2="130" y2="100" class="image" />
+    <line x1="75" y1="0" x2="75" y2="100" class="image" />
+    <!-- New house -->
+    <rect x="200" y="0" width="150" height="100" class="image" />
+    <line x1="220" y1="100" x2="330" y2="100" class="image" />
+    <line x1="275" y1="0" x2="275" y2="100" class="image" />
+    <line x1="200" y1="50" x2="350" y2="50" class="image" />
+    <!-- Architect with blueprint -->
+    <circle cx="100" cy="150" r="15" class="image" />
+    <line x1="100" y1="165" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="80" y2="230" class="image" />
+    <line x1="100" y1="200" x2="120" y2="230" class="image" />
+    <line x1="100" y1="180" x2="150" y2="170" class="image" />
+    <rect x="150" y="130" width="100" height="40" class="image" />
+    <line x1="160" y1="150" x2="240" y2="150" class="image" />
+    <line x1="160" y1="170" x2="240" y2="170" class="image" />
+  </g>
+</svg>

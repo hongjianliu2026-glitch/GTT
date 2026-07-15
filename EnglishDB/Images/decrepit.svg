@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">decrepit</text>
+  <text x="50" y="120" class="subtitle">[dɪˈkrɛpɪt] adj. 破旧的，衰老的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + crepit (破裂声)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一座古老的城堡，"向下(de-)"
+    <tspan x="50" dy="25">发出"破裂声(crepit)"，墙壁摇摇欲坠，</tspan>
+    <tspan x="50" dy="25">这就是"破旧的(decrepit)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The decrepit old house was falling apart.
+  </text>
+  <text x="50" y="310" class="content">
+    那座破旧的老房子正在倒塌。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Old castle -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Cracks -->
+    <line x1="100" y1="30" x2="150" y2="180" class="image" />
+    <line x1="200" y1="30" x2="250" y2="180" class="image" />
+    <line x1="150" y1="30" x2="200" y2="180" class="image" />
+  </g>
+</svg>

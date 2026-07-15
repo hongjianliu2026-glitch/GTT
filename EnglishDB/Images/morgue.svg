@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E9E2; }
+      .title { font: bold 48px sans-serif; fill: #8B4513; }
+      .subtitle { font: italic 24px serif; fill: #6D4C41; }
+      .content { font: 18px sans-serif; fill: #4E342E; }
+      .highlight { font-weight: bold; fill: #B71C1C; }
+      .story { font: 16px serif; fill: #3E2723; }
+      .image { stroke: #795548; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">morgue</text>
+  <text x="50" y="120" class="subtitle">[mɔːrɡ] n. 停尸房，太平间</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mor- (死亡) + gue (地方)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阴森的房间，"死亡之地(mor-gue)"
+    <tspan x="50" dy="25">里摆放着冰冷的尸体，这就是停尸房(morgue)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The body was taken to the morgue for an autopsy.
+  </text>
+  <text x="50" y="310" class="content">
+    尸体被送到停尸房进行尸检。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Morgue room -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Dead body -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Morgue sign -->
+    <text x="150" y="180" class="image" font-size="30" fill="#795548">Morgue</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cosmetic</text>
+  <text x="50" y="120" class="subtitle">[kɒzˈmetɪk] n. 化妆品；adj. 化妆用的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cosmo- (宇宙) + -etic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个宇宙级的化妆师，"宇宙(cosmo-)"
+    <tspan x="50" dy="25">级别的美丽(etic)，这就是化妆品(cosmetic)的魔力。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She uses a variety of cosmetic products to enhance her beauty.
+  </text>
+  <text x="50" y="310" class="content">
+    她使用各种化妆品来增强她的美丽。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Makeup brush -->
+    <line x1="50" y1="20" x2="50" y2="150" class="image" />
+    <line x1="50" y1="20" x2="30" y2="50" class="image" />
+    <line x1="50" y1="20" x2="70" y2="50" class="image" />
+    <!-- Makeup palette -->
+    <rect x="100" y="20" width="150" height="100" class="image" />
+    <circle cx="120" cy="60" r="10" fill="#FF69B4" />
+    <circle cx="150" cy="60" r="10" fill="#FFD700" />
+    <circle cx="180" cy="60" r="10" fill="#00CED1" />
+    <circle cx="210" cy="60" r="10" fill="#8B0000" />
+    <!-- Mirror -->
+    <rect x="280" y="20" width="100" height="100" class="image" />
+    <circle cx="330" cy="70" r="20" fill="#FFF" />
+    <circle cx="330" cy="70" r="15" fill="#7F8C8D" />
+  </g>
+</svg>

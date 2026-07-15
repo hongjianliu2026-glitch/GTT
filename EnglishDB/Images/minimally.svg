@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">minimally</text>
+  <text x="50" y="120" class="subtitle">[ˈmɪnɪməli] adv. 最小限度地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mini (小) + -ally (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个极简主义者，只用"最小的(mini)"
+    <tspan x="50" dy="25">物品来生活，这就是"最小限度地(minimally)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She decorated her room minimally, with only a few essential items.
+  </text>
+  <text x="50" y="310" class="content">
+    她用最少的必需品来装饰她的房间。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Minimalist room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Bed -->
+    <rect x="50" y="20" width="250" height="80" class="image" />
+    <!-- Table -->
+    <rect x="100" y="120" width="150" height="50" class="image" />
+    <!-- Chair -->
+    <rect x="120" y="180" width="30" height="30" class="image" />
+    <!-- Minimalist items -->
+    <circle cx="200" cy="145" r="10" class="image" />
+    <circle cx="230" cy="145" r="10" class="image" />
+    <circle cx="260" cy="145" r="10" class="image" />
+  </g>
+</svg>

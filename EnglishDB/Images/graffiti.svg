@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">graffiti</text>
+  <text x="50" y="120" class="subtitle">[ɡrəˈfiːti] n. 涂鸦</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> graf (写) + -iti (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群年轻人在墙上"写(graf)"下各种色彩斑斓的涂鸦(graffiti)，
+    <tspan x="50" dy="25">这些涂鸦就像城市的"纹身"，充满了个性和创意。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The walls of the subway station were covered with graffiti.
+  </text>
+  <text x="50" y="310" class="content">
+    地铁站的墙上布满了涂鸦。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wall -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Graffiti -->
+    <text x="50" y="50" font-size="48" fill="#E74C3C" font-family="sans-serif">ART</text>
+    <text x="200" y="150" font-size="36" fill="#2ECC71" font-family="sans-serif">LOVE</text>
+    <text x="100" y="100" font-size="24" fill="#3498DB" font-family="sans-serif">PEACE</text>
+    <!-- Spray can -->
+    <rect x="300" y="150" width="30" height="50" class="image" />
+    <circle cx="315" cy="140" r="10" class="image" />
+  </g>
+</svg>

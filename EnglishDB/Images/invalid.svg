@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">invalid</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈvælɪd] adj. 无效的，作废的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + valid (有效的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一张被撕碎的纸，上面写着"无效(invalid)"，
+    <tspan x="50" dy="25">因为这张纸已经失去了它的有效性。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ticket was invalid because it had expired.
+  </text>
+  <text x="50" y="310" class="content">
+    这张票无效，因为它已经过期了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Torn paper -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Torn edges -->
+    <line x1="50" y1="20" x2="0" y2="0" class="image" />
+    <line x1="300" y1="20" x2="350" y2="0" class="image" />
+    <line x1="50" y1="180" x2="0" y2="200" class="image" />
+    <line x1="300" y1="180" x2="350" y2="200" class="image" />
+    <!-- Invalid text -->
+    <text x="120" y="100" class="content" style="font-size: 36px; fill: #E74C3C;">invalid</text>
+  </g>
+</svg>

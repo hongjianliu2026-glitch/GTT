@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9E6; }
+      .title { font: bold 48px sans-serif; fill: #FF6F61; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .sweet { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sweetie</text>
+  <text x="50" y="120" class="subtitle">[ˈswiːti] n. 甜心，宝贝</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sweet (甜的) + -ie (表示亲昵的后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个甜蜜的糖果(sweet)，被温柔地称呼为"甜心(sweetie)"，
+    <tspan x="50" dy="25">这个称呼充满了爱意和亲昵。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She called her daughter "sweetie" when she got home.
+  </text>
+  <text x="50" y="310" class="content">
+    她回家时称呼女儿为"甜心"。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Candy -->
+    <circle cx="50" cy="100" r="30" class="sweet" />
+    <circle cx="120" cy="100" r="30" class="sweet" />
+    <circle cx="190" cy="100" r="30" class="sweet" />
+    <!-- Heart -->
+    <path d="M250,100 C250,50 300,50 300,100 C300,150 250,150 250,100 Z" class="sweet" />
+    <!-- Text -->
+    <text x="50" y="200" class="content">Sweet</text>
+    <text x="250" y="200" class="content">Heart</text>
+  </g>
+</svg>

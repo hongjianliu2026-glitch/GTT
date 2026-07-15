@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interest</text>
+  <text x="50" y="120" class="subtitle">[ˈɪntrəst] n. 兴趣，利息；v. 使感兴趣</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在中间) + est (存在)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在两件事物之间，"存在(est)"
+    <tspan x="50" dy="25">于两者之间，对其中之一产生了兴趣(interest)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His interest in history led him to become a historian.
+  </text>
+  <text x="50" y="310" class="content">
+    他对历史的兴趣使他成为了一名历史学家。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person in the middle -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="155" y2="210" class="image" />
+    <line x1="175" y1="180" x2="195" y2="210" class="image" />
+    <line x1="175" y1="140" x2="145" y2="130" class="image" />
+    <line x1="175" y1="140" x2="205" y2="130" class="image" />
+
+    <!-- Two objects -->
+    <rect x="50" y="50" width="100" height="100" class="image" />
+    <rect x="250" y="50" width="100" height="100" class="image" />
+
+    <!-- Arrows indicating interest -->
+    <line x1="175" y1="100" x2="100" y2="100" class="image">
+      <animate attributeName="stroke-dasharray" from="0,10" to="10,0" dur="2s" repeatCount="indefinite" />
+    </line>
+    <line x1="175" y1="100" x2="250" y2="100" class="image">
+      <animate attributeName="stroke-dasharray" from="0,10" to="10,0" dur="2s" repeatCount="indefinite" />
+    </line>
+  </g>
+</svg>

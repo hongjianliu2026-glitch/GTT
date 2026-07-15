@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">incapacitate</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnkəˈpæsɪteɪt] v. 使无能力，使不能</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + cap (拿) + -ate (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人试图拿起(cap)重物，但因为太重而无法做到，
+    <tspan x="50" dy="25">结果"使(ate)自己不能(in-)"再拿起任何东西，这就是使无能力(incapacitate)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The injury incapacitated him from playing football.
+  </text>
+  <text x="50" y="310" class="content">
+    受伤使他无法踢足球。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person trying to lift a heavy object -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="30" y2="130" class="image" />
+    <line x1="50" y1="150" x2="70" y2="130" class="image" />
+    <line x1="50" y1="180" x2="30" y2="200" class="image" />
+    <line x1="50" y1="180" x2="70" y2="200" class="image" />
+    <!-- Heavy object -->
+    <rect x="100" y="140" width="100" height="60" class="image" />
+    <line x1="100" y1="140" x2="200" y2="140" class="image" />
+    <line x1="100" y1="200" x2="200" y2="200" class="image" />
+    <line x1="100" y1="140" x2="100" y2="200" class="image" />
+    <line x1="200" y1="140" x2="200" y2="200" class="image" />
+    <!-- Exclamation mark -->
+    <text x="150" y="130" class="highlight">!</text>
+  </g>
+</svg>

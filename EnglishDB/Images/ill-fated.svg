@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ill-fated</text>
+  <text x="50" y="120" class="subtitle">[ˌɪlˈfeɪtɪd] adj. 注定失败的，不幸的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ill- (坏的) + fate (命运)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个倒霉的人，"坏的命运(ill-fate)"
+    <tspan x="50" dy="25">缠绕着他，无论做什么都注定失败(ill-fated)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ill-fated expedition ended in disaster.
+  </text>
+  <text x="50" y="310" class="content">
+    那次注定失败的任务以灾难告终。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cloud with lightning -->
+    <path d="M0 0 C 100 0 100 100 200 100 S 300 0 400 0" class="image" />
+    <line x1="200" y1="100" x2="200" y2="200" class="image" />
+    <!-- Person with a sad face -->
+    <circle cx="200" cy="250" r="30" class="image" />
+    <line x1="185" y1="240" x2="195" y2="250" class="image" />
+    <line x1="205" y1="250" x2="215" y2="240" class="image" />
+    <line x1="190" y1="270" x2="210" y2="270" class="image" />
+    <!-- Broken arrow -->
+    <line x1="200" y1="300" x2="200" y2="350" class="image" />
+    <line x1="190" y1="325" x2="210" y2="325" class="image" />
+  </g>
+</svg>

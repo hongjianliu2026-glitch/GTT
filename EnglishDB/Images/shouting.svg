@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shouting</text>
+  <text x="50" y="120" class="subtitle">[ˈʃaʊtɪŋ] n. 喊叫，呼喊</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shout (喊叫) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在街上，"大声喊叫(shout-ing)"，
+    <tspan x="50" dy="25">声音震耳欲聋，周围的人都捂住了耳朵。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crowd was shouting in excitement.
+  </text>
+  <text x="50" y="310" class="content">
+    人群兴奋地喊叫着。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person shouting -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+    <!-- Sound waves -->
+    <path d="M100,100 C120,80 160,80 180,100" class="image" />
+    <path d="M100,120 C120,100 160,100 180,120" class="image" />
+    <path d="M100,140 C120,120 160,120 180,140" class="image" />
+    <!-- People covering ears -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="220" class="image" />
+    <line x1="250" y1="180" x2="270" y2="220" class="image" />
+    <line x1="250" y1="150" x2="290" y2="140" class="image" />
+    <line x1="250" y1="120" x2="230" y2="100" class="image" />
+    <line x1="250" y1="120" x2="270" y2="100" class="image" />
+  </g>
+</svg>

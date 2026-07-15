@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">regulation</text>
+  <text x="50" y="120" class="subtitle">[ˌreɡjəˈleɪʃn] n. 规则，规章；调节</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + -gul (引导) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个交通警察在指挥交通，"再次引导(re-gul)"
+    <tspan x="50" dy="25">车辆按照规则行驶，这就是规章(regulation)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The new regulation requires all drivers to wear seat belts.
+  </text>
+  <text x="50" y="310" class="content">
+    新规定要求所有司机必须系安全带。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Traffic light -->
+    <rect x="0" y="0" width="100" height="250" class="image" />
+    <circle cx="50" cy="50" r="20" class="image" fill="#FF0000" />
+    <circle cx="50" cy="125" r="20" class="image" fill="#FFFF00" />
+    <circle cx="50" cy="200" r="20" class="image" fill="#00FF00" />
+    <!-- Police officer -->
+    <circle cx="150" cy="125" r="30" class="image" />
+    <line x1="150" y1="155" x2="150" y2="220" class="image" />
+    <line x1="150" y1="180" x2="120" y2="160" class="image" />
+    <line x1="150" y1="180" x2="180" y2="160" class="image" />
+    <line x1="150" y1="220" x2="120" y2="250" class="image" />
+    <line x1="150" y1="220" x2="180" y2="250" class="image" />
+    <!-- Road -->
+    <line x1="200" y1="250" x2="400" y2="250" class="image" stroke-width="10" />
+    <line x1="200" y1="250" x2="200" y2="200" class="image" stroke-width="5" />
+    <line x1="250" y1="250" x2="250" y2="200" class="image" stroke-width="5" />
+    <line x1="300" y1="250" x2="300" y2="200" class="image" stroke-width="5" />
+    <line x1="350" y1="250" x2="350" y2="200" class="image" stroke-width="5" />
+    <line x1="400" y1="250" x2="400" y2="200" class="image" stroke-width="5" />
+  </g>
+</svg>

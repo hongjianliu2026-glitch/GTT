@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wacky</text>
+  <text x="50" y="120" class="subtitle">[ˈwæki] adj. 古怪的，疯狂的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wack (古怪) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着奇装异服的人，头上戴着一顶
+    <tspan x="50" dy="25">巨大的帽子，手里拿着一把伞，伞上挂满了各种</tspan>
+    <tspan x="50" dy="25">奇怪的装饰品。这个人就是"wacky"的化身，</tspan>
+    <tspan x="50" dy="25">他的行为和外表都让人感到古怪和疯狂。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="320" class="content">
+    <tspan class="highlight">例句:</tspan> His wacky sense of humor always makes us laugh.
+  </text>
+  <text x="50" y="350" class="content">
+    他古怪的幽默感总是让我们发笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Person with a big hat -->
+    <circle cx="100" cy="100" r="30" class="image" /> <!-- Head -->
+    <rect x="80" y="70" width="40" height="60" class="image" /> <!-- Big hat -->
+    <line x1="100" y1="130" x2="100" y2="200" class="image" /> <!-- Body -->
+    <line x1="100" y1="150" x2="50" y2="180" class="image" /> <!-- Left arm -->
+    <line x1="100" y1="150" x2="150" y2="180" class="image" /> <!-- Right arm -->
+    <line x1="100" y1="200" x2="70" y2="250" class="image" /> <!-- Left leg -->
+    <line x1="100" y1="200" x2="130" y2="250" class="image" /> <!-- Right leg -->
+    <!-- Umbrella with decorations -->
+    <line x1="100" y1="150" x2="100" y2="100" class="image" /> <!-- Umbrella handle -->
+    <path d="M100,100 C150,50 50,50 100,100" class="image" /> <!-- Umbrella top -->
+    <circle cx="120" cy="80" r="5" class="image" /> <!-- Decoration 1 -->
+    <circle cx="80" cy="80" r="5" class="image" /> <!-- Decoration 2 -->
+    <circle cx="110" cy="60" r="5" class="image" /> <!-- Decoration 3 -->
+    <circle cx="90" cy="60" r="5" class="image" /> <!-- Decoration 4 -->
+  </g>
+</svg>

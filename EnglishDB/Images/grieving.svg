@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #6E2C00; }
+      .subtitle { font: italic 24px serif; fill: #7E5109; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #154360; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">grieving</text>
+  <text x="50" y="120" class="subtitle">[ˈɡriːvɪŋ] adj. 悲伤的，哀悼的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> grieve (悲伤) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人因为失去亲人而"悲伤(grieve)"，
+    <tspan x="50" dy="25">他的脸上充满了哀伤的表情，这就是"悲伤的(grieving)"状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was grieving over the loss of her pet.
+  </text>
+  <text x="50" y="310" class="content">
+    她因为失去宠物而悲伤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Tears -->
+    <circle cx="40" cy="90" r="5" class="image" fill="#154360" />
+    <circle cx="60" cy="90" r="5" class="image" fill="#154360" />
+    <line x1="50" y1="110" x2="50" y2="120" class="image" stroke="#154360" stroke-width="3" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">seamlessly</text>
+  <text x="50" y="120" class="subtitle">[ˈsiːmlɪsli] adv. 无缝地，无痕迹地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> seam (缝) + less (无) + ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一件衣服，"没有缝(seamless)"
+    <tspan x="50" dy="25">地连接在一起，就像魔术一样，完全看不出接缝。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The software updates seamlessly without any interruption.
+  </text>
+  <text x="50" y="310" class="content">
+    软件更新无缝进行，没有任何中断。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Seamless cloth -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Seamless connection -->
+    <line x1="70" y1="50" x2="280" y2="50" class="image" />
+    <line x1="70" y1="80" x2="250" y2="80" class="image" />
+    <line x1="70" y1="110" x2="270" y2="110" class="image" />
+    <line x1="70" y1="140" x2="240" y2="140" class="image" />
+    <!-- Magic wand -->
+    <line x1="20" y1="100" x2="40" y2="120" class="image" />
+    <line x1="40" y1="120" x2="60" y2="100" class="image" />
+    <line x1="60" y1="100" x2="80" y2="120" class="image" />
+    <line x1="80" y1="120" x2="100" y2="100" class="image" />
+  </g>
+</svg>

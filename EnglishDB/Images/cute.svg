@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9E6; }
+      .title { font: bold 48px sans-serif; fill: #FF6F61; }
+      .subtitle { font: italic 24px serif; fill: #4A4A4A; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #FF6F61; }
+      .story { font: 16px serif; fill: #6A1B9A; }
+      .image { stroke: #FF6F61; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cute</text>
+  <text x="50" y="120" class="subtitle">[kjuːt] adj. 可爱的，漂亮的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自法语 "cuit" (烹饪)，原指“煮熟的”，后引申为“精致的”，再演变为“可爱的”。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小猫，它的毛发像“煮熟的”食物一样柔软，
+    <tspan x="50" dy="25">它的眼睛闪闪发光，就像精致的宝石，让人忍不住说它“可爱(cute)”。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found the kitten so cute that she couldn't resist taking it home.
+  </text>
+  <text x="50" y="310" class="content">
+    她觉得那只小猫太可爱了，忍不住把它带回了家。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cat face -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Eyes -->
+    <circle cx="60" cy="80" r="15" class="image" />
+    <circle cx="140" cy="80" r="15" class="image" />
+    <!-- Nose -->
+    <circle cx="100" cy="120" r="10" class="image" />
+    <!-- Mouth -->
+    <path d="M 60 140 Q 100 160 140 140" class="image" />
+    <!-- Whiskers -->
+    <line x1="40" y1="100" x2="0" y2="90" class="image" />
+    <line x1="40" y1="110" x2="0" y2="120" class="image" />
+    <line x1="160" y1="100" x2="200" y2="90" class="image" />
+    <line x1="160" y1="110" x2="200" y2="120" class="image" />
+  </g>
+</svg>

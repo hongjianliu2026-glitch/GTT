@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">visceral</text>
+  <text x="50" y="120" class="subtitle">[ˈvɪsərəl] adj. 内脏的，本能的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> visc (内脏) + -eral (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在观看恐怖电影时，"内脏(visc)"
+    <tspan x="50" dy="25">感受到的强烈恐惧，这种本能的(visceral)反应</tspan>
+    <tspan x="50" dy="25">让人无法忽视。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The horror movie evoked a visceral reaction from the audience.
+  </text>
+  <text x="50" y="310" class="content">
+    那部恐怖电影引发了观众的本能反应。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Blood vessels -->
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <!-- Fear expression -->
+    <circle cx="250" cy="100" r="30" class="image" />
+    <line x1="230" y1="110" x2="270" y2="110" class="image" />
+    <line x1="240" y1="130" x2="260" y2="130" class="image" />
+    <line x1="250" y1="150" x2="250" y2="200" class="image" />
+    <line x1="250" y1="200" x2="220" y2="250" class="image" />
+    <line x1="250" y1="200" x2="280" y2="250" class="image" />
+  </g>
+</svg>

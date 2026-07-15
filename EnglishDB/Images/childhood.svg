@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">childhood</text>
+  <text x="50" y="120" class="subtitle">[ˈtʃaɪldhʊd] n. 童年，幼年</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> child (孩子) + hood (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩子在草地上奔跑，"孩子(child)"
+    <tspan x="50" dy="25">的状态(hood)就是童年(childhood)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has fond memories of her childhood.
+  </text>
+  <text x="50" y="310" class="content">
+    她对童年有着美好的回忆。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Grass -->
+    <rect x="0" y="150" width="350" height="50" class="image" fill="#27AE60" />
+    <!-- Child -->
+    <circle cx="100" cy="120" r="20" class="image" fill="#F1C40F" />
+    <line x1="100" y1="140" x2="100" y2="180" class="image" />
+    <line x1="100" y1="160" x2="80" y2="140" class="image" />
+    <line x1="100" y1="160" x2="120" y2="140" class="image" />
+    <line x1="100" y1="180" x2="80" y2="200" class="image" />
+    <line x1="100" y1="180" x2="120" y2="200" class="image" />
+    <!-- Sun -->
+    <circle cx="250" cy="50" r="30" class="image" fill="#F39C12" />
+    <line x1="250" y1="80" x2="250" y2="120" class="image" />
+    <line x1="250" y1="80" x2="220" y2="100" class="image" />
+    <line x1="250" y1="80" x2="280" y2="100" class="image" />
+    <line x1="250" y1="80" x2="230" y2="60" class="image" />
+    <line x1="250" y1="80" x2="270" y2="60" class="image" />
+  </g>
+</svg>

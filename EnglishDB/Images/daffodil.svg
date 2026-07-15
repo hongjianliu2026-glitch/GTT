@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flower { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">daffodil</text>
+  <text x="50" y="120" class="subtitle">[ˈdæfədɪl] n. 水仙花</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> daffo- (来自古英语“affodill”，意为“水仙花”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片金黄色的水仙花田，"daffo-"
+    <tspan x="50" dy="25">代表着这些美丽的花朵，它们在春天绽放，</tspan>
+    <tspan x="50" dy="25">如同阳光洒在大地上，带来生机与希望。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The garden was filled with blooming daffodils.
+  </text>
+  <text x="50" y="310" class="content">
+    花园里开满了盛开的水仙花。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flower stem -->
+    <line x1="150" y1="0" x2="150" y2="150" class="image" />
+    <!-- Flower petals -->
+    <circle cx="150" cy="100" r="30" class="flower" />
+    <circle cx="120" cy="80" r="20" class="flower" />
+    <circle cx="180" cy="80" r="20" class="flower" />
+    <circle cx="135" cy="120" r="20" class="flower" />
+    <circle cx="165" cy="120" r="20" class="flower" />
+    <!-- Flower center -->
+    <circle cx="150" cy="100" r="10" class="flower" fill="#F39C12" />
+  </g>
+</svg>

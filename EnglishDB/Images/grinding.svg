@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">grinding</text>
+  <text x="50" y="120" class="subtitle">[ˈɡraɪndɪŋ] n. 磨碎，折磨；v. 磨，碾</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> grind (磨) + -ing (进行时)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的石头在磨坊里，"磨碎(grind)"
+    <tspan x="50" dy="25">谷物，发出刺耳的声音，这就是磨碎(grinding)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The grinding noise from the factory was unbearable.
+  </text>
+  <text x="50" y="310" class="content">
+    工厂里磨碎的声音让人难以忍受。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Millstone -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <!-- Grain -->
+    <rect x="180" y="80" width="40" height="40" class="image" />
+    <rect x="230" y="80" width="40" height="40" class="image" />
+    <rect x="180" y="130" width="40" height="40" class="image" />
+    <rect x="230" y="130" width="40" height="40" class="image" />
+    <!-- Dust -->
+    <line x1="100" y1="160" x2="120" y2="180" class="image" />
+    <line x1="100" y1="160" x2="80" y2="180" class="image" />
+    <line x1="100" y1="160" x2="110" y2="190" class="image" />
+    <line x1="100" y1="160" x2="90" y2="190" class="image" />
+  </g>
+</svg>

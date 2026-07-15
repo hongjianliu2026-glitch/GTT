@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fluff</text>
+  <text x="50" y="120" class="subtitle">[flʌf] n. 绒毛，松软的东西；v. 使蓬松</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fluff (源自中古英语 fluf, 意为“绒毛”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小猫在阳光下打滚，身上的绒毛(fluff)
+    <tspan x="50" dy="25">因为阳光的照射而变得更加蓬松，仿佛整个世界都变得柔软了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The kitten's fur was full of fluff.
+  </text>
+  <text x="50" y="310" class="content">
+    小猫的毛全是绒毛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="200" cy="100" r="50" fill="#F1C40F" />
+    <!-- Cat -->
+    <circle cx="200" cy="250" r="40" fill="#8E44AD" />
+    <circle cx="180" cy="230" r="5" fill="#FFFFFF" />
+    <circle cx="220" cy="230" r="5" fill="#FFFFFF" />
+    <path d="M190 260 Q200 270 210 260" stroke="#000000" stroke-width="2" fill="none" />
+    <!-- Fluff -->
+    <circle cx="160" cy="250" r="10" fill="#F1C40F" />
+    <circle cx="240" cy="250" r="10" fill="#F1C40F" />
+    <circle cx="180" cy="270" r="10" fill="#F1C40F" />
+    <circle cx="220" cy="270" r="10" fill="#F1C40F" />
+  </g>
+</svg>

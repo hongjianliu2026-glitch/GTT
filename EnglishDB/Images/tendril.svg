@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tendril</text>
+  <text x="50" y="120" class="subtitle">[ˈtɛndrəl] n. 卷须</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tend- (伸展) + -ril (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一株植物的"小伸展(tend-ril)"，
+    <tspan x="50" dy="25">它像一条细长的卷须，轻轻地攀爬和探索周围的环境。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tendrils of the vine wrapped around the trellis.
+  </text>
+  <text x="50" y="310" class="content">
+    藤蔓的卷须缠绕在格子上。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Plant stem -->
+    <line x1="50" y1="150" x2="50" y2="50" class="image" />
+    <!-- Tendrils -->
+    <path d="M50,50 C70,30 100,30 120,50" class="image" />
+    <path d="M50,50 C30,30 0,30 0,50" class="image" />
+    <path d="M50,50 C70,70 100,70 120,50" class="image" />
+    <path d="M50,50 C30,70 0,70 0,50" class="image" />
+    <!-- Leaves -->
+    <circle cx="50" cy="50" r="10" class="image" />
+    <circle cx="120" cy="50" r="10" class="image" />
+    <circle cx="0" cy="50" r="10" class="image" />
+  </g>
+</svg>

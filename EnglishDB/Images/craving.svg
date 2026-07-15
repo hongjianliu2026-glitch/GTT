@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">craving</text>
+  <text x="50" y="120" class="subtitle">[ˈkreɪvɪŋ] n. 渴望，热望</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> crav (渴望) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被"渴望(crav)"的力量驱使，
+    <tspan x="50" dy="25">他的心像被火焰燃烧，无法停止对某物的追求。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has a craving for chocolate after dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    她晚饭后特别想吃巧克力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <!-- Flame -->
+    <path d="M10 30 Q20 10 30 30 T50 30 Q60 10 70 30" class="image" />
+    <!-- Person -->
+    <circle cx="40" cy="100" r="15" class="image" />
+    <line x1="40" y1="115" x2="40" y2="150" class="image" />
+    <line x1="40" y1="150" x2="20" y2="180" class="image" />
+    <line x1="40" y1="150" x2="60" y2="180" class="image" />
+    <line x1="40" y1="130" x2="70" y2="120" class="image" />
+    <!-- Chocolate -->
+    <rect x="80" y="80" width="40" height="20" class="image" />
+    <line x1="90" y1="85" x2="90" y2="100" class="image" />
+    <line x1="100" y1="85" x2="100" y2="100" class="image" />
+    <line x1="110" y1="85" x2="110" y2="100" class="image" />
+  </g>
+</svg>

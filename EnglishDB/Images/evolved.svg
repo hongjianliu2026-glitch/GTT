@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">evolved</text>
+  <text x="50" y="120" class="subtitle">[ɪˈvɒlvd] v. 进化，发展</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> e- (向外) + volv (卷，转)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个生物从原始形态"向外卷曲(e-volv)"，
+    <tspan x="50" dy="25">逐渐进化成更复杂的形态，这就是"进化(evolved)"的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The species has evolved over millions of years.
+  </text>
+  <text x="50" y="310" class="content">
+    这个物种已经进化了数百万年。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Primitive organism -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <!-- Intermediate organism -->
+    <rect x="100" y="80" width="40" height="40" class="image" />
+    <!-- Advanced organism -->
+    <polygon points="200,100 180,140 220,140" class="image" />
+    <!-- Evolution arrows -->
+    <line x1="70" y1="100" x2="120" y2="100" class="image" />
+    <line x1="120" y1="100" x2="160" y2="100" class="image" />
+    <line x1="160" y1="100" x2="200" y2="100" class="image" />
+    <polygon points="200,100 190,95 190,105" class="image" />
+  </g>
+</svg>

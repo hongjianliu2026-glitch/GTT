@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9E6; }
+      .title { font: bold 48px sans-serif; fill: #FF6F61; }
+      .subtitle { font: italic 24px serif; fill: #4A4A4A; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #FF6F61; }
+      .story { font: 16px serif; fill: #6D4C41; }
+      .image { stroke: #FF6F61; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lovingly</text>
+  <text x="50" y="120" class="subtitle">[ˈlʌvɪŋli] adv. 深情地，充满爱意地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> love (爱) + -ing (进行时) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用"充满爱意(love-ing-ly)"的眼神看着你，
+    <tspan x="50" dy="25">仿佛整个世界都变得温暖而美好。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She looked at him lovingly as they danced.
+  </text>
+  <text x="50" y="310" class="content">
+    他们跳舞时，她深情地看着他。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,250)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <path d="M10 30 Q25 50 40 30 T70 30" class="image" />
+    <!-- Eyes -->
+    <circle cx="30" cy="20" r="5" class="image" />
+    <circle cx="50" cy="20" r="5" class="image" />
+    <!-- Smile -->
+    <path d="M30 40 Q40 50 50 40" class="image" />
+  </g>
+</svg>

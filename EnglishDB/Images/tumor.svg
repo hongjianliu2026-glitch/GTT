@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tumor</text>
+  <text x="50" y="120" class="subtitle">[ˈtuːmər] n. 肿瘤</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tum (肿胀) + -or (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个肿胀的(tum)细胞，它不断膨胀，最终形成了一个肿瘤(tumor)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor found a small tumor in her lung.
+  </text>
+  <text x="50" y="310" class="content">
+    医生在她的肺部发现了一个小肿瘤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Swollen cell -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="100" cy="100" r="40" class="image" />
+    <circle cx="100" cy="100" r="30" class="image" />
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="100" cy="100" r="10" class="image" />
+    <!-- Tumor -->
+    <circle cx="250" cy="100" r="60" class="image" />
+    <circle cx="250" cy="100" r="50" class="image" />
+    <circle cx="250" cy="100" r="40" class="image" />
+    <circle cx="250" cy="100" r="30" class="image" />
+    <circle cx="250" cy="100" r="20" class="image" />
+    <circle cx="250" cy="100" r="10" class="image" />
+    <!-- Arrow -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <polygon points="200,80 220,100 200,120" class="image" />
+  </g>
+</svg>

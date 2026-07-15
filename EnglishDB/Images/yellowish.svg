@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9C4; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">yellowish</text>
+  <text x="50" y="120" class="subtitle">[ˈjeləʊɪʃ] adj. 微黄的，带黄色的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> yellow (黄色) + -ish (表示“有点...的”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个柠檬，它不是完全的黄色，而是带点绿色的"微黄(yellowish)"，
+    <tspan x="50" dy="25">这种颜色让人联想到柠檬的清新和酸爽。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sky turned yellowish as the sun set.
+  </text>
+  <text x="50" y="310" class="content">
+    太阳落山时，天空变成了微黄色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lemon -->
+    <circle cx="100" cy="100" r="50" fill="#FFD700" stroke="#8B8000" stroke-width="3" />
+    <circle cx="120" cy="80" r="10" fill="#008000" stroke="#006400" stroke-width="2" />
+    <circle cx="80" cy="120" r="10" fill="#008000" stroke="#006400" stroke-width="2" />
+    <circle cx="140" cy="120" r="10" fill="#008000" stroke="#006400" stroke-width="2" />
+    <!-- Stem -->
+    <line x1="100" y1="50" x2="100" y2="30" stroke="#8B4513" stroke-width="5" />
+  </g>
+</svg>

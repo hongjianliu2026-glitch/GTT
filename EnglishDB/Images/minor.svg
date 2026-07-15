@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">minor</text>
+  <text x="50" y="120" class="subtitle">[ˈmaɪnər] adj. 较小的，次要的；n. 未成年人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> min (小) + -or (比较级)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个成年人站在一个巨大的成年人旁边，显得非常"小(min)"，
+    <tspan x="50" dy="25">因此他是"较小的(minor)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The minor issue was quickly resolved.
+  </text>
+  <text x="50" y="310" class="content">
+    这个小问题很快就被解决了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large adult -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <line x1="100" y1="180" x2="50" y2="170" class="image" />
+    <line x1="100" y1="180" x2="150" y2="170" class="image" />
+
+    <!-- Small adult -->
+    <circle cx="250" cy="100" r="25" class="image" />
+    <line x1="250" y1="125" x2="250" y2="175" class="image" />
+    <line x1="250" y1="175" x2="225" y2="200" class="image" />
+    <line x1="250" y1="175" x2="275" y2="200" class="image" />
+    <line x1="250" y1="140" x2="225" y2="135" class="image" />
+    <line x1="250" y1="140" x2="275" y2="135" class="image" />
+  </g>
+</svg>

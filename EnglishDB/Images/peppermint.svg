@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .mint { fill: #2ECC71; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">peppermint</text>
+  <text x="50" y="120" class="subtitle">[ˈpɛpərmɪnt] n. 薄荷</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pepper (胡椒) + mint (薄荷)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的薄荷糖，"胡椒(pepper)"和"薄荷(mint)"
+    <tspan x="50" dy="25">结合在一起，形成了令人清爽的薄荷糖(peppermint)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She loves chewing peppermint gum after meals.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢饭后嚼薄荷口香糖。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Peppermint candy -->
+    <circle cx="100" cy="100" r="50" class="mint" />
+    <circle cx="100" cy="100" r="45" class="image" />
+    <circle cx="100" cy="100" r="40" class="mint" />
+    <circle cx="100" cy="100" r="35" class="image" />
+    <circle cx="100" cy="100" r="30" class="mint" />
+    <circle cx="100" cy="100" r="25" class="image" />
+    <circle cx="100" cy="100" r="20" class="mint" />
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="100" cy="100" r="10" class="mint" />
+    <circle cx="100" cy="100" r="5" class="image" />
+    <!-- Peppermint leaves -->
+    <path d="M150,50 Q200,20 250,50 T350,50" class="mint" />
+    <path d="M150,70 Q200,40 250,70 T350,70" class="mint" />
+    <path d="M150,90 Q200,60 250,90 T350,90" class="mint" />
+  </g>
+</svg>

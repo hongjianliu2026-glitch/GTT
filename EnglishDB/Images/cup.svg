@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cup</text>
+  <text x="50" y="120" class="subtitle">[kʌp] n. 杯子</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cup (源自拉丁语 "cupa"，意为“容器”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的杯子，"容器(cup)"
+    <tspan x="50" dy="25">里装满了五彩斑斓的液体，仿佛一场奇幻的饮料派对。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She drank a cup of coffee to wake up.
+  </text>
+  <text x="50" y="310" class="content">
+    她喝了一杯咖啡来提神。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cup -->
+    <path d="M50 50 Q100 20 150 50 L150 150 L50 150 Z" class="image" fill="#F1C40F" />
+    <!-- Liquid -->
+    <path d="M60 60 Q90 40 140 60 L140 140 L60 140 Z" class="image" fill="#3498DB" />
+    <!-- Handle -->
+    <path d="M160 70 Q180 90 160 110" class="image" fill="#D35400" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">embody</text>
+  <text x="50" y="120" class="subtitle">[ɪmˈbɒdi] v. 体现，包含</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> em- (进入) + body (身体)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人将"思想(idea)""融入(em-)"自己的"身体(body)"，
+    <tspan x="50" dy="25">这个人的一举一动都"体现(embody)"了那个思想。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her actions embodied the principles of kindness and generosity.
+  </text>
+  <text x="50" y="310" class="content">
+    她的行为体现了善良和慷慨的原则。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Body -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Idea -->
+    <circle cx="100" cy="100" r="20" class="image" fill="#E74C3C" />
+    <!-- Arrow -->
+    <line x1="100" y1="120" x2="100" y2="180" class="image" />
+    <polygon points="90,150 100,180 110,150" class="image" />
+    <!-- Text -->
+    <text x="120" y="160" class="content">思想</text>
+  </g>
+</svg>

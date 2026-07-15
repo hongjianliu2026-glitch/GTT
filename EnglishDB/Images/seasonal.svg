@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">seasonal</text>
+  <text x="50" y="120" class="subtitle">[ˈsiːzənl] adj. 季节性的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> season (季节) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个四季变换的场景，"季节(season)"
+    <tspan x="50" dy="25">的变化带来了不同的景色和活动，这就是季节性的(seasonal)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The store offers seasonal discounts during the holiday season.
+  </text>
+  <text x="50" y="310" class="content">
+    这家商店在假期期间提供季节性折扣。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#F1C40F" />
+    <!-- Snowflake -->
+    <line x1="150" y1="20" x2="150" y2="80" class="image" />
+    <line x1="130" y1="50" x2="170" y2="50" class="image" />
+    <line x1="140" y1="30" x2="160" y2="70" class="image" />
+    <line x1="140" y1="70" x2="160" y2="30" class="image" />
+    <!-- Tree -->
+    <rect x="250" y="20" width="20" height="60" class="image" fill="#27AE60" />
+    <polygon points="240,20 270,20 255,0" class="image" fill="#2ECC71" />
+    <polygon points="230,40 280,40 255,10" class="image" fill="#2ECC71" />
+    <polygon points="220,60 290,60 255,30" class="image" fill="#2ECC71" />
+  </g>
+</svg>

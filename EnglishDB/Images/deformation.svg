@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">deformation</text>
+  <text x="50" y="120" class="subtitle">[ˌdiːfɔːrˈmeɪʃn] n. 变形，畸形</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (离开) + form (形状) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个原本完美的形状被"离开(de-)"了它的原始形态，变成了一个"变形(deformation)"的怪异形状。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The deformation of the metal was caused by excessive heat.
+  </text>
+  <text x="50" y="310" class="content">
+    金属的变形是由于过热引起的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Original shape -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <text x="75" y="60" text-anchor="middle" class="content">Original</text>
+
+    <!-- Deformed shape -->
+    <rect x="200" y="0" width="150" height="100" class="image" transform="skewX(20)" />
+    <text x="275" y="60" text-anchor="middle" class="content">Deformed</text>
+
+    <!-- Arrow -->
+    <line x1="150" y1="50" x2="200" y2="50" class="image" />
+    <polygon points="190,45 200,50 190,55" class="image" />
+  </g>
+</svg>

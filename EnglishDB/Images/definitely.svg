@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">definitely</text>
+  <text x="50" y="120" class="subtitle">[ˈdefɪnɪtli] adv. 明确地，肯定地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (强调) + fin (界限) + -ite (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一条明确的界限前，"强调界限(de-fin-ite-ly)"，
+    <tspan x="50" dy="25">表示他非常确定自己的立场。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She answered the question definitely.
+  </text>
+  <text x="50" y="310" class="content">
+    她明确地回答了这个问题。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Boundary line -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <!-- Person standing at the boundary -->
+    <circle cx="175" cy="50" r="20" class="image" />
+    <line x1="175" y1="70" x2="175" y2="120" class="image" />
+    <line x1="175" y1="120" x2="150" y2="150" class="image" />
+    <line x1="175" y1="120" x2="200" y2="150" class="image" />
+    <line x1="175" y1="90" x2="220" y2="80" class="image" />
+  </g>
+</svg>

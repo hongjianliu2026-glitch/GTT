@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">entanglement</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈtæŋɡlmənt] n. 纠缠，缠结</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> en- (进入) + tangle (缠结)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只小猫被"进入(en-)"了一堆毛线球中，
+    <tspan x="50" dy="25">它的四肢和尾巴都被"缠结(tangle)"在一起，无法动弹。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The entanglement of wires made it difficult to find the problem.
+  </text>
+  <text x="50" y="310" class="content">
+    电线的缠结使得找到问题变得困难。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cat -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="200" class="image" />
+    <line x1="50" y1="160" x2="70" y2="200" class="image" />
+    <line x1="50" y1="140" x2="90" y2="130" class="image" />
+    <line x1="50" y1="140" x2="10" y2="130" class="image" />
+
+    <!-- Yarn -->
+    <path d="M100,100 C120,80 180,80 200,100 S280,120 300,100" class="image" />
+    <path d="M100,120 C120,100 180,100 200,120 S280,140 300,120" class="image" />
+    <path d="M100,140 C120,120 180,120 200,140 S280,160 300,140" class="image" />
+    <path d="M100,160 C120,140 180,140 200,160 S280,180 300,160" class="image" />
+  </g>
+</svg>

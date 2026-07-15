@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">freckle</text>
+  <text x="50" y="120" class="subtitle">[ˈfrɛkəl] n. 雀斑</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> freck (斑点) + -le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的日子，一个小女孩在户外玩耍，
+    <tspan x="50" dy="25">阳光在她脸上留下了许多小斑点(freck-le)，这些小斑点就是雀斑(freckle)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She has a lot of freckles on her nose.
+  </text>
+  <text x="50" y="310" class="content">
+    她的鼻子上有很多雀斑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Girl -->
+    <circle cx="200" cy="100" r="30" class="image" fill="#E67E22" />
+    <!-- Freckles -->
+    <circle cx="180" cy="90" r="5" class="image" fill="#8E44AD" />
+    <circle cx="210" cy="95" r="5" class="image" fill="#8E44AD" />
+    <circle cx="190" cy="110" r="5" class="image" fill="#8E44AD" />
+    <circle cx="220" cy="105" r="5" class="image" fill="#8E44AD" />
+    <circle cx="200" cy="120" r="5" class="image" fill="#8E44AD" />
+  </g>
+</svg>

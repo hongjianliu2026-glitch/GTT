@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">strained</text>
+  <text x="50" y="120" class="subtitle">[streɪnd] adj. 紧张的，勉强的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> strain (拉紧) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被一根绳子紧紧地"拉紧(strain)"，
+    <tspan x="50" dy="25">他的表情显得非常紧张和勉强(strained)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His strained expression showed how much he was struggling.
+  </text>
+  <text x="50" y="310" class="content">
+    他紧张的表情显示了他正在多么努力地挣扎。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rope -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="0" y1="20" x2="350" y2="20" class="image" />
+    <line x1="0" y1="40" x2="350" y2="40" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="200" class="image" />
+    <line x1="175" y1="200" x2="140" y2="250" class="image" />
+    <line x1="175" y1="200" x2="210" y2="250" class="image" />
+    <line x1="175" y1="150" x2="120" y2="180" class="image" />
+    <line x1="175" y1="150" x2="230" y2="180" class="image" />
+    <!-- Strained expression -->
+    <line x1="160" y1="80" x2="190" y2="80" class="image" />
+    <line x1="160" y1="80" x2="155" y2="75" class="image" />
+    <line x1="190" y1="80" x2="195" y2="75" class="image" />
+    <line x1="160" y1="90" x2="190" y2="90" class="image" />
+    <line x1="160" y1="90" x2="155" y2="95" class="image" />
+    <line x1="190" y1="90" x2="195" y2="95" class="image" />
+  </g>
+</svg>

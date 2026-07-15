@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">community</text>
+  <text x="50" y="120" class="subtitle">[kəˈmjuːnɪti] n. 社区，团体</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (共同) + munis (服务)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人共同(com-)为社区(community)服务，
+    <tspan x="50" dy="25">他们一起建造房屋、种植花草，形成了一个和谐的社区。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The community center organizes various activities for residents.
+  </text>
+  <text x="50" y="310" class="content">
+    社区中心为居民组织各种活动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Community center -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Houses -->
+    <rect x="50" y="20" width="50" height="50" class="image" />
+    <rect x="120" y="20" width="50" height="50" class="image" />
+    <rect x="190" y="20" width="50" height="50" class="image" />
+    <!-- People -->
+    <circle cx="75" cy="100" r="15" class="image" />
+    <circle cx="145" cy="100" r="15" class="image" />
+    <circle cx="215" cy="100" r="15" class="image" />
+    <!-- Plants -->
+    <line x1="50" y1="180" x2="50" y2="150" class="image" />
+    <line x1="55" y1="180" x2="55" y2="150" class="image" />
+    <line x1="60" y1="180" x2="60" y2="150" class="image" />
+    <line x1="120" y1="180" x2="120" y2="150" class="image" />
+    <line x1="125" y1="180" x2="125" y2="150" class="image" />
+    <line x1="130" y1="180" x2="130" y2="150" class="image" />
+    <line x1="190" y1="180" x2="190" y2="150" class="image" />
+    <line x1="195" y1="180" x2="195" y2="150" class="image" />
+    <line x1="200" y1="180" x2="200" y2="150" class="image" />
+  </g>
+</svg>

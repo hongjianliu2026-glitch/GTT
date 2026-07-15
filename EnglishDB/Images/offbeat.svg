@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">offbeat</text>
+  <text x="50" y="120" class="subtitle">[ˌɔːfˈbiːt] adj. 不寻常的，非传统的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> off- (离开) + beat (节拍)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在演奏时，"离开(off)"
+    <tspan x="50" dy="25">常规的节拍(beat)，创造出一种非传统的音乐风格。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His offbeat sense of humor always makes us laugh.
+  </text>
+  <text x="50" y="310" class="content">
+    他那不寻常的幽默感总是让我们发笑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Music notes -->
+    <path d="M50 50 Q70 30 90 50 T130 50" class="image" />
+    <path d="M50 80 Q70 60 90 80 T130 80" class="image" />
+    <path d="M50 110 Q70 90 90 110 T130 110" class="image" />
+    <!-- Offbeat note -->
+    <path d="M150 50 Q170 30 190 50 T230 50" class="image" />
+    <path d="M150 80 Q170 60 190 80 T230 80" class="image" />
+    <path d="M150 110 Q170 90 190 110 T230 110" class="image" />
+    <!-- Arrow pointing to offbeat note -->
+    <line x1="250" y1="80" x2="300" y2="80" class="image" />
+    <polygon points="300,70 310,80 300,90" class="image" />
+    <!-- Text annotation -->
+    <text x="320" y="85" class="content">Offbeat</text>
+  </g>
+</svg>

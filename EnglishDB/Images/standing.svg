@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">standing</text>
+  <text x="50" y="120" class="subtitle">[ˈstændɪŋ] n. 站立，地位；adj. 站立的，固定的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> stand (站立) + -ing (表示状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人笔直地"站立(stand)"在舞台上，
+    <tspan x="50" dy="25">他的"地位(standing)"因此而显赫。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He has a good standing in the community.
+  </text>
+  <text x="50" y="310" class="content">
+    他在社区中有很好的地位。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Stage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person standing -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="220" class="image" />
+    <line x1="175" y1="180" x2="200" y2="220" class="image" />
+    <line x1="175" y1="140" x2="130" y2="130" class="image" />
+    <line x1="175" y1="140" x2="220" y2="130" class="image" />
+  </g>
+</svg>

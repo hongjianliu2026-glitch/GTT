@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fast-paced</text>
+  <text x="50" y="120" class="subtitle">[ˈfæstˈpeɪst] adj. 快节奏的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fast (快速的) + pace (步伐)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在跑步机上，"快速地(fast)"
+    <tspan x="50" dy="25">迈着步伐(pace)，整个场景充满了快节奏(fast-paced)的动感。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The fast-paced city life makes people always feel rushed.
+  </text>
+  <text x="50" y="310" class="content">
+    快节奏的城市生活让人们总是感到匆忙。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Treadmill -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Running person -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <line x1="50" y1="115" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="30" y2="180" class="image" />
+    <line x1="50" y1="150" x2="70" y2="180" class="image" />
+    <line x1="50" y1="130" x2="80" y2="120" class="image" />
+    <!-- Fast pace lines -->
+    <line x1="100" y1="100" x2="300" y2="100" class="image" />
+    <line x1="100" y1="120" x2="300" y2="120" class="image" />
+    <line x1="100" y1="140" x2="300" y2="140" class="image" />
+    <line x1="100" y1="160" x2="300" y2="160" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .leaf { fill: #27AE60; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fern</text>
+  <text x="50" y="120" class="subtitle">[fɜːrn] n. 蕨类植物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "fern"，意为“蕨类植物”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片古老的森林，"蕨类植物(fern)"
+    <tspan x="50" dy="25">在阴暗潮湿的环境中茂盛生长，它们的叶子像绿色的羽毛一样展开。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The forest floor was covered with ferns.
+  </text>
+  <text x="50" y="310" class="content">
+    森林的地面上覆盖着蕨类植物。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fern plant -->
+    <path d="M0,0 C10,-20 30,-20 40,0 C50,-20 70,-20 80,0" class="image leaf" />
+    <path d="M0,20 C10,0 30,0 40,20 C50,0 70,0 80,20" class="image leaf" />
+    <path d="M0,40 C10,20 30,20 40,40 C50,20 70,20 80,40" class="image leaf" />
+    <path d="M0,60 C10,40 30,40 40,60 C50,40 70,40 80,60" class="image leaf" />
+    <path d="M0,80 C10,60 30,60 40,80 C50,60 70,60 80,80" class="image leaf" />
+  </g>
+</svg>

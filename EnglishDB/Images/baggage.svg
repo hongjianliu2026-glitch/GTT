@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">baggage</text>
+  <text x="50" y="120" class="subtitle">[ˈbæɡɪdʒ] n. 行李，负担</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bag (包) + age (集合名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个旅行者在机场，"包(bag)"
+    <tspan x="50" dy="25">堆积如山，这些包就构成了行李(baggage)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She checked her baggage at the airport counter.
+  </text>
+  <text x="50" y="310" class="content">
+    她在机场柜台托运行李。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Luggage -->
+    <rect x="0" y="0" width="100" height="150" class="image" />
+    <rect x="120" y="0" width="100" height="150" class="image" />
+    <rect x="240" y="0" width="100" height="150" class="image" />
+    <!-- Traveler -->
+    <circle cx="50" cy="200" r="20" class="image" />
+    <line x1="50" y1="220" x2="50" y2="260" class="image" />
+    <line x1="50" y1="260" x2="30" y2="300" class="image" />
+    <line x1="50" y1="260" x2="70" y2="300" class="image" />
+    <line x1="50" y1="240" x2="90" y2="230" class="image" />
+  </g>
+</svg>

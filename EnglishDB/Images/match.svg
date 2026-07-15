@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">match</text>
+  <text x="50" y="120" class="subtitle">[mætʃ] n. 比赛，火柴；v. 匹配，相配</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mat- (相同) + -ch (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两支火柴"相同(mat-)"地"动作(ch)"，
+    <tspan x="50" dy="25">它们在比赛中互相匹配(match)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The two teams played a close match.
+  </text>
+  <text x="50" y="310" class="content">
+    两支队伍进行了一场势均力敌的比赛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two matches -->
+    <line x1="50" y1="50" x2="50" y2="150" class="image" />
+    <line x1="70" y1="50" x2="70" y2="150" class="image" />
+    <!-- Flame on the matches -->
+    <circle cx="50" cy="40" r="10" class="image" fill="#FFA500" />
+    <circle cx="70" cy="40" r="10" class="image" fill="#FFA500" />
+    <!-- Match heads -->
+    <rect x="40" y="150" width="20" height="10" class="image" fill="#8B4513" />
+    <rect x="60" y="150" width="20" height="10" class="image" fill="#8B4513" />
+  </g>
+</svg>

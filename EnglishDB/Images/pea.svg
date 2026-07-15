@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pea</text>
+  <text x="50" y="120" class="subtitle">[piː] n. 豌豆</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 pe, 来自古英语 pise, 拉丁语 pisum.
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的豌豆(pea)从天而降，砸在了一个小村庄上，
+    <tspan x="50" dy="25">村民们惊慌失措，纷纷躲避这个绿色的“陨石”。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added peas to the salad for extra flavor.
+  </text>
+  <text x="50" y="310" class="content">
+    她在沙拉中加入了豌豆以增加风味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Giant pea -->
+    <circle cx="100" cy="100" r="80" fill="#82E0AA" stroke="#27AE60" stroke-width="5" />
+    <!-- Small village -->
+    <rect x="200" y="50" width="150" height="100" fill="#F4D03F" stroke="#D4AC0D" stroke-width="3" />
+    <rect x="220" y="70" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+    <rect x="270" y="70" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+    <rect x="320" y="70" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+    <rect x="220" y="110" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+    <rect x="270" y="110" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+    <rect x="320" y="110" width="30" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spate</text>
+  <text x="50" y="120" class="subtitle">[speɪt] n. 大量，突然涌出</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sp- (喷射) + ate (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条河流突然"喷射(sp-)"出大量的水，
+    <tspan x="50" dy="25">形成了一股"涌出(ate)"的洪流，这就是spate。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The heavy rain caused a spate of floods.
+  </text>
+  <text x="50" y="310" class="content">
+    大雨引发了一连串的洪水。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- River -->
+    <path d="M0 100 Q100 50 200 100 T400 100" class="image" />
+    <!-- Water splashing -->
+    <circle cx="100" cy="80" r="10" class="image" />
+    <circle cx="150" cy="90" r="10" class="image" />
+    <circle cx="200" cy="85" r="10" class="image" />
+    <circle cx="250" cy="95" r="10" class="image" />
+    <circle cx="300" cy="80" r="10" class="image" />
+    <!-- Waterfall -->
+    <path d="M350 100 Q375 50 400 100" class="image" />
+    <line x1="350" y1="100" x2="350" y2="150" class="image" />
+    <line x1="375" y1="100" x2="375" y2="150" class="image" />
+    <line x1="400" y1="100" x2="400" y2="150" class="image" />
+  </g>
+</svg>

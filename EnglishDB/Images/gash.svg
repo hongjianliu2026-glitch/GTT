@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gash</text>
+  <text x="50" y="120" class="subtitle">[ɡæʃ] n. 深长的切口，裂缝；v. 划伤，割破</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> g- (表示动作) + ash (灰烬，象征破坏)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一把锋利的刀在木头上"划过(g-)"，留下一道深深的"裂缝(ash)"，
+    <tspan x="50" dy="25">这就是gash的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He accidentally gash his hand while chopping wood.
+  </text>
+  <text x="50" y="310" class="content">
+    他在劈柴时不小心割伤了手。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Wood surface -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Gash -->
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <!-- Knife -->
+    <line x1="300" y1="80" x2="350" y2="120" class="image" />
+    <line x1="300" y1="120" x2="350" y2="80" class="image" />
+  </g>
+</svg>

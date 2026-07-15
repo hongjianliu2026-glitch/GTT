@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">off-road</text>
+  <text x="50" y="120" class="subtitle">[ˌɔːfˈroʊd] adj. 越野的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> off (离开) + road (道路)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一辆越野车"离开(off)"平坦的"道路(road)"，
+    <tspan x="50" dy="25">勇敢地驶入崎岖的山地，这就是越野(off-road)的冒险。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They bought an off-road vehicle for their mountain trips.
+  </text>
+  <text x="50" y="310" class="content">
+    他们为山地旅行买了一辆越野车。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Road -->
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <!-- Off-road path -->
+    <line x1="50" y1="120" x2="300" y2="180" class="image" />
+    <line x1="50" y1="120" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="150" y2="120" class="image" />
+    <line x1="150" y1="120" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="250" y2="120" class="image" />
+    <line x1="250" y1="120" x2="300" y2="150" class="image" />
+    <!-- Vehicle -->
+    <rect x="250" y="80" width="50" height="20" class="image" />
+    <circle cx="265" cy="105" r="10" class="image" />
+    <circle cx="305" cy="105" r="10" class="image" />
+  </g>
+</svg>

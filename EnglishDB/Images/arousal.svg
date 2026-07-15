@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">arousal</text>
+  <text x="50" y="120" class="subtitle">[əˈraʊzəl] n. 唤醒，激发</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> a- (加强) + rouse (唤醒)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个沉睡的巨人被"加强唤醒(a-rouse)"，
+    <tspan x="50" dy="25">他的苏醒引起了巨大的震动，这就是arousal。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The loud noise caused a sudden arousal of the crowd.
+  </text>
+  <text x="50" y="310" class="content">
+    巨大的噪音突然唤醒了人群。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sleeping giant -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <line x1="100" y1="200" x2="150" y2="180" class="image" />
+    <line x1="100" y1="200" x2="50" y2="180" class="image" />
+    <!-- Awakening -->
+    <line x1="100" y1="100" x2="100" y2="50" class="image" />
+    <line x1="100" y1="50" x2="50" y2="20" class="image" />
+    <line x1="100" y1="50" x2="150" y2="20" class="image" />
+    <!-- Shockwave -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="100" cy="100" r="40" class="image" />
+    <circle cx="100" cy="100" r="60" class="image" />
+  </g>
+</svg>

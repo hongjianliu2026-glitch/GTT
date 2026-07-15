@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flare</text>
+  <text x="50" y="120" class="subtitle">[flɛər] n. 闪光，闪耀；v. 闪耀，突然爆发</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fl- (火焰) + -are (动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的火焰"突然爆发(flare)"，
+    <tspan x="50" dy="25">照亮了整个夜空，就像烟花一样绚丽夺目。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The flare from the fireworks lit up the sky.
+  </text>
+  <text x="50" y="310" class="content">
+    烟花的闪光照亮了天空。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fire -->
+    <path d="M50 50 C 100 20, 150 20, 200 50 S 300 80, 350 50" class="image" />
+    <path d="M50 70 C 100 40, 150 40, 200 70 S 300 100, 350 70" class="image" />
+    <path d="M50 90 C 100 60, 150 60, 200 90 S 300 120, 350 90" class="image" />
+    <!-- Sky -->
+    <rect x="0" y="0" width="400" height="200" class="image" />
+    <!-- Stars -->
+    <circle cx="70" cy="30" r="5" class="image" />
+    <circle cx="120" cy="50" r="5" class="image" />
+    <circle cx="180" cy="40" r="5" class="image" />
+    <circle cx="250" cy="60" r="5" class="image" />
+    <circle cx="320" cy="30" r="5" class="image" />
+  </g>
+</svg>

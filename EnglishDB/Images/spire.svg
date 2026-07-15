@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">spire</text>
+  <text x="50" y="120" class="subtitle">[ˈspaɪər] n. 尖塔，塔尖</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> spir (呼吸，生命) + -e
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一座高耸入云的尖塔(spire)，它仿佛在"呼吸(spir)"着天空的气息，
+    <tspan x="50" dy="25">象征着生命的力量和向上的精神。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The spire of the church could be seen from miles away.
+  </text>
+  <text x="50" y="310" class="content">
+    教堂的尖塔在几英里外都能看到。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Tower base -->
+    <rect x="0" y="150" width="100" height="50" class="image" />
+    <!-- Tower body -->
+    <rect x="35" y="0" width="30" height="150" class="image" />
+    <!-- Spire -->
+    <polygon points="50,0 20,150 80,150" class="image" />
+  </g>
+</svg>

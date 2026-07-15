@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">quadruple</text>
+  <text x="50" y="120" class="subtitle">[ˈkwɒdrupl] adj. 四倍的；v. 使成四倍</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> quadru- (四) + -ple (倍)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个魔术师将一个苹果变成了四个苹果，"四倍(quadru-ple)"
+    <tspan x="50" dy="25">的奇迹就在眼前！</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company's profits quadrupled last year.
+  </text>
+  <text x="50" y="310" class="content">
+    公司去年的利润翻了四倍。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Original apple -->
+    <circle cx="50" cy="100" r="20" class="image" fill="#FF4500" />
+    <!-- Four apples -->
+    <circle cx="150" cy="80" r="20" class="image" fill="#FF4500" />
+    <circle cx="150" cy="140" r="20" class="image" fill="#FF4500" />
+    <circle cx="200" cy="110" r="20" class="image" fill="#FF4500" />
+    <circle cx="250" cy="110" r="20" class="image" fill="#FF4500" />
+    <!-- Magic wand -->
+    <line x1="50" y1="100" x2="150" y2="110" class="image" stroke-width="4" stroke="#8B4513" />
+    <line x1="150" y1="110" x2="250" y2="110" class="image" stroke-width="4" stroke="#8B4513" />
+  </g>
+</svg>

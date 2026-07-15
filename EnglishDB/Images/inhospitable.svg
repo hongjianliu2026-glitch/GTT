@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">inhospitable</text>
+  <text x="50" y="120" class="subtitle">[ˌɪnhɒˈspɪtəbl] adj. 不适宜居住的，不友好的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + hospit (客人) + -able (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个荒凉的沙漠，"没有客人(in-hospit-able)"
+    <tspan x="50" dy="25">愿意停留，因为这里的环境极其恶劣，</tspan>
+    <tspan x="50" dy="25">完全不适宜居住(inhospitable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The desert is an inhospitable place for most living creatures.
+  </text>
+  <text x="50" y="310" class="content">
+    沙漠对大多数生物来说是一个不适宜居住的地方。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Desert landscape -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="40" x2="300" y2="40" class="image" />
+    <line x1="50" y1="60" x2="300" y2="60" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <line x1="50" y1="120" x2="300" y2="120" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <line x1="50" y1="160" x2="300" y2="160" class="image" />
+    <line x1="50" y1="180" x2="300" y2="180" class="image" />
+    <!-- Sun -->
+    <circle cx="20" cy="20" r="15" class="image" />
+    <!-- Cactus -->
+    <rect x="250" y="120" width="20" height="80" class="image" />
+    <line x1="260" y1="120" x2="260" y2="100" class="image" />
+    <line x1="240" y1="140" x2="280" y2="140" class="image" />
+    <line x1="240" y1="160" x2="280" y2="160" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dissatisfied</text>
+  <text x="50" y="120" class="subtitle">[ˌdɪsˈsætɪsfaɪd] adj. 不满意的，不高兴的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (不) + satisfy (满足)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人皱着眉头，"不满足(dis-satisfy)"
+    <tspan x="50" dy="25">地看着他的食物，因为他想要更多。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The customers were dissatisfied with the service.
+  </text>
+  <text x="50" y="310" class="content">
+    顾客对服务感到不满意。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Eyes -->
+    <circle cx="80" cy="80" r="5" class="image" />
+    <circle cx="120" cy="80" r="5" class="image" />
+    <!-- Mouth -->
+    <path d="M 70 120 Q 100 140 130 120" class="image" />
+    <!-- Food -->
+    <rect x="150" y="50" width="100" height="50" class="image" />
+    <line x1="160" y1="60" x2="240" y2="60" class="image" />
+    <line x1="160" y1="70" x2="240" y2="70" class="image" />
+    <line x1="160" y1="80" x2="240" y2="80" class="image" />
+    <line x1="160" y1="90" x2="240" y2="90" class="image" />
+  </g>
+</svg>

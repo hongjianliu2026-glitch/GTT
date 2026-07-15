@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">robber</text>
+  <text x="50" y="120" class="subtitle">[ˈrɒbə] n. 强盗，抢劫者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rob (抢夺) + -er (表示人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个强盗("robber")在夜晚悄悄地"抢夺(rob)"
+    <tspan x="50" dy="25">别人的财物，他的脸上带着狡猾的笑容。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The robber was caught by the police.
+  </text>
+  <text x="50" y="310" class="content">
+    那个强盗被警察抓住了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Robber -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Mask -->
+    <rect x="10" y="85" width="20" height="10" class="image" />
+    <!-- Bag of money -->
+    <rect x="50" y="90" width="30" height="20" class="image" />
+    <line x1="50" y1="90" x2="80" y2="90" class="image" />
+    <line x1="50" y1="110" x2="80" y2="110" class="image" />
+    <line x1="50" y1="90" x2="50" y2="110" class="image" />
+    <line x1="80" y1="90" x2="80" y2="110" class="image" />
+    <!-- Moon -->
+    <circle cx="150" cy="50" r="20" class="image" />
+    <!-- Stars -->
+    <circle cx="130" cy="40" r="3" class="image" />
+    <circle cx="170" cy="40" r="3" class="image" />
+    <circle cx="140" cy="60" r="3" class="image" />
+    <circle cx="160" cy="60" r="3" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">willingly</text>
+  <text x="50" y="120" class="subtitle">[ˈwɪlɪŋli] adv. 乐意地，自愿地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> will (意愿) + -ing (进行时) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人满脸笑容，"心甘情愿地(will-ing-ly)"
+    <tspan x="50" dy="25">去做某事，这种自愿的行为让人感到温暖。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She agreed to help willingly.
+  </text>
+  <text x="50" y="310" class="content">
+    她乐意地同意帮忙。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Smiling face -->
+    <circle cx="50" cy="50" r="40" class="image" />
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <path d="M35 60 Q50 80 65 60" class="image" />
+    <!-- Heart -->
+    <path d="M100 50 C100 30, 120 30, 120 50 S140 70, 120 90 S100 70, 100 50" class="image" />
+  </g>
+</svg>

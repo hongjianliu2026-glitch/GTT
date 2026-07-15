@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rickety</text>
+  <text x="50" y="120" class="subtitle">[ˈrɪkɪti] adj. 摇晃的，不牢固的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rick (摇晃) + -ety (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一架"摇晃(rick)"的梯子，每一步都让人担心它会倒下，这就是"摇晃的(rickety)"状态。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old rickety bridge swayed with every step.
+  </text>
+  <text x="50" y="310" class="content">
+    那座老旧的摇晃的桥每走一步都在摇摆。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rickety ladder -->
+    <line x1="50" y1="20" x2="50" y2="200" class="image" />
+    <line x1="100" y1="20" x2="100" y2="200" class="image" />
+    <line x1="50" y1="20" x2="100" y2="20" class="image" />
+    <line x1="50" y1="60" x2="100" y2="60" class="image" />
+    <line x1="50" y1="100" x2="100" y2="100" class="image" />
+    <line x1="50" y1="140" x2="100" y2="140" class="image" />
+    <line x1="50" y1="180" x2="100" y2="180" class="image" />
+    <!-- Person on the ladder -->
+    <circle cx="75" cy="40" r="10" class="image" />
+    <line x1="75" y1="50" x2="75" y2="80" class="image" />
+    <line x1="75" y1="80" x2="65" y2="110" class="image" />
+    <line x1="75" y1="80" x2="85" y2="110" class="image" />
+    <line x1="75" y1="60" x2="95" y2="50" class="image" />
+  </g>
+</svg>

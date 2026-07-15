@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">smug</text>
+  <text x="50" y="120" class="subtitle">[smʌɡ] adj. 自满的，自鸣得意的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sm- (表示“小”) + -ug (表示“弯曲”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小人(sm-)，弯着腰(-ug)，脸上挂着自满的笑容，
+    <tspan x="50" dy="25">仿佛在说：“我什么都知道，我做得最好！”</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He had a smug look on his face after winning the game.
+  </text>
+  <text x="50" y="310" class="content">
+    赢得比赛后，他脸上露出了自满的表情。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Smug face -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="80" cy="80" r="5" class="image" />
+    <circle cx="120" cy="80" r="5" class="image" />
+    <path d="M 70 120 Q 100 140 130 120" class="image" />
+    <!-- Smug posture -->
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="70" y2="300" class="image" />
+    <line x1="100" y1="250" x2="130" y2="300" class="image" />
+    <line x1="100" y1="200" x2="50" y2="180" class="image" />
+    <line x1="100" y1="200" x2="150" y2="180" class="image" />
+  </g>
+</svg>

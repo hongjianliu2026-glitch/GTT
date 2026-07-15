@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lamb</text>
+  <text x="50" y="120" class="subtitle">[læm] n. 羔羊，小羊</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语“lambe”，意为“小羊”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只柔软的小羊羔(lamb)，
+    <tspan x="50" dy="25">它毛茸茸的身体在阳光下闪闪发光，</tspan>
+    <tspan x="50" dy="25">仿佛在说：“我是最温柔的小羊羔！”</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The shepherd carried the lamb in his arms.
+  </text>
+  <text x="50" y="310" class="content">
+    牧羊人把小羊羔抱在怀里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Lamb body -->
+    <ellipse cx="150" cy="150" rx="100" ry="70" class="image" />
+    <!-- Lamb head -->
+    <circle cx="200" cy="100" r="40" class="image" />
+    <!-- Lamb legs -->
+    <line x1="100" y1="220" x2="100" y2="280" class="image" />
+    <line x1="200" y1="220" x2="200" y2="280" class="image" />
+    <!-- Lamb ears -->
+    <line x1="180" y1="70" x2="160" y2="50" class="image" />
+    <line x1="220" y1="70" x2="240" y2="50" class="image" />
+    <!-- Lamb eyes -->
+    <circle cx="185" cy="90" r="5" class="image" fill="#000" />
+    <circle cx="215" cy="90" r="5" class="image" fill="#000" />
+    <!-- Lamb tail -->
+    <line x1="50" y1="150" x2="30" y2="130" class="image" />
+  </g>
+</svg>

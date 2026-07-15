@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">empathize</text>
+  <text x="50" y="120" class="subtitle">[ˈɛmpəˌθaɪz] v. 同情，感同身受</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> em- (进入) + path (感情) + -ize (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人走进(em-)另一个人的感情(path)世界，
+    <tspan x="50" dy="25">完全理解并感受到对方的情感，这就是感同身受(empathize)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She tried to empathize with her friend's pain.
+  </text>
+  <text x="50" y="310" class="content">
+    她试图理解并感受她朋友的痛苦。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <path d="M10 30 Q25 50 40 30 T70 30" class="image" />
+    <!-- Person 1 -->
+    <circle cx="30" cy="100" r="15" class="image" />
+    <line x1="30" y1="115" x2="30" y2="150" class="image" />
+    <line x1="30" y1="150" x2="15" y2="180" class="image" />
+    <line x1="30" y1="150" x2="45" y2="180" class="image" />
+    <line x1="30" y1="130" x2="60" y2="120" class="image" />
+    <!-- Person 2 -->
+    <circle cx="60" cy="100" r="15" class="image" />
+    <line x1="60" y1="115" x2="60" y2="150" class="image" />
+    <line x1="60" y1="150" x2="45" y2="180" class="image" />
+    <line x1="60" y1="150" x2="75" y2="180" class="image" />
+    <line x1="60" y1="130" x2="90" y2="120" class="image" />
+    <!-- Connection -->
+    <line x1="30" y1="120" x2="60" y2="120" class="image" />
+    <line x1="30" y1="130" x2="60" y2="130" class="image" />
+  </g>
+</svg>

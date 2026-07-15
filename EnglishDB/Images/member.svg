@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">member</text>
+  <text x="50" y="120" class="subtitle">[ˈmɛmbər] n. 成员，会员</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mem- (记忆) + -ber (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个团队中，每个成员(member)都像是一块拼图，
+    <tspan x="50" dy="25">他们共同构成了一个完整的记忆(mem-)拼图。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is a member of the local chess club.
+  </text>
+  <text x="50" y="310" class="content">
+    他是当地国际象棋俱乐部的成员。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Puzzle pieces -->
+    <path d="M50 50 L100 50 L100 100 L50 100 Z" class="image" />
+    <path d="M120 50 L170 50 L170 100 L120 100 Z" class="image" />
+    <path d="M190 50 L240 50 L240 100 L190 100 Z" class="image" />
+    <path d="M50 120 L100 120 L100 170 L50 170 Z" class="image" />
+    <path d="M120 120 L170 120 L170 170 L120 170 Z" class="image" />
+    <path d="M190 120 L240 120 L240 170 L190 170 Z" class="image" />
+    <!-- Team members -->
+    <circle cx="75" cy="75" r="15" class="image" />
+    <circle cx="145" cy="75" r="15" class="image" />
+    <circle cx="215" cy="75" r="15" class="image" />
+    <circle cx="75" cy="145" r="15" class="image" />
+    <circle cx="145" cy="145" r="15" class="image" />
+    <circle cx="215" cy="145" r="15" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">old-fashioned</text>
+  <text x="50" y="120" class="subtitle">[ˌoʊldˈfæʃənd] adj. 过时的，老式的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> old (老的) + fashioned (形成)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着老式西装的人，戴着一顶高礼帽，手里拿着一个老式的怀表，
+    <tspan x="50" dy="25">走在现代的街道上，显得格格不入，这就是"老式的(old-fashioned)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His old-fashioned ideas were not accepted by the younger generation.
+  </text>
+  <text x="50" y="310" class="content">
+    他那些老派的想法不被年轻一代所接受。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Old-fashioned man -->
+    <circle cx="50" cy="100" r="20" class="image" /> <!-- Head -->
+    <line x1="50" y1="120" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="140" x2="30" y2="160" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="140" x2="70" y2="160" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="180" x2="30" y2="220" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="180" x2="70" y2="220" class="image" /> <!-- Right leg -->
+    <rect x="40" y="80" width="20" height="10" class="image" /> <!-- Hat -->
+    <rect x="45" y="120" width="10" height="20" class="image" /> <!-- Watch -->
+
+    <!-- Modern street -->
+    <line x1="0" y1="250" x2="200" y2="250" class="image" /> <!-- Street line -->
+    <rect x="100" y="230" width="20" height="40" class="image" /> <!-- Modern car -->
+  </g>
+</svg>

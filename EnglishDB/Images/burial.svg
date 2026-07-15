@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #7B241C; }
+      .subtitle { font: italic 24px serif; fill: #512E5F; }
+      .content { font: 18px sans-serif; fill: #4A235A; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">burial</text>
+  <text x="50" y="120" class="subtitle">[ˈbjʊəriəl] n. 埋葬，葬礼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> buri (埋) + -al (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被"埋(buri)"在地下，举行"葬礼(burial)"，
+    <tspan x="50" dy="25">这是一个悲伤而庄重的仪式。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The burial took place in the local cemetery.
+  </text>
+  <text x="50" y="310" class="content">
+    葬礼在当地墓地举行。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Grave -->
+    <rect x="0" y="0" width="300" height="200" class="image" />
+    <!-- Cross on the grave -->
+    <line x1="150" y1="20" x2="150" y2="100" class="image" />
+    <line x1="110" y1="60" x2="190" y2="60" class="image" />
+    <!-- Dirt mound -->
+    <rect x="50" y="150" width="200" height="50" class="image" />
+    <!-- Flowers -->
+    <circle cx="70" cy="170" r="10" class="image" />
+    <circle cx="90" cy="170" r="10" class="image" />
+    <circle cx="110" cy="170" r="10" class="image" />
+  </g>
+</svg>

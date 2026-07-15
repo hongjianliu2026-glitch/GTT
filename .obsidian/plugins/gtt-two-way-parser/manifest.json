@@ -1,0 +1,9 @@
+{
+  "id": "gtt-two-way-parser",
+  "name": "GTT 双向码字插件",
+  "version": "0.0.1",
+  "minAppVersion": "1.0.0",
+  "description": "阅读模式支持 K2J 码到字、J2K 字到码双向解析",
+  "author": "Hongjian Liu",
+  "isDesktopOnly": false
+}

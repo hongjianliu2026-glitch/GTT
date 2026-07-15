@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E6FF; }
+      .title { font: bold 48px sans-serif; fill: #6A1B9A; }
+      .subtitle { font: italic 24px serif; fill: #4A148C; }
+      .content { font: 18px sans-serif; fill: #311B92; }
+      .highlight { font-weight: bold; fill: #D500F9; }
+      .story { font: 16px serif; fill: #7B1FA2; }
+      .image { stroke: #9C27B0; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mystical</text>
+  <text x="50" y="120" class="subtitle">[ˈmɪstɪkl] adj. 神秘的，玄妙的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> myst (神秘) + -ical (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个神秘的仪式，"神秘(myst)"
+    <tspan x="50" dy="25">的氛围笼罩着整个场景，让人感到玄妙(mystical)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The ancient temple had a mystical aura.
+  </text>
+  <text x="50" y="310" class="content">
+    这座古老的神庙有一种神秘的氛围。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Circle representing the mystical aura -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Star in the center -->
+    <polygon points="175,20 210,100 280,100 225,150 250,220 175,180 100,220 125,150 70,100 140,100" class="image" />
+    <!-- Flames around the star -->
+    <line x1="175" y1="20" x2="175" y2="40" class="image" />
+    <line x1="210" y1="100" x2="230" y2="120" class="image" />
+    <line x1="280" y1="100" x2="260" y2="120" class="image" />
+    <line x1="225" y1="150" x2="205" y2="170" class="image" />
+    <line x1="250" y1="220" x2="230" y2="200" class="image" />
+    <line x1="175" y1="180" x2="175" y2="200" class="image" />
+    <line x1="100" y1="220" x2="120" y2="200" class="image" />
+    <line x1="125" y1="150" x2="145" y2="170" class="image" />
+    <line x1="70" y1="100" x2="90" y2="120" class="image" />
+    <line x1="140" y1="100" x2="160" y2="120" class="image" />
+  </g>
+</svg>

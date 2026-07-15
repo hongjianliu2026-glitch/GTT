@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">freak</text>
+  <text x="50" y="120" class="subtitle">[friːk] n. 怪人，怪物；v. 使震惊，使反常</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fr- (来自古英语 "frec"，意为 "害怕") + -eak (后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个怪物(freak)在夜晚的森林中，"让人害怕(fr-)"
+    <tspan x="50" dy="25">得尖叫(eak)，这就是怪人(freak)的由来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sight of the freak show made her scream in terror.
+  </text>
+  <text x="50" y="310" class="content">
+    看到怪物表演，她吓得尖叫起来。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Forest background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="40" x2="300" y2="40" class="image" />
+    <line x1="50" y1="60" x2="300" y2="60" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <line x1="50" y1="120" x2="300" y2="120" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <line x1="50" y1="160" x2="300" y2="160" class="image" />
+    <line x1="50" y1="180" x2="300" y2="180" class="image" />
+    <!-- Freak monster -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="180" class="image" />
+    <line x1="175" y1="150" x2="145" y2="120" class="image" />
+    <line x1="175" y1="150" x2="205" y2="120" class="image" />
+    <line x1="175" y1="180" x2="145" y2="210" class="image" />
+    <line x1="175" y1="180" x2="205" y2="210" class="image" />
+  </g>
+</svg>

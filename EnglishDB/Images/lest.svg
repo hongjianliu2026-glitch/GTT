@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">lest</text>
+  <text x="50" y="120" class="subtitle">[lest] conj. 唯恐，以免</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 lesten，意为“恐惧”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在黑暗中行走，"唯恐(lest)"
+    <tspan x="50" dy="25">踩到蛇，他小心翼翼地避开每一块石头。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He walked carefully lest he step on a snake.
+  </text>
+  <text x="50" y="310" class="content">
+    他小心翼翼地走着，唯恐踩到蛇。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dark path -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <line x1="50" y1="115" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="30" y2="180" class="image" />
+    <line x1="50" y1="150" x2="70" y2="180" class="image" />
+    <line x1="50" y1="130" x2="80" y2="120" class="image" />
+    <!-- Snake -->
+    <path d="M150,100 C160,80 180,80 190,100 S210,120 220,100" class="image" />
+    <circle cx="220" cy="100" r="5" class="image" />
+  </g>
+</svg>

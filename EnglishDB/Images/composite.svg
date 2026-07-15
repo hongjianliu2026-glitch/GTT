@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">composite</text>
+  <text x="50" y="120" class="subtitle">[ˈkɒmpəzɪt] adj. 合成的，复合的；n. 合成物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (一起) + pos (放置) + -ite (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个艺术家将各种颜色和形状"一起放置(com-pos)"，
+    <tspan x="50" dy="25">创造出一个"复合的(composite)"艺术品。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The building is made of composite materials.
+  </text>
+  <text x="50" y="310" class="content">
+    这座建筑是由复合材料制成的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Base -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Colors -->
+    <rect x="50" y="20" width="50" height="50" class="image" fill="#FF5733" />
+    <rect x="120" y="20" width="50" height="50" class="image" fill="#33FF57" />
+    <rect x="190" y="20" width="50" height="50" class="image" fill="#3357FF" />
+    <!-- Shapes -->
+    <circle cx="50" cy="120" r="25" class="image" fill="#FFC300" />
+    <rect x="120" y="95" width="50" height="50" class="image" fill="#C70039" />
+    <polygon points="190,95 215,145 165,145" class="image" fill="#900C3F" />
+    <!-- Composite Art -->
+    <rect x="260" y="20" width="70" height="150" class="image" fill="#581845" />
+    <circle cx="295" cy="95" r="25" class="image" fill="#FF5733" />
+    <rect x="275" y="120" width="40" height="30" class="image" fill="#33FF57" />
+    <polygon points="260,150 300,150 280,180" class="image" fill="#3357FF" />
+  </g>
+</svg>

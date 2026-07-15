@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #7B241C; }
+      .subtitle { font: italic 24px serif; fill: #512E5F; }
+      .content { font: 18px sans-serif; fill: #4A235A; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">musty</text>
+  <text x="50" y="120" class="subtitle">[ˈmʌsti] adj. 发霉的，陈腐的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> must (霉) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的图书馆，"霉菌(must)"
+    <tspan x="50" dy="25">覆盖在书架上，散发出陈腐的气息(musty)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The attic smelled musty after being closed for years.
+  </text>
+  <text x="50" y="310" class="content">
+    阁楼在关闭多年后散发出霉味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bookshelf -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Books -->
+    <rect x="50" y="20" width="50" height="160" class="image" />
+    <rect x="120" y="20" width="50" height="160" class="image" />
+    <rect x="190" y="20" width="50" height="160" class="image" />
+    <rect x="260" y="20" width="50" height="160" class="image" />
+    <!-- Mold -->
+    <circle cx="75" cy="40" r="10" class="image" />
+    <circle cx="145" cy="60" r="10" class="image" />
+    <circle cx="215" cy="80" r="10" class="image" />
+    <circle cx="285" cy="100" r="10" class="image" />
+  </g>
+</svg>

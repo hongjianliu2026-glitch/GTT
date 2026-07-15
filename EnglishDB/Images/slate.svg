@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">slate</text>
+  <text x="50" y="120" class="subtitle">[sleɪt] n. 石板，候选人名单；v. 提名，预定</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> slat (石板)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的石板(slate)上，刻满了
+    <tspan x="50" dy="25">候选人的名字，这些名字被"提名(slate)"为未来的领导者。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The committee has slated several candidates for the position.
+  </text>
+  <text x="50" y="310" class="content">
+    委员会已经提名了几位候选人担任该职位。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Slate -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Names on slate -->
+    <text x="50" y="50" class="content">John Doe</text>
+    <text x="50" y="80" class="content">Jane Smith</text>
+    <text x="50" y="110" class="content">Alice Johnson</text>
+    <text x="50" y="140" class="content">Bob Brown</text>
+  </g>
+</svg>

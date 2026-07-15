@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #641E16; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cow</text>
+  <text x="50" y="120" class="subtitle">[kaʊ] n. 母牛，奶牛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "kowe"，与古英语 "cū" 相关，意为“牛”。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只母牛在田野中悠闲地吃草，它的身影在夕阳下显得格外温暖和宁静。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The farmer milked the cow every morning.
+  </text>
+  <text x="50" y="310" class="content">
+    农夫每天早上挤牛奶。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Cow body -->
+    <ellipse cx="150" cy="150" rx="100" ry="70" class="image" />
+    <!-- Cow head -->
+    <ellipse cx="250" cy="150" rx="50" ry="40" class="image" />
+    <!-- Cow legs -->
+    <line x1="80" y1="220" x2="80" y2="280" class="image" />
+    <line x1="120" y1="220" x2="120" y2="280" class="image" />
+    <line x1="180" y1="220" x2="180" y2="280" class="image" />
+    <line x1="220" y1="220" x2="220" y2="280" class="image" />
+    <!-- Cow tail -->
+    <line x1="250" y1="180" x2="300" y2="150" class="image" />
+    <!-- Cow horns -->
+    <line x1="280" y1="130" x2="300" y2="110" class="image" />
+    <line x1="280" y1="170" x2="300" y2="190" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ripen</text>
+  <text x="50" y="120" class="subtitle">[ˈraɪpən] v. 成熟，使成熟</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rip (成熟) + -en (使)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个苹果在阳光下，"使(en)"
+    <tspan x="50" dy="25">自己"成熟(rip)"，变成一个红彤彤的苹果。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The sun ripened the apples on the tree.
+  </text>
+  <text x="50" y="310" class="content">
+    阳光使树上的苹果成熟了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Apple tree -->
+    <rect x="150" y="150" width="50" height="150" fill="#2ECC71" />
+    <circle cx="175" cy="120" r="20" fill="#E74C3C" />
+    <circle cx="150" cy="100" r="20" fill="#E74C3C" />
+    <circle cx="200" cy="100" r="20" fill="#E74C3C" />
+    <!-- Ripe apple -->
+    <circle cx="175" cy="120" r="20" fill="#FF6347" />
+  </g>
+</svg>

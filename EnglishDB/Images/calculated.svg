@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">calculated</text>
+  <text x="50" y="120" class="subtitle">[ˈkælkjuleɪtɪd] adj. 经过计算的，有计划的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> calcul (计算) + -ate (动词后缀) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个数学家在黑板上，"经过计算(calcul-ate)"
+    <tspan x="50" dy="25">后，得出了一个精确的答案，这就是经过计算的(calculated)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His calculated move in the game surprised everyone.
+  </text>
+  <text x="50" y="310" class="content">
+    他在游戏中的精心计算的举动让所有人都感到惊讶。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Blackboard -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Equations -->
+    <text x="50" y="50" class="content">2x + 3 = 7</text>
+    <text x="50" y="80" class="content">x = 2</text>
+    <!-- Mathematician -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+  </g>
+</svg>

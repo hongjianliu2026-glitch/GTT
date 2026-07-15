@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tribe</text>
+  <text x="50" y="120" class="subtitle">[traɪb] n. 部落，族群</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tri- (三) + be (存在)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的部落，"三(tri-)"个家族"存在(be)"
+    <tspan x="50" dy="25">在一起，共同生活，形成了紧密的族群(tribe)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tribe lived in harmony with nature.
+  </text>
+  <text x="50" y="310" class="content">
+    这个部落与自然和谐共处。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tribal hut -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <line x1="20" y1="20" x2="130" y2="20" class="image" />
+    <line x1="20" y1="20" x2="75" y2="0" class="image" />
+    <line x1="130" y1="20" x2="75" y2="0" class="image" />
+    <!-- Tribal members -->
+    <circle cx="40" cy="120" r="15" class="image" />
+    <circle cx="110" cy="120" r="15" class="image" />
+    <circle cx="75" cy="140" r="15" class="image" />
+    <!-- Tribal symbols -->
+    <line x1="40" y1="140" x2="110" y2="140" class="image" />
+    <line x1="40" y1="150" x2="110" y2="150" class="image" />
+    <line x1="40" y1="160" x2="110" y2="160" class="image" />
+  </g>
+</svg>

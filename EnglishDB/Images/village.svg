@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">village</text>
+  <text x="50" y="120" class="subtitle">[ˈvɪlɪdʒ] n. 村庄，乡村</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vill (村庄) + age (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个宁静的村庄，"村庄(vill)"
+    <tspan x="50" dy="25">里的人们和谐共处，这就是一个村庄(village)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The village is surrounded by beautiful mountains.
+  </text>
+  <text x="50" y="310" class="content">
+    这个村庄被美丽的山脉环绕。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Village houses -->
+    <rect x="0" y="0" width="100" height="80" class="image" />
+    <rect x="120" y="0" width="100" height="80" class="image" />
+    <rect x="240" y="0" width="100" height="80" class="image" />
+    <!-- Roofs -->
+    <polygon points="50,0 0,40 100,40" class="image" />
+    <polygon points="170,0 120,40 220,40" class="image" />
+    <polygon points="290,0 240,40 340,40" class="image" />
+    <!-- Path -->
+    <line x1="0" y1="100" x2="340" y2="100" class="image" />
+    <!-- Trees -->
+    <circle cx="30" cy="120" r="20" class="image" />
+    <circle cx="150" cy="120" r="20" class="image" />
+    <circle cx="270" cy="120" r="20" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #6C7A89; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">calming</text>
+  <text x="50" y="120" class="subtitle">[ˈkɑːmɪŋ] adj. 使人平静的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> calm (平静) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个宁静的湖面，微风轻拂，"平静(calm)"
+    <tspan x="50" dy="25">的湖水让人感到无比的宁静和放松。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The calming effect of the music helped her fall asleep.
+  </text>
+  <text x="50" y="310" class="content">
+    音乐的平静效果帮助她入睡。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lake -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="80" fill="#A9DFBF" />
+    <!-- Wind -->
+    <line x1="100" y1="20" x2="150" y2="70" class="image" />
+    <line x1="250" y1="20" x2="200" y2="70" class="image" />
+    <!-- Reflection -->
+    <line x1="100" y1="180" x2="250" y2="180" class="image" />
+    <line x1="125" y1="160" x2="125" y2="180" class="image" />
+    <line x1="150" y1="160" x2="150" y2="180" class="image" />
+    <line x1="175" y1="160" x2="175" y2="180" class="image" />
+    <line x1="200" y1="160" x2="200" y2="180" class="image" />
+    <line x1="225" y1="160" x2="225" y2="180" class="image" />
+  </g>
+</svg>

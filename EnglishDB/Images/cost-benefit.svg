@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cost-benefit</text>
+  <text x="50" y="120" class="subtitle">[ˈkɒst bɪˈnɛfɪt] n. 成本效益分析</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cost (成本) + benefit (效益)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个商人站在天平的两端，一边是"成本(cost)"，
+    <tspan x="50" dy="25">另一边是"效益(benefit)"，他需要权衡两者，做出最佳决策。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company conducted a cost-benefit analysis before launching the new product.
+  </text>
+  <text x="50" y="310" class="content">
+    公司在推出新产品之前进行了成本效益分析。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balance scale -->
+    <line x1="50" y1="50" x2="350" y2="50" class="image" />
+    <line x1="200" y1="50" x2="200" y2="200" class="image" />
+    <!-- Cost side -->
+    <rect x="50" y="70" width="100" height="50" class="image" />
+    <text x="90" y="100" class="content">Cost</text>
+    <!-- Benefit side -->
+    <rect x="250" y="70" width="100" height="50" class="image" />
+    <text x="290" y="100" class="content">Benefit</text>
+    <!-- Businessman -->
+    <circle cx="200" cy="250" r="20" class="image" />
+    <line x1="200" y1="270" x2="200" y2="320" class="image" />
+    <line x1="200" y1="320" x2="180" y2="350" class="image" />
+    <line x1="200" y1="320" x2="220" y2="350" class="image" />
+    <line x1="200" y1="290" x2="240" y2="280" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">runny</text>
+  <text x="50" y="120" class="subtitle">[ˈrʌni] adj. 流鼻涕的，稀薄的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> run (跑) + -ny (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩感冒了，鼻涕像"跑(run)"一样不停地流下来，
+    <tspan x="50" dy="25">整个鼻子都变得"流鼻涕的(runny)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The baby had a runny nose and was crying all night.
+  </text>
+  <text x="50" y="310" class="content">
+    宝宝流鼻涕，整晚都在哭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Nose -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Dripping snot -->
+    <line x1="100" y1="130" x2="100" y2="200" class="image" />
+    <line x1="100" y1="150" x2="90" y2="180" class="image" />
+    <line x1="100" y1="150" x2="110" y2="180" class="image" />
+    <!-- Baby -->
+    <circle cx="100" cy="50" r="20" class="image" />
+    <line x1="100" y1="70" x2="100" y2="100" class="image" />
+    <line x1="100" y1="70" x2="80" y2="50" class="image" />
+    <line x1="100" y1="70" x2="120" y2="50" class="image" />
+  </g>
+</svg>

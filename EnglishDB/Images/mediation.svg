@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mediation</text>
+  <text x="50" y="120" class="subtitle">[ˌmiːdiˈeɪʃn] n. 调解，调停</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> medi- (中间) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个调解员站在"中间(medi-)"，
+    <tspan x="50" dy="25">试图平息两方的争执，这就是调解(mediation)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The lawyer suggested mediation to resolve the dispute.
+  </text>
+  <text x="50" y="310" class="content">
+    律师建议通过调解来解决争端。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mediator -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="220" class="image" />
+    <line x1="175" y1="180" x2="200" y2="220" class="image" />
+    <line x1="175" y1="150" x2="130" y2="140" class="image" />
+    <line x1="175" y1="150" x2="220" y2="140" class="image" />
+
+    <!-- Two parties -->
+    <circle cx="100" cy="200" r="20" class="image" />
+    <line x1="100" y1="220" x2="100" y2="280" class="image" />
+    <line x1="100" y1="280" x2="75" y2="320" class="image" />
+    <line x1="100" y1="280" x2="125" y2="320" class="image" />
+    <line x1="100" y1="250" x2="60" y2="240" class="image" />
+
+    <circle cx="250" cy="200" r="20" class="image" />
+    <line x1="250" y1="220" x2="250" y2="280" class="image" />
+    <line x1="250" y1="280" x2="225" y2="320" class="image" />
+    <line x1="250" y1="280" x2="275" y2="320" class="image" />
+    <line x1="250" y1="250" x2="290" y2="240" class="image" />
+
+    <!-- Mediator between parties -->
+    <line x1="175" y1="180" x2="175" y2="200" class="image" />
+    <line x1="175" y1="200" x2="100" y2="200" class="image" />
+    <line x1="175" y1="200" x2="250" y2="200" class="image" />
+  </g>
+</svg>

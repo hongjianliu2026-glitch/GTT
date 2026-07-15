@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">theologically</text>
+  <text x="50" y="120" class="subtitle">[ˌθiːəˈlɒdʒɪkli] adv. 神学上</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> theo- (神) + logy (学) + -ally (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一位学者在研究"神(theo)"的"学说(logy)"，
+    <tspan x="50" dy="25">他深入探讨神学(theology)的各个方面，</tspan>
+    <tspan x="50" dy="25">这种研究方式就是神学上的(theologically)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The debate was conducted theologically, focusing on scriptural interpretations.
+  </text>
+  <text x="50" y="310" class="content">
+    这场辩论是神学上的，专注于对经文的解释。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Book -->
+    <rect x="0" y="0" width="200" height="300" class="image" />
+    <!-- Pages -->
+    <line x1="20" y1="20" x2="180" y2="20" class="image" />
+    <line x1="20" y1="60" x2="180" y2="60" class="image" />
+    <line x1="20" y1="100" x2="180" y2="100" class="image" />
+    <line x1="20" y1="140" x2="180" y2="140" class="image" />
+    <line x1="20" y1="180" x2="180" y2="180" class="image" />
+    <line x1="20" y1="220" x2="180" y2="220" class="image" />
+    <line x1="20" y1="260" x2="180" y2="260" class="image" />
+    <!-- Scholar -->
+    <circle cx="100" cy="350" r="20" class="image" />
+    <line x1="100" y1="370" x2="100" y2="420" class="image" />
+    <line x1="100" y1="420" x2="80" y2="450" class="image" />
+    <line x1="100" y1="420" x2="120" y2="450" class="image" />
+    <line x1="100" y1="400" x2="140" y2="390" class="image" />
+  </g>
+</svg>

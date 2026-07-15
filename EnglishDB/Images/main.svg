@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">main</text>
+  <text x="50" y="120" class="subtitle">[meɪn] adj. 主要的，最重要的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> main (力量)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的力量之手，"掌握(main)"
+    <tspan x="50" dy="25">着整个场景，这就是主要的(main)力量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The main road through the city was closed for repairs.
+  </text>
+  <text x="50" y="310" class="content">
+    城市的主要道路因维修而关闭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Giant hand -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <line x1="100" y1="200" x2="50" y2="150" class="image" />
+    <line x1="100" y1="200" x2="150" y2="150" class="image" />
+    <line x1="100" y1="250" x2="50" y2="300" class="image" />
+    <line x1="100" y1="250" x2="150" y2="300" class="image" />
+    <!-- Scene -->
+    <rect x="0" y="300" width="200" height="50" class="image" />
+    <line x1="50" y1="325" x2="150" y2="325" class="image" />
+    <line x1="50" y1="350" x2="150" y2="350" class="image" />
+    <line x1="50" y1="375" x2="150" y2="375" class="image" />
+  </g>
+</svg>

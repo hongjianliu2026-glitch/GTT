@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">beet</text>
+  <text x="50" y="120" class="subtitle">[bit] n. 甜菜</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> beet (源自中古英语 bete, 意为甜菜)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的甜菜(beet)，它像一个红色的球，
+    <tspan x="50" dy="25">滚过田野，给人们带来甜美的味道。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added some beets to her salad for color and flavor.
+  </text>
+  <text x="50" y="310" class="content">
+    她在沙拉中加入了一些甜菜，以增加颜色和风味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beet -->
+    <circle cx="100" cy="100" r="50" fill="#E74C3C" />
+    <!-- Leaves -->
+    <path d="M 100 50 Q 150 20 200 50" stroke="#27AE60" stroke-width="10" fill="none" />
+    <path d="M 100 50 Q 50 20 0 50" stroke="#27AE60" stroke-width="10" fill="none" />
+    <!-- Rolling -->
+    <line x1="100" y1="150" x2="100" y2="200" stroke="#7F8C8D" stroke-width="5" />
+    <line x1="100" y1="200" x2="50" y2="250" stroke="#7F8C8D" stroke-width="5" />
+    <line x1="100" y1="200" x2="150" y2="250" stroke="#7F8C8D" stroke-width="5" />
+  </g>
+</svg>

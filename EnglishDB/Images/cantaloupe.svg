@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .melon { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cantaloupe</text>
+  <text x="50" y="120" class="subtitle">[ˈkæntəˌlup] n. 哈密瓜</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cantaloupe源自意大利语cantalupo，最初指一种甜瓜。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的哈密瓜(cantaloupe)，它的网纹像是一个个迷宫，
+    <tspan x="50" dy="25">当你切开它，甜蜜的汁液喷涌而出，仿佛在诉说它的美味。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She sliced the cantaloupe and served it to her guests.
+  </text>
+  <text x="50" y="310" class="content">
+    她把哈密瓜切开，招待客人。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Melon -->
+    <ellipse cx="175" cy="100" rx="150" ry="80" class="melon" />
+    <!-- Netting -->
+    <line x1="25" y1="100" x2="325" y2="100" class="image" />
+    <line x1="25" y1="50" x2="325" y2="50" class="image" />
+    <line x1="25" y1="150" x2="325" y2="150" class="image" />
+    <line x1="175" y1="20" x2="175" y2="180" class="image" />
+    <line x1="75" y1="20" x2="75" y2="180" class="image" />
+    <line x1="275" y1="20" x2="275" y2="180" class="image" />
+    <!-- Slice -->
+    <path d="M175,100 L25,180 A150,80 0 0,1 325,180 Z" class="melon" />
+    <!-- Juice -->
+    <circle cx="200" cy="120" r="10" class="melon" />
+    <circle cx="220" cy="130" r="10" class="melon" />
+    <circle cx="240" cy="140" r="10" class="melon" />
+  </g>
+</svg>

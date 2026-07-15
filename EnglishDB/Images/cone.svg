@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cone</text>
+  <text x="50" y="120" class="subtitle">[koʊn] n. 圆锥体，锥形物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (共同) + e (表示形状)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的冰淇淋"共同(con)"形成了
+    <tspan x="50" dy="25">一个尖尖的"形状(e)"，这就是一个圆锥体(cone)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She bought a cone of ice cream at the shop.
+  </text>
+  <text x="50" y="310" class="content">
+    她在店里买了一个冰淇淋蛋筒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Cone shape -->
+    <path d="M 100 200 L 200 200 L 150 50 Z" class="image" fill="#F39C12" />
+    <!-- Ice cream scoop -->
+    <circle cx="150" cy="40" r="20" fill="#E74C3C" />
+    <!-- Stick -->
+    <line x1="150" y1="200" x2="150" y2="250" class="image" />
+  </g>
+</svg>

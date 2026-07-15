@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #7B241C; }
+      .subtitle { font: italic 24px serif; fill: #512E5F; }
+      .content { font: 18px sans-serif; fill: #4A235A; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cognac</text>
+  <text x="50" y="120" class="subtitle">[ˈkoʊnjæk] n. 干邑白兰地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自法国地名 Cognac，以其产的白兰地闻名。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个法国小镇Cognac，阳光下葡萄园里
+    <tspan x="50" dy="25">的葡萄被精心酿制成琥珀色的白兰地，</tspan>
+    <tspan x="50" dy="25">每一滴都散发着浓郁的香气。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He enjoyed a glass of cognac after dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    他晚餐后喜欢喝一杯干邑白兰地。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wine bottle -->
+    <rect x="0" y="0" width="100" height="300" class="image" />
+    <rect x="20" y="20" width="60" height="260" class="image" />
+    <!-- Wine glass -->
+    <rect x="150" y="150" width="50" height="100" class="image" />
+    <rect x="160" y="160" width="30" height="80" class="image" />
+    <!-- Grapes -->
+    <circle cx="300" cy="100" r="20" class="image" />
+    <circle cx="320" cy="100" r="20" class="image" />
+    <circle cx="340" cy="100" r="20" class="image" />
+    <circle cx="310" cy="120" r="20" class="image" />
+    <circle cx="330" cy="120" r="20" class="image" />
+  </g>
+</svg>

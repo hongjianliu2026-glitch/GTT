@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #641E16; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #922B21; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hymn</text>
+  <text x="50" y="120" class="subtitle">[hɪm] n. 赞美诗，圣歌</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hymn (源自希腊语 hymnos，意为“赞美诗”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群信徒在教堂里，"高声唱出(hymn)"
+    <tspan x="50" dy="25">赞美神的歌曲，这些歌曲就是赞美诗(hymn)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The choir sang a beautiful hymn during the service.
+  </text>
+  <text x="50" y="310" class="content">
+    唱诗班在礼拜中唱了一首优美的赞美诗。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Church -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Cross -->
+    <line x1="175" y1="20" x2="175" y2="180" class="image" />
+    <line x1="125" y1="100" x2="225" y2="100" class="image" />
+    <!-- Choir -->
+    <circle cx="70" cy="120" r="15" class="image" />
+    <circle cx="120" cy="120" r="15" class="image" />
+    <circle cx="170" cy="120" r="15" class="image" />
+    <circle cx="220" cy="120" r="15" class="image" />
+    <circle cx="270" cy="120" r="15" class="image" />
+    <!-- Music notes -->
+    <path d="M50 80 Q70 60 90 80 T130 80" class="image" />
+    <path d="M100 80 Q120 60 140 80 T180 80" class="image" />
+    <path d="M150 80 Q170 60 190 80 T230 80" class="image" />
+    <path d="M200 80 Q220 60 240 80 T280 80" class="image" />
+  </g>
+</svg>

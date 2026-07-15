@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tonight</text>
+  <text x="50" y="120" class="subtitle">[təˈnaɪt] adv. 今晚</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ton (tone, 声音) + ight (night, 夜晚)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个夜晚，"声音(ton)"在"夜晚(ight)"中回荡，
+    <tspan x="50" dy="25">这就是"今晚(tonight)"的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We are going to the concert tonight.
+  </text>
+  <text x="50" y="310" class="content">
+    我们今晚要去听音乐会。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Moon -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Stars -->
+    <circle cx="50" cy="50" r="5" fill="#ECF0F1" />
+    <circle cx="150" cy="50" r="5" fill="#ECF0F1" />
+    <circle cx="200" cy="150" r="5" fill="#ECF0F1" />
+    <!-- Night Sky -->
+    <rect x="0" y="0" width="300" height="200" fill="#34495E" opacity="0.8" />
+    <!-- Sound Waves -->
+    <path d="M20,100 Q40,80 60,100 T100,100" stroke="#E74C3C" stroke-width="3" fill="none" />
+    <path d="M20,120 Q40,100 60,120 T100,120" stroke="#E74C3C" stroke-width="3" fill="none" />
+    <path d="M20,140 Q40,120 60,140 T100,140" stroke="#E74C3C" stroke-width="3" fill="none" />
+  </g>
+</svg>

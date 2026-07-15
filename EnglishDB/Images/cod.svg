@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cod</text>
+  <text x="50" y="120" class="subtitle">[kɒd] n. 鳕鱼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "codde"，意为“囊袋”，
+    <tspan x="50" dy="25">因鳕鱼头部形状类似囊袋而得名。</tspan>
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="230" class="story">
+    想象一条巨大的鳕鱼，它的头部像一个巨大的囊袋，
+    <tspan x="50" dy="25">里面装满了海洋的秘密和宝藏。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> The fisherman caught a big cod for dinner.
+  </text>
+  <text x="50" y="330" class="content">
+    渔夫钓到了一条大鳕鱼做晚餐。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Fish body -->
+    <ellipse cx="150" cy="150" rx="100" ry="50" class="image" />
+    <!-- Fish head -->
+    <ellipse cx="50" cy="150" rx="50" ry="40" class="image" />
+    <!-- Fish tail -->
+    <polygon points="250,150 300,120 300,180" class="image" />
+    <!-- Fish eye -->
+    <circle cx="70" cy="140" r="10" class="image" />
+    <!-- Fish gills -->
+    <line x1="80" y1="160" x2="100" y2="160" class="image" />
+    <line x1="80" y1="170" x2="100" y2="170" class="image" />
+    <line x1="80" y1="180" x2="100" y2="180" class="image" />
+  </g>
+</svg>

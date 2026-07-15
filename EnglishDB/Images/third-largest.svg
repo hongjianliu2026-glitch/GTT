@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">third-largest</text>
+  <text x="50" y="120" class="subtitle">[θɜːrd 'lɑːrʤɪst] adj. 第三大的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> third (第三) + largest (最大的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在一个巨大的竞技场上，三只巨大的动物在比赛，
+    <tspan x="50" dy="25">其中一只动物是第三大的(third-largest)，它虽然不是最大的，</tspan>
+    <tspan x="50" dy="25">但依然非常引人注目。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The third-largest city in the country is known for its vibrant culture.
+  </text>
+  <text x="50" y="310" class="content">
+    这个国家第三大城市以其充满活力的文化而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Arena -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Animals -->
+    <circle cx="80" cy="100" r="30" class="image" /> <!-- Largest -->
+    <circle cx="180" cy="100" r="25" class="image" /> <!-- Second largest -->
+    <circle cx="280" cy="100" r="20" class="image" /> <!-- Third largest -->
+    <!-- Labels -->
+    <text x="70" y="150" class="content">Largest</text>
+    <text x="170" y="150" class="content">Second</text>
+    <text x="270" y="150" class="content">Third</text>
+  </g>
+</svg>

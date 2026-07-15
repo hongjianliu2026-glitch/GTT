@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E91E63; }
+      .story { font: 16px serif; fill: #AD1457; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">darling</text>
+  <text x="50" y="120" class="subtitle">[ˈdɑːrlɪŋ] n. 亲爱的，心爱的人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dar (给予) + ling (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温柔的人，"给予(dar)"
+    <tspan x="50" dy="25">一个小小的(ling)爱意，这个人就是你的'亲爱的(darling)'。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> My darling, I love you more than words can express.
+  </text>
+  <text x="50" y="310" class="content">
+    亲爱的，我对你的爱无法用言语表达。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 30 Q25 10 40 30 T70 30" class="image" />
+    <path d="M10 30 Q25 50 40 30 T70 30" class="image" />
+    <!-- Small heart -->
+    <path d="M20 40 Q25 30 30 40 T40 40" class="image" />
+    <path d="M20 40 Q25 50 30 40 T40 40" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="100" r="15" class="image" />
+    <line x1="50" y1="115" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="40" y2="180" class="image" />
+    <line x1="50" y1="150" x2="60" y2="180" class="image" />
+    <line x1="50" y1="130" x2="70" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">downsize</text>
+  <text x="50" y="120" class="subtitle">[ˈdaʊnsaɪz] v. 缩小规模，裁员</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> down- (向下) + size (尺寸)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个公司正在"向下调整(down-size)"
+    <tspan x="50" dy="25">员工的数量，导致办公室变得空荡荡的。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company decided to downsize its workforce due to financial difficulties.
+  </text>
+  <text x="50" y="310" class="content">
+    由于财务困难，公司决定裁员。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Office -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Empty desks -->
+    <rect x="50" y="20" width="50" height="50" class="image" />
+    <rect x="120" y="20" width="50" height="50" class="image" />
+    <rect x="190" y="20" width="50" height="50" class="image" />
+    <rect x="260" y="20" width="50" height="50" class="image" />
+    <!-- Down arrow -->
+    <polyline points="175,100 175,150 165,140 185,140 175,150" class="image" />
+    <!-- Empty chairs -->
+    <circle cx="75" cy="90" r="10" class="image" />
+    <circle cx="145" cy="90" r="10" class="image" />
+    <circle cx="215" cy="90" r="10" class="image" />
+    <circle cx="285" cy="90" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wig</text>
+  <text x="50" y="120" class="subtitle">[wɪɡ] n. 假发</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wig (源自中古英语 "wigge"，意为“假发”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个戏剧演员在舞台上，头上戴着一顶夸张的假发(wig)，
+    <tspan x="50" dy="25">仿佛整个舞台都被他的假发所占据，观众们都被这夸张的画面逗笑了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a wig to the costume party.
+  </text>
+  <text x="50" y="310" class="content">
+    她戴着假发去参加化装舞会。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Wig -->
+    <rect x="20" y="50" width="160" height="50" class="image" />
+    <!-- Wig details -->
+    <line x1="40" y1="55" x2="40" y2="95" class="image" />
+    <line x1="80" y1="55" x2="80" y2="95" class="image" />
+    <line x1="120" y1="55" x2="120" y2="95" class="image" />
+    <line x1="160" y1="55" x2="160" y2="95" class="image" />
+  </g>
+</svg>

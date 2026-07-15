@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .flame { fill: #FF6347; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">flamboyant</text>
+  <text x="50" y="120" class="subtitle">[flæmˈbɔɪənt] adj. 艳丽的，炫耀的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> flam (火焰) + -boyant (浮动的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一团火焰在空中"浮动(boyant)"，
+    <tspan x="50" dy="25">它的光芒如此"艳丽(flamboyant)"，吸引了所有人的目光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The flamboyant peacock spread its feathers.
+  </text>
+  <text x="50" y="310" class="content">
+    那只艳丽的孔雀展开了它的羽毛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flame -->
+    <polygon points="0,100 50,0 100,100" class="flame" />
+    <polygon points="25,75 75,25 125,75" class="flame" />
+    <polygon points="50,50 100,50 150,50" class="flame" />
+    <!-- Floating effect -->
+    <line x1="0" y1="100" x2="150" y2="50" class="image" />
+    <line x1="25" y1="75" x2="125" y2="75" class="image" />
+    <line x1="50" y1="50" x2="100" y2="100" class="image" />
+  </g>
+</svg>

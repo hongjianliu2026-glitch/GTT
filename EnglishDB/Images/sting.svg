@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sting</text>
+  <text x="50" y="120" class="subtitle">[stɪŋ] v. 刺，蜇；n. 刺痛，刺伤</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> stin (刺)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只蜜蜂用它的刺"刺(stin)"进你的皮肤，
+    <tspan x="50" dy="25">那种刺痛感就是sting。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bee's sting left a red mark on my arm.
+  </text>
+  <text x="50" y="310" class="content">
+    蜜蜂的刺在我手臂上留下了一个红印。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bee -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="200" class="image" />
+    <line x1="50" y1="160" x2="70" y2="200" class="image" />
+    <line x1="50" y1="140" x2="90" y2="130" class="image" />
+    <!-- Sting -->
+    <line x1="50" y1="100" x2="100" y2="100" class="image" />
+    <line x1="100" y1="100" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="120" y2="150" class="image" />
+    <!-- Skin -->
+    <rect x="120" y="140" width="50" height="20" class="image" />
+    <line x1="120" y1="150" x2="170" y2="150" class="image" />
+    <line x1="120" y1="160" x2="170" y2="160" class="image" />
+  </g>
+</svg>

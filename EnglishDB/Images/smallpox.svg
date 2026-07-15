@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">smallpox</text>
+  <text x="50" y="120" class="subtitle">[ˈsmɔːlpɑːks] n. 天花</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> small (小的) + pox (脓疱)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个脸上布满"小脓疱(small-pox)"的人，
+    <tspan x="50" dy="25">这些脓疱就是天花的典型症状。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The eradication of smallpox is a major medical achievement.
+  </text>
+  <text x="50" y="310" class="content">
+    天花的根除是一项重大的医学成就。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Pox marks -->
+    <circle cx="60" cy="60" r="10" class="image" />
+    <circle cx="140" cy="60" r="10" class="image" />
+    <circle cx="100" cy="120" r="10" class="image" />
+    <circle cx="80" cy="140" r="10" class="image" />
+    <circle cx="120" cy="140" r="10" class="image" />
+  </g>
+</svg>

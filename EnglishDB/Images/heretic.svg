@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">heretic</text>
+  <text x="50" y="120" class="subtitle">[ˈhɛrɪtɪk] n. 异教徒，持异端者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> heret- (异端) + -ic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个中世纪的村庄，一个"持异端(heret-ic)"的人被绑在火刑柱上，
+    <tspan x="50" dy="25">村民们围着他，火焰熊熊燃烧，象征着他的"异端"思想。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The church branded him a heretic for his unorthodox beliefs.
+  </text>
+  <text x="50" y="310" class="content">
+    教会因为他异端的信仰而称他为异教徒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fire -->
+    <path d="M0 100 C 50 50, 150 50, 200 100 S 300 150, 350 100" class="image" />
+    <path d="M0 120 C 50 70, 150 70, 200 120 S 300 170, 350 120" class="image" />
+    <path d="M0 140 C 50 90, 150 90, 200 140 S 300 190, 350 140" class="image" />
+    <!-- Heretic -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="220" class="image" />
+    <line x1="175" y1="180" x2="200" y2="220" class="image" />
+    <line x1="175" y1="150" x2="130" y2="140" class="image" />
+    <line x1="175" y1="150" x2="220" y2="140" class="image" />
+    <!-- Stake -->
+    <line x1="175" y1="0" x2="175" y2="100" class="image" />
+  </g>
+</svg>

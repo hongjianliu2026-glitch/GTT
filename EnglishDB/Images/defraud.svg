@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">defraud</text>
+  <text x="50" y="120" class="subtitle">[dɪˈfrɔːd] v. 欺骗，诈取</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (离开) + fraud (欺骗)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个骗子试图"离开(de-)"你的信任，通过"欺骗(fraud)"你来获取你的钱财。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He was accused of defrauding investors.
+  </text>
+  <text x="50" y="310" class="content">
+    他被指控欺骗投资者。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fraudster -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Money bag -->
+    <rect x="70" y="80" width="50" height="40" class="image" />
+    <line x1="95" y1="80" x2="95" y2="60" class="image" />
+    <!-- Arrow -->
+    <line x1="120" y1="100" x2="170" y2="100" class="image" />
+    <polygon points="170,100 160,95 160,105" class="image" />
+    <!-- Victim -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="250" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">potassium</text>
+  <text x="50" y="120" class="subtitle">[pəˈtæsiəm] n. 钾</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> potas (钾) + -ium (元素后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的化学实验室，里面有一个装满"钾(potas)"的容器，
+    <tspan x="50" dy="25">容器上贴着标签"钾(potassium)"，象征着这种重要的化学元素。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Potassium is essential for maintaining healthy blood pressure.
+  </text>
+  <text x="50" y="310" class="content">
+    钾对于维持健康的血压至关重要。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Chemical container -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Label -->
+    <text x="50" y="100" class="image" font-size="36" fill="#2C3E50">Potassium</text>
+    <!-- Potassium symbol -->
+    <text x="50" y="150" class="image" font-size="48" fill="#C0392B">K</text>
+  </g>
+</svg>

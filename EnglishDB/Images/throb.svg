@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">throb</text>
+  <text x="50" y="120" class="subtitle">[θrɒb] v. 跳动，悸动；n. 跳动，悸动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> th- (来自古英语 þrūh，意为“穿过”) + rob (来自古英语 hrēob，意为“跳动”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗心脏在胸腔中“穿过(th-)”空间，“跳动(rob)”得如此强烈，以至于整个房间都能感受到它的悸动(throb)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her heart throbbed with excitement as she waited for the results.
+  </text>
+  <text x="50" y="310" class="content">
+    她在等待结果时，心跳因兴奋而剧烈跳动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 40 C10 10, 40 10, 40 40 S70 70, 40 100 S10 70, 10 40" class="image" />
+    <!-- Arrows indicating throbbing -->
+    <line x1="40" y1="40" x2="40" y2="20" class="image" />
+    <line x1="40" y1="20" x2="35" y2="30" class="image" />
+    <line x1="40" y1="20" x2="45" y2="30" class="image" />
+    <line x1="40" y1="100" x2="40" y2="120" class="image" />
+    <line x1="40" y1="120" x2="35" y2="110" class="image" />
+    <line x1="40" y1="120" x2="45" y2="110" class="image" />
+  </g>
+</svg>

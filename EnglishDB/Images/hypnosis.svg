@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #34495E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hypnosis</text>
+  <text x="50" y="120" class="subtitle">[hɪpˈnoʊsɪs] n. 催眠状态</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hypno- (睡眠) + -sis (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人被催眠师引导进入"睡眠状态(hypno-sis)"，
+    <tspan x="50" dy="25">他的眼睛闭上，身体放松，完全沉浸在催眠的世界中。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The therapist used hypnosis to help the patient overcome his fear.
+  </text>
+  <text x="50" y="310" class="content">
+    治疗师使用催眠帮助病人克服恐惧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Hypnotist -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <line x1="50" y1="150" x2="20" y2="140" class="image" />
+    <line x1="50" y1="120" x2="80" y2="110" class="image" />
+    <line x1="50" y1="120" x2="20" y2="110" class="image" />
+
+    <!-- Patient -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="220" class="image" />
+    <line x1="250" y1="180" x2="270" y2="220" class="image" />
+    <line x1="250" y1="150" x2="280" y2="140" class="image" />
+    <line x1="250" y1="150" x2="220" y2="140" class="image" />
+    <line x1="250" y1="120" x2="280" y2="110" class="image" />
+    <line x1="250" y1="120" x2="220" y2="110" class="image" />
+
+    <!-- Hypnotic spiral -->
+    <path d="M150,100 A50,50 0 0,1 200,100 A50,50 0 0,1 150,100" class="image" />
+    <path d="M150,100 A40,40 0 0,1 200,100 A40,40 0 0,1 150,100" class="image" />
+    <path d="M150,100 A30,30 0 0,1 200,100 A30,30 0 0,1 150,100" class="image" />
+    <path d="M150,100 A20,20 0 0,1 200,100 A20,20 0 0,1 150,100" class="image" />
+    <path d="M150,100 A10,10 0 0,1 200,100 A10,10 0 0,1 150,100" class="image" />
+  </g>
+</svg>

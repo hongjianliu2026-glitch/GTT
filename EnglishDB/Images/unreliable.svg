@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unreliable</text>
+  <text x="50" y="120" class="subtitle">[ˌʌnrɪˈlaɪəbl] adj. 不可靠的，不稳定的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + rely (依赖) + -able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个摇摇欲坠的桥，"不能依赖(un-rely-able)"
+    <tspan x="50" dy="25">它，因为它随时可能倒塌，这就是不可靠(unreliable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old car was unreliable and kept breaking down.
+  </text>
+  <text x="50" y="310" class="content">
+    那辆旧车不可靠，总是出故障。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bridge -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="100" y1="40" x2="250" y2="40" class="image" />
+    <line x1="150" y1="60" x2="200" y2="60" class="image" />
+    <!-- Broken part -->
+    <line x1="175" y1="60" x2="175" y2="100" class="image" />
+    <line x1="175" y1="100" x2="200" y2="100" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="120" r="15" class="image" />
+    <line x1="100" y1="135" x2="100" y2="170" class="image" />
+    <line x1="100" y1="170" x2="80" y2="200" class="image" />
+    <line x1="100" y1="170" x2="120" y2="200" class="image" />
+    <line x1="100" y1="150" x2="130" y2="140" class="image" />
+  </g>
+</svg>

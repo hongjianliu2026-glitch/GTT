@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">snack</text>
+  <text x="50" y="120" class="subtitle">[snæk] n. 小吃，快餐</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> snack (源自荷兰语'snacken'，意为'咬')
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个饥饿的人在路边，"咬(snack)"
+    <tspan x="50" dy="25">一口美味的小吃，瞬间满足了他的胃口。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She grabbed a snack before heading to the meeting.
+  </text>
+  <text x="50" y="310" class="content">
+    她在去开会前抓了一块小吃。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Road -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="190" class="image" />
+    <line x1="50" y1="160" x2="70" y2="190" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Snack -->
+    <rect x="100" y="80" width="50" height="30" class="image" />
+    <line x1="110" y1="90" x2="140" y2="90" class="image" />
+    <line x1="110" y1="100" x2="140" y2="100" class="image" />
+    <line x1="110" y1="110" x2="140" y2="110" class="image" />
+  </g>
+</svg>

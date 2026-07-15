@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">luncheon</text>
+  <text x="50" y="120" class="subtitle">[ˈlʌntʃən] n. 午餐，午宴</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> lunch (午餐) + -eon (表示“大”或“正式”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的餐桌，上面摆满了各种美食，人们围坐在一起，享受着丰盛的午餐。
+    <tspan x="50" dy="25">这个场景就是“luncheon”，一个正式的午餐聚会。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They invited us to a delightful luncheon at their home.
+  </text>
+  <text x="50" y="310" class="content">
+    他们邀请我们在他们家参加了一个愉快的午宴。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Table -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Food -->
+    <circle cx="50" cy="50" r="20" class="image" /> <!-- Plate 1 -->
+    <circle cx="100" cy="50" r="20" class="image" /> <!-- Plate 2 -->
+    <circle cx="150" cy="50" r="20" class="image" /> <!-- Plate 3 -->
+    <circle cx="200" cy="50" r="20" class="image" /> <!-- Plate 4 -->
+    <circle cx="250" cy="50" r="20" class="image" /> <!-- Plate 5 -->
+    <!-- People -->
+    <circle cx="70" cy="150" r="15" class="image" /> <!-- Person 1 -->
+    <circle cx="120" cy="150" r="15" class="image" /> <!-- Person 2 -->
+    <circle cx="170" cy="150" r="15" class="image" /> <!-- Person 3 -->
+    <circle cx="220" cy="150" r="15" class="image" /> <!-- Person 4 -->
+    <circle cx="270" cy="150" r="15" class="image" /> <!-- Person 5 -->
+  </g>
+</svg>

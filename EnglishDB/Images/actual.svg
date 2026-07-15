@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">actual</text>
+  <text x="50" y="120" class="subtitle">[ˈæktʃuəl] adj. 实际的，真实的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> act (做) + -ual (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个魔术师在表演，他展示了一个"实际的(actual)"
+    <tspan x="50" dy="25">物体，而不是幻觉。这个物体是真实存在的，可以触摸。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The actual cost of the project was much higher than expected.
+  </text>
+  <text x="50" y="310" class="content">
+    项目的实际成本比预期的要高得多。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Magician -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="150" x2="30" y2="130" class="image" />
+    <line x1="50" y1="150" x2="70" y2="130" class="image" />
+    <line x1="50" y1="180" x2="30" y2="200" class="image" />
+    <line x1="50" y1="180" x2="70" y2="200" class="image" />
+    <!-- Actual object -->
+    <rect x="100" y="80" width="50" height="50" class="image" />
+    <text x="105" y="110" class="content" fill="#2980B9">物体</text>
+  </g>
+</svg>

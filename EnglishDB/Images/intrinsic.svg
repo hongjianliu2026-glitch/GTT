@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">intrinsic</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈtrɪnsɪk] adj. 内在的，本质的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> intro- (向内) + -insic (性质)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗宝石，它的美丽和价值"向内(intro-)"
+    <tspan x="50" dy="25">蕴含(intrinsic)，不需要外在的装饰。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The intrinsic value of a diamond lies in its purity.
+  </text>
+  <text x="50" y="310" class="content">
+    钻石的内在价值在于它的纯净。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Gemstone -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#FFD700" />
+    <!-- Light reflection -->
+    <circle cx="80" cy="80" r="10" class="image" fill="#FFFFFF" />
+    <circle cx="120" cy="80" r="10" class="image" fill="#FFFFFF" />
+    <circle cx="100" cy="120" r="10" class="image" fill="#FFFFFF" />
+    <!-- Frame -->
+    <rect x="50" y="50" width="100" height="100" class="image" />
+  </g>
+</svg>

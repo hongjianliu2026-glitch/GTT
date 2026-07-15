@@ -1,0 +1,108 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">intermittent</text>
+  <text x="50" y="120" class="subtitle">[ˌɪntəˈmɪtənt] adj. 间歇的，断断续续的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + mit (发送) + -ent (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个信号灯，"在发送(mit)"
+    <tspan x="50" dy="25">和停止之间(inter-)来回切换，</tspan>
+    <tspan x="50" dy="25">这就是间歇的(intermittent)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The intermittent rain made the hike challenging.
+  </text>
+  <text x="50" y="310" class="content">
+    断断续续的雨让徒步旅行变得很有挑战性。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Signal light -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="50" cy="50" r="15" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="10" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="5" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="2" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="1" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.5" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.25" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.03125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.015625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0078125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00390625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.001953125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0009765625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00048828125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000244140625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0001220703125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00006103515625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000030517578125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000152587890625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000762939453125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000003814697265625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000019073486328125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000095367431640625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000476837158203125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000002384185791015625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000011920928955078125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000059604644775390625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000298023223876953125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000001490116119384765625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000007450580596923828125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000000037252902984619140625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000000186264514923095703125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000000931322574615478515625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000004656612873077392578125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000000023283064365386962890625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000000116415321826934814453125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000000000582076609134674072265625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000000002910383045673370361328125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000000014551915228366851806640625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000000072759576141834259033203125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000000000363797880709171295166015625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000000001818989403545856475830078125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000000000009094947017729282379150390625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000000000045474735088646411895751953125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000000000227373675443232059478759765625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000000001136868377216160297393798828125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000000000005684341886080801486968994140625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000000000028421709430404007434844970703125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000000000000142108547152020037174224853515625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000000000000710542735760100185871124267578125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000000000003552713678800500929355621337890625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000000000017763568394002504646778106689453125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000000000000088817841970012523233890533447265625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000000000000444089209850062616169452667236328125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.0000000000000002220446049250313080847263336181640625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.00000000000000011102230246251565404236316680908203125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.000000000000000055511151231257827021181583404541015625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.0000000000000000277555756156289135105907917022705078125" fill="#E8F6F3" />
+    <circle cx="50" cy="50" r="0.00000000000000001387778780781445675529539585113525390625" fill="#E74C3C" />
+    <circle cx="50" cy="50" r="0.000000000000000006938893903907228377647697925567626953125" fill="#E8F6F3" />
+    <circle cx

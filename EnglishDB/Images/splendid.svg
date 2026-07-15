@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">splendid</text>
+  <text x="50" y="120" class="subtitle">[ˈsplɛndɪd] adj. 辉煌的，壮丽的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> splend (发光) + -id (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的宝石在阳光下闪耀，"发光(splend)"
+    <tspan x="50" dy="25">得如此耀眼，以至于整个场景都变得辉煌(splendid)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The palace was a splendid sight to behold.
+  </text>
+  <text x="50" y="310" class="content">
+    这座宫殿是一个壮丽的景象。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Gem -->
+    <polygon points="50,50 150,50 100,150" fill="#2ECC71" />
+    <!-- Rays of light -->
+    <line x1="100" y1="50" x2="100" y2="0" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="50" y1="100" x2="0" y2="100" class="image" />
+  </g>
+</svg>

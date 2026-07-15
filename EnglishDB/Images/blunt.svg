@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blunt</text>
+  <text x="50" y="120" class="subtitle">[blʌnt] adj. 钝的，不锋利的；v. 使迟钝</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blunt (直接来自古英语，意为“钝的”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一把刀变得"钝(blunt)"了，
+    <tspan x="50" dy="25">它不再锋利，无法轻松切割任何东西。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The knife was so blunt that it couldn't cut through the bread.
+  </text>
+  <text x="50" y="310" class="content">
+    这把刀太钝了，切不开面包。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Knife -->
+    <line x1="50" y1="50" x2="250" y2="50" class="image" />
+    <line x1="50" y1="50" x2="50" y2="150" class="image" />
+    <line x1="250" y1="50" x2="250" y2="150" class="image" />
+    <line x1="50" y1="150" x2="250" y2="150" class="image" />
+    <!-- Handle -->
+    <rect x="40" y="150" width="220" height="30" class="image" />
+    <!-- Bread -->
+    <rect x="100" y="200" width="100" height="50" class="image" />
+    <!-- Failed cut -->
+    <line x1="100" y1="200" x2="200" y2="250" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tribute</text>
+  <text x="50" y="120" class="subtitle">[ˈtrɪbjuːt] n. 贡品，礼物；致敬</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> trib (给予) + -ute (行为)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个国王在王座上，接受臣民的"给予(trib-ute)"，
+    <tspan x="50" dy="25">这些贡品和礼物是对他的致敬(tribute)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The artist received many tributes after his death.
+  </text>
+  <text x="50" y="310" class="content">
+    这位艺术家去世后收到了许多致敬。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Throne -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- King -->
+    <circle cx="100" cy="80" r="20" class="image" />
+    <line x1="100" y1="100" x2="100" y2="140" class="image" />
+    <line x1="100" y1="140" x2="80" y2="170" class="image" />
+    <line x1="100" y1="140" x2="120" y2="170" class="image" />
+    <line x1="100" y1="120" x2="140" y2="110" class="image" />
+    <!-- Tributes -->
+    <rect x="220" y="20" width="50" height="50" class="image" />
+    <rect x="220" y="90" width="50" height="50" class="image" />
+    <rect x="220" y="160" width="50" height="50" class="image" />
+    <!-- Arrows -->
+    <line x1="200" y1="45" x2="150" y2="45" class="image" />
+    <line x1="200" y1="115" x2="150" y2="115" class="image" />
+    <line x1="200" y1="185" x2="150" y2="185" class="image" />
+    <polygon points="150,45 140,40 140,50" class="image" />
+    <polygon points="150,115 140,110 140,120" class="image" />
+    <polygon points="150,185 140,180 140,190" class="image" />
+  </g>
+</svg>

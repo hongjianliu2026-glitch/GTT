@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">divisional</text>
+  <text x="50" y="120" class="subtitle">[dɪˈvɪʒənl] adj. 分区的，部门的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> divis (分开) + -ional (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的公司被"分开(divis)"成多个部门，
+    <tspan x="50" dy="25">每个部门都有自己的职责和区域，这就是divisional的含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The divisional manager reported the sales figures to the CEO.
+  </text>
+  <text x="50" y="310" class="content">
+    部门经理向首席执行官报告了销售数据。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Company building -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Divided sections -->
+    <rect x="50" y="20" width="100" height="160" class="image" />
+    <rect x="170" y="20" width="100" height="160" class="image" />
+    <rect x="290" y="20" width="50" height="160" class="image" />
+    <!-- Dividing lines -->
+    <line x1="150" y1="20" x2="150" y2="180" class="image" />
+    <line x1="270" y1="20" x2="270" y2="180" class="image" />
+    <!-- Labels -->
+    <text x="75" y="190" class="content">HR</text>
+    <text x="195" y="190" class="content">Sales</text>
+    <text x="305" y="190" class="content">IT</text>
+  </g>
+</svg>

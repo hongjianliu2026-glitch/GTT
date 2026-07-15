@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pivot</text>
+  <text x="50" y="120" class="subtitle">[ˈpɪvət] n. 枢轴，中心点；v. 以...为中心旋转</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> piv (转) + ot (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的门，"转(piv)"动时需要一个"中心点(ot)"，
+    <tspan x="50" dy="25">这个中心点就是枢轴(pivot)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company decided to pivot its strategy to focus on online sales.
+  </text>
+  <text x="50" y="310" class="content">
+    公司决定调整策略，专注于在线销售。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Door -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Pivot point -->
+    <circle cx="175" cy="100" r="15" class="image" />
+    <!-- Door handle -->
+    <rect x="320" y="80" width="20" height="40" class="image" />
+    <!-- Door lines -->
+    <line x1="20" y1="20" x2="330" y2="20" class="image" />
+    <line x1="20" y1="180" x2="330" y2="180" class="image" />
+    <line x1="20" y1="20" x2="20" y2="180" class="image" />
+    <line x1="330" y1="20" x2="330" y2="180" class="image" />
+    <!-- Rotation line -->
+    <line x1="175" y1="100" x2="330" y2="100" class="image" />
+  </g>
+</svg>

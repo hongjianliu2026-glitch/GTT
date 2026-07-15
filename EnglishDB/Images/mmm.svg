@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mmm</text>
+  <text x="50" y="120" class="subtitle">[mmm] interj. 表示满意或享受的声音</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 无特定词根，拟声词
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在品尝美味的食物时，发出"mmm"的声音，
+    <tspan x="50" dy="25">表达出他对食物的满意和享受。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She said "mmm" when she tasted the chocolate cake.
+  </text>
+  <text x="50" y="310" class="content">
+    她尝到巧克力蛋糕时说"mmm"。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mouth -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Tongue -->
+    <rect x="80" y="110" width="40" height="20" class="image" />
+    <!-- Food -->
+    <rect x="50" y="50" width="100" height="30" class="image" />
+    <text x="70" y="70" class="content" fill="#E74C3C">美味食物</text>
+  </g>
+</svg>

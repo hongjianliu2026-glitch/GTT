@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">contiguous</text>
+  <text x="50" y="120" class="subtitle">[kənˈtɪɡjuəs] adj. 邻近的，接触的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (一起) + tig (接触) + uous (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两块拼图，它们"紧密接触(con-tig-uous)"在一起，形成一个完整的画面。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The two countries share a contiguous border.
+  </text>
+  <text x="50" y="310" class="content">
+    这两个国家共享一个邻近的边界。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Puzzle pieces -->
+    <path d="M50 50 L150 50 Q200 50 200 100 L200 150 Q200 200 150 200 L50 200 Q0 200 0 150 L0 100 Q0 50 50 50 Z" class="image" />
+    <path d="M250 50 L350 50 Q400 50 400 100 L400 150 Q400 200 350 200 L250 200 Q200 200 200 150 L200 100 Q200 50 250 50 Z" class="image" />
+    <!-- Connecting line -->
+    <line x1="200" y1="100" x2="250" y2="100" class="image" />
+  </g>
+</svg>

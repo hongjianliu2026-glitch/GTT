@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">individuality</text>
+  <text x="50" y="120" class="subtitle">[ˌɪndɪˌvɪdʒuˈælɪti] n. 个性，独特性</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (不) + dividu (分开) + -ality (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人被"分开(dividu)"，每个人都展现出自己独特的"个性(individuality)"，
+    <tspan x="50" dy="25">就像彩虹中的每一种颜色，各自闪耀。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She celebrates her individuality by wearing unique clothing.
+  </text>
+  <text x="50" y="310" class="content">
+    她通过穿独特的衣服来庆祝自己的个性。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rainbow -->
+    <path d="M0,100 A100,100 0 1,1 200,100" class="image" stroke="#FF0000" />
+    <path d="M0,110 A90,90 0 1,1 180,110" class="image" stroke="#FF7F00" />
+    <path d="M0,120 A80,80 0 1,1 160,120" class="image" stroke="#FFFF00" />
+    <path d="M0,130 A70,70 0 1,1 140,130" class="image" stroke="#00FF00" />
+    <path d="M0,140 A60,60 0 1,1 120,140" class="image" stroke="#0000FF" />
+    <path d="M0,150 A50,50 0 1,1 100,150" class="image" stroke="#4B0082" />
+    <path d="M0,160 A40,40 0 1,1 80,160" class="image" stroke="#8B00FF" />
+
+    <!-- People -->
+    <circle cx="50" cy="200" r="15" class="image" />
+    <line x1="50" y1="215" x2="50" y2="250" class="image" />
+    <line x1="50" y1="250" x2="30" y2="280" class="image" />
+    <line x1="50" y1="250" x2="70" y2="280" class="image" />
+    <line x1="50" y1="230" x2="80" y2="220" class="image" />
+
+    <circle cx="150" cy="200" r="15" class="image" />
+    <line x1="150" y1="215" x2="150" y2="250" class="image" />
+    <line x1="150" y1="250" x2="130" y2="280" class="image" />
+    <line x1="150" y1="250" x2="170" y2="280" class="image" />
+    <line x1="150" y1="230" x2="180" y2="220" class="image" />
+
+    <circle cx="250" cy="200" r="15" class="image" />
+    <line x1="250" y1="215" x2="250" y2="250" class="image" />
+    <line x1="250" y1="250" x2="230" y2="280" class="image" />
+    <line x1="250" y1="250" x2="270" y2="280" class="image" />
+    <line x1="250" y1="230" x2="280" y2="220" class="image" />
+  </g>
+</svg>

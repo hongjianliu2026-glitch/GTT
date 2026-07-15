@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sorority</text>
+  <text x="50" y="120" class="subtitle">[səˈrɔrəti] n. 女生联谊会</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> soror (姐妹) + -ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群姐妹(soror)手拉手围成一个圈，象征着她们之间的紧密联系和友谊，这就是女生联谊会(sorority)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She joined a sorority to make new friends.
+  </text>
+  <text x="50" y="310" class="content">
+    她加入了一个女生联谊会以结交新朋友。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Circle of sisters -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Sisters -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="250" cy="100" r="15" class="image" />
+    <circle cx="175" cy="20" r="15" class="image" />
+    <circle cx="175" cy="180" r="15" class="image" />
+    <!-- Hands -->
+    <line x1="100" y1="115" x2="250" y2="115" class="image" />
+    <line x1="175" y1="35" x2="175" y2="165" class="image" />
+  </g>
+</svg>

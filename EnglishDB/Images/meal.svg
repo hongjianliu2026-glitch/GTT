@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">meal</text>
+  <text x="50" y="120" class="subtitle">[miːl] n. 餐，一顿饭</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mel (食物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的餐桌，上面摆满了各种美味的食物，
+    <tspan x="50" dy="25">这就是一顿丰盛的"餐(meal)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We had a delicious meal at the new restaurant.
+  </text>
+  <text x="50" y="310" class="content">
+    我们在新开的餐厅吃了一顿美味的饭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Table -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Food items -->
+    <circle cx="50" cy="50" r="20" class="image" /> <!-- Plate 1 -->
+    <circle cx="120" cy="50" r="20" class="image" /> <!-- Plate 2 -->
+    <circle cx="190" cy="50" r="20" class="image" /> <!-- Plate 3 -->
+    <circle cx="260" cy="50" r="20" class="image" /> <!-- Plate 4 -->
+    <!-- Food on plates -->
+    <rect x="40" y="60" width="40" height="30" class="image" /> <!-- Food 1 -->
+    <rect x="110" y="60" width="40" height="30" class="image" /> <!-- Food 2 -->
+    <rect x="180" y="60" width="40" height="30" class="image" /> <!-- Food 3 -->
+    <rect x="250" y="60" width="40" height="30" class="image" /> <!-- Food 4 -->
+  </g>
+</svg>

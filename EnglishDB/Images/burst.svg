@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">burst</text>
+  <text x="50" y="120" class="subtitle">[bɜːrst] v. 爆裂，爆发；n. 爆炸，突发</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bur- (爆裂) + st (站立)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个气球突然"爆裂(bur-)"，"站立(st)"在那里，
+    <tspan x="50" dy="25">瞬间释放出所有的能量，这就是burst的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The balloon burst with a loud pop.
+  </text>
+  <text x="50" y="310" class="content">
+    气球砰的一声爆裂了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balloon -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#E74C3C" />
+    <!-- Explosion -->
+    <circle cx="100" cy="100" r="20" class="image" fill="#F1C40F" />
+    <line x1="100" y1="80" x2="100" y2="20" class="image" />
+    <line x1="120" y1="100" x2="180" y2="100" class="image" />
+    <line x1="80" y1="100" x2="20" y2="100" class="image" />
+    <line x1="100" y1="120" x2="100" y2="180" class="image" />
+    <!-- Rope -->
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+  </g>
+</svg>

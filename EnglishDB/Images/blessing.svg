@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blessing</text>
+  <text x="50" y="120" class="subtitle">[ˈblɛsɪŋ] n. 祝福，赐福</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bless (祝福) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一位天使从天而降，"赐予(bless)"
+    <tspan x="50" dy="25">人们幸福和好运，这就是祝福(blessing)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The baby's birth was a blessing for the family.
+  </text>
+  <text x="50" y="310" class="content">
+    这个婴儿的出生对这个家庭来说是一种祝福。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Angel -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="150" x2="20" y2="180" class="image" />
+    <line x1="50" y1="150" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="20" y2="230" class="image" />
+    <line x1="50" y1="200" x2="80" y2="230" class="image" />
+    <!-- Halo -->
+    <circle cx="50" cy="70" r="20" class="image" />
+    <!-- Blessing rays -->
+    <line x1="50" y1="100" x2="150" y2="50" class="image" />
+    <line x1="50" y1="100" x2="150" y2="150" class="image" />
+    <line x1="50" y1="100" x2="50" y2="0" class="image" />
+  </g>
+</svg>

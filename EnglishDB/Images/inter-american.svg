@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Inter-American</text>
+  <text x="50" y="120" class="subtitle">[ˌɪntər əˈmerɪkən] adj. 美洲之间的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + American (美洲的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个美洲国家之间有一座桥梁，"在美洲之间(inter-American)"
+    <tspan x="50" dy="25">连接着彼此，象征着美洲国家之间的合作与交流。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Inter-American Development Bank supports projects across the Americas.
+  </text>
+  <text x="50" y="310" class="content">
+    美洲开发银行支持美洲各地的项目。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bridge -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <line x1="0" y1="20" x2="350" y2="20" class="image" />
+    <line x1="0" y1="0" x2="0" y2="20" class="image" />
+    <line x1="350" y1="0" x2="350" y2="20" class="image" />
+    <!-- Countries -->
+    <rect x="50" y="30" width="100" height="50" class="image" />
+    <rect x="200" y="30" width="100" height="50" class="image" />
+    <!-- Flags -->
+    <line x1="100" y1="30" x2="100" y2="80" class="image" />
+    <line x1="250" y1="30" x2="250" y2="80" class="image" />
+    <rect x="90" y="80" width="20" height="10" class="image" />
+    <rect x="240" y="80" width="20" height="10" class="image" />
+  </g>
+</svg>

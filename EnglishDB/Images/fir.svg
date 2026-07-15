@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .tree { fill: #27AE60; }
+      .fire { fill: #E74C3C; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fir</text>
+  <text x="50" y="120" class="subtitle">[fɜːr] n. 冷杉，枞树</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fir (源自中古英语，意为“冷杉”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一棵高大的冷杉树(fir)，
+    <tspan x="50" dy="25">它的针叶在风中摇曳，树干笔直，</tspan>
+    <tspan x="50" dy="25">就像一个守护森林的巨人。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The fir tree was decorated with colorful lights for Christmas.
+  </text>
+  <text x="50" y="310" class="content">
+    冷杉树上装饰着圣诞节的彩灯。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Fir tree -->
+    <rect x="0" y="0" width="100" height="200" class="tree" />
+    <polygon points="50,0 20,100 80,100" class="tree" />
+    <polygon points="50,50 10,150 90,150" class="tree" />
+    <!-- Fire -->
+    <circle cx="50" cy="250" r="30" class="fire" />
+    <line x1="50" y1="250" x2="50" y2="300" class="fire" />
+    <line x1="50" y1="270" x2="30" y2="260" class="fire" />
+    <line x1="50" y1="270" x2="70" y2="260" class="fire" />
+    <line x1="50" y1="290" x2="30" y2="280" class="fire" />
+    <line x1="50" y1="290" x2="70" y2="280" class="fire" />
+  </g>
+</svg>

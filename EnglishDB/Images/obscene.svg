@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #B03A2E; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">obscene</text>
+  <text x="50" y="120" class="subtitle">[əbˈsiːn] adj. 淫秽的，下流的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ob- (反对) + scene (景象)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个场景，"反对(ob-)"展示"景象(scene)"，
+    <tspan x="50" dy="25">这个景象是如此"下流(obscene)"，让人不忍直视。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The movie was criticized for its obscene content.
+  </text>
+  <text x="50" y="310" class="content">
+    这部电影因其淫秽内容而受到批评。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eye with a slash -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="50" y1="50" x2="150" y2="150" class="image" />
+    <!-- Obscene content -->
+    <rect x="200" y="50" width="150" height="100" class="image" />
+    <text x="220" y="100" class="content" fill="#E74C3C">X</text>
+    <text x="240" y="100" class="content" fill="#E74C3C">X</text>
+    <text x="260" y="100" class="content" fill="#E74C3C">X</text>
+    <text x="280" y="100" class="content" fill="#E74C3C">X</text>
+    <text x="300" y="100" class="content" fill="#E74C3C">X</text>
+  </g>
+</svg>

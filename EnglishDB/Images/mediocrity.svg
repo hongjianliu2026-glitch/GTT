@@ -1,0 +1,140 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mediocrity</text>
+  <text x="50" y="120" class="subtitle">[ˌmiːdiˈɒkrəti] n. 平庸，平凡</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> medius (中间) + -ocr (统治) + -ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人站在一个梯子上，"中间(medius)"
+    <tspan x="50" dy="25">的人统治(ocr)着整个梯子，</tspan>
+    <tspan x="50" dy="25">他们都是平庸(mediocrity)的代表。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He was content with mediocrity, never striving for greatness.
+  </text>
+  <text x="50" y="310" class="content">
+    他满足于平庸，从未追求卓越。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ladder -->
+    <line x1="0" y1="0" x2="0" y2="200" class="image" />
+    <line x1="50" y1="0" x2="50" y2="200" class="image" />
+    <line x1="100" y1="0" x2="100" y2="200" class="image" />
+    <line x1="150" y1="0" x2="150" y2="200" class="image" />
+    <line x1="200" y1="0" x2="200" y2="200" class="image" />
+    <line x1="250" y1="0" x2="250" y2="200" class="image" />
+    <line x1="300" y1="0" x2="300" y2="200" class="image" />
+    <line x1="350" y1="0" x2="350" y2="200" class="image" />
+    <line x1="400" y1="0" x2="400" y2="200" class="image" />
+    <line x1="450" y1="0" x2="450" y2="200" class="image" />
+    <line x1="500" y1="0" x2="500" y2="200" class="image" />
+    <line x1="550" y1="0" x2="550" y2="200" class="image" />
+    <line x1="600" y1="0" x2="600" y2="200" class="image" />
+    <line x1="650" y1="0" x2="650" y2="200" class="image" />
+    <line x1="700" y1="0" x2="700" y2="200" class="image" />
+    <line x1="750" y1="0" x2="750" y2="200" class="image" />
+    <line x1="800" y1="0" x2="800" y2="200" class="image" />
+    <line x1="850" y1="0" x2="850" y2="200" class="image" />
+    <line x1="900" y1="0" x2="900" y2="200" class="image" />
+    <line x1="950" y1="0" x2="950" y2="200" class="image" />
+    <line x1="1000" y1="0" x2="1000" y2="200" class="image" />
+    <line x1="1050" y1="0" x2="1050" y2="200" class="image" />
+    <line x1="1100" y1="0" x2="1100" y2="200" class="image" />
+    <line x1="1150" y1="0" x2="1150" y2="200" class="image" />
+    <line x1="1200" y1="0" x2="1200" y2="200" class="image" />
+    <line x1="1250" y1="0" x2="1250" y2="200" class="image" />
+    <line x1="1300" y1="0" x2="1300" y2="200" class="image" />
+    <line x1="1350" y1="0" x2="1350" y2="200" class="image" />
+    <line x1="1400" y1="0" x2="1400" y2="200" class="image" />
+    <line x1="1450" y1="0" x2="1450" y2="200" class="image" />
+    <line x1="1500" y1="0" x2="1500" y2="200" class="image" />
+    <line x1="1550" y1="0" x2="1550" y2="200" class="image" />
+    <line x1="1600" y1="0" x2="1600" y2="200" class="image" />
+    <line x1="1650" y1="0" x2="1650" y2="200" class="image" />
+    <line x1="1700" y1="0" x2="1700" y2="200" class="image" />
+    <line x1="1750" y1="0" x2="1750" y2="200" class="image" />
+    <line x1="1800" y1="0" x2="1800" y2="200" class="image" />
+    <line x1="1850" y1="0" x2="1850" y2="200" class="image" />
+    <line x1="1900" y1="0" x2="1900" y2="200" class="image" />
+    <line x1="1950" y1="0" x2="1950" y2="200" class="image" />
+    <line x1="2000" y1="0" x2="2000" y2="200" class="image" />
+    <line x1="2050" y1="0" x2="2050" y2="200" class="image" />
+    <line x1="2100" y1="0" x2="2100" y2="200" class="image" />
+    <line x1="2150" y1="0" x2="2150" y2="200" class="image" />
+    <line x1="2200" y1="0" x2="2200" y2="200" class="image" />
+    <line x1="2250" y1="0" x2="2250" y2="200" class="image" />
+    <line x1="2300" y1="0" x2="2300" y2="200" class="image" />
+    <line x1="2350" y1="0" x2="2350" y2="200" class="image" />
+    <line x1="2400" y1="0" x2="2400" y2="200" class="image" />
+    <line x1="2450" y1="0" x2="2450" y2="200" class="image" />
+    <line x1="2500" y1="0" x2="2500" y2="200" class="image" />
+    <line x1="2550" y1="0" x2="2550" y2="200" class="image" />
+    <line x1="2600" y1="0" x2="2600" y2="200" class="image" />
+    <line x1="2650" y1="0" x2="2650" y2="200" class="image" />
+    <line x1="2700" y1="0" x2="2700" y2="200" class="image" />
+    <line x1="2750" y1="0" x2="2750" y2="200" class="image" />
+    <line x1="2800" y1="0" x2="2800" y2="200" class="image" />
+    <line x1="2850" y1="0" x2="2850" y2="200" class="image" />
+    <line x1="2900" y1="0" x2="2900" y2="200" class="image" />
+    <line x1="2950" y1="0" x2="2950" y2="200" class="image" />
+    <line x1="3000" y1="0" x2="3000" y2="200" class="image" />
+    <line x1="3050" y1="0" x2="3050" y2="200" class="image" />
+    <line x1="3100" y1="0" x2="3100" y2="200" class="image" />
+    <line x1="3150" y1="0" x2="3150" y2="200" class="image" />
+    <line x1="3200" y1="0" x2="3200" y2="200" class="image" />
+    <line x1="3250" y1="0" x2="3250" y2="200" class="image" />
+    <line x1="3300" y1="0" x2="3300" y2="200" class="image" />
+    <line x1="3350" y1="0" x2="3350" y2="200" class="image" />
+    <line x1="3400" y1="0" x2="3400" y2="200" class="image" />
+    <line x1="3450" y1="0" x2="3450" y2="200" class="image" />
+    <line x1="3500" y1="0" x2="3500" y2="200" class="image" />
+    <line x1="3550" y1="0" x2="3550" y2="200" class="image" />
+    <line x1="3600" y1="0" x2="3600" y2="200" class="image" />
+    <line x1="3650" y1="0" x2="3650" y2="200" class="image" />
+    <line x1="3700" y1="0" x2="3700" y2="200" class="image" />
+    <line x1="3750" y1="0" x2="3750" y2="200" class="image" />
+    <line x1="3800" y1="0" x2="3800" y2="200" class="image" />
+    <line x1="3850" y1="0" x2="3850" y2="200" class="image" />
+    <line x1="3900" y1="0" x2="3900" y2="200" class="image" />
+    <line x1="3950" y1="0" x2="3950" y2="200" class="image" />
+    <line x1="4000" y1="0" x2="4000" y2="200" class="image" />
+    <line x1="4050" y1="0" x2="4050" y2="200" class="image" />
+    <line x1="4100" y1="0" x2="4100" y2="200" class="image" />
+    <line x1="4150" y1="0" x2="4150" y2="200" class="image" />
+    <line x1="4200" y1="0" x2="4200" y2="200" class="image" />
+    <line x1="4250" y1="0" x2="4250" y2="200" class="image" />
+    <line x1="4300" y1="0" x2="4300" y2="200" class="image" />
+    <line x1="4350" y1="0" x2="4350" y2="200" class="image" />
+    <line x1="4400" y1="0" x2="4400" y2="200" class="image" />
+    <line x1="4450" y1="0" x2="4450" y2="200" class="image" />
+    <line x1="4500" y1="0" x2="4500" y2="200" class="image" />
+    <line x1="4550" y1="0" x2="4550" y2="200" class="image" />
+    <line x1="4600" y1="0" x2="4600" y2="200" class="image" />
+    <line x1="4650" y1="0" x2="4650" y2="200" class="image" />
+    <line x1="4700" y1="0" x2="4700" y2="200" class="image" />
+    <line x1="4750" y1

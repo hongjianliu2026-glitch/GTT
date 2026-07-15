@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .vapor { fill: #BDC3C7; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vapor</text>
+  <text x="50" y="120" class="subtitle">[ˈveɪpər] n. 蒸汽，水汽</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> vap (蒸汽) + -or (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一杯热茶，"蒸汽(vap)"
+    <tspan x="50" dy="25">从杯中升起，形成了一团团水汽(vapor)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The vapor from the boiling water filled the kitchen.
+  </text>
+  <text x="50" y="310" class="content">
+    沸水产生的蒸汽充满了厨房。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Teacup -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <!-- Handle -->
+    <rect x="140" y="30" width="20" height="40" class="image" />
+    <!-- Vapor -->
+    <circle cx="75" cy="50" r="20" class="vapor" />
+    <circle cx="60" cy="30" r="15" class="vapor" />
+    <circle cx="90" cy="40" r="18" class="vapor" />
+    <circle cx="70" cy="20" r="12" class="vapor" />
+    <circle cx="85" cy="35" r="14" class="vapor" />
+  </g>
+</svg>

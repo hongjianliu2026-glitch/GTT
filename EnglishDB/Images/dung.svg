@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dung</text>
+  <text x="50" y="120" class="subtitle">[dʌŋ] n. 粪，粪肥</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "dung"，意为"粪便"
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头牛在田野上，"拉下(dung)"
+    <tspan x="50" dy="25">一堆堆的粪便，这些粪便最终会成为田地的肥料(dung)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The farmer spread dung on his fields to enrich the soil.
+  </text>
+  <text x="50" y="310" class="content">
+    农民在田地里撒粪肥以增加土壤肥力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cow -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Cow body -->
+    <circle cx="30" cy="90" r="10" class="image" /> <!-- Cow head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Cow legs -->
+    <line x1="70" y1="130" x2="70" y2="180" class="image" />
+    <line x1="30" y1="130" x2="30" y2="180" class="image" />
+    <line x1="10" y1="130" x2="10" y2="180" class="image" />
+    <!-- Dung -->
+    <circle cx="100" cy="150" r="15" class="image" fill="#8B4513" />
+    <circle cx="120" cy="150" r="15" class="image" fill="#8B4513" />
+    <circle cx="140" cy="150" r="15" class="image" fill="#8B4513" />
+  </g>
+</svg>

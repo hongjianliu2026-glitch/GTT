@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">devastation</text>
+  <text x="50" y="120" class="subtitle">[ˌdevəˈsteɪʃən] n. 破坏，毁灭</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + vast (空旷) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场巨大的灾难，"向下(de-)"摧毁了一切，
+    <tspan x="50" dy="25">留下一片"空旷(vast)"的废墟，这就是"破坏(devastation)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hurricane caused widespread devastation.
+  </text>
+  <text x="50" y="310" class="content">
+    飓风造成了广泛的破坏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tornado -->
+    <path d="M0 100 C100 0 200 200 300 100" class="image" />
+    <!-- Destroyed house -->
+    <rect x="100" y="150" width="100" height="50" class="image" />
+    <line x1="120" y1="150" x2="120" y2="100" class="image" />
+    <line x1="180" y1="150" x2="180" y2="100" class="image" />
+    <line x1="120" y1="100" x2="180" y2="100" class="image" />
+    <!-- Ruins -->
+    <rect x="140" y="200" width="20" height="10" class="image" />
+    <rect x="160" y="200" width="20" height="10" class="image" />
+    <rect x="180" y="200" width="20" height="10" class="image" />
+  </g>
+</svg>

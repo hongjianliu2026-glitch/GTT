@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">merger</text>
+  <text x="50" y="120" class="subtitle">[ˈmɜːrdʒər] n. 合并，兼并</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> merg (沉没) + -er (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两家公司"沉没(merg)"在一起，形成了一个更大的公司，这就是合并(merger)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The merger of the two companies created a new industry leader.
+  </text>
+  <text x="50" y="310" class="content">
+    两家公司的合并创造了一个新的行业领导者。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- First company -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <text x="20" y="50" class="content">Company A</text>
+
+    <!-- Second company -->
+    <rect x="200" y="0" width="150" height="100" class="image" />
+    <text x="220" y="50" class="content">Company B</text>
+
+    <!-- Merged company -->
+    <rect x="100" y="150" width="200" height="100" class="image" />
+    <text x="120" y="200" class="content">Merged Company</text>
+
+    <!-- Arrows -->
+    <line x1="75" y1="100" x2="100" y2="150" class="image" />
+    <line x1="275" y1="100" x2="200" y2="150" class="image" />
+    <polygon points="90,140 100,150 110,140" class="image" />
+    <polygon points="265,140 200,150 275,160" class="image" />
+  </g>
+</svg>

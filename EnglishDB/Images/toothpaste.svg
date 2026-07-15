@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">toothpaste</text>
+  <text x="50" y="120" class="subtitle">[ˈtuːθpeɪst] n. 牙膏</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tooth (牙齿) + paste (糊状物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的牙膏管，"糊状物(paste)"
+    <tspan x="50" dy="25">从管口挤出，覆盖在巨大的牙齿上，</tspan>
+    <tspan x="50" dy="25">形成一层保护膜，这就是牙膏(toothpaste)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She squeezed some toothpaste onto her toothbrush.
+  </text>
+  <text x="50" y="310" class="content">
+    她挤了一些牙膏到牙刷上。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Toothpaste tube -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="10" y="10" width="130" height="180" class="image" />
+    <!-- Toothpaste coming out -->
+    <line x1="75" y1="200" x2="75" y2="250" class="image" />
+    <line x1="75" y1="250" x2="50" y2="280" class="image" />
+    <line x1="75" y1="250" x2="100" y2="280" class="image" />
+    <!-- Tooth -->
+    <rect x="200" y="100" width="100" height="100" class="image" />
+    <line x1="220" y1="120" x2="280" y2="120" class="image" />
+    <line x1="220" y1="140" x2="280" y2="140" class="image" />
+    <line x1="220" y1="160" x2="280" y2="160" class="image" />
+    <line x1="220" y1="180" x2="280" y2="180" class="image" />
+    <!-- Toothpaste on tooth -->
+    <line x1="220" y1="120" x2="220" y2="180" class="image" />
+    <line x1="280" y1="120" x2="280" y2="180" class="image" />
+  </g>
+</svg>

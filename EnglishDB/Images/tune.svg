@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tune</text>
+  <text x="50" y="120" class="subtitle">[tjuːn] n. 曲调，调子；v. 调音，调整</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tun (声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在调音，"调整(tune)"
+    <tspan x="50" dy="25">乐器发出和谐的声音，这就是曲调(tune)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She played a beautiful tune on the piano.
+  </text>
+  <text x="50" y="310" class="content">
+    她在钢琴上演奏了一首优美的曲调。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Music note -->
+    <path d="M10 100 Q50 50 100 100 T200 100" class="image" />
+    <circle cx="200" cy="100" r="10" class="image" />
+    <!-- Music staff -->
+    <line x1="0" y1="150" x2="350" y2="150" class="image" />
+    <line x1="0" y1="170" x2="350" y2="170" class="image" />
+    <line x1="0" y1="190" x2="350" y2="190" class="image" />
+    <line x1="0" y1="210" x2="350" y2="210" class="image" />
+    <line x1="0" y1="230" x2="350" y2="230" class="image" />
+    <!-- Musician -->
+    <circle cx="50" cy="200" r="20" class="image" />
+    <line x1="50" y1="220" x2="50" y2="260" class="image" />
+    <line x1="50" y1="260" x2="30" y2="300" class="image" />
+    <line x1="50" y1="260" x2="70" y2="300" class="image" />
+    <line x1="50" y1="240" x2="90" y2="230" class="image" />
+  </g>
+</svg>

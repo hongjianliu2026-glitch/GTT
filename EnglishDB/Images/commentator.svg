@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">commentator</text>
+  <text x="50" y="120" class="subtitle">[ˈkɒmənteɪtə(r)] n. 评论员，解说员</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> com- (共同) + ment (思考) + -ator (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个评论员在电视前，"共同思考(com-ment)"
+    <tspan x="50" dy="25">并解说比赛，他就是评论员(commentator)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The commentator provided insightful analysis during the game.
+  </text>
+  <text x="50" y="310" class="content">
+    评论员在比赛中提供了深刻的分析。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- TV screen -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Commentator -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="190" class="image" />
+    <line x1="50" y1="160" x2="70" y2="190" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Microphone -->
+    <line x1="80" y1="130" x2="120" y2="130" class="image" />
+    <line x1="120" y1="130" x2="120" y2="110" class="image" />
+    <line x1="120" y1="110" x2="110" y2="110" class="image" />
+    <line x1="110" y1="110" x2="110" y2="120" class="image" />
+    <!-- Speech bubble -->
+    <path d="M130,90 Q180,90 180,60 Q180,30 130,30 Q80,30 80,60 Q80,90 130,90 Z" class="image" />
+    <text x="135" y="60" class="content">解说</text>
+  </g>
+</svg>

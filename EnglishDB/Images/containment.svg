@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">containment</text>
+  <text x="50" y="120" class="subtitle">[kənˈteɪnmənt] n. 遏制，控制</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (共同) + tain (保持) + -ment (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的容器，"共同保持(con-tain)"
+    <tspan x="50" dy="25">住所有的东西，不让它们逃脱，这就是遏制(containment)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The government's policy focuses on the containment of the virus.
+  </text>
+  <text x="50" y="310" class="content">
+    政府的政策重点在于病毒的遏制。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Container -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Lid -->
+    <rect x="50" y="20" width="250" height="10" class="image" />
+    <!-- Items inside -->
+    <circle cx="100" cy="80" r="15" class="image" />
+    <circle cx="150" cy="80" r="15" class="image" />
+    <circle cx="200" cy="80" r="15" class="image" />
+    <circle cx="250" cy="80" r="15" class="image" />
+    <!-- Lock -->
+    <rect x="170" y="100" width="10" height="20" class="image" />
+    <circle cx="175" cy="120" r="5" class="image" />
+  </g>
+</svg>

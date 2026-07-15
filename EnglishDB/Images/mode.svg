@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mode</text>
+  <text x="50" y="120" class="subtitle">[moʊd] n. 模式，方式</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mod (方式，模式)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在演奏时，"切换不同的模式(mode)"
+    <tspan x="50" dy="25">来表达不同的情感，这些模式决定了音乐的风格。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The camera has several modes to choose from.
+  </text>
+  <text x="50" y="310" class="content">
+    相机有几种模式可供选择。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Musician -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="90" y2="140" class="image" />
+    <!-- Musical notes -->
+    <path d="M100,100 Q120,80 140,100 T180,100" class="image" />
+    <path d="M100,120 Q120,100 140,120 T180,120" class="image" />
+    <path d="M100,140 Q120,120 140,140 T180,140" class="image" />
+    <!-- Modes -->
+    <rect x="200" y="80" width="50" height="50" class="image" />
+    <rect x="200" y="150" width="50" height="50" class="image" />
+    <rect x="200" y="220" width="50" height="50" class="image" />
+    <text x="210" y="110" class="content">Mode 1</text>
+    <text x="210" y="180" class="content">Mode 2</text>
+    <text x="210" y="250" class="content">Mode 3</text>
+  </g>
+</svg>

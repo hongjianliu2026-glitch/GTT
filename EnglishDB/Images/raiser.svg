@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">raiser</text>
+  <text x="50" y="120" class="subtitle">[ˈreɪzər] n. 养育者，举起者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rais (raise, 举起) + -er (表示人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个大力士，他不仅能举起重物，还能"养育(raise)"
+    <tspan x="50" dy="25">孩子们，他就是那个"举起者(raiser)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She is a dedicated raiser of orphaned animals.
+  </text>
+  <text x="50" y="310" class="content">
+    她是一位致力于抚养孤行动物的养育者。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Strongman -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="160" x2="20" y2="140" class="image" />
+    <line x1="50" y1="160" x2="80" y2="140" class="image" />
+    <line x1="50" y1="200" x2="30" y2="230" class="image" />
+    <line x1="50" y1="200" x2="70" y2="230" class="image" />
+    <!-- Raised object -->
+    <rect x="100" y="150" width="100" height="50" class="image" />
+    <line x1="150" y1="150" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="120" y2="70" class="image" />
+    <line x1="150" y1="100" x2="180" y2="70" class="image" />
+  </g>
+</svg>

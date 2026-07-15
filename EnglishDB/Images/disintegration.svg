@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">disintegration</text>
+  <text x="50" y="120" class="subtitle">[ˌdɪsˌɪntɪˈɡreɪʃən] n. 分解，瓦解</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (分开) + integr (整体) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个完整的拼图，突然被"分开(dis-)"成无数碎片，
+    <tspan x="50" dy="25">这些碎片象征着整体的"瓦解(integration)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The disintegration of the empire led to chaos.
+  </text>
+  <text x="50" y="310" class="content">
+    帝国的瓦解导致了混乱。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken puzzle pieces -->
+    <path d="M0 0 L50 0 Q75 25 50 50 L0 50 Z" class="image" />
+    <path d="M70 0 L120 0 Q145 25 120 50 L70 50 Z" class="image" />
+    <path d="M140 0 L190 0 Q215 25 190 50 L140 50 Z" class="image" />
+    <path d="M210 0 L260 0 Q285 25 260 50 L210 50 Z" class="image" />
+    <path d="M280 0 L330 0 Q355 25 330 50 L280 50 Z" class="image" />
+    <!-- Broken lines -->
+    <line x1="0" y1="50" x2="330" y2="50" class="image" />
+    <line x1="0" y1="100" x2="330" y2="100" class="image" />
+    <line x1="0" y1="150" x2="330" y2="150" class="image" />
+  </g>
+</svg>

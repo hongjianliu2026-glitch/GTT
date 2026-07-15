@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">livable</text>
+  <text x="50" y="120" class="subtitle">[ˈlɪvəbl] adj. 适合居住的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> live (生活) + -able (能够)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个房子，里面有舒适的床、温暖的壁炉和新鲜的空气，
+    <tspan x="50" dy="25">这个房子就是"能够生活(live-able)"的地方，即适合居住的(livable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The newly built apartment is very livable.
+  </text>
+  <text x="50" y="310" class="content">
+    新建的公寓非常宜居。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,180 200,100 350,180" class="image" />
+    <!-- Bed -->
+    <rect x="100" y="120" width="150" height="60" class="image" />
+    <!-- Fireplace -->
+    <rect x="20" y="140" width="50" height="40" class="image" />
+    <!-- Fresh air -->
+    <circle cx="300" cy="150" r="20" class="image" />
+    <line x1="300" y1="170" x2="300" y2="200" class="image" />
+    <line x1="300" y1="200" x2="280" y2="220" class="image" />
+    <line x1="300" y1="200" x2="320" y2="220" class="image" />
+  </g>
+</svg>

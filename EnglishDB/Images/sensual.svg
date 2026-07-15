@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #E91E63; }
+      .story { font: 16px serif; fill: #AD1457; }
+      .image { stroke: #795548; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sensual</text>
+  <text x="50" y="120" class="subtitle">[ˈsɛnʃuəl] adj. 感官的，肉欲的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sens (感觉) + -ual (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个充满感官刺激的场景，"感觉(sens)"
+    <tspan x="50" dy="25">被放大到极致，让人沉醉其中，这就是感官的(sensual)体验。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The artist's work is known for its sensual appeal.
+  </text>
+  <text x="50" y="310" class="content">
+    这位艺术家的作品以其感官吸引力而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sensual scene -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <circle cx="150" cy="150" r="50" class="image" />
+    <circle cx="200" cy="100" r="60" class="image" />
+    <!-- Sensual touch -->
+    <line x1="50" y1="100" x2="250" y2="100" class="image" />
+    <line x1="50" y1="150" x2="250" y2="150" class="image" />
+    <line x1="50" y1="200" x2="250" y2="200" class="image" />
+    <!-- Sensual feeling -->
+    <circle cx="100" cy="250" r="30" class="image" />
+    <circle cx="150" cy="250" r="30" class="image" />
+    <circle cx="200" cy="250" r="30" class="image" />
+  </g>
+</svg>

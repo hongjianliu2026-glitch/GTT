@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">vertebra</text>
+  <text x="50" y="120" class="subtitle">[ˈvɜːrtəbrə] n. 脊椎骨</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> verte (脊椎) + bra (骨)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的脊椎骨(vertebra)，它像一条龙一样蜿蜒曲折，
+    <tspan x="50" dy="25">支撑着整个身体的重量，就像一条巨龙在守护着它的宝藏。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor examined the patient's vertebrae for any abnormalities.
+  </text>
+  <text x="50" y="310" class="content">
+    医生检查了患者的脊椎骨是否有异常。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Spine -->
+    <path d="M0,0 Q50,50 100,0 T200,0 T300,0 T400,0 T500,0 T600,0 T700,0" class="image" />
+    <!-- Vertebrae -->
+    <circle cx="50" cy="0" r="15" class="image" />
+    <circle cx="150" cy="0" r="15" class="image" />
+    <circle cx="250" cy="0" r="15" class="image" />
+    <circle cx="350" cy="0" r="15" class="image" />
+    <circle cx="450" cy="0" r="15" class="image" />
+    <circle cx="550" cy="0" r="15" class="image" />
+    <circle cx="650" cy="0" r="15" class="image" />
+  </g>
+</svg>

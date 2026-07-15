@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">filmmaker</text>
+  <text x="50" y="120" class="subtitle">[ˈfɪlmmeɪkər] n. 电影制片人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> film (电影) + maker (制造者)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个电影制片人(filmmaker)，手持摄像机，
+    <tspan x="50" dy="25">在拍摄一部电影(film)，他/她就是那个创造电影的人(maker)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The filmmaker won an award for his latest movie.
+  </text>
+  <text x="50" y="310" class="content">
+    这位电影制片人因他的最新电影获得了奖项。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Camera -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <circle cx="75" cy="50" r="20" class="image" />
+    <line x1="75" y1="70" x2="75" y2="100" class="image" />
+    <line x1="75" y1="100" x2="50" y2="120" class="image" />
+    <line x1="75" y1="100" x2="100" y2="120" class="image" />
+    <!-- Filmmaker -->
+    <circle cx="200" cy="50" r="15" class="image" />
+    <line x1="200" y1="65" x2="200" y2="100" class="image" />
+    <line x1="200" y1="100" x2="180" y2="120" class="image" />
+    <line x1="200" y1="100" x2="220" y2="120" class="image" />
+    <line x1="200" y1="80" x2="230" y2="70" class="image" />
+    <!-- Film reel -->
+    <rect x="250" y="0" width="100" height="100" class="image" />
+    <circle cx="275" cy="25" r="10" class="image" />
+    <circle cx="275" cy="75" r="10" class="image" />
+  </g>
+</svg>

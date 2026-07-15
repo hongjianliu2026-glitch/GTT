@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hallowed</text>
+  <text x="50" y="120" class="subtitle">[ˈhæləʊd] adj. 神圣的，受尊敬的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hallow (神圣) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个神圣的教堂，"神圣的(hallow)"
+    <tspan x="50" dy="25">光芒笼罩着，人们在这里祈祷，感受到无比的尊敬(hallowed)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hallowed ground of the cemetery was filled with solemn silence.
+  </text>
+  <text x="50" y="310" class="content">
+    公墓的神圣之地充满了庄严的寂静。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Church -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,20 300,20 350,100 300,180 50,180 0,100" class="image" />
+    <!-- Cross -->
+    <line x1="175" y1="50" x2="175" y2="150" class="image" />
+    <line x1="125" y1="100" x2="225" y2="100" class="image" />
+    <!-- Light rays -->
+    <line x1="175" y1="20" x2="175" y2="0" class="image" />
+    <line x1="125" y1="20" x2="100" y2="0" class="image" />
+    <line x1="225" y1="20" x2="250" y2="0" class="image" />
+    <line x1="175" y1="180" x2="175" y2="200" class="image" />
+    <line x1="125" y1="180" x2="100" y2="200" class="image" />
+    <line x1="225" y1="180" x2="250" y2="200" class="image" />
+  </g>
+</svg>

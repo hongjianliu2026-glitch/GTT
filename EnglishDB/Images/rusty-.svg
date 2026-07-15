@@ -1,0 +1,135 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">rusty</text>
+  <text x="50" y="120" class="subtitle">[ˈrʌsti] adj. 生锈的，陈旧的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> rust (锈) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一把生锈的剑，"锈迹斑斑(rusty)"，
+    <tspan x="50" dy="25">失去了锋利，象征着陈旧和不再有用。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old gate was rusty and hard to open.
+  </text>
+  <text x="50" y="310" class="content">
+    那扇旧门生锈了，很难打开。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Rusty sword -->
+    <line x1="50" y1="20" x2="50" y2="150" class="image" />
+    <line x1="50" y1="20" x2="100" y2="20" class="image" />
+    <line x1="100" y1="20" x2="100" y2="50" class="image" />
+    <line x1="100" y1="50" x2="150" y2="50" class="image" />
+    <line x1="150" y1="50" x2="150" y2="80" class="image" />
+    <line x1="150" y1="80" x2="200" y2="80" class="image" />
+    <line x1="200" y1="80" x2="200" y2="110" class="image" />
+    <line x1="200" y1="110" x2="250" y2="110" class="image" />
+    <line x1="250" y1="110" x2="250" y2="140" class="image" />
+    <line x1="250" y1="140" x2="300" y2="140" class="image" />
+    <line x1="300" y1="140" x2="300" y2="170" class="image" />
+    <line x1="300" y1="170" x2="350" y2="170" class="image" />
+    <line x1="350" y1="170" x2="350" y2="200" class="image" />
+    <line x1="350" y1="200" x2="400" y2="200" class="image" />
+    <line x1="400" y1="200" x2="400" y2="230" class="image" />
+    <line x1="400" y1="230" x2="450" y2="230" class="image" />
+    <line x1="450" y1="230" x2="450" y2="260" class="image" />
+    <line x1="450" y1="260" x2="500" y2="260" class="image" />
+    <line x1="500" y1="260" x2="500" y2="290" class="image" />
+    <line x1="500" y1="290" x2="550" y2="290" class="image" />
+    <line x1="550" y1="290" x2="550" y2="320" class="image" />
+    <line x1="550" y1="320" x2="600" y2="320" class="image" />
+    <line x1="600" y1="320" x2="600" y2="350" class="image" />
+    <line x1="600" y1="350" x2="650" y2="350" class="image" />
+    <line x1="650" y1="350" x2="650" y2="380" class="image" />
+    <line x1="650" y1="380" x2="700" y2="380" class="image" />
+    <line x1="700" y1="380" x2="700" y2="410" class="image" />
+    <line x1="700" y1="410" x2="750" y2="410" class="image" />
+    <line x1="750" y1="410" x2="750" y2="440" class="image" />
+    <line x1="750" y1="440" x2="800" y2="440" class="image" />
+    <line x1="800" y1="440" x2="800" y2="470" class="image" />
+    <line x1="800" y1="470" x2="850" y2="470" class="image" />
+    <line x1="850" y1="470" x2="850" y2="500" class="image" />
+    <line x1="850" y1="500" x2="900" y2="500" class="image" />
+    <line x1="900" y1="500" x2="900" y2="530" class="image" />
+    <line x1="900" y1="530" x2="950" y2="530" class="image" />
+    <line x1="950" y1="530" x2="950" y2="560" class="image" />
+    <line x1="950" y1="560" x2="1000" y2="560" class="image" />
+    <line x1="1000" y1="560" x2="1000" y2="590" class="image" />
+    <line x1="1000" y1="590" x2="1050" y2="590" class="image" />
+    <line x1="1050" y1="590" x2="1050" y2="620" class="image" />
+    <line x1="1050" y1="620" x2="1100" y2="620" class="image" />
+    <line x1="1100" y1="620" x2="1100" y2="650" class="image" />
+    <line x1="1100" y1="650" x2="1150" y2="650" class="image" />
+    <line x1="1150" y1="650" x2="1150" y2="680" class="image" />
+    <line x1="1150" y1="680" x2="1200" y2="680" class="image" />
+    <line x1="1200" y1="680" x2="1200" y2="710" class="image" />
+    <line x1="1200" y1="710" x2="1250" y2="710" class="image" />
+    <line x1="1250" y1="710" x2="1250" y2="740" class="image" />
+    <line x1="1250" y1="740" x2="1300" y2="740" class="image" />
+    <line x1="1300" y1="740" x2="1300" y2="770" class="image" />
+    <line x1="1300" y1="770" x2="1350" y2="770" class="image" />
+    <line x1="1350" y1="770" x2="1350" y2="800" class="image" />
+    <line x1="1350" y1="800" x2="1400" y2="800" class="image" />
+    <line x1="1400" y1="800" x2="1400" y2="830" class="image" />
+    <line x1="1400" y1="830" x2="1450" y2="830" class="image" />
+    <line x1="1450" y1="830" x2="1450" y2="860" class="image" />
+    <line x1="1450" y1="860" x2="1500" y2="860" class="image" />
+    <line x1="1500" y1="860" x2="1500" y2="890" class="image" />
+    <line x1="1500" y1="890" x2="1550" y2="890" class="image" />
+    <line x1="1550" y1="890" x2="1550" y2="920" class="image" />
+    <line x1="1550" y1="920" x2="1600" y2="920" class="image" />
+    <line x1="1600" y1="920" x2="1600" y2="950" class="image" />
+    <line x1="1600" y1="950" x2="1650" y2="950" class="image" />
+    <line x1="1650" y1="950" x2="1650" y2="980" class="image" />
+    <line x1="1650" y1="980" x2="1700" y2="980" class="image" />
+    <line x1="1700" y1="980" x2="1700" y2="1010" class="image" />
+    <line x1="1700" y1="1010" x2="1750" y2="1010" class="image" />
+    <line x1="1750" y1="1010" x2="1750" y2="1040" class="image" />
+    <line x1="1750" y1="1040" x2="1800" y2="1040" class="image" />
+    <line x1="1800" y1="1040" x2="1800" y2="1070" class="image" />
+    <line x1="1800" y1="1070" x2="1850" y2="1070" class="image" />
+    <line x1="1850" y1="1070" x2="1850" y2="1100" class="image" />
+    <line x1="1850" y1="1100" x2="1900" y2="1100" class="image" />
+    <line x1="1900" y1="1100" x2="1900" y2="1130" class="image" />
+    <line x1="1900" y1="1130" x2="1950" y2="1130" class="image" />
+    <line x1="1950" y1="1130" x2="1950" y2="1160" class="image" />
+    <line x1="1950" y1="1160" x2="2000" y2="1160" class="image" />
+    <line x1="2000" y1="1160" x2="2000" y2="1190" class="image" />
+    <line x1="2000" y1="1190" x2="2050" y2="1190" class="image" />
+    <line x1="2050" y1="1190" x2="2050" y2="1220" class="image" />
+    <line x1="2050" y1="1220" x2="2100" y2="1220" class="image" />
+    <line x1="2100" y1="1220" x2="2100" y2="1250" class="image" />
+    <line x1="2100" y1="1250" x2="2150" y2="1250" class="image" />
+    <line x1="2150" y1="1250" x2="2150" y2="1280" class="image" />
+    <line x1="2150" y1="1280" x2="2200" y2="1280" class="image" />
+    <line x1="2200" y1="1280" x2="2200" y2="1310" class="image" />
+    <line x1="2200" y1="1310" x2="2250" y2="1310" class="image" />
+    <line x1="2250" y1="1310" x2="2250" y2="1340" class="image" />
+    <line x1="2250" y1="1340" x2="2300" y2="1340" class="image" />
+    <line x1="2300" y1="1340" x2="2300" y2="1370" class="image" />
+    <line x1="2

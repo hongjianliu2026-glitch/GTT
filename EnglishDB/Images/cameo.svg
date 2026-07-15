@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cameo</text>
+  <text x="50" y="120" class="subtitle">[ˈkæmiˌoʊ] n. 浮雕宝石，客串演出</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cama (凸起) + eo (表示小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个微小的凸起(cama-eo)，就像一块精美的浮雕宝石(cameo)，
+    <tspan x="50" dy="25">或者一个明星在电影中的短暂而精彩的客串演出。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The actor made a cameo appearance in the film.
+  </text>
+  <text x="50" y="310" class="content">
+    这位演员在电影中客串演出。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cameo gem -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <circle cx="100" cy="100" r="45" fill="#D7BDE2" />
+    <circle cx="100" cy="100" r="40" fill="#A569BD" />
+    <circle cx="100" cy="100" r="35" fill="#8E44AD" />
+    <circle cx="100" cy="100" r="30" fill="#7D3C98" />
+    <circle cx="100" cy="100" r="25" fill="#6C3483" />
+    <circle cx="100" cy="100" r="20" fill="#5B2C6F" />
+    <circle cx="100" cy="100" r="15" fill="#4A235A" />
+    <circle cx="100" cy="100" r="10" fill="#3B174E" />
+    <circle cx="100" cy="100" r="5" fill="#2E1114" />
+    <!-- Star -->
+    <polygon points="150,50 170,90 210,90 180,120 190,160 150,130 110,160 120,120 90,90 130,90" fill="#F1C40F" />
+  </g>
+</svg>

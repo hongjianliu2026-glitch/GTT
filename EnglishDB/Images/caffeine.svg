@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">caffeine</text>
+  <text x="50" y="120" class="subtitle">[ˈkæfiːn] n. 咖啡因</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> caffein (源自阿拉伯语 qahwa，意为咖啡)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个疲惫的人，喝了一杯咖啡，"咖啡因(caffeine)"
+    <tspan x="50" dy="25">让他瞬间精神焕发，眼睛瞪得像铜铃一样大。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She drinks a cup of coffee every morning to get her caffeine fix.
+  </text>
+  <text x="50" y="310" class="content">
+    她每天早上喝一杯咖啡来补充咖啡因。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Coffee cup -->
+    <rect x="0" y="0" width="150" height="100" class="image" />
+    <circle cx="75" cy="110" r="20" class="image" />
+    <!-- Steam -->
+    <line x1="60" y1="0" x2="50" y2="20" class="image" />
+    <line x1="75" y1="0" x2="75" y2="20" class="image" />
+    <line x1="90" y1="0" x2="100" y2="20" class="image" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="20" class="image" />
+    <line x1="200" y1="120" x2="200" y2="160" class="image" />
+    <line x1="200" y1="160" x2="180" y2="200" class="image" />
+    <line x1="200" y1="160" x2="220" y2="200" class="image" />
+    <line x1="200" y1="140" x2="240" y2="130" class="image" />
+    <!-- Eyes -->
+    <circle cx="190" cy="90" r="5" class="image" />
+    <circle cx="210" cy="90" r="5" class="image" />
+  </g>
+</svg>

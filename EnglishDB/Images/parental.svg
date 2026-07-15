@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w33org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">parental</text>
+  <text x="50" y="120" class="subtitle">[pəˈrɛntl] adj. 父母的，双亲的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> parent (父母) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温馨的家庭场景，父母(parent)
+    <tspan x="50" dy="25">和孩子在一起，这种关系就是"父母的(parental)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The school requires parental consent for field trips.
+  </text>
+  <text x="50" y="310" class="content">
+    学校要求家长同意才能参加实地考察。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Roof -->
+    <polygon points="175,20 350,150 0,150" class="image" />
+    <!-- Door -->
+    <rect x="150" y="100" width="50" height="100" class="image" />
+    <!-- Windows -->
+    <rect x="50" y="50" width="50" height="50" class="image" />
+    <rect x="250" y="50" width="50" height="50" class="image" />
+    <!-- Family -->
+    <circle cx="100" cy="150" r="15" class="image" /> <!-- Father -->
+    <circle cx="250" cy="150" r="15" class="image" /> <!-- Mother -->
+    <circle cx="175" cy="180" r="10" class="image" /> <!-- Child -->
+    <!-- Arms -->
+    <line x1="100" y1="165" x2="70" y2="180" class="image" /> <!-- Father's left arm -->
+    <line x1="100" y1="165" x2="130" y2="180" class="image" /> <!-- Father's right arm -->
+    <line x1="250" y1="165" x2="220" y2="180" class="image" /> <!-- Mother's left arm -->
+    <line x1="250" y1="165" x2="280" y2="180" class="image" /> <!-- Mother's right arm -->
+  </g>
+</svg>

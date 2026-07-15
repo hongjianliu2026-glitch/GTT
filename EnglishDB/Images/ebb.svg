@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ebb</text>
+  <text x="50" y="120" class="subtitle">[eb] v. 退潮，衰退；n. 退潮，衰退</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> e- (向外) + bb (流动)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象海水"向外流动(e-bb)"，逐渐退去，形成退潮(ebb)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tide began to ebb after the sun set.
+  </text>
+  <text x="50" y="310" class="content">
+    太阳落山后，潮水开始退去。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sea -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Waves -->
+    <path d="M50,150 Q100,50 150,150 T250,150" class="image" />
+    <path d="M50,170 Q100,70 150,170 T250,170" class="image" />
+    <path d="M50,190 Q100,90 150,190 T250,190" class="image" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <!-- Shoreline -->
+    <line x1="0" y1="200" x2="350" y2="200" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">downtown</text>
+  <text x="50" y="120" class="subtitle">[ˈdaʊntaʊn] n. 市中心，商业区</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> down (向下) + town (城镇)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象你从山上走下来(down)，进入一个繁华的城镇(town)，
+    <tspan x="50" dy="25">那里高楼林立，车水马龙，这就是市中心(downtown)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We went downtown to shop for new clothes.
+  </text>
+  <text x="50" y="310" class="content">
+    我们去市中心买新衣服。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mountain -->
+    <path d="M0,100 L100,0 L200,100 Z" class="image" />
+    <!-- Town -->
+    <rect x="150" y="100" width="200" height="100" class="image" />
+    <!-- Buildings -->
+    <rect x="170" y="120" width="30" height="60" class="image" />
+    <rect x="220" y="110" width="30" height="70" class="image" />
+    <rect x="270" y="130" width="30" height="50" class="image" />
+    <!-- Road -->
+    <line x1="150" y1="200" x2="350" y2="200" class="image" />
+    <!-- Cars -->
+    <rect x="180" y="190" width="20" height="10" class="image" />
+    <rect x="250" y="190" width="20" height="10" class="image" />
+  </g>
+</svg>

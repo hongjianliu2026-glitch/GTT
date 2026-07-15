@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">affectionately</text>
+  <text x="50" y="120" class="subtitle">[əˈfekʃənətli] adv. 深情地，充满爱意地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> affect (感情) + -ion (名词后缀) + -ate (动词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人紧紧拥抱，"充满感情地(affectionately)"
+    <tspan x="50" dy="25">表达他们的爱意，这种深情让人难以忘怀。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She kissed him affectionately before leaving.
+  </text>
+  <text x="50" y="310" class="content">
+    她在离开前深情地吻了他。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Heart shape -->
+    <path d="M10 31.7C10 15.1 22.7 2.4 39.3 2.4S68.6 15.1 68.6 31.7C68.6 48.3 39.3 61 39.3 61S10 48.3 10 31.7Z" class="image" />
+    <!-- Arms -->
+    <line x1="39.3" y1="61" x2="20" y2="90" class="image" />
+    <line x1="39.3" y1="61" x2="58.6" y2="90" class="image" />
+    <!-- Faces -->
+    <circle cx="25" cy="100" r="10" class="image" />
+    <circle cx="53" cy="100" r="10" class="image" />
+  </g>
+</svg>

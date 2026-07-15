@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">register</text>
+  <text x="50" y="120" class="subtitle">[ˈrɛdʒɪstər] n. 登记，注册；v. 登记，注册</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + gister (带来)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个办事员在办公室里，"再次带来(re-gister)"
+    <tspan x="50" dy="25">一份文件，将其登记在册，这就是注册(register)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Please register your car at the local DMV.
+  </text>
+  <text x="50" y="310" class="content">
+    请在当地车管所登记你的车辆。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Desk -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Clerk -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="160" class="image" />
+    <line x1="50" y1="160" x2="30" y2="190" class="image" />
+    <line x1="50" y1="160" x2="70" y2="190" class="image" />
+    <line x1="50" y1="140" x2="80" y2="130" class="image" />
+    <!-- Register book -->
+    <rect x="100" y="50" width="150" height="100" class="image" />
+    <!-- Pen -->
+    <line x1="250" y1="100" x2="280" y2="100" class="image" />
+    <line x1="280" y1="100" x2="270" y2="90" class="image" />
+    <line x1="280" y1="100" x2="270" y2="110" class="image" />
+  </g>
+</svg>

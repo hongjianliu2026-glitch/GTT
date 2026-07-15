@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unpleasant</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈplɛznt] adj. 令人不愉快的，讨厌的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + pleasant (愉快的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个满脸不悦的人，"不(un-)"
+    <tspan x="50" dy="25">愿意面对任何"愉快的(pleasant)"事物，</tspan>
+    <tspan x="50" dy="25">这就是"令人不愉快的(unpleasant)"场景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The smell of the rotten food was unpleasant.
+  </text>
+  <text x="50" y="310" class="content">
+    腐烂食物的气味令人不愉快。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Unhappy face -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <circle cx="60" cy="80" r="10" class="image" />
+    <circle cx="140" cy="80" r="10" class="image" />
+    <path d="M60 140 Q100 180 140 140" class="image" />
+  </g>
+</svg>

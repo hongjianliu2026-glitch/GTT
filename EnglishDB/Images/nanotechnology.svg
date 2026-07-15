@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">nanotechnology</text>
+  <text x="50" y="120" class="subtitle">[ˌnænoʊˈtɛkˈnɒlədʒi] n. 纳米技术</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> nano- (纳米) + techno- (技术) + -logy (学科)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个科学家在显微镜下，"操控纳米(nano)"
+    <tspan x="50" dy="25">大小的粒子，这些粒子通过技术(techno)手段被精确控制，</tspan>
+    <tspan x="50" dy="25">形成了一个全新的学科(logy)，这就是纳米技术(nanotechnology)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="300" class="content">
+    <tspan class="highlight">例句:</tspan> Nanotechnology is revolutionizing the medical field.
+  </text>
+  <text x="50" y="330" class="content">
+    纳米技术正在革新医疗领域。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Microscope -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="20" y2="200" class="image" />
+    <line x1="50" y1="150" x2="80" y2="200" class="image" />
+    <!-- Nanoparticles -->
+    <circle cx="150" cy="100" r="5" class="image" />
+    <circle cx="170" cy="110" r="5" class="image" />
+    <circle cx="160" cy="120" r="5" class="image" />
+    <circle cx="180" cy="130" r="5" class="image" />
+    <circle cx="190" cy="140" r="5" class="image" />
+    <!-- Scientist -->
+    <circle cx="250" cy="100" r="15" class="image" />
+    <line x1="250" y1="115" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="230" y2="180" class="image" />
+    <line x1="250" y1="150" x2="270" y2="180" class="image" />
+    <line x1="250" y1="130" x2="280" y2="120" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blemish</text>
+  <text x="50" y="120" class="subtitle">[ˈblɛmɪʃ] n. 瑕疵，污点；v. 玷污，损伤</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blem (污点) + -ish (动词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块完美无瑕的玉石，突然被"污点(blem)"
+    <tspan x="50" dy="25">玷污，这个污点就成了瑕疵(blemish)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The painting was blemished by a drop of ink.
+  </text>
+  <text x="50" y="310" class="content">
+    这幅画被一滴墨水玷污了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Perfect gem -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Blemish -->
+    <circle cx="100" cy="100" r="10" class="image" fill="#000" />
+    <!-- Broken gem -->
+    <line x1="50" y1="100" x2="150" y2="100" class="image" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+  </g>
+</svg>

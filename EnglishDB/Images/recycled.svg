@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">recycled</text>
+  <text x="50" y="120" class="subtitle">[rɪˈsaɪkld] adj. 回收的，再生的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> re- (再次) + cycle (循环)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的回收工厂，"再次循环(re-cycle)"
+    <tspan x="50" dy="25">废弃的物品变成了新的资源，这就是回收(recycled)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The company uses recycled materials to make their products.
+  </text>
+  <text x="50" y="310" class="content">
+    这家公司使用回收材料来制造他们的产品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Recycling symbol -->
+    <path d="M 0 0 L 50 50 L 100 0 L 50 -50 Z" class="image" />
+    <path d="M 50 50 L 100 100 L 150 50 L 100 0 Z" class="image" />
+    <path d="M 100 100 L 150 150 L 200 100 L 150 50 Z" class="image" />
+    <!-- Factory -->
+    <rect x="250" y="0" width="150" height="100" class="image" />
+    <line x1="270" y1="20" x2="380" y2="20" class="image" />
+    <line x1="270" y1="40" x2="380" y2="40" class="image" />
+    <line x1="270" y1="60" x2="380" y2="60" class="image" />
+    <line x1="270" y1="80" x2="380" y2="80" class="image" />
+    <!-- Recycled materials -->
+    <rect x="270" y="120" width="30" height="30" class="image" />
+    <rect x="310" y="120" width="30" height="30" class="image" />
+    <rect x="350" y="120" width="30" height="30" class="image" />
+  </g>
+</svg>

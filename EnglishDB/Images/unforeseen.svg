@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unforeseen</text>
+  <text x="50" y="120" class="subtitle">[ˌʌnfɔːrˈsiːn] adj. 未预见到的，意外的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + fore- (前面) + seen (看见)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的问号突然出现在你面前，"未被提前看见(un-fore-seen)"，
+    <tspan x="50" dy="25">这就是意外(unforeseen)的情景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The unforeseen delay caused the project to fall behind schedule.
+  </text>
+  <text x="50" y="310" class="content">
+    意外的延迟导致项目进度落后。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large question mark -->
+    <path d="M 0 0 Q 50 100 100 0 T 200 0" class="image" />
+    <!-- Eye -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <!-- Eye lid -->
+    <line x1="80" y1="150" x2="120" y2="150" class="image" />
+    <!-- Eye lid -->
+    <line x1="90" y1="140" x2="110" y2="140" class="image" />
+    <!-- Eye lid -->
+    <line x1="100" y1="130" x2="100" y2="140" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sustainable</text>
+  <text x="50" y="120" class="subtitle">[səˈsteɪnəbl] adj. 可持续的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sus- (在下面) + tain (保持)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一棵大树，"在下面保持(sus-tain)"
+    <tspan x="50" dy="25">着土壤，使其能够持续生长，这就是可持续(sustainable)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We need to adopt sustainable practices to protect our environment.
+  </text>
+  <text x="50" y="310" class="content">
+    我们需要采用可持续的做法来保护我们的环境。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree -->
+    <line x1="100" y1="0" x2="100" y2="200" class="image" />
+    <line x1="80" y1="50" x2="120" y2="50" class="image" />
+    <line x1="70" y1="100" x2="130" y2="100" class="image" />
+    <line x1="60" y1="150" x2="140" y2="150" class="image" />
+    <line x1="50" y1="200" x2="150" y2="200" class="image" />
+    <!-- Soil -->
+    <rect x="0" y="200" width="300" height="100" class="image" />
+    <!-- Roots -->
+    <line x1="100" y1="200" x2="50" y2="300" class="image" />
+    <line x1="100" y1="200" x2="150" y2="300" class="image" />
+    <line x1="100" y1="200" x2="75" y2="300" class="image" />
+    <line x1="100" y1="200" x2="125" y2="300" class="image" />
+  </g>
+</svg>

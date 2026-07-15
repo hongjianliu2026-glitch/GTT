@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blue-chip</text>
+  <text x="50" y="120" class="subtitle">[ˈbluːtʃɪp] adj. 蓝筹股的，优质的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blue (蓝色) + chip (筹码)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象在赌场里，蓝色的筹码(blue-chip)
+    <tspan x="50" dy="25">通常代表最高价值，因此"蓝筹股"象征着</tspan>
+    <tspan x="50" dy="25">那些稳定且有高回报的公司。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He invested in blue-chip stocks for long-term stability.
+  </text>
+  <text x="50" y="310" class="content">
+    他投资于蓝筹股以获得长期稳定。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Casino table -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Blue chip -->
+    <circle cx="50" cy="100" r="30" fill="#1E90FF" />
+    <text x="40" y="105" font-size="24" fill="#FFFFFF">B</text>
+    <!-- Stack of chips -->
+    <rect x="100" y="70" width="50" height="30" fill="#FFD700" />
+    <rect x="105" y="40" width="40" height="30" fill="#FF6347" />
+    <rect x="110" y="10" width="30" height="30" fill="#32CD32" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">legislative</text>
+  <text x="50" y="120" class="subtitle">[ˈlɛdʒɪsˌleɪtɪv] adj. 立法的，有立法权的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> legis (法律) + -ative (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群立法者坐在会议室里，"制定法律(legis)"，
+    <tspan x="50" dy="25">他们的工作就是立法(legislative)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The legislative branch is responsible for making laws.
+  </text>
+  <text x="50" y="310" class="content">
+    立法机构负责制定法律。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Meeting room -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Table -->
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Law books -->
+    <rect x="70" y="40" width="40" height="60" class="image" />
+    <rect x="120" y="40" width="40" height="60" class="image" />
+    <rect x="170" y="40" width="40" height="60" class="image" />
+    <!-- Legislators -->
+    <circle cx="100" cy="120" r="15" class="image" />
+    <circle cx="150" cy="120" r="15" class="image" />
+    <circle cx="200" cy="120" r="15" class="image" />
+    <!-- Gavel -->
+    <rect x="250" y="80" width="30" height="80" class="image" />
+    <rect x="240" y="70" width="50" height="10" class="image" />
+  </g>
+</svg>

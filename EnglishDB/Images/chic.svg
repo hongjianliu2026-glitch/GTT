@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">chic</text>
+  <text x="50" y="120" class="subtitle">[ʃiːk] adj. 别致的，时髦的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自法语 "chic"，意为"风格"或"时尚"
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个时尚达人穿着一件别致的红色连衣裙，
+    <tspan x="50" dy="25">走在巴黎的街头，吸引了所有人的目光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She always dresses in a chic and stylish manner.
+  </text>
+  <text x="50" y="310" class="content">
+    她总是穿着别致且时尚。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Chic woman -->
+    <circle cx="50" cy="50" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="80" x2="50" y2="150" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="200" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="150" x2="80" y2="200" class="image" /> <!-- Right leg -->
+    <line x1="50" y1="100" x2="20" y2="120" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="100" x2="80" y2="120" class="image" /> <!-- Right arm -->
+    <!-- Red dress -->
+    <rect x="20" y="80" width="60" height="70" class="image" />
+    <!-- Paris street -->
+    <line x1="0" y1="220" x2="200" y2="220" class="image" />
+    <line x1="0" y1="225" x2="200" y2="225" class="image" />
+    <line x1="0" y1="230" x2="200" y2="230" class="image" />
+    <!-- Eiffel Tower -->
+    <polyline points="150,220 150,150 170,150 170,220" class="image" />
+    <polyline points="160,150 160,120 180,120 180,150" class="image" />
+  </g>
+</svg>

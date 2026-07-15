@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">breakup</text>
+  <text x="50" y="120" class="subtitle">[ˈbreɪkʌp] n. 分手，解散</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> break (打破) + up (向上)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一对情侣在争吵，"打破(break)"了彼此的关系，
+    <tspan x="50" dy="25">最终"向上(up)"分开，这就是分手(breakup)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Their breakup was very painful.
+  </text>
+  <text x="50" y="310" class="content">
+    他们的分手非常痛苦。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Broken heart -->
+    <path d="M50 50 L100 100 L50 150 L0 100 Z" class="image" />
+    <line x1="50" y1="50" x2="50" y2="150" class="image" />
+    <!-- Couple -->
+    <circle cx="150" cy="100" r="15" class="image" />
+    <line x1="150" y1="115" x2="150" y2="150" class="image" />
+    <line x1="150" y1="150" x2="130" y2="180" class="image" />
+    <line x1="150" y1="150" x2="170" y2="180" class="image" />
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <!-- Broken connection -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="175" y1="100" x2="175" y2="150" class="image" />
+  </g>
+</svg>

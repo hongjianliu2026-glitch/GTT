@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sweetener</text>
+  <text x="50" y="120" class="subtitle">[ˈswiːtnər] n. 甜味剂，增甜剂</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sweet (甜的) + -en (使) + -er (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一杯咖啡，原本苦涩，但加入"甜味剂(sweetener)"后，
+    <tspan x="50" dy="25">瞬间变得甜美可口，仿佛整个世界都变甜了。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added a sweetener to her tea to make it more palatable.
+  </text>
+  <text x="50" y="310" class="content">
+    她在茶里加了一点甜味剂，使它更可口。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Coffee cup -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Coffee liquid -->
+    <rect x="10" y="10" width="180" height="130" class="image" fill="#8B4513" />
+    <!-- Sweetener packet -->
+    <rect x="220" y="50" width="50" height="50" class="image" />
+    <text x="230" y="80" class="content" fill="#FFFFFF">Sweet</text>
+    <!-- Sugar cubes -->
+    <rect x="220" y="110" width="20" height="20" class="image" />
+    <rect x="250" y="110" width="20" height="20" class="image" />
+    <rect x="280" y="110" width="20" height="20" class="image" />
+  </g>
+</svg>

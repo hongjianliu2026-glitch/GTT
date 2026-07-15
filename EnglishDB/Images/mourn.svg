@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #6E2C00; }
+      .subtitle { font: italic 24px serif; fill: #7E5109; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #154360; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mourn</text>
+  <text x="50" y="120" class="subtitle">[mɔːrn] v. 哀悼，悲痛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mor (悲伤)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在墓碑前，"悲伤(mor)"
+    <tspan x="50" dy="25">地低头，泪水滑落，这就是哀悼(mourn)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She mourned the loss of her beloved pet.
+  </text>
+  <text x="50" y="310" class="content">
+    她为失去心爱的宠物而哀悼。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tombstone -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <line x1="75" y1="0" x2="75" y2="200" class="image" />
+    <!-- Person -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="250" y1="120" x2="250" y2="180" class="image" />
+    <line x1="250" y1="150" x2="220" y2="130" class="image" />
+    <line x1="250" y1="150" x2="280" y2="130" class="image" />
+    <line x1="250" y1="180" x2="220" y2="210" class="image" />
+    <line x1="250" y1="180" x2="280" y2="210" class="image" />
+    <!-- Tears -->
+    <circle cx="240" cy="90" r="5" class="image" />
+    <circle cx="260" cy="90" r="5" class="image" />
+  </g>
+</svg>

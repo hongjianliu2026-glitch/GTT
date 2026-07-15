@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Franciscan</text>
+  <text x="50" y="120" class="subtitle">[frænˈsɪskən] n. 方济各会修士</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Franc (法国) + -iscan (与...相关的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着棕色长袍的修士，"来自法国(Franc)"，
+    <tspan x="50" dy="25">他的形象让人联想到方济各会修士(Franciscan)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Franciscan monastery is known for its peaceful atmosphere.
+  </text>
+  <text x="50" y="310" class="content">
+    这个方济各会修道院以其宁静的氛围而闻名。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Monk's robe -->
+    <rect x="0" y="0" width="200" height="300" class="image" />
+    <!-- Monk's hood -->
+    <polygon points="100,0 50,50 150,50" class="image" />
+    <!-- Monk's face -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <!-- Monk's hands -->
+    <line x1="50" y1="200" x2="50" y2="250" class="image" />
+    <line x1="150" y1="200" x2="150" y2="250" class="image" />
+    <!-- Cross -->
+    <line x1="90" y1="300" x2="110" y2="300" class="image" />
+    <line x1="100" y1="290" x2="100" y2="310" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">stubborn</text>
+  <text x="50" y="120" class="subtitle">[ˈstʌbərn] adj. 顽固的，固执的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> stu- (站立) + born (生来)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头牛"生来站立(stu-born)"，
+    <tspan x="50" dy="25">无论你怎么推它，它都纹丝不动，</tspan>
+    <tspan x="50" dy="25">这就是顽固(stubborn)的牛。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He is as stubborn as a mule.
+  </text>
+  <text x="50" y="310" class="content">
+    他像骡子一样顽固。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ground -->
+    <rect x="0" y="180" width="350" height="20" class="image" />
+    <!-- Stubborn cow -->
+    <circle cx="100" cy="150" r="30" class="image" />
+    <line x1="100" y1="180" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="80" y2="220" class="image" />
+    <line x1="100" y1="200" x2="120" y2="220" class="image" />
+    <line x1="100" y1="190" x2="130" y2="180" class="image" />
+    <line x1="100" y1="190" x2="70" y2="180" class="image" />
+    <!-- Person pushing -->
+    <circle cx="250" cy="150" r="20" class="image" />
+    <line x1="250" y1="170" x2="250" y2="200" class="image" />
+    <line x1="250" y1="200" x2="230" y2="220" class="image" />
+    <line x1="250" y1="200" x2="270" y2="220" class="image" />
+    <line x1="250" y1="190" x2="280" y2="180" class="image" />
+    <line x1="250" y1="190" x2="220" y2="180" class="image" />
+    <line x1="250" y1="170" x2="120" y2="160" class="image" />
+  </g>
+</svg>

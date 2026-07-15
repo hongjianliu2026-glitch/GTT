@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">basement</text>
+  <text x="50" y="120" class="subtitle">[ˈbeɪsmənt] n. 地下室</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> base (基础) + ment (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一座房子，它的"基础(base)"部分被挖空，形成了一个"地下室(basement)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They stored old furniture in the basement.
+  </text>
+  <text x="50" y="310" class="content">
+    他们把旧家具存放在地下室。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- House -->
+    <rect x="0" y="0" width="300" height="200" class="image" />
+    <!-- Basement -->
+    <rect x="50" y="150" width="200" height="50" class="image" />
+    <!-- Door -->
+    <rect x="140" y="150" width="20" height="50" class="image" />
+    <!-- Window -->
+    <rect x="70" y="20" width="50" height="50" class="image" />
+    <rect x="180" y="20" width="50" height="50" class="image" />
+    <!-- Roof -->
+    <polygon points="0,0 150,100 300,0" class="image" />
+  </g>
+</svg>

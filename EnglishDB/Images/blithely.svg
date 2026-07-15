@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">blithely</text>
+  <text x="50" y="120" class="subtitle">[ˈblaɪðli] adv. 愉快地，无忧无虑地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blithe (愉快的) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在阳光下，"愉快地(blithe)"
+    <tspan x="50" dy="25">跳跃，脸上洋溢着无忧无虑的笑容。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She blithely skipped down the street, unaware of the storm approaching.
+  </text>
+  <text x="50" y="310" class="content">
+    她愉快地在街上跳跃，没有意识到暴风雨即将来临。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Person -->
+    <circle cx="200" cy="150" r="20" fill="#2ECC71" />
+    <line x1="200" y1="170" x2="200" y2="220" class="image" />
+    <line x1="200" y1="220" x2="180" y2="250" class="image" />
+    <line x1="200" y1="220" x2="220" y2="250" class="image" />
+    <line x1="200" y1="190" x2="170" y2="180" class="image" />
+    <line x1="200" y1="190" x2="230" y2="180" class="image" />
+    <!-- Ground -->
+    <rect x="0" y="260" width="400" height="40" fill="#7F8C8D" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cauldron</text>
+  <text x="50" y="120" class="subtitle">[ˈkɔːldrən] n. 大锅</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> caul (锅) + dron (容器)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的"锅(caul)"，里面装满了各种神奇的"容器(dron)"，
+    <tspan x="50" dy="25">就像巫师在熬制魔法药水一样，这个大锅(cauldron)充满了神秘和力量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The witch stirred her cauldron with a long wooden spoon.
+  </text>
+  <text x="50" y="310" class="content">
+    女巫用一根长木勺搅拌她的大锅。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cauldron -->
+    <ellipse cx="175" cy="100" rx="150" ry="80" class="image" />
+    <!-- Fire -->
+    <polygon points="50,180 300,180 175,300" class="image" fill="#F39C12" />
+    <!-- Smoke -->
+    <line x1="175" y1="100" x2="175" y2="50" class="image" />
+    <line x1="175" y1="50" x2="150" y2="20" class="image" />
+    <line x1="175" y1="50" x2="200" y2="20" class="image" />
+    <line x1="175" y1="50" x2="125" y2="20" class="image" />
+    <line x1="175" y1="50" x2="225" y2="20" class="image" />
+  </g>
+</svg>

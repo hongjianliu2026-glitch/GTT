@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">accessibility</text>
+  <text x="50" y="120" class="subtitle">[əkˌsesəˈbɪlɪti] n. 可访问性，无障碍</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> access (接近) + -ibility (可...性)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个轮椅使用者轻松地"接近(access)"
+    <tspan x="50" dy="25">并使用一个无障碍设施，这就是可访问性(accessibility)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The new building was designed with accessibility in mind.
+  </text>
+  <text x="50" y="310" class="content">
+    这座新建筑在设计时考虑到了无障碍性。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wheelchair -->
+    <rect x="50" y="20" width="100" height="50" class="image" />
+    <line x1="50" y1="45" x2="150" y2="45" class="image" />
+    <circle cx="70" cy="45" r="10" class="image" />
+    <circle cx="130" cy="45" r="10" class="image" />
+    <!-- Ramp -->
+    <line x1="50" y1="70" x2="150" y2="120" class="image" />
+    <line x1="50" y1="70" x2="50" y2="120" class="image" />
+    <line x1="150" y1="70" x2="150" y2="120" class="image" />
+    <!-- Person in wheelchair -->
+    <circle cx="100" cy="30" r="15" class="image" />
+    <line x1="100" y1="45" x2="100" y2="60" class="image" />
+  </g>
+</svg>

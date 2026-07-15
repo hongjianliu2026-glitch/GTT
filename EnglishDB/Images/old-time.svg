@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #641E16; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">old-time</text>
+  <text x="50" y="120" class="subtitle">[ˈoʊldtaɪm] adj. 旧时的，古老的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> old (老的) + time (时间)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的村庄，"老时间(old-time)"
+    <tspan x="50" dy="25">里的人们穿着传统服饰，过着简单的生活。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old-time village was full of charm.
+  </text>
+  <text x="50" y="310" class="content">
+    那个古老的村庄充满了魅力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Village -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Houses -->
+    <rect x="50" y="20" width="50" height="80" class="image" />
+    <rect x="120" y="20" width="50" height="80" class="image" />
+    <rect x="190" y="20" width="50" height="80" class="image" />
+    <!-- People -->
+    <circle cx="70" cy="120" r="10" class="image" />
+    <line x1="70" y1="130" x2="70" y2="150" class="image" />
+    <line x1="70" y1="150" x2="60" y2="170" class="image" />
+    <line x1="70" y1="150" x2="80" y2="170" class="image" />
+    <line x1="70" y1="140" x2="90" y2="130" class="image" />
+    <circle cx="140" cy="120" r="10" class="image" />
+    <line x1="140" y1="130" x2="140" y2="150" class="image" />
+    <line x1="140" y1="150" x2="130" y2="170" class="image" />
+    <line x1="140" y1="150" x2="150" y2="170" class="image" />
+    <line x1="140" y1="140" x2="160" y2="130" class="image" />
+  </g>
+</svg>

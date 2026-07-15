@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F4ECF7; }
+      .title { font: bold 48px sans-serif; fill: #8E44AD; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .purple { fill: #8E44AD; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">purple</text>
+  <text x="50" y="120" class="subtitle">[ˈpɜːrpl] adj. 紫色的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pur (纯净) + ple (充满)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个纯净的(pur)世界，被紫色的(ple)
+    <tspan x="50" dy="25">花朵和天空充满，这就是紫色(purple)的美丽。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a beautiful purple dress to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她穿着一件漂亮的紫色连衣裙去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Purple flower -->
+    <circle cx="50" cy="50" r="30" class="purple" />
+    <circle cx="70" cy="70" r="20" class="purple" />
+    <circle cx="30" cy="70" r="20" class="purple" />
+    <circle cx="50" cy="90" r="20" class="purple" />
+    <!-- Purple sky -->
+    <rect x="100" y="0" width="200" height="100" class="purple" />
+    <!-- Sun -->
+    <circle cx="250" cy="50" r="20" class="purple" />
+  </g>
+</svg>

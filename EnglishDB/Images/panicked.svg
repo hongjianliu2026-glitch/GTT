@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">panicked</text>
+  <text x="50" y="120" class="subtitle">[ˈpænɪkt] adj. 恐慌的，惊慌的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> pan- (全部) + icked (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人突然"全部(pan-)"陷入恐慌，
+    <tspan x="50" dy="25">心跳加速，脸色苍白，这就是"恐慌的(panicked)"状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The crowd panicked when the fire alarm went off.
+  </text>
+  <text x="50" y="310" class="content">
+    火警响起时，人群陷入了恐慌。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person in panic -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="140" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="150" x2="80" y2="140" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="180" x2="20" y2="220" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="180" x2="80" y2="220" class="image" /> <!-- Right leg -->
+    <!-- Heartbeat -->
+    <line x1="50" y1="80" x2="50" y2="70" class="image" />
+    <line x1="50" y1="70" x2="50" y2="80" class="image" />
+    <line x1="50" y1="60" x2="50" y2="50" class="image" />
+    <line x1="50" y1="50" x2="50" y2="60" class="image" />
+    <!-- Pale face -->
+    <circle cx="50" cy="100" r="28" fill="#FAD7A0" />
+  </g>
+</svg>

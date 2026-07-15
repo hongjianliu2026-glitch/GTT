@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9E79F; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .leaf { fill: #27AE60; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">alfalfa</text>
+  <text x="50" y="120" class="subtitle">[ælˈfælfə] n. 苜蓿</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> al- (植物) + fal (生长) + fa (快速)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片苜蓿田，"植物快速生长(al-fal-fa)"，
+    <tspan x="50" dy="25">绿油油的叶子在阳光下闪闪发光，这就是苜蓿(alfalfa)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cows love to eat alfalfa in the field.
+  </text>
+  <text x="50" y="310" class="content">
+    奶牛们喜欢在田里吃苜蓿。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Field -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Alfalfa leaves -->
+    <path d="M50,20 Q70,10 90,20 T130,20" class="leaf" />
+    <path d="M50,50 Q70,40 90,50 T130,50" class="leaf" />
+    <path d="M50,80 Q70,70 90,80 T130,80" class="leaf" />
+    <path d="M50,110 Q70,100 90,110 T130,110" class="leaf" />
+    <path d="M50,140 Q70,130 90,140 T130,140" class="leaf" />
+    <path d="M50,170 Q70,160 90,170 T130,170" class="leaf" />
+    <!-- Sun -->
+    <circle cx="300" cy="50" r="30" class="image" />
+    <line x1="300" y1="20" x2="300" y2="80" class="image" />
+    <line x1="270" y1="50" x2="330" y2="50" class="image" />
+    <line x1="285" y1="35" x2="315" y2="65" class="image" />
+    <line x1="285" y1="65" x2="315" y2="35" class="image" />
+  </g>
+</svg>

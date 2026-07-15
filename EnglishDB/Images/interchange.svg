@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interchange</text>
+  <text x="50" y="120" class="subtitle">[ˌɪntərˈtʃeɪndʒ] v. 交换，互换；n. 交换，互通</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + change (改变)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人站在一个十字路口，互相"在中间改变(inter-change)"
+    <tspan x="50" dy="25">位置，交换手中的物品，这就是互换(interchange)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> They decided to interchange their roles for the next project.
+  </text>
+  <text x="50" y="310" class="content">
+    他们决定在下个项目中互换角色。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Road -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Crossroad -->
+    <line x1="175" y1="0" x2="175" y2="200" class="image" />
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <!-- Person 1 -->
+    <circle cx="125" cy="100" r="15" class="image" />
+    <line x1="125" y1="115" x2="125" y2="150" class="image" />
+    <line x1="125" y1="150" x2="105" y2="180" class="image" />
+    <line x1="125" y1="150" x2="145" y2="180" class="image" />
+    <line x1="125" y1="130" x2="155" y2="120" class="image" />
+    <!-- Person 2 -->
+    <circle cx="225" cy="100" r="15" class="image" />
+    <line x1="225" y1="115" x2="225" y2="150" class="image" />
+    <line x1="225" y1="150" x2="205" y2="180" class="image" />
+    <line x1="225" y1="150" x2="245" y2="180" class="image" />
+    <line x1="225" y1="130" x2="255" y2="120" class="image" />
+    <!-- Exchanging items -->
+    <line x1="140" y1="100" x2="210" y2="100" class="image" />
+    <circle cx="140" cy="100" r="5" class="image" />
+    <circle cx="210" cy="100" r="5" class="image" />
+  </g>
+</svg>

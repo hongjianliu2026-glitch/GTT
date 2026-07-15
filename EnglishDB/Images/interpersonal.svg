@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">interpersonal</text>
+  <text x="50" y="120" class="subtitle">[ˌɪntərˈpɜːrsənl] adj. 人际的，人与人之间的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> inter- (在...之间) + person (人) + -al (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人在对话，"在人之间(inter-person)"
+    <tspan x="50" dy="25">进行交流，这就是人际关系(interpersonal)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Good interpersonal skills are essential in any job.
+  </text>
+  <text x="50" y="310" class="content">
+    良好的人际交往能力在任何工作中都是必不可少的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two people talking -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="150" cy="100" r="20" class="image" />
+    <line x1="70" y1="100" x2="130" y2="100" class="image" />
+    <!-- Speech bubbles -->
+    <path d="M50,130 Q30,150 50,170 Q70,150 50,130" class="image" />
+    <path d="M150,130 Q130,150 150,170 Q170,150 150,130" class="image" />
+  </g>
+</svg>

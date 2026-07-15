@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">detainee</text>
+  <text x="50" y="120" class="subtitle">[ˌdiːteɪˈniː] n. 被拘留者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + tain (握住) + ee (表示人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个被"向下握住(de-tain)"的人，
+    <tspan x="50" dy="25">他被限制了自由，成为了被拘留者(detainee)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The detainee was held without charge for several months.
+  </text>
+  <text x="50" y="310" class="content">
+    这名被拘留者在没有指控的情况下被关押了数月。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cage -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="20" x2="300" y2="20" class="image" />
+    <line x1="50" y1="60" x2="300" y2="60" class="image" />
+    <line x1="50" y1="100" x2="300" y2="100" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <line x1="50" y1="180" x2="300" y2="180" class="image" />
+    <!-- Detainee -->
+    <circle cx="175" cy="100" r="20" class="image" />
+    <line x1="175" y1="120" x2="175" y2="160" class="image" />
+    <line x1="175" y1="160" x2="155" y2="190" class="image" />
+    <line x1="175" y1="160" x2="195" y2="190" class="image" />
+    <line x1="175" y1="140" x2="205" y2="130" class="image" />
+  </g>
+</svg>

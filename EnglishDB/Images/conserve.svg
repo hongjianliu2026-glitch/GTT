@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">conserve</text>
+  <text x="50" y="120" class="subtitle">[kənˈsɜːrv] v. 保存，保护</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> con- (共同) + serv (保持)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人手拉手，"共同保持(con-serv)"
+    <tspan x="50" dy="25">一片森林，不让它被砍伐。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We must conserve our natural resources for future generations.
+  </text>
+  <text x="50" y="310" class="content">
+    我们必须为后代保护自然资源。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Forest -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <line x1="50" y1="180" x2="50" y2="100" class="image" />
+    <line x1="100" y1="180" x2="100" y2="120" class="image" />
+    <line x1="150" y1="180" x2="150" y2="140" class="image" />
+    <line x1="200" y1="180" x2="200" y2="160" class="image" />
+    <line x1="250" y1="180" x2="250" y2="180" class="image" />
+    <!-- People holding hands -->
+    <circle cx="75" cy="190" r="10" class="image" />
+    <circle cx="125" cy="190" r="10" class="image" />
+    <circle cx="175" cy="190" r="10" class="image" />
+    <circle cx="225" cy="190" r="10" class="image" />
+    <circle cx="275" cy="190" r="10" class="image" />
+    <line x1="75" y1="190" x2="125" y2="190" class="image" />
+    <line x1="125" y1="190" x2="175" y2="190" class="image" />
+    <line x1="175" y1="190" x2="225" y2="190" class="image" />
+    <line x1="225" y1="190" x2="275" y2="190" class="image" />
+  </g>
+</svg>

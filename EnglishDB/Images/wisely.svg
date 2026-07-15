@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wisely</text>
+  <text x="50" y="120" class="subtitle">[ˈwaɪzli] adv. 明智地，聪明地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wise (智慧) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个智者(wise)手持一盏明灯，照亮前方的道路，
+    <tspan x="50" dy="25">他每一步都走得"明智地(wisely)"，避开陷阱，走向成功。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She invested her money wisely and now enjoys a comfortable life.
+  </text>
+  <text x="50" y="310" class="content">
+    她明智地投资了她的钱，现在过着舒适的生活。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Wise man -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="150" x2="80" y2="140" class="image" />
+    <!-- Light -->
+    <circle cx="120" cy="80" r="10" class="image" />
+    <line x1="120" y1="90" x2="120" y2="120" class="image" />
+    <line x1="120" y1="120" x2="100" y2="150" class="image" />
+    <line x1="120" y1="120" x2="140" y2="150" class="image" />
+    <line x1="120" y1="120" x2="120" y2="150" class="image" />
+    <!-- Path -->
+    <path d="M50 200 Q120 250 190 200" class="image" />
+  </g>
+</svg>

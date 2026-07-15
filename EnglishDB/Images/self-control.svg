@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">self-control</text>
+  <text x="50" y="120" class="subtitle">[ˌself kənˈtroʊl] n. 自我控制，自制力</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> self- (自己) + control (控制)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的巧克力蛋糕前，"自己控制(self-control)"
+    <tspan x="50" dy="25">住自己不去吃，这种能力就是自我控制(self-control)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She showed great self-control by not eating the cake.
+  </text>
+  <text x="50" y="310" class="content">
+    她表现出了极大的自制力，没有吃那块蛋糕。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Person -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="120" x2="50" y2="180" class="image" />
+    <line x1="50" y1="180" x2="30" y2="220" class="image" />
+    <line x1="50" y1="180" x2="70" y2="220" class="image" />
+    <line x1="50" y1="140" x2="30" y2="160" class="image" />
+    <line x1="50" y1="140" x2="70" y2="160" class="image" />
+
+    <!-- Cake -->
+    <rect x="100" y="80" width="150" height="100" class="image" />
+    <line x1="120" y1="80" x2="120" y2="180" class="image" />
+    <line x1="140" y1="80" x2="140" y2="180" class="image" />
+    <line x1="160" y1="80" x2="160" y2="180" class="image" />
+    <line x1="180" y1="80" x2="180" y2="180" class="image" />
+    <line x1="200" y1="80" x2="200" y2="180" class="image" />
+    <line x1="220" y1="80" x2="220" y2="180" class="image" />
+
+    <!-- Thought bubble -->
+    <path d="M 50 80 Q 100 50 150 80 Q 100 100 50 80" class="image" />
+    <text x="70" y="75" class="content" text-anchor="middle">忍住！</text>
+  </g>
+</svg>

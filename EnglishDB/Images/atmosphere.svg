@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">atmosphere</text>
+  <text x="50" y="120" class="subtitle">[ˈætməˌsfɪr] n. 大气，气氛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> atmo- (蒸汽) + sphere (球体)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的蒸汽球体(atmo-sphere)笼罩着地球，
+    <tspan x="50" dy="25">这个球体就是我们的"大气层(atmosphere)"，它不仅保护我们，</tspan>
+    <tspan x="50" dy="25">还营造出各种不同的"气氛(atmosphere)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The atmosphere at the concert was electrifying.
+  </text>
+  <text x="50" y="310" class="content">
+    音乐会的气氛非常激动人心。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Earth -->
+    <circle cx="100" cy="100" r="80" class="image" />
+    <!-- Atmosphere -->
+    <circle cx="100" cy="100" r="120" class="image" stroke-dasharray="5,5" />
+    <!-- Clouds -->
+    <ellipse cx="50" cy="50" rx="40" ry="20" class="image" />
+    <ellipse cx="150" cy="70" rx="30" ry="15" class="image" />
+    <ellipse cx="100" cy="120" rx="50" ry="25" class="image" />
+  </g>
+</svg>

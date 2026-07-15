@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pail</text>
+  <text x="50" y="120" class="subtitle">[peɪl] n. 桶，提桶</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "pail"，意为容器
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的桶(pail)，里面装满了各种颜色的液体，
+    <tspan x="50" dy="25">桶的把手像两条长长的手臂，正准备把液体倒出来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She filled the pail with water and carried it to the garden.
+  </text>
+  <text x="50" y="310" class="content">
+    她把桶装满水，提到花园里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Pail body -->
+    <rect x="50" y="50" width="200" height="150" class="image" />
+    <!-- Pail handle -->
+    <line x1="250" y1="100" x2="300" y2="100" class="image" />
+    <line x1="300" y1="100" x2="300" y2="150" class="image" />
+    <!-- Liquid inside -->
+    <rect x="60" y="60" width="180" height="130" fill="#85C1E9" />
+    <!-- Liquid splash -->
+    <circle cx="240" cy="40" r="20" fill="#85C1E9" />
+    <circle cx="260" cy="30" r="15" fill="#85C1E9" />
+    <circle cx="280" cy="20" r="10" fill="#85C1E9" />
+  </g>
+</svg>

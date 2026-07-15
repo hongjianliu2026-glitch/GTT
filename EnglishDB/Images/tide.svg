@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tide</text>
+  <text x="50" y="120" class="subtitle">[taɪd] n. 潮汐，潮流；v. 随潮水漂流</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tide (源自古英语，意为“时间”或“时期”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的海洋，"潮汐(tide)"
+    <tspan x="50" dy="25">随着时间的推移不断涨落，</tspan>
+    <tspan x="50" dy="25">就像大自然的时间表一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We must leave before the tide comes in.
+  </text>
+  <text x="50" y="310" class="content">
+    我们必须在大潮到来之前离开。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ocean -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#3498DB" />
+    <!-- Waves -->
+    <path d="M50 50 Q100 20 150 50 T250 50 T300 20 T350 50" class="image" fill="none" stroke="#2980B9" stroke-width="3" />
+    <path d="M50 80 Q100 50 150 80 T250 80 T300 50 T350 80" class="image" fill="none" stroke="#2980B9" stroke-width="3" />
+    <path d="M50 110 Q100 80 150 110 T250 110 T300 80 T350 110" class="image" fill="none" stroke="#2980B9" stroke-width="3" />
+    <!-- Sun -->
+    <circle cx="300" cy="30" r="20" class="image" fill="#F1C40F" />
+  </g>
+</svg>

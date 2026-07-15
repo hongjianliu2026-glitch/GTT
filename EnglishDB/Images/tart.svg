@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF9E6; }
+      .title { font: bold 48px sans-serif; fill: #FFA500; }
+      .subtitle { font: italic 24px serif; fill: #8B4513; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tart</text>
+  <text x="50" y="120" class="subtitle">[tɑːrt] n. 果馅饼；adj. 辛辣的，尖酸的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tart (来自古法语tarte，意为“馅饼”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的果馅饼(tart)，上面堆满了各种水果，
+    <tspan x="50" dy="25">每一口都充满了甜蜜和酸爽的味道，让人难以忘怀。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She made a delicious apple tart for dessert.
+  </text>
+  <text x="50" y="310" class="content">
+    她为甜点做了一个美味的苹果馅饼。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tart -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Pie crust -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Fruits -->
+    <circle cx="120" cy="60" r="20" class="image" fill="#FF6347" />
+    <circle cx="230" cy="60" r="20" class="image" fill="#FFD700" />
+    <circle cx="175" cy="140" r="20" class="image" fill="#8B4513" />
+    <!-- Slice of tart -->
+    <line x1="175" y1="100" x2="0" y2="100" class="image" />
+  </g>
+</svg>

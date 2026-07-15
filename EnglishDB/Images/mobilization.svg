@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mobilization</text>
+  <text x="50" y="120" class="subtitle">[ˌmoʊbəlaɪˈzeɪʃn] n. 动员，调动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mob (移动) + il (能够) + iz (使) + ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个指挥官站在高台上，"使(iz)"
+    <tspan x="50" dy="25">军队"能够(il)"迅速"移动(mob)"，</tspan>
+    <tspan x="50" dy="25">这就是动员(mobilization)的场景。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The government announced the mobilization of troops.
+  </text>
+  <text x="50" y="310" class="content">
+    政府宣布了军队的动员。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Commander -->
+    <circle cx="20" cy="100" r="15" class="image" />
+    <line x1="20" y1="115" x2="20" y2="150" class="image" />
+    <line x1="20" y1="150" x2="0" y2="180" class="image" />
+    <line x1="20" y1="150" x2="40" y2="180" class="image" />
+    <line x1="20" y1="130" x2="50" y2="120" class="image" />
+    <!-- Platform -->
+    <rect x="0" y="150" width="100" height="50" class="image" />
+    <!-- Troops -->
+    <line x1="120" y1="100" x2="150" y2="100" class="image" />
+    <line x1="120" y1="130" x2="150" y2="130" class="image" />
+    <line x1="120" y1="160" x2="150" y2="160" class="image" />
+    <line x1="120" y1="190" x2="150" y2="190" class="image" />
+    <!-- Movement arrows -->
+    <polygon points="160,100 180,90 180,110" class="image" />
+    <polygon points="160,130 180,120 180,140" class="image" />
+    <polygon points="160,160 180,150 180,170" class="image" />
+    <polygon points="160,190 180,180 180,200" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B7D7D; }
+      .content { font: 18px sans-serif; fill: #566573; }
+      .highlight { font-weight: bold; fill: #A93226; }
+      .story { font: 16px serif; fill: #85929E; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">aged</text>
+  <text x="50" y="120" class="subtitle">[eɪdʒd] adj. 年老的，陈年的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> age (年龄) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个满脸皱纹的老人，"岁月(age)"
+    <tspan x="50" dy="25">在他脸上留下了深深的痕迹，他就是年老的(aged)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The aged man sat quietly in the park, reflecting on his life.
+  </text>
+  <text x="50" y="310" class="content">
+    那位年老的老人静静地坐在公园里，回忆着自己的一生。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Old man -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <line x1="50" y1="80" x2="50" y2="150" class="image" />
+    <line x1="50" y1="150" x2="30" y2="180" class="image" />
+    <line x1="50" y1="150" x2="70" y2="180" class="image" />
+    <line x1="50" y1="120" x2="80" y2="110" class="image" />
+    <line x1="50" y1="120" x2="20" y2="110" class="image" />
+    <!-- Wrinkles -->
+    <line x1="30" y1="40" x2="70" y2="40" class="image" />
+    <line x1="30" y1="60" x2="70" y2="60" class="image" />
+    <line x1="30" y1="80" x2="70" y2="80" class="image" />
+  </g>
+</svg>

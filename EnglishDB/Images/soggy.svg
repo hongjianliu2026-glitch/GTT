@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .water { fill: #3498DB; }
+      .soaked { fill: #F39C12; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">soggy</text>
+  <text x="50" y="120" class="subtitle">[ˈsɒɡi] adj. 湿透的，浸水的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sog (浸泡) + -gy (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在雨中行走，全身"浸泡(sog)"在水中，
+    <tspan x="50" dy="25">衣服和头发都湿透了，变成了"湿透的(soggy)"状态。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> After walking in the rain, his clothes were soggy.
+  </text>
+  <text x="50" y="310" class="content">
+    在雨中行走后，他的衣服都湿透了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Water -->
+    <rect x="0" y="0" width="350" height="200" class="water" />
+    <!-- Person -->
+    <circle cx="100" cy="100" r="20" class="soaked" />
+    <line x1="100" y1="120" x2="100" y2="180" class="soaked" />
+    <line x1="100" y1="180" x2="80" y2="220" class="soaked" />
+    <line x1="100" y1="180" x2="120" y2="220" class="soaked" />
+    <line x1="100" y1="140" x2="60" y2="130" class="soaked" />
+    <line x1="100" y1="140" x2="140" y2="130" class="soaked" />
+    <!-- Raindrops -->
+    <circle cx="50" cy="50" r="5" class="water" />
+    <circle cx="70" cy="60" r="5" class="water" />
+    <circle cx="90" cy="70" r="5" class="water" />
+    <circle cx="110" cy="80" r="5" class="water" />
+    <circle cx="130" cy="90" r="5" class="water" />
+  </g>
+</svg>

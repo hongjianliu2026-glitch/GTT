@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unwrapped</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈræpt] v. 解开，拆开</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (否定) + wrap (包裹)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个孩子迫不及待地"解开(un-wrap)"
+    <tspan x="50" dy="25">一个礼物，露出里面的惊喜。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She unwrapped the present and found a new book inside.
+  </text>
+  <text x="50" y="310" class="content">
+    她拆开礼物，发现里面是一本新书。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Wrapped gift -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <line x1="20" y1="20" x2="180" y2="20" class="image" />
+    <line x1="20" y1="50" x2="180" y2="50" class="image" />
+    <line x1="20" y1="80" x2="180" y2="80" class="image" />
+    <line x1="20" y1="110" x2="180" y2="110" class="image" />
+    <line x1="20" y1="140" x2="180" y2="140" class="image" />
+
+    <!-- Unwrapped gift -->
+    <rect x="250" y="0" width="200" height="150" class="image" />
+    <line x1="270" y1="20" x2="430" y2="20" class="image" />
+    <line x1="270" y1="50" x2="430" y2="50" class="image" />
+    <line x1="270" y1="80" x2="430" y2="80" class="image" />
+    <line x1="270" y1="110" x2="430" y2="110" class="image" />
+    <line x1="270" y1="140" x2="430" y2="140" class="image" />
+    <rect x="280" y="30" width="160" height="90" class="image" />
+
+    <!-- Child -->
+    <circle cx="200" cy="100" r="15" class="image" />
+    <line x1="200" y1="115" x2="200" y2="150" class="image" />
+    <line x1="200" y1="150" x2="180" y2="180" class="image" />
+    <line x1="200" y1="150" x2="220" y2="180" class="image" />
+    <line x1="200" y1="130" x2="230" y2="120" class="image" />
+  </g>
+</svg>

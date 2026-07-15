@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">foodstuff</text>
+  <text x="50" y="120" class="subtitle">[ˈfuːdstʌf] n. 食品，食物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> food (食物) + stuff (材料)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的超市，里面堆满了各种"食物材料(food-stuff)"，
+    <tspan x="50" dy="25">从新鲜的蔬菜到美味的甜点，应有尽有。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The supermarket sells a wide variety of foodstuffs.
+  </text>
+  <text x="50" y="310" class="content">
+    这家超市出售各种各样的食品。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Supermarket shelves -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Food items -->
+    <circle cx="70" cy="50" r="10" class="image" /> <!-- Apple -->
+    <rect x="90" y="45" width="20" height="20" class="image" /> <!-- Bread -->
+    <circle cx="120" cy="50" r="10" class="image" /> <!-- Orange -->
+    <rect x="140" y="45" width="20" height="20" class="image" /> <!-- Cake -->
+    <circle cx="170" cy="50" r="10" class="image" /> <!-- Carrot -->
+    <rect x="190" y="45" width="20" height="20" class="image" /> <!-- Cheese -->
+    <circle cx="220" cy="50" r="10" class="image" /> <!-- Tomato -->
+    <rect x="240" y="45" width="20" height="20" class="image" /> <!-- Milk -->
+  </g>
+</svg>

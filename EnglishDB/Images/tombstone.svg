@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E7E7; }
+      .title { font: bold 48px sans-serif; fill: #8B4513; }
+      .subtitle { font: italic 24px serif; fill: #654321; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #A52A2A; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tombstone</text>
+  <text x="50" y="120" class="subtitle">[ˈtuːmstoʊn] n. 墓碑</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tomb (坟墓) + stone (石头)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的石头(stone)，上面刻着名字和日期，
+    <tspan x="50" dy="25">它静静地立在坟墓(tomb)前，守护着逝者的记忆。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The tombstone was engraved with the names of the deceased.
+  </text>
+  <text x="50" y="310" class="content">
+    墓碑上刻着逝者的名字。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Tombstone -->
+    <rect x="0" y="0" width="200" height="100" class="image" />
+    <!-- Inscription -->
+    <text x="20" y="50" class="content">Here lies...</text>
+    <!-- Tomb -->
+    <rect x="80" y="110" width="40" height="20" class="image" />
+  </g>
+</svg>

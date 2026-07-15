@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">desirability</text>
+  <text x="50" y="120" class="subtitle">[ˌdɛzərəˈbɪlɪti] n. 可取性，合意性</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (强调) + sir (渴望) + -ability (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一堆宝藏前，"强烈渴望(de-sir)"
+    <tspan x="50" dy="25">得到这些宝藏，这种渴望的程度就是可取性(desirability)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The desirability of the new smartphone is evident from its high sales.
+  </text>
+  <text x="50" y="310" class="content">
+    这款新智能手机的高销量显而易见地证明了它的可取性。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Treasure chest -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <line x1="20" y1="20" x2="180" y2="20" class="image" />
+    <line x1="20" y1="50" x2="180" y2="50" class="image" />
+    <line x1="20" y1="80" x2="180" y2="80" class="image" />
+    <line x1="20" y1="110" x2="180" y2="110" class="image" />
+    <!-- Person -->
+    <circle cx="250" cy="75" r="20" class="image" />
+    <line x1="250" y1="95" x2="250" y2="130" class="image" />
+    <line x1="250" y1="130" x2="230" y2="160" class="image" />
+    <line x1="250" y1="130" x2="270" y2="160" class="image" />
+    <line x1="250" y1="110" x2="280" y2="100" class="image" />
+    <!-- Heart -->
+    <path d="M250,180 C240,160 260,160 250,180 Z" class="image" />
+    <path d="M250,180 C260,200 240,200 250,180 Z" class="image" />
+  </g>
+</svg>

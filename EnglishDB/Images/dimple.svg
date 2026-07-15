@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dimple</text>
+  <text x="50" y="120" class="subtitle">[ˈdɪmpl] n. 酒窝，笑靥</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dim (小) + ple (折叠)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个微笑的女孩，脸上"小折叠(dim-ple)"
+    <tspan x="50" dy="25">形成了可爱的酒窝(dimple)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her dimples appeared when she smiled.
+  </text>
+  <text x="50" y="310" class="content">
+    她微笑时，酒窝出现了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Face -->
+    <circle cx="150" cy="150" r="100" class="image" />
+    <!-- Eyes -->
+    <circle cx="110" cy="130" r="15" class="image" />
+    <circle cx="190" cy="130" r="15" class="image" />
+    <!-- Smile -->
+    <path d="M110,180 Q150,220 190,180" class="image" />
+    <!-- Dimples -->
+    <circle cx="90" cy="170" r="10" class="image" />
+    <circle cx="210" cy="170" r="10" class="image" />
+  </g>
+</svg>

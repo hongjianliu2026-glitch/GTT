@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">early</text>
+  <text x="50" y="120" class="subtitle">[ˈɜːrli] adj. 早期的，早的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ear- (早期) + -ly (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个太阳刚刚升起，"早期(ear-)"的晨光洒在大地上，
+    <tspan x="50" dy="25">一切都显得那么清新和早(early)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She likes to get up early in the morning.
+  </text>
+  <text x="50" y="310" class="content">
+    她喜欢在早上早起。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Rays -->
+    <line x1="100" y1="50" x2="100" y2="0" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="50" y1="100" x2="0" y2="100" class="image" />
+    <!-- Ground -->
+    <rect x="0" y="150" width="200" height="50" class="image" fill="#2ECC71" />
+    <!-- Early morning -->
+    <text x="100" y="220" class="content" text-anchor="middle">Early Morning</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hairstyle</text>
+  <text x="50" y="120" class="subtitle">[ˈherˌstaɪl] n. 发型</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hair (头发) + style (风格)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一位发型师在为顾客设计发型，"头发(hair)"
+    <tspan x="50" dy="25">经过精心"风格化(style)"，就变成了独特的发型(hairstyle)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She changed her hairstyle to look more modern.
+  </text>
+  <text x="50" y="310" class="content">
+    她改变了发型，看起来更现代。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hair -->
+    <path d="M50 50 Q100 20 150 50 T250 50" class="image" />
+    <path d="M50 70 Q100 40 150 70 T250 70" class="image" />
+    <path d="M50 90 Q100 60 150 90 T250 90" class="image" />
+    <!-- Stylist -->
+    <circle cx="150" cy="150" r="20" class="image" />
+    <line x1="150" y1="170" x2="150" y2="220" class="image" />
+    <line x1="150" y1="220" x2="130" y2="250" class="image" />
+    <line x1="150" y1="220" x2="170" y2="250" class="image" />
+    <line x1="150" y1="190" x2="120" y2="180" class="image" />
+    <line x1="150" y1="190" x2="180" y2="180" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">casket</text>
+  <text x="50" y="120" class="subtitle">[ˈkæskɪt] n. 小箱子，骨灰盒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cas (case, 箱子) + ket (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小巧的箱子(cas-ket)，里面装满了珍贵的回忆，
+    <tspan x="50" dy="25">就像一个精致的骨灰盒，承载着逝者的记忆。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She placed her grandmother's ashes in a beautiful casket.
+  </text>
+  <text x="50" y="310" class="content">
+    她把祖母的骨灰放在了一个漂亮的骨灰盒里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Casket -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Lid -->
+    <rect x="10" y="10" width="180" height="50" class="image" />
+    <!-- Handle -->
+    <line x1="80" y1="60" x2="120" y2="60" class="image" />
+    <!-- Ornament -->
+    <circle cx="100" cy="100" r="10" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FFF8E1; }
+      .title { font: bold 48px sans-serif; fill: #FFA000; }
+      .subtitle { font: italic 24px serif; fill: #FF8F00; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .pie { fill: #FFD700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pie</text>
+  <text x="50" y="120" class="subtitle">[paɪ] n. 馅饼</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "pie"，意为“馅饼”
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的馅饼(pie)，上面堆满了各种美味的馅料，
+    <tspan x="50" dy="25">每一口都让人回味无穷。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She baked a delicious apple pie for the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她为聚会烤了一个美味的苹果派。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Pie -->
+    <circle cx="100" cy="100" r="80" class="pie" />
+    <!-- Slice of pie -->
+    <path d="M100,100 L100,20 A80,80 0 0,1 180,100 Z" class="pie" />
+    <!-- Fork -->
+    <line x1="200" y1="100" x2="250" y2="150" class="image" />
+    <line x1="250" y1="150" x2="250" y2="200" class="image" />
+    <line x1="250" y1="200" x2="230" y2="220" class="image" />
+    <line x1="250" y1="200" x2="270" y2="220" class="image" />
+  </g>
+</svg>

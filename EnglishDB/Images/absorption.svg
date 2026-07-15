@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">absorption</text>
+  <text x="50" y="120" class="subtitle">[əbˈsɔːrpʃn] n. 吸收，专注</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ab- (离开) + sorb (吸收) + -tion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人完全沉浸在一本书中，"吸收(ab-sorb)"
+    <tspan x="50" dy="25">所有的知识，仿佛被书本吞噬了一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His complete absorption in the book made him oblivious to the world around him.
+  </text>
+  <text x="50" y="310" class="content">
+    他对书的完全专注使他对外界浑然不觉。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Book -->
+    <rect x="0" y="0" width="200" height="300" class="image" />
+    <!-- Person -->
+    <circle cx="100" cy="350" r="30" class="image" />
+    <line x1="100" y1="380" x2="100" y2="450" class="image" />
+    <line x1="100" y1="450" x2="70" y2="500" class="image" />
+    <line x1="100" y1="450" x2="130" y2="500" class="image" />
+    <line x1="100" y1="400" x2="50" y2="420" class="image" />
+    <line x1="100" y1="400" x2="150" y2="420" class="image" />
+    <!-- Absorption effect -->
+    <line x1="100" y1="350" x2="100" y2="0" class="image" />
+    <line x1="100" y1="0" x2="0" y2="0" class="image" />
+    <line x1="100" y1="0" x2="200" y2="0" class="image" />
+  </g>
+</svg>

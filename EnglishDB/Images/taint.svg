@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">taint</text>
+  <text x="50" y="120" class="subtitle">[teɪnt] v. 污染，玷污；n. 污点，瑕疵</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tain (保持) + -t (表示动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块洁白的布，"保持(tain)"
+    <tspan x="50" dy="25">纯净的状态，但突然被一滴墨水"玷污(taint)"，</tspan>
+    <tspan x="50" dy="25">留下了一个永久的污点。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His reputation was tainted by the scandal.
+  </text>
+  <text x="50" y="310" class="content">
+    他的名声因丑闻而受损。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- White cloth -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#FFFFFF" />
+    <!-- Drop of ink -->
+    <circle cx="175" cy="100" r="20" class="image" fill="#000000" />
+    <!-- Stain -->
+    <path d="M155,100 A20,20 0 0,1 195,100" class="image" fill="#000000" />
+  </g>
+</svg>

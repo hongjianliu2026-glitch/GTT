@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cassette</text>
+  <text x="50" y="120" class="subtitle">[kəˈset] n. 盒式磁带</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cass (盒子) + ette (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小盒子(cass-ette)，里面装满了音乐，
+    <tspan x="50" dy="25">当你按下播放键，音乐就会从小盒子里流淌出来。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She found an old cassette in the attic.
+  </text>
+  <text x="50" y="310" class="content">
+    她在阁楼里发现了一盘旧的盒式磁带。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cassette -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Tape reels -->
+    <circle cx="100" cy="100" r="20" class="image" />
+    <circle cx="250" cy="100" r="20" class="image" />
+    <!-- Play button -->
+    <polygon points="175,120 160,140 190,140" class="image" />
+  </g>
+</svg>

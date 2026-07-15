@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .star { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">five-star</text>
+  <text x="50" y="120" class="subtitle">[ˈfaɪv stɑːr] adj. 五星级的，极好的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> five (五) + star (星)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个豪华酒店，"五颗星(five-star)"
+    <tspan x="50" dy="25">闪耀在酒店的标志上，象征着极致的奢华与服务。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hotel was rated as a five-star establishment.
+  </text>
+  <text x="50" y="310" class="content">
+    这家酒店被评为五星级酒店。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hotel building -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="50" y="20" width="250" height="160" class="image" />
+    <!-- Stars -->
+    <polygon points="20,10 30,30 50,30 35,45 40,65 20,50 0,65 5,45 20,30" class="star" />
+    <polygon points="80,10 90,30 110,30 95,45 100,65 80,50 60,65 65,45 80,30" class="star" />
+    <polygon points="140,10 150,30 170,30 155,45 160,65 140,50 120,65 125,45 140,30" class="star" />
+    <polygon points="200,10 210,30 230,30 215,45 220,65 200,50 180,65 185,45 200,30" class="star" />
+    <polygon points="260,10 270,30 290,30 275,45 280,65 260,50 240,65 245,45 260,30" class="star" />
+  </g>
+</svg>

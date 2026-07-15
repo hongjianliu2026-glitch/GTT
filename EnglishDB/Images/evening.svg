@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5F5F5; }
+      .title { font: bold 48px sans-serif; fill: #333333; }
+      .subtitle { font: italic 24px serif; fill: #555555; }
+      .content { font: 18px sans-serif; fill: #444444; }
+      .highlight { font-weight: bold; fill: #FF6347; }
+      .story { font: 16px serif; fill: #666666; }
+      .image { stroke: #888888; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">evening</text>
+  <text x="50" y="120" class="subtitle">[ˈiːvnɪŋ] n. 傍晚，晚上</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> even (平的，均匀的) + ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象太阳缓缓落下，天空变得"均匀(even)"，
+    <tspan x="50" dy="25">整个世界逐渐被柔和的夜色笼罩，这就是傍晚(evening)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> We usually have dinner in the evening.
+  </text>
+  <text x="50" y="310" class="content">
+    我们通常在晚上吃晚饭。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#FFD700" />
+    <!-- Sky -->
+    <rect x="0" y="0" width="300" height="200" fill="#87CEEB" />
+    <!-- Ground -->
+    <rect x="0" y="200" width="300" height="100" fill="#2E8B57" />
+    <!-- Sun setting -->
+    <line x1="100" y1="150" x2="100" y2="300" class="image" />
+    <!-- Evening sky -->
+    <rect x="0" y="0" width="300" height="100" fill="#1E90FF" />
+  </g>
+</svg>

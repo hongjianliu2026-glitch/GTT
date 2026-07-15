@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">arugula</text>
+  <text x="50" y="120" class="subtitle">[əˈruːɡjələ] n. 芝麻菜</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> aru- (苦味) + -gula (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小小的芝麻菜(arugula)，
+    <tspan x="50" dy="25">它的叶子带着一丝苦味(aru-)，</tspan>
+    <tspan x="50" dy="25">就像一个小小的苦味宝藏(-gula)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added arugula to her salad for a bit of bitterness.
+  </text>
+  <text x="50" y="310" class="content">
+    她在沙拉中加入了芝麻菜，增添了一丝苦味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Arugula leaves -->
+    <path d="M0 0 C50 -50, 100 -50, 150 0 S250 50, 300 0" class="image" />
+    <path d="M0 20 C50 -30, 100 -30, 150 20 S250 70, 300 20" class="image" />
+    <path d="M0 40 C50 -10, 100 -10, 150 40 S250 90, 300 40" class="image" />
+    <!-- Arugula stem -->
+    <line x1="150" y1="0" x2="150" y2="100" class="image" />
+  </g>
+</svg>

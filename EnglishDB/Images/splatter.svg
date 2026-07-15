@@ -1,0 +1,170 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .splatter { fill: #D35400; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">splatter</text>
+  <text x="50" y="120" class="subtitle">[ˈsplætər] v. 溅，泼；n. 溅泼声，溅出物</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> splat (溅泼声) + -er (表示动作或结果)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个调皮的小孩，故意把果汁"溅(splat)"得到处都是，
+    <tspan x="50" dy="25">这些溅出的果汁就是"溅出物(splatter)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The paint splattered all over the wall.
+  </text>
+  <text x="50" y="310" class="content">
+    油漆溅得到处都是。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Splatter effect -->
+    <circle cx="100" cy="100" r="30" class="splatter" />
+    <circle cx="150" cy="120" r="20" class="splatter" />
+    <circle cx="130" cy="160" r="25" class="splatter" />
+    <circle cx="180" cy="140" r="15" class="splatter" />
+    <circle cx="200" cy="100" r="20" class="splatter" />
+    <circle cx="220" cy="130" r="10" class="splatter" />
+    <circle cx="250" cy="110" r="15" class="splatter" />
+    <circle cx="270" cy="150" r="20" class="splatter" />
+    <circle cx="300" cy="120" r="25" class="splatter" />
+    <circle cx="320" cy="140" r="15" class="splatter" />
+    <circle cx="350" cy="100" r="20" class="splatter" />
+    <circle cx="370" cy="130" r="10" class="splatter" />
+    <circle cx="400" cy="110" r="15" class="splatter" />
+    <circle cx="420" cy="150" r="20" class="splatter" />
+    <circle cx="450" cy="120" r="25" class="splatter" />
+    <circle cx="470" cy="140" r="15" class="splatter" />
+    <circle cx="500" cy="100" r="20" class="splatter" />
+    <circle cx="520" cy="130" r="10" class="splatter" />
+    <circle cx="550" cy="110" r="15" class="splatter" />
+    <circle cx="570" cy="150" r="20" class="splatter" />
+    <circle cx="600" cy="120" r="25" class="splatter" />
+    <circle cx="620" cy="140" r="15" class="splatter" />
+    <circle cx="650" cy="100" r="20" class="splatter" />
+    <circle cx="670" cy="130" r="10" class="splatter" />
+    <circle cx="700" cy="110" r="15" class="splatter" />
+    <circle cx="720" cy="150" r="20" class="splatter" />
+    <circle cx="750" cy="120" r="25" class="splatter" />
+    <circle cx="770" cy="140" r="15" class="splatter" />
+    <circle cx="800" cy="100" r="20" class="splatter" />
+    <circle cx="820" cy="130" r="10" class="splatter" />
+    <circle cx="850" cy="110" r="15" class="splatter" />
+    <circle cx="870" cy="150" r="20" class="splatter" />
+    <circle cx="900" cy="120" r="25" class="splatter" />
+    <circle cx="920" cy="140" r="15" class="splatter" />
+    <circle cx="950" cy="100" r="20" class="splatter" />
+    <circle cx="970" cy="130" r="10" class="splatter" />
+    <circle cx="1000" cy="110" r="15" class="splatter" />
+    <circle cx="1020" cy="150" r="20" class="splatter" />
+    <circle cx="1050" cy="120" r="25" class="splatter" />
+    <circle cx="1070" cy="140" r="15" class="splatter" />
+    <circle cx="1100" cy="100" r="20" class="splatter" />
+    <circle cx="1120" cy="130" r="10" class="splatter" />
+    <circle cx="1150" cy="110" r="15" class="splatter" />
+    <circle cx="1170" cy="150" r="20" class="splatter" />
+    <circle cx="1200" cy="120" r="25" class="splatter" />
+    <circle cx="1220" cy="140" r="15" class="splatter" />
+    <circle cx="1250" cy="100" r="20" class="splatter" />
+    <circle cx="1270" cy="130" r="10" class="splatter" />
+    <circle cx="1300" cy="110" r="15" class="splatter" />
+    <circle cx="1320" cy="150" r="20" class="splatter" />
+    <circle cx="1350" cy="120" r="25" class="splatter" />
+    <circle cx="1370" cy="140" r="15" class="splatter" />
+    <circle cx="1400" cy="100" r="20" class="splatter" />
+    <circle cx="1420" cy="130" r="10" class="splatter" />
+    <circle cx="1450" cy="110" r="15" class="splatter" />
+    <circle cx="1470" cy="150" r="20" class="splatter" />
+    <circle cx="1500" cy="120" r="25" class="splatter" />
+    <circle cx="1520" cy="140" r="15" class="splatter" />
+    <circle cx="1550" cy="100" r="20" class="splatter" />
+    <circle cx="1570" cy="130" r="10" class="splatter" />
+    <circle cx="1600" cy="110" r="15" class="splatter" />
+    <circle cx="1620" cy="150" r="20" class="splatter" />
+    <circle cx="1650" cy="120" r="25" class="splatter" />
+    <circle cx="1670" cy="140" r="15" class="splatter" />
+    <circle cx="1700" cy="100" r="20" class="splatter" />
+    <circle cx="1720" cy="130" r="10" class="splatter" />
+    <circle cx="1750" cy="110" r="15" class="splatter" />
+    <circle cx="1770" cy="150" r="20" class="splatter" />
+    <circle cx="1800" cy="120" r="25" class="splatter" />
+    <circle cx="1820" cy="140" r="15" class="splatter" />
+    <circle cx="1850" cy="100" r="20" class="splatter" />
+    <circle cx="1870" cy="130" r="10" class="splatter" />
+    <circle cx="1900" cy="110" r="15" class="splatter" />
+    <circle cx="1920" cy="150" r="20" class="splatter" />
+    <circle cx="1950" cy="120" r="25" class="splatter" />
+    <circle cx="1970" cy="140" r="15" class="splatter" />
+    <circle cx="2000" cy="100" r="20" class="splatter" />
+    <circle cx="2020" cy="130" r="10" class="splatter" />
+    <circle cx="2050" cy="110" r="15" class="splatter" />
+    <circle cx="2070" cy="150" r="20" class="splatter" />
+    <circle cx="2100" cy="120" r="25" class="splatter" />
+    <circle cx="2120" cy="140" r="15" class="splatter" />
+    <circle cx="2150" cy="100" r="20" class="splatter" />
+    <circle cx="2170" cy="130" r="10" class="splatter" />
+    <circle cx="2200" cy="110" r="15" class="splatter" />
+    <circle cx="2220" cy="150" r="20" class="splatter" />
+    <circle cx="2250" cy="120" r="25" class="splatter" />
+    <circle cx="2270" cy="140" r="15" class="splatter" />
+    <circle cx="2300" cy="100" r="20" class="splatter" />
+    <circle cx="2320" cy="130" r="10" class="splatter" />
+    <circle cx="2350" cy="110" r="15" class="splatter" />
+    <circle cx="2370" cy="150" r="20" class="splatter" />
+    <circle cx="2400" cy="120" r="25" class="splatter" />
+    <circle cx="2420" cy="140" r="15" class="splatter" />
+    <circle cx="2450" cy="100" r="20" class="splatter" />
+    <circle cx="2470" cy="130" r="10" class="splatter" />
+    <circle cx="2500" cy="110" r="15" class="splatter" />
+    <circle cx="2520" cy="150" r="20" class="splatter" />
+    <circle cx="2550" cy="120" r="25" class="splatter" />
+    <circle cx="2570" cy="140" r="15" class="splatter" />
+    <circle cx="2600" cy="100" r="20" class="splatter" />
+    <circle cx="2620" cy="130" r="10" class="splatter" />
+    <circle cx="2650" cy="110" r="15" class="splatter" />
+    <circle cx="2670" cy="150" r="20" class="splatter" />
+    <circle cx="2700" cy="120" r="25" class="splatter" />
+    <circle cx="2720" cy="140" r="15" class="splatter" />
+    <circle cx="2750" cy="100" r="20" class="splatter" />
+    <circle cx="2770" cy="130" r="10" class="splatter" />
+    <circle cx="2800" cy="110" r="15" class="splatter" />
+    <circle cx="2820" cy="150" r="20" class="splatter" />
+    <circle cx="2850" cy="120" r="25" class="splatter" />
+    <circle cx="2870" cy="140" r="15" class="splatter" />
+    <circle cx="2900" cy="100" r="20" class="splatter" />
+    <circle cx="2920" cy="130" r="10" class="splatter" />
+    <circle cx="2950" cy="110" r="15" class="splatter" />
+    <circle cx="2970" cy="150" r="20" class="splatter" />
+    <circle cx="3000" cy="120" r="25" class="splatter" />
+    <circle cx="3020" cy="140" r="15" class="splatter" />
+    <circle cx="3050" cy="100" r="20" class="splatter" />
+    <circle cx="3070" cy="130" r="10" class="splatter" />
+    <circle cx="3100" cy="110" r="15" class="splatter" />
+    <circle cx="3120" cy="150" r="20" class="splatter" />
+    <circle cx="3150" cy="120" r="25" class="splatter" />
+    <circle cx="3170" cy="140" r="15" class="splatter" />
+    <circle cx="3200" cy="100" r="20" class="splatter" />
+    <circle cx="3220" cy="130" r="10" class="spl

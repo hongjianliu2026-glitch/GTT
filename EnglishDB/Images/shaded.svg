@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .shade { fill: #808080; opacity: 0.5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shaded</text>
+  <text x="50" y="120" class="subtitle">[ʃeɪdɪd] adj. 遮蔽的，阴暗的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shade (阴影) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的日子，一棵大树投下"阴影(shade)"，
+    <tspan x="50" dy="25">树下的区域变得"遮蔽的(shaded)"，凉爽而阴暗。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The shaded area under the tree was perfect for a nap.
+  </text>
+  <text x="50" y="310" class="content">
+    树下的阴凉处是打盹的绝佳地点。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tree -->
+    <rect x="50" y="0" width="50" height="150" class="image" />
+    <circle cx="75" cy="50" r="50" class="image" />
+    <!-- Shade -->
+    <rect x="0" y="150" width="150" height="100" class="shade" />
+    <!-- Sun -->
+    <circle cx="200" cy="50" r="30" class="image" />
+  </g>
+</svg>

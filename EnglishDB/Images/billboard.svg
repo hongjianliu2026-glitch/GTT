@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">billboard</text>
+  <text x="50" y="120" class="subtitle">[ˈbɪlˌbɔrd] n. 广告牌</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bill (账单) + board (板)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的"账单板(bill-board)"，上面贴满了各种广告，
+    <tspan x="50" dy="25">就像一个巨大的公告板，吸引着路人的目光。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The new movie's poster was displayed on a billboard near the highway.
+  </text>
+  <text x="50" y="310" class="content">
+    新电影的海报被展示在高速公路旁的广告牌上。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Billboard -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Ad content -->
+    <text x="50" y="100" class="content" style="font-size: 36px; fill: #E74C3C;">NEW MOVIE</text>
+    <text x="50" y="150" class="content" style="font-size: 24px; fill: #34495E;">COMING SOON</text>
+    <!-- Road -->
+    <line x1="0" y1="220" x2="400" y2="220" class="image" />
+    <line x1="0" y1="230" x2="400" y2="230" class="image" />
+    <line x1="0" y1="240" x2="400" y2="240" class="image" />
+    <!-- Car -->
+    <rect x="300" y="200" width="50" height="20" class="image" />
+    <rect x="310" y="180" width="30" height="20" class="image" />
+    <circle cx="315" cy="220" r="5" class="image" />
+    <circle cx="345" cy="220" r="5" class="image" />
+  </g>
+</svg>

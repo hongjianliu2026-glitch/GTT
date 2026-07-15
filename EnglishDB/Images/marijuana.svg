@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">marijuana</text>
+  <text x="50" y="120" class="subtitle">[ˌmærəˈwɑːnə] n. 大麻</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mar- (海) + ijuana (联想: 海洋的植物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片神秘的海洋(mar-)，生长着一种奇特的植物(ijuana)，
+    <tspan x="50" dy="25">这种植物就是大麻(marijuana)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The use of marijuana is illegal in many countries.
+  </text>
+  <text x="50" y="310" class="content">
+    在很多国家，使用大麻是违法的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ocean -->
+    <rect x="0" y="0" width="350" height="200" class="image" fill="#3498DB" />
+    <!-- Plant -->
+    <line x1="175" y1="100" x2="175" y2="20" class="image" />
+    <line x1="175" y1="20" x2="160" y2="50" class="image" />
+    <line x1="175" y1="20" x2="190" y2="50" class="image" />
+    <line x1="175" y1="20" x2="150" y2="80" class="image" />
+    <line x1="175" y1="20" x2="200" y2="80" class="image" />
+    <!-- Leaves -->
+    <path d="M175,20 Q160,50 175,80 Q190,50 175,20" class="image" fill="#27AE60" />
+    <path d="M175,20 Q150,80 175,100 Q200,80 175,20" class="image" fill="#27AE60" />
+  </g>
+</svg>

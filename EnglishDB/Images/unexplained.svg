@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unexplained</text>
+  <text x="50" y="120" class="subtitle">[ˌʌnɪkˈspleɪnd] adj. 未解释的，无法解释的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + explain (解释)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个神秘的盒子，上面贴着"未解释(un-explained)"
+    <tspan x="50" dy="25">的标签，没有人知道里面是什么。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The unexplained disappearance of the keys baffled everyone.
+  </text>
+  <text x="50" y="310" class="content">
+    钥匙的神秘消失让每个人都感到困惑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mysterious box -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Question mark -->
+    <text x="100" y="80" font-size="80" text-anchor="middle" fill="#2980B9">?</text>
+    <!-- Label -->
+    <rect x="50" y="160" width="100" height="30" class="image" />
+    <text x="100" y="180" font-size="16" text-anchor="middle" fill="#2980B9">unexplained</text>
+  </g>
+</svg>

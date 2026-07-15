@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">impractical</text>
+  <text x="50" y="120" class="subtitle">[ɪmˈpræktɪkəl] adj. 不切实际的，不实用的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> im- (不) + practical (实际的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人试图用"不实际的(im-practical)"方法，比如用
+    <tspan x="50" dy="25">羽毛扫帚扫地，结果当然是徒劳无功。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His idea of using feathers to sweep the floor was impractical.
+  </text>
+  <text x="50" y="310" class="content">
+    他用羽毛扫帚扫地的想法是不切实际的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Feather broom -->
+    <line x1="50" y1="20" x2="50" y2="150" class="image" />
+    <polyline points="50,20 70,40 50,60 70,80 50,100 70,120 50,140" class="image" />
+    <!-- Person trying to sweep -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <line x1="100" y1="115" x2="100" y2="150" class="image" />
+    <line x1="100" y1="150" x2="80" y2="180" class="image" />
+    <line x1="100" y1="150" x2="120" y2="180" class="image" />
+    <line x1="100" y1="130" x2="150" y2="120" class="image" />
+    <!-- Dust -->
+    <circle cx="180" cy="140" r="5" class="image" />
+    <circle cx="190" cy="130" r="5" class="image" />
+    <circle cx="200" cy="150" r="5" class="image" />
+    <circle cx="210" cy="140" r="5" class="image" />
+  </g>
+</svg>

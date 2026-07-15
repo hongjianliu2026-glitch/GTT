@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">curved</text>
+  <text x="50" y="120" class="subtitle">[kɜːrvd] adj. 弯曲的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> curv (弯曲) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条蛇在草地上蜿蜒前行，它的身体"弯曲(curv)"成各种形状，
+    <tspan x="50" dy="25">这就是"弯曲的(curved)"样子。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The road was curved, making it difficult to see around the bend.
+  </text>
+  <text x="50" y="310" class="content">
+    这条路是弯曲的，使得很难看到拐角处的情况。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Snake -->
+    <path d="M0,0 C50,50 100,50 150,0 C200,-50 250,-50 300,0" class="image" />
+    <!-- Grass -->
+    <line x1="0" y1="50" x2="300" y2="50" class="image" />
+    <line x1="0" y1="60" x2="300" y2="60" class="image" />
+    <line x1="0" y1="70" x2="300" y2="70" class="image" />
+  </g>
+</svg>

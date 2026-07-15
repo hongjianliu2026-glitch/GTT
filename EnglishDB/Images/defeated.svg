@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">defeated</text>
+  <text x="50" y="120" class="subtitle">[dɪˈfiːtɪd] adj. 被击败的，失败的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + feat (做)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个战士在战斗中，"向下做(de-feat)"
+    <tspan x="50" dy="25">的动作，最终被击败(defeated)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The team was defeated in the final match.
+  </text>
+  <text x="50" y="310" class="content">
+    这支队伍在决赛中被击败了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ground -->
+    <rect x="0" y="180" width="350" height="20" class="image" />
+    <!-- Defeated warrior -->
+    <circle cx="100" cy="150" r="20" class="image" />
+    <line x1="100" y1="170" x2="100" y2="180" class="image" />
+    <line x1="100" y1="180" x2="80" y2="200" class="image" />
+    <line x1="100" y1="180" x2="120" y2="200" class="image" />
+    <line x1="100" y1="170" x2="130" y2="160" class="image" />
+    <!-- Sword -->
+    <line x1="100" y1="150" x2="150" y2="100" class="image" />
+    <line x1="150" y1="100" x2="160" y2="110" class="image" />
+    <!-- Shield -->
+    <rect x="70" y="140" width="30" height="30" class="image" />
+  </g>
+</svg>

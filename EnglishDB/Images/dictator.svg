@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dictator</text>
+  <text x="50" y="120" class="subtitle">[dɪkˈteɪtər] n. 独裁者，专制者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dict (说) + -ator (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个独裁者站在高台上，"大声说出(dict)"
+    <tspan x="50" dy="25">他的命令，所有人都必须服从，他就是独裁者(dictator)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The dictator ruled the country with an iron fist.
+  </text>
+  <text x="50" y="310" class="content">
+    独裁者用铁腕统治着这个国家。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Platform -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Dictator -->
+    <circle cx="175" cy="100" r="30" class="image" />
+    <line x1="175" y1="130" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="210" class="image" />
+    <line x1="175" y1="180" x2="200" y2="210" class="image" />
+    <line x1="175" y1="150" x2="120" y2="140" class="image" />
+    <line x1="175" y1="150" x2="230" y2="140" class="image" />
+    <!-- Speech bubble -->
+    <path d="M210,70 Q250,50 290,70 Q250,90 210,70" class="image" />
+    <text x="220" y="75" class="content" style="font-size: 14px;">命令</text>
+  </g>
+</svg>

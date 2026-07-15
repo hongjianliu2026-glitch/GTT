@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .wool { fill: #F1C40F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">wool</text>
+  <text x="50" y="120" class="subtitle">[wʊl] n. 羊毛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自中古英语 "wull"，意为羊毛
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只羊身上覆盖着厚厚的"羊毛(wool)"，
+    <tspan x="50" dy="25">这些羊毛可以用来制作温暖的衣物。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She knitted a sweater from pure wool.
+  </text>
+  <text x="50" y="310" class="content">
+    她用纯羊毛织了一件毛衣。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sheep body -->
+    <ellipse cx="150" cy="100" rx="100" ry="60" class="image" />
+    <!-- Sheep head -->
+    <circle cx="220" cy="70" r="30" class="image" />
+    <!-- Sheep legs -->
+    <line x1="100" y1="160" x2="100" y2="200" class="image" />
+    <line x1="200" y1="160" x2="200" y2="200" class="image" />
+    <line x1="120" y1="160" x2="120" y2="200" class="image" />
+    <line x1="180" y1="160" x2="180" y2="200" class="image" />
+    <!-- Wool -->
+    <circle cx="150" cy="80" r="20" class="wool" />
+    <circle cx="120" cy="90" r="20" class="wool" />
+    <circle cx="180" cy="90" r="20" class="wool" />
+    <circle cx="130" cy="110" r="20" class="wool" />
+    <circle cx="170" cy="110" r="20" class="wool" />
+  </g>
+</svg>

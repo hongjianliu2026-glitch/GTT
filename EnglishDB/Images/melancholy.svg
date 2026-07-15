@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F5E9E2; }
+      .title { font: bold 48px sans-serif; fill: #6D4C41; }
+      .subtitle { font: italic 24px serif; fill: #5D4037; }
+      .content { font: 18px sans-serif; fill: #4E342E; }
+      .highlight { font-weight: bold; fill: #D32F2F; }
+      .story { font: 16px serif; fill: #795548; }
+      .image { stroke: #8D6E63; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">melancholy</text>
+  <text x="50" y="120" class="subtitle">[ˈmɛlənkəli] n. 忧郁，悲伤；adj. 忧郁的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> melanchol- (黑胆汁) + -y (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古代医生认为"黑胆汁(melanchol-)"过多会导致
+    <tspan x="50" dy="25">忧郁(melancholy)，这种观念虽然过时，但这个词</tspan>
+    <tspan x="50" dy="25">依然保留了其忧郁的含义。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The old man's face was filled with melancholy.
+  </text>
+  <text x="50" y="310" class="content">
+    老人的脸上充满了忧郁。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Black bile -->
+    <circle cx="50" cy="100" r="30" class="image" fill="#2C3E50" />
+    <!-- Sad face -->
+    <circle cx="150" cy="100" r="40" class="image" fill="#8D6E63" />
+    <circle cx="130" cy="85" r="5" class="image" fill="#2C3E50" />
+    <circle cx="170" cy="85" r="5" class="image" fill="#2C3E50" />
+    <path d="M130 120 Q150 140 170 120" class="image" fill="none" stroke="#2C3E50" stroke-width="3" />
+  </g>
+</svg>

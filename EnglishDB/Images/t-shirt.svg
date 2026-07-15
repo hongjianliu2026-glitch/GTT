@@ -1,0 +1,137 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">T-shirt</text>
+  <text x="50" y="120" class="subtitle">[ˈtiːʃɜːrt] n. T恤</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> T- (形状) + shirt (衬衫)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一件T恤，它的形状就像一个大写的"T"，
+    <tspan x="50" dy="25">简单而经典，适合各种场合。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a colorful T-shirt to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她穿着一件色彩鲜艳的T恤去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- T-shirt outline -->
+    <rect x="50" y="50" width="200" height="250" class="image" />
+    <line x1="50" y1="100" x2="250" y2="100" class="image" />
+    <line x1="50" y1="150" x2="250" y2="150" class="image" />
+    <line x1="50" y1="200" x2="250" y2="200" class="image" />
+    <line x1="50" y1="250" x2="250" y2="250" class="image" />
+    <line x1="50" y1="300" x2="250" y2="300" class="image" />
+    <line x1="50" y1="350" x2="250" y2="350" class="image" />
+    <line x1="50" y1="400" x2="250" y2="400" class="image" />
+    <line x1="50" y1="450" x2="250" y2="450" class="image" />
+    <line x1="50" y1="500" x2="250" y2="500" class="image" />
+    <line x1="50" y1="550" x2="250" y2="550" class="image" />
+    <line x1="50" y1="600" x2="250" y2="600" class="image" />
+    <line x1="50" y1="650" x2="250" y2="650" class="image" />
+    <line x1="50" y1="700" x2="250" y2="700" class="image" />
+    <line x1="50" y1="750" x2="250" y2="750" class="image" />
+    <line x1="50" y1="800" x2="250" y2="800" class="image" />
+    <line x1="50" y1="850" x2="250" y2="850" class="image" />
+    <line x1="50" y1="900" x2="250" y2="900" class="image" />
+    <line x1="50" y1="950" x2="250" y2="950" class="image" />
+    <line x1="50" y1="1000" x2="250" y2="1000" class="image" />
+    <line x1="50" y1="1050" x2="250" y2="1050" class="image" />
+    <line x1="50" y1="1100" x2="250" y2="1100" class="image" />
+    <line x1="50" y1="1150" x2="250" y2="1150" class="image" />
+    <line x1="50" y1="1200" x2="250" y2="1200" class="image" />
+    <line x1="50" y1="1250" x2="250" y2="1250" class="image" />
+    <line x1="50" y1="1300" x2="250" y2="1300" class="image" />
+    <line x1="50" y1="1350" x2="250" y2="1350" class="image" />
+    <line x1="50" y1="1400" x2="250" y2="1400" class="image" />
+    <line x1="50" y1="1450" x2="250" y2="1450" class="image" />
+    <line x1="50" y1="1500" x2="250" y2="1500" class="image" />
+    <line x1="50" y1="1550" x2="250" y2="1550" class="image" />
+    <line x1="50" y1="1600" x2="250" y2="1600" class="image" />
+    <line x1="50" y1="1650" x2="250" y2="1650" class="image" />
+    <line x1="50" y1="1700" x2="250" y2="1700" class="image" />
+    <line x1="50" y1="1750" x2="250" y2="1750" class="image" />
+    <line x1="50" y1="1800" x2="250" y2="1800" class="image" />
+    <line x1="50" y1="1850" x2="250" y2="1850" class="image" />
+    <line x1="50" y1="1900" x2="250" y2="1900" class="image" />
+    <line x1="50" y1="1950" x2="250" y2="1950" class="image" />
+    <line x1="50" y1="2000" x2="250" y2="2000" class="image" />
+    <line x1="50" y1="2050" x2="250" y2="2050" class="image" />
+    <line x1="50" y1="2100" x2="250" y2="2100" class="image" />
+    <line x1="50" y1="2150" x2="250" y2="2150" class="image" />
+    <line x1="50" y1="2200" x2="250" y2="2200" class="image" />
+    <line x1="50" y1="2250" x2="250" y2="2250" class="image" />
+    <line x1="50" y1="2300" x2="250" y2="2300" class="image" />
+    <line x1="50" y1="2350" x2="250" y2="2350" class="image" />
+    <line x1="50" y1="2400" x2="250" y2="2400" class="image" />
+    <line x1="50" y1="2450" x2="250" y2="2450" class="image" />
+    <line x1="50" y1="2500" x2="250" y2="2500" class="image" />
+    <line x1="50" y1="2550" x2="250" y2="2550" class="image" />
+    <line x1="50" y1="2600" x2="250" y2="2600" class="image" />
+    <line x1="50" y1="2650" x2="250" y2="2650" class="image" />
+    <line x1="50" y1="2700" x2="250" y2="2700" class="image" />
+    <line x1="50" y1="2750" x2="250" y2="2750" class="image" />
+    <line x1="50" y1="2800" x2="250" y2="2800" class="image" />
+    <line x1="50" y1="2850" x2="250" y2="2850" class="image" />
+    <line x1="50" y1="2900" x2="250" y2="2900" class="image" />
+    <line x1="50" y1="2950" x2="250" y2="2950" class="image" />
+    <line x1="50" y1="3000" x2="250" y2="3000" class="image" />
+    <line x1="50" y1="3050" x2="250" y2="3050" class="image" />
+    <line x1="50" y1="3100" x2="250" y2="3100" class="image" />
+    <line x1="50" y1="3150" x2="250" y2="3150" class="image" />
+    <line x1="50" y1="3200" x2="250" y2="3200" class="image" />
+    <line x1="50" y1="3250" x2="250" y2="3250" class="image" />
+    <line x1="50" y1="3300" x2="250" y2="3300" class="image" />
+    <line x1="50" y1="3350" x2="250" y2="3350" class="image" />
+    <line x1="50" y1="3400" x2="250" y2="3400" class="image" />
+    <line x1="50" y1="3450" x2="250" y2="3450" class="image" />
+    <line x1="50" y1="3500" x2="250" y2="3500" class="image" />
+    <line x1="50" y1="3550" x2="250" y2="3550" class="image" />
+    <line x1="50" y1="3600" x2="250" y2="3600" class="image" />
+    <line x1="50" y1="3650" x2="250" y2="3650" class="image" />
+    <line x1="50" y1="3700" x2="250" y2="3700" class="image" />
+    <line x1="50" y1="3750" x2="250" y2="3750" class="image" />
+    <line x1="50" y1="3800" x2="250" y2="3800" class="image" />
+    <line x1="50" y1="3850" x2="250" y2="3850" class="image" />
+    <line x1="50" y1="3900" x2="250" y2="3900" class="image" />
+    <line x1="50" y1="3950" x2="250" y2="3950" class="image" />
+    <line x1="50" y1="4000" x2="250" y2="4000" class="image" />
+    <line x1="50" y1="4050" x2="250" y2="4050" class="image" />
+    <line x1="50" y1="4100" x2="250" y2="4100" class="image" />
+    <line x1="50" y1="4150" x2="250" y2="4150" class="image" />
+    <line x1="50" y1="4200" x2="250" y2="4200" class="image" />
+    <line x1="50" y1="4250" x2="250" y2="4250" class="image" />
+    <line x1="50" y1="4300" x2="250" y2="4300" class="image" />
+    <line x1="50" y1="4350" x2="250" y2="4350" class="image" />
+    <line x1="50" y1="4400" x2="250" y2="4400" class="image" />
+    <line x1="50" y1="4450" x2="250" y2="4450" class="image" />
+    <line x1="50" y1="4500" x2="250" y2="4500" class="image" />
+    <line x1="50" y1="4550" x2="250" y2="4550" class="image" />
+    <line x1="50" y1="4600" x2="250" y2="4600" class="image" />
+    <line x1="50" y1="4650" x2="250" y2="4650" class="image" />
+    <line x1="50" y1="4700" x2="250" y2="470

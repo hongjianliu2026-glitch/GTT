@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tightening</text>
+  <text x="50" y="120" class="subtitle">[ˈtaɪtnɪŋ] n. 紧缩，加紧；v. 使变紧，使更严格</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tight (紧的) + -en (使) + -ing (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个螺丝钉被"使劲拧紧(tight-en-ing)"，
+    <tspan x="50" dy="25">直到它变得非常紧，这就是紧缩(tightening)的过程。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The government announced new measures to tighten the regulations.
+  </text>
+  <text x="50" y="310" class="content">
+    政府宣布了新的措施来加强监管。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Screw -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <line x1="50" y1="80" x2="50" y2="120" class="image" />
+    <line x1="40" y1="90" x2="60" y2="90" class="image" />
+    <line x1="40" y1="110" x2="60" y2="110" class="image" />
+    <!-- Wrench tightening the screw -->
+    <rect x="70" y="90" width="50" height="20" transform="rotate(30, 95, 100)" class="image" />
+    <line x1="95" y1="100" x2="120" y2="100" class="image" />
+  </g>
+</svg>

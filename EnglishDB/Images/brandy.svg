@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">brandy</text>
+  <text x="50" y="120" class="subtitle">[ˈbrændi] n. 白兰地酒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> brand (燃烧) + y (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的酒窖里，"燃烧(brand)"
+    <tspan x="50" dy="25">的火焰照亮了一瓶瓶白兰地酒(brandy)，</tspan>
+    <tspan x="50" dy="25">酒香四溢，仿佛火焰在酒中燃烧。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He enjoyed a glass of brandy after dinner.
+  </text>
+  <text x="50" y="310" class="content">
+    他晚餐后喜欢喝一杯白兰地。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flaming torch -->
+    <line x1="50" y1="20" x2="50" y2="150" class="image" />
+    <circle cx="50" cy="20" r="10" class="image" />
+    <line x1="50" y1="20" x2="30" y2="40" class="image" />
+    <line x1="50" y1="20" x2="70" y2="40" class="image" />
+    <line x1="50" y1="20" x2="40" y2="50" class="image" />
+    <line x1="50" y1="20" x2="60" y2="50" class="image" />
+    <!-- Bottle -->
+    <rect x="100" y="50" width="100" height="200" class="image" />
+    <rect x="120" y="70" width="60" height="160" class="image" />
+    <!-- Liquid -->
+    <rect x="125" y="80" width="50" height="150" class="image" fill="#D35400" />
+  </g>
+</svg>

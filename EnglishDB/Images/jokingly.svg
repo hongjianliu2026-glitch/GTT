@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">jokingly</text>
+  <text x="50" y="120" class="subtitle">[ˈdʒoʊkɪŋli] adv. 开玩笑地，打趣地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> joke (笑话) + -ing (进行时) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在讲笑话，脸上带着夸张的笑容，
+    <tspan x="50" dy="25">周围的人都被逗得哈哈大笑，这就是"开玩笑地(jokingly)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He said it jokingly, but she took it seriously.
+  </text>
+  <text x="50" y="310" class="content">
+    他开玩笑地说，但她却当真了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Face -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <!-- Eyes -->
+    <circle cx="35" cy="40" r="5" class="image" />
+    <circle cx="65" cy="40" r="5" class="image" />
+    <!-- Mouth -->
+    <path d="M 30 70 Q 50 90 70 70" class="image" />
+    <!-- Speech bubble -->
+    <path d="M 100 20 Q 150 20 150 70 Q 150 120 100 120 Q 50 120 50 70 Z" class="image" />
+    <text x="110" y="60" class="content">"哈哈哈！"</text>
+  </g>
+</svg>

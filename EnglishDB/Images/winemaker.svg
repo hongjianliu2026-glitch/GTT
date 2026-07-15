@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">winemaker</text>
+  <text x="50" y="120" class="subtitle">[ˈwaɪnmeɪkər] n. 酿酒师</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> wine (酒) + maker (制造者)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个酿酒师在葡萄园里，"制造(maker)"
+    <tspan x="50" dy="25">出美味的葡萄酒(wine)，他就是酿酒师(winemaker)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The winemaker carefully selects the best grapes for his wine.
+  </text>
+  <text x="50" y="310" class="content">
+    酿酒师精心挑选最好的葡萄来酿造他的葡萄酒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Grapes -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <circle cx="80" cy="50" r="20" class="image" />
+    <circle cx="110" cy="50" r="20" class="image" />
+    <circle cx="140" cy="50" r="20" class="image" />
+    <circle cx="170" cy="50" r="20" class="image" />
+    <!-- Wine barrel -->
+    <rect x="50" y="100" width="150" height="100" class="image" />
+    <!-- Winemaker -->
+    <circle cx="100" cy="250" r="30" class="image" />
+    <line x1="100" y1="280" x2="100" y2="350" class="image" />
+    <line x1="100" y1="350" x2="70" y2="400" class="image" />
+    <line x1="100" y1="350" x2="130" y2="400" class="image" />
+    <line x1="100" y1="320" x2="150" y2="300" class="image" />
+  </g>
+</svg>

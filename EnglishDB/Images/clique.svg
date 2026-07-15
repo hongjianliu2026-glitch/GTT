@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">clique</text>
+  <text x="50" y="120" class="subtitle">[kliːk] n. 小集团，小圈子</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cliqu (来自法语，意为“发出咔哒声”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群人围成一个小圈子，"咔哒(cliqu)"一声，
+    <tspan x="50" dy="25">他们就形成了一个紧密的小集团(clique)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was excluded from the clique at school.
+  </text>
+  <text x="50" y="310" class="content">
+    她在学校被那个小圈子排斥了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Circle representing the clique -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- People in the clique -->
+    <circle cx="120" cy="80" r="15" class="image" />
+    <circle cx="230" cy="80" r="15" class="image" />
+    <circle cx="175" cy="140" r="15" class="image" />
+    <!-- Click sound -->
+    <text x="150" y="200" class="content" style="font-size: 36px;">"咔哒"</text>
+  </g>
+</svg>

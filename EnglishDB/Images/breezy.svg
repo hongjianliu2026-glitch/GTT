@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">breezy</text>
+  <text x="50" y="120" class="subtitle">[ˈbriːzi] adj. 有微风的，轻快的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> breez (风) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个阳光明媚的日子，微风(breez)轻轻吹过，
+    <tspan x="50" dy="25">树叶在风中轻快(breezy)地摇曳，带来一丝凉爽。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> It was a breezy day at the beach.
+  </text>
+  <text x="50" y="310" class="content">
+    那天海滩上微风习习。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" fill="#F1C40F" />
+    <!-- Wind -->
+    <path d="M50,150 Q75,125 100,150 T150,150" stroke="#7F8C8D" stroke-width="5" fill="none" />
+    <path d="M50,170 Q75,145 100,170 T150,170" stroke="#7F8C8D" stroke-width="5" fill="none" />
+    <path d="M50,190 Q75,165 100,190 T150,190" stroke="#7F8C8D" stroke-width="5" fill="none" />
+    <!-- Tree -->
+    <rect x="200" y="150" width="20" height="100" fill="#27AE60" />
+    <circle cx="210" cy="140" r="30" fill="#27AE60" />
+    <circle cx="190" cy="130" r="30" fill="#27AE60" />
+    <circle cx="230" cy="130" r="30" fill="#27AE60" />
+  </g>
+</svg>

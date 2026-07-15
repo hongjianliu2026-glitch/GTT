@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dilate</text>
+  <text x="50" y="120" class="subtitle">[daɪˈleɪt] v. 扩大，膨胀</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> di- (分开) + late (携带)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个气球被吹气，"分开携带(di-late)"
+    <tspan x="50" dy="25">更多的空气，气球因此膨胀(dilate)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The pupils of her eyes dilated in the dark.
+  </text>
+  <text x="50" y="310" class="content">
+    她的瞳孔在黑暗中扩大了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balloon -->
+    <ellipse cx="150" cy="100" rx="50" ry="70" class="image" />
+    <line x1="150" y1="170" x2="150" y2="200" class="image" />
+    <!-- Air being blown -->
+    <circle cx="150" cy="50" r="10" class="image" />
+    <circle cx="150" cy="40" r="8" class="image" />
+    <circle cx="150" cy="30" r="6" class="image" />
+    <circle cx="150" cy="20" r="4" class="image" />
+    <circle cx="150" cy="10" r="2" class="image" />
+  </g>
+</svg>

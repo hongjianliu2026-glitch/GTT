@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pluralism</text>
+  <text x="50" y="120" class="subtitle">[ˈplʊərəlɪzəm] n. 多元主义，多元文化</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> plu- (多) + -ral (形容词后缀) + -ism (主义)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个五彩斑斓的花园，"多种(plu-)"
+    <tspan x="50" dy="25">花朵和谐共存，象征着多元主义(pluralism)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The city embraces pluralism, celebrating diverse cultures.
+  </text>
+  <text x="50" y="310" class="content">
+    这座城市拥抱多元主义，庆祝多样文化。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Garden -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Flowers -->
+    <circle cx="50" cy="100" r="20" fill="#FF6F61" />
+    <circle cx="120" cy="120" r="25" fill="#6B5B95" />
+    <circle cx="190" cy="80" r="30" fill="#88B04B" />
+    <circle cx="260" cy="110" r="25" fill="#F7CAC9" />
+    <circle cx="330" cy="90" r="20" fill="#92A8D1" />
+    <!-- Ground -->
+    <rect x="0" y="180" width="350" height="20" fill="#8D6E63" />
+  </g>
+</svg>

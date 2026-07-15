@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">limousine</text>
+  <text x="50" y="120" class="subtitle">[ˈlɪmuziːn] n. 豪华轿车</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> limo (limb, 肢体) + -ine (小的)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一辆豪华轿车，它的车身就像一个巨大的"肢体(limo)"，
+    <tspan x="50" dy="25">而"小的(-ine)"部分则是车内精致的内饰，</tspan>
+    <tspan x="50" dy="25">整个画面就像一个巨大的肢体包裹着豪华的内饰。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The celebrity arrived in a sleek limousine.
+  </text>
+  <text x="50" y="310" class="content">
+    那位名人乘坐一辆豪华轿车抵达。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Car body -->
+    <rect x="0" y="0" width="350" height="100" class="image" />
+    <!-- Wheels -->
+    <circle cx="50" cy="120" r="20" class="image" />
+    <circle cx="300" cy="120" r="20" class="image" />
+    <!-- Interior -->
+    <rect x="50" y="20" width="250" height="60" class="image" />
+    <!-- Seats -->
+    <line x1="70" y1="40" x2="120" y2="40" class="image" />
+    <line x1="140" y1="40" x2="190" y2="40" class="image" />
+    <line x1="210" y1="40" x2="260" y2="40" class="image" />
+    <!-- Steering wheel -->
+    <circle cx="175" cy="70" r="15" class="image" />
+    <!-- Driver -->
+    <circle cx="175" cy="50" r="10" class="image" />
+    <line x1="175" y1="60" x2="175" y2="80" class="image" />
+    <line x1="175" y1="80" x2="160" y2="100" class="image" />
+    <line x1="175" y1="80" x2="190" y2="100" class="image" />
+  </g>
+</svg>

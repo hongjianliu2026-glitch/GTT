@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">impress</text>
+  <text x="50" y="120" class="subtitle">[ɪmˈpres] v. 留下印象，使感动</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> im- (进入) + press (压)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用手指在沙滩上"压入(im-press)"
+    <tspan x="50" dy="25">一个深深的印记，这个印记让人难以忘怀，</tspan>
+    <tspan x="50" dy="25">就像某件事或某个人给你留下的深刻印象。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His speech impressed everyone in the room.
+  </text>
+  <text x="50" y="310" class="content">
+    他的演讲给房间里的每个人都留下了深刻的印象。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Sand -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Fingerprint -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <!-- Finger -->
+    <line x1="175" y1="50" x2="175" y2="0" class="image" />
+    <line x1="175" y1="50" x2="150" y2="25" class="image" />
+    <line x1="175" y1="50" x2="200" y2="25" class="image" />
+    <line x1="175" y1="50" x2="160" y2="70" class="image" />
+    <line x1="175" y1="50" x2="190" y2="70" class="image" />
+  </g>
+</svg>

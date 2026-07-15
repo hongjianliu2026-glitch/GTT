@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">mimetic</text>
+  <text x="50" y="120" class="subtitle">[mɪˈmetɪk] adj. 模仿的，拟态的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> mimesis (模仿) + -tic (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只蝴蝶，它"模仿(mimesis)"周围的环境，
+    <tspan x="50" dy="25">使自己看起来像一片树叶，以躲避捕食者。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The chameleon's skin is highly mimetic, changing color to blend in with its surroundings.
+  </text>
+  <text x="50" y="310" class="content">
+    变色龙的皮非常善于模仿，能改变颜色以融入周围环境。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Butterfly -->
+    <path d="M50,50 C60,20 140,20 150,50" class="image" />
+    <path d="M50,50 C60,80 140,80 150,50" class="image" />
+    <!-- Leaf -->
+    <path d="M100,100 Q150,50 200,100 Q150,150 100,100" class="image" />
+    <!-- Text -->
+    <text x="100" y="180" class="content">蝴蝶</text>
+    <text x="200" y="180" class="content">树叶</text>
+  </g>
+</svg>

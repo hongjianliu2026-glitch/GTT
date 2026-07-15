@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">scrawny</text>
+  <text x="50" y="120" class="subtitle">[ˈskrɔːni] adj. 骨瘦如柴的，瘦弱的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> scrawn (瘦弱) + -y (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只瘦弱的小鸟，"骨瘦如柴(scrawn-y)"，
+    <tspan x="50" dy="25">它的骨头几乎要穿透皮肤，看起来非常瘦弱。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The scrawny cat barely had any meat on its bones.
+  </text>
+  <text x="50" y="310" class="content">
+    那只瘦弱的猫几乎没什么肉在骨头上。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bird skeleton -->
+    <line x1="50" y1="20" x2="150" y2="20" class="image" />
+    <line x1="50" y1="20" x2="50" y2="120" class="image" />
+    <line x1="150" y1="20" x2="150" y2="120" class="image" />
+    <line x1="50" y1="120" x2="150" y2="120" class="image" />
+    <line x1="100" y1="120" x2="100" y2="200" class="image" />
+    <line x1="100" y1="200" x2="50" y2="250" class="image" />
+    <line x1="100" y1="200" x2="150" y2="250" class="image" />
+    <!-- Skin -->
+    <path d="M50,20 Q100,50 150,20 T100,120" class="image" />
+    <path d="M50,120 Q100,150 150,120 T100,200" class="image" />
+    <path d="M50,250 Q100,280 150,250" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tingle</text>
+  <text x="50" y="120" class="subtitle">[ˈtɪŋɡl] v. 感到刺痛，感到兴奋</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ting (刺) + le (表示反复动作)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象你的手指被针刺了一下，"刺(ting)"
+    <tspan x="50" dy="25">的感觉反复出现，让你感到刺痛(tingle)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her fingers tingled with excitement as she opened the gift.
+  </text>
+  <text x="50" y="310" class="content">
+    她打开礼物时，手指因兴奋而感到刺痛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Finger -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <!-- Needle -->
+    <line x1="100" y1="80" x2="150" y2="120" class="image" />
+    <!-- Tingle effect -->
+    <circle cx="50" cy="100" r="5" class="image" />
+    <circle cx="60" cy="110" r="5" class="image" />
+    <circle cx="40" cy="110" r="5" class="image" />
+    <circle cx="55" cy="90" r="5" class="image" />
+    <circle cx="45" cy="90" r="5" class="image" />
+  </g>
+</svg>

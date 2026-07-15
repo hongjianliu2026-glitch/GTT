@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hacienda</text>
+  <text x="50" y="120" class="subtitle">[ˌhæsiˈɛndə] n. 庄园，大农场</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> haçienda (西班牙语，源自拉丁语)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的庄园，"haçienda"
+    <tspan x="50" dy="25">里有一座宏伟的别墅，周围是广阔的农田和</tspan>
+    <tspan x="50" dy="25">茂密的果园，庄园主人在别墅前悠闲地散步。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hacienda was surrounded by acres of fertile land.
+  </text>
+  <text x="50" y="310" class="content">
+    庄园被大片肥沃的土地包围。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Villa -->
+    <rect x="0" y="0" width="200" height="150" class="image" />
+    <!-- Fields -->
+    <rect x="220" y="0" width="150" height="150" class="image" />
+    <rect x="220" y="160" width="150" height="150" class="image" />
+    <rect x="0" y="160" width="150" height="150" class="image" />
+    <!-- Orchard -->
+    <circle cx="300" cy="240" r="20" class="image" />
+    <circle cx="340" cy="240" r="20" class="image" />
+    <circle cx="380" cy="240" r="20" class="image" />
+    <!-- Owner -->
+    <circle cx="100" cy="200" r="15" class="image" />
+    <line x1="100" y1="215" x2="100" y2="250" class="image" />
+    <line x1="100" y1="250" x2="80" y2="280" class="image" />
+    <line x1="100" y1="250" x2="120" y2="280" class="image" />
+    <line x1="100" y1="230" x2="130" y2="220" class="image" />
+  </g>
+</svg>

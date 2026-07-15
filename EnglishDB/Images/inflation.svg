@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">inflation</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈfleɪʃn] n. 通货膨胀，充气</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (进入) + flate (吹) + -ion (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个气球被"吹入(in-flate)"空气，逐渐膨胀，
+    <tspan x="50" dy="25">就像物价不断上涨，经济"膨胀(inflation)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The government is trying to control inflation.
+  </text>
+  <text x="50" y="310" class="content">
+    政府正在努力控制通货膨胀。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Balloon -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="150" x2="100" y2="250" class="image" />
+    <!-- Inflating -->
+    <line x1="100" y1="50" x2="100" y2="20" class="image" />
+    <line x1="100" y1="20" x2="80" y2="0" class="image" />
+    <line x1="100" y1="20" x2="120" y2="0" class="image" />
+    <!-- Price tags -->
+    <rect x="150" y="50" width="50" height="30" class="image" />
+    <text x="160" y="70" class="content">$10</text>
+    <rect x="150" y="100" width="50" height="30" class="image" />
+    <text x="160" y="120" class="content">$20</text>
+    <rect x="150" y="150" width="50" height="30" class="image" />
+    <text x="160" y="170" class="content">$30</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">underage</text>
+  <text x="50" y="120" class="subtitle">[ˌʌndərˈeɪdʒ] adj. 未成年的，未到法定年龄的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> under- (在...下面) + age (年龄)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩站在一个巨大的时钟下面，"年龄(age)"
+    <tspan x="50" dy="25">还在时钟的"下面(under)"，表示他还没到法定年龄(underage)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> It is illegal to serve alcohol to underage customers.
+  </text>
+  <text x="50" y="310" class="content">
+    向未成年顾客提供酒精是违法的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Clock -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <line x1="175" y1="100" x2="175" y2="20" class="image" />
+    <line x1="175" y1="100" x2="255" y2="100" class="image" />
+    <!-- Child -->
+    <circle cx="175" cy="200" r="20" class="image" />
+    <line x1="175" y1="220" x2="175" y2="260" class="image" />
+    <line x1="175" y1="260" x2="155" y2="300" class="image" />
+    <line x1="175" y1="260" x2="195" y2="300" class="image" />
+    <line x1="175" y1="240" x2="145" y2="230" class="image" />
+    <line x1="175" y1="240" x2="205" y2="230" class="image" />
+  </g>
+</svg>

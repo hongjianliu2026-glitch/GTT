@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">thrilled</text>
+  <text x="50" y="120" class="subtitle">[θrɪld] adj. 非常兴奋的，激动的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> thrill (兴奋) + -ed (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在过山车上，"兴奋得心跳加速(thrill)"，
+    <tspan x="50" dy="25">脸上洋溢着激动的表情，这就是thrilled的感觉。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was thrilled to receive the award.
+  </text>
+  <text x="50" y="310" class="content">
+    她获奖时非常激动。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Roller coaster track -->
+    <path d="M0 100 C 50 50, 150 50, 200 100 S 300 150, 350 100" class="image" />
+    <!-- Roller coaster car -->
+    <rect x="180" y="80" width="40" height="20" class="image" />
+    <!-- Person in the car -->
+    <circle cx="200" cy="90" r="10" class="image" />
+    <line x1="200" y1="100" x2="200" y2="120" class="image" />
+    <line x1="200" y1="120" x2="190" y2="140" class="image" />
+    <line x1="200" y1="120" x2="210" y2="140" class="image" />
+    <line x1="200" y1="110" x2="220" y2="100" class="image" />
+  </g>
+</svg>

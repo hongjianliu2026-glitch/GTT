@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shuttle</text>
+  <text x="50" y="120" class="subtitle">[ˈʃʌtl] n. 航天飞机，穿梭；v. 穿梭往返</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shutt- (快速移动) + -le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小巧的航天飞机在太空中"快速移动(shutt-le)"，
+    <tspan x="50" dy="25">像一只灵活的鸟儿在宇宙中穿梭。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The space shuttle orbited the Earth for several days.
+  </text>
+  <text x="50" y="310" class="content">
+    航天飞机绕地球轨道飞行了几天。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Space shuttle -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,20 150,20 200,100 150,180 50,180 0,100" class="image" />
+    <!-- Flame -->
+    <polyline points="50,180 30,200 70,200" class="image" />
+    <polyline points="100,180 80,200 120,200" class="image" />
+    <polyline points="150,180 130,200 170,200" class="image" />
+    <!-- Stars -->
+    <circle cx="250" cy="50" r="5" class="image" />
+    <circle cx="300" cy="80" r="5" class="image" />
+    <circle cx="280" cy="120" r="5" class="image" />
+  </g>
+</svg>

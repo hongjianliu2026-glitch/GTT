@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">curvature</text>
+  <text x="50" y="120" class="subtitle">[ˈkɜːrvətʃər] n. 曲率，弯曲</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> curv (弯曲) + -ature (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条笔直的道路突然"弯曲(curv)"成一个巨大的弧形，
+    <tspan x="50" dy="25">这个弧形就是道路的"曲率(curvature)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The curvature of the road made it difficult to see around the bend.
+  </text>
+  <text x="50" y="310" class="content">
+    道路的弯曲使得转弯处难以看清。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Straight road -->
+    <line x1="0" y1="100" x2="200" y2="100" class="image" />
+    <!-- Curved road -->
+    <path d="M200,100 Q300,50 400,100" class="image" />
+    <!-- Arrow indicating curvature -->
+    <path d="M250,80 L270,100 L250,120" class="image" />
+    <text x="280" y="110" class="content">curvature</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .turnip { fill: #F39C12; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">turnip</text>
+  <text x="50" y="120" class="subtitle">[ˈtɜːrnɪp] n. 萝卜</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> turn (转) + -ip (表示“小”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小萝卜(turnip)在地里转来转去，
+    <tspan x="50" dy="25">就像一个小陀螺(turn)在地里旋转。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She added turnips to the soup for extra flavor.
+  </text>
+  <text x="50" y="310" class="content">
+    她在汤里加了萝卜以增加风味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Turnip -->
+    <ellipse cx="100" cy="100" rx="50" ry="30" class="turnip" />
+    <!-- Leaves -->
+    <path d="M 50 70 Q 75 20 100 70 T 150 70" class="image" />
+    <path d="M 75 80 Q 100 30 125 80" class="image" />
+    <!-- Rotating effect -->
+    <circle cx="100" cy="100" r="10" class="image" />
+    <line x1="100" y1="100" x2="100" y2="50" class="image" />
+    <line x1="100" y1="100" x2="150" y2="100" class="image" />
+    <line x1="100" y1="100" x2="50" y2="100" class="image" />
+  </g>
+</svg>

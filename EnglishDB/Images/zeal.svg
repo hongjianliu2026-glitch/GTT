@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #641E16; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #922B21; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">zeal</text>
+  <text x="50" y="120" class="subtitle">[ziːl] n. 热情，热忱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> zeal (源自拉丁语 zelus，意为热情)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人眼中闪烁着"热情(zeal)"，
+    <tspan x="50" dy="25">仿佛火焰在燃烧，驱使他全力以赴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> His zeal for the project was contagious.
+  </text>
+  <text x="50" y="310" class="content">
+    他对这个项目的热情具有感染力。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Flame -->
+    <path d="M 0 100 Q 50 50 100 100 T 200 100" class="image" />
+    <path d="M 50 100 Q 100 50 150 100" class="image" />
+    <path d="M 100 100 Q 150 50 200 100" class="image" />
+    <!-- Eye -->
+    <circle cx="100" cy="100" r="30" class="image" />
+    <circle cx="100" cy="100" r="10" class="image" fill="#A93226" />
+  </g>
+</svg>

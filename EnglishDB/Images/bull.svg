@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bull</text>
+  <text x="50" y="120" class="subtitle">[bʊl] n. 公牛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> bull (公牛)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一头强壮的公牛(bull)在草原上狂奔，
+    <tspan x="50" dy="25">它的力量和气势让人印象深刻。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The bull charged at the matador with great force.
+  </text>
+  <text x="50" y="310" class="content">
+    公牛以极大的力量冲向斗牛士。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Bull head -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <!-- Bull horns -->
+    <line x1="50" y1="50" x2="20" y2="20" class="image" />
+    <line x1="150" y1="50" x2="180" y2="20" class="image" />
+    <!-- Bull eyes -->
+    <circle cx="80" cy="90" r="5" class="image" />
+    <circle cx="120" cy="90" r="5" class="image" />
+    <!-- Bull body -->
+    <rect x="70" y="150" width="60" height="100" class="image" />
+    <!-- Bull legs -->
+    <line x1="80" y1="250" x2="80" y2="300" class="image" />
+    <line x1="100" y1="250" x2="100" y2="300" class="image" />
+    <line x1="120" y1="250" x2="120" y2="300" class="image" />
+    <line x1="140" y1="250" x2="140" y2="300" class="image" />
+  </g>
+</svg>

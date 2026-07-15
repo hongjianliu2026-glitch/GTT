@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">patriarch</text>
+  <text x="50" y="120" class="subtitle">[ˈpeɪtriɑːrk] n. 族长，家长；创始人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> patr (父亲) + iarch (统治者)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个家族的"父亲统治者(patr-iarch)"，
+    <tspan x="50" dy="25">他坐在高高的宝座上，手持权杖，</tspan>
+    <tspan x="50" dy="25">象征着家族的权威和领导。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The patriarch of the family passed down the ancient traditions.
+  </text>
+  <text x="50" y="310" class="content">
+    家族的族长传承了古老的传统。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Throne -->
+    <rect x="50" y="50" width="200" height="150" class="image" />
+    <!-- Patriarch -->
+    <circle cx="150" cy="125" r="20" class="image" />
+    <line x1="150" y1="145" x2="150" y2="200" class="image" />
+    <line x1="150" y1="160" x2="120" y2="180" class="image" />
+    <line x1="150" y1="160" x2="180" y2="180" class="image" />
+    <line x1="150" y1="200" x2="120" y2="230" class="image" />
+    <line x1="150" y1="200" x2="180" y2="230" class="image" />
+    <!-- Scepter -->
+    <line x1="150" y1="125" x2="150" y2="50" class="image" />
+    <circle cx="150" cy="45" r="5" class="image" />
+  </g>
+</svg>

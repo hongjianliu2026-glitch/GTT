@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">shale</text>
+  <text x="50" y="120" class="subtitle">[ʃeɪl] n. 页岩</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> shal- (来自古英语 scealu，意为“壳”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一块巨大的页岩，像是一个古老的“壳(shal-)”，
+    <tspan x="50" dy="25">层层叠叠，记录着地球的历史。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The oil was extracted from the shale deposit.
+  </text>
+  <text x="50" y="310" class="content">
+    石油是从页岩矿床中提取的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Shale layers -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <rect x="20" y="20" width="310" height="160" class="image" />
+    <rect x="40" y="40" width="270" height="120" class="image" />
+    <rect x="60" y="60" width="230" height="80" class="image" />
+    <rect x="80" y="80" width="190" height="40" class="image" />
+  </g>
+</svg>

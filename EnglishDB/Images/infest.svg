@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #8E44AD; }
+      .content { font: 18px sans-serif; fill: #2C3E50; }
+      .highlight { font-weight: bold; fill: #C0392B; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">infest</text>
+  <text x="50" y="120" class="subtitle">[ɪnˈfɛst] v. 侵扰，寄生于</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> in- (进入) + fest (打击)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一群害虫"进入并打击(in-fest)"
+    <tspan x="50" dy="25">你的家园，它们无处不在，侵扰着你的生活。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The kitchen was infested with cockroaches.
+  </text>
+  <text x="50" y="310" class="content">
+    厨房里到处都是蟑螂。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Roof -->
+    <polygon points="175,0 0,100 350,100" class="image" />
+    <!-- Windows -->
+    <rect x="50" y="50" width="50" height="50" class="image" />
+    <rect x="250" y="50" width="50" height="50" class="image" />
+    <!-- Door -->
+    <rect x="150" y="100" width="50" height="100" class="image" />
+    <!-- Cockroaches -->
+    <circle cx="70" cy="70" r="5" class="image" />
+    <circle cx="80" cy="80" r="5" class="image" />
+    <circle cx="90" cy="70" r="5" class="image" />
+    <circle cx="270" cy="70" r="5" class="image" />
+    <circle cx="280" cy="80" r="5" class="image" />
+    <circle cx="290" cy="70" r="5" class="image" />
+  </g>
+</svg>

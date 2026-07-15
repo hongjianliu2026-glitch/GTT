@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">perceive</text>
+  <text x="50" y="120" class="subtitle">[pərˈsiːv] v. 察觉，感知</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> per- (完全) + ceive (抓住)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人用放大镜"完全抓住(per-ceive)"
+    <tspan x="50" dy="25">微小的细节，这些细节被他敏锐地察觉到。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She could perceive a faint smell of perfume.
+  </text>
+  <text x="50" y="310" class="content">
+    她能察觉到一丝淡淡的香水味。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Magnifying glass -->
+    <circle cx="100" cy="100" r="50" class="image" />
+    <line x1="100" y1="100" x2="200" y2="100" class="image" />
+    <!-- Eye -->
+    <circle cx="250" cy="100" r="20" class="image" />
+    <!-- Detail -->
+    <circle cx="150" cy="150" r="5" class="image" />
+    <line x1="150" y1="155" x2="150" y2="170" class="image" />
+    <line x1="150" y1="170" x2="140" y2="180" class="image" />
+    <line x1="150" y1="170" x2="160" y2="180" class="image" />
+  </g>
+</svg>

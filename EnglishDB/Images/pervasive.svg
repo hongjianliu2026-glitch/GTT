@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">pervasive</text>
+  <text x="50" y="120" class="subtitle">[pərˈveɪsɪv] adj. 普遍的，无处不在的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> per- (通过) + vad (走) + -ive (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的网，"通过(per-)"
+    <tspan x="50" dy="25">每个角落，"走(vad)"遍了整个世界，</tspan>
+    <tspan x="50" dy="25">这就是无处不在(pervasive)的画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The smell of smoke was pervasive throughout the building.
+  </text>
+  <text x="50" y="310" class="content">
+    烟味在整个建筑物中无处不在。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large net -->
+    <path d="M0,0 L350,0 L350,200 L0,200 Z" class="image" />
+    <path d="M50,20 L300,20 L300,180 L50,180 Z" class="image" />
+    <path d="M100,40 L250,40 L250,160 L100,160 Z" class="image" />
+    <path d="M150,60 L200,60 L200,140 L150,140 Z" class="image" />
+    <!-- Smaller nets -->
+    <path d="M75,75 L125,75 L125,125 L75,125 Z" class="image" />
+    <path d="M225,75 L275,75 L275,125 L225,125 Z" class="image" />
+    <path d="M150,100 L200,100 L200,150 L150,150 Z" class="image" />
+  </g>
+</svg>

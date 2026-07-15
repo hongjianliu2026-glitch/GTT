@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cross-section</text>
+  <text x="50" y="120" class="subtitle">[ˈkrɔːs ˈsɛkʃən] n. 横截面，剖面</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cross (交叉) + section (部分)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的苹果被"交叉切开(cross-section)"，
+    <tspan x="50" dy="25">露出了内部的结构，这就是它的横截面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The cross-section of the tree revealed its age.
+  </text>
+  <text x="50" y="310" class="content">
+    树的横截面揭示了它的年龄。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Apple outline -->
+    <ellipse cx="200" cy="150" rx="150" ry="100" class="image" />
+    <!-- Cross-section line -->
+    <line x1="50" y1="150" x2="350" y2="150" class="image" />
+    <!-- Cross-section view -->
+    <rect x="100" y="50" width="200" height="200" class="image" />
+    <!-- Seeds inside -->
+    <circle cx="150" cy="100" r="10" class="image" />
+    <circle cx="250" cy="100" r="10" class="image" />
+    <circle cx="200" cy="150" r="10" class="image" />
+  </g>
+</svg>

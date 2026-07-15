@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .blood { fill: #C0392B; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">bloodstream</text>
+  <text x="50" y="120" class="subtitle">[ˈblʌdstriːm] n. 血流</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> blood (血) + stream (流)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象血液像一条红色的河流(blood-stream)，
+    <tspan x="50" dy="25">在身体里奔流不息，输送着生命的能量。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The medication was injected directly into the bloodstream.
+  </text>
+  <text x="50" y="310" class="content">
+    药物被直接注射到血流中。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Bloodstream -->
+    <path d="M0 0 Q100 50 200 0 T400 0" class="image blood" />
+    <!-- Heart -->
+    <circle cx="50" cy="50" r="30" class="image" />
+    <!-- Arteries -->
+    <line x1="80" y1="50" x2="150" y2="50" class="image" />
+    <line x1="150" y1="50" x2="200" y2="20" class="image" />
+    <line x1="150" y1="50" x2="200" y2="80" class="image" />
+    <!-- Blood cells -->
+    <circle cx="100" cy="50" r="5" class="blood" />
+    <circle cx="120" cy="50" r="5" class="blood" />
+    <circle cx="140" cy="50" r="5" class="blood" />
+  </g>
+</svg>

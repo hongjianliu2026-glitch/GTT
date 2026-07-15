@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">fold</text>
+  <text x="50" y="120" class="subtitle">[foʊld] v. 折叠，包；n. 折痕，褶皱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> fol (fold)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一张纸被"折叠(fold)"成一个小巧的纸飞机，
+    <tspan x="50" dy="25">纸上的折痕清晰可见，这就是fold的生动画面。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She carefully folded the map and put it in her pocket.
+  </text>
+  <text x="50" y="310" class="content">
+    她小心地把地图折叠起来，放进口袋里。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="300" height="200" class="image" />
+    <!-- Fold line -->
+    <line x1="50" y1="100" x2="250" y2="100" class="image" />
+    <!-- Paper folding -->
+    <polygon points="50,100 150,0 250,100" class="image" />
+    <polygon points="50,100 150,200 250,100" class="image" />
+  </g>
+</svg>

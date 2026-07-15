@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unrecognizable</text>
+  <text x="50" y="120" class="subtitle">[ˌʌnrɪˈkɒɡnɪzəbl] adj. 无法辨认的，难以识别的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + recognize (识别) + -able (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在镜子前，镜子里的自己变得"无法识别(unrecognizable)"，
+    <tspan x="50" dy="25">因为他的脸完全被浓密的胡须和乱糟糟的头发覆盖。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> After a month in the wilderness, he was unrecognizable.
+  </text>
+  <text x="50" y="310" class="content">
+    在荒野中度过一个月后，他变得无法辨认。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Mirror -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="100" r="50" class="image" />
+    <!-- Hair and beard -->
+    <path d="M125,50 Q175,20 225,50 T175,100" class="image" />
+    <path d="M125,100 Q175,150 225,100" class="image" />
+    <path d="M150,100 Q175,120 200,100" class="image" />
+  </g>
+</svg>

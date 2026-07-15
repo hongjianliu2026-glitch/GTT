@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">upsetting</text>
+  <text x="50" y="120" class="subtitle">[ʌpˈsɛtɪŋ] adj. 令人心烦的，令人不安的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> up- (向上) + set (放置) + -ing (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个杯子被"向上放置(up-set)"，结果却"翻倒(upset)"了，
+    <tspan x="50" dy="25">里面的液体洒了出来，这情景让人感到"心烦(upsetting)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The news was very upsetting to her.
+  </text>
+  <text x="50" y="310" class="content">
+    这个消息让她非常心烦。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cup -->
+    <rect x="50" y="20" width="100" height="100" class="image" />
+    <!-- Spilled liquid -->
+    <ellipse cx="100" cy="120" rx="50" ry="20" class="image" />
+    <!-- Upset face -->
+    <circle cx="200" cy="70" r="30" class="image" />
+    <line x1="185" y1="60" x2="215" y2="60" class="image" />
+    <line x1="190" y1="80" x2="210" y2="80" class="image" />
+    <line x1="195" y1="90" x2="205" y2="90" class="image" />
+  </g>
+</svg>

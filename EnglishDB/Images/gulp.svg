@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">gulp</text>
+  <text x="50" y="120" class="subtitle">[ɡʌlp] v. 吞咽，狼吞虎咽；n. 一大口</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> gul (吞) + p (动作完成)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在炎热的夏天，"咕噜(gul)"
+    <tspan x="50" dy="25">一声吞下一大口水，瞬间解渴。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He took a gulp of water after running.
+  </text>
+  <text x="50" y="310" class="content">
+    跑步后他猛喝了一大口水。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Glass of water -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <line x1="20" y1="20" x2="130" y2="20" class="image" />
+    <line x1="20" y1="50" x2="130" y2="50" class="image" />
+    <line x1="20" y1="80" x2="130" y2="80" class="image" />
+    <line x1="20" y1="110" x2="130" y2="110" class="image" />
+    <line x1="20" y1="140" x2="130" y2="140" class="image" />
+    <line x1="20" y1="170" x2="130" y2="170" class="image" />
+    <line x1="20" y1="200" x2="130" y2="200" class="image" />
+    <!-- Person drinking -->
+    <circle cx="200" cy="100" r="30" class="image" />
+    <line x1="200" y1="130" x2="200" y2="200" class="image" />
+    <line x1="200" y1="150" x2="170" y2="180" class="image" />
+    <line x1="200" y1="150" x2="230" y2="180" class="image" />
+    <line x1="200" y1="200" x2="170" y2="230" class="image" />
+    <line x1="200" y1="200" x2="230" y2="230" class="image" />
+    <!-- Water being gulped -->
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="150" y1="90" x2="200" y2="90" class="image" />
+    <line x1="150" y1="80" x2="200" y2="80" class="image" />
+    <line x1="150" y1="70" x2="200" y2="70" class="image" />
+    <line x1="150" y1="60" x2="200" y2="60" class="image" />
+  </g>
+</svg>

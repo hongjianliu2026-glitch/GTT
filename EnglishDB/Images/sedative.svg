@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">sedative</text>
+  <text x="50" y="120" class="subtitle">[ˈsɛdətɪv] n. 镇静剂，安眠药</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> sed- (坐) + -ative (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个疲惫的人，"坐下(sed-)"
+    <tspan x="50" dy="25">并服用镇静剂(sedative)，立刻感到放松和平静。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The doctor prescribed a sedative to help her sleep.
+  </text>
+  <text x="50" y="310" class="content">
+    医生开了镇静剂帮助她入睡。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Chair -->
+    <rect x="0" y="0" width="150" height="150" class="image" />
+    <!-- Person sitting -->
+    <circle cx="75" cy="75" r="20" class="image" />
+    <line x1="75" y1="95" x2="75" y2="130" class="image" />
+    <line x1="75" y1="130" x2="50" y2="150" class="image" />
+    <line x1="75" y1="130" x2="100" y2="150" class="image" />
+    <line x1="75" y1="110" x2="100" y2="100" class="image" />
+    <!-- Pill -->
+    <rect x="200" y="50" width="50" height="20" class="image" />
+    <line x1="200" y1="50" x2="250" y2="50" class="image" />
+    <line x1="200" y1="70" x2="250" y2="70" class="image" />
+    <line x1="200" y1="50" x2="200" y2="70" class="image" />
+    <line x1="250" y1="50" x2="250" y2="70" class="image" />
+  </g>
+</svg>

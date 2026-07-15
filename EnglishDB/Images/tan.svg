@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">tan</text>
+  <text x="50" y="120" class="subtitle">[tæn] n. 棕褐色，晒黑；v. 晒黑</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tan (源自中古英语，意为“棕褐色”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人在沙滩上，阳光下皮肤逐渐变成"棕褐色(tan)"，
+    <tspan x="50" dy="25">就像一块巧克力在阳光下融化。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She got a nice tan during her vacation.
+  </text>
+  <text x="50" y="310" class="content">
+    她在度假期间晒出了漂亮的棕褐色皮肤。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Person -->
+    <circle cx="200" cy="100" r="30" class="image" fill="#D35400" />
+    <!-- Beach -->
+    <rect x="0" y="150" width="350" height="50" class="image" fill="#F39C12" />
+    <!-- Sun rays -->
+    <line x1="100" y1="50" x2="200" y2="100" class="image" />
+    <line x1="100" y1="150" x2="200" y2="100" class="image" />
+    <line x1="50" y1="100" x2="200" y2="100" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+  </g>
+</svg>

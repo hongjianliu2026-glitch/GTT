@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">teddy</text>
+  <text x="50" y="120" class="subtitle">[ˈtɛdi] n. 泰迪熊</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词源:</tspan> 源自美国总统西奥多·罗斯福(Theodore Roosevelt)的昵称Teddy。
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小孩子抱着一只毛茸茸的泰迪熊，"Teddy"
+    <tspan x="50" dy="25">这个名字让人联想到温暖和安慰，就像罗斯福总统一样。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She sleeps with her teddy every night.
+  </text>
+  <text x="50" y="310" class="content">
+    她每晚都抱着她的泰迪熊睡觉。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Teddy bear -->
+    <circle cx="100" cy="100" r="50" class="image" /> <!-- Head -->
+    <ellipse cx="100" cy="160" rx="60" ry="40" class="image" /> <!-- Body -->
+    <line x1="60" y1="160" x2="20" y2="200" class="image" /> <!-- Left arm -->
+    <line x1="140" y1="160" x2="180" y2="200" class="image" /> <!-- Right arm -->
+    <line x1="80" y1="200" x2="60" y2="240" class="image" /> <!-- Left leg -->
+    <line x1="120" y1="200" x2="140" y2="240" class="image" /> <!-- Right leg -->
+    <!-- Child holding the teddy -->
+    <circle cx="250" cy="100" r="20" class="image" /> <!-- Child's head -->
+    <line x1="250" y1="120" x2="250" y2="160" class="image" /> <!-- Child's body -->
+    <line x1="250" y1="140" x2="220" y2="120" class="image" /> <!-- Child's left arm -->
+    <line x1="250" y1="140" x2="280" y2="120" class="image" /> <!-- Child's right arm -->
+    <line x1="250" y1="160" x2="230" y2="200" class="image" /> <!-- Child's left leg -->
+    <line x1="250" y1="160" x2="270" y2="200" class="image" /> <!-- Child's right leg -->
+    <line x1="250" y1="140" x2="100" y2="140" class="image" /> <!-- Child holding teddy -->
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">unheard</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈhɜrd] adj. 未被听到的，未被注意的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (否定) + heard (听到)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个声音在黑暗中呼喊，但没有人听到(un-heard)，
+    <tspan x="50" dy="25">它就像被遗忘在角落的秘密。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Her cries for help went unheard by the passersby.
+  </text>
+  <text x="50" y="310" class="content">
+    她的呼救声被路人忽略了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Dark background -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,100 Q70,50 90,100 T130,100 T170,100 T210,100 T250,100 T290,100 T330,100" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,120 Q70,70 90,120 T130,120 T170,120 T210,120 T250,120 T290,120 T330,120" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,140 Q70,90 90,140 T130,140 T170,140 T210,140 T250,140 T290,140 T330,140" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,160 Q70,110 90,160 T130,160 T170,160 T210,160 T250,160 T290,160 T330,160" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,180 Q70,130 90,180 T130,180 T170,180 T210,180 T250,180 T290,180 T330,180" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,200 Q70,150 90,200 T130,200 T170,200 T210,200 T250,200 T290,200 T330,200" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,220 Q70,170 90,220 T130,220 T170,220 T210,220 T250,220 T290,220 T330,220" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,240 Q70,190 90,240 T130,240 T170,240 T210,240 T250,240 T290,240 T330,240" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,260 Q70,210 90,260 T130,260 T170,260 T210,260 T250,260 T290,260 T330,260" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,280 Q70,230 90,280 T130,280 T170,280 T210,280 T250,280 T290,280 T330,280" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,300 Q70,250 90,300 T130,300 T170,300 T210,300 T250,300 T290,300 T330,300" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,320 Q70,270 90,320 T130,320 T170,320 T210,320 T250,320 T290,320 T330,320" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,340 Q70,290 90,340 T130,340 T170,340 T210,340 T250,340 T290,340 T330,340" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,360 Q70,310 90,360 T130,360 T170,360 T210,360 T250,360 T290,360 T330,360" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,380 Q70,330 90,380 T130,380 T170,380 T210,380 T250,380 T290,380 T330,380" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,400 Q70,350 90,400 T130,400 T170,400 T210,400 T250,400 T290,400 T330,400" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,420 Q70,370 90,420 T130,420 T170,420 T210,420 T250,420 T290,420 T330,420" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,440 Q70,390 90,440 T130,440 T170,440 T210,440 T250,440 T290,440 T330,440" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,460 Q70,410 90,460 T130,460 T170,460 T210,460 T250,460 T290,460 T330,460" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,480 Q70,430 90,480 T130,480 T170,480 T210,480 T250,480 T290,480 T330,480" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,500 Q70,450 90,500 T130,500 T170,500 T210,500 T250,500 T290,500 T330,500" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,520 Q70,470 90,520 T130,520 T170,520 T210,520 T250,520 T290,520 T330,520" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,540 Q70,490 90,540 T130,540 T170,540 T210,540 T250,540 T290,540 T330,540" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,560 Q70,510 90,560 T130,560 T170,560 T210,560 T250,560 T290,560 T330,560" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,580 Q70,530 90,580 T130,580 T170,580 T210,580 T250,580 T290,580 T330,580" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,600 Q70,550 90,600 T130,600 T170,600 T210,600 T250,600 T290,600 T330,600" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,620 Q70,570 90,620 T130,620 T170,620 T210,620 T250,620 T290,620 T330,620" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,640 Q70,590 90,640 T130,640 T170,640 T210,640 T250,640 T290,640 T330,640" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,660 Q70,610 90,660 T130,660 T170,660 T210,660 T250,660 T290,660 T330,660" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,680 Q70,630 90,680 T130,680 T170,680 T210,680 T250,680 T290,680 T330,680" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,700 Q70,650 90,700 T130,700 T170,700 T210,700 T250,700 T290,700 T330,700" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,720 Q70,670 90,720 T130,720 T170,720 T210,720 T250,720 T290,720 T330,720" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,740 Q70,690 90,740 T130,740 T170,740 T210,740 T250,740 T290,740 T330,740" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,760 Q70,710 90,760 T130,760 T170,760 T210,760 T250,760 T290,760 T330,760" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,780 Q70,730 90,780 T130,780 T170,780 T210,780 T250,780 T290,780 T330,780" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,800 Q70,750 90,800 T130,800 T170,800 T210,800 T250,800 T290,800 T330,800" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,820 Q70,770 90,820 T130,820 T170,820 T210,820 T250,820 T290,820 T330,820" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,840 Q70,790 90,840 T130,840 T170,840 T210,840 T250,840 T290,840 T330,840" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,860 Q70,810 90,860 T130,860 T170,860 T210,860 T250,860 T290,860 T330,860" class="image" />
+    <!-- Sound waves -->
+    <path d="M50,880 Q70,830 90,880 T130,880 T170,880 T210,880 T250,880 T290,880 T330,880" class="image" />
+    <!-- Sound waves -->
+    <path d="

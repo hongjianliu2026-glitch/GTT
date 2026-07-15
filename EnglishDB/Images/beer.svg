@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">beer</text>
+  <text x="50" y="120" class="subtitle">[bɪər] n. 啤酒</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> beor (古英语，意为“麦芽酒”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个古老的酿酒师，用大麦(beor)酿造出
+    <tspan x="50" dy="25">美味的啤酒(beer)，人们在欢庆时举杯畅饮。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He ordered a pint of beer at the pub.
+  </text>
+  <text x="50" y="310" class="content">
+    他在酒吧点了一品脱啤酒。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Beer mug -->
+    <rect x="0" y="0" width="150" height="200" class="image" />
+    <rect x="20" y="20" width="110" height="160" class="image" />
+    <rect x="30" y="30" width="90" height="140" class="image" />
+    <rect x="40" y="40" width="70" height="120" class="image" />
+    <rect x="50" y="50" width="50" height="100" class="image" />
+    <rect x="60" y="60" width="30" height="80" class="image" />
+    <rect x="70" y="70" width="10" height="60" class="image" />
+    <!-- Beer foam -->
+    <circle cx="75" cy="75" r="15" class="image" />
+    <circle cx="85" cy="85" r="10" class="image" />
+    <circle cx="95" cy="95" r="5" class="image" />
+  </g>
+</svg>

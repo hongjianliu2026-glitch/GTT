@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">imbalance</text>
+  <text x="50" y="120" class="subtitle">[ɪmˈbæləns] n. 不平衡，失衡</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> im- (不) + balance (平衡)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个跷跷板，一边重一边轻，"不平衡(im-balance)"
+    <tspan x="50" dy="25">的状态让人无法安心玩耍。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The team's performance showed an imbalance between offense and defense.
+  </text>
+  <text x="50" y="310" class="content">
+    球队的表现显示出进攻和防守之间的不平衡。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Seesaw -->
+    <line x1="0" y1="0" x2="350" y2="0" class="image" />
+    <!-- Heavy side -->
+    <rect x="50" y="-20" width="100" height="40" class="image" />
+    <text x="100" y="-30" class="content" text-anchor="middle">重</text>
+    <!-- Light side -->
+    <rect x="200" y="-20" width="50" height="40" class="image" />
+    <text x="225" y="-30" class="content" text-anchor="middle">轻</text>
+    <!-- Support -->
+    <line x1="175" y1="0" x2="175" y2="100" class="image" />
+  </g>
+</svg>

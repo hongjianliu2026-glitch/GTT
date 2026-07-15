@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FCE4EC; }
+      .title { font: bold 48px sans-serif; fill: #C2185B; }
+      .subtitle { font: italic 24px serif; fill: #880E4F; }
+      .content { font: 18px sans-serif; fill: #333333; }
+      .highlight { font-weight: bold; fill: #E91E63; }
+      .story { font: 16px serif; fill: #AD1457; }
+      .image { stroke: #C2185B; stroke-width: 2; fill: none; }
+      .ruby { fill: #E0115F; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">ruby</text>
+  <text x="50" y="120" class="subtitle">[ˈruːbi] n. 红宝石</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> 源自拉丁语 "ruber" (红色)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一颗闪闪发光的红宝石(ruby)，
+    <tspan x="50" dy="25">它的红色(ruber)光芒让人无法移开视线。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She wore a ruby necklace to the party.
+  </text>
+  <text x="50" y="310" class="content">
+    她戴着一条红宝石项链去参加派对。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ruby gemstone -->
+    <circle cx="100" cy="100" r="50" class="ruby" />
+    <!-- Reflection -->
+    <circle cx="120" cy="80" r="10" class="ruby" opacity="0.5" />
+    <circle cx="80" cy="120" r="15" class="ruby" opacity="0.5" />
+    <!-- Stand -->
+    <rect x="85" y="150" width="30" height="20" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">first-round</text>
+  <text x="50" y="120" class="subtitle">[ˈfɜːrst raʊnd] n. 第一轮</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> first (第一) + round (轮)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场激烈的拳击比赛，"第一轮(first-round)"
+    <tspan x="50" dy="25">中，两位拳击手正在奋力拼搏，争夺胜利。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He won the first-round of the competition.
+  </text>
+  <text x="50" y="310" class="content">
+    他在比赛的第一轮中获胜。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Boxing ring -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Boxers -->
+    <circle cx="80" cy="100" r="20" class="image" />
+    <circle cx="270" cy="100" r="20" class="image" />
+    <!-- Gloves -->
+    <rect x="60" y="80" width="40" height="40" class="image" />
+    <rect x="250" y="80" width="40" height="40" class="image" />
+    <!-- Round number -->
+    <text x="175" y="180" class="content" text-anchor="middle" font-size="48">1</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">smack</text>
+  <text x="50" y="120" class="subtitle">[smæk] v. 拍击，掌击；n. 拍击声</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> smac (拍击)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只手猛烈地"拍击(smac)"在桌子上，发出响亮的"啪"声，这就是smack。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> He gave the ball a hard smack.
+  </text>
+  <text x="50" y="310" class="content">
+    他用力拍了一下球。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Hand -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <line x1="50" y1="70" x2="50" y2="120" class="image" />
+    <line x1="50" y1="120" x2="30" y2="150" class="image" />
+    <line x1="50" y1="120" x2="70" y2="150" class="image" />
+    <line x1="50" y1="90" x2="80" y2="80" class="image" />
+    <!-- Table -->
+    <rect x="0" y="150" width="150" height="50" class="image" />
+    <!-- Sound effect -->
+    <text x="100" y="100" class="content" style="font-size: 48px; fill: #C0392B;">啪!</text>
+  </g>
+</svg>

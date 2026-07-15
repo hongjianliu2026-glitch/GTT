@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">third-party</text>
+  <text x="50" y="120" class="subtitle">[ˈθɜːrd ˈpɑːrti] n. 第三方</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> third (第三) + party (方)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个三角形的桌子，三个人围坐，其中一个人是"第三方(third-party)"，
+    <tspan x="50" dy="25">他既不是发起者也不是接收者，而是中间的调解者。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The transaction was facilitated by a third-party payment platform.
+  </text>
+  <text x="50" y="310" class="content">
+    这笔交易是通过第三方支付平台完成的。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Triangle table -->
+    <polygon points="100,20 200,200 0,200" class="image" />
+    <!-- Three people -->
+    <circle cx="100" cy="100" r="15" class="image" />
+    <circle cx="150" cy="150" r="15" class="image" />
+    <circle cx="50" cy="150" r="15" class="image" />
+    <!-- Labels -->
+    <text x="90" y="90" class="content" text-anchor="middle">1st</text>
+    <text x="140" y="140" class="content" text-anchor="middle">2nd</text>
+    <text x="40" y="140" class="content" text-anchor="middle">3rd</text>
+  </g>
+</svg>

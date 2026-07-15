@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">deterioration</text>
+  <text x="50" y="120" class="subtitle">[dɪˌtɪriəˈreɪʃn] n. 恶化，变坏</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> de- (向下) + teri (保持) + -or (名词后缀) + -ation (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个苹果从新鲜到腐烂的过程，"向下保持(de-teri)"
+    <tspan x="50" dy="25">的状态，最终变坏(deterioration)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The deterioration of the patient's condition was alarming.
+  </text>
+  <text x="50" y="310" class="content">
+    病人病情的恶化令人担忧。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Fresh apple -->
+    <circle cx="50" cy="50" r="30" class="image" fill="#8BC34A" />
+    <!-- Rotten apple -->
+    <circle cx="200" cy="50" r="30" class="image" fill="#6D4C41" />
+    <!-- Arrow -->
+    <line x1="100" y1="50" x2="170" y2="50" class="image" />
+    <polygon points="170,40 180,50 170,60" class="image" />
+    <!-- Text labels -->
+    <text x="30" y="100" class="content">新鲜</text>
+    <text x="180" y="100" class="content">腐烂</text>
+  </g>
+</svg>

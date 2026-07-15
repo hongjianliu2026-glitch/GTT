@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">transform</text>
+  <text x="50" y="120" class="subtitle">[trænsˈfɔːrm] v. 改变，转换</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> trans- (跨越) + form (形状)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个物体从一种形状"跨越(trans-)"到另一种形状，
+    <tspan x="50" dy="25">这个过程就是"改变(transform)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The magician transformed the rabbit into a dove.
+  </text>
+  <text x="50" y="310" class="content">
+    魔术师把兔子变成了鸽子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Original shape -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <text x="40" y="110" class="content">Before</text>
+    <!-- Transformed shape -->
+    <rect x="150" y="70" width="60" height="60" class="image" />
+    <text x="140" y="150" class="content">After</text>
+    <!-- Arrow -->
+    <line x1="90" y1="100" x2="140" y2="100" class="image" />
+    <polygon points="140,90 150,100 140,110" class="image" />
+  </g>
+</svg>

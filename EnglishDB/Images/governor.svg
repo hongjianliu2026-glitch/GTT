@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">governor</text>
+  <text x="50" y="120" class="subtitle">[ˈɡʌvərnər] n. 州长，总督，管理者</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> govern (统治) + -or (人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个戴着皇冠的"统治者(govern-or)"，
+    <tspan x="50" dy="25">他手持权杖，坐在宝座上，管理着整个州。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The governor announced new policies to boost the economy.
+  </text>
+  <text x="50" y="310" class="content">
+    州长宣布了新的政策以促进经济发展。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Crown -->
+    <path d="M10 20 L20 0 L30 20 Z" class="image" />
+    <path d="M15 25 L20 10 L25 25 Z" class="image" />
+    <!-- Throne -->
+    <rect x="0" y="30" width="40" height="60" class="image" />
+    <!-- Governor -->
+    <circle cx="20" cy="20" r="15" class="image" />
+    <line x1="20" y1="35" x2="20" y2="90" class="image" />
+    <line x1="20" y1="50" x2="0" y2="70" class="image" />
+    <line x1="20" y1="50" x2="40" y2="70" class="image" />
+    <!-- Scepter -->
+    <line x1="20" y1="90" x2="20" y2="120" class="image" />
+    <circle cx="20" cy="125" r="5" class="image" />
+  </g>
+</svg>

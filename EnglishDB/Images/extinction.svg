@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">extinction</text>
+  <text x="50" y="120" class="subtitle">[ɪkˈstɪŋkʃən] n. 灭绝，消失</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ex- (出) + stinct (站立)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个物种"站立(stinct)"在地球上，但因为某种原因，它们"走出(ex-)"了我们的视野，最终灭绝(extinction)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The extinction of dinosaurs occurred millions of years ago.
+  </text>
+  <text x="50" y="310" class="content">
+    恐龙的灭绝发生在数百万年前。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Earth -->
+    <circle cx="175" cy="100" r="80" class="image" />
+    <!-- Dinosaur -->
+    <rect x="120" y="100" width="110" height="50" class="image" />
+    <line x1="120" y1="100" x2="120" y2="150" class="image" />
+    <line x1="230" y1="100" x2="230" y2="150" class="image" />
+    <line x1="120" y1="150" x2="100" y2="180" class="image" />
+    <line x1="230" y1="150" x2="250" y2="180" class="image" />
+    <!-- Extinction symbol -->
+    <line x1="120" y1="100" x2="230" y2="150" class="image" />
+    <line x1="120" y1="150" x2="230" y2="100" class="image" />
+  </g>
+</svg>

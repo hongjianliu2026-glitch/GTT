@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">snob</text>
+  <text x="50" y="120" class="subtitle">[snɒb] n. 势利小人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> snob (来自拉丁语 "sine nobilitate"，意为“没有贵族身份”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个穿着华丽但内心空虚的人，"没有贵族身份(snob)"，
+    <tspan x="50" dy="25">却总是试图通过外表来显示自己的优越感。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She was always a snob, looking down on others.
+  </text>
+  <text x="50" y="310" class="content">
+    她总是个势利小人，瞧不起别人。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Snob person -->
+    <circle cx="50" cy="100" r="30" class="image" /> <!-- Head -->
+    <line x1="50" y1="130" x2="50" y2="180" class="image" /> <!-- Body -->
+    <line x1="50" y1="150" x2="20" y2="130" class="image" /> <!-- Left arm -->
+    <line x1="50" y1="150" x2="80" y2="130" class="image" /> <!-- Right arm -->
+    <line x1="50" y1="180" x2="30" y2="220" class="image" /> <!-- Left leg -->
+    <line x1="50" y1="180" x2="70" y2="220" class="image" /> <!-- Right leg -->
+    <!-- Fancy clothes -->
+    <rect x="20" y="130" width="60" height="50" class="image" /> <!-- Jacket -->
+    <rect x="40" y="180" width="20" height="40" class="image" /> <!-- Pants -->
+    <!-- Nose in the air -->
+    <line x1="50" y1="100" x2="50" y2="50" class="image" />
+    <line x1="50" y1="50" x2="30" y2="70" class="image" />
+    <line x1="50" y1="50" x2="70" y2="70" class="image" />
+  </g>
+</svg>

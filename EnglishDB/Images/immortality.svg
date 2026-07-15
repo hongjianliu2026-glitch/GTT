@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">immortality</text>
+  <text x="50" y="120" class="subtitle">[ˌɪmɔːrˈtæləti] n. 不朽，永生</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> im- (不) + mort (死) + -ality (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个永生的神，"不死(im-mort)"
+    <tspan x="50" dy="25">在时间的长河中永远存在，这就是不朽(immortality)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The legend of immortality has fascinated humans for centuries.
+  </text>
+  <text x="50" y="310" class="content">
+    永生的传说几个世纪以来一直吸引着人类。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Eternal flame -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#FFD700" />
+    <line x1="100" y1="50" x2="100" y2="150" class="image" />
+    <line x1="75" y1="75" x2="125" y2="125" class="image" />
+    <line x1="75" y1="125" x2="125" y2="75" class="image" />
+    <!-- Eternal figure -->
+    <circle cx="250" cy="100" r="30" class="image" fill="#FFFFFF" />
+    <line x1="250" y1="130" x2="250" y2="180" class="image" />
+    <line x1="250" y1="180" x2="230" y2="210" class="image" />
+    <line x1="250" y1="180" x2="270" y2="210" class="image" />
+    <line x1="250" y1="150" x2="220" y2="140" class="image" />
+    <line x1="250" y1="150" x2="280" y2="140" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">item</text>
+  <text x="50" y="120" class="subtitle">[ˈaɪtəm] n. 项目，物品</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> it- (走) + -em (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个购物清单上，每个"走(it)"过的物品都被标记为一个项目(item)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Please check the list and make sure all items are correct.
+  </text>
+  <text x="50" y="310" class="content">
+    请检查清单，确保所有项目都正确。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Shopping list -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <!-- Items on the list -->
+    <line x1="50" y1="50" x2="300" y2="50" class="image" />
+    <line x1="50" y1="80" x2="300" y2="80" class="image" />
+    <line x1="50" y1="110" x2="300" y2="110" class="image" />
+    <line x1="50" y1="140" x2="300" y2="140" class="image" />
+    <!-- Checkmarks -->
+    <line x1="30" y1="55" x2="40" y2="65" class="image" />
+    <line x1="40" y1="65" x2="50" y2="55" class="image" />
+    <line x1="30" y1="85" x2="40" y2="95" class="image" />
+    <line x1="40" y1="95" x2="50" y2="85" class="image" />
+    <line x1="30" y1="115" x2="40" y2="125" class="image" />
+    <line x1="40" y1="125" x2="50" y2="115" class="image" />
+    <line x1="30" y1="145" x2="40" y2="155" class="image" />
+    <line x1="40" y1="155" x2="50" y2="145" class="image" />
+  </g>
+</svg>

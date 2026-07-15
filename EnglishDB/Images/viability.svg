@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">viability</text>
+  <text x="50" y="120" class="subtitle">[ˌvaɪəˈbɪləti] n. 生存能力，可行性</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> via (路) + -able (能够) + -ity (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一条路(via)，它能够(able)通向成功，这条路的存在就意味着可行性(viability)。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The viability of the project depends on funding.
+  </text>
+  <text x="50" y="310" class="content">
+    项目的可行性取决于资金。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Road -->
+    <line x1="0" y1="100" x2="350" y2="100" class="image" />
+    <line x1="0" y1="120" x2="350" y2="120" class="image" />
+    <line x1="0" y1="140" x2="350" y2="140" class="image" />
+    <!-- Success symbol -->
+    <circle cx="300" cy="120" r="20" class="image" />
+    <line x1="290" y1="110" x2="310" y2="130" class="image" />
+    <line x1="290" y1="130" x2="310" y2="110" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #FDEBD0; }
+      .title { font: bold 48px sans-serif; fill: #D35400; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">havoc</text>
+  <text x="50" y="120" class="subtitle">[ˈhævək] n. 大破坏，混乱</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> hav (破坏) + oc (状态)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一场巨大的"破坏(hav)"风暴席卷而来，
+    <tspan x="50" dy="25">整个城市陷入"混乱(oc)"，这就是havoc。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The storm caused havoc in the city.
+  </text>
+  <text x="50" y="310" class="content">
+    风暴给城市造成了大破坏。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Tornado -->
+    <path d="M0 100 C 50 50, 150 50, 200 100 S 350 150, 400 100" class="image" />
+    <!-- Destroyed buildings -->
+    <rect x="50" y="120" width="30" height="50" class="image" />
+    <rect x="100" y="110" width="30" height="60" class="image" />
+    <rect x="150" y="130" width="30" height="40" class="image" />
+    <rect x="200" y="100" width="30" height="70" class="image" />
+    <!-- Rubble -->
+    <line x1="50" y1="170" x2="230" y2="170" class="image" />
+    <line x1="50" y1="180" x2="230" y2="180" class="image" />
+    <line x1="50" y1="190" x2="230" y2="190" class="image" />
+  </g>
+</svg>

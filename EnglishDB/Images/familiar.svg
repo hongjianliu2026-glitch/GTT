@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">familiar</text>
+  <text x="50" y="120" class="subtitle">[fəˈmɪliər] adj. 熟悉的，常见的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> famili (家庭) + -ar (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个温馨的家庭场景，"家庭(famili)"中的每个成员都"熟悉(familiar)"彼此，
+    <tspan x="50" dy="25">这种熟悉感让人感到安心和舒适。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She felt familiar with the new neighborhood after a few weeks.
+  </text>
+  <text x="50" y="310" class="content">
+    几周后，她对这个新社区感到熟悉了。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- House -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <polygon points="50,180 200,100 350,180" class="image" />
+    <!-- Family members -->
+    <circle cx="100" cy="150" r="15" class="image" />
+    <circle cx="150" cy="150" r="15" class="image" />
+    <circle cx="200" cy="150" r="15" class="image" />
+    <!-- Heart -->
+    <path d="M250,150 C250,130 270,130 270,150 C270,170 250,170 250,150 Z" class="image" />
+  </g>
+</svg>

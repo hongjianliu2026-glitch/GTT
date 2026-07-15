@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">negatively</text>
+  <text x="50" y="120" class="subtitle">[ˈnɛɡətɪvli] adv. 消极地，否定地</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> neg- (否定) + -ative (形容词后缀) + -ly (副词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的红色"X"标志前，"否定(neg-)"
+    <tspan x="50" dy="25">一切，这个画面就是"消极地(negatively)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She responded negatively to the proposal.
+  </text>
+  <text x="50" y="310" class="content">
+    她对提议做出了消极的回应。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Red X -->
+    <line x1="50" y1="20" x2="300" y2="220" class="image" />
+    <line x1="50" y1="220" x2="300" y2="20" class="image" />
+    <!-- Person -->
+    <circle cx="175" cy="120" r="20" class="image" />
+    <line x1="175" y1="140" x2="175" y2="180" class="image" />
+    <line x1="175" y1="180" x2="150" y2="210" class="image" />
+    <line x1="175" y1="180" x2="200" y2="210" class="image" />
+    <line x1="175" y1="160" x2="220" y2="150" class="image" />
+  </g>
+</svg>

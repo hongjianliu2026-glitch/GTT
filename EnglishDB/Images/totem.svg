@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">totem</text>
+  <text x="50" y="120" class="subtitle">[ˈtoʊtəm] n. 图腾</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> tot (表示“家族”) + -em (表示“标记”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个原始部落，每个家族都有一个独特的图腾柱，
+    <tspan x="50" dy="25">柱子上雕刻着象征家族的动物或符号，这就是他们的"家族标记(tot-em)"。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The eagle is the totem of their tribe.
+  </text>
+  <text x="50" y="310" class="content">
+    鹰是他们部落的图腾。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Totem pole -->
+    <rect x="0" y="0" width="100" height="300" class="image" />
+    <!-- Eagle -->
+    <circle cx="50" cy="50" r="20" class="image" />
+    <line x1="50" y1="70" x2="50" y2="120" class="image" />
+    <line x1="50" y1="90" x2="30" y2="100" class="image" />
+    <line x1="50" y1="90" x2="70" y2="100" class="image" />
+    <line x1="50" y1="120" x2="30" y2="150" class="image" />
+    <line x1="50" y1="120" x2="70" y2="150" class="image" />
+    <!-- Symbols -->
+    <circle cx="50" cy="180" r="10" class="image" />
+    <rect x="40" y="210" width="20" height="20" class="image" />
+    <line x1="50" y1="240" x2="50" y2="260" class="image" />
+    <line x1="50" y1="250" x2="30" y2="240" class="image" />
+    <line x1="50" y1="250" x2="70" y2="240" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">cadmium</text>
+  <text x="50" y="120" class="subtitle">[ˈkædmiəm] n. 镉</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> cadm (来自希腊语 kadmeia，意为“镉”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的镉矿石，"镉(cadm)"
+    <tspan x="50" dy="25">闪闪发光，像一颗巨大的宝石，</tspan>
+    <tspan x="50" dy="25">这就是镉(cadmium)的来源。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Cadmium is used in batteries and pigments.
+  </text>
+  <text x="50" y="310" class="content">
+    镉用于电池和颜料中。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Cadmium ore -->
+    <rect x="0" y="0" width="350" height="200" class="image" />
+    <circle cx="175" cy="100" r="80" fill="#C0392B" />
+    <circle cx="175" cy="100" r="70" fill="#E74C3C" />
+    <circle cx="175" cy="100" r="60" fill="#F39C12" />
+    <circle cx="175" cy="100" r="50" fill="#F1C40F" />
+    <circle cx="175" cy="100" r="40" fill="#D35400" />
+    <circle cx="175" cy="100" r="30" fill="#E67E22" />
+    <circle cx="175" cy="100" r="20" fill="#F39C12" />
+    <circle cx="175" cy="100" r="10" fill="#F1C40F" />
+  </g>
+</svg>

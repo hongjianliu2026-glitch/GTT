@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+      .tree { fill: #27AE60; }
+      .ground { fill: #7F8C8D; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">underbrush</text>
+  <text x="50" y="120" class="subtitle">[ˈʌndərbrʌʃ] n. 灌木丛</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> under- (在...下面) + brush (灌木)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一片森林，"在树下(under)"
+    <tspan x="50" dy="25">长满了茂密的"灌木(brush)"，这就是灌木丛(underbrush)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The hiker had to push through the thick underbrush.
+  </text>
+  <text x="50" y="310" class="content">
+    徒步者不得不穿过茂密的灌木丛。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Ground -->
+    <rect x="0" y="150" width="350" height="50" class="ground" />
+    <!-- Trees -->
+    <rect x="50" y="50" width="50" height="100" class="tree" />
+    <rect x="150" y="70" width="50" height="80" class="tree" />
+    <rect x="250" y="60" width="50" height="90" class="tree" />
+    <!-- Underbrush -->
+    <rect x="40" y="130" width="60" height="20" class="image" />
+    <rect x="140" y="120" width="60" height="30" class="image" />
+    <rect x="240" y="110" width="60" height="40" class="image" />
+  </g>
+</svg>

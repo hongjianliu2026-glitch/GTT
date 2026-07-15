@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">dissimilar</text>
+  <text x="50" y="120" class="subtitle">[dɪˈsɪmələr] adj. 不同的，不相似的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> dis- (不) + simil (相似) + -ar (形容词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个完全不同的物体，一个是<tspan x="50" dy="25">火红的太阳，另一个是冰冷的月亮。</tspan>
+    <tspan x="50" dy="25">它们"不相似(dis-simil-ar)"，形成了鲜明的对比。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The two designs are quite dissimilar.
+  </text>
+  <text x="50" y="310" class="content">
+    这两个设计非常不同。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Sun -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#F1C40F" />
+    <!-- Moon -->
+    <circle cx="300" cy="100" r="50" class="image" fill="#ECF0F1" />
+    <!-- Sun rays -->
+    <line x1="100" y1="50" x2="100" y2="20" class="image" />
+    <line x1="100" y1="180" x2="100" y2="230" class="image" />
+    <line x1="50" y1="100" x2="20" y2="100" class="image" />
+    <line x1="150" y1="100" x2="180" y2="100" class="image" />
+    <!-- Moon craters -->
+    <circle cx="280" cy="80" r="5" class="image" fill="#7F8C8D" />
+    <circle cx="320" cy="90" r="5" class="image" fill="#7F8C8D" />
+    <circle cx="290" cy="120" r="5" class="image" fill="#7F8C8D" />
+  </g>
+</svg>

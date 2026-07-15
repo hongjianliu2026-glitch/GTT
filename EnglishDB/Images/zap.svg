@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">zap</text>
+  <text x="50" y="120" class="subtitle">[zæp] v. 迅速移动，快速打击</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> zap (源自拟声词，模拟快速移动的声音)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一道闪电"咔嚓(zap)"一声，迅速击中目标，
+    <tspan x="50" dy="25">这就是"zap"的含义——快速而有力的打击。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The superhero zapped the villain with a powerful beam.
+  </text>
+  <text x="50" y="310" class="content">
+    超级英雄用一道强力光束迅速打击了反派。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Lightning bolt -->
+    <path d="M10 100 L50 50 L90 100 L130 50 L170 100" class="image" />
+    <!-- Target -->
+    <circle cx="200" cy="75" r="20" class="image" />
+    <!-- Explosion -->
+    <circle cx="200" cy="75" r="10" class="image" />
+    <circle cx="210" cy="65" r="10" class="image" />
+    <circle cx="190" cy="65" r="10" class="image" />
+    <circle cx="200" cy="85" r="10" class="image" />
+  </g>
+</svg>

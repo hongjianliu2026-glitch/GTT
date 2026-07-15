@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">uncertainty</text>
+  <text x="50" y="120" class="subtitle">[ʌnˈsɜːrtənti] n. 不确定性，不确知</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> un- (不) + certain (确定的) + -ty (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个人站在一个巨大的问号上，"不确定(un-certain)"
+    <tspan x="50" dy="25">下一步该往哪里走，这种感觉就是不确定性(uncertainty)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The uncertainty of the future made her anxious.
+  </text>
+  <text x="50" y="310" class="content">
+    未来的不确定性让她感到焦虑。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Large question mark -->
+    <path d="M 0 0 Q 50 100 100 0 T 200 0" class="image" />
+    <!-- Person standing on the question mark -->
+    <circle cx="100" cy="50" r="15" class="image" />
+    <line x1="100" y1="65" x2="100" y2="100" class="image" />
+    <line x1="100" y1="100" x2="80" y2="130" class="image" />
+    <line x1="100" y1="100" x2="120" y2="130" class="image" />
+    <line x1="100" y1="80" x2="130" y2="70" class="image" />
+  </g>
+</svg>

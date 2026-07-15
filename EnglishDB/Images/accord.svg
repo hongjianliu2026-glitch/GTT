@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">accord</text>
+  <text x="50" y="120" class="subtitle">[əˈkɔːrd] n. 一致，协议；v. 使一致，给予</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ac- (朝向) + cord (心)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象两个人面对面，"朝向(ac-)"彼此的"心(cord)"，
+    <tspan x="50" dy="25">他们的想法和感受一致，达成了一致(accord)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The two parties finally reached an accord after long negotiations.
+  </text>
+  <text x="50" y="310" class="content">
+    经过长时间的谈判，双方最终达成了一致。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Two people facing each other -->
+    <circle cx="50" cy="100" r="20" class="image" />
+    <circle cx="250" cy="100" r="20" class="image" />
+    <line x1="70" y1="100" x2="230" y2="100" class="image" />
+    <!-- Hearts -->
+    <path d="M80 120 C80 150, 120 150, 120 120" class="image" />
+    <path d="M220 120 C220 150, 180 150, 180 120" class="image" />
+    <!-- Arrows pointing towards each other -->
+    <line x1="120" y1="100" x2="180" y2="100" class="image" />
+    <polygon points="150,80 140,100 160,100" class="image" />
+    <polygon points="150,120 140,100 160,100" class="image" />
+  </g>
+</svg>

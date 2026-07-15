@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">trickle</text>
+  <text x="50" y="120" class="subtitle">[ˈtrɪkəl] v. 滴流，细流；n. 细流</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> trick (小把戏) + le (小)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个小水滴(trick)在玩小把戏(trick)，
+    <tspan x="50" dy="25">慢慢地滴落(trickle)，形成一条细流。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> Water trickled down the window.
+  </text>
+  <text x="50" y="310" class="content">
+    水沿着窗户滴落。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Water droplet -->
+    <circle cx="50" cy="100" r="20" class="image" fill="#3498DB" />
+    <!-- Trickle path -->
+    <path d="M50 120 Q 100 200 150 120" class="image" stroke-width="5" stroke="#3498DB" fill="none" />
+    <!-- Small droplets -->
+    <circle cx="70" cy="140" r="5" class="image" fill="#3498DB" />
+    <circle cx="90" cy="160" r="5" class="image" fill="#3498DB" />
+    <circle cx="110" cy="140" r="5" class="image" fill="#3498DB" />
+    <circle cx="130" cy="120" r="5" class="image" fill="#3498DB" />
+  </g>
+</svg>

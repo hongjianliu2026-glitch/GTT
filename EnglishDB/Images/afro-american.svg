@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">Afro-American</text>
+  <text x="50" y="120" class="subtitle">[ˌæfrəʊəˈmerɪkən] n. 非裔美国人</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> Afro- (非洲) + American (美国人)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个非洲(Afro-)的勇士，跨越海洋，来到美国(American)，
+    <tspan x="50" dy="25">成为了非裔美国人(Afro-American)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The Afro-American community has made significant contributions to American culture.
+  </text>
+  <text x="50" y="310" class="content">
+    非裔美国人对美国文化做出了重大贡献。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- African warrior -->
+    <circle cx="50" cy="100" r="30" class="image" />
+    <line x1="50" y1="130" x2="50" y2="200" class="image" />
+    <line x1="50" y1="160" x2="20" y2="180" class="image" />
+    <line x1="50" y1="160" x2="80" y2="180" class="image" />
+    <line x1="50" y1="200" x2="30" y2="250" class="image" />
+    <line x1="50" y1="200" x2="70" y2="250" class="image" />
+    <!-- Ocean -->
+    <rect x="0" y="250" width="300" height="50" class="image" />
+    <!-- American flag -->
+    <rect x="200" y="100" width="100" height="50" class="image" />
+    <line x1="220" y1="100" x2="220" y2="150" class="image" />
+    <line x1="240" y1="100" x2="240" y2="150" class="image" />
+    <line x1="260" y1="100" x2="260" y2="150" class="image" />
+    <line x1="280" y1="100" x2="280" y2="150" class="image" />
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">multiculturalism</text>
+  <text x="50" y="120" class="subtitle">[ˌmʌltiˈkʌltʃərəlɪzəm] n. 多元文化主义</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> multi- (多) + culture (文化) + -ism (主义)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个五彩斑斓的地球，上面有各种不同的文化符号，
+    <tspan x="50" dy="25">每个符号都代表一种独特的文化，这就是多元文化主义(multiculturalism)。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The city is known for its multiculturalism, with people from all over the world living together.
+  </text>
+  <text x="50" y="310" class="content">
+    这座城市以其多元文化主义而闻名，来自世界各地的人们生活在一起。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Earth -->
+    <circle cx="175" cy="100" r="75" class="image" fill="#3498DB" />
+    <!-- Culture symbols -->
+    <rect x="100" y="50" width="30" height="30" class="image" fill="#F1C40F" />
+    <rect x="200" y="50" width="30" height="30" class="image" fill="#E74C3C" />
+    <rect x="150" y="120" width="30" height="30" class="image" fill="#2ECC71" />
+    <rect x="100" y="150" width="30" height="30" class="image" fill="#9B59B6" />
+    <rect x="200" y="150" width="30" height="30" class="image" fill="#E67E22" />
+  </g>
+</svg>

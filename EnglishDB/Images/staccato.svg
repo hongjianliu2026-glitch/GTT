@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #A93226; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">staccato</text>
+  <text x="50" y="120" class="subtitle">[stəˈkɑːtoʊ] adj. 断奏的，断断续续的</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> staccato (源自意大利语，意为“断开”)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个音乐家在演奏时，手指像闪电一样快速地“断开(staccato)”
+    <tspan x="50" dy="25">琴键，发出一连串短促而有力的音符。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The pianist played the piece in a staccato style.
+  </text>
+  <text x="50" y="310" class="content">
+    钢琴家用断奏的方式演奏了这首曲子。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Piano keys -->
+    <rect x="0" y="0" width="350" height="50" class="image" />
+    <rect x="0" y="50" width="350" height="50" class="image" />
+    <rect x="0" y="100" width="350" height="50" class="image" />
+    <!-- Finger tapping -->
+    <circle cx="50" cy="25" r="10" class="image" />
+    <circle cx="100" cy="75" r="10" class="image" />
+    <circle cx="150" cy="125" r="10" class="image" />
+    <circle cx="200" cy="25" r="10" class="image" />
+    <circle cx="250" cy="75" r="10" class="image" />
+    <circle cx="300" cy="125" r="10" class="image" />
+  </g>
+</svg>

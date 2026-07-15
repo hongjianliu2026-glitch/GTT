@@ -1,0 +1,125 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #E8F6F3; }
+      .title { font: bold 48px sans-serif; fill: #16A085; }
+      .subtitle { font: italic 24px serif; fill: #2C3E50; }
+      .content { font: 18px sans-serif; fill: #34495E; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">waterfall</text>
+  <text x="50" y="120" class="subtitle">[ˈwɔːtərfɔːl] n. 瀑布</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> water (水) + fall (落下)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象水从高处"落下(fall)"，形成壮观的"瀑布(waterfall)"。
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The waterfall was so mesmerizing that we spent hours watching it.
+  </text>
+  <text x="50" y="310" class="content">
+    瀑布如此迷人，我们花了几个小时观看它。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,200)">
+    <!-- Waterfall -->
+    <path d="M0 150 Q50 50 100 150 T200 150" class="image" />
+    <path d="M0 170 Q50 70 100 170 T200 170" class="image" />
+    <path d="M0 190 Q50 90 100 190 T200 190" class="image" />
+    <path d="M0 210 Q50 110 100 210 T200 210" class="image" />
+    <path d="M0 230 Q50 130 100 230 T200 230" class="image" />
+    <path d="M0 250 Q50 150 100 250 T200 250" class="image" />
+    <path d="M0 270 Q50 170 100 270 T200 270" class="image" />
+    <path d="M0 290 Q50 190 100 290 T200 290" class="image" />
+    <path d="M0 310 Q50 210 100 310 T200 310" class="image" />
+    <path d="M0 330 Q50 230 100 330 T200 330" class="image" />
+    <path d="M0 350 Q50 250 100 350 T200 350" class="image" />
+    <path d="M0 370 Q50 270 100 370 T200 370" class="image" />
+    <path d="M0 390 Q50 290 100 390 T200 390" class="image" />
+    <path d="M0 410 Q50 310 100 410 T200 410" class="image" />
+    <path d="M0 430 Q50 330 100 430 T200 430" class="image" />
+    <path d="M0 450 Q50 350 100 450 T200 450" class="image" />
+    <path d="M0 470 Q50 370 100 470 T200 470" class="image" />
+    <path d="M0 490 Q50 390 100 490 T200 490" class="image" />
+    <path d="M0 510 Q50 410 100 510 T200 510" class="image" />
+    <path d="M0 530 Q50 430 100 530 T200 530" class="image" />
+    <path d="M0 550 Q50 450 100 550 T200 550" class="image" />
+    <path d="M0 570 Q50 470 100 570 T200 570" class="image" />
+    <path d="M0 590 Q50 490 100 590 T200 590" class="image" />
+    <path d="M0 610 Q50 510 100 610 T200 610" class="image" />
+    <path d="M0 630 Q50 530 100 630 T200 630" class="image" />
+    <path d="M0 650 Q50 550 100 650 T200 650" class="image" />
+    <path d="M0 670 Q50 570 100 670 T200 670" class="image" />
+    <path d="M0 690 Q50 590 100 690 T200 690" class="image" />
+    <path d="M0 710 Q50 610 100 710 T200 710" class="image" />
+    <path d="M0 730 Q50 630 100 730 T200 730" class="image" />
+    <path d="M0 750 Q50 650 100 750 T200 750" class="image" />
+    <path d="M0 770 Q50 670 100 770 T200 770" class="image" />
+    <path d="M0 790 Q50 690 100 790 T200 790" class="image" />
+    <path d="M0 810 Q50 710 100 810 T200 810" class="image" />
+    <path d="M0 830 Q50 730 100 830 T200 830" class="image" />
+    <path d="M0 850 Q50 750 100 850 T200 850" class="image" />
+    <path d="M0 870 Q50 770 100 870 T200 870" class="image" />
+    <path d="M0 890 Q50 790 100 890 T200 890" class="image" />
+    <path d="M0 910 Q50 810 100 910 T200 910" class="image" />
+    <path d="M0 930 Q50 830 100 930 T200 930" class="image" />
+    <path d="M0 950 Q50 850 100 950 T200 950" class="image" />
+    <path d="M0 970 Q50 870 100 970 T200 970" class="image" />
+    <path d="M0 990 Q50 890 100 990 T200 990" class="image" />
+    <path d="M0 1010 Q50 910 100 1010 T200 1010" class="image" />
+    <path d="M0 1030 Q50 930 100 1030 T200 1030" class="image" />
+    <path d="M0 1050 Q50 950 100 1050 T200 1050" class="image" />
+    <path d="M0 1070 Q50 970 100 1070 T200 1070" class="image" />
+    <path d="M0 1090 Q50 990 100 1090 T200 1090" class="image" />
+    <path d="M0 1110 Q50 1010 100 1110 T200 1110" class="image" />
+    <path d="M0 1130 Q50 1030 100 1130 T200 1130" class="image" />
+    <path d="M0 1150 Q50 1050 100 1150 T200 1150" class="image" />
+    <path d="M0 1170 Q50 1070 100 1170 T200 1170" class="image" />
+    <path d="M0 1190 Q50 1090 100 1190 T200 1190" class="image" />
+    <path d="M0 1210 Q50 1110 100 1210 T200 1210" class="image" />
+    <path d="M0 1230 Q50 1130 100 1230 T200 1230" class="image" />
+    <path d="M0 1250 Q50 1150 100 1250 T200 1250" class="image" />
+    <path d="M0 1270 Q50 1170 100 1270 T200 1270" class="image" />
+    <path d="M0 1290 Q50 1190 100 1290 T200 1290" class="image" />
+    <path d="M0 1310 Q50 1210 100 1310 T200 1310" class="image" />
+    <path d="M0 1330 Q50 1230 100 1330 T200 1330" class="image" />
+    <path d="M0 1350 Q50 1250 100 1350 T200 1350" class="image" />
+    <path d="M0 1370 Q50 1270 100 1370 T200 1370" class="image" />
+    <path d="M0 1390 Q50 1290 100 1390 T200 1390" class="image" />
+    <path d="M0 1410 Q50 1310 100 1410 T200 1410" class="image" />
+    <path d="M0 1430 Q50 1330 100 1430 T200 1430" class="image" />
+    <path d="M0 1450 Q50 1350 100 1450 T200 1450" class="image" />
+    <path d="M0 1470 Q50 1370 100 1470 T200 1470" class="image" />
+    <path d="M0 1490 Q50 1390 100 1490 T200 1490" class="image" />
+    <path d="M0 1510 Q50 1410 100 1510 T200 1510" class="image" />
+    <path d="M0 1530 Q50 1430 100 1530 T200 1530" class="image" />
+    <path d="M0 1550 Q50 1450 100 1550 T200 1550" class="image" />
+    <path d="M0 1570 Q50 1470 100 1570 T200 1570" class="image" />
+    <path d="M0 1590 Q50 1490 100 1590 T200 1590" class="image" />
+    <path d="M0 1610 Q50 1510 100 1610 T200 1610" class="image" />
+    <path d="M0 1630 Q50 1530 100 1630 T200 1630" class="image" />
+    <path d="M0 1650 Q50 1550 100 1650 T200 1650" class="image" />
+    <path d="M0 1670 Q50 1570 100 1670 T200 1670" class="image" />
+    <path d="M0 1690 Q50 1590 100 1690 T200 1690" class="image" />
+    <path d="M0 1710 Q50 1610 100 1710 T200 1710" class="image" />
+    <path d="M0 1730 Q50 1630 100 1730 T200 1730" class="image" />
+    <path d="M0 1750 Q50 1650 100 1750 T200 1750" class="image" />
+    <path d="M0 1770 Q50 1670 100 1770 T200 1770" class="image" />
+    <path d="M0 1790 Q50 1690 100 1790 T200

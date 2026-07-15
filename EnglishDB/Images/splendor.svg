@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #8E44AD; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">splendor</text>
+  <text x="50" y="120" class="subtitle">[ˈsplɛndər] n. 光彩，壮丽，辉煌</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> splend (发光) + -or (名词后缀)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一个巨大的宝石在阳光下闪耀，"发光(splend)"
+    <tspan x="50" dy="25">出无比的"光彩(splendor)"，照亮了整个房间。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> The palace was a sight of splendor.
+  </text>
+  <text x="50" y="310" class="content">
+    这座宫殿是一道壮丽的景象。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Shining gem -->
+    <circle cx="100" cy="100" r="50" class="image" fill="#FFD700" />
+    <!-- Sun rays -->
+    <line x1="100" y1="50" x2="100" y2="0" class="image" />
+    <line x1="150" y1="100" x2="200" y2="100" class="image" />
+    <line x1="100" y1="150" x2="100" y2="200" class="image" />
+    <line x1="50" y1="100" x2="0" y2="100" class="image" />
+    <!-- Room -->
+    <rect x="0" y="150" width="200" height="100" class="image" />
+  </g>
+</svg>

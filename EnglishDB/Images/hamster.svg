@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .background { fill: #F9EBEA; }
+      .title { font: bold 48px sans-serif; fill: #C0392B; }
+      .subtitle { font: italic 24px serif; fill: #7B241C; }
+      .content { font: 18px sans-serif; fill: #512E5F; }
+      .highlight { font-weight: bold; fill: #E74C3C; }
+      .story { font: 16px serif; fill: #2980B9; }
+      .image { stroke: #7F8C8D; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" />
+
+  <!-- Title -->
+  <text x="50" y="80" class="title">hamster</text>
+  <text x="50" y="120" class="subtitle">[ˈhæmstər] n. 仓鼠</text>
+
+  <!-- Etymology -->
+  <text x="50" y="170" class="content">
+    <tspan class="highlight">词根:</tspan> ham (家) + ster (动物)
+  </text>
+
+  <!-- Story -->
+  <text x="50" y="210" class="story">
+    想象一只仓鼠(hamster)在家里(ham)跑来跑去，
+    <tspan x="50" dy="25">它的小爪子不停地在轮子上奔跑，就像一个小小的家庭成员。</tspan>
+  </text>
+
+  <!-- Example -->
+  <text x="50" y="280" class="content">
+    <tspan class="highlight">例句:</tspan> She keeps a hamster as a pet.
+  </text>
+  <text x="50" y="310" class="content">
+    她养了一只仓鼠作为宠物。
+  </text>
+
+  <!-- Visual representation -->
+  <g transform="translate(400,320)">
+    <!-- Hamster body -->
+    <circle cx="100" cy="100" r="30" class="image" fill="#F1C40F" />
+    <!-- Hamster head -->
+    <circle cx="100" cy="70" r="20" class="image" fill="#F1C40F" />
+    <!-- Hamster ears -->
+    <circle cx="85" cy="55" r="5" class="image" fill="#F1C40F" />
+    <circle cx="115" cy="55" r="5" class="image" fill="#F1C40F" />
+    <!-- Hamster eyes -->
+    <circle cx="95" cy="65" r="3" class="image" fill="#000" />
+    <circle cx="105" cy="65" r="3" class="image" fill="#000" />
+    <!-- Hamster legs -->
+    <line x1="80" y1="120" x2="80" y2="140" class="image" />
+    <line x1="120" y1="120" x2="120" y2="140" class="image" />
+    <!-- Hamster tail -->
+    <line x1="100" y1="130" x2="100" y2="150" class="image" />
+    <!-- Wheel -->
+    <circle cx="200" cy="100" r="40" class="image" fill="#ECF0F1" />
+    <line x1="160" y1="100" x2="240" y2="100" class="image" />
+    <line x1="200" y1="60" x2="200" y2="140" class="image" />
+    <!-- Hamster running on wheel -->
+    <line x1="190" y1="90" x2="190" y2="110" class="image" />
+    <line x1="210" y1="90" x2="210" y2="110" class="image" />
+  </g>
+</svg>
